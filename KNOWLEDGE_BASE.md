@@ -524,9 +524,52 @@ FISRE = padre en tu idioma
 - Usar "/θ/" (th inglés) si tu idioma no lo tiene
 - Copiar los "falsos amigos" del inglés
 
+**Pero en VELA específicamente:**
+
+VELA tiene un sesgo intencional hacia anglófonos — es EL DISEÑO, no un error.
+
+```
+Regla VELA: El idioma debe ser lo MÁS FÁCIL para anglófonos.
+             Y lo suficientemente simple para que cualquier otro lo aprenda rápido.
+
+Si una palabra es fácil para anglófonos y difícil para hispanos → aún aceptable
+Si una palabra es fácil para TODOS → IDEAL, usarla siempre
+```
+
 **Pregunta constantemente:**
-"¿Por qué mi idioma tiene esta palabra?"
-"¿Mi idioma desarrollaría esta palabra por razones culturales?"
+"¿Un anglófono reconocería esto instantáneamente?"
+"¿Un hispanohablante/chino/coreano puede aprenderlo en 1 semana?"
+
+### Las 5 Reglas del Vocabulario VELA
+
+```
+REGLA 1: Si una palabra latina/internacional es recognoscible para
+         anglófonos Y hispanohablantes → USAR LATÍN
+
+REGLA 2: Si la palabra latina NO es recognoscible para nadie →
+         usar la palabra más simple fonéticamente
+
+REGLA 3: Si palabra inglesa y latina son igualmente válidas →
+         preferir la más corta y simple
+
+REGLA 4: NUNCA elegir una palabra solo porque es "inglesa"
+         NUNCA elegir una palabra solo porque es "latina"
+
+REGLA 5: La identidad de VELA NO es "Esperanto renacido"
+         NI "Inglés con ortografía regular"
+         → Es una lengua moderna, bella y neutral
+```
+
+**Ejemplos:**
+
+| Concepto | English | Latin | VELA | Por qué |
+|-----------|---------|-------|------|---------|
+| familia | famili | familia | **familia** | Latin = recogn. para ambos |
+| mundo | world | mundo | **mundo** | Latin = recogn. para ambos + idéntico español |
+| sol | sun | sol | **sol** | Identical en todos |
+| libro | buk | libro | **libro** | Latin = recogn. para ambos |
+| grande | big | grand | **grand** | Ambos claros → más corta: grand |
+| hablar | tok | vok | **tok** | Ninguno reconoce "vok" → más simple: tok |
 
 ---
 

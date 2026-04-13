@@ -26,9 +26,9 @@ VELA takes from each language what it does best:
 
 > *"What is the most VELA thing to do here?"*
 
-This means: when choosing between competing solutions, always prefer the one that best reflects VELA's founding principles — **simplicity, transparency, beauty, and universality**.
+This means: when choosing between competing solutions, always prefer the one that best reflects VELA's founding principles.
 
-The hierarchy of decision-making:
+### The Hierarchy
 
 ```
 1. SIMPLICITY FIRST
@@ -46,11 +46,46 @@ The hierarchy of decision-making:
    → Pitch accent exists for musicality
    → Word choices follow phonaesthetic principles
 
-4. UNIVERSAL ACCESS
-   → Every sound is learnable by Spanish, English, Mandarin, Arabic speakers
-   → No tonal complexity, no difficult clusters
-   → The most foreign-sounding learner should feel at home in 1 week
+4. ACCESSIBILITY HIERARCHY
+   → The language is designed to be EASIEST for English speakers
+   → AND learnable by anyone else in a short time
+   → This is intentional — English is the global bridge language
+   → Non-anglophones may need slightly more effort — this is acceptable
 ```
+
+### Vocabulary Source Rules
+
+When choosing a word, apply these rules **in order**:
+
+```
+RULE 1: If a Latin/international word is recognizable for BOTH
+        English speakers AND Romance language speakers
+        → USE THE LATIN WORD
+
+RULE 2: If the Latin word is NOT recognizable for either group
+        → Use the English word (or simplest phonetic option)
+
+RULE 3: If English word and Latin word are equally valid
+        → Prefer the shorter, simpler option
+
+RULE 4: NEVER choose a word just because it is "English"
+        NEVER choose a word just because it is "Latin"
+
+RULE 5: VELA's identity is NOT "Esperanto reborn"
+        nor "English with regular spelling"
+        → It is a modern, beautiful, neutral bridge language
+```
+
+### What This Means in Practice
+
+| Situation | Decision |
+|-----------|----------|
+| English and Latin word are both clear | Prefer Latin |
+| English word is clear, Latin is obscure | Use English |
+| Both are unclear or invented | Use shortest/phonetically simplest |
+| Neither works well | Create a new VELA compound |
+
+**The goal:** An anglophone feels at home. A non-anglophone feels welcomed. Nobody feels like they're learning a colonial language.
 
 ```
 I.   Only 5 vowels. Every sound has one letter. Every letter has one sound.
