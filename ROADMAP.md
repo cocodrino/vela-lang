@@ -1,477 +1,389 @@
-# 🗺️ Roadmap — Desarrollo del Lenguaje VELA
+# 🗺️ VELA Development Roadmap
 
-> Roadmap completo para construir VELA desde cero hasta un idioma funcional y documentado.  
-> Cada etapa debe estar terminada y documentada antes de avanzar a la siguiente.
+> Roadmap for building VELA from concept to a complete, speakable language.  
+> Based on `INITIAL_RESEARCH.md` — the foundational design document — and deep research.
 
 ---
 
-## Visión General — 7 Etapas
+## VELA's Fixed Design Decisions
+
+These decisions are **already made** and do not change:
 
 ```
-Etapa 1  → Fonología (2-4 semanas)
-Etapa 2  → Sistema de Escritura (2-3 semanas)
-Etapa 3  → Morfología y Gramática (4-6 semanas)
-Etapa 4  → Sintaxis (2-4 semanas)
-Etapa 5  → Léxico Base — Raíces fundamentales (4-8 semanas)
-Etapa 6  → Léxico Extendido — Derivaciones y compuestos (4-8 semanas)
-Etapa 7  → Textos, Historia y Documentación Completa (ongoing)
-```
-
-**Total estimado:** 6-12 meses de trabajo para un idioma completo de nivel básico-intermedio.
-
----
-
-## Etapa 1 — Fonología
-
-**Objetivo:** Definir TODOS los sonidos del idioma, cómo se combinan, y cómo se pronuncian.
-
-### 1.1 Inventario de Consonantes
-
-**Pasos:**
-- [ ] Elegir qué sonidos tendrá VELA (inventario inicial: 15-30 sonidos)
-- [ ] Documentar cada sonido con símbolo IPA: `[p]`, `[b]`, `[t]`, etc.
-- [ ] Definir qué sonidos NO tendrá (tan importante como los que SÍ)
-- [ ] Escribir reglas de correlación: si existe `/p/` → probablemente `/b/`, `/t/`, `/d/`, `/k/`, `/g/`
-- [ ] Nombrar cada sonido con el nombre del alfabeto de VELA (ej: `/a/` = "alfa", `/b/` = "beta")
-
-**Entregable:** `docs/phonology/phoneme_inventory.md`
-
-### 1.2 Inventario de Vocales
-
-**Pasos:**
-- [ ] Elegir vocales: básicas (a, e, i, o, u) o más complejas (ɨ, y, etc.)
-- [ ] Definir si hay vocales nasales (ã, ẽ, etc.) o no
-- [ ] Definir diptongos y triptongos (cuáles, cómo se forman)
-- [ ] Definir si hay longitud vocálica (vocal corta vs. larga)
-
-**Entregable:** `docs/phonology/vowel_inventory.md`
-
-### 1.3 Fonotáctica — Reglas de Combinación
-
-**Pasos:**
-- [ ] Definir estructura silábica: ¿Cuántas consonantes puede haber juntas?
-  - CV (consonante + vocal) — simple
-  - CVC, CCVC, CVCC — complejas
-- [ ] Definir qué consonantes pueden iniciar sílaba
-- [ ] Definir qué consonantes pueden terminar sílaba
-- [ ] Definir combinaciones prohibidas (nunca aparecen juntas)
-- [ ] Definir si hay diptongos obligatorios o evitables
-
-**Entregable:** `docs/phonology/phonotactics.md`
-
-### 1.4 Prosodia — Acento y Tono
-
-**Pasos:**
-- [ ] Definir tipo de acento: fijo (siempre en X sílaba) o móvil (varía)
-- [ ] Si fijo: ¿en qué sílaba? (1ª, 2ª, penúltima, última)
-- [ ] Definir reglas de alternancia acentual (si el acento cambia en conjugation)
-- [ ] ¿El idioma usa tonos (melodía)? Si sí: cuántos, cuáles, cómo funcionan
-
-**Entregable:** `docs/phonology/prosody.md`
-
-### 1.5 Tests de Consistencia
-
-- [ ] Generar 200+ palabras con las reglas fonológicas
-- [ ] Verificar que ninguna palabra viola las reglas
-- [ ] Ajustar reglas si algo suena artificial o inconsistente
-- [ ] Leer la lista de palabras en voz alta: ¿suena natural?
-
-**Entregable:** `docs/phonology/word_list_sample.md` (lista de prueba)
-
----
-
-## Etapa 2 — Sistema de Escritura
-
-**Objetivo:** Crear un sistema de escritura funcional y documentado para VELA.
-
-### 2.1 Diseño del Alfabeto
-
-**Pasos:**
-- [ ] Contar cuántos grafemas necesitas (igual al número de fonemas + opcionalmente más)
-- [ ] Investigar inspiraciones: Ogham, Rúnico, Ge'ez, Cuneiforme, etc.
-- [ ] Diseñar cada carácter:
-  - Inspiración en qué escritura real
-  - Número de trazos (15-50)
-  - Cómo se distingue de otros caracteres
-- [ ] Definir la categorías de cada grafema (consonante, vocal, modificador)
-- [ ] Crear versión manuscrita (cursiva) de cada carácter
-- [ ] Verificar que no se confunde con números o letras del alfabeto romano
-
-**Entregable:** `docs/writing/alphabet_design.md` +手绘 sketches
-
-### 2.2 Sistema de Vocales en la Escritura
-
-**Pasos:**
-- [ ] Si usas abjad (solo consonantes): cómo se escriben las vocales
-  - Diacríticos (tildes sobre letras)
-  - Letters dedicated (matres dicendi)
-  - Alfabeto completo (vocales como letras independientes)
-- [ ] Definir cómo se marca la nasalización
-- [ ] Definir cómo se marca la longitud vocálica
-
-**Entregable:** `docs/writing/vowel_notation.md`
-
-### 2.3 Convenciones de Escritura
-
-**Pasos:**
-- [ ] Definir dirección: LTR, RTL, o alternativa
-- [ ] Definir puntuación: qué símbolos usas (inventar originales o adaptar)
-- [ ] Definir capitalización (si existe)
-- [ ] Definir cómo se escriben números
-- [ ] Definir spacing (espacios entre palabras: sí/no)
-- [ ] Definir escritura de palabras extranjeras (si aplica)
-
-**Entregable:** `docs/writing/writing_conventions.md`
-
-### 2.4 Fonts y Tipografía (Opcional)
-
-- [ ] Crear o mandar a hacer una font para VELA
-- [ ] Definir versión bold, italic, etc.
-- [ ] Probar en distintos tamaños y contextos
-
-**Entregable:** `fonts/vela-alphabet.ttf` (si se hace)
-
-### 2.5 Práctica de Escritura
-
-- [ ] Escribir 50 palabras a mano en el nuevo alfabeto
-- [ ] Verificar que cada grafema es legible y fácil de escribir
-- [ ] Ajustar 1-2 caracteres problemáticos
-
----
-
-## Etapa 3 — Morfología y Gramática
-
-**Objetivo:** Definir cómo se estructuran las palabras y cómo cambian.
-
-### 3.1 Sistema Morfológico
-
-**Pasos:**
-- [ ] Elegir el tipo de lengua:
-  - ¿Aislante? → palabras simples sin flexión
-  - ¿Aglutinante? → afijos claros y separables
-  - ¿Fusional? → terminaciones que combinan múltiples significados
-  - ¿Mixto? → algunos aspectos aislantes, otros fusionales
-- [ ] Documentar la decisión y justificar por qué refleja la cultura imaginada
-
-**Entregable:** `docs/grammar/morphological_system.md`
-
-### 3.2 Sistema Nominal (Sustantivos)
-
-**Pasos:**
-- [ ] **Número:** ¿Cómo marca plural? ¿dual? ¿paucal?
-  - Sufijo: -s, -im
-  - Reduplicación: palabra-palabra
-  - Cambio interno: foo → fey
-  - Sin marca (aislante)
-- [ ] **Caso:** ¿Cuántos casos tiene?
-  - Mínimo: Nominativo + Acusativo
-  - Promedio: 4-6 casos (N, A, G, D, L, I)
-  - Máximo: 20+ casos (húngaro, finlandés)
-- [ ] **Género:** ¿Tiene género gramatical?
-  - Si sí: cuántos (2, 3, 4+), cómo se marca
-  - Si no: Neutro, o ausencia total
-- [ ] **Artículos:** ¿Tiene? ¿Definido (el) vs. indefinido (un)?
-- [ ] **Clasificación nominal:** ¿Clases de sustantivos que afectan la conjugación?
-
-**Entregable:** `docs/grammar/nominal_system.md`
-
-### 3.3 Sistema Verbal (Verbos)
-
-**Pasos:**
-- [ ] **Tiempo:** ¿Cuántos? ¿Simples o compuestos?
-  - Mínimo: Pasado, Presente, Futuro
-  - Promedio: Agregar Recent Future, Far Past, etc.
-  - Compound tenses: "I have seen" = have + seen (para perfect, progressive)
-- [ ] **Aspecto:** ¿Perfectivo, Imperfectivo, Perfecto, Progresivo?
-- [ ] **Modalidad:**
-  - Realis vs. Irrealis (posibilidade y necesidad)
-  - Imperativo (órdenes)
-  - Optativo (deseos)
-  - Condicional (si... entonces...)
-  - Dubitativo (incertidumbre)
-- [ ] **Voz:** ¿Activo, Pasivo, Medio, Causativo?
-- [ ] **Persona/Número:** ¿Conjugación por persona?
-
-**Entregable:** `docs/grammar/verbal_system.md`
-
-### 3.4 Pronombres
-
-**Pasos:**
-- [ ] Inventario de pronombres: 1ª, 2ª, 3ª persona
-- [ ] Singular, Plural, Dual (si aplica)
-- [ ] ¿Pronombres inclusivos/exclusivos (nosotros=yo+tú vs. yo+otros)?
-- [ ] Pronombres posesivos
-- [ ] Pronombres demostrativos (este/ese/aquel)
-- [ ] Pronombres relativos e interrogativos
-
-**Entregable:** `docs/grammar/pronouns.md`
-
-### 3.5 Adjetivos y Adverbios
-
-**Pasos:**
-- [ ] ¿Los adjetivos se flexionan? ¿Dónde se colocan?
-- [ ] Comparativos y superlativos: cómo se forman
-- [ ] Adverbios: cómo se forman desde adjetivos
-
-### 3.6 Sistema de Numerales
-
-**Pasos:**
-- [ ] Sistema numérico: decimal (10), vigesimal (20), otro
-- [ ] Construir 1-100 en VELA
-- [ ] Construir 100, 1000, 1000000
-- [ ] Números ordinales
-- [ ] Abreviaciones comunes
-
-### 3.7 Preposiciones y Posposiciones
-
-- [ ] ¿Usa preposiciones (antes del nombre) o posposiciones (después)?
-- [ ] Inventario de preposiciones/posposiciones con significado
-
-### 3.8 Conjunciones y Oraciones Compuestas
-
-- [ ] Y, O, PERO, porque, si, que, cuando, etc.
-- [ ] Reglas para oraciones compuestas
-
----
-
-## Etapa 4 — Sintaxis
-
-**Objetivo:** Definir cómo se combinan las palabras en oraciones.
-
-### 4.1 Orden Básico
-
-**Pasos:**
-- [ ] Elegir orden fundamental: SVO, SOV, VSO, VOS, OSV, OVS
-- [ ] Documentar la decisión
-- [ ] Crear 50 oraciones de ejemplo para probar que funciona
-- [ ] Verificar que la sintaxis no requiere reformulaciones absurdas
-
-**Entregable:** `docs/syntax/basic_word_order.md`
-
-### 4.2 Orden en Oraciones Especiales
-
-**Pasos:**
-- [ ] **Preguntas sí/no:** ¿Partícula, inversión, entonación?
-- [ ] **Preguntas con Q-word (qué, quién, cómo):** ¿Orden especial?
-- [ ] **Negación:** ¿Dónde va "no"? ¿Una palabra o más?
-- [ ] **Órdenes/Imperativos:** ¿Orden especial?
-- [ ] **Exclamaciones:** ¿Se marca con partícula o con entonación?
-
-**Entregable:** `docs/syntax/special_sentences.md`
-
-### 4.3 Cláusulas Relativas
-
-- [ ] ¿Cómo se construyen? ¿Con pronombre relativo, partícula, o head-final?
-- [ ] Definir 5 ejemplos de cláusulas relatives
-
-### 4.4 Estilo y Registros
-
-- [ ] ¿Diferencia entre registro formal e informal?
-- [ ] ¿Tú vs. usted equivalents?
-- [ ] ¿Jerga o dialectos sociales?
-
----
-
-## Etapa 5 — Léxico Base
-
-**Objetivo:** Construir las raíces fundamentales del idioma (~200-500 raíces).
-
-### 5.1 Método de Construcción
-
-**Pasos:**
-- [ ] Elegir método principal:
-  - a) Root-and-affix: raíces con prefijos/sufijos productivos
-  - b) Word-compounding: composición de raíces
-  - c) Mixt: ambos
-- [ ] Definir qué tipo de sonido = qué tipo de concepto (sound symbolism)
-- [ ] Crear el mapeo semántico de raíces
-
-**Entregable:** `docs/lexicon/root_method.md`
-
-### 5.2 Léxico de Emergencia (Core Vocabulary)
-
-Empezar con las ~100 palabras más fundamentales:
-
-```
-PRONOMBRES: yo, tú, él/ella/ello, nosotros, vosotros, ellos
-PARENTESCOS: madre, padre, hijo, hermano, hermana, hijo, esposo, esposa
-CUERPO: cabeza, ojo, oreja, nariz, boca, mano, pie, corazón
-ANIMALES: perro, gato, pájaro, pez, caballo, lobo, oso, serpiente
-NATURALEZA: agua, fuego, tierra, aire, sol, luna, estrella, nube, lluvia
-TIEMPO: día, noche, mañana, año, mes, ahora, después, antes
-NÚMEROS: 1-10 mínimo, idealmente 1-100
-VERBOS BÁSICOS: ser, estar, tener, hacer, ir, venir, decir, ver, querer, poder
-CONCEPTOS: grande, pequeño, bueno, malo, nuevo, viejo, caliente, frío, bonito, feo
-```
-
-### 5.3 Expansión del Léxico
-
-```
-TRANSPORTE: carro, caballo, barco, avión, camino, puente
-ALIMENTOS: pan, carne, verdura, fruta, sal, azúcar, agua, leche
-VESTIMENTA: ropa, camisa, pantalón, zapato, sombrero
-CONSTRUCCIÓN: casa, puerta, ventana, pared, techo, calle
-SOCIEDAD: rey, ciudad, pueblo, guerra, paz, ley
-EMOCIONES: amor, odio, miedo, alegría, tristeza, esperanza
-RELIGIÓN/MITOLOGÍA: (específico del worldbuilding del idioma)
-```
-
-### 5.4 Reglas de Derivación
-
-**Pasos:**
-- [ ] Definir prefijos productivos: ¿cuáles? ¿cuándo se usan?
-- [ ] Definir sufijos produktifivos: -dor, -ción, -mente, etc.
-- [ ] Definir palabras compuestas regulares
-- [ ] Crear 10 ejemplos de cada regla de derivación
-
-**Entregable:** `lexicon/derivational_rules.md`
-
----
-
-## Etapa 6 — Léxico Extendido
-
-**Objetivo:** Expandir a 1000-3000 palabras con derivaciones ricas.
-
-### 6.1 Campos Semánticos Especializados
-
-- [ ] Léxico de emociones finas (no solo "triste" — específico para tipo de tristeza)
-- [ ] Léxico de la cultura del mundo imaginado
-- [ ] Léxico técnico si el worldbuilding lo requiere (magia, tecnología, etc.)
-
-### 6.2 Familias de Palabras
-
-- [ ] Para cada raíz importante: crear 5-10 derivaciones
-- [ ] Verificar que todas las derivaciones respetan fonotáctica
-- [ ] Verificar coherencia semántica
-
-### 6.3 Léxico de Préstamos
-
-- [ ] ¿El idioma toma préstamos de otras lenguas?
-- [ ] Cómo adapta los sonidos extranjeros
-- [ ] ¿Mantiene la ortografía original o la adapta?
-
-### 6.4 Validación del Léxico
-
-- [ ] Traducir un texto estándar (ver Etapa 7) y ver si hay gaps
-- [ ] Rellenar gaps con vocabulario nuevo
-- [ ] Repetir hasta que el texto fluya sin problemas
-
----
-
-## Etapa 7 — Textos, Historia y Documentación
-
-**Objetivo:** El idioma cobra vida con textos reales, historia y documentación completa.
-
-### 7.1 Textos de Prueba
-
-**Pasos:**
-- [ ] Traducir textos de referencia:
-  - La oración "Go forth in peace to love and serve the Lord" (benchmark estándar de conlangs)
-  - El Poema del Destierro (poema fundacional)
-  - 3-5 textos adicionales en el idioma
-- [ ] Documentar cada decisión de traducción
-- [ ] Verificar que la gramática funciona en textos reales
-
-**Entregable:** `texts/`
-  - `vela_first_sentence.md` — Oración benchmark
-  - `vela_poetry.md` — Poemas
-  - `vela_narrative.md` — Narrativa corta
-  - `vela_dialogue.md` — Diálogos
-
-### 7.2 Genealogía (Opcional pero Recomendado)
-
-- [ ] Crear protolengua (si aplica)
-- [ ] Definir cambios fonéticos de protolengua → VELA moderno
-- [ ] Crear 1-2 dialectos con derivaciones propias
-- [ ] Crear historia lingüística (cuándo cambió qué)
-
-**Entregable:** `docs/evolution/genealogy.md`
-
-### 7.3 Gramática de Referencia Completa
-
-- [ ] Consolidar todos los documentos gramaticales en UN documento
-- [ ] Incluye: fonología, escritura, morfología, sintaxis, léxico
-- [ ] Escribir en formato de referencia (no tutorial)
-- [ ] Ejemplos para cada regla
-
-**Entregable:** `docs/vela_reference_grammar.md`
-
-### 7.4 Diccionario
-
-- [ ] Formato: entrada por palabra + pronunciación (IPA) + clase + definición + ejemplos
-- [ ] Incluir derivaciones
-- [ ] Incluir etimología
-
-**Entregable:** `lexicon/vela_dictionary.md`
-
-### 7.5 Materiales de Aprendizaje (Opcional)
-
-- [ ] Guía para aprender VELA desde cero
-- [ ] Lista de vocabulario por tema
-- [ ] Ejercicios de práctica
-- [ ] Respuestas
-
----
-
-## Métricas de Éxito
-
-Al final de cada etapa, verificar:
-
-```
-□ ¿Puedo generar 50 palabras nuevas que respeten todas las reglas?
-□ ¿Puedo traducir oraciones sin ambiguity gramatical?
-□ ¿Las palabras nuevas se sienten "del idioma" y no como traducciones del inglés?
-□ ¿Puedo leer texto en voz alta usando solo las reglas fonológicas?
-□ ¿El idioma tiene suficiente flexibilidad para expresiones imprevistas?
-□ ¿La gramática se siente orgánica, no arbitraria?
-□ ¿Hay gaps obvios que necesiten rellenarse?
+PHONOLOGY:
+  ✅ 5 vowels: a, e, i, o, u (no schwa, no reduced vowels)
+  ✅ 17 consonants: p, t, k, b, d, g, m, n, f, v, s, z, sh, h, l, r, w, y
+  ❌ NO: th, schwa, zh, difficult clusters (str-, spr-, thr-)
+  ✅ Syllable structure: (C)V — every syllable ends in a vowel
+  ✅ Pitch accent (penultimate) — NOT stress — like Japanese/Spanish
+  ✅ Clusters allowed at onset only: st-, sp-, tr-, pr-, bl-, cl-, gr-, fl- etc.
+
+GRAMMAR:
+  ✅ SVO word order
+  ✅ Zero irregular verbs
+  ✅ Present: root + -a | Past: root + -ed | Future: root + -wil
+  ✅ No grammatical gender — "li" = he/she/it
+  ✅ One article: la (the), un (a/an)
+  ✅ Agglutinative morphology
+
+WORD BUILDING:
+  ✅ Roots + affixes = compound words
+  ✅ Every morpheme has one transparent meaning
+  ✅ Categories by ending: -a (verb), -i (noun), -im (adj), -um (adv)
+
+VOCABULARY SOURCE:
+  ✅ Based on English words, phonetically regularised
+  ✅ ~1000 core words as foundation
+  ✅ Fully transparent compounding
 ```
 
 ---
 
-## Orden Recomendado de Trabajo
+## Development Stages
 
 ```
-1. Etapa 1 (Fonología) — COMPLETA
-   ↓
-2. Etapa 2 (Escritura) — mientras escuchas palabras pronunciadas
-   ↓
-3. Etapa 3 (Gramática) — sobre papel, genera paradigmas completos
-   ↓
-4. Etapa 4 (Sintaxis) — testea con 50 oraciones
-   ↓
-5. Etapa 5 (Léxico base) — empieza con core vocabulary
-   ↓
-6. Etapa 4 (Sintaxis) — revisa con vocabulario real
-   ↓
-7. Etapa 3 (Gramática) — ajusta con lo aprendido en etapas 5-6
-   ↓
-8. Etapa 6 (Léxico extendido) — sobre textos reales
-   ↓
-9. Etapa 7 (Textos + Documentación)
-```
-
-**Nota importante:** Las etapas 3-6 no son completamente secuenciales. Volverás a ajustar la gramática mientras construyes el léxico. Esto es normal y esperado.
-
----
-
-## Puntos de Decisión Abiertos para VELA
-
-(Lista a llenar conforme avance el proyecto)
-
-```
-□ Tipo de lengua: ¿Aislante, aglutinante, fusional o mixto?
-□ Orden sintáctico: ¿SVO, SOV, VSO?
-□ Sistema de casos: ¿Cuántos?
-□ Tonos: ¿Sí o no?
-□ Género: ¿Sí o no?
-□ Pronombres: ¿Inclusivo/exclusivo?
-□ Préstamos: ¿Se permiten?
-□ Dialectos: ¿Uno o varios?
-□ Protolengua: ¿Se crea historia?
-□ Familia lingüística: ¿Derivada de otra o aislada?
+Stage 0  → Research & Foundation   ← DONE (INITIAL_RESEARCH.md)
+Stage 1  → Phonology Finalisation    (2-3 weeks)
+Stage 2  → Writing System           (2-4 weeks)
+Stage 3  → Grammar Deepening         (4-6 weeks)
+Stage 4  → Core Lexicon (1000 words) (4-8 weeks)
+Stage 5  → Extended Lexicon         (ongoing)
+Stage 6  → Texts & Documentation   (ongoing)
+Stage 7  → Community & Evolution     (future)
 ```
 
 ---
 
-*Este roadmap fue creado como guía para el desarrollo del lenguaje VELA, basado en The Language Construction Kit (Mark Rosenfelder), recursos de r/conlangs, y mejores prácticas de la comunidad de conlanging.*
+## Stage 0 — Research & Foundation ✅ DONE
+
+**Status:** Complete. `INITIAL_RESEARCH.md` is the source of truth.
+
+**Deliverables:**
+- [x] `INITIAL_RESEARCH.md` — bilingual (ES/EN) foundational design document
+- [x] `docs/research/01-phonology.md` — deep research: sound systems
+- [x] `docs/research/02-writing-systems.md` — script design principles
+- [x] `docs/research/03-semantic-typology.md` — typological foundations
+
+---
+
+## Stage 1 — Phonology Finalisation
+
+**Goal:** Finalise every sound, rule, and pattern of VELA's phonology.
+
+### 1.1 Finalise Consonant Inventory
+- [ ] Confirm 17 consonants are correct and sufficient
+- [ ] Define allophonic rules (how sounds vary in context)
+- [ ] Document each sound with IPA symbol + VELA letter + example words
+
+### 1.2 Finalise Vowel Inventory
+- [ ] Confirm 5 vowels are correct
+- [ ] Define if vowel length exists (long/short distinction)
+- [ ] Define nasalised vowels (ã, ẽ etc.) — YES or NO
+- [ ] Define diphthongs (which, how many)
+
+### 1.3 Phonotactics — The (C)V Rule
+- [ ] Confirm: every syllable ends in a vowel
+- [ ] Document all permitted onset clusters (st-, sp-, tr- etc.)
+- [ ] Document prohibited combinations
+- [ ] Define stress/pitch accent rules precisely:
+  - Penultimate if vowel-final
+  - Ultimate if consonant-final
+  - Exceptions (if any)
+
+### 1.4 Pitch Accent System (VELA's Key Innovation)
+- [ ] Document the pitch contour: penultimate syllable goes HIGH
+- [ ] Define how pitch interacts with phrase-level intonation
+- [ ] Create audio examples of pitch accent vs. stress
+- [ ] Test with speakers of different native languages
+
+### 1.5 Phonological Word List
+- [ ] Generate 500 test words following all rules
+- [ ] Read aloud — does it sound musical and flowing?
+- [ ] Adjust rules if any sound awkward or unnatural
+
+**Deliverable:** `docs/phonology/PHONOLOGY_FINAL.md`
+
+---
+
+## Stage 2 — Writing System
+
+**Goal:** Create a VELA script that is beautiful, original, and functional.
+
+### 2.1 Script Design
+- [ ] Choose script type:
+  - **Option A:** Adapted Latin alphabet (A-Z + accented variants) — easiest to read
+  - **Option B:** Original syllabic script (Hangul-inspired blocks) — most distinctive
+  - **Option C:** Original alphabetic script (Tengwar-inspired) — elegant, distinctive
+- [ ] Research: Cherokee (invented 1820s), Hangul (1446), Zhuyin (1900s)
+- [ ] Design every character (15-50 strokes each, no more)
+- [ ] Ensure each character is visually distinct
+- [ ] Create handwritten/cursive variant
+
+### 2.2 Punctuation and Conventions
+- [ ] Direction: LTR confirmed
+- [ ] Define punctuation marks (invented or adapted?)
+- [ ] Capitalisation rules
+- [ ] Number format
+- [ ] Word spacing (confirmed: spaces between words)
+
+### 2.3 Font Development
+- [ ] Create digital font for the chosen script
+- [ ] Define bold, italic variants
+- [ ] Test at different sizes and contexts
+
+### 2.4 Script Decision Algorithm
+```
+IF script = Latin adaptation:
+  → Every VELA letter = one Latin letter
+  → Special letters: sh (ʃ), ng (ŋ) etc.
+ELIF script = original:
+  → Each consonant gets a unique glyph
+  → Each vowel gets a unique glyph or diacritic
+  → Layout: linear, block, or syllabic?
+```
+
+**Deliverable:** `docs/writing/SCRIPT_DESIGN.md` + font files
+
+---
+
+## Stage 3 — Grammar Deepening
+
+**Goal:** Expand the grammatical system from the initial research into full detail.
+
+### 3.1 Confirm Core Grammar
+Based on `INITIAL_RESEARCH.md`:
+
+```
+SVO word order — CONFIRMED
+Articles: la (the), un (a/an) — CONFIRMED
+Pronouns: mi, yu, li, wi, de — CONFIRMED
+Verbs: root-a (present), root-ed (past), root-wil (future) — CONFIRMED
+No gender — CONFIRMED
+```
+
+### 3.2 Expand TAM (Tense-Aspect-Modality)
+- [ ] **Aspect:** Perfective (-ed), Progressive (-ing / -an?)
+- [ ] **Modality:** Ability (kan), Necessity (mas), Desire (wan)
+- [ ] **Conditional:** if + clause + wud + result
+- [ ] **Subjunctive:** Confirm if needed or if -ed covers it
+
+### 3.3 Pronoun System Deep Dive
+- [ ] Pronouns: mi, yu, li, wi, de — confirm all forms
+- [ ] Possessive: mif, yuf, liz, wef, def — confirm
+- [ ] Reflexive: self + pronoun — as in research?
+- [ ] Demonstratives: dis, dat, dese, dase
+- [ ] Indefinites: som, eni, no, evri
+- [ ] Relatives: who → hu, what → wat, when → wen
+
+### 3.4 Question System
+- [ ] Yes/No questions: verb-first + q particle? (Si-a yu la film?)
+- [ ] Wh-questions: hu, wat, wen, wer, hai, wai, hou
+- [ ] Confirm: all wh-words = English base + phonetic regularisation
+
+### 3.5 Prepositions and Conjunctions
+- [ ] Core prepositions: a (at/to), in, on, from, for, wit (with), from
+- [ ] Conjunctions: and, bot (but), or, so, bikos (because)
+
+### 3.6 Negation
+Based on the research:
+- [ ] no + verb = normal negation: Mi no si la film.
+- [ ] nevr + verb = absolute negation: Li nevr tok.
+- [ ] un- + adjective = antonym prefix: gud → un-gud
+
+### 3.7 Number System
+From the research:
+```
+wan, tu, tri, for, faiv, siks, sevn, eit, nain, ten
+ten-wan = 11 ... ten-nain = 19
+twenti = 20, tu-ten = 20, for-ten-tri = 43
+handrd = 100, zausand = 1000
+```
+
+### 3.8 Time and Calendar
+- [ ] Days of week (already designed in research)
+- [ ] Months (need names)
+- [ ] Time expressions: now, den (then), bifor (before), aft (after)
+
+### 3.9 Passive Voice
+- [ ] Is passive needed? How is it formed?
+  - Option: woz + verb → La buuk woz rit-ed bai mi. (The book was written by me.)
+- [ ] Confirm or decide against
+
+**Deliverable:** `docs/grammar/GRAMMAR_FULL.md`
+
+---
+
+## Stage 4 — Core Lexicon (1000 Words)
+
+**Goal:** Build the foundation vocabulary. Based on `INITIAL_RESEARCH.md`.
+
+### 4.1 The 5 Word Categories (from Research)
+```
+Category     | Suffix  | Example
+Verb (present) | -a   | tok-a
+Verb (past)     | -ed  | liv-ed
+Verb (future)   | -wil | si-wil
+Noun           | -i    | famili
+Adjective      | -im   | belim
+Adverb         | -um   | quick-um
+```
+
+### 4.2 Core Vocabulary Sourcing
+- [ ] Top 1000 English words → VELA phonetic regularisation
+- [ ] Source: already documented in `INITIAL_RESEARCH.md`
+- [ ] Formalise into `lexicon/vela_1000_words.json`
+
+### 4.3 Productive Affix System
+```
+PREFIXES:
+  un-  = negation       → un-gud (bad)
+  re-  = repetition     → re-go (return)
+  pre- = before         → pre-skol (preschool)
+  mis- = error          → mis-tok (misspeak)
+  self-= reflexive      → self-lov (self-love)
+  non- = absence        → non-stop
+  over-= excess         → over-hapi (too happy)
+  under-= deficiency    → under-dev (underdeveloped)
+
+SUFFIXES:
+  -er  = agent          → wotc-er (watcher)
+  -ing = action         → wotc-ing (watching)
+  -li  = adverb         → quick-li (quickly)
+  -nes = abstract noun  → happi-nes (happiness)
+  -ful = full of        → hope-ful
+  -les = without        → hope-les (hopeless)
+  -bl  = capable        → understand-bl (understandable)
+  -ish = resembling     → child-ish
+  -skap= condition     → happi-skap (happiness/condition)
+```
+
+### 4.4 Sound Symbolism System
+Based on research into phonosemantics:
+- [ ] Build systematic sound-meaning associations
+- [ ] Front vowels (i, e) → small, sharp, light
+- [ ] Back vowels (o, u) → large, round, heavy
+- [ ] Nasals (m, n) → continuous, soft
+- [ ] Plosives (p, t, k) → abrupt, sudden
+- [ ] Apply consistently to new word creation
+
+### 4.5 Word List Validation
+- [ ] All 1000 words follow (C)V syllable structure
+- [ ] No forbidden sounds or clusters
+- [ ] All words are pronouncable by speakers of Spanish, English, Mandarin, Arabic
+- [ ] All words pass the "root test" (can be understood from components)
+
+**Deliverable:** `lexicon/vela_1000_words.json`
+
+---
+
+## Stage 5 — Extended Lexicon
+
+**Goal:** Expand vocabulary to cover all topics naturally.
+
+### 5.1 Semantic Fields to Expand
+- [ ] Technology & computing: software, hardware, internet, AI...
+- [ ] Science: biology, chemistry, physics, medicine...
+- [ ] Arts: music, painting, literature, cinema...
+- [ ] Abstract concepts: philosophy, ethics, politics, law...
+- [ ] Emotions (fine distinctions): melancholy, serenity, restlessness...
+- [ ] Religion/spirituality (for VELA's user community)
+- [ ] Food, cooking, clothing, customs
+- [ ] Trades, professions, tools
+
+### 5.2 Loanword Policy
+- [ ] When VELA takes a word from English (or other languages):
+  - Phonetically regularise it: computer → kompiutr
+  - Morphologically adapt it: verb + -a ending
+- [ ] Create native VELA compound for common concepts
+
+### 5.3 Idiom Development
+- [ ] Develop VELA-specific idioms that don't translate from English
+- [ ] These give VELA cultural character:
+  - *"La ston no kan swim"* — literal: the stone cannot swim
+  - Meaning: you can't change your nature
+
+**Deliverable:** `lexicon/vela_extended_words.json`
+
+---
+
+## Stage 6 — Texts & Documentation
+
+**Goal:** VELA exists in the world through real texts.
+
+### 6.1 The Benchmark Text
+The standard test for any conlang — translate:
+
+```
+"Go forth in peace to love and serve the Lord."
+```
+
+In VELA: *「Go-ed fors in pis a lov and serv la Lord.」*
+
+This becomes VELA's signature sentence.
+
+### 6.2 Sample Texts
+- [ ] Write 5 poems in VELA
+- [ ] Write a short story (500-1000 words)
+- [ ] Translate a children's story
+- [ ] Write a short philosophical text
+- [ ] Document each translation decision
+
+### 6.3 The Reference Grammar
+- [ ] Consolidate all grammar decisions into one document
+- [ ] Format: reference manual (not tutorial)
+- [ ] Include paradigms for every word class
+- [ ] Include examples for every rule
+
+### 6.4 The VELA Dictionary
+- [ ] Format: VELA word → IPA pronunciation → category → definition → compound examples
+- [ ] Minimum: 1000 entries
+- [ ] Target: 3000+ entries
+
+**Deliverables:** `texts/`, `docs/vela_reference_grammar.md`, `lexicon/vela_dictionary.md`
+
+---
+
+## Stage 7 — Community & Evolution (Future)
+
+- [ ] Online community of speakers
+- [ ] VELA Wikipedia (one language describing itself)
+- [ ] Literature and music in VELA
+- [ ] Translation challenges
+- [ ] Decide: will VELA evolve with a "Proto-VELA" history?
+
+---
+
+## Priority Task Order
+
+```
+IMMEDIATE NEXT STEPS (this week):
+1. Stage 1.1 → Confirm all 17 consonants + 5 vowels
+2. Stage 1.4 → Document pitch accent rules with audio examples
+3. Stage 2   → Decide script type (Latin or original?)
+4. Stage 3   → Expand the grammar from research into full document
+5. Stage 4   → Formalise the 1000-word list into JSON
+
+NEXT MONTH:
+6. Stage 1   → Phonology complete
+7. Stage 2   → Script design decided + draft characters
+8. Stage 4   → Core lexicon finalised
+```
+
+---
+
+## Open Design Questions (to resolve)
+
+```
+□ SCRIPT: Latin adaptation or original script?
+□ VOWEL LENGTH: Does VELA have long/short vowel distinction?
+□ NASAL VOWELS: Does VELA have ã, ẽ etc.?
+□ PASSIVE VOICE: Is "woz + verb" the right system?
+□ DIALECTS: Will VELA have official variants?
+□ PRONUNCIATION AUDIO: Who records the first audio samples?
+□ COMMUNITY: Where does the community gather?
+```
+
+---
+
+*Roadmap based on `INITIAL_RESEARCH.md` and deep research.*
+*VELA — for when the world needs to talk.*
