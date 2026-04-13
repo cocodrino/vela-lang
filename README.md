@@ -4,6 +4,32 @@
 
 ---
 
+## 🏛️ The Three Pillars of VELA
+
+**Every design decision in VELA is evaluated against these three pillars:**
+
+```
+╔═══════════════════════════════════════════════════╗
+║                   VELA                           ║
+║          LÓGICO  ·  SIMPLE  ·  BELLO            ║
+║                                                   ║
+║  LÓGICO   → If you know the rules,              ║
+║              you can understand any sentence       ║
+║                                                   ║
+║  SIMPLE   → Zero irregular verbs.                 ║
+║              One suffix = one meaning.            ║
+║              No hidden exceptions.                ║
+║                                                   ║
+║  BELLO    → A language people want to speak,     ║
+║              not just one they have to.           ║
+║              Melodic. Musical. Pleasant.           ║
+╚═══════════════════════════════════════════════════╝
+```
+
+These three words — **lógico, simple, bello** — are the filter through which every VELA design decision passes. Not one of them is optional.
+
+---
+
 ## What is VELA?
 
 **VELA** is an international auxiliary language — designed not as a native tongue, but as a second language that anyone can learn quickly and speak beautifully.
@@ -26,31 +52,32 @@ VELA takes from each language what it does best:
 
 > *"What is the most VELA thing to do here?"*
 
-This means: when choosing between competing solutions, always prefer the one that best reflects VELA's founding principles.
+This means: when choosing between competing solutions, always prefer the one that best reflects VELA's three pillars.
 
 ### The Hierarchy
 
 ```
-1. SIMPLICITY FIRST
+1. LÓGICO (Logical)
+   → Can you explain the rule in one sentence?
+   → Does knowing the rule let you understand any sentence?
+   → Is there a pattern that covers all cases?
+
+2. SIMPLE (Simple)
    → If a preposition can do the job, don't add a suffix
    → If word order can express it, don't add morphology
    → If one rule can cover it, don't add exceptions
+   → One morpheme = one meaning. Always.
 
-2. TRANSPARENCY ALWAYS
-   → Every morpheme has exactly one meaning
-   → No fused endings (one suffix = one function)
-   → You can always understand a word by its parts
-
-3. BEAUTY IS NOT OPTIONAL
+3. BELLO (Beautiful)
    → Phonotactic rules exist for euphony
    → Pitch accent exists for musicality
    → Word choices follow phonaesthetic principles
+   → A language people want to speak, not just have to
 
-4. ACCESSIBILITY HIERARCHY
-   → The language is designed to be EASIEST for English speakers
-   → AND learnable by anyone else in a short time
+4. ACCESSIBILITY
+   → The language is easiest for English speakers
+   → And learnable by anyone else in a short time
    → This is intentional — English is the global bridge language
-   → Non-anglophones may need slightly more effort — this is acceptable
 ```
 
 ### Vocabulary Source Rules
