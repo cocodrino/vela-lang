@@ -85,6 +85,20 @@ RULE 5: VELA's identity is NOT "Esperanto reborn"
 | Both are unclear or invented | Use shortest/phonetically simplest |
 | Neither works well | Create a new VELA compound |
 
+### Compound Over Complex — The Japanese Principle
+
+When a concept can be expressed with two short, simple roots → USE THE COMPOUND.
+
+```
+GOOD:   wotc-man   (you understand it instantly: "man who watches")
+GOOD:   sun-lait   (you understand it instantly: "light from the sun")
+BAD:    polise     (opaque — requires memorization)
+```
+
+**Exceptions:** The 30 most frequent words (mi, yu, li, wi, de, la, un, bi, si, go...) are short and memorized naturally. No need to compound them.
+
+---
+
 **The goal:** An anglophone feels at home. A non-anglophone feels welcomed. Nobody feels like they're learning a colonial language.
 
 ```

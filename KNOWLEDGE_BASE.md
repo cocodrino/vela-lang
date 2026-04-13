@@ -684,4 +684,46 @@ Crear una genealogía te permite:
 
 ---
 
+---
+
+### Principio Japonés — Palabras Compuestas Transparentes
+
+Inspirado en la construcción de palabras del japonés: **si una palabra puede formarse de dos raíces simples y cortas, es MEJOR que una palabra única oscura.**
+
+```
+REGLA: Si puedes expresar un concepto con DOS raíces simples (1-2 sílabas cada una)
+       Y el significado se entiende instantáneamente al verla
+       → USA EL COMPUESTO.
+
+Ejemplos IDEALES:
+  watchman  = wotc-man   → ya sabes qué significa sin buscarlo ✅
+  household = haus-kel  → transparente ✅
+  sunlight  = sun-lait  → transparente ✅
+
+Contra-ejemplos (palabras simples pero opacas):
+  polise    → no hint de lo que significa para un nuevo hablante ⚠️
+  ofis      → solo alguien que sepa VELA entiende
+  student   → requiere memorización completa de memoria ❌
+
+Excepciones válidas:
+  Palabras muy frecuentes ( >5x por día): usar forma corta aunque sea opaca
+    mi, yu, li, wi, de, la, un, bi, si, go, wok, kom, her, fel, luk
+```
+
+**¿Por qué esto importa?**
+- Reduce la carga de memorización global
+- Hace el idioma predecible: "puedo adivinar palabras nuevas"
+- Los compuestos VELA suenan naturales y lógicos
+- Personas encuentran satisfacción en descifrar compuestos
+
+**Límites del principio:**
+- Máximo 2 raíces por defecto en compuesto
+- Máximo 4 sílabas totales en un compuesto
+- Si excede → abreviar o buscar alternativa
+- Orden del compuesto: concepto general primero, modificador después
+  - wotc-man (man que watches) ← correcto
+  - man-wotc ← confuso
+
+**Las excepciones son las palabras de alta frecuencia** (los 20-30 pronombres, verbos y artículos más comunes): estas ya son cortas y se memorizan rápido, no necesitan ser compuestas.
+
 *Esta Knowledge Base fue compilada usando The Language Construction Kit © Mark Rosenfelder (zompist.com), Conlanging 101 (conlang.org), Wikibooks Conlang, y recursos de comunidades de conlangs.*
