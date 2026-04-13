@@ -20,7 +20,37 @@ VELA takes from each language what it does best:
 
 ---
 
-## The 5 Design Pillars of VELA
+## ⚖️ The VELA Decision Framework
+
+**Every design decision in VELA must answer one question first:**
+
+> *"What is the most VELA thing to do here?"*
+
+This means: when choosing between competing solutions, always prefer the one that best reflects VELA's founding principles — **simplicity, transparency, beauty, and universality**.
+
+The hierarchy of decision-making:
+
+```
+1. SIMPLICITY FIRST
+   → If a preposition can do the job, don't add a suffix
+   → If word order can express it, don't add morphology
+   → If one rule can cover it, don't add exceptions
+
+2. TRANSPARENCY ALWAYS
+   → Every morpheme has exactly one meaning
+   → No fused endings (one suffix = one function)
+   → You can always understand a word by its parts
+
+3. BEAUTY IS NOT OPTIONAL
+   → Phonotactic rules exist for euphony
+   → Pitch accent exists for musicality
+   → Word choices follow phonaesthetic principles
+
+4. UNIVERSAL ACCESS
+   → Every sound is learnable by Spanish, English, Mandarin, Arabic speakers
+   → No tonal complexity, no difficult clusters
+   → The most foreign-sounding learner should feel at home in 1 week
+```
 
 ```
 I.   Only 5 vowels. Every sound has one letter. Every letter has one sound.
@@ -138,25 +168,23 @@ Mi no wan a go, bat mi mas.        → I don't want to go, but I must.
 
 ## Language Type
 
-VELA is a **moderately agglutinative** language with:
+VELA is a **moderately agglutinative, minimal-case language**:
 - **SVO word order** (universal and intuitive)
 - **Pitch accent** on the penultimate syllable
 - **No grammatical gender** — "li" = he/she/it
 - **One article** (la = the)
 - **Agglutinative morphology** — prefixes and suffixes are clearly separable
-- **4-Case system** — Nominative, Accusative (-a), Genitive (-de), Locative (-en)
+- **2-Case system** — Genitive (-se), Locative (-te). Nominative and Accusative: determined by word order.
 - **No tones** — pitch accent only, never lexical tone
 
-### The 4 Cases in Action
+### The 2 Cases in Action
 
 | Case | Suffix | Example | Meaning |
 |------|--------|---------|---------|
-| Nominative | — | *Mi* si la film | I see the film |
-| Accusative | **-a** | Yu si la man-**a** | You see the man |
-| Genitive | **-de** | la man-**de** hous | the man's house |
-| Locative | **-en** | Mi liv in la siti-**en** | I live in the city |
+| Genitive | **-se** | la man-**se** sun | the man's house |
+| Locative | **-te** | Mi liv la siti-**te** | I live in the city |
 
-Every suffix is transparent. No case ever fuses. If you know the suffix, you know the function.
+VELA uses the **minimal case system**: only mark what cannot be inferred from word order. Nominative and Accusative are determined by SVO position — no suffix needed. Genitive (-se) and Locative (-te) are the two cases that carry information word order alone cannot provide.
 
 ---
 
