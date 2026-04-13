@@ -161,6 +161,27 @@ Verbs: root-a (present), root-ed (past), root-wil (future) — CONFIRMED
 No gender — CONFIRMED
 ```
 
+### 3.2 Case System — 4 CASES (CONFIRMED)
+
+Based on deep research: VELA adopts a 4-case system for precision without complexity.
+
+| Case | Suffix | Function | Example |
+|------|-------|---------|---------|
+| **Nominative** | (none) | Subject of sentence | *Mi si la film.* — I see the film |
+| **Accusative** | -**a** | Direct object | *Yu si la man-a.* — You see the man |
+| **Genitive** | -**de** | Possession | *la man-de hous* — the man's house |
+| **Locative** | -**en** | Location, time | *la siti-en* — in the city, *la dei-en* — on that day |
+
+**Key insight from research:** All four cases follow the agglutinative principle — transparent suffixes that never fuse. No fusional mess like Spanish ("el→del"). Every suffix is separable and learnable.
+
+- [ ] Confirm case endings: -a (acc), -de (gen), -en (loc)
+- [ ] Test: do all noun forms work with the (C)V syllable rule?
+- [ ] Document: case + plural interaction (e.g. plural accusative)
+- [ ] Prepositions override case: "la man EN la siti" = the man (LOC) in the city
+- [ ] Test 100 sentences with cases — does it feel natural or forced?
+
+**See:** `docs/grammar/03-case-system.md` for full implementation
+
 ### 3.2 Expand TAM (Tense-Aspect-Modality)
 - [ ] **Aspect:** Perfective (-ed), Progressive (-ing / -an?)
 - [ ] **Modality:** Ability (kan), Necessity (mas), Desire (wan)
@@ -374,10 +395,10 @@ NEXT MONTH:
 ## Open Design Questions (to resolve)
 
 ```
-□ SCRIPT: Latin adaptation or original script?
+✅ SCRIPT: Latin adaptation CONFIRMED
 □ VOWEL LENGTH: Does VELA have long/short vowel distinction?
 □ NASAL VOWELS: Does VELA have ã, ẽ etc.?
-□ PASSIVE VOICE: Is "woz + verb" the right system?
+□ CASE SYSTEM: ✅ Nominative + Accusative + Genitive + Locative CONFIRMED (4 cases)
 □ DIALECTS: Will VELA have official variants?
 □ PRONUNCIATION AUDIO: Who records the first audio samples?
 □ COMMUNITY: Where does the community gather?

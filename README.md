@@ -42,6 +42,7 @@ V.   Everything you can deduce, you don't need to memorise.
 - ❌ **Not simplified English** — VELA has its own phonology, grammar, and internal logic
 - ❌ **Not a minimalist language like Toki Pona** — VELA seeks full expressiveness, not radical minimalism
 - ❌ **Not a cultural language** — VELA belongs to everyone and no one
+- ❌ **Not phonetically chaotic** — VELA uses the **adapted Latin alphabet** (A-Z, no exotic script) for maximum accessibility
 
 ---
 
@@ -143,7 +144,19 @@ VELA is a **moderately agglutinative** language with:
 - **No grammatical gender** — "li" = he/she/it
 - **One article** (la = the)
 - **Agglutinative morphology** — prefixes and suffixes are clearly separable
+- **4-Case system** — Nominative, Accusative (-a), Genitive (-de), Locative (-en)
 - **No tones** — pitch accent only, never lexical tone
+
+### The 4 Cases in Action
+
+| Case | Suffix | Example | Meaning |
+|------|--------|---------|---------|
+| Nominative | — | *Mi* si la film | I see the film |
+| Accusative | **-a** | Yu si la man-**a** | You see the man |
+| Genitive | **-de** | la man-**de** hous | the man's house |
+| Locative | **-en** | Mi liv in la siti-**en** | I live in the city |
+
+Every suffix is transparent. No case ever fuses. If you know the suffix, you know the function.
 
 ---
 
