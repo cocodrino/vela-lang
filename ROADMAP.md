@@ -77,24 +77,24 @@ Fase 10 → Comunidad y Evolución
 
 ---
 
-## Fase 2 — Sistema de Escritura
+## Fase 2 — Sistema de Escritura ✅ COMPLETA
 
 **Objetivo:** Crear la versión escrita de VELA. Alfabeto latino adaptado.
 
 ### 📋 Checklist
 
-- [ ] **2.1 Alfabeto confirmado** — 26 letras + sh. Cada sonido = una letra. Una letra = un sonido.
-- [ ] **2.2 Letras especiales** — sh = /ʃ/ confirmado. ¿Alguna otra letra especial? (quizás zh para /ʒ/)
-- [ ] **2.3 Uso de mayúsculas** — Confirmar: solo primera letra de oración = mayúscula
-- [ ] **2.4 Puntuación** — Definir: comma, period, question mark, exclamation. ¿Otros?
-- [ ] **2.5 Dirección de escritura** — LTR confirmado (izquierda a derecha)
-- [ ] **2.6 Espacio entre palabras** — Confirmado: espacios entre palabras
-- [ ] **2.7 Números** — Confirmar: cifras arábigas (1, 2, 3) como en inglés
-- [ ] **2.8 Versión manuscrita** — Dibujar cómo se ve la cursiva de VELA
-- [ ] **2.9 Ortografía fonética vs. morfológica** — ¿Se escribe fonéticamente o se preservan raíces? (decidir: `liv-ed` o `livd`)
-- [ ] **2.10 Práctica de escritura** — Escribir 50 palabras a mano. ¿Legibles? ¿Fáciles?
+- [x] **2.1 Alfabeto confirmado** — 24 letras. Sin c, q, x, ç, ñ, ü. Una letra = un sonido siempre.
+- [x] **2.2 sh = /ʃ/ confirmado** — Solo un digrafo: sh. No hay ch, zh, th, ph.
+- [x] **2.3 Mayúsculas** — Solo primera letra de oración + nombres propios
+- [x] **2.4 Puntuación** — . , ? ! : ; "..." + guiones (-) y raya (—)
+- [x] **2.5 Dirección** — LTR confirmada (izquierda a derecha)
+- [x] **2.6 Espacio entre palabras** — Confirmado: siempre hay espacio
+- [x] **2.7 Números** — Dígitos arábigos (1-9) + palabras: wan, tu, tri... + sistema decimal
+- [x] **2.8 Versión manuscrita** — Guía de cursiva VELA con letras conectadas
+- [x] **2.9 Ortografía morfológica** — Confirmado: guiones entre morfemas (liv-ed, man-se, mor-im)
+- [x] **2.10 Práctica de escritura** — 50+ palabras para práctica, guía de cursive
 
-**Entregable:** `docs/writing/ORTHOGRAPHY.md`
+**Entregable:** ✅ `docs/writing/ORTHOGRAPHY.md`
 
 ---
 
@@ -319,7 +319,7 @@ Fase 10 → Comunidad y Evolución
 ```
 Fase 0  → Investigación                ✅
 Fase 1  → Fonología                    ✅ COMPLETA
-Fase 2  → Sistema de Escritura         ⬜
+Fase 2  → Sistema de Escritura         ✅ COMPLETA
 Fase 3  → Gramática Completa            ⬜
 Fase 4  → Léxico Base (1000)           ⬜
 Fase 5  → Léxico Extendido (3000+)     ⬜
