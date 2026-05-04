@@ -42,7 +42,7 @@ VOCABULARIO:
 
 ```
 Fase 0  → Investigación ✅
-Fase 1  → Fonología Final       ← ACTUAL
+Fase 1  → Fonología Final       ✅ COMPLETA
 Fase 2  → Sistema de Escritura
 Fase 3  → Gramática Completa
 Fase 4  → Léxico Base (1000 palabras)
@@ -153,7 +153,7 @@ Fase 10 → Comunidad y Evolución
 
 ---
 
-## Fase 4 — Léxico Base (1000 palabras)
+## Fase 4 — Léxico Base (1000 palabras) ✅ COMPLETA
 
 **Objetivo:** Construir el vocabulario fundamental. Las palabras más frecuentes del inglés, traducidas y regularizadas fonéticamente.
 
@@ -189,7 +189,7 @@ Fase 10 → Comunidad y Evolución
 
 ---
 
-## Fase 5 — Léxico Extendido (3000+ palabras)
+## Fase 5 — Léxico Extendido (3000+ palabras) ← SIGUIENTE
 
 **Objetivo:** Expandir a todos los campos semánticos importantes.
 
@@ -319,10 +319,10 @@ Fase 10 → Comunidad y Evolución
 ```
 Fase 0  → Investigación                ✅
 Fase 1  → Fonología                    ✅ COMPLETA
-Fase 2  → Sistema de Escritura         ✅ COMPLETA
+Fase 2  → Sistema de Escritura     ✅ COMPLETA
 Fase 3  → Gramática Completa            ✅ COMPLETA
 Fase 4  → Léxico Base (1000)           ⬜
-Fase 5  → Léxico Extendido (3000+)     ⬜
+Fase 5  → Léxico Extendido (3000+)     ⬜ ← SIGUIENTE
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
 Fase 8  → Textos y Muestras             ⬜
