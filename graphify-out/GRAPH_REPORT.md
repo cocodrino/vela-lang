@@ -1,7 +1,7 @@
 # Graph Report - vela-lang  (2026-05-14)
 
 ## Corpus Check
-- 1 files · ~83,642 words
+- 1 files · ~84,559 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary

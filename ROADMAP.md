@@ -1,12 +1,10 @@
-# 🗺️ VELA — Roadmap Completo
-
-> Cada fase debe estar completa antes de avanzar a la siguiente.  
-> Documento base: `INITIAL_RESEARCH.md`  
+> Cada fase debe estar completa antes de avanzar a la siguiente.
+> Documento base: `INITIAL_RESEARCH.md`
 > Principios: **Simplicidad → Transparencia → Belleza → Universalidad**
 
 ---
 
-## Decisiones de Diseño YA Fijadas ⚙️
+## Decisiones de Diseño YA Fijadas
 
 ```
 FONOLOGÍA:
@@ -28,12 +26,22 @@ GRAMÁTICA:
       Nominativo: orden SVO
       Acusativo: orden SVO
       Genitivo: -se  (posesión, origen)
-      Locativo: -te  (ubicación, tiempo)
+      Locativo: -to  (ubicación, tiempo) ← CAMBIADO por consenso (era -te)
+  ✅ Adjetivo = raíz bare (sin sufijo) — ELIMINADO -im por consenso
+  ✅ Posesivos unificados: mi-se, yu-se, li-se, wi-se, de-se (eliminado -f)
+  ✅ Plural + caso: ROOT-CASE-PLURAL (ej: man-se-s)
 
 VOCABULARIO:
-  ✅ Basado en inglés, regularizado fonéticamente
+  ✅ ~150 palabras atómicas máximo (Tier 0: ~50, Tier 1: ~100)
   ✅ Compuestos transparentes: raíces + afijos = palabras nuevas
-  ✅ Categorías por terminación: -a (verbo), -i (sustantivo), -i (adjetivo), -um (adverbio)
+  ✅ Profesiones: sufijo -po (gender-neutral) — CONSENSO 2026-05-13
+  ✅ Números:
+      0-10: atómicos (wan, tu, tri...)
+      11-19: ten-N (ten-wan, ten-tu...)
+      20-90: N-ten (tu-ten, tri-ten...)
+      100: kent (atómico, latín)
+      1000: mil (atómico, latín)
+  ✅ Sistema de deliberación multi-agente con 5 especialistas (véase README)
 ```
 
 ---
@@ -41,276 +49,325 @@ VOCABULARIO:
 ## Resumen de Fases
 
 ```
-Fase 0  → Investigación ✅
-Fase 1  → Fonología Final       ← ACTUAL
-Fase 2  → Sistema de Escritura
-Fase 3  → Gramática Completa
-Fase 4  → Léxico Base (1000 palabras)
-Fase 5  → Léxico Extendido (3000+ palabras)
-Fase 6  → Gramática de Referencia
-Fase 7  → Diccionario
-Fase 8  → Textos y Muestras
-Fase 9  → Audio y Pronunciación Estándar
-Fase 10 → Comunidad y Evolución
+Fase 0  → Investigación                ✅
+Fase 1  → Fonología Final              ✅
+Fase 2  → Sistema de Escritura         ✅
+Fase 3  → Gramática Completa           ✅
+Fase 4  → Léxico Base (~780/1000)      🔄 EN PROGRESO (~78%)
+Fase 5  → Léxico Extendido (3000+)     ⬜
+Fase 6  → Gramática de Referencia      ⬜
+Fase 7  → Diccionario                  ⬜
+Fase 8  → Textos y Muestras            ⬜ 🎯 SIGUIENTE
+Fase 9  → Audio y Pronunciación        ⬜
+Fase 10 → Comunidad y Evolución        ⬜
 ```
 
 ---
 
 ## Fase 1 — Fonología Final ✅ COMPLETA
 
-**Objetivo:** Documentar cada sonido, regla y patrón de VELA. Generar 300+ palabras de prueba. Que suene bien.
+**Entregable:** `docs/phonology/PHONOLOGY_FINAL.md`
 
-### 📋 Checklist
+- [x] 1.1 Inventario de consonantes — 17 fonemas
+- [x] 1.2 Inventario de vocales — 5 vocales, sin schwa
+- [x] 1.3 Reglas alofónicas — /t/→[tʲ], /n/→[ŋ], /r/→[ɾ]
+- [x] 1.4 Estructura silábica — (C)V confirmado
+- [x] 1.5 Pitch accent — penúltima = ALTO
+- [x] 1.6 Palabras prohibidas — NO th, zh, schwa
+- [x] 1.8 Lista de prueba — 300+ palabras
+- [x] 1.9 Ajustes fonológicos — /θ/→/z/, /ð/→/z/, /ʒ/→/jur//jon/
+- [x] 1.10 Test pronunciabilidad — /v/ /z/ /r/ documentados
 
-- [x] **1.1 Inventario de consonantes** — 18 fonemas: p, t, k, b, d, g, m, n, f, v, s, z, sh, h, l, r, w, y
-- [x] **1.2 Inventario de vocales** — 5 vocales: a, e, i, o, u
-- [x] **1.3 Reglas alofónicas** — /t/→[tʲ] ante /i/, /n/→[ŋ] ante /k/, /r/→[ɾ] entre vocales
-- [x] **1.4 Estructura silábica** — Confirmar (C)V. Solo /n/m/l/r/ al final. Clusters: st-, tr-, pr- etc.
-- [x] **1.5 Pitch accent** — Penúltima sílaba = tono ALTO. Melodía, no percusión.
-- [x] **1.6 Tono vs. acento** — Confirmado: NO hay tonos léxicos, solo pitch accent
-- [x] **1.7 Palabras prohibidas** — NO th, zh, schwa, clusters inválidos
-- [x] **1.8 Lista de prueba** — 300+ palabras generadas y verificadas
-- [x] **1.9 Ajuste fonológico** — /θ/→/z/, /ð/→/z/, /ʒ/→/jur//jon/
-- [x] **1.10 Test de pronunciabilidad** — /v/ /z/ /r/ requieren práctica (documentado)
-
-**Entregable:** ✅ `docs/phonology/PHONOLOGY_FINAL.md`
+**Último cambio**: Reforma fonotáctica aplicada — palabras que violaban (C)V fueron corregidas (stop→topi, draw→rava, build→maki, etc.). Véase `vote/docs/CHANGE_LOG.md`.
 
 ---
 
 ## Fase 2 — Sistema de Escritura ✅ COMPLETA
 
-**Objetivo:** Crear la versión escrita de VELA. Alfabeto latino adaptado.
+**Entregable:** `docs/writing/ORTHOGRAPHY.md`
 
-### 📋 Checklist
+- [x] 2.1 Alfabeto confirmado — 24 letras
+- [x] 2.2 sh = /ʃ/ — único digrafo
+- [x] 2.3 Mayúsculas — solo oración + nombres propios
+- [x] 2.4 Puntuación — . , ? ! : ; "..." — raya —
+- [x] 2.5 Dirección LTR
+- [x] 2.7 Números — sistema decimal reformado
+- [x] 2.9 Ortografía morfológica — guiones entre morfemas
 
-- [x] **2.1 Alfabeto confirmado** — 24 letras. Sin c, q, x, ç, ñ, ü. Una letra = un sonido siempre.
-- [x] **2.2 sh = /ʃ/ confirmado** — Solo un digrafo: sh. No hay ch, zh, th, ph.
-- [x] **2.3 Mayúsculas** — Solo primera letra de oración + nombres propios
-- [x] **2.4 Puntuación** — . , ? ! : ; "..." + guiones (-) y raya (—)
-- [x] **2.5 Dirección** — LTR confirmada (izquierda a derecha)
-- [x] **2.6 Espacio entre palabras** — Confirmado: siempre hay espacio
-- [x] **2.7 Números** — Dígitos arábigos (1-9) + palabras: wan, tu, tri... + sistema decimal
-- [x] **2.8 Versión manuscrita** — Guía de cursiva VELA con letras conectadas
-- [x] **2.9 Ortografía morfológica** — Confirmado: guiones entre morfemas (liv-ed, man-se, mor)
-- [x] **2.10 Práctica de escritura** — 50+ palabras para práctica, guía de cursive
-
-**Entregable:** ✅ `docs/writing/ORTHOGRAPHY.md`
+**Último cambio**: Eliminado `-im` de adjetivos. Ahora adjetivo = raíz bare. Comparativos: `mor big`, `mos big`.
 
 ---
 
-## Fase 3 — Gramática Completa
-
-**Objetivo:** Documentar toda la gramática de VELA con ejemplos.
-
-### 📋 Checklist
-
-**3.1 Sustantivos**
-- [ ] Plural: -s confirmado
-- [ ] Casos: NOM (orden), ACC (orden), GEN (-se), LOC (-te)
-- [ ] Artículo: la (the), un (a/an)
-- [ ] Sustantivos常用: terminación -i
-
-**3.2 Verbos**
-- [ ] Presente: raíz + -a
-- [ ] Pasado: raíz + -ed
-- [ ] Futuro: raíz + -wil
-- [ ] Aspecto: ¿perfectivo (-ed) es suficiente o se necesita progresivo (-an)?
-- [ ] Modalidad: kan (poder), mas (deber), wan (querer)
-- [ ] Negación: no + verbo
-- [ ] Preguntas: ¿partícula q? ¿inversión?
-
-**3.3 Pronombres**
-- [ ] Sujetos: mi, yu, li, wi, de
-- [ ] Posesivos: mif, yuf, liz, wef, def
-- [ ] Genitivos: mi-se, yu-se, li-se, wi-se, de-se
-- [ ] Locativos: mi-to, yu-to, li-to, wi-to, de-to
-- [ ] Demostrativos: dis, dat, dese, dase
-- [ ] Indefinidos: som, eni, non, evri
-
-**3.4 Adjetivos**
-- [x] Terminación: bare root (no suffix) — ELIMINADO por consenso
-- [x] Comparativo: mor + adj (bare root) — mor como adverbio independiente
-- [x] Superlativo: mos + adj (bare root) — mos como adverbio independiente
-
-**3.5 Preposiciones**
-- [ ] Core: a (en/hacia), in (dentro), on (sobre), from (desde), for (para), wit (con), to (a)
-- [ ] wit (with): confirmar que no choca con sh
-- [ ] en (in): confirmar que no choca con -en locativo
-
-**3.6 Oraciones**
-- [ ] Orden SVO: confirmado
-- [ ] Preguntas sí/no: ¿verbo primero? ¿partícula q?
-- [ ] Preguntas con wh-: hu, wat, wen, wer, hai, wai, hou
-- [ ] Oraciones compuestas: and, bot, or, so, bikos (because)
-- [ ] Condicionales: if... den... / if... wud...
-
-**3.7 Tiempo y calendario**
-- [ ] Días de la semana: Mondei, Tiuzdei, Wenzdei, Terzdei, Fraidei, Satrdei, Sandei
-- [ ] Meses: nombrar los 12 meses
-- [ ] Expresiones de tiempo: nau (now), den (then), bifor (before), aft (after)
+## Fase 3 — Gramática Completa ✅ COMPLETA
 
 **Entregable:** `docs/grammar/GRAMMAR_COMPLETE.md`
 
+### 3.1 Sustantivos
+- [x] Plural: `-s`
+- [x] Casos: NOM (orden), ACC (orden), GEN (`-se`), LOC (`-to`)
+- [x] Artículo: `la` (the), `un` (a/an)
+
+### 3.2 Verbos
+- [x] Presente: raíz + `-a`
+- [x] Pasado: raíz + `-ed`
+- [x] Futuro: raíz + `-wil`
+- [x] Modalidad: `kan`, `mas`, `wan`
+- [x] Negación: `no` + verbo
+- [x] Preguntas: partícula `q`
+
+### 3.3 Pronombres
+- [x] Sujetos: `mi, yu, li, wi, de`
+- [x] Posesivos: `mi-se, yu-se, li-se, wi-se, de-se`
+- [x] Locativos: `mi-to, yu-to, li-to, wi-to, de-to`
+- [x] Demostrativos: `dis, dat, dese, dase`
+- [x] Indefinidos: `som, eni, non, evri`
+
+### 3.4 Adjetivos
+- [x] Terminación: **raíz bare (sin sufijo)** — `-im` ELIMINADO por consenso
+- [x] Comparativo: `mor` + adj
+- [x] Superlativo: `mos` + adj
+
+### 3.5 Preposiciones
+- [x] Core: `a, in, on, from, for, wit, to`
+
+### 3.6 Oraciones
+- [x] Orden SVO
+- [x] Preguntas sí/no: `q`
+- [x] Preguntas WH: `hu, wat, wen, wer, hai, wai, hou`
+- [x] Conjunciones: `and, bot, or, so, bikos`
+- [x] Condicionales: `if... den...`
+
+### 3.7 Tiempo y calendario
+- [x] Días: Mondei, Tiuzdei, Wenzdei, Terzdei, Fraidei, Satrdei, Sandei
+- [x] Meses: Januari, Februari, Mart, Apri, Mei, Juni, Juli, Ogust, Septembr, Oktobr, Novembr, Desembr
+
+**Últimos cambios por consenso**:
+- Locativo: `-te` → `-to`
+- Posesivos unificados: eliminado sistema dual (`-f` y `-se`), ahora solo `-se`
+- Orden plural+caso: `man-se-s` (ROOT-CASE-PLURAL)
+- Adjetivos sin sufijo: word order distingue atributivo vs predicativo
+
 ---
 
-## Fase 4 — Léxico Base (1000 palabras)
+## Fase 4 — Léxico Base (1000 palabras) 🔄 EN PROGRESO (~78%)
 
-**Objetivo:** Construir el vocabulario fundamental. Las palabras más frecuentes del inglés, traducidas y regularizadas fonéticamente.
+**Entregable:** `docs/lexicon/LEXICON_BASE.md` (~780 palabras documentadas)
 
-### 📋 Checklist
+### Estado actual
 
-**4.1 Palabras frecuentes (Top 500)**
-- [ ] Pronombres y determinantes
-- [ ] Verbos常用 (top 100)
-- [ ] Sustantivos常用 (top 200)
-- [ ] Adjetivos常用 (top 100)
-- [ ] Preposiciones y conjunciones
+- [x] ~780 palabras documentadas con AFI, inglés, ejemplos
+- [x] Validación fonológica: todas terminan en vocal o /n,m,l,r/
+- [x] Sistema de afijos productivos documentado
+- [x] Profesiones: 23 compuestos con `-po` completos
+- [x] Números: sistema decimal completo (0-10 atómicos, 11-99 compuestos, 100=kent, 1000=mil)
+- [x] Tier 0 (~50 palabras atómicas core): completado
+- [x] Tier 1 (~100 palabras atómicas frecuentes): en progreso
+- [ ] Tier 2+ (compuestos): en progreso
 
-**4.2 Sistema de afijos**
-- [ ] Prefijos productivos: un-, re-, pre-, mis-, over-, under-, self-, non-, auto-, semi-, super-, inter-
-- [ ] Sufijos productivos: -er, -ing, -li, -nes, -ful, -les, -bl, -ish, -skap
-- [ ] Probar: generar 20 palabras nuevas con los afijos
+### Checklist pendiente
 
-**4.3 Compuestos básicos**
-- [ ] Compuestos de 2 raíces: hauskel, sunlait, wotcman
-- [ ] Compuestos de 3+ raíces
-- [ ] Verificar: todos los compuestos respetan (C)V
+**4.1 Completar top 500 frecuencias**
+- [ ] Verificar cobertura de Swadesh list (207 conceptos básicos)
+- [ ] Añadir sustantivos abstractos faltantes (time, year, way, day, world, government, problem, fact, education, research, policy, process, market, society, economy, technology, community, quality, organization, analysis, standard, etc.)
 
-**4.4 Validación fonológica**
-- [ ] Todas las 1000 palabras terminan en vocal o líquida (l, r)
-- [ ] Ninguna palabra tiene th, schwa, zh, clusters prohibidos
-- [ ] Leer las 1000 palabras: ¿suenan naturales?
+**4.2 Tecnología básica**
+- [ ] móvil / celular
+- [ ] pantalla
+- [ ] aplicación / app
+- [ ] red / network
+- [ ] contraseña
+- [ ] email / e-letr
+- [ ] wifi
 
-**4.5 Validación semántica**
-- [ ] Cada palabra puede deducirse de sus componentes
-- [ ] Ninguna palabra es traducción directa del inglés sin adaptación
+**4.3 Emociones (Tier 1)**
+- [ ] happy, sad, angry, afraid, surprised, disgusted, trust, anticipation
 
-**Entregable:** `lexicon/vela_1000_words.json`
+**4.4 Colores**
+- [ ] Confirmar lista completa: red, blu, gryn, yelo, orange, purpl, pink, brown, gray, blak, wite
+
+**4.5 Cuerpo humano**
+- [ ] Verificar si faltan partes menores: finger, toe, nail, muscle, bone, blood vessel
+
+**4.6 Validación final**
+- [ ] Script: contar palabras exactas (excluyendo explicaciones)
+- [ ] Confirmar: 0 palabras con th, schwa, zh
+- [ ] Confirmar: todas terminan en vocal o líquida
+- [ ] Confirmar: todos los compuestos son transparentes
+
+**Bloqueado por deliberación futura:**
+- Sistema de emociones finas (Fase 5)
+- Léxico tecnológico extendido (Fase 5)
 
 ---
 
-## Fase 5 — Léxico Extendido (3000+ palabras)
+## Fase 5 — Léxico Extendido (3000+ palabras) ⬜
 
-**Objetivo:** Expandir a todos los campos semánticos importantes.
+**Depende de:** Fase 4 completa + benchmark text funcionando
 
-### 📋 Checklist
+### 5.1 Tecnología y computing
+- [ ] Software: program, code, bug, debug, compile, runtime, API, framework
+- [ ] Hardware: CPU, memory, storage, display, keyboard, mouse, battery, cable
+- [ ] Internet: website, browser, URL, server, client, cloud, upload, download, stream
+- [ ] AI: artificial intelligence, machine learning, neural network, model, training, prompt, LLM
+- [ ] Data: database, query, table, row, column, backup, encryption
 
-**5.1 Tecnología y computing**
-- [ ] Software, hardware, internet, AI, data, cloud, algorithm, network...
+### 5.2 Ciencia
+- [ ] Biología: cell, DNA, evolution, species, ecosystem, adaptation
+- [ ] Química: element, molecule, reaction, acid, base, organic
+- [ ] Física: energy, gravity, quantum, relativity, particle, wave
+- [ ] Astronomía: planet, galaxy, orbit, telescope, constellation
+- [ ] Medicina: diagnosis, symptom, treatment, immunity, vaccine, virus, bacteria
 
-**5.2 Ciencia**
-- [ ] Biología, química, física, medicina, anatomía...
+### 5.3 Artes y cultura
+- [ ] Música: instrument, orchestra, melody, rhythm, composer, concert
+- [ ] Visual: sculpture, photography, gallery, exhibition, portrait, landscape
+- [ ] Literatura: novel, poetry, chapter, verse, metaphor, genre
+- [ ] Cine/TV: director, screenplay, scene, genre
 
-**5.3 Artes y cultura**
-- [ ] Música, pintura, literatura, cine, theater, dance...
+### 5.4 Conceptos abstractos
+- [ ] Filosofía: existence, consciousness, free will, morality, truth, knowledge
+- [ ] Ética: right, wrong, duty, virtue, justice, harm, consent
+- [ ] Política: democracy, freedom, equality, rights, citizenship, governance
+- [ ] Religión: belief, faith, worship, sacred, prayer, soul, spirit
 
-**5.4 Conceptos abstractos**
-- [ ] Filosofía, ética, política, derecho, religión...
-
-**5.5 Emociones (distinciones finas)**
+### 5.5 Emociones (distinciones finas) — REQUIERE DELIBERACIÓN
 - [ ] tristeza vs melancolía vs duelo vs frustración
 - [ ] alegría vs serenidad vs euforia vs satisfacción
 - [ ] miedo vs ansiedad vs preocupación vs pánico
+- [ ] amor vs cariño vs pasión vs devoción
 
-**5.6 Sistema de prêtamos**
+**Nota**: Tema perfecto para deliberación de especialistas (semanticist + aestheticist).
+
+### 5.6 Sistema de préstamos
 - [ ] Regla: adaptar fonéticamente al sistema VELA
-- [ ] Ejemplo: computer → kalkulato
+- [ ] Documentar: ¿cuándo aceptar préstamos? ¿cuándo crear compuestos?
 
-**5.7 Idiomatismos**
+### 5.7 Idiomatismos
 - [ ] Crear 20 expresiones que no existan en inglés
-- [ ] Estas dan carácter cultural a VELA
-
-**Entregable:** `lexicon/vela_extended.json`
+- [ ] Documentar: proceso creativo con deliberación
 
 ---
 
-## Fase 6 — Gramática de Referencia
+## Fase 6 — Gramática de Referencia ⬜
 
-**Objetivo:** Consolidar TODA la gramática en un solo documento de referencia.
+**Objetivo:** Consolidar TODA la gramática en un solo documento de referencia (no tutorial).
 
-### 📋 Checklist
+**Contenido planeado:**
+- [ ] Índice completo con links
+- [ ] Un paradigma por clase de palabra
+- [ ] Un ejemplo por regla
+- [ ] Tablas de referencia rápida
+- [ ] Lista de excepciones atómicas (justificadas)
+- [ ] FAQ gramatical
 
-- [ ] Consolidar fonología, escritura, morfología, sintaxis en un documento
-- [ ] Formato: manual de referencia (no-tutorial)
-- [ ] Un paradigma para cada clase de palabra
-- [ ] Un ejemplo para cada regla
-- [ ] Índice completo
-
-**Entregable:** `docs/vela_reference_grammar.md`
-
----
-
-## Fase 7 — Diccionario
-
-**Objetivo:** Crear el diccionario oficial de VELA.
-
-### 📋 Checklist
-
-- [ ] Formato: palabra VELA → pronunciación IPA → categoría → definición → ejemplos → compuestos
-- [ ] Mínimo: 1000 entradas
-- [ ] Meta: 3000+ entradas
-- [ ] Etymología: de qué raíz deriva cada palabra compuesta
-- [ ] Equivalentes en español e inglés para cada entrada
-
-**Entregable:** `lexicon/vela_dictionary.md`
+**Nota**: GRAMMAR_COMPLETE.md ya existe como boceto. Esta fase es pulirlo a manual de referencia profesional.
 
 ---
 
-## Fase 8 — Textos y Muestras
+## Fase 7 — Diccionario ⬜
 
-**Objetivo:** VELA existe en el mundo a través de textos reales.
+**Objetivo:** Diccionario oficial VELA → IPA → español/inglés.
 
-### 📋 Checklist
+**Formato planeado:**
 
-**8.1 El texto benchmark**
-- [ ] *"Go forth in peace to love and serve the Lord."* en VELA
+| Campo | Descripción |
+|-------|-------------|
+| VELA | palabra |
+| IPA | pronunciación |
+| Categoría | sustantivo, verbo, adjetivo, adverbio |
+| Definición | español + inglés |
+| Etimología | raíz(es) + notas |
+| Compuestos | palabras derivadas |
+| Ejemplo | frase en VELA + traducción |
 
-**8.2 Textos fundacionales**
+**Volumen**: 1000 entradas mínimo, 3000+ meta.
+
+**Herramienta**: Posible script Python para generar desde LEXICON_BASE.md
+
+---
+
+## Fase 8 — Textos y Muestras ⬜ 🎯 MÁXIMA PRIORIDAD DE IMPACTO
+
+### 8.1 Texto benchmark (PRIMERA TAREA)
+
+> "Go forth in peace to love and serve the Lord."
+
+**Decisiones que este texto obliga a resolver:**
+- ¿Cómo se conjuga "serve" en imperativo?
+- ¿"forth" = adverbio locativo? ¿o preposición?
+- ¿"the Lord" = nombre propio con mayúscula? ¿o común reverenciado?
+- ¿"in peace" = locativo `-to` o preposición `in`?
+- ¿"to love" = infinitivo o propósito?
+
+### 8.2 Frases cotidianas (100 frases)
+- [ ] Saludos, despedidas, cortesías
+- [ ] Compras, restaurante, transporte
+- [ ] Emergencias, salud, ayuda
+- [ ] Trabajo, reunión, presentación
+
+### 8.3 Textos fundacionales
 - [ ] 5 poemas originales en VELA
 - [ ] 1 cuento corto (500-1000 palabras)
-- [ ] Traducción de un cuento infantil clásico
+- [ ] Traducción de cuento infantil clásico
 
-**8.3 Documentación de decisiones**
+### 8.4 Documentación de decisiones
 - [ ] Para cada texto: por qué se tradujo así
-- [ ] Trade-offs encontrados al traducir
-- [ ] Decisiones gramaticales tomadas en contexto
-
-**Entregable:** `texts/` (carpeta con todos los textos)
+- [ ] Trade-offs encontrados
+- [ ] Decisiones gramaticales tomadas en contexto real
 
 ---
 
-## Fase 9 — Audio y Pronunciación Estándar
+## Fase 9 — Audio y Pronunciación Estándar ⬜
 
-**Objetivo:** Crear el estándar de pronunciación audible de VELA.
+**Depende de:** Fase 8 (necesitas textos antes de audio)
 
-### 📋 Checklist
-
-- [ ] Grabar audio: las 17 consonantes y 5 vocales
-- [ ] Grabar audio: 100 palabras de ejemplo
-- [ ] Grabar audio: pitch accent en acción (penúltima sílaba)
-- [ ] Grabar audio: 5 frases de ejemplo
-- [ ] Texto fonético IPA para cada grabación
-- [ ] ¿Cómo suena VELA? Documentar el "carácter" fonético
-
-**Entregable:** `audio/` (carpeta con grabaciones + IPA transcriptions)
+- [ ] Grabar: 17 consonantes + 5 vocales
+- [ ] Grabar: 100 palabras de ejemplo
+- [ ] Grabar: pitch accent en acción
+- [ ] Grabar: 20 frases de ejemplo
+- [ ] Transcripción IPA para cada grabación
+- [ ] Documentar "carácter" fonético de VELA
 
 ---
 
-## Fase 10 — Comunidad y Evolución
+## Fase 10 — Comunidad y Evolución ⬜
 
-**Objetivo:** VELA deja de ser un proyecto y se convierte en un lenguaje vivo.
+**Futuro lejano.** Necesitas hablantes antes de comunidad.
 
-### 📋 Checklist
+- [ ] Sitio web / landing page
+- [ ] Foro / Discord
+- [ ] VELA Wikipedia (VELA describiendo VELA)
+- [ ] Primer traductor voluntario
+- [ ] Literatura original
+- [ ] Translation challenges
+- [ ] ¿Cómo evoluciona VELA? ¿Comité o democrático?
 
-- [ ] Crear comunidad online (sitio web, foro, Discord)
-- [ ] VELA Wikipedia (VELA describe VELA)
-- [ ] Primer traductor voluntario: crear cuenta y traducir
-- [ ] Literatura original en VELA (poesía, narrativa)
-- [ ] Eventos: translation challenges, language exchanges
-- [ ] Decidir: ¿VELA evoluciona? ¿Se crea una proto-VELA histórica?
-- [ ] Resolver disputes de vocabularios (comité o democrático)
+---
 
-**Entregable:** `community/` (guía de comunidad, código de conducta)
+## Sistema de Deliberación — Estado Actual
+
+El sistema de consenso multi-agente está **operativo y probado**.
+
+| Componente | Estado |
+|------------|--------|
+| 5 agentes especialistas | ✅ Funcionando |
+| Orchestrator | ✅ Funcionando |
+| Graphify (fase 0) | ✅ Integrado |
+| Vote infrastructure | ✅ Completo |
+| CHANGE_LOG.md | ✅ Acumulativo, fechado |
+
+**Últimas deliberaciones completadas**:
+1. Caso sistema reforma (locativo -te → -to)
+2. Lexicon Quality Audit (15 cambios aprobados)
+3. Standby Issues (4 issues resueltos)
+4. Number Override (kent + mil)
+5. Profession Suffix (-po elegido)
+
+**Archivos de consenso**:
+- `vote/topics/consensus/consensus.md`
+- `vote/topics/consensus/NUMBER_OVERRIDE.md`
+- `vote/topics/consensus/PROFESSION_SUFFIX.md`
+- `vote/SUMMARY.md`
 
 ---
 
@@ -318,41 +375,33 @@ Fase 10 → Comunidad y Evolución
 
 ```
 Fase 0  → Investigación                ✅
-Fase 1  → Fonología                    ✅ COMPLETA
-Fase 2  → Sistema de Escritura         ✅ COMPLETA
-Fase 3  → Gramática Completa            ✅ COMPLETA
-Fase 4  → Léxico Base (1000)           ⬜
+Fase 1  → Fonología                    ✅
+Fase 2  → Sistema de Escritura         ✅
+Fase 3  → Gramática Completa           ✅
+Fase 4  → Léxico Base (~780/1000)      🔄 EN PROGRESO (~78%)
 Fase 5  → Léxico Extendido (3000+)     ⬜
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
-Fase 8  → Textos y Muestras             ⬜
+Fase 8  → Textos y Muestras            ⬜ 🎯 SIGUIENTE
 Fase 9  → Audio y Pronunciación        ⬜
-Fase 10 → Comunidad y Evolución         ⬜
+Fase 10 → Comunidad y Evolución        ⬜
 ```
 
 ---
 
-## Orden de trabajo recomendado
+## Decisiones Pendientes de Deliberación Futura
 
-```
-INMEDIATO:
-→ Fase 1: Fonología Final ← AHORA
-
-ESTA SEMANA:
-→ Fase 1 completa
-→ Comenzar Fase 2 (escritura — rápido)
-
-ESTE MES:
-→ Fases 1-4 completas
-
-PRÓXIMOS 3 MESES:
-→ Fases 5-8 completas
-
-FUTURO:
-→ Fases 9-10 (comunidad, audio)
-```
+| # | Tema | Fase afectada | Prioridad |
+|---|------|---------------|-----------|
+| 1 | Sistema de emociones finas | Fase 5 | Media |
+| 2 | Léxico tecnológico extendido | Fase 5 | Alta |
+| 3 | Imperativo verbal | Fase 8 (textos) | Alta |
+| 4 | Reglas de mayúsculas en títulos/nombres | Fase 2 | Media |
+| 5 | Texto benchmark — traducción y análisis | Fase 8 | 🎯 CRÍTICA |
+| 6 | Validación fonológica automatizada | Fase 4 | Media |
+| 7 | Exportar léxico a JSON/diccionario | Fase 7 | Baja |
 
 ---
 
-*Última actualización: 2025-04-13*
-*Basado en INITIAL_RESEARCH.md + investigación profunda*
+*Última actualización: 2026-05-14*
+*Sistema de deliberación: operativo*

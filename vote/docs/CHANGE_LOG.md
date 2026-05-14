@@ -147,3 +147,17 @@
   - User override policy
   - Complete file structure in vote/ directory
 - **Status**: COMPLETE
+
+---
+
+## 2026-05-14 — ROADMAP.md Updated
+- **Action**: Complete rewrite of ROADMAP.md to reflect actual project state
+- **Changes**:
+  - Fase 1-3 marked as COMPLETE with links to deliverables
+  - Fase 4: ~780/1000 words documented (~78%)
+  - Fase 8 marked as NEXT PRIORITY (text benchmark)
+  - Added detailed pending checklists for each incomplete phase
+  - Added "Sistema de Deliberación — Estado Actual" section
+  - Added "Decisiones Pendientes de Deliberación Futura" table
+  - Documented all consensus-driven changes (locative, adjectives, professions, numbers)
+- **Status**: COMPLETE
