@@ -236,8 +236,8 @@ En VELA, **y = /j/** (consonante, como "y" en "yo").
 | Forma | Escritura | Ejemplo |
 |-------|-----------|---------|
 | Positivo | raíz-**im** | big-**im** |
-| Comparativo | **mor**-im | **mor** big-im |
-| Superlativo | **mos**-im | **mos** big-im |
+| Comparativo | **mor** | **mor** big |
+| Superlativo | **mos** | **mos** big |
 
 ### 5.4 Plurales
 
@@ -265,7 +265,7 @@ Liv-ing      → li-ving (vivir, presente continuo)
 Liv-ed       → li-ved (vivió)
 Si-wil       → si-wil (verá)
 
-La man se liv en la siti-te → La man liv en la siti-te
+La man se liv en la siti-to → La man liv en la siti-to
                             (El hombre vive en la ciudad)
 ```
 
@@ -289,14 +289,14 @@ La man se liv en la siti-te → La man liv en la siti-te
 | Símbolo | Uso | Ejemplo |
 |---------|-----|---------|
 | **"..."** | Diálogo o cita | "La sonj es nais," li said. |
-| **(...)** | Información adicional | La si-te (la kapital) es big. |
+| **(...)** | Información adicional | La si-to (la kapital) es big. |
 | **'...'** | scare words o énfasis | La man es 'gud' —nofake! |
 
 ### 6.3 Guiones y Raya
 
 | Símbolo | Uso | Ejemplo |
 |---------|-----|---------|
-| **-** (guion) | Entre morfemas | man-se, liv-ed, big-im |
+| **-** (guion) | Entre morfemas | man-se, liv-ed, big |
 | **—** (raya) | Pausa dramatic | La man kom home — la woman es not dar. |
 | **'** (apóstrofo) | Elisión informal | y'd = you would, i'm = i am |
 
@@ -330,17 +330,17 @@ Los números se escriben con **dígitos arábigos** (0-9):
 | 10 | ten | |
 | 11 | ten-wan | literally: ten-one |
 | 12 | ten-tu | ten-two |
-| 20 | twenti | |
-| 21 | twenti-wan | twenty-one |
+| 20 | tu-ten | |
+| 21 | tu-ten-wan | twenty-one |
 | 30 | zerti | |
-| 40 | forti | |
-| 50 | fifti | |
-| 60 | siksti | |
-| 70 | seventi | |
-| 80 | eiti | |
-| 90 | nainti | |
-| 100 | handrd | |
-| 101 | handrd wan | |
+| 40 | kwatro-ten | |
+| 50 | faiv-ten | |
+| 60 | siks-ten | |
+| 70 | sevn-ten | |
+| 80 | eit-ten | |
+| 90 | nain-ten | |
+| 100 | kent | |
+| 101 | kent wan | |
 | 1,000 | zausand | |
 | 1,000,000 | milyun | |
 
@@ -386,7 +386,7 @@ Los prefijos van **sin guión**:
 | Prefijo | Ejemplo | Correcto |
 |---------|---------|---------|
 | un- | un-gud | ✅ sin guión |
-| re- | re-build | ✅ sin guión |
+| re- | re-maki | ✅ sin guión |
 | over- | over-hapi | ✅ sin guión |
 | under- | under-dev | ✅ sin guión |
 | self- | self-lov | ✅ sin guión |
@@ -472,8 +472,8 @@ nof       → /nof/      (to know)
 | wok-er | /wok.er/ | -er = morpheme separado |
 | man-se | /man.se/ | -se = morpheme separado |
 | man-s | /mans/ | -s = plural |
-| big-im | /big.im/ | -im = adjetivo |
-| strong-im | /stron.gim/ | -im = adjetivo |
+| big | /big/ | bare root = adjetivo |
+| strong | /strong/ | bare root = adjetivo |
 
 ---
 
@@ -495,10 +495,10 @@ ORTOGRAFÍA MORFOLÓGICA:
   Verbo pasado:   raíz-ed
   Verbo futuro:   raíz-wil
   Sustantivo:     raíz (nada)
-  Adjetivo:       raíz-im
+  Adjetivo:       raíz (bare root, no suffix)
   Plural:         raíz-s
   Genitivo:       raíz-se
-  Locativo:       raíz-te
+  Locativo:       raíz-to
 
 NÚMEROS: dígitos arábigos
   0 1 2 3 4 5 6 7 8 9
@@ -508,7 +508,7 @@ PUNTUACIÓN: . , ? ! : ; "..."
 DIRECCIÓN: LTR
 MAYÚSCULAS: Solo primera letra de oración + nombres propios
 ESPACIOS: Entre palabras siempre
-GUIONES: Entre morfemas (liv-ed, man-se, mor-im)
+GUIONES: Entre morfemas (liv-ed, man-se, kantri-to)
 ```
 
 ---

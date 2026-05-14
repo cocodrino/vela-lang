@@ -1,0 +1,97 @@
+strictModeWhiteList:
+  - >-
+    python3 -c "
+
+    with open\('vote/docs/CHANGE_LOG\.md', 'r'\) as f:
+        content = f\.read\(\)
+
+    # Buscar el placeholder final y reemplazar con nueva entrada \+ placeholder
+
+    old = '## New entries append below \(orchestrator will add them automatically\)'
+
+    new_entry = '''\\n---\\n\\n## 2026-05-13 — Lexicon Quality Audit \(Completed\)\\n- \*\*Topic\*\*: VELA Base Lexicon
+    audit — philosophy, pronunciation, compounding\\n- \*\*Participants\*\*: 5 autonomous agents \(all models
+    functional\)//\\n  - Phonologist \(kimi-k2\.6:cloud\) — 9 problems, 5 critical\\n  - Morphologist
+    \(deepseek-v4-pro\) — 3 problems, 1 critical\\n  - Lexicographer \(glm-5\.1:cloud\) — 8 problems \(5 words \+ 3
+    homonymies\)\\n  - Semanticist \(deepseek-v4-pro\) — 3 problems, 1 critical\\n  - Aestheticist \(kimi-k2\.6:cloud\)
+    — 3 problems, 1 critical\\n- \*\*Deliberation mode\*\*: Strong convergence; synthesized directly\\n-
+    \*\*Decisions\*\*: 15 approved changes\\n  1\. Eliminate adjective suffix -im \(unanimous, critical\)\\n  2\.
+    envirnmnt → natur \(organic replacement\)\\n  3\. tempratcur → temperaturu \(add /u/\)\\n  4\. telivizion → far-si
+    \(compound, far-see\)\\n  5\. konversashon → kom-tok \(compound, with-talk\)\\n  6\. bodifikashon → in-bodi
+    \(compound, in-body\)\\n  7\. konstitushon → karta \(Latin carta\)\\n  8\. aplikaishon → aplik \(Latin root, 5
+    letters\)\\n  9\. stop → topi \(illegal final /p/\)\\n  10\. draw → rava \(illegal final /w/\)\\n  11\. build → maki
+    \(illegal /ld/ cluster\)\\n  12\. paint → kolori \(illegal /nt/ cluster\)\\n  13\. fix → repai \(illegal /ks/
+    cluster\)\\n  14\. Systematic /i/ or /u/ epenthesis for all remaining illegal-final words \(dans→dansi, glas→glasi,
+    etc\.\)\\n  15\. Homonymy resolution: la\(law\)→lex, four→kwatro\\n- \*\*Files requiring update\*\*:
+    docs/lexicon/LEXICON_BASE\.md, docs/grammar/GRAMMAR_COMPLETE\.md, docs/phonology/PHONOLOGY_FINAL\.md,
+    README\.md\\n\\n## New entries append below \(orchestrator will add them automatically\)\\n"", """\)
+
+
+    content = content\.replace\(old, new_entry\)
+
+
+    with open\('vote/docs/CHANGE_LOG\.md', 'w'\) as f:
+        f\.write\(content\)
+
+    print\('CHANGE_LOG\.md updated with lexicon audit entry'\)
+
+    "
+  - >-
+    cat > /tmp/changelog_entry\.txt << 'EOF'
+
+    ---
+
+
+    ## 2026-05-13 — Lexicon Quality Audit \(Completed\)
+
+    - \*\*Topic\*\*: VELA Base Lexicon audit — philosophy, pronunciation, compounding
+
+    - \*\*Participants\*\*: 5 autonomous agents \(all models functional\)
+      - Phonologist \(kimi-k2\.6:cloud\) — 9 problems, 5 critical
+      - Morphologist \(deepseek-v4-pro\) — 3 problems, 1 critical
+      - Lexicographer \(glm-5\.1:cloud\) — 8 problems \(5 words \+ 3 homonymies\)
+      - Semanticist \(deepseek-v4-pro\) — 3 problems, 1 critical
+      - Aestheticist \(kimi-k2\.6:cloud\) — 3 problems, 1 critical
+    - \*\*Deliberation mode\*\*: Strong convergence; synthesized directly
+
+    - \*\*Decisions\*\*: 15 approved changes
+      1\. Eliminate adjective suffix -im \(unanimous, critical\)
+      2\. envirnmnt → natur
+      3\. tempratcur → temperaturu
+      4\. telivizion → far-si
+      5\. konversashon → kom-tok
+      6\. bodifikashon → in-bodi
+      7\. konstitushon → karta
+      8\. aplikaishon → aplik
+      9\. stop → topi
+      10\. draw → rava
+      11\. build → maki
+      12\. paint → kolori
+      13\. fix → repai
+      14\. Systematic vowel epenthesis for remaining illegal-final words
+      15\. Homonymy resolution: la\(law\) → lex; four → kwatro
+    - \*\*Files requiring update\*\*: docs/lexicon/LEXICON_BASE\.md, docs/grammar/GRAMMAR_COMPLETE\.md,
+    docs/phonology/PHONOLOGY_FINAL\.md, README\.md
+
+
+    EOF
+
+    python3 -c "
+
+    with open\('vote/docs/CHANGE_LOG\.md', 'r'\) as f:
+        content = f\.read\(\)
+
+    with open\('/tmp/changelog_entry\.txt', 'r'\) as f:
+        new_entry = f\.read\(\)
+
+    old = '## New entries append below \(orchestrator will add them automatically\)'
+
+    content = content\.replace\(old, new_entry \+ old\)
+
+
+    with open\('vote/docs/CHANGE_LOG\.md', 'w'\) as f:
+        f\.write\(content\)
+
+    print\('Updated CHANGE_LOG\.md'\)
+
+    "

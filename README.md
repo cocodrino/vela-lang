@@ -222,7 +222,7 @@ La sonj es veri nais.           → The song is very nice.
 La laif es short bat biutifl.   → Life is short but beautiful.
 Mi hop ke evri man kin liv in pis. → I hope every person can live in peace.
 
-Li bi-ed a techer for thirty yer.  → She was a teacher for thirty years.
+Li bi-ed a lern-po for thirty yer.  → She was a teacher for thirty years.
 Mi no wan a go, bat mi mas.        → I don't want to go, but I must.
 ```
 
@@ -250,7 +250,7 @@ VELA is a **moderately agglutinative, minimal-case language**:
 - **No grammatical gender** — "li" = he/she/it
 - **One article** (la = the)
 - **Agglutinative morphology** — prefixes and suffixes are clearly separable
-- **2-Case system** — Genitive (-se), Locative (-te). Nominative and Accusative: determined by word order.
+- **2-Case system** — Genitive (-se), Locative (-to). Nominative and Accusative: determined by word order.
 - **No tones** — pitch accent only, never lexical tone
 
 ### The 2 Cases in Action
@@ -258,9 +258,9 @@ VELA is a **moderately agglutinative, minimal-case language**:
 | Case | Suffix | Example | Meaning |
 |------|--------|---------|---------|
 | Genitive | **-se** | la man-**se** sun | the man's house |
-| Locative | **-te** | Mi liv la siti-**te** | I live in the city |
+| Locative | **-to** | Mi liv la siti-**to** | I live in the city |
 
-VELA uses the **minimal case system**: only mark what cannot be inferred from word order. Nominative and Accusative are determined by SVO position — no suffix needed. Genitive (-se) and Locative (-te) are the two cases that carry information word order alone cannot provide.
+VELA uses the **minimal case system**: only mark what cannot be inferred from word order. Nominative and Accusative are determined by SVO position — no suffix needed. Genitive (-se) and Locative (-to) are the two cases that carry information word order alone cannot provide.
 
 ---
 
@@ -290,6 +290,65 @@ vela-lang/
 ```
 
 ---
+
+## The Consensus Engine — How Design Decisions Are Made
+
+**VELA is built by deliberation, not by one person.**
+
+Every major design decision (phonology, grammar, lexicon) is evaluated by a **panel of autonomous specialist agents** — each with a different role, each running on a different AI model. The agents debate, argue, and **vote automatically**. The final decision follows their collective consensus, produced entirely by AI without manual intervention.
+
+### The Specialist Panel
+
+| Role | Question Asked | Model |
+|------|----------------|-------|
+| **Phonologist** | "Is this sound system universal, minimal, and melodic?" | kimi-k2.6:cloud |
+| **Morphologist** | "Is this the simplest possible rule? Does it create any irregularity?" | deepseek-v4-pro |
+| **Lexicographer** | "Is this word internationally recognisable? Is it the shortest option?" | glm-5.1:cloud |
+| **Semanticist** | "Does this meaning map cleanly across cultures?" | deepseek-v4-pro |
+| **Aestheticist** | "Is this beautiful to speak? Does it flow musically?" | kimi-k2.6:cloud |
+
+### How a Decision Works
+
+1. **Graphify Phase** — The project's knowledge graph is analysed to find contradictions, orphans, and structural gaps.
+2. **Prompt Phase** — Each specialist receives the same dossier: the proposed change, the current state, and the three pillars (LÓGICO · SIMPLE · BELLO).
+3. **Deliberation Phase** — Each specialist writes a proposal. All proposals are stored in `vote/topics/proposals/`.
+4. **Consensus Phase** — An orchestrator reads all proposals, tallies votes, and writes a consensus document to `vote/topics/consensus/`.
+5. **Apply Phase** — The approved changes are applied to source documents. Every change is logged in `vote/docs/CHANGE_LOG.md`.
+
+### Voting Rules
+
+- **Unanimous agreement** → Fast-track approval
+- **4/5 agreement** → Approved with minor adjustments
+- **3/5 or split** → Tie broken by the **Aestheticist** (beauty is VELA's tie-breaker)
+- **User override** → The language creator can override any decision at any time, but must state the reason
+
+### The User as Architect
+
+The AI agents propose. The AI votes. **But the user decides.**
+
+Every consensus is a recommendation, not a command. If a user says "no, I prefer X", that becomes the rule — and the log records both the agent consensus and the user override.
+
+### Complete History
+
+Every deliberation, every vote, every consensus, and every override is stored permanently in the `vote/` folder:
+
+```
+vote/
+├── topics/
+│   ├── proposals/          ← Each specialist's full argument
+│   ├── consensus/          ← Final approved decisions
+│   └── discussion_plan.md  ← Queue of future topics
+├── docs/
+│   ├── CHANGE_LOG.md       ← Dated, cumulative record of every change
+│   ├── VOTING_PROCESS.md   ← Full rulebook
+│   └── SKILL.md            ← Agent prompt templates
+└── SUMMARY.md              ← Executive summary of all approved changes
+```
+
+Nothing is lost. Nothing is hidden. Every decision is traceable.
+
+---
+
 
 ## Why VELA Exists
 

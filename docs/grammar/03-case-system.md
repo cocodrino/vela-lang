@@ -2,6 +2,7 @@
 
 > **Design decision: 2025-04-13** — Based on VELA's founding principles.
 > **Method:** Apply the VELA Decision Framework first — only mark what cannot be inferred.
+> **Updated: 2026-05-13** — Following multi-agent deliberation. Changes: locative -te → -to, plural+case order reversed, possessive pronouns unified.
 
 ---
 
@@ -24,14 +25,14 @@ The fewer suffixes, the more euphonic the language sounds.
 
 ---
 
-## The 2-Case System: Option 3
+## The 2-Case System: Option 3 (Updated)
 
 VELA marks **only** what word order cannot express:
 
 | Case | When to use | Suffix | Why needed |
 |------|------------|--------|-----------|
 | **Genitive** | Possession, origin, relationship | **-se** | Word order cannot distinguish "the man's dog" from "the dog bites the man" |
-| **Locative** | Location, time, state | **-te** | "in the city" vs "the city" — prepositions alone are ambiguous in complex sentences |
+| **Locative** | Location, time | **-to** | "in the city" vs "the city" — prepositions alone are ambiguous in complex sentences |
 
 **Nominative and Accusative are FREE** — determined entirely by SVO word order.
 
@@ -53,15 +54,15 @@ Mi lik la famili-se prien. → I like the family's friend.
 
 The noun after `-se` modifies the noun before it. Simple and transparent.
 
-### Locative — suffix **-te**
+### Locative — suffix **-to**
 
-Used for location, time, or state. Replaces prepositions like "in", "at", "on", "from" when those mark location or time.
+Used for location or time. Replaces prepositions like "in", "at", "on", "from" when those mark location or time.
 
 ```
-Mi liv la siti-te.        → I live in the city.
-Li es la klas-te.         → She is in class.     (location)
-De kom la las dei-te.    → They come on the last day. (time)
-Wi wok la ofis-te.        → We work at the office. (location)
+Mi liv la siti-to.        → I live in the city.
+Li es la klas-to.         → She is in class.     (location)
+De kom la las dei-to.    → They come on the last day. (time)
+Wi wok la ofis-to.        → We work at the office. (location)
 ```
 
 ### Nominative — no suffix
@@ -88,19 +89,19 @@ De si la siti.           → They see the city.
 
 ## Interaction with Plurals
 
-The plural suffix **-s** goes after the case suffix:
+The case suffix precedes the plural suffix for clearer pronunciation and prosody:
 
 ```
  GEN-SG:  la man-se dog    → The man's dog
- GEN-PL:  la man-s-se dog  → The men's dogs
+ GEN-PL:  la man-se-s dog  → The men's dogs
 
- LOC-SG:  la siti-te       → In the city
- LOC-PL:  la siti-s-te     → In the cities
+ LOC-SG:  la siti-to       → In the city
+ LOC-PL:  la siti-to-s     → In the cities
 ```
 
 Order: **ROOT → CASE → PLURAL**
 
-This is the most transparent order — case first, then plurality, closest to the root.
+This prevents sibilant stacking (e.g., `man-s-se`) and preserves prosodic clarity, ensuring the case morpheme stays closest to its root.
 
 ---
 
@@ -112,7 +113,7 @@ Adjectives **do not take case suffixes** — they agree with the noun's case by 
 GEN: La big man-se hous    → The big man's house
      big (adjective) modifies man, which is genitive
 
-LOC: Mi liv la big siti-te → I live in the big city
+LOC: Mi liv la big siti-to → I live in the big city
      big (adjective) modifies siti, which is locative
 ```
 
@@ -126,33 +127,32 @@ Prepositions already mark semantic role. When a preposition is present, the loca
 
 ```
 Mi liv en la siti.       → I live in the city.      (en = in)
-Mi liv la siti-te.        → I live in the city.      (LOC suffix alone)
+Mi liv la siti-to.        → I live in the city.      (LOC suffix alone)
 
 Mi wok at la ofis.        → I work at the office.
-Mi wok la ofis-te.        → I work at the office.    (equivalent)
+Mi wok la ofis-to.        → I work at the office.    (equivalent)
 ```
 
-**Rule:** In the presence of a preposition, the locative suffix can be dropped. Without a preposition, `-te` is required to mark location/time.
+**Rule:** In the presence of a preposition, the locative suffix can be dropped. Without a preposition, `-to` is required to mark location/time.
 
 ---
 
 ## Case + The Verb "bi" (to be)
 
-With `bi` (to be), the locative suffix marks state or location:
+With `bi` (to be), the locative suffix marks location only. For state or condition, use the bare adjective:
 
 ```
-Mi es la siti-te.         → I am in the city.        (location)
-Li es strong-te.           → She is in strength.      (state)
-Wi es hapi-te.            → We are in happiness.     (state)
+Mi es la siti-to.         → I am in the city.        (location)
 ```
 
-The bare adjective is also valid:
+For states and conditions, the bare adjective is the standard form:
 ```
-Mi es hapi.              → I am happy.              (equally valid)
-Li es strong.            → She is strong.            (equally valid)
+Mi es hapi.              → I am happy.
+Li es strong.            → She is strong.
+Wi es nais.              → We are nice.
 ```
 
-Both are correct. `-te` adds emphasis on the state as a condition.
+The bare adjective is the preferred form. The old stative use of `-to` (e.g., `strong-to`, `hapi-to`) has been retired to preserve monosemy — `-to` marks spatial/temporal location only.
 
 ---
 
@@ -162,29 +162,26 @@ Both are correct. `-te` adds emphasis on the state as a condition.
 |------|----------|--------|
 | **Nominative** | man | man-s |
 | **Accusative** | man | man-s |
-| **Genitive** | man-**se** | man-s-**se** |
-| **Locative** | man-**te** | man-s-**te** |
+| **Genitive** | man-**se** | man-**se**-**s** |
+| **Locative** | man-**to** | man-**to**-**s** |
 
 ---
 
-## Genitive -se vs Possessive Pronouns
+## Possession — Unified with Genitive **-se**
 
-The possessive pronouns already cover most possession cases:
-
-| Pronoun | Possessive (short) | Genitive (full) |
-|---------|-------------------|-----------------|
-| my | mif | mi-**se** |
-| your | yuf | yu-**se** |
-| his/her/its | liz | li-**se** |
-| our | wef | wi-**se** |
-| their | def | de-**se** |
+All possession, whether the possessor is a pronoun or a noun, uses the genitive suffix **-se**:
 
 ```
-Mi si mif dog.        → I see my dog.              (possessive pronoun)
-Mi si la man-se dog.  → I see the man's dog.       (genitive noun)
+Mi-se dog.              → My dog.
+Yu-se buk.              → Your book.
+Li-se kar.              → His/her car.
+Wi-se hous.             → Our house.
+De-se siti.             → Their city.
 ```
 
-**Rule:** Use the possessive pronoun when the possessor is a pronoun. Use `-se` when the possessor is a full noun phrase.
+**Rule:** Possessor + `-se` = possession. Always. No exception, no alternate pronoun paradigm.
+
+The old short possessive forms (`mif`, `yuf`, `liz`, `wef`, `def`) have been retired.
 
 ---
 
@@ -207,12 +204,13 @@ Mi si la man-se dog.  → I see the man's dog.       (genitive noun)
 |----------|------|--------|
 | 2-case system (not 4) | 2025-04-13 | VELA Decision Framework: minimal necessary |
 | Genitive: **-se** | 2025-04-13 | Phonetically distinct; marks possession clearly |
-| Locative: **-te** | 2025-04-13 | Marks time/space; very distinct from -se |
+| Locative: **-to** | 2026-05-13 | Multi-agent deliberation (Phonologist + Aestheticist convergence) |
 | No accusative suffix | 2025-04-13 | SVO order handles it without morphology |
 | No nominative suffix | 2025-04-13 | Always the pre-verbal noun, no ambiguity |
-| Plural + case order: case → plural | 2025-04-13 | Closest to root = most specific first |
+| Plural + case order: case → plural | 2026-05-13 | Multi-agent deliberation; prevents sibilant stacking |
 | Preposition overrides locative suffix | 2025-04-13 | Avoids double-marking; simpler |
-| `bi` + LOC: both forms valid | 2025-04-13 | Flexibility without ambiguity |
+| Possession: unified under **-se** | 2026-05-13 | Multi-agent deliberation; eliminates dual system |
+| State: bare adjective only | 2026-05-13 | Multi-agent deliberation; preserves monosemy of -to |
 
 ---
 
@@ -222,10 +220,10 @@ Both suffixes follow VELA's phonotactic rules perfectly:
 
 | Suffix | Ends in V? | Distinct? | Passes (C)V? |
 |--------|-----------|----------|--------------|
-| **-se** | ✅ vowel /e/ | Distinct from -te | ✅ |
-| **-te** | ✅ vowel /e/ | Distinct from -se | ✅ |
+| **-se** | ✅ vowel /e/ | Distinct from -to | ✅ |
+| **-to** | ✅ vowel /o/ | Distinct from -se | ✅ |
 
-**No phonotactic violation. Both are clearly distinct from all root-final sounds.**
+**No phonotactic violation. Both are clearly distinct from all root-final sounds, and the vowel contrast (/e/ vs /o/) maximizes perceptual salience.**
 
 ---
 
@@ -241,10 +239,14 @@ ACC:  La man        si        mi.
 GEN:  Mi            si        la man-se         hous.
       [subject]     [verb]    [possessor-GEN + noun]
 
-LOC:  Mi            liv       la siti-te.
+LOC:  Mi            liv       la siti-to.
       [subject]     [verb]    [noun-LOC by suffix]
 
-GEN+LOC:  La man-se    famili    es     la vilaj-te.
+GEN+LOC:  La man-se    famili    es     la vilaj-to.
           [man-GEN]    [family]  [be]   [village-LOC]
           → The man's family is in the village.
+
+STATE:  Li            es        strong.
+        [subject]     [be]      [adjective — no suffix]
+        → She is strong.
 ```

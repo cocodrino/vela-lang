@@ -137,7 +137,7 @@ Solo estas consonantes pueden aparecer al final de palabra:
 
 | Inglés | ❌ Wrong | ✅ VELA |
 |--------|---------|---------|
-| stop | stop | **sto-pi** (agregamos -i) |
+| stop | stop | **to-pi** (reforma completa) |
 | act | act | **ak-tu** (agregamos -u) |
 | pick | pick | **pik-u** (agregamos -u) |
 

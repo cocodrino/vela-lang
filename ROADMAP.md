@@ -33,7 +33,7 @@ GRAMÁTICA:
 VOCABULARIO:
   ✅ Basado en inglés, regularizado fonéticamente
   ✅ Compuestos transparentes: raíces + afijos = palabras nuevas
-  ✅ Categorías por terminación: -a (verbo), -i (sustantivo), -im (adjetivo), -um (adverbio)
+  ✅ Categorías por terminación: -a (verbo), -i (sustantivo), -i (adjetivo), -um (adverbio)
 ```
 
 ---
@@ -91,7 +91,7 @@ Fase 10 → Comunidad y Evolución
 - [x] **2.6 Espacio entre palabras** — Confirmado: siempre hay espacio
 - [x] **2.7 Números** — Dígitos arábigos (1-9) + palabras: wan, tu, tri... + sistema decimal
 - [x] **2.8 Versión manuscrita** — Guía de cursiva VELA con letras conectadas
-- [x] **2.9 Ortografía morfológica** — Confirmado: guiones entre morfemas (liv-ed, man-se, mor-im)
+- [x] **2.9 Ortografía morfológica** — Confirmado: guiones entre morfemas (liv-ed, man-se, mor)
 - [x] **2.10 Práctica de escritura** — 50+ palabras para práctica, guía de cursive
 
 **Entregable:** ✅ `docs/writing/ORTHOGRAPHY.md`
@@ -123,14 +123,14 @@ Fase 10 → Comunidad y Evolución
 - [ ] Sujetos: mi, yu, li, wi, de
 - [ ] Posesivos: mif, yuf, liz, wef, def
 - [ ] Genitivos: mi-se, yu-se, li-se, wi-se, de-se
-- [ ] Locativos: mi-te, yu-te, li-te, wi-te, de-te
+- [ ] Locativos: mi-to, yu-to, li-to, wi-to, de-to
 - [ ] Demostrativos: dis, dat, dese, dase
 - [ ] Indefinidos: som, eni, non, evri
 
 **3.4 Adjetivos**
-- [ ] Terminación: -im
-- [ ] Comparativo: mor + adj-im / mos + adj-im
-- [ ] Superlativo: mos + adj-im
+- [x] Terminación: bare root (no suffix) — ELIMINADO por consenso
+- [x] Comparativo: mor + adj (bare root) — mor como adverbio independiente
+- [x] Superlativo: mos + adj (bare root) — mos como adverbio independiente
 
 **3.5 Preposiciones**
 - [ ] Core: a (en/hacia), in (dentro), on (sobre), from (desde), for (para), wit (con), to (a)
@@ -214,7 +214,7 @@ Fase 10 → Comunidad y Evolución
 
 **5.6 Sistema de prêtamos**
 - [ ] Regla: adaptar fonéticamente al sistema VELA
-- [ ] Ejemplo: computer → kompiutr
+- [ ] Ejemplo: computer → kalkulato
 
 **5.7 Idiomatismos**
 - [ ] Crear 20 expresiones que no existan en inglés

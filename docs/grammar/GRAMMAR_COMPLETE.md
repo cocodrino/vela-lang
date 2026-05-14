@@ -113,7 +113,7 @@ Articles do not change form for case. The noun after the article takes the case:
 
 ```
 la man-se    → the man's     (la + man + se)
-la siti-te  → in the city  (la + siti + te)
+la siti-to  → in the city  (la + siti + te)
 ```
 
 ---
@@ -175,15 +175,15 @@ These are the **-te** suffix form, used for locative case on pronouns:
 
 | Locative | AFI | English equivalent |
 |----------|-----|------------------|
-| **mi-te** | /mi.te/ | at/to me |
-| **yu-te** | /ju.te/ | at/to you |
-| **li-te** | /li.te/ | at/to him/her/it |
-| **wi-te** | /wi.te/ | at/to us |
-| **de-te** | /de.te/ | at/to them |
+| **mi-to** | /mi.te/ | at/to me |
+| **yu-to** | /ju.te/ | at/to you |
+| **li-to** | /li.te/ | at/to him/her/it |
+| **wi-to** | /wi.te/ | at/to us |
+| **de-to** | /de.te/ | at/to them |
 
 ```
-Mi go mi-te.      → I go to my place.  (to where I am)
-Yu liv yu-te.    → You live at your place.
+Mi go mi-to.      → I go to my place.  (to where I am)
+Yu liv yu-to.    → You live at your place.
 ```
 
 ### 3.5 Demonstrative Pronouns
@@ -274,7 +274,7 @@ Used when a noun possesses another noun. The -se noun comes before the possessed
 ```
 la man-se dog         → the man's dog
 la famili-se hous     → the family's house
-la Siti-te laibri     → the city's library
+la Siti-to laibri     → the city's library
 ```
 
 **Position:** The possessor (with -se) comes BEFORE the possessed noun. Order: **possessor-GEN + possessed**.
@@ -284,10 +284,10 @@ la Siti-te laibri     → the city's library
 Used for location, time, or state:
 
 ```
-Mi liv la siti-te.     → I live in the city.      (habitual location)
-Li es la ofis-te.    → She is at the office.   (location)
-Wi wok la klas-te.   → We work in the class.  (location)
-De kom la las dei-te. → They come on the last day. (time)
+Mi liv la siti-to.     → I live in the city.      (habitual location)
+Li es la ofis-to.    → She is at the office.   (location)
+Wi wok la klas-to.   → We work in the class.  (location)
+De kom la las dei-to. → They come on the last day. (time)
 ```
 
 ### 4.8 Full Noun Paradigm: man (person)
@@ -315,13 +315,13 @@ When a preposition already marks location/time, the -te suffix is **optional**:
 
 ```
 Mi liv en la siti.      → I live in the city.          (en = in)
-Mi liv la siti-te.     → I live in the city.          (-te alone)
+Mi liv la siti-to.     → I live in the city.          (-te alone)
 
 Wi wok at la ofis.      → We work at the office.      (at = location)
-Wi wok la ofis-te.     → We work at the office.       (-te alone)
+Wi wok la ofis-to.     → We work at the office.       (-te alone)
 
-Li kom from la skol.    → She comes from the school.   (from = origin)
-Li kom la skol-te.     → She comes from the school.    (-te alone)
+Li kom from la lern-hous.    → She comes from the school.   (from = origin)
+Li kom la lern-hous-to.     → She comes from the school.    (-te alone)
 ```
 
 **Rule:** When a preposition marks the semantic role clearly, -te can be dropped. Without a preposition, -te is required.
@@ -332,15 +332,15 @@ Li kom la skol-te.     → She comes from the school.    (-te alone)
 
 ### 5.1 Adjective Form
 
-Adjectives take the suffix **-im**:
+Adjectives are used as bare roots, placed before the noun:
 
 | Base | Adjective | English |
 |------|-----------|---------|
-| big | big-im | big |
-| strong | strong-im | strong |
-| happi | happi-im | happy |
-| nais | nais-im | nice |
-| simpli | simpli-im | simple |
+| big | big | big |
+| strong | strong | strong |
+| happi | hapi | happy |
+| nais | nais | nice |
+| simpli | simpli | simple |
 
 ### 5.2 Adjective Position
 
@@ -360,21 +360,21 @@ Adjectives do not agree with the noun's case. They simply precede the noun:
 NOM:  La big man si la film.         → The big man sees the film.
 ACC:  Mi si la big man-a.           → I see the big man.      (man takes -a, not big)
 GEN:  La big man-se hous.          → The big man's house.    (man takes -se, not big)
-LOC:  Mi liv la big siti-te.       → I live in the big city. (siti takes -te)
+LOC:  Mi liv la big siti-to.       → I live in the big city. (siti takes -te)
 ```
 
 ### 5.4 Comparison
 
 | Form | Structure | Example |
 |------|-----------|---------|
-| Positive | base-im | big-im |
-| Comparative | **mor** + base-im | **mor** big-im |
-| Superlative | **mos** + base-im | **mos** big-im |
+| Positive | base | big |
+| Comparative | **mor** + base | **mor** big |
+| Superlative | **mos** + base | **mos** big |
 
 ```
-La man es big-im.           → The man is big.
-La man es mor big-im.     → The man is bigger.
-Dat man es mos big-im.    → That man is the biggest.
+La man es big.           → The man is big.
+La man es mor big.     → The man is bigger.
+Dat man es mos big.    → That man is the biggest.
 ```
 
 ### 5.5 Irregular Comparisons
@@ -383,10 +383,10 @@ Some comparisons are more common as phrases:
 
 | English | VELA | Structure |
 |---------|------|-----------|
-| better | mor gud-im | more good |
-| best | mos gud-im | most good |
-| worse | mor bad-im | more bad |
-| worst | mos bad-im | most bad |
+| better | mor gud | more good |
+| best | mos gud | most good |
+| worse | mor bad | more bad |
+| worst | mos bad | most bad |
 
 ---
 
@@ -512,7 +512,7 @@ The word **no** comes before the verb:
 ```
 Mi no wok.            → I don't work.
 Yu no si la film.     → You don't see the film.
-Li no liv la siti-te. → She doesn't live in the city.
+Li no liv la siti-to. → She doesn't live in the city.
 ```
 
 ### 8.2 Negation with Modal Verbs
@@ -625,9 +625,9 @@ Wot kolor es la kar? → Which color is the car?
 When a noun after a preposition is also marked with -te or -se, the noun's role is doubly marked (preposition + suffix):
 
 ```
-Mi liv in la siti-te.      → I live in the city.    (in + LOC)
-Yu wok at la ofis-te.      → You work at the office. (at + LOC)
-Li kom from la skol-se.    → She comes from school.  (from + GEN)
+Mi liv in la siti-to.      → I live in the city.    (in + LOC)
+Yu wok at la ofis-to.      → You work at the office. (at + LOC)
+Li kom from la lern-hous-se.    → She comes from school.  (from + GEN)
 ```
 
 ---
@@ -695,16 +695,16 @@ If li wok-ed,  den  li her-ed.      → If she had worked, then she would have h
 | 17 | ten-sevn | /ten.sevn/ |
 | 18 | ten-eit | /ten.eit/ |
 | 19 | ten-nain | /ten.nain/ |
-| 20 | twenti | /twenti/ |
+| 20 | tu-ten | /tu.ten/ |
 | 30 | zerti | /zerti/ |
-| 40 | forti | /forti/ |
-| 50 | fifti | /fifti/ |
-| 60 | siksti | /siksti/ |
-| 70 | seventi | /seventi/ |
-| 80 | eiti | /eiti/ |
-| 90 | nainti | /nainti/ |
-| 100 | handrd | /handrd/ |
-| 101 | handrd-wan | /handrd.wan/ |
+| 40 | kwatro-ten | /kwa.tro.ten/ |
+| 50 | faiv-ten | /faiv.ten/ |
+| 60 | siks-ten | /siks.ten/ |
+| 70 | sevn-ten | /sevn.ten/ |
+| 80 | eit-ten | /eit.ten/ |
+| 90 | nain-ten | /nain.ten/ |
+| 100 | kent | /kent/ |
+| 101 | kent-wan | /kent.wan/ |
 | 1,000 | zausand | /zausand/ |
 | 1,000,000 | milyun | /milyun/ |
 
@@ -805,12 +805,12 @@ Adverbs are formed with the suffix **-um** added to the adjective:
 |-------|---------|---------|--------|
 | **un-** | negation | un-gud | un-good = bad |
 | **re-** | again | re-kom | re-come = return |
-| **pre-** | before | pre-skol | pre-school |
+| **pre-** | before | pre-lern-hous | pre-school |
 | **mis-** | error | mis-tok | mis-speak |
 | **over-** | excess | over-hapi | over-happy |
 | **under-** | deficiency | under-dev | under-developed |
 | **self-** | reflexive | self-lov | self-love |
-| **non-** | absence | non-stop | non-stop |
+| **non-** | absence | non-topi | non-topi |
 | **auto-** | self | auto-matik | automatic |
 | **semi-** | half | semi-kol | semi-circle |
 | **super-** | above | super-nais | super-nice |
@@ -825,7 +825,7 @@ Adverbs are formed with the suffix **-um** added to the adjective:
 | **-ed** | past tense | wok-ed | worked |
 | **-wil** | future tense | wok-wil | will work |
 | **-a** | present tense | wok-a | works |
-| **-im** | adjective | nais-im | nice |
+| *(none)* | adjective | nais | nice |
 | **-um** | adverb | nais-um | nicely |
 | **-nes** | abstract noun | happi-nes | happiness |
 | **-ful** | full of | hope-ful | hopeful |
@@ -890,7 +890,7 @@ Standard SVO statements:
 Mi              si       la film.         → I see the film.
 Yu              lik      la sonj.          → You like the song.
 La big man-se   her      la strong vois.   → The big man's voice is heard.
-Wi              liv      la siti-te.       → We live in the city.
+Wi              liv      la siti-to.       → We live in the city.
 ```
 
 ###
@@ -923,7 +923,7 @@ Imperatives use the present tense verb form (no subject):
 Si la film!               → See the film!       (order to you)
 Kom tu mi!                → Come to me!
 No wok!                    → Don't work!
-Liv la siti-te!            → Live in the city!
+Liv la siti-to!            → Live in the city!
 
 With emphasis:
 Yu mas si!                → You MUST see!
@@ -954,11 +954,11 @@ Genitive:
   (man-se = genitive; hous = possessed)
 
 Locative:
-  Mi liv la siti-te.              → I live in the city.
-  (siti-te = locative)
+  Mi liv la siti-to.              → I live in the city.
+  (siti-to = locative)
 
 Genitive + Locative:
-  La man-se famili liv la siti-te. → The man's family lives in the city.
+  La man-se famili liv la siti-to. → The man's family lives in the city.
 ```
 
 ### 16.7 Sentences with Modal Verbs
@@ -967,7 +967,7 @@ Genitive + Locative:
 Mi kan si la film.              → I can see the film.
 Yu mas wok.                      → You must work.
 Li wan kom.                      → She wants to come.
-Wi no kan liv la siti-te.        → We cannot live in the city.
+Wi no kan liv la siti-to.        → We cannot live in the city.
 De mas no don dat.               → They must not do that.
 ```
 
@@ -980,7 +980,7 @@ WORD ORDER:      SVO (strict)
 ARTICLES:        la (the), un (a/an)
 CASES:           NOM = order | ACC = order | GEN = -se | LOC = -te
 PLURAL:          -s
-ADJECTIVES:      base-im (before noun)
+ADJECTIVES:      base (before noun)
 ADVERBS:         base-um
 PRESENT TENSE:   root + -a
 PAST TENSE:      root + -ed
@@ -994,7 +994,7 @@ COMPARISON:       mor + im (comp) | mos + im (superl)
 CONJUNCTIONS:     and, or, bot, bikos, if, wen, den, so
 PRONOUNS:         mi, yu, li, wi, de
 POSSESSIVE:       mif, yuf, liz, wef, def
-NUMBERS:          wan tu tri for faiv siks sevn eit nain / ten twenti...
+NUMBERS:          wan tu tri kwatro faiv siks sevn eit nain ten / tu-ten tri-ten...
 DAYS:             Mondei Tiuzdei Wenzdei Terzdei Fraidei Satrdei Sandei
 ```
 
@@ -1010,7 +1010,7 @@ DAYS:             Mondei Tiuzdei Wenzdei Terzdei Fraidei Satrdei Sandei
 | Possessive -f / Genitive -se distinction | 2025-04-13 | Transparency |
 | 2-case minimal system | 2025-04-13 | VELA Decision Framework |
 | Noun case = NOM/ACC by order | 2025-04-13 | VELA Decision Framework |
-| Adjective -im before noun | 2025-04-13 | English-like clarity |
+| Adjective bare root before noun | 2025-04-13 | Simplified, word order disambiguates |
 | Zero irregular verbs | 2025-04-13 | Core VELA feature |
 | bi/bi-a/bi-ed/bi-wil for "to be" | 2025-04-13 | Regularity over English irregularity |
 | Adverb -um suffix | 2025-04-13 | Systematic morphology |
