@@ -118,8 +118,116 @@
       "source_file": "update_changelog.py",
       "source_location": "L1",
       "id": "update_changelog_py",
-      "community": 38,
+      "community": 39,
       "norm_label": "update_changelog.py"
+    },
+    {
+      "label": "verify_dups.py",
+      "file_type": "code",
+      "source_file": "word_review/verify_dups.py",
+      "source_location": "L1",
+      "id": "word_review_verify_dups_py",
+      "community": 40,
+      "norm_label": "verify_dups.py"
+    },
+    {
+      "label": "find_section_ends.py",
+      "file_type": "code",
+      "source_file": "word_review/find_section_ends.py",
+      "source_location": "L1",
+      "id": "word_review_find_section_ends_py",
+      "community": 41,
+      "norm_label": "find_section_ends.py"
+    },
+    {
+      "label": "count_total.py",
+      "file_type": "code",
+      "source_file": "word_review/count_total.py",
+      "source_location": "L1",
+      "id": "word_review_count_total_py",
+      "community": 42,
+      "norm_label": "count_total.py"
+    },
+    {
+      "label": "generate_blocks.py",
+      "file_type": "code",
+      "source_file": "word_review/generate_blocks.py",
+      "source_location": "L1",
+      "id": "word_review_generate_blocks_py",
+      "community": 43,
+      "norm_label": "generate_blocks.py"
+    },
+    {
+      "label": "mark_duplicates.py",
+      "file_type": "code",
+      "source_file": "word_review/mark_duplicates.py",
+      "source_location": "L1",
+      "id": "word_review_mark_duplicates_py",
+      "community": 44,
+      "norm_label": "mark_duplicates.py"
+    },
+    {
+      "label": "insert_all_blocks.py",
+      "file_type": "code",
+      "source_file": "word_review/insert_all_blocks.py",
+      "source_location": "L1",
+      "id": "word_review_insert_all_blocks_py",
+      "community": 37,
+      "norm_label": "insert_all_blocks.py"
+    },
+    {
+      "label": "read_block_data()",
+      "file_type": "code",
+      "source_file": "word_review/insert_all_blocks.py",
+      "source_location": "L6",
+      "id": "word_review_insert_all_blocks_read_block_data",
+      "community": 37,
+      "norm_label": "read_block_data()"
+    },
+    {
+      "label": "count_new.py",
+      "file_type": "code",
+      "source_file": "word_review/count_new.py",
+      "source_location": "L1",
+      "id": "word_review_count_new_py",
+      "community": 45,
+      "norm_label": "count_new.py"
+    },
+    {
+      "label": "fix_and_insert.py",
+      "file_type": "code",
+      "source_file": "word_review/fix_and_insert.py",
+      "source_location": "L1",
+      "id": "word_review_fix_and_insert_py",
+      "community": 38,
+      "norm_label": "fix_and_insert.py"
+    },
+    {
+      "label": "get_block_table()",
+      "file_type": "code",
+      "source_file": "word_review/fix_and_insert.py",
+      "source_location": "L46",
+      "id": "word_review_fix_and_insert_get_block_table",
+      "community": 38,
+      "norm_label": "get_block_table()"
+    },
+    {
+      "label": "remove_dups.py",
+      "file_type": "code",
+      "source_file": "word_review/remove_dups.py",
+      "source_location": "L1",
+      "id": "word_review_remove_dups_py",
+      "community": 46,
+      "norm_label": "remove_dups.py"
+    },
+    {
+      "label": "check_dups.py",
+      "file_type": "code",
+      "source_file": "word_review/check_dups.py",
+      "source_location": "L1",
+      "id": "word_review_check_dups_py",
+      "community": 47,
+      "norm_label": "check_dups.py"
     },
     {
       "label": "INITIAL RESEARCH",
@@ -130,7 +238,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "initial research",
       "id": "initial_research"
     },
@@ -143,7 +251,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "1. filosofia y vision",
       "id": "initial_research_1_filosof_a_y_visi_n"
     },
@@ -156,7 +264,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "2. principios de diseno",
       "id": "initial_research_2_principios_de_dise_o"
     },
@@ -169,7 +277,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "2.1 principios fundamentales",
       "id": "initial_research_2_1_principios_fundamentales"
     },
@@ -182,7 +290,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "2.2 lo que no es vela",
       "id": "initial_research_2_2_lo_que_no_es_vela"
     },
@@ -195,7 +303,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3. fonologia \u2014 los sonidos de vela",
       "id": "initial_research_3_fonolog_a_los_sonidos_de_vela"
     },
@@ -208,7 +316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3.1 inventario de vocales (5)",
       "id": "initial_research_3_1_inventario_de_vocales_5"
     },
@@ -221,7 +329,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3.2 inventario de consonantes (17)",
       "id": "initial_research_3_2_inventario_de_consonantes_17"
     },
@@ -234,7 +342,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3.3 lo que no existe en vela",
       "id": "initial_research_3_3_lo_que_no_existe_en_vela"
     },
@@ -247,7 +355,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3.4 estructura silabica",
       "id": "initial_research_3_4_estructura_sil_bica"
     },
@@ -260,7 +368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "4. ortografia fonetica",
       "id": "initial_research_4_ortograf_a_fon_tica"
     },
@@ -273,7 +381,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "5. gramatica \u2014 estructura simple",
       "id": "initial_research_5_gram_tica_estructura_simple"
     },
@@ -286,7 +394,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "5.1 orden de palabras: svo (sujeto-verbo-objeto)",
       "id": "initial_research_5_1_orden_de_palabras_svo_sujeto_verbo_obje"
     },
@@ -299,7 +407,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "5.2 articulos y determinantes",
       "id": "initial_research_5_2_art_culos_y_determinantes"
     },
@@ -312,7 +420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "5.3 pronombres",
       "id": "initial_research_5_3_pronombres"
     },
@@ -325,7 +433,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "5.4 sistema verbal \u2014 eliminacion total de irregularidades",
       "id": "initial_research_5_4_sistema_verbal_eliminaci_n_total_de_irr"
     },
@@ -338,7 +446,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "presente simple",
       "id": "initial_research_presente_simple"
     },
@@ -351,7 +459,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "pasado simple",
       "id": "initial_research_pasado_simple"
     },
@@ -364,7 +472,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "futuro simple",
       "id": "initial_research_futuro_simple"
     },
@@ -377,7 +485,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "comparacion: ingles vs. vela",
       "id": "initial_research_comparaci_n_ingl_s_vs_vela"
     },
@@ -390,7 +498,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "negacion",
       "id": "initial_research_negaci_n"
     },
@@ -403,7 +511,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "preguntas",
       "id": "initial_research_preguntas"
     },
@@ -416,7 +524,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "6. sistema de construccion de palabras \u2014 el corazon de vela",
       "id": "initial_research_6_sistema_de_construcci_n_de_palabras_el_co"
     },
@@ -429,7 +537,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "6.1 raices + afijos = vocabulario infinito",
       "id": "initial_research_6_1_ra_ces_afijos_vocabulario_infinito"
     },
@@ -442,7 +550,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "prefijos",
       "id": "initial_research_prefijos"
     },
@@ -455,7 +563,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "sufijos",
       "id": "initial_research_sufijos"
     },
@@ -468,7 +576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "6.2 composicion: palabras complejas de raices simples",
       "id": "initial_research_6_2_composici_n_palabras_complejas_de_ra_ce"
     },
@@ -481,7 +589,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "6.3 categorias gramaticales por terminacion",
       "id": "initial_research_6_3_categor_as_gramaticales_por_terminaci_n"
     },
@@ -494,7 +602,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "7. comparacion con otros idiomas",
       "id": "initial_research_7_comparaci_n_con_otros_idiomas"
     },
@@ -507,7 +615,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "7.1 tabla comparativa de sistemas verbales",
       "id": "initial_research_7_1_tabla_comparativa_de_sistemas_verbales"
     },
@@ -520,7 +628,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "7.2 comparacion de frases",
       "id": "initial_research_7_2_comparaci_n_de_frases"
     },
@@ -533,7 +641,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "8. la belleza en vela \u2014 diseno fonico intencional",
       "id": "initial_research_8_la_belleza_en_vela_dise_o_f_nico_intencio"
     },
@@ -546,7 +654,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "8.1 \u00bfque hace que un idioma suene bien?",
       "id": "initial_research_8_1_qu_hace_que_un_idioma_suene_bien"
     },
@@ -559,7 +667,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "8.2 decisiones de diseno de vela para la belleza",
       "id": "initial_research_8_2_decisiones_de_dise_o_de_vela_para_la_be"
     },
@@ -572,7 +680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "9. estructura temporal y numeros",
       "id": "initial_research_9_estructura_temporal_y_n_meros"
     },
@@ -585,7 +693,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "9.1 dias de la semana",
       "id": "initial_research_9_1_d_as_de_la_semana"
     },
@@ -598,7 +706,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "9.2 numeros",
       "id": "initial_research_9_2_n_meros"
     },
@@ -611,7 +719,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "10. ejemplos de frases completas",
       "id": "initial_research_10_ejemplos_de_frases_completas"
     },
@@ -624,7 +732,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "saludos y cotidiano",
       "id": "initial_research_saludos_y_cotidiano"
     },
@@ -637,7 +745,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "viajes y direcciones",
       "id": "initial_research_viajes_y_direcciones"
     },
@@ -650,7 +758,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "filosofia y emociones",
       "id": "initial_research_filosof_a_y_emociones"
     },
@@ -663,7 +771,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "negocios y sociedad",
       "id": "initial_research_negocios_y_sociedad"
     },
@@ -676,7 +784,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "11. raices fundamentales (core vocabulary)",
       "id": "initial_research_11_ra_ces_fundamentales_core_vocabulary"
     },
@@ -689,7 +797,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "pronombres y determinantes",
       "id": "initial_research_pronombres_y_determinantes"
     },
@@ -702,7 +810,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "verbos basicos",
       "id": "initial_research_verbos_b_sicos"
     },
@@ -715,7 +823,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "sustantivos comunes",
       "id": "initial_research_sustantivos_comunes"
     },
@@ -728,7 +836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "adjetivos",
       "id": "initial_research_adjetivos"
     },
@@ -741,7 +849,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "12. top 1000 palabras en vela",
       "id": "initial_research_12_top_1000_palabras_en_vela"
     },
@@ -754,7 +862,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "\ud83d\udcd6 top 1000 palabras en vela",
       "id": "initial_research_top_1000_palabras_en_vela"
     },
@@ -767,7 +875,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "\ud83d\udcc1 archivo completo \u2014 las 1000 palabras",
       "id": "initial_research_archivo_completo_las_1000_palabras"
     },
@@ -780,7 +888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "\ud83d\udca1 mejoras propuestas \u2014 version 2.0",
       "id": "initial_research_mejoras_propuestas_versi_n_2_0"
     },
@@ -793,7 +901,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "1. tono musical: pitch accent en vez de stress",
       "id": "initial_research_1_tono_musical_pitch_accent_en_vez_de_stres"
     },
@@ -806,7 +914,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "2. sistema de clasificadores (opcional, para mayor precision)",
       "id": "initial_research_2_sistema_de_clasificadores_opcional_para_m"
     },
@@ -819,7 +927,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3. sistema de numeros mas sistematico",
       "id": "initial_research_3_sistema_de_n_meros_m_s_sistem_tico"
     },
@@ -832,7 +940,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "4. negacion estratificada",
       "id": "initial_research_4_negaci_n_estratificada"
     },
@@ -845,7 +953,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "5. afijos adicionales de alta productividad",
       "id": "initial_research_5_afijos_adicionales_de_alta_productividad"
     },
@@ -858,7 +966,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "6. los 5 mandamientos de vela (resumen)",
       "id": "initial_research_6_los_5_mandamientos_de_vela_resumen"
     },
@@ -871,7 +979,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "-ful",
       "id": "initial_research_ful"
     },
@@ -884,7 +992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "-ing",
       "id": "initial_research_ing"
     },
@@ -897,7 +1005,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "-ish",
       "id": "initial_research_ish"
     },
@@ -910,7 +1018,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "-les",
       "id": "initial_research_les"
     },
@@ -923,7 +1031,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "-nes",
       "id": "initial_research_nes"
     },
@@ -936,7 +1044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "-wil",
       "id": "initial_research_wil"
     },
@@ -949,7 +1057,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "1 (la)",
       "id": "initial_research_1_la"
     },
@@ -962,7 +1070,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "1. vocales abiertas predominan en raices positivas:",
       "id": "initial_research_1_vocales_abiertas_predominan_en_ra_ces_pos"
     },
@@ -975,7 +1083,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "2. consonantes \"duras\" para conceptos fuertes:",
       "id": "initial_research_2_consonantes_duras_para_conceptos_fuertes"
     },
@@ -988,7 +1096,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "3. terminaciones en vocal para fluidez:",
       "id": "initial_research_3_terminaciones_en_vocal_para_fluidez"
     },
@@ -1001,7 +1109,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "4. sonoridad musical (eufonia):",
       "id": "initial_research_4_sonoridad_musical_eufon_a"
     },
@@ -1014,7 +1122,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "el mismo sistema para todos los verbos, sin excepcion.",
       "id": "initial_research_el_mismo_sistema_para_todos_los_verbos_sin_"
     },
@@ -1027,7 +1135,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "evitar cacofonia",
       "id": "initial_research_evitar_cacofon_a"
     },
@@ -1040,7 +1148,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "excepciones\u6e29\u67d4\u7684:",
       "id": "initial_research_excepciones"
     },
@@ -1053,7 +1161,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "fraidei",
       "id": "initial_research_fraidei"
     },
@@ -2717,7 +2825,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "roadmap",
       "id": "roadmap"
     },
@@ -2730,7 +2838,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "\ud83d\uddfa\ufe0f vela \u2014 roadmap completo",
       "id": "roadmap_vela_roadmap_completo"
     },
@@ -2743,7 +2851,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "decisiones de diseno ya fijadas \u2699\ufe0f",
       "id": "roadmap_decisiones_de_dise_o_ya_fijadas"
     },
@@ -2756,7 +2864,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "resumen de fases",
       "id": "roadmap_resumen_de_fases"
     },
@@ -2769,7 +2877,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 1 \u2014 fonologia final \u2705 completa",
       "id": "roadmap_fase_1_fonolog_a_final_completa"
     },
@@ -2782,7 +2890,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "\ud83d\udccb checklist",
       "id": "roadmap_checklist"
     },
@@ -2795,7 +2903,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 2 \u2014 sistema de escritura \u2705 completa",
       "id": "roadmap_fase_2_sistema_de_escritura_completa"
     },
@@ -2808,7 +2916,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 3 \u2014 gramatica completa",
       "id": "roadmap_fase_3_gram_tica_completa"
     },
@@ -2821,7 +2929,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 4 \u2014 lexico base (1000 palabras)",
       "id": "roadmap_fase_4_l_xico_base_1000_palabras"
     },
@@ -2834,7 +2942,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 5 \u2014 lexico extendido (3000+ palabras)",
       "id": "roadmap_fase_5_l_xico_extendido_3000_palabras"
     },
@@ -2847,7 +2955,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 6 \u2014 gramatica de referencia",
       "id": "roadmap_fase_6_gram_tica_de_referencia"
     },
@@ -2860,7 +2968,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 7 \u2014 diccionario",
       "id": "roadmap_fase_7_diccionario"
     },
@@ -2873,7 +2981,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 8 \u2014 textos y muestras",
       "id": "roadmap_fase_8_textos_y_muestras"
     },
@@ -2886,7 +2994,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 9 \u2014 audio y pronunciacion estandar",
       "id": "roadmap_fase_9_audio_y_pronunciaci_n_est_ndar"
     },
@@ -2899,7 +3007,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "fase 10 \u2014 comunidad y evolucion",
       "id": "roadmap_fase_10_comunidad_y_evoluci_n"
     },
@@ -2912,7 +3020,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "checklist maestro \u2014 progreso total",
       "id": "roadmap_checklist_maestro_progreso_total"
     },
@@ -2925,7 +3033,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 26,
       "norm_label": "orden de trabajo recomendado",
       "id": "roadmap_orden_de_trabajo_recomendado"
     },
@@ -2938,7 +3046,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.1 inventario de consonantes",
       "id": "roadmap_1_1_inventario_de_consonantes"
     },
@@ -2951,7 +3059,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.10 test de pronunciabilidad",
       "id": "roadmap_1_10_test_de_pronunciabilidad"
     },
@@ -2964,7 +3072,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.2 inventario de vocales",
       "id": "roadmap_1_2_inventario_de_vocales"
     },
@@ -2977,7 +3085,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.3 reglas alofonicas",
       "id": "roadmap_1_3_reglas_alof_nicas"
     },
@@ -2990,7 +3098,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.4 estructura silabica",
       "id": "roadmap_1_4_estructura_sil_bica"
     },
@@ -3003,7 +3111,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.5 pitch accent",
       "id": "roadmap_1_5_pitch_accent"
     },
@@ -3016,7 +3124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.6 tono vs. acento",
       "id": "roadmap_1_6_tono_vs_acento"
     },
@@ -3029,7 +3137,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.7 palabras prohibidas",
       "id": "roadmap_1_7_palabras_prohibidas"
     },
@@ -3042,7 +3150,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.8 lista de prueba",
       "id": "roadmap_1_8_lista_de_prueba"
     },
@@ -3055,7 +3163,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "1.9 ajuste fonologico",
       "id": "roadmap_1_9_ajuste_fonol_gico"
     },
@@ -3068,7 +3176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "2.1 alfabeto confirmado",
       "id": "roadmap_2_1_alfabeto_confirmado"
     },
@@ -3081,7 +3189,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "2.10 practica de escritura",
       "id": "roadmap_2_10_pr_ctica_de_escritura"
     },
@@ -3094,7 +3202,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "2.2 sh = /\u0283/ confirmado",
       "id": "roadmap_2_2_sh_confirmado"
     },
@@ -3107,7 +3215,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "2.3 mayusculas",
       "id": "roadmap_2_3_may_sculas"
     },
@@ -3120,7 +3228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "2.4 puntuacion",
       "id": "roadmap_2_4_puntuaci_n"
     },
@@ -3133,7 +3241,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "summary",
       "id": "summary"
     },
@@ -3146,7 +3254,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "vela deliberation summary \u2014 case system re-evaluation",
       "id": "summary_vela_deliberation_summary_case_system_re_evaluation"
     },
@@ -3159,7 +3267,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "executive overview",
       "id": "summary_executive_overview"
     },
@@ -3172,7 +3280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "total specialists",
       "id": "summary_total_specialists"
     },
@@ -3185,7 +3293,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "approved changes",
       "id": "summary_approved_changes"
     },
@@ -3198,7 +3306,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "decision rationale snapshot",
       "id": "summary_decision_rationale_snapshot"
     },
@@ -3211,7 +3319,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "why `-to` instead of `-ta` or full vowel overhaul?",
       "id": "summary_why_to_instead_of_ta_or_full_vowel_overhaul"
     },
@@ -3224,7 +3332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "why root-case-plural and not a vowel plural marker?",
       "id": "summary_why_root_case_plural_and_not_a_vowel_plural_marker"
     },
@@ -3237,7 +3345,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "why eliminate `-f` entirely rather than regularize `liz`?",
       "id": "summary_why_eliminate_f_entirely_rather_than_regularize_liz"
     },
@@ -3250,7 +3358,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "why not split locative into two cases (`-to` / `-ne`)?",
       "id": "summary_why_not_split_locative_into_two_cases_to_ne"
     },
@@ -3263,7 +3371,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "why `dose` and not a new genitive suffix?",
       "id": "summary_why_dose_and_not_a_new_genitive_suffix"
     },
@@ -3276,7 +3384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "unresolved points (future topics)",
       "id": "summary_unresolved_points_future_topics"
     },
@@ -3289,7 +3397,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "files requiring update",
       "id": "summary_files_requiring_update"
     },
@@ -3302,7 +3410,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "next steps",
       "id": "summary_next_steps"
     },
@@ -3315,7 +3423,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 27,
       "norm_label": "five changes were approved",
       "id": "summary_five_changes_were_approved"
     },
@@ -3328,7 +3436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "skill",
       "id": "skill"
     },
@@ -3341,7 +3449,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "vela deliberation system",
       "id": "skill_vela_deliberation_system"
     },
@@ -3354,7 +3462,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "what this is",
       "id": "skill_what_this_is"
     },
@@ -3367,7 +3475,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "models in use",
       "id": "skill_models_in_use"
     },
@@ -3380,7 +3488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "quick start",
       "id": "skill_quick_start"
     },
@@ -3393,7 +3501,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "files",
       "id": "skill_files"
     },
@@ -3406,7 +3514,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "skill",
       "id": "skill_skill"
     },
@@ -3419,7 +3527,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 35,
       "norm_label": "different ollama cloud model",
       "id": "skill_different_ollama_cloud_model"
     },
@@ -4511,7 +4619,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "example run",
       "id": "example_run"
     },
@@ -4524,7 +4632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "example deliberation run",
       "id": "example_run_example_deliberation_run"
     },
@@ -4537,7 +4645,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "topic",
       "id": "example_run_topic"
     },
@@ -4550,7 +4658,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "how it was launched",
       "id": "example_run_how_it_was_launched"
     },
@@ -4563,7 +4671,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "expected timeline",
       "id": "example_run_expected_timeline"
     },
@@ -4576,7 +4684,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "expected outputs",
       "id": "example_run_expected_outputs"
     },
@@ -4589,7 +4697,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "example output snippet (projected)",
       "id": "example_run_example_output_snippet_projected"
     },
@@ -4602,7 +4710,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 36,
       "norm_label": "total: ~30 minutes for a full run.",
       "id": "example_run_total_30_minutes_for_a_full_run"
     },
@@ -4745,7 +4853,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "current topic",
       "id": "current_topic"
     },
@@ -4758,7 +4866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "topic: [title]",
       "id": "current_topic_topic_title"
     },
@@ -4771,7 +4879,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "scope",
       "id": "current_topic_scope"
     },
@@ -4784,7 +4892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "source files to analyze",
       "id": "current_topic_source_files_to_analyze"
     },
@@ -4797,7 +4905,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "focus questions",
       "id": "current_topic_focus_questions"
     },
@@ -4810,7 +4918,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "constraints",
       "id": "current_topic_constraints"
     },
@@ -5408,7 +5516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "topic: vela case system re-evaluation",
       "id": "current_topic_topic_vela_case_system_re_evaluation"
     },
@@ -5655,7 +5763,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "morphologist",
       "id": "morphologist"
     },
@@ -5668,7 +5776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "proposal \u2014 vela morphologist (ollama/deepseek-v4-pro)",
       "id": "morphologist_proposal_vela_morphologist_ollama_deepseek_v4_p"
     },
@@ -5681,7 +5789,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "problems identified",
       "id": "morphologist_problems_identified"
     },
@@ -5694,7 +5802,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "problem 1: genitive\u2013possessive dual system (redundancy)",
       "id": "morphologist_problem_1_genitive_possessive_dual_system_redun"
     },
@@ -5707,7 +5815,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "problem 2: locative optionality undermines necessity",
       "id": "morphologist_problem_2_locative_optionality_undermines_neces"
     },
@@ -5720,7 +5828,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "problem 3: locative `-te` conflates spatial and statal functions",
       "id": "morphologist_problem_3_locative_te_conflates_spatial_and_sta"
     },
@@ -5733,7 +5841,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "description",
       "id": "morphologist_description"
     },
@@ -5746,7 +5854,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "justification",
       "id": "morphologist_justification"
     },
@@ -5759,7 +5867,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "proposed alternatives",
       "id": "morphologist_proposed_alternatives"
     },
@@ -5772,7 +5880,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "severity",
       "id": "morphologist_severity"
     },
@@ -5785,7 +5893,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "lexicographer",
       "id": "lexicographer"
     },
@@ -5798,7 +5906,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "proposal \u2014 vela lexicographer (ollama/glm-5.1:cloud)",
       "id": "lexicographer_proposal_vela_lexicographer_ollama_glm_5_1_clo"
     },
@@ -5811,7 +5919,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "problems identified",
       "id": "lexicographer_problems_identified"
     },
@@ -5824,7 +5932,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "problem 1: morpheme boundary clash \u2014 `dase` vs. `-se` genitive",
       "id": "lexicographer_problem_1_morpheme_boundary_clash_dase_vs_se_g"
     },
@@ -5837,7 +5945,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "problem 2: lexical redundancy between `of` and genitive `-se`",
       "id": "lexicographer_problem_2_lexical_redundancy_between_of_and_ge"
     },
@@ -5850,7 +5958,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "problem 3: asymmetric possessive marking \u2014 `-f` on pronouns vs. `-se` on nouns",
       "id": "lexicographer_problem_3_asymmetric_possessive_marking_f_on_p"
     },
@@ -5863,7 +5971,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "description",
       "id": "lexicographer_description"
     },
@@ -5876,7 +5984,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "justification",
       "id": "lexicographer_justification"
     },
@@ -5889,7 +5997,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "proposed alternatives",
       "id": "lexicographer_proposed_alternatives"
     },
@@ -5902,7 +6010,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "severity",
       "id": "lexicographer_severity"
     },
@@ -5915,7 +6023,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "semanticist",
       "id": "semanticist"
     },
@@ -5928,7 +6036,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "proposal \u2014 vela semanticist (manual, 5th voice)",
       "id": "semanticist_proposal_vela_semanticist_manual_5th_voice"
     },
@@ -5941,7 +6049,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "problems identified",
       "id": "semanticist_problems_identified"
     },
@@ -5954,7 +6062,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "problem 1: genitive `-se` violates monosemy by overloading semantic roles",
       "id": "semanticist_problem_1_genitive_se_violates_monosemy_by_overl"
     },
@@ -5967,7 +6075,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "problem 2: locative `-te` conflates three distinct semantic domains",
       "id": "semanticist_problem_2_locative_te_conflates_three_distinct_s"
     },
@@ -5980,7 +6088,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "problem 3: optionality of `-te` with prepositions creates structural homonymy",
       "id": "semanticist_problem_3_optionality_of_te_with_prepositions_cr"
     },
@@ -5993,7 +6101,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "description",
       "id": "semanticist_description"
     },
@@ -6006,7 +6114,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "justification",
       "id": "semanticist_justification"
     },
@@ -6019,7 +6127,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "proposed alternatives",
       "id": "semanticist_proposed_alternatives"
     },
@@ -6032,7 +6140,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 32,
       "norm_label": "severity",
       "id": "semanticist_severity"
     },
@@ -6045,7 +6153,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "aestheticist",
       "id": "aestheticist"
     },
@@ -6058,7 +6166,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "proposal \u2014 vela aestheticist (ollama/kimi-k2.6:cloud)",
       "id": "aestheticist_proposal_vela_aestheticist_ollama_kimi_k2_6_clo"
     },
@@ -6071,7 +6179,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "problems identified",
       "id": "aestheticist_problems_identified"
     },
@@ -6084,7 +6192,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "problem 1: the \"delicate tail\" \u2014 /e/ robs grammatical suffixes of acoustic weight",
       "id": "aestheticist_problem_1_the_delicate_tail_e_robs_grammatical_"
     },
@@ -6097,7 +6205,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "problem 2: the \"monotone e\" \u2014 both cases sharing /e/ erases timbral contrast",
       "id": "aestheticist_problem_2_the_monotone_e_both_cases_sharing_e_e"
     },
@@ -6110,7 +6218,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "problem 3: the \"sibilant sandwich\" \u2014 `man-s-se` is phonetically brittle and melodically hijacked",
       "id": "aestheticist_problem_3_the_sibilant_sandwich_man_s_se_is_pho"
     },
@@ -6123,7 +6231,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "description",
       "id": "aestheticist_description"
     },
@@ -6136,7 +6244,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "justification",
       "id": "aestheticist_justification"
     },
@@ -6149,7 +6257,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "proposed alternatives",
       "id": "aestheticist_proposed_alternatives"
     },
@@ -6162,7 +6270,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "severity",
       "id": "aestheticist_severity"
     },
@@ -6175,7 +6283,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "both",
       "id": "aestheticist_both"
     },
@@ -6188,7 +6296,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "phonologist",
       "id": "phonologist"
     },
@@ -6201,7 +6309,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "proposal \u2014 vela phonologist (ollama/kimi-k2.6:cloud)",
       "id": "phonologist_proposal_vela_phonologist_ollama_kimi_k2_6_cloud"
     },
@@ -6214,7 +6322,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "problems identified",
       "id": "phonologist_problems_identified"
     },
@@ -6227,7 +6335,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "problem 1: sibilant suffix stacking creates geminate-like clusters",
       "id": "phonologist_problem_1_sibilant_suffix_stacking_creates_gemin"
     },
@@ -6240,7 +6348,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "problem 2: penultimate pitch accent demotes the lexical root",
       "id": "phonologist_problem_2_penultimate_pitch_accent_demotes_the_l"
     },
@@ -6253,7 +6361,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "problem 3: overuse of /e/ as a uniform grammatical vowel",
       "id": "phonologist_problem_3_overuse_of_e_as_a_uniform_grammatical_"
     },
@@ -6266,7 +6374,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "description",
       "id": "phonologist_description"
     },
@@ -6279,7 +6387,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "justification",
       "id": "phonologist_justification"
     },
@@ -6292,7 +6400,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "proposed alternatives",
       "id": "phonologist_proposed_alternatives"
     },
@@ -6305,7 +6413,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 33,
       "norm_label": "severity",
       "id": "phonologist_severity"
     },
@@ -6318,7 +6426,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "zompiskit raw",
       "id": "zompiskit_raw"
     },
@@ -6331,7 +6439,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "the language construction kit \u2014 raw content",
       "id": "zompiskit_raw_the_language_construction_kit_raw_content"
     },
@@ -6344,7 +6452,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "source: https://www.zompist.com/kit.html",
       "id": "zompiskit_raw_source_https_www_zompist_com_kit_html"
     },
@@ -6357,7 +6465,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "\u00a9 mark rosenfelder 1996, 2012",
       "id": "zompiskit_raw_mark_rosenfelder_1996_2012"
     },
@@ -6370,7 +6478,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "raw page content",
       "id": "zompiskit_raw_raw_page_content"
     },
@@ -6383,7 +6491,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "how to use this kit",
       "id": "zompiskit_raw_how_to_use_this_kit"
     },
@@ -6396,7 +6504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "organization",
       "id": "zompiskit_raw_organization"
     },
@@ -6409,7 +6517,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "where do i go from here?",
       "id": "zompiskit_raw_where_do_i_go_from_here"
     },
@@ -6422,7 +6530,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 34,
       "norm_label": "also from mark rosenfelder:",
       "id": "zompiskit_raw_also_from_mark_rosenfelder"
     },
@@ -7020,7 +7128,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "07 advanced morphology",
       "id": "07_advanced_morphology"
     },
@@ -7033,7 +7141,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "vela conlang project: advanced morphology",
       "id": "07_advanced_morphology_vela_conlang_project_advanced_morphol"
     },
@@ -7046,7 +7154,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "research document 7 \u2014 polysynthesis, alignment, switch-reference, and the encoding of perspective",
       "id": "07_advanced_morphology_research_document_7_polysynthesis_ali"
     },
@@ -7059,7 +7167,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "1. introduction: morphology as cognitive architecture",
       "id": "07_advanced_morphology_1_introduction_morphology_as_cognitiv"
     },
@@ -7072,7 +7180,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "2. polysynthesis: building sentence-words",
       "id": "07_advanced_morphology_2_polysynthesis_building_sentence_wor"
     },
@@ -7085,7 +7193,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "2.1 what is polysynthesis?",
       "id": "07_advanced_morphology_2_1_what_is_polysynthesis"
     },
@@ -7098,7 +7206,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "2.2 defining characteristics",
       "id": "07_advanced_morphology_2_2_defining_characteristics"
     },
@@ -7111,7 +7219,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "2.3 famous polysynthetic languages",
       "id": "07_advanced_morphology_2_3_famous_polysynthetic_languages"
     },
@@ -7124,7 +7232,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "2.4 incorporation",
       "id": "07_advanced_morphology_2_4_incorporation"
     },
@@ -7137,7 +7245,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "3. verb serialization",
       "id": "07_advanced_morphology_3_verb_serialization"
     },
@@ -7150,7 +7258,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "3.1 what is verb serialization?",
       "id": "07_advanced_morphology_3_1_what_is_verb_serialization"
     },
@@ -7163,7 +7271,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "3.2 serial verb languages",
       "id": "07_advanced_morphology_3_2_serial_verb_languages"
     },
@@ -7176,7 +7284,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "3.3 vela recommendation",
       "id": "07_advanced_morphology_3_3_vela_recommendation"
     },
@@ -7189,7 +7297,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "4. switch-reference systems",
       "id": "07_advanced_morphology_4_switch_reference_systems"
     },
@@ -7202,7 +7310,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "4.1 what is switch-reference?",
       "id": "07_advanced_morphology_4_1_what_is_switch_reference"
     },
@@ -7215,7 +7323,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "4.2 purposes of switch-reference",
       "id": "07_advanced_morphology_4_2_purposes_of_switch_reference"
     },
@@ -7228,7 +7336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "4.3 switch-reference in practice",
       "id": "07_advanced_morphology_4_3_switch_reference_in_practice"
     },
@@ -7241,7 +7349,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "4.4 vela recommendation",
       "id": "07_advanced_morphology_4_4_vela_recommendation"
     },
@@ -7254,7 +7362,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "5. alignment systems",
       "id": "07_advanced_morphology_5_alignment_systems"
     },
@@ -7267,7 +7375,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "5.1 the problem of grammatical relations",
       "id": "07_advanced_morphology_5_1_the_problem_of_grammatical_relati"
     },
@@ -7280,7 +7388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "5.2 nominative-accusative alignment",
       "id": "07_advanced_morphology_5_2_nominative_accusative_alignment"
     },
@@ -7293,7 +7401,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "5.3 ergative-absolutive alignment",
       "id": "07_advanced_morphology_5_3_ergative_absolutive_alignment"
     },
@@ -7306,7 +7414,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "5.4 active-stative (split-s) alignment",
       "id": "07_advanced_morphology_5_4_active_stative_split_s_alignment"
     },
@@ -7319,7 +7427,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "6. tripartite alignment",
       "id": "07_advanced_morphology_6_tripartite_alignment"
     },
@@ -7332,7 +7440,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "6.1 what is tripartite alignment?",
       "id": "07_advanced_morphology_6_1_what_is_tripartite_alignment"
     },
@@ -7345,7 +7453,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "7. how languages encode perspective and empathy",
       "id": "07_advanced_morphology_7_how_languages_encode_perspective_an"
     },
@@ -7358,7 +7466,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "7.1 subject marking and empathy",
       "id": "07_advanced_morphology_7_1_subject_marking_and_empathy"
     },
@@ -7371,7 +7479,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "7.2 the passive and its alternatives",
       "id": "07_advanced_morphology_7_2_the_passive_and_its_alternatives"
     },
@@ -7384,7 +7492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "7.3 the symmetry of person marking",
       "id": "07_advanced_morphology_7_3_the_symmetry_of_person_marking"
     },
@@ -7397,7 +7505,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "8. case systems: types and functions",
       "id": "07_advanced_morphology_8_case_systems_types_and_functions"
     },
@@ -7410,7 +7518,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "8.1 major case types",
       "id": "07_advanced_morphology_8_1_major_case_types"
     },
@@ -7423,7 +7531,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "8.2 case systems across languages",
       "id": "07_advanced_morphology_8_2_case_systems_across_languages"
     },
@@ -7436,7 +7544,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "8.3 how cases derive (grammaticalization)",
       "id": "07_advanced_morphology_8_3_how_cases_derive_grammaticalizati"
     },
@@ -7449,7 +7557,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "9. vela morphological design recommendations",
       "id": "07_advanced_morphology_9_vela_morphological_design_recommend"
     },
@@ -7462,7 +7570,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "9.1 overall morphological type",
       "id": "07_advanced_morphology_9_1_overall_morphological_type"
     },
@@ -7475,7 +7583,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "9.2 recommended morphological features",
       "id": "07_advanced_morphology_9_2_recommended_morphological_feature"
     },
@@ -7488,7 +7596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "9.3 sample paradigm",
       "id": "07_advanced_morphology_9_3_sample_paradigm"
     },
@@ -7501,7 +7609,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "10. sources & further reading",
       "id": "07_advanced_morphology_10_sources_further_reading"
     },
@@ -7514,7 +7622,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "2 noun classes:",
       "id": "07_advanced_morphology_2_noun_classes"
     },
@@ -7527,7 +7635,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "4 noun cases:",
       "id": "07_advanced_morphology_4_noun_cases"
     },
@@ -7540,7 +7648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "ablative:",
       "id": "07_advanced_morphology_ablative"
     },
@@ -7553,7 +7661,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "absolutive:",
       "id": "07_advanced_morphology_absolutive"
     },
@@ -7566,7 +7674,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "accusative:",
       "id": "07_advanced_morphology_accusative"
     },
@@ -7579,7 +7687,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "actor-emphatic constructions",
       "id": "07_advanced_morphology_actor_emphatic_constructions"
     },
@@ -7592,7 +7700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "agentive intransitive verbs",
       "id": "07_advanced_morphology_agentive_intransitive_verbs"
     },
@@ -7605,7 +7713,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "algonquian:",
       "id": "07_advanced_morphology_algonquian"
     },
@@ -7618,7 +7726,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "allative:",
       "id": "07_advanced_morphology_allative"
     },
@@ -7631,7 +7739,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "applicative suffix:",
       "id": "07_advanced_morphology_applicative_suffix"
     },
@@ -7644,7 +7752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "aspect:",
       "id": "07_advanced_morphology_aspect"
     },
@@ -7657,7 +7765,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "avoiding ambiguity:",
       "id": "07_advanced_morphology_avoiding_ambiguity"
     },
@@ -7670,7 +7778,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "basque:",
       "id": "07_advanced_morphology_basque"
     },
@@ -7683,7 +7791,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "carib:",
       "id": "07_advanced_morphology_carib"
     },
@@ -7696,7 +7804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "causative suffix:",
       "id": "07_advanced_morphology_causative_suffix"
     },
@@ -8697,7 +8805,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "08 lexicography",
       "id": "08_lexicography"
     },
@@ -8710,7 +8818,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "vela conlang project: lexicography methods",
       "id": "08_lexicography_vela_conlang_project_lexicography_methods"
     },
@@ -8723,7 +8831,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "research document 8 \u2014 building a 1,000+ word lexicon without sounding like english",
       "id": "08_lexicography_research_document_8_building_a_1_000_word_le"
     },
@@ -8736,7 +8844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "1. introduction: the vocabulary challenge",
       "id": "08_lexicography_1_introduction_the_vocabulary_challenge"
     },
@@ -8749,7 +8857,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "2. root creation: the foundation",
       "id": "08_lexicography_2_root_creation_the_foundation"
     },
@@ -8762,7 +8870,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "2.1 what is a root?",
       "id": "08_lexicography_2_1_what_is_a_root"
     },
@@ -8775,7 +8883,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "2.2 root creation algorithm",
       "id": "08_lexicography_2_2_root_creation_algorithm"
     },
@@ -8788,7 +8896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "2.3 root generation tools",
       "id": "08_lexicography_2_3_root_generation_tools"
     },
@@ -8801,7 +8909,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "3. derivation: building words from roots",
       "id": "08_lexicography_3_derivation_building_words_from_roots"
     },
@@ -8814,7 +8922,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "3.1 affixation",
       "id": "08_lexicography_3_1_affixation"
     },
@@ -8827,7 +8935,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "3.2 compounding",
       "id": "08_lexicography_3_2_compounding"
     },
@@ -8840,7 +8948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "3.3 conversion (zero-derivation)",
       "id": "08_lexicography_3_3_conversion_zero_derivation"
     },
@@ -8853,7 +8961,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "4. semantic field organization",
       "id": "08_lexicography_4_semantic_field_organization"
     },
@@ -8866,7 +8974,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "4.1 what are semantic fields?",
       "id": "08_lexicography_4_1_what_are_semantic_fields"
     },
@@ -8879,7 +8987,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "4.2 priority semantic fields for vela",
       "id": "08_lexicography_4_2_priority_semantic_fields_for_vela"
     },
@@ -8892,7 +9000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "4.3 words vela should not have (yet)",
       "id": "08_lexicography_4_3_words_vela_should_not_have_yet"
     },
@@ -8905,7 +9013,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "5. avoiding anglocentrism in lexicon design",
       "id": "08_lexicography_5_avoiding_anglocentrism_in_lexicon_design"
     },
@@ -8918,7 +9026,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "5.1 the problem of false friends",
       "id": "08_lexicography_5_1_the_problem_of_false_friends"
     },
@@ -8931,7 +9039,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "5.2 cultural-specific vs. universal concepts",
       "id": "08_lexicography_5_2_cultural_specific_vs_universal_concepts"
     },
@@ -8944,7 +9052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "5.3 \"untranslatable\" words",
       "id": "08_lexicography_5_3_untranslatable_words"
     },
@@ -8957,7 +9065,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "5.4 loanwords and borrowing",
       "id": "08_lexicography_5_4_loanwords_and_borrowing"
     },
@@ -8970,7 +9078,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "6. number systems",
       "id": "08_lexicography_6_number_systems"
     },
@@ -8983,7 +9091,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "6.1 types of number systems",
       "id": "08_lexicography_6_1_types_of_number_systems"
     },
@@ -8996,7 +9104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "6.2 vela number system recommendation",
       "id": "08_lexicography_6_2_vela_number_system_recommendation"
     },
@@ -9009,7 +9117,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "7. pronoun systems",
       "id": "08_lexicography_7_pronoun_systems"
     },
@@ -9022,7 +9130,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "7.1 pronoun inventory",
       "id": "08_lexicography_7_1_pronoun_inventory"
     },
@@ -9035,7 +9143,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "7.2 social/politeness distinctions",
       "id": "08_lexicography_7_2_social_politeness_distinctions"
     },
@@ -9048,7 +9156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "7.3 demonstratives (this/that)",
       "id": "08_lexicography_7_3_demonstratives_this_that"
     },
@@ -9061,7 +9169,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "8. quality control: making words feel natural",
       "id": "08_lexicography_8_quality_control_making_words_feel_natural"
     },
@@ -9074,7 +9182,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "8.1 the 80/20 rule for vocabulary",
       "id": "08_lexicography_8_1_the_80_20_rule_for_vocabulary"
     },
@@ -9087,7 +9195,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "8.2 avoiding the \"dictionary feel\"",
       "id": "08_lexicography_8_2_avoiding_the_dictionary_feel"
     },
@@ -9100,7 +9208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "8.3 word frequency and zipf's law",
       "id": "08_lexicography_8_3_word_frequency_and_zipf_s_law"
     },
@@ -9113,7 +9221,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "8.4 testing vela's lexicon",
       "id": "08_lexicography_8_4_testing_vela_s_lexicon"
     },
@@ -9126,7 +9234,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "9. sample vela root lexicon (100 core words)",
       "id": "08_lexicography_9_sample_vela_root_lexicon_100_core_words"
     },
@@ -9139,7 +9247,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "9.1 nouns",
       "id": "08_lexicography_9_1_nouns"
     },
@@ -9152,7 +9260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "9.2 verbs",
       "id": "08_lexicography_9_2_verbs"
     },
@@ -9165,7 +9273,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "9.3 adjectives",
       "id": "08_lexicography_9_3_adjectives"
     },
@@ -9178,7 +9286,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "10. sources & further reading",
       "id": "08_lexicography_10_sources_further_reading"
     },
@@ -9191,7 +9299,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "1,000+ words for a complete-feeling dictionary",
       "id": "08_lexicography_1_000_words_for_a_complete_feeling_dictionar"
     },
@@ -9204,7 +9312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "1. endocentric compounds",
       "id": "08_lexicography_1_endocentric_compounds"
     },
@@ -9217,7 +9325,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "1st person plural exclusive",
       "id": "08_lexicography_1st_person_plural_exclusive"
     },
@@ -9230,7 +9338,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "2. exocentric compounds",
       "id": "08_lexicography_2_exocentric_compounds"
     },
@@ -9243,7 +9351,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "200-300 words for storytelling and simple texts",
       "id": "08_lexicography_200_300_words_for_storytelling_and_simple_te"
     },
@@ -9256,7 +9364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "3. appositional compounds:",
       "id": "08_lexicography_3_appositional_compounds"
     },
@@ -9269,7 +9377,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "4. coordinate compounds:",
       "id": "08_lexicography_4_coordinate_compounds"
     },
@@ -9282,7 +9390,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "50-100 words for basic communication",
       "id": "08_lexicography_50_100_words_for_basic_communication"
     },
@@ -9295,7 +9403,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "actions (basic):",
       "id": "08_lexicography_actions_basic"
     },
@@ -9308,7 +9416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "actions (expanded):",
       "id": "08_lexicography_actions_expanded"
     },
@@ -9321,7 +9429,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "animals:",
       "id": "08_lexicography_animals"
     },
@@ -9334,7 +9442,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "avoid:",
       "id": "08_lexicography_avoid"
     },
@@ -9347,7 +9455,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "awkwords",
       "id": "08_lexicography_awkwords"
     },
@@ -9360,7 +9468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "binary (base-2):",
       "id": "08_lexicography_binary_base_2"
     },
@@ -9373,7 +9481,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "body (korper, soma):",
       "id": "08_lexicography_body_k_rper_soma"
     },
@@ -9386,7 +9494,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "05 sound symbolism",
       "id": "05_sound_symbolism"
     },
@@ -9399,7 +9507,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "vela conlang project: sound symbolism",
       "id": "05_sound_symbolism_vela_conlang_project_sound_symbolism"
     },
@@ -9412,7 +9520,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "research document 5 \u2014 phonosemantics: the non-arbitrary mapping of sound and meaning",
       "id": "05_sound_symbolism_research_document_5_phonosemantics_the_no"
     },
@@ -9425,7 +9533,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "1. introduction: against the arbitrariness of the sign",
       "id": "05_sound_symbolism_1_introduction_against_the_arbitrariness_"
     },
@@ -9438,7 +9546,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "2. the bouba/kiki effect",
       "id": "05_sound_symbolism_2_the_bouba_kiki_effect"
     },
@@ -9451,7 +9559,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "2.1 discovery",
       "id": "05_sound_symbolism_2_1_discovery"
     },
@@ -9464,7 +9572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "2.2 why does it work?",
       "id": "05_sound_symbolism_2_2_why_does_it_work"
     },
@@ -9477,7 +9585,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "2.3 the broader implications",
       "id": "05_sound_symbolism_2_3_the_broader_implications"
     },
@@ -9490,7 +9598,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "3. vowel symbolism: size, shape, and quality",
       "id": "05_sound_symbolism_3_vowel_symbolism_size_shape_and_quality"
     },
@@ -9503,7 +9611,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "3.1 vowel height and perceived size",
       "id": "05_sound_symbolism_3_1_vowel_height_and_perceived_size"
     },
@@ -9516,7 +9624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "3.2 round vowels vs. sharp vowels",
       "id": "05_sound_symbolism_3_2_round_vowels_vs_sharp_vowels"
     },
@@ -9529,7 +9637,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "3.3 vowel symbolism and gender",
       "id": "05_sound_symbolism_3_3_vowel_symbolism_and_gender"
     },
@@ -9542,7 +9650,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "3.4 vowel symbolism in vela",
       "id": "05_sound_symbolism_3_4_vowel_symbolism_in_vela"
     },
@@ -9555,7 +9663,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4. consonant symbolism: manner and material",
       "id": "05_sound_symbolism_4_consonant_symbolism_manner_and_material"
     },
@@ -9568,7 +9676,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4.1 fricatives: the hissing/sibilant association",
       "id": "05_sound_symbolism_4_1_fricatives_the_hissing_sibilant_assoc"
     },
@@ -9581,7 +9689,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4.2 plosives and impact",
       "id": "05_sound_symbolism_4_2_plosives_and_impact"
     },
@@ -9594,7 +9702,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4.3 liquids and flow",
       "id": "05_sound_symbolism_4_3_liquids_and_flow"
     },
@@ -9607,7 +9715,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4.4 nasals and sound-containing",
       "id": "05_sound_symbolism_4_4_nasals_and_sound_containing"
     },
@@ -9620,7 +9728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4.5 consonant symbolism in vela",
       "id": "05_sound_symbolism_4_5_consonant_symbolism_in_vela"
     },
@@ -9633,7 +9741,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "5. phonaesthemes in natural languages",
       "id": "05_sound_symbolism_5_phonaesthemes_in_natural_languages"
     },
@@ -9646,7 +9754,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "5.1 english phonaestheme survey",
       "id": "05_sound_symbolism_5_1_english_phonaestheme_survey"
     },
@@ -9659,7 +9767,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "5.2 cross-linguistic phonaesthemes",
       "id": "05_sound_symbolism_5_2_cross_linguistic_phonaesthemes"
     },
@@ -9672,7 +9780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "5.3 grammaticalized sound symbolism",
       "id": "05_sound_symbolism_5_3_grammaticalized_sound_symbolism"
     },
@@ -9685,7 +9793,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "6. systematic application in vela",
       "id": "05_sound_symbolism_6_systematic_application_in_vela"
     },
@@ -9698,7 +9806,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "6.1 design principles for vela's sound symbolism",
       "id": "05_sound_symbolism_6_1_design_principles_for_vela_s_sound_sy"
     },
@@ -9711,7 +9819,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "6.2 root creation strategy",
       "id": "05_sound_symbolism_6_2_root_creation_strategy"
     },
@@ -9724,7 +9832,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "6.3 avoid over-systematicity",
       "id": "05_sound_symbolism_6_3_avoid_over_systematicity"
     },
@@ -9737,7 +9845,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "7. synesthesia and crossmodal mapping",
       "id": "05_sound_symbolism_7_synesthesia_and_crossmodal_mapping"
     },
@@ -9750,7 +9858,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "7.1 the psychology of crossmodal correspondences",
       "id": "05_sound_symbolism_7_1_the_psychology_of_crossmodal_correspo"
     },
@@ -9763,7 +9871,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "7.2 implications for vela",
       "id": "05_sound_symbolism_7_2_implications_for_vela"
     },
@@ -9776,7 +9884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "8. ideophones and sound-mimicking words",
       "id": "05_sound_symbolism_8_ideophones_and_sound_mimicking_words"
     },
@@ -9789,7 +9897,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "8.1 what are ideophones?",
       "id": "05_sound_symbolism_8_1_what_are_ideophones"
     },
@@ -9802,7 +9910,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "8.2 types of ideophones",
       "id": "05_sound_symbolism_8_2_types_of_ideophones"
     },
@@ -9815,7 +9923,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "8.3 vela ideophone system",
       "id": "05_sound_symbolism_8_3_vela_ideophone_system"
     },
@@ -9828,7 +9936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "9. literary/sound symbolism in poetry",
       "id": "05_sound_symbolism_9_literary_sound_symbolism_in_poetry"
     },
@@ -9841,7 +9949,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "9.1 sound symbolism in natural language poetry",
       "id": "05_sound_symbolism_9_1_sound_symbolism_in_natural_language_p"
     },
@@ -9854,7 +9962,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "9.2 vela's poetic tradition",
       "id": "05_sound_symbolism_9_2_vela_s_poetic_tradition"
     },
@@ -9867,7 +9975,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "10. sources & further reading",
       "id": "05_sound_symbolism_10_sources_further_reading"
     },
@@ -9880,7 +9988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "\"n-\":",
       "id": "05_sound_symbolism_n"
     },
@@ -9893,7 +10001,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "2.5 years old",
       "id": "05_sound_symbolism_2_5_years_old"
     },
@@ -9906,7 +10014,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "4 months",
       "id": "05_sound_symbolism_4_months"
     },
@@ -9919,7 +10027,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "90%+ of participants",
       "id": "05_sound_symbolism_90_of_participants"
     },
@@ -9932,7 +10040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "acoustic resonance hypothesis:",
       "id": "05_sound_symbolism_acoustic_resonance_hypothesis"
     },
@@ -9945,7 +10053,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "alliteration:",
       "id": "05_sound_symbolism_alliteration"
     },
@@ -9958,7 +10066,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "arbitrary elements",
       "id": "05_sound_symbolism_arbitrary_elements"
     },
@@ -9971,7 +10079,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "articulatory mapping hypothesis:",
       "id": "05_sound_symbolism_articulatory_mapping_hypothesis"
     },
@@ -9984,7 +10092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "assonance:",
       "id": "05_sound_symbolism_assonance"
     },
@@ -9997,7 +10105,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "augmentatives:",
       "id": "05_sound_symbolism_augmentatives"
     },
@@ -10010,7 +10118,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "brand names:",
       "id": "05_sound_symbolism_brand_names"
     },
@@ -10023,7 +10131,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "cold",
       "id": "05_sound_symbolism_cold"
     },
@@ -10036,7 +10144,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "consonance:",
       "id": "05_sound_symbolism_consonance"
     },
@@ -10049,7 +10157,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "crossmodal correspondence:",
       "id": "05_sound_symbolism_crossmodal_correspondence"
     },
@@ -10062,7 +10170,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "dialect variation",
       "id": "05_sound_symbolism_dialect_variation"
     },
@@ -12545,7 +12653,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "grammar complete",
       "id": "grammar_complete"
     },
@@ -13702,7 +13810,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-fai",
       "id": "grammar_complete_fai"
     },
@@ -13715,7 +13823,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-ful",
       "id": "grammar_complete_ful"
     },
@@ -13728,7 +13836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-ing",
       "id": "grammar_complete_ing"
     },
@@ -13741,7 +13849,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-ish",
       "id": "grammar_complete_ish"
     },
@@ -13754,7 +13862,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-les",
       "id": "grammar_complete_les"
     },
@@ -13767,7 +13875,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-nes",
       "id": "grammar_complete_nes"
     },
@@ -13780,7 +13888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-skap",
       "id": "grammar_complete_skap"
     },
@@ -13793,7 +13901,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "-wil",
       "id": "grammar_complete_wil"
     },
@@ -13806,7 +13914,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "accusative",
       "id": "grammar_complete_accusative"
     },
@@ -13819,7 +13927,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "agost",
       "id": "grammar_complete_agost"
     },
@@ -13832,7 +13940,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "aprim",
       "id": "grammar_complete_aprim"
     },
@@ -13845,7 +13953,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "decembr",
       "id": "grammar_complete_decembr"
     },
@@ -13858,7 +13966,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "every verb follows the same three rules:",
       "id": "grammar_complete_every_verb_follows_the_same_three_rules"
     },
@@ -13871,7 +13979,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "februari",
       "id": "grammar_complete_februari"
     },
@@ -13884,7 +13992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 0,
       "norm_label": "fraidei",
       "id": "grammar_complete_fraidei"
     },
@@ -13897,7 +14005,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "phonology final",
       "id": "phonology_final"
     },
@@ -13910,7 +14018,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "vela phonology \u2014 final document",
       "id": "phonology_final_vela_phonology_final_document"
     },
@@ -13923,7 +14031,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "1. inventario de consonantes \u2014 las 17",
       "id": "phonology_final_1_inventario_de_consonantes_las_17"
     },
@@ -13936,7 +14044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "1.1 decision: /r/ = alveolar multiple",
       "id": "phonology_final_1_1_decisi_n_r_alveolar_m_ltiple"
     },
@@ -13949,7 +14057,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "1.2 decision: no /\u0292/ (zh)",
       "id": "phonology_final_1_2_decisi_n_no_zh"
     },
@@ -13962,7 +14070,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "1.3 decision: no /\u03b8/ ni /\u00f0/ (th ingles)",
       "id": "phonology_final_1_3_decisi_n_no_ni_th_ingl_s"
     },
@@ -13975,7 +14083,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "2. inventario de vocales \u2014 las 5",
       "id": "phonology_final_2_inventario_de_vocales_las_5"
     },
@@ -13988,7 +14096,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "2.1 decision: sin longitud vocalica",
       "id": "phonology_final_2_1_decisi_n_sin_longitud_voc_lica"
     },
@@ -14001,7 +14109,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "2.2 decision: sin vocales nasales (a, e, etc.)",
       "id": "phonology_final_2_2_decisi_n_sin_vocales_nasales_etc"
     },
@@ -14014,7 +14122,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "2.3 decision: sin diptongos oficiales",
       "id": "phonology_final_2_3_decisi_n_sin_diptongos_oficiales"
     },
@@ -14027,7 +14135,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "3. estructura silabica \u2014 la regla (c)v",
       "id": "phonology_final_3_estructura_sil_bica_la_regla_c_v"
     },
@@ -14040,7 +14148,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "3.1 esta regla significa:",
       "id": "phonology_final_3_1_esta_regla_significa"
     },
@@ -14053,7 +14161,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "3.2 excepciones: consonantes permitidas al final",
       "id": "phonology_final_3_2_excepciones_consonantes_permitidas_al_fi"
     },
@@ -14066,7 +14174,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "3.3 verificacion de vocabulario existente",
       "id": "phonology_final_3_3_verificaci_n_de_vocabulario_existente"
     },
@@ -14079,7 +14187,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "4. clusters consonanticos \u2014 solo al inicio",
       "id": "phonology_final_4_clusters_conson_nticos_solo_al_inicio"
     },
@@ -14092,7 +14200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "4.1 clusters de 2 sonidos confirmados",
       "id": "phonology_final_4_1_clusters_de_2_sonidos_confirmados"
     },
@@ -14105,7 +14213,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "4.2 clusters de 3 sonidos (opcional, restrictivo)",
       "id": "phonology_final_4_2_clusters_de_3_sonidos_opcional_restricti"
     },
@@ -14118,7 +14226,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "4.3 clusters prohibidos",
       "id": "phonology_final_4_3_clusters_prohibidos"
     },
@@ -14131,7 +14239,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "5. pitch accent \u2014 la regla",
       "id": "phonology_final_5_pitch_accent_la_regla"
     },
@@ -14144,7 +14252,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "5.1 la regla del pitch accent",
       "id": "phonology_final_5_1_la_regla_del_pitch_accent"
     },
@@ -14157,7 +14265,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "5.2 como funciona en la practica",
       "id": "phonology_final_5_2_c_mo_funciona_en_la_pr_ctica"
     },
@@ -14170,7 +14278,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "5.3 \u00bfpor que pitch accent y no stress?",
       "id": "phonology_final_5_3_por_qu_pitch_accent_y_no_stress"
     },
@@ -14183,7 +14291,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "5.4 tono fraseologico",
       "id": "phonology_final_5_4_tono_fraseol_gico"
     },
@@ -14196,7 +14304,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "6. fonosimbolismo \u2014 sonidos que significan algo",
       "id": "phonology_final_6_fonosimbolismo_sonidos_que_significan_algo"
     },
@@ -14209,7 +14317,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "6.1 mapa de sonido-significado de vela",
       "id": "phonology_final_6_1_mapa_de_sonido_significado_de_vela"
     },
@@ -14222,7 +14330,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "6.2 aplicar al vocabulario",
       "id": "phonology_final_6_2_aplicar_al_vocabulario"
     },
@@ -14235,7 +14343,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "7. alofonos \u2014 como suenan los sonidos en contexto",
       "id": "phonology_final_7_al_fonos_c_mo_suenan_los_sonidos_en_contex"
     },
@@ -14248,7 +14356,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "7.1 reglas alofonicas de vela",
       "id": "phonology_final_7_1_reglas_alof_nicas_de_vela"
     },
@@ -14261,7 +14369,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "8. tabla completa de fonosemas vela",
       "id": "phonology_final_8_tabla_completa_de_fonosemas_vela"
     },
@@ -14274,7 +14382,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "9. lista de palabras de prueba",
       "id": "phonology_final_9_lista_de_palabras_de_prueba"
     },
@@ -14287,7 +14395,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "9.1 pronombres y gramatica",
       "id": "phonology_final_9_1_pronombres_y_gram_tica"
     },
@@ -14300,7 +14408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "9.2 verbos\u5e38\u7528",
       "id": "phonology_final_9_2_verbos"
     },
@@ -14313,7 +14421,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "9.3 sustantivos\u5e38\u7528",
       "id": "phonology_final_9_3_sustantivos"
     },
@@ -14326,7 +14434,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "9.4 compuestos de prueba",
       "id": "phonology_final_9_4_compuestos_de_prueba"
     },
@@ -14339,7 +14447,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "10. test de accesibilidad universal",
       "id": "phonology_final_10_test_de_accesibilidad_universal"
     },
@@ -14352,7 +14460,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "solucion para /v/, /z/, /sh/, /r/:",
       "id": "phonology_final_soluci_n_para_v_z_sh_r"
     },
@@ -14365,7 +14473,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "11. registro de decisiones fonologicas",
       "id": "phonology_final_11_registro_de_decisiones_fonol_gicas"
     },
@@ -14378,7 +14486,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "12. fonologia \u2014 resumen final",
       "id": "phonology_final_12_fonolog_a_resumen_final"
     },
@@ -14391,7 +14499,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "decision:",
       "id": "phonology_final_decisi_n"
     },
@@ -14404,7 +14512,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "estado:",
       "id": "phonology_final_estado"
     },
@@ -14417,7 +14525,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "fonologia completa \u2705",
       "id": "phonology_final_fonolog_a_completa"
     },
@@ -14430,7 +14538,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "fricativas",
       "id": "phonology_final_fricativas"
     },
@@ -14443,7 +14551,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "nasales",
       "id": "phonology_final_nasales"
     },
@@ -14456,7 +14564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "nota:",
       "id": "phonology_final_nota"
     },
@@ -14469,7 +14577,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "oclusivas",
       "id": "phonology_final_oclusivas"
     },
@@ -14482,7 +14590,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "pitch accent como japones y espanol:",
       "id": "phonology_final_pitch_accent_como_japon_s_y_espa_ol"
     },
@@ -14495,7 +14603,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "razon:",
       "id": "phonology_final_raz_n"
     },
@@ -14508,7 +14616,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "regla fundamental:",
       "id": "phonology_final_regla_fundamental"
     },
@@ -14521,7 +14629,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "roticas",
       "id": "phonology_final_r_ticas"
     },
@@ -14534,7 +14642,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "total: 18 fonemas consonanticos",
       "id": "phonology_final_total_18_fonemas_conson_nticos"
     },
@@ -14547,7 +14655,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "total: 5 fonemas vocalicos",
       "id": "phonology_final_total_5_fonemas_voc_licos"
     },
@@ -14560,7 +14668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "vela usa pitch accent, no stress (acento de intensidad).",
       "id": "phonology_final_vela_usa_pitch_accent_no_stress_acento_de_in"
     },
@@ -14573,7 +14681,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 8,
       "norm_label": "vocales abiertas",
       "id": "phonology_final_vocales_abiertas"
     },
@@ -14586,7 +14694,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "lexicon base",
       "id": "lexicon_base"
     },
@@ -14599,7 +14707,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "vela base lexicon \u2014 1,000+ words",
       "id": "lexicon_base_vela_base_lexicon_1_000_words"
     },
@@ -14612,7 +14720,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "section 1: core \u2014 pronouns, articles, small words",
       "id": "lexicon_base_section_1_core_pronouns_articles_small_words"
     },
@@ -14625,7 +14733,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "pronouns",
       "id": "lexicon_base_pronouns"
     },
@@ -14638,7 +14746,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "possessive short form (pronoun + **-f**)",
       "id": "lexicon_base_possessive_short_form_pronoun_f"
     },
@@ -14651,7 +14759,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "demonstratives",
       "id": "lexicon_base_demonstratives"
     },
@@ -14664,7 +14772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "articles",
       "id": "lexicon_base_articles"
     },
@@ -14677,7 +14785,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "essential prepositions",
       "id": "lexicon_base_essential_prepositions"
     },
@@ -14690,7 +14798,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "conjunctions",
       "id": "lexicon_base_conjunctions"
     },
@@ -14703,7 +14811,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "question words",
       "id": "lexicon_base_question_words"
     },
@@ -14716,7 +14824,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "answers",
       "id": "lexicon_base_answers"
     },
@@ -14729,7 +14837,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "time words",
       "id": "lexicon_base_time_words"
     },
@@ -14742,7 +14850,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "days of the week",
       "id": "lexicon_base_days_of_the_week"
     },
@@ -14755,7 +14863,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "months",
       "id": "lexicon_base_months"
     },
@@ -14768,7 +14876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "section 2: core verbs \u2014 zero irregular",
       "id": "lexicon_base_section_2_core_verbs_zero_irregular"
     },
@@ -14781,7 +14889,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "to be and essential states",
       "id": "lexicon_base_to_be_and_essential_states"
     },
@@ -14794,7 +14902,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "perception and communication",
       "id": "lexicon_base_perception_and_communication"
     },
@@ -14807,7 +14915,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "movement",
       "id": "lexicon_base_movement"
     },
@@ -14820,7 +14928,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "actions and work",
       "id": "lexicon_base_actions_and_work"
     },
@@ -14833,7 +14941,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "wants, needs, and preferences",
       "id": "lexicon_base_wants_needs_and_preferences"
     },
@@ -14846,7 +14954,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "mental and cognitive",
       "id": "lexicon_base_mental_and_cognitive"
     },
@@ -14859,7 +14967,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "possession and exchange",
       "id": "lexicon_base_possession_and_exchange"
     },
@@ -14872,7 +14980,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "social and abstract actions",
       "id": "lexicon_base_social_and_abstract_actions"
     },
@@ -14885,7 +14993,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "physical states and change",
       "id": "lexicon_base_physical_states_and_change"
     },
@@ -14898,7 +15006,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "modal verbs",
       "id": "lexicon_base_modal_verbs"
     },
@@ -14911,7 +15019,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "section 3: adjectives \u2014 **-im** suffix",
       "id": "lexicon_base_section_3_adjectives_im_suffix"
     },
@@ -14924,7 +15032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "size and physical properties",
       "id": "lexicon_base_size_and_physical_properties"
     },
@@ -14937,7 +15045,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "quality and value",
       "id": "lexicon_base_quality_and_value"
     },
@@ -14950,7 +15058,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "color adjectives",
       "id": "lexicon_base_color_adjectives"
     },
@@ -14963,7 +15071,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "emotional and mental states",
       "id": "lexicon_base_emotional_and_mental_states"
     },
@@ -14976,7 +15084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "comparison forms",
       "id": "lexicon_base_comparison_forms"
     },
@@ -14989,7 +15097,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "section 4: nouns \u2014 organized by semantic domain",
       "id": "lexicon_base_section_4_nouns_organized_by_semantic_domain"
     },
@@ -15002,7 +15110,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "the human body",
       "id": "lexicon_base_the_human_body"
     },
@@ -15015,7 +15123,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "family and relationships",
       "id": "lexicon_base_family_and_relationships"
     },
@@ -15028,7 +15136,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "society and roles",
       "id": "lexicon_base_society_and_roles"
     },
@@ -15041,7 +15149,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "the home and buildings",
       "id": "lexicon_base_the_home_and_buildings"
     },
@@ -15054,7 +15162,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "nature and environment",
       "id": "lexicon_base_nature_and_environment"
     },
@@ -15067,7 +15175,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "food and drink",
       "id": "lexicon_base_food_and_drink"
     },
@@ -15080,7 +15188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "numbers",
       "id": "lexicon_base_numbers"
     },
@@ -15093,7 +15201,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "time and seasons",
       "id": "lexicon_base_time_and_seasons"
     },
@@ -15106,7 +15214,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "communication and media",
       "id": "lexicon_base_communication_and_media"
     },
@@ -15119,7 +15227,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "technology and tools",
       "id": "lexicon_base_technology_and_tools"
     },
@@ -15132,7 +15240,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "technology and tools (continued)",
       "id": "lexicon_base_technology_and_tools_continued"
     },
@@ -15145,7 +15253,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "transportation",
       "id": "lexicon_base_transportation"
     },
@@ -15158,7 +15266,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "work and business",
       "id": "lexicon_base_work_and_business"
     },
@@ -15171,7 +15279,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "government and law",
       "id": "lexicon_base_government_and_law"
     },
@@ -15184,7 +15292,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "science and health",
       "id": "lexicon_base_science_and_health"
     },
@@ -15197,7 +15305,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "abstract and emotional concepts",
       "id": "lexicon_base_abstract_and_emotional_concepts"
     },
@@ -15210,7 +15318,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "verbs \u2014 extended set (with example sentences)",
       "id": "lexicon_base_verbs_extended_set_with_example_sentences"
     },
@@ -15223,7 +15331,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "design decisions in this lexicon",
       "id": "lexicon_base_design_decisions_in_this_lexicon"
     },
@@ -15236,7 +15344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "agost",
       "id": "lexicon_base_agost"
     },
@@ -15249,7 +15357,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "aprim",
       "id": "lexicon_base_aprim"
     },
@@ -15262,7 +15370,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "conditional (if... den...):",
       "id": "lexicon_base_conditional_if_den"
     },
@@ -15275,7 +15383,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "decembr",
       "id": "lexicon_base_decembr"
     },
@@ -15288,7 +15396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "februari",
       "id": "lexicon_base_februari"
     },
@@ -15301,7 +15409,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "format:",
       "id": "lexicon_base_format"
     },
@@ -15314,7 +15422,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "fraidei",
       "id": "lexicon_base_fraidei"
     },
@@ -15327,7 +15435,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "future tense (-wil):",
       "id": "lexicon_base_future_tense_wil"
     },
@@ -15340,7 +15448,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "genitive (-se):",
       "id": "lexicon_base_genitive_se"
     },
@@ -15353,7 +15461,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "januari",
       "id": "lexicon_base_januari"
     },
@@ -15366,7 +15474,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "julai",
       "id": "lexicon_base_julai"
     },
@@ -15379,7 +15487,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "juni",
       "id": "lexicon_base_juni"
     },
@@ -15392,7 +15500,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "lexicon status:",
       "id": "lexicon_base_lexicon_status"
     },
@@ -15405,7 +15513,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "locative (-to):",
       "id": "lexicon_base_locative_to"
     },
@@ -15418,7 +15526,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 2,
       "norm_label": "maji",
       "id": "lexicon_base_maji"
     },
@@ -15431,7 +15539,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "orthography",
       "id": "orthography"
     },
@@ -16003,7 +16111,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "(guion) | entre morfemas | man-se, liv-ed, big-im |\n|",
       "id": "orthography_guion_entre_morfemas_man_se_liv_ed_big_im"
     },
@@ -16016,7 +16124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "(orden universal) |\n|",
       "id": "orthography_orden_universal"
     },
@@ -16029,7 +16137,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": ", su",
       "id": "orthography_su"
     },
@@ -16042,7 +16150,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": ", wi",
       "id": "orthography_wi"
     },
@@ -16055,7 +16163,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "-im |",
       "id": "orthography_im"
     },
@@ -16068,7 +16176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "100% fonetica, sin excepciones",
       "id": "orthography_100_fon_tica_sin_excepciones"
     },
@@ -16081,7 +16189,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "100% foneticamente consistente",
       "id": "orthography_100_fon_ticamente_consistente"
     },
@@ -16094,7 +16202,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "comparacion con otros idiomas:",
       "id": "orthography_comparaci_n_con_otros_idiomas"
     },
@@ -16107,7 +16215,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "estado:",
       "id": "orthography_estado"
     },
@@ -16120,7 +16228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "los morfemas se escriben",
       "id": "orthography_los_morfemas_se_escriben"
     },
@@ -16133,7 +16241,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "regla de oro de la ortografia vela:",
       "id": "orthography_regla_de_oro_de_la_ortograf_a_vela"
     },
@@ -16146,7 +16254,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela",
       "id": "orthography_vela"
     },
@@ -16159,7 +16267,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "a man si la film. |\n| nombres propios | \u2705 si |",
       "id": "orthography_a_man_si_la_film_nombres_propios_s"
     },
@@ -16172,7 +16280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "ain,",
       "id": "orthography_ain"
     },
@@ -16185,7 +16293,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "at | c = /k/ ante a, o, u |\n|",
       "id": "orthography_at_c_k_ante_a_o_u"
     },
@@ -16198,7 +16306,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela language",
       "id": "vela_language"
     },
@@ -16211,7 +16319,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "pillar: logico",
       "id": "pillar_logico"
     },
@@ -16224,7 +16332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "pillar: simple",
       "id": "pillar_simple"
     },
@@ -16237,7 +16345,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "pillar: bello",
       "id": "pillar_bello"
     },
@@ -16250,7 +16358,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela decision framework",
       "id": "decision_framework"
     },
@@ -16263,7 +16371,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "compound over complex \u2014 japanese principle",
       "id": "compound_principle"
     },
@@ -16276,7 +16384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela phonology",
       "id": "phonology"
     },
@@ -16289,7 +16397,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "17 consonants",
       "id": "consonants_17"
     },
@@ -16302,7 +16410,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "5 vowels",
       "id": "vowels_5"
     },
@@ -16315,7 +16423,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "pitch accent (penultima)",
       "id": "pitch_accent"
     },
@@ -16328,7 +16436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela grammar",
       "id": "grammar"
     },
@@ -16341,7 +16449,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "svo word order",
       "id": "svo_order"
     },
@@ -16354,7 +16462,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "agglutinative morphology",
       "id": "agglutinative"
     },
@@ -16367,7 +16475,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "zero irregular verbs",
       "id": "zero_irregular_verbs"
     },
@@ -16380,7 +16488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "case system",
       "id": "case_system"
     },
@@ -16393,7 +16501,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "genitive suffix -se",
       "id": "genitive_se"
     },
@@ -16406,7 +16514,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "locative suffix -te",
       "id": "locative_te"
     },
@@ -16419,7 +16527,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela lexicon",
       "id": "lexicon"
     },
@@ -16432,7 +16540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "esperanto",
       "id": "esperanto"
     },
@@ -16445,7 +16553,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "klingon",
       "id": "klingon"
     },
@@ -16458,7 +16566,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "phonology research",
       "id": "research_phonology"
     },
@@ -16471,7 +16579,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "lexicography research",
       "id": "research_lexicography"
     },
@@ -16484,7 +16592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "advanced morphology research",
       "id": "research_advanced_morphology"
     },
@@ -16497,7 +16605,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "semantic typology research",
       "id": "research_semantic"
     },
@@ -16510,7 +16618,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 48,
       "norm_label": "sound symbolism research",
       "id": "research_sound_symbolism"
     },
@@ -16536,7 +16644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "conlang history research",
       "id": "research_conlang_history"
     },
@@ -16549,7 +16657,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "naturalistic design",
       "id": "naturalistic_design"
     },
@@ -16562,7 +16670,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "conlanging practice",
       "id": "conlanging"
     },
@@ -16588,7 +16696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "vela voting system",
       "id": "vote_system"
     },
@@ -16601,7 +16709,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "proposal: morphologist",
       "id": "proposal_morphologist"
     },
@@ -16614,7 +16722,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "proposal: lexicographer",
       "id": "proposal_lexicographer"
     },
@@ -16627,7 +16735,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "proposal: semanticist",
       "id": "proposal_semanticist"
     },
@@ -16640,7 +16748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "proposal: aestheticist",
       "id": "proposal_aestheticist"
     },
@@ -16653,12 +16761,36 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "proposal: phonologist",
       "id": "proposal_phonologist"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "word_review/insert_all_blocks.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "word_review_insert_all_blocks_py",
+      "_tgt": "word_review_insert_all_blocks_read_block_data",
+      "source": "word_review_insert_all_blocks_py",
+      "target": "word_review_insert_all_blocks_read_block_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "word_review/fix_and_insert.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "word_review_fix_and_insert_py",
+      "_tgt": "word_review_fix_and_insert_get_block_table",
+      "source": "word_review_fix_and_insert_py",
+      "target": "word_review_fix_and_insert_get_block_table",
+      "confidence_score": 1.0
+    },
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",

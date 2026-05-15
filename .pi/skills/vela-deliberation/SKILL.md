@@ -1,222 +1,112 @@
-# VELA Deliberation Skill
+# VELA Deliberation
 
-## When to Use
-- When a language design decision in VELA needs structured multi-perspective evaluation.
-- When you want more than one AI opinion before committing to a grammatical or lexical change.
-- When the topic spans multiple subsystems (sound, grammar, vocabulary, meaning, beauty).
+## When to use
+When a VELA language design decision requires multi-perspective analysis. Any of these triggers:
+- Grammar changes (case, word order, new particles)
+- Phonology changes (new sounds, syllable rules)
+- Vocabulary changes (new words, compound rules)
+- Semantic/logic issues (ambiguity, collisions)
 
-## When NOT to Use
-- For trivial edits (fixing typos, formatting).
-- When speed is more important than thoroughness.
+## ⚠️ CRITICAL: Ask User Before Choosing Architecture
 
-## CRITICAL: Agent Tool Restrictions
+**Before any deliberation, you MUST ask the user:**
 
-Subagents spawned by pi-subagents **cannot access Serena tools** (`read_file`, `create_text_file`, etc.) and **cannot use native tools** (`read`, `bash`, `write`, `edit`, `grep`, `find`, `ls`). ALL of these tools return errors for subagents.
+> "This topic requires a multi-agent committee review. Should I use **pi-teams** (agents in terminal panes with full tools + mailbox communication) or **Agent tool** (background agents, more reliable but isolated)? Note: pi-teams requires you to be running in an interactive terminal (Warp, iTerm, tmux)."
 
-### What This Means
-- ❌ Do NOT instruct subagents to "read files" or "write files"
-- ❌ Do NOT instruct subagents to use `bash`, `ls`, or any filesystem commands
-- ❌ Do NOT instruct subagents to use `edit` or `write`
-- ✅ Instead: **Embed ALL source material directly in the prompt** (dossier approach)
-- ✅ Subagents should ONLY return structured text responses
-- ✅ The parent orchestrator handles ALL file I/O
+**Use ask_terminal with mode: confirm for this question.**
 
-## The Dossier Pattern (Required)
+### If user chooses YES (pi-teams):
+- Check: Is the user in an interactive terminal? (tmux, Zellij, Warp, iTerm)
+- If YES: Use `team_create`, `spawn_teammate`, `broadcast_message`, `read_inbox`
+- If NO: Explain that pi-teams requires a terminal, fall back to Agent tool
 
-Because subagents cannot read files, you must embed the relevant content:
+### If user chooses NO (Agent tool):
+- Use `Agent` tool with `run_in_background: true`
+- Parent orchestrator does ALL file I/O
+- Subagents read files via `read_file` (Serena) and return analysis as text
+- See "Agent Tool Workflow" below
 
+---
+
+## Tool Availability (READ THIS)
+
+**Native tools (read, write, edit, bash, grep, find, ls):**
+- ✅ Available to parent (you)
+- ❌ NOT available to subagents launched via Agent tool
+- Subagents attempting to use native tools will fail silently or produce no output
+
+**Serena MCP tools (read_file, search_for_pattern, get_symbols_overview):**
+- ✅ Available to both parent and subagents
+- Subagents CAN use `read_file` to read source documents
+- Subagents CANNOT use `create_text_file`, `replace_content`, `replace_lines` (write-restricted)
+
+**pi-teams tools (team_create, spawn_teammate, broadcast_message, read_inbox):**
+- ✅ Available to parent in interactive terminal
+- ❌ NOT available in MCP headless environment
+- Error: "Extension ctx is stale after session replacement or reload"
+
+**Full audit:** See `vote/docs/TOOLS_AUDIT.md`
+
+---
+
+## Architecture A: pi-teams (When User Chooses YES + Terminal Available)
+
+### Setup (one-time)
 ```
-Agent({
-  subagent_type: "vela_phonologist",
-  prompt: `
-    You are the VELA Phonologist.
-    
-    ## SOURCE MATERIAL (embedded — do NOT use file tools)
-    [PASTE relevant sections here]
-    
-    ## GRAPHIFY INSIGHTS (embedded — extracted by orchestrator)
-    [PASTE community data here]
-    
-    ## YOUR TASK
-    [Specific question]
-    
-    Return your analysis in this EXACT format:
-    ## PROBLEMS IDENTIFIED
-    ### Problem 1: [title]
-    - Severity: critical/high/medium/low
-    - Description: [2-3 sentences]
-    - Proposed Alternatives:
-      - A: [description]
-      - B: [description]
-    - Justification: [reference]
-  `,
-  description: "VELA topic analysis",
-  run_in_background: true,
-  model: "ollama/kimi-k2.6:cloud"  // or whichever specialist
-})
-```
-
-## MANDATORY Phase 0: Graphify Context Extraction
-
-Every deliberation MUST begin with graphify analysis. The project has a living knowledge graph at `graphify-out/GRAPH_REPORT.md`.
-
-### Why Graphify is Mandatory
-- Graphify connects topics across documents that humans (or individual models) might miss
-- It reveals **cross-community dependencies**: "Case System Design" connects to "Phonology", "Grammar", "Lexicon"
-- It surfaces **unexpected connections**: README's high betweenness centrality means design decisions radiate outward
-- It prevents specialists from analyzing problems in isolation
-
-### How to Extract Graphify Insights
-
-**Step 1:** Read `graphify-out/GRAPH_REPORT.md`
-
-**Step 2:** Find your topic's community:
-```
-Ctrl+F for keywords like "Case", "Phonology", "Lexicon", "Morphology"
+team_create({ team_name: "vela", description: "VELA language construction committee" })
+spawn_teammate({ team_name: "vela", name: "vela_phonologist", prompt: "...", cwd: "." })
+# ... etc for all 5 specialists
 ```
 
-**Step 3:** Extract these fields:
-| Field | What to look for |
-|-------|-----------------|
-| **Community name** | e.g., "_COMMUNITY_Case System Design" |
-| **Cohesion** | Higher = more tightly connected (0.02–0.22 range) |
-| **Node count** | How many concepts in this community |
-| **Cross-community links** | Which other communities connect to this one |
-| **God nodes** | Highest-centrality nodes bridging communities |
-| **Inferred edges** | Model-reasoned connections (may need verification) |
+### Deliberation Flow
+1. **Phase 0 (Leader/you)**: Read graphify, write `vote/topics/current_topic.md`
+2. **Phase 1**: Create task + broadcast to team
+3. **Phase 2 (Teammates)**: Read files directly, post #proposal to mailbox
+4. **Phase 3 (Leader)**: Read mailbox, synthesize discussion plan
+5. **Phase 4 (Teammates, conditional)**: Deliberate on conflicts via mailbox
+6. **Phase 5 (Teammates)**: Vote via mailbox
+7. **Phase 6 (Leader)**: Tally votes, write consensus
+8. **Phase 7**: Write summary, update CHANGE_LOG
 
-**Step 4:** Include in EVERY dossier. Each specialist should see:
-- The community relevant to their domain
-- Cross-domain connections that affect their analysis
-- The overall project structure (from god nodes)
+---
 
-**Example graphify block for a dossier:**
-```markdown
-### GRAPHIFY PROJECT KNOWLEDGE GRAPH
-The VELA project has 1036 concepts across 25 communities. Relevant to your analysis:
+## Architecture B: Agent Tool (When User Chooses NO or No Terminal)
 
-- **Case System Design** community: 34 nodes, cohesion 0.06
-  - Connected to: Grammar Complete Reference, VELA Core Design, Sound Symbolism
-  - Central node: README (betweenness 0.178) — all design decisions radiate outward
-  - 30 inferred edges linking case system to broader grammar
+### Deliberation Flow
+1. **Phase 0 (You)**: Read graphify, write `vote/topics/current_topic.md`
+2. **Phase 1 (You)**: Launch 5 specialists via `Agent` with `run_in_background: true`
+3. **Phase 2 (Subagents)**: Read files via `read_file`, analyze, return text
+4. **Phase 3 (You)**: Collect all responses, write `vote/topics/discussion_plan.md`
+5. **Phase 4 (You + Subagents, conditional)**: If conflicts exist, re-launch for point-by-point discussion
+6. **Phase 5 (You + Subagents)**: Re-launch for explicit voting
+7. **Phase 6 (You)**: Write `vote/topics/consensus/consensus.md`
+8. **Phase 7 (You)**: Write `vote/SUMMARY.md`, append `vote/docs/CHANGE_LOG.md`
 
-- **Phonology Final Decisions** community: 53 nodes, peers with Case System in hierarchy
-  - Cross-link: Phonology → Case System via VELA Core hub
-  - Sound symbolism links vowel quality (/e/ = small/delicate) to semantic domains
-```
+### Critical Rules
+- **You do ALL file writing.** Subagents cannot write files.
+- **Embed file paths in prompts.** Tell subagents exactly which `read_file` calls to make.
+- **Never tell subagents to use native tools.** No `read`, `write`, `edit`, `bash`, `grep`.
+- **Collect with `get_subagent_result`.** Wait for all 5 before synthesizing.
 
-### Graphify Staleness Warning
-If documents were edited since `GRAPH_REPORT.md` was generated, the graph may be stale.
-- Check `.graphify_detect.json` for last generation date
-- Regenerate if needed: `graphify update .`
-- For the case system deliberation, graphify was generated 2026-05-13 (same day) and was current
+---
 
-## Procedure
+## Agent Types
+- `vela_phonologist` — Phonology, phonotactics
+- `vela_morphologist` — Grammar, morphology
+- `vela_lexicographer` — Vocabulary, etymology
+- `vela_semanticist` — Logic, semantics
+- `vela_aestheticist` — Beauty, cadence
+- `vela_orchestrator` — Leader (you or a subagent you launch)
 
-### Step 1: Prepare the Topic
-Write `vote/topics/current_topic.md` using the template in `vote/templates/current_topic.md`.
+---
 
-### Step 2: Graphify Context (MANDATORY)
-1. Read `graphify-out/GRAPH_REPORT.md`
-2. Identify the community matching your topic
-3. Extract cross-community connections, god nodes, inferred edges
-4. Build a graphify summary block for all dossiers
-
-### Step 3: Build Dossiers
-For each specialist, read the relevant source files via `read_file` (Serena tools), then build a single prompt containing:
-1. **Graphify insights** (see Phase 0 above)
-2. The agent's role description
-3. Embedded source material from current_topic.md and relevant docs
-4. Specific tasks and output format
-
-### Step 4: Launch Specialists in Parallel
-Launch all 5 specialists simultaneously as BACKGROUND agents with `run_in_background: true`. Each gets its own dossier (including the same graphify block + domain-specific sources).
-
-### Step 5: Collect Results
-Use `get_subagent_result({ agent_id, wait: true, verbose: true })` for each agent. The parent orchestrator manually handles file I/O.
-
-### Step 6: Write Proposals
-The orchestrator extracts structured output from each agent's response and writes to `vote/topics/proposals/{agent}.md`.
-
-### Step 7: Synthesize Discussion Plan
-The orchestrator reads all proposals and writes `vote/topics/discussion_plan.md` with consolidated points.
-
-### Step 8: Point-by-Point Discussion (Optional)
-For complex or contested points, relaunch specialists with the discussion point + previous arguments. Use dossiers with embedded context.
-
-### Step 9: Voting Round
-For each point, prompt each specialist to vote: "Vote for ONE option: A, B, or keep current. Return ONLY 'VOTE: [letter]' followed by one sentence justification."
-
-### Step 10: Write Consensus
-The orchestrator tallies votes (majority wins; aestheticist has tie-break authority) and writes `vote/topics/consensus/consensus.md`.
-
-### Step 11: Final Summary
-Write `vote/SUMMARY.md` with executive overview and table of changes.
-
-## Pipeline Command Reference
-
-**Phase 0 — Graphify (mandatory):**
-```javascript
-// Orchestrator reads graphify-out/GRAPH_REPORT.md
-// Extracts community data into graphifySummary variable
-```
-
-**Phase 1 — Proposals (parallel):**
-```javascript
-Agent({ subagent_type: "vela_phonologist", prompt: graphifySummary + dossier_phonology, description: "VELA proposals", run_in_background: true })
-Agent({ subagent_type: "vela_morphologist", prompt: graphifySummary + dossier_morphology, description: "VELA proposals", run_in_background: true })
-Agent({ subagent_type: "vela_lexicographer", prompt: graphifySummary + dossier_lexicon, description: "VELA proposals", run_in_background: true })
-Agent({ subagent_type: "vela_semanticist", prompt: graphifySummary + dossier_semantics, description: "VELA proposals", run_in_background: true })
-Agent({ subagent_type: "vela_aestheticist", prompt: graphifySummary + dossier_aesthetics, description: "VELA proposals", run_in_background: true })
-```
-
-**Phase 2 — Synthesis** (parent agent manually):
-```javascript
-// Read all proposal files
-// Include graphify connections in discussion_plan.md
-// Write discussion_plan.md
-```
-
-**Phase 3-4 — Discussion & Voting** (parallel per point):
-```javascript
-for (point in discussion_plan) {
-  Agent({ subagent_type: "vela_phonologist", prompt: `Point ${point}: vote A/B/C. Context: [embedded]`, description: "Vote", run_in_background: true })
-  Agent({ subagent_type: "vela_morphologist", prompt: `Point ${point}: vote A/B/C. Context: [embedded]`, description: "Vote", run_in_background: true })
-  // ... etc
-}
-```
-
-## Voting Rules
-- One vote per specialist per discussion point
-- Majority wins
-- In case of tie: aestheticist's preference breaks it (beauty is VELA's tie-breaker)
-- Abstentions recorded but do not count
-- Orchestrator can override if safety/logic is compromised
-
-## Troubleshooting
-
-| Symptom | Cause | Fix |
-|---------|-------|-----|
-| Subagent "Tool disabled" errors | Subagent tried to use Serena/native tools explicitly | Ensure prompt says "Do NOT use file tools" and dossier contains all data |
-| Subagent 0% output, 0 tools | Model did not understand the request or tools are misconfigured | Simplify prompt; remove tool instructions; use shorter format |
-| qwen2.5-coder/gpt-5.1 fails | Known issue with some models in Ollama | Replace with deepseek-v4-pro (tested and reliable) |
-| Long deliberation time | Each agent takes ~60-120s; 5 agents = slow | Run in parallel (max 4 concurrent); batch discussion points |
-| Convergent proposals | All agents found same problems | Skip Phase 3-4; synthesize directly into consensus (as happened for case system) |
-| Graphify graph seems old | graphify-out/ was generated before recent doc edits | Run `graphify update .` to regenerate |
-| Graphify community not found | Topic uses different terminology than graph | Search for synonyms; graphify may have named it differently |
-
-## Verification
-After a run, check:
-- `graphify-out/GRAPH_REPORT.md` was consulted (not stale)
-- `vote/SUMMARY.md` exists and has ≥1 approved change
-- `vote/topics/consensus/consensus.md` has implementation instructions per point
-- No agent reported critical tool errors
-
-## Models Currently in Use
-| Agent | Model | Status |
-|-------|-------|--------|
-| Phonologist | ollama/kimi-k2.6:cloud | ✅ Reliable |
-| Morphologist | ollama/deepseek-v4-pro | ✅ Reliable |
-| Lexicographer | ollama/glm-5.1:cloud | ✅ Reliable |
-| Semanticist | ollama/deepseek-v4-pro | ✅ Reliable |
-| Aestheticist | ollama/kimi-k2.6:cloud | ✅ Reliable |
+## Quality Checklist
+Before declaring a deliberation complete:
+- [ ] Asked user about pi-teams vs Agent tool
+- [ ] `graphify-out/GRAPH_REPORT.md` was consulted
+- [ ] `vote/SUMMARY.md` exists with ≥1 approved change
+- [ ] Each change has: what, why, exact implementation, priority
+- [ ] Consensus cites which specialists agreed/disagreed
+- [ ] No critical tool errors in any agent
+- [ ] CHANGE_LOG.md was appended
+- [ ] All specialists responded (or failure documented)

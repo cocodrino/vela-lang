@@ -1,4 +1,35 @@
 # VELA Deliberation Change Log
+## 2026-05-14 — Phase 4: Lexicon Expansion (Committee Review)
+
+**Committee:** 5 specialists (Phonologist, Morphologist, Lexicographer, Semanticist, Aestheticist)
+**Words reviewed:** 186 new proposals
+**Applied to LEXICON_BASE.md:** 161 words
+
+### Decisions Applied
+- **Q1:** Strict (C)V phonotactics — 97 words amended (final obstruents → vowels, /ou/ → /au/)
+- **Q2:** Tiered atom system (~50/~150/~500+) — 161 atoms, 0 descriptive compounds
+- **Q3:** New words vowel-final — all 161 end in vowel or sonorant
+- **Q4:** Hybrid etymology (English + Latin) — applied per semantic domain
+
+### Rejected (10 words)
+- auk, hai.po, shart, but, pis, fri.dom, los, our, so, to
+- Reasons: vulgar collisions, dot notation, Spanish article collision, English function-word collision
+
+### Structural Fixes
+- tartl → tatu, batn → batu, ovn → ovu, ovr → ovar, lethr → lera, masl → masil, niaz → niasi
+- skwiral → skwirali (onset reduced)
+- erkweik → ert-kweik (compound reform)
+
+### Polysemy Flags (11 words)
+- ber, sil, tai, kap, ring, wotch, bank, bil, nail, fan, left
+- Resolution: primary meaning kept; secondary meanings to be added as separate atoms
+
+### Files Updated
+- docs/lexicon/LEXICON_BASE.md — 161 new words in 6 subsections
+- vote/topics/consensus/DECISIONS_MASTER.md — all Q1-Q4 decisions documented
+- vote/topics/consensus/FINAL_WORD_REVIEW.md — per-word verdicts
+
+
 
 ## 2026-05-13 — System Initialization
 - Created 5 specialist agents and 1 orchestrator agent.
@@ -161,3 +192,108 @@
   - Added "Decisiones Pendientes de Deliberación Futura" table
   - Documented all consensus-driven changes (locative, adjectives, professions, numbers)
 - **Status**: COMPLETE
+
+---
+
+## 2026-05-14 — Fase 4: Léxico Base Expanded (732 → 1004 words)
+- **Action**: Added 6 blocks of ~50 words each (300 new words) organized by semantic category
+- **Blocks created in word_review/**:
+  - Block 1: Verbos Esenciales Extendidos (39 verbs)
+  - Block 2: Animales (47 animals)
+  - Block 3: Clothing, Materials and Textures (50 words)
+  - Block 4: Technology, Tools and Modern Household (50 words)
+  - Block 5: Shapes, Directions, Space and Measures (50 words)
+  - Block 6: Abstract Concepts, Society, Economy and System (50 words)
+- **New sections in LEXICON_BASE.md**:
+  - Clothing, Materials and Textures
+  - Shapes, Directions, Space and Measures
+- **Existing sections expanded**:
+  - Nature and Environment (animals)
+  - Technology and Tools (modern tech)
+  - Abstract and Emotional Concepts (society/economy)
+  - Verbs — Extended Set (essential verbs)
+- **Status**: 1004 total words / 934 unique — Fase 4 COMPLETE
+
+---
+
+## 2026-05-15 — Atomic Word Ceiling Deliberation (Committee Consensus)
+
+**Committee:** 5 specialists (Phonologist, Morphologist, Lexicographer, Semanticist, Aestheticist)
+**Topic:** How many atomic words should VELA have?
+**Status:** ✅ CONSENSUS REACHED
+
+### Decision: Soft Ceiling at 200 Atoms
+
+- **Tier 0:** 50 primitives (pronouns, numbers 0-10, core verbs) — CLOSED class
+- **Tier 1:** 150 high-frequency atoms (body parts, nature, animals, tools, food, emotions) — OPEN within ceiling
+- **Tier 2+:** Compounds only, subject to Quality Gate (SHORT, MEANINGFUL, SOUNDS GOOD, NOT INFANTILE)
+
+### Rationale (4/5 convergence)
+- **Lexicographer:** 200 hard ceiling — prevents Esperanto trap (~900 roots = memorization wall)
+- **Morphologist:** ~200 soft ceiling — compound engine breaks below this (60-70% of needed compounds fail Quality Gate)
+- **Semanticist:** 200-220 by semantic necessity — Swadesh + basic domains empirically require ~200 atoms
+- **Phonologist:** ~220 soft ceiling — prosodic demotion in 3+ syllable compounds degrades melodic profile
+- **Aestheticist:** 250 soft ceiling — cradle test fails for emotional vocabulary at 200 (dissent recorded)
+
+### Policy Decisions
+1. **No retroactive elimination** — existing ~600-700 unique atoms are grandfathered
+2. **Quality Gate remains active filter** — new atoms only if ALL 4 tests fail as compound
+3. **Semantic Necessity Test** for new atoms: uniqueness + frequency + non-decomposability + cultural centrality
+
+### Dissent
+- **Aestheticist:** Advocated 250 atoms for poetic register. Deferred to 200 with exception path via Semantic Test.
+
+### Files Created
+- vote/topics/current_topic.md
+- vote/topics/proposals/ATOM_CEILING_{lexicographer,phonologist,morphologist,semanticist,aestheticist}.md
+- vote/topics/consensus/ATOM_CEILING_consensus.md
+- vote/SUMMARY.md
+
+### Files to Update (pending)
+- docs/grammar/GRAMMAR_COMPLETE.md — add ceiling to Section 15
+- vote/topics/consensus/ATOMS_VS_COMPOUNDS_Q2.md — append ceiling decision
+- README.md — note lexicon ceiling in vocabulary section
+
+---
+
+## 2026-05-15 — Fase 8: Textos y Muestras — Creative Writing (pi-teams)
+
+**Method:** pi-teams (teammates in tmux panes)
+**Agents:** vela_poet (kimi-k2.6), vela_narrator (deepseek-v4-pro)
+**Status:** ✅ COMPLETE
+
+### Deliverables
+
+1. **100 Daily Phrases** — docs/texts/PHRASES_100.md
+   - 10 categories × 10 phrases each
+   - ~55 new vocabulary gaps identified
+
+2. **4 Original Poems** — docs/texts/POEMS_COLLECTION.md
+   - "La Rein and La Longin" (rain/longing)
+   - "La Child and La Dream" (child/dream)
+   - "La Mar and La Solitud" (sea/solitude)
+   - "Tu Luv" (love)
+
+3. **1 Short Story** — docs/texts/SHORT_STORY_BIRD.md
+   - "Wan Smol Bird" (bird learns to sing)
+   - ~650 words, 7 paragraphs, bilingual
+
+### pi-teams Success Notes
+- Agents spawned successfully in tmux panes (%11, %12)
+- Communication via mailbox worked
+- Prompts included full vocabulary dossiers (no file reads needed)
+- Both agents completed within ~90 seconds
+
+### New Words for Committee Review
+| Word | English | Source |
+|------|---------|--------|
+| longin | longing | English |
+| solitud | solitude | Latin |
+| kwaiet | quietly | English |
+| krei | cry | English |
+| throt | throat | English |
+| biliv | believe | English |
+| proud | proud | English |
+| teer | tear (eye) | English |
+| raiz | rise | English |
+

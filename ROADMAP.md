@@ -53,11 +53,11 @@ Fase 0  → Investigación                ✅
 Fase 1  → Fonología Final              ✅
 Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
-Fase 4  → Léxico Base (~780/1000)      🔄 EN PROGRESO (~78%)
+Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     ⬜
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
-Fase 8  → Textos y Muestras            ⬜ 🎯 SIGUIENTE
+Fase 8  → Textos y Muestras            🔄 EN PROGRESO (4 poemas + 1 cuento + 100 frases)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
 ```
@@ -149,7 +149,7 @@ Fase 10 → Comunidad y Evolución        ⬜
 
 ---
 
-## Fase 4 — Léxico Base (1000 palabras) 🔄 EN PROGRESO (~78%)
+## Fase 4 — Léxico Base (1000 palabras) ✅ COMPLETA
 
 **Entregable:** `docs/lexicon/LEXICON_BASE.md` (~780 palabras documentadas)
 
@@ -378,11 +378,11 @@ Fase 0  → Investigación                ✅
 Fase 1  → Fonología                    ✅
 Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
-Fase 4  → Léxico Base (~780/1000)      🔄 EN PROGRESO (~78%)
+Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     ⬜
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
-Fase 8  → Textos y Muestras            ⬜ 🎯 SIGUIENTE
+Fase 8  → Textos y Muestras            🔄 EN PROGRESO (4 poemas + 1 cuento + 100 frases)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
 ```

@@ -1,0 +1,48 @@
+# DOSSIER — Fase 8 Gap Words (12 proposals)
+
+## Context
+Fase 8 text benchmark ("Go forth in peace to serve the Lord") and first VELA poem ("The Sun and the Moon") exposed 12 vocabulary gaps. These words are PROPOSED but NOT YET APPROVED.
+
+## Existing VELA Lexicon (relevant samples)
+- go, in, luv, and, la, tu (preposition/infinitive)
+- up=ap, down=daun, left=lefa, right=raia, inside, outside=autsaii
+- sun, moon, star, sky=skai, wind, rain=ran, water, snow, tree=tri
+- good=gud, big, smol, hot, cold, new, old
+- dog, kat, hors, fish, bird=brid, bee=bi
+- mi, yu, li, wi, de, a, i, o, u, ok, no
+- doktr, sik-hous, help, wok, si, fiel, hier, tok, lern
+- ekonomi, moni, kultur, sistam, valiu, justii
+- for (preposition), mor (more), mos (most)
+
+## The 12 Proposed Words
+
+### Benchmark Gaps (4)
+1. **forti** = forth, forward (English). For "Go forth!" AFI: /for.ti/. Ends in vowel ✅
+2. **pasi** = peace (Latin *pax*). Abstract noun. AFI: /pa.si/. Replaces rejected `pis`. Ends in vowel ✅
+3. **servi** = serve (Latin *servire*). Verb. AFI: /ser.vi/. Abstract/institutional. Ends in vowel ✅
+4. **Loru** = Lord (proper noun). Religious title. AFI: /lo.ru/. Capitalized. Ends in vowel ✅
+
+### Poem Gaps (8)
+5. **nait** = night (English). Time word. AFI: /nait/ → needs vowel per Q3: /nai.ti/ or /naiti/?
+6. **erth** = earth (English). Nature word. AFI: /erth/ → needs vowel per Q3: /er.ti/ or /erti/? Already in `ert-kweik`
+7. **flaur** = flower (English). Nature word. AFI: /flaur/ → ends in /r/ (sonorant). Q3 says vowel-final. Need amendment?
+8. **glas** = grass (English). Nature word. AFI: /glas/ → ends in /s/. Must add vowel per Q3: /gla.si/ or /glasu/?
+9. **green** = green (English). Color adjective. AFI: /green/ → ends in /n/ (sonorant). Q3 says vowel-final for NEW words.
+10. **werld** = world (English). Abstract noun. AFI: /werld/ → ends in /d/. Must add vowel per Q3: /wer.li/ or /werla/?
+11. **tugeter** = together (English). Adverb. AFI: /tu.ge.ter/ → ends in /r/. Compound? `tu` + `get` + `er`? Or atom?
+12. **morne** = morning (English). Time word. AFI: /mor.ne/. Ends in vowel ✅
+
+## Rules Applied (Q1-Q4)
+- Q1: Strict (C)V phonotactics. Word-final consonants: only /n,m,l,r/ or vowel. New words MUST end in vowel or sonorant.
+- Q2: Atom by default. Compound only if passes Quality Gate (short, meaningful, non-ambiguous, not infantile).
+- Q3: New words should end in vowels (not just sonorants) for lullaby aesthetic.
+- Q4: Hybrid etymology. Everyday = English roots. Abstract/scientific = Latin/Greek.
+
+## Committee Task
+For each of the 12 words:
+1. APPROVED / AMENDED / REJECTED
+2. If AMENDED: what is the corrected form?
+3. If REJECTED: what alternative do you suggest?
+4. Check: phonotactics, morphology (atom vs compound), semantics (collisions), etymology (English vs Latin), aesthetics (cradle test)
+
+Return ONLY your verdicts as text. No tools. No file operations.

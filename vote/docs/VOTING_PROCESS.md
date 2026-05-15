@@ -1,22 +1,26 @@
-# VELA Voting Process — Complete Reference
+# VELA Voting Process — Complete Reference (pi-teams Architecture)
 
 ## Philosophy
 VELA deliberations are not opinion polls. They are structured argumentation sessions where each model's unique training and reasoning patterns converge (or clash) over specific design decisions. The vote formalizes a consensus that already emerged from argumentation.
 
-## The 6 Phases of Deliberation
+**New with pi-teams:** Teammates have full tool access and can communicate via shared mailbox. This eliminates the dossier pattern — agents read source files directly and respond to each other's arguments in real time.
+
+---
+
+## The 7 Phases of Deliberation
 
 ### Phase 0: Graphify Context Extraction (MANDATORY)
 
-**Before any topic is defined, the orchestrator MUST read the project knowledge graph.**
+**Before any topic is defined, the orchestrator (Leader) MUST read the project knowledge graph.**
 
 The project has a living knowledge graph at `graphify-out/GRAPH_REPORT.md` (auto-generated). This graph contains:
-- **1036 nodes, 1046 edges** extracted from all project documents
-- **25 detected communities** (e.g., "Case System Design", "Lexicon & Vocabulary")
-- **God nodes** (highest centrality: README=40 edges, INITIAL_RESEARCH=29, ORTHOGRAPHY=23)
+- **Nodes and edges** extracted from all project documents
+- **Detected communities** (e.g., "Case System Design", "Lexicon & Vocabulary")
+- **God nodes** (highest centrality)
 - **Betweenness centrality** scores showing cross-community bridges
 - **Inferred edges** linking topics not obviously connected in raw text
 
-**Why this is mandatory:** Graphify reveals relationships no single specialist would see. In the case system deliberation, graphify showed that "Case System Design" (34 nodes, 0.06 cohesion) had 30+ inferred edges to "Grammar Complete Reference" and "VELA Core Design" — proving the case system is a cross-cutting concern. This directly shaped the specialists' analyses.
+**Why this is mandatory:** Graphify reveals relationships no single specialist would see. In the case system deliberation, graphify showed that "Case System Design" had 30+ inferred edges to "Grammar Complete Reference" and "VELA Core Design" — proving the case system is a cross-cutting concern.
 
 **How to extract graphify insights:**
 1. Read `graphify-out/GRAPH_REPORT.md`
@@ -26,55 +30,52 @@ The project has a living knowledge graph at `graphify-out/GRAPH_REPORT.md` (auto
    - Cross-community connections (which other communities connect to this one)
    - God nodes linking into/out of this community
    - Any "surprising connections" flagged by the graph
-4. Translate into linguistic insight: "Graphify: Case systems connect to {N} grammatical domains; central node is {X}; inferred edges suggest {Y}"
-
-**Example from Case System deliberation:**
-```
-Graphify Insights:
-- Community "Case System Design" (34 nodes, coheres with Grammar Complete Reference)
-- 30 inferred edges from README ↔ case system cross-links
-- Sound Symbolism community (53 nodes) peers with Case System in hierarchy
-- Phonology Final Decisions (53 nodes) links into case design via VELA Core hub
-```
-
-These insights were embedded in EVERY specialist dossier.
+4. Translate into linguistic insight
 
 ---
 
-### Phase 1: Topic Definition
-**Orchestrator writes:** `vote/topics/current_topic.md`
+### Phase 1: Topic Definition & Task Creation
+
+**Orchestrator (Leader) writes:** `vote/topics/current_topic.md`
 
 Contains:
 - Scope (one paragraph)
-- Source files to embed in dossiers
+- Source files relevant to the discussion
 - 3-5 focus questions
 - Constraints (non-negotiable boundaries)
-- **Graphify community identified** (e.g., "Case System Design")
+- **Graphify community identified**
 
-**Example:** See `vote/templates/current_topic.md`
+Then the Leader **creates a task** in the pi-teams task board:
+```
+task_create({ team_name: "vela", subject: "VELA Deliberation: [Topic Name]", description: "[Brief description + link to current_topic.md]" })
+```
+
+The task is shared with all 5 teammates.
 
 ---
 
 ### Phase 2: Proposal Round (Parallel)
-**5 specialists → 5 proposal files**
 
-The orchestrator:
-1. Reads all source files mentioned in `current_topic.md`
-2. Reads `graphify-out/GRAPH_REPORT.md` for relevant communities
-3. Builds 5 dossiers (one per specialist) with embedded source material + graphify insights
-4. Launches all 5 specialists as **BACKGROUND** agents with `run_in_background: true`
-5. Waits for all with `get_subagent_result(wait: true)`
+**Orchestrator (Leader) broadcasts a message to the team:**
+```
+broadcast_message({ team_name: "vela", summary: "New deliberation started", content: "New deliberation: [Topic]. Please read vote/topics/current_topic.md and the listed source files, then post your initial proposal to the mailbox with hashtag #proposal." })
+```
 
-**CRITICAL:** Subagents cannot use ANY file tools. All data must be in the prompt.
+**How it works with pi-teams:**
+1. Each teammate reads `vote/topics/current_topic.md` directly (no dossier needed — they have file access)
+2. Each teammate reads the relevant source files directly
+3. Each teammate posts their structured analysis to the **team mailbox** with tag `#proposal`
+4. All teammates can see each other's proposals as they arrive
 
-**Wait time:** 2-5 minutes (concurrency max 4)
+**Wait time:** 2-5 minutes (teammates run in parallel)
 
-**Output files:** `vote/topics/proposals/{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md`
+**No more dossiers!** Teammates use `read_file` to access source material directly.
 
 ---
 
-### Phase 3: Discussion Plan (Synthesis)
-**Orchestrator reads all proposals and writes:** `vote/topics/discussion_plan.md`
+### Phase 3: Synthesis & Discussion Plan
+
+**Leader reads all mailbox proposals and writes:** `vote/topics/discussion_plan.md`
 
 For each distinct problem raised by ≥2 specialists:
 - Assign a Discussion Point number
@@ -82,52 +83,69 @@ For each distinct problem raised by ≥2 specialists:
 - List all alternatives proposed
 - Tag severity (use highest across agents)
 - List source agents
-- **Reference graphify connections** where relevant
 
-**When to skip Phase 4:**
-If proposals show STRONG convergence (≥3 agents identify the same 3-5 problems with similar alternatives), Phase 4 (individual point discussion) can be skipped and the orchestrator proceeds directly to Phase 5 (Consensus). This happened in the Case System deliberation.
+**Leader broadcasts to team:**
+```
+broadcast_message({ team_name: "vela", summary: "Discussion plan published", content: "Discussion plan published: vote/topics/discussion_plan.md. Review other agents' positions and prepare arguments for conflicting points." })
+```
 
 ---
 
-### Phase 4: Point-by-Point Discussion (Conditional)
-**Per point → 5 specialists argue**
+### Phase 4: Point-by-Point Deliberation (Conditional)
 
-For each Discussion Point where proposals disagreed:
-1. Build a mini-dossier with: the point, all alternatives from Phase 2, and arguments FOR each alternative
-2. Launch 5 specialists in parallel with prompt: "Given these alternatives, argue for your preferred option. Respond to other specialists' arguments."
-3. Collect responses and write: `vote/topics/discussion/point_NN_{agent}.md`
+**For each Discussion Point where proposals disagreed:**
 
-**Skip condition:** If Phase 2 proposals already show convergence, skip to Phase 5.
+1. Leader posts to mailbox:
+```
+broadcast_message({ team_name: "vela", summary: "Deliberation Point N", content: "POINT N: [Issue summary]. Alternatives: A) [option], B) [option]. Please argue for your preferred option and respond to other specialists. Tag: #deliberation-N" })
+```
+
+2. Each teammate posts their arguments to the mailbox with the point tag
+3. Teammates can **directly respond** to each other's arguments (reply-to threading)
+4. Leader reads the threaded discussion via `read_inbox`
+
+**Skip condition:** If Phase 2 proposals already show strong convergence (≥3 agents agree), skip to Phase 5.
 
 ---
 
 ### Phase 5: Voting Round
-**Per point → 5 explicit votes**
 
-For each discussion point:
-1. Build a vote prompt with: the point, all alternatives, and previous arguments
-2. Each specialist responds with EXACT format:
-   ```
-   VOTE: [A/B/C/current]
-   Justification: [one sentence]
-   ```
-3. Orchestrator tallies votes
+**Leader updates the task status:**
+```
+task_update({ team_name: "vela", task_id: "[id]", status: "voting" })
+```
+
+**Leader broadcasts:**
+```
+broadcast_message({ team_name: "vela", summary: "VOTING ROUND Point N", content: "VOTING ROUND for Point N: [issue]. Options: A) [desc], B) [desc]. Vote with EXACT format: VOTE: [A/B/C/current] Justification: [one sentence]. Tag: #vote-N" })
+```
+
+**Each specialist posts their vote to the mailbox with the vote tag.**
 
 **Voting rules:**
 - One vote per specialist per point
 - Majority wins (3+ out of 5)
 - Tie (2-2-1 or 2-3 split): Aestheticist preference breaks the tie (beauty principle prevails)
-- Orchestrator casts a casting vote if the point is safety-critical
-
-**Output:** `vote/topics/votes/point_NN_{agent}.md` (optional; can be embedded in consensus directly)
+- Leader casts a casting vote if the point is safety-critical
 
 ---
 
 ### Phase 6: Consensus & Summary
-**Orchestrator writes:**
+
+**Orchestrator (Leader) writes:**
 - `vote/topics/consensus/consensus.md` — decisions with implementation instructions
 - `vote/SUMMARY.md` — executive overview with table of changes
 - Appends `vote/docs/CHANGE_LOG.md`
+
+**Leader broadcasts completion:**
+```
+broadcast_message({ team_name: "vela", summary: "Deliberation complete", content: "Deliberation complete. Consensus published: vote/SUMMARY.md. Task status: completed." })
+```
+
+**Leader updates task:**
+```
+task_update({ team_name: "vela", task_id: "[id]", status: "completed" })
+```
 
 ---
 
@@ -137,36 +155,42 @@ For each discussion point:
 graphify-out/GRAPH_REPORT.md
     │
     ▼
-vote/topics/current_topic.md
+vote/topics/current_topic.md  ← Leader creates
     │
     ▼
 ┌─────────────────────────────────────────┐
-│  Phase 2: 5 parallel specialist agents│
-│  (background, dossier-embedded)         │
-│  Each dossier includes graphify context │
+│  Phase 2: 5 parallel teammate agents  │
+│  (read files directly, no dossiers)     │
+│  Post proposals to team mailbox         │
 └─────────────────────────────────────────┘
     │
     ▼
-vote/topics/proposals/*.md
+vote/topics/proposals/ (archived)  ← Leader may copy from mailbox
     │
     ▼
-vote/topics/discussion_plan.md
+vote/topics/discussion_plan.md  ← Leader writes
     │
     ├─ If convergent ─┬─► vote/topics/consensus/consensus.md
     │                  │   vote/SUMMARY.md
     │                  │   vote/docs/CHANGE_LOG.md
+    │                  │   Team mailbox: #completed
     │                  │
-    └─ If contested ──► Phase 4 (discussion) ──► Phase 5 (voting)
+    └─ If contested ──► Phase 4 (mailbox deliberation)
                                │
                                ▼
-                    vote/topics/discussion/*.md
-                    vote/topics/votes/*.md
+                    Team mailbox: #deliberation-N
+                               │
+                               ▼
+                    Phase 5 (mailbox voting): #vote-N
                                │
                                ▼
                     vote/topics/consensus/consensus.md
                     vote/SUMMARY.md
                     vote/docs/CHANGE_LOG.md
+                    Team mailbox: #completed
 ```
+
+---
 
 ## Vote Tallying Example
 
@@ -181,34 +205,71 @@ vote/topics/discussion_plan.md
 
 **Tally:** A = 4, B = 1 → **Decision: A**
 
-But wait — the aestheticist had a strong argument for B. The orchestrator notes this in the consensus:
+Leader notes in consensus:
 - "Decision: A (root-case-plural) — 4/5 votes"
 - "Dissent: Aestheticist advocated vowel plural `-a`; acknowledged but deferred to parsimony"
-- "Graphify context: Sound Symbolism community suggests vowel-based marking could reinforce phonaesthetic goals; deferred to future phonology topic"
+
+---
 
 ## Special Cases
 
 ### Agent Failure
-If a specialist fails (0 output, timeout, error), the orchestrator:
-1. Records the failure in `vote/SUMMARY.md`
+If a teammate fails (0 output, timeout, error):
+1. Leader records the failure in `vote/SUMMARY.md`
 2. Proceeds with available voices (minimum 3 needed for meaningful consensus)
 3. For critical analysis areas, may supplement manually or rerun with simplified prompt
+4. Check teammate status with: `check_teammate({ team_name: "vela", agent_name: "vela_phonologist" })`
 
 ### Strong Convergence
-When 3+ agents independently identify the same problems, the orchestrator can skip Phase 4 (discussion) and synthesize directly from proposals into consensus. This is not a shortcut — it's evidence that the problems genuinely exist across reasoning paradigms.
+When 3+ agents independently identify the same problems, the Leader can skip Phase 4 (discussion) and synthesize directly from proposals into consensus.
 
 ### Contradiction Between Aesthetic and Logical Arguments
 When the aestheticist contradicts the logical/morphological consensus:
 - **Default rule:** Logical consistency wins unless the aesthetic cost is catastrophic
-- **But:** If all 4 logical specialists agree and aestheticist alone dissents, the aestheticist's concerns are noted as "future design considerations" rather than blockers
-- **Exception:** If the aestheticist is the ONLY one defending a view and it's about VELA's core identity (beauty), the orchestrator may table the decision for a future dedicated aesthetic deliberation
+- **But:** If all 4 logical specialists agree and aestheticist alone dissents, the aestheticist's concerns are noted as "future design considerations"
+- **Exception:** If the aestheticist is the ONLY one defending a view and it's about VELA's core identity (beauty), the Leader may table the decision
+
+---
+
+## pi-teams Workflow Quick Reference
+
+```
+# 1. Create team (one-time setup)
+team_create({ team_name: "vela", description: "VELA language construction committee" })
+
+# 2. Spawn teammates
+spawn_teammate({ team_name: "vela", name: "vela_phonologist", prompt: "...", cwd: "." })
+spawn_teammate({ team_name: "vela", name: "vela_morphologist", prompt: "...", cwd: "." })
+# ... etc for all 5 specialists
+
+# 3. Create task
+task_create({ team_name: "vela", subject: "VELA: Case System Review", description: "..." })
+
+# 4. Broadcast message
+broadcast_message({ team_name: "vela", summary: "New deliberation", content: "..." })
+
+# 5. Read mailbox
+read_inbox({ team_name: "vela" })
+
+# 6. Check teammate status
+check_teammate({ team_name: "vela", agent_name: "vela_phonologist" })
+
+# 7. Update task
+task_update({ team_name: "vela", task_id: "[id]", status: "completed" })
+
+# 8. Shutdown
+team_shutdown({ team_name: "vela" })
+```
+
+---
 
 ## Quality Checklist
 Before declaring a deliberation complete, verify:
-- [ ] `graphify-out/GRAPH_REPORT.md` was consulted (not stale: run `graphify update .` if docs changed)
+- [ ] `graphify-out/GRAPH_REPORT.md` was consulted (not stale)
 - [ ] `vote/SUMMARY.md` exists and has ≥1 approved change
 - [ ] Each change has: what changed, why, exact implementation, priority
 - [ ] Consensus cites which specialists agreed/disagreed
-- [ ] No critical tool errors in any agent
+- [ ] No critical tool errors in any teammate
 - [ ] CHANGE_LOG.md was appended
-- [ ] Source files are listed for implementation
+- [ ] Task board shows status = completed
+- [ ] All teammates responded (or failure documented)
