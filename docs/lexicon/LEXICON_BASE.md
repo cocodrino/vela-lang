@@ -181,6 +181,7 @@
 | **lisen** | /lisen/ | to listen | lisen-a | lisen-ed | lisen-wil | Wi lisen a la muzik. → We listen to the music. |
 | **tok** | /tok/ | to speak | tok-a | tok-ed | tok-wil | Mi tok wit yu. → I speak with you. |
 | **tal** | /tal/ | to tell | tal-a | tal-ed | tal-wil | Yu tal mi wat yunof. → You tell me what you know. |
+| **sey** | /sei/ | to say | sey-a | sey-ed | sey-wil | Mi sey "helo". → I say "hello". |
 | **ask** | /ask/ | to ask | ask-a | ask-ed | ask-wil | Mi ask yu wan ting. → I ask you one thing. |
 | **ansr** | /ansr/ | to answer | ansr-a | ansr-ed | ansr-wil | Li ansr mi-se kwestion. → She answers my question. |
 
@@ -199,6 +200,7 @@
 | **swim** | /swim/ | to swim | swim-a | swim-ed | swim-wil | Wi swim in la rivr. → We swim in the river. |
 | **frai** | /frai/ | to fly | frai-a | frai-ed | frai-wil | La berd frai. → The bird flies. |
 | **folo** | /folo/ | to follow | folo-a | folo-ed | folo-wil | Mi folo yu. → I follow you. |
+| **bow** | /bou/ | to bend down | bow-a | bow-ed | bow-wil | Li bow tu pik la ting. → She bends to pick the thing. |
 | **ariv** | /ariv/ | to arrive | ariv-a | ariv-ed | ariv-wil | Wi ariv at sevn. → We arrive at seven. |
 
 ### Actions and Work
@@ -249,6 +251,7 @@
 | **desid** | /desid/ | to decide | desid-a | desid-ed | desid-wil | Mi desid tu kom. → I decide to come. |
 | **sugest** | /sugest/ | to suggest | sugest-a | sugest-ed | sugest-wil | Mi sugest wat yu don. → I suggest what you do. |
 | **explen** | /eksplen/ | to explain | explen-a | explen-ed | explen-wil | Mi explen la rule. → I explain the rule. |
+| **ide** | /i.de/ | idea | — | — | — | La ide es gret! → The idea is great! |
 
 ### Possession and Exchange
 
@@ -303,6 +306,7 @@
 | **heal** | /hial/ | to heal | heal-a | heal-ed | heal-wil | La wound heal. → The wound heals. |
 | **slip** | /slip/ | to sleep | slip-a | slip-ed | slip-wil | Baby slip. → Baby sleeps. |
 | **wek** | /wek/ | to wake up | wek-a | wek-ed | wek-wil | Mi wek at six. → I wake at six. |
+| **blo** | /blo/ | to blow | blo-a | blo-ed | blo-wil | La win blo. → The wind blows. |
 | **rest** | /rest/ | to rest | rest-a | rest-ed | rest-wil | Mi rest nau. → I rest now. |
 | **eat** | /it/ | to eat | eat-a | eat-ed | eat-wil | Mi eat laappl. → I eat the apple. |
 | **drink** | /drink/ | to drink | drink-a | drink-ed | drink-wil | Mi drink watre. → I drink water. |
@@ -311,6 +315,7 @@
 | **shin** | /sin/ | to shine | shin-a | shin-ed | shin-wil | La son shin. → The sun shines. |
 | **rain** | /rein/ | to rain | rain-a | rain-ed | rain-wil | La rein fal. → The rain falls. |
 | **snow** | /sno/ | to snow | snow-a | snow-ed | snow-wil | La snow fal. → The snow falls. |
+| **smile** | /smi.le/ | to smile | smile-a | smile-ed | smile-wil | La baby smile at mi. → The baby smiles at me. |
 
 ### Modal Verbs
 
@@ -369,11 +374,13 @@
 | **bizi** | /bizi/ | busy | Mi es bizi. | I am busy. |
 | **fri** | /frai/ | free / free | Mi es fri. | I am free. |
 | **safi** | /safi/ | safe | la safi hous | the safe house |
+| **redi** | /re.di/ | ready | Mi es redi. | I am ready. |
 | **dangerus** | /dainjerus/ | dangerous | la danger
 | **clean** | /klian/ | clean | la clean rum | the clean room |
 | **diti** | /diti/ | dirty | la diti masin | the dirty machine |
 | **hardi** | /hardi/ | hard (material) | la hardi metal | the hard metal |
 | **soft** | /soft/ | soft | la soft kusion | the soft cushion |
+| **brite** | /bri.te/ | bright | la brite son | the bright sun |
 | **smooth** | /smud/ | smooth | la smooth surfes | the smooth surface |
 | **ruf** | /ruf/ | rough | la ruf wol | the rough wool |
 | **wet** | /wet/ | wet | la wet grund | the wet ground |
@@ -422,6 +429,16 @@
 | **gol** | /gol/ | golden | la gol sun |
 | **silv** | /silv/ | silver | la silv moon |
 
+
+### Social Formulas and Politeness
+
+| Word | AFI | English | Example |
+|------|-----|---------|---------|
+| **helo** | /he.lo/ | hello | Helo! → Hello! |
+| **plise** | /pli.se/ | please | Plise kom. → Please come. |
+| **sori** | /so.ri/ | sorry | Mi es sori. → I am sorry. |
+| **gudbai** | /gud.bai/ | goodbye | Gudbai! → Goodbye! |
+| **welkom** | /wel.kom/ | welcome | Welkom tu mi hous. → Welcome to my house. |
 ### Emotional and Mental States
 
 | Word | AFI | English | Example |
@@ -795,6 +812,7 @@ Social and legal entities (not professions):
 | **mang** | /mang/ | mango | | 
 | **watrmeln** | /watrmeln/ | watermelon | | 
 | **frukt** | /frunkt/ | fruit | | Frukt es nais and helthi. |
+| **frute** | /fru.te/ | fruit (atom form) | | Frute es nais and helthi. → Fruit is nice and healthy. |
 | **vegi** | /veji/ | vegetable | | 
 | **korn** | /korn/ | corn | | 
 | **ris** | /ris/ | rice | | 
@@ -810,6 +828,7 @@ Social and legal entities (not professions):
 | **butr** | /butr/ | butter | | 
 | **cream** | /kriam/ | cream | | 
 | **sup** | /sup/ | soup | | La sup es hot. |
+| **dina** | /di.na/ | dinner | | Wi eat dina at nait. → We eat dinner at night. |
 | **salad** | /salad/ | salad | | 
 | **salt** | /solt/ | salt | | 
 | **sugr** | /sukr/ | sugar | | 
@@ -1539,6 +1558,7 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 | **sizorz** | /si.zorz/ | noun | scissors | — | — |
 | **nidol** | /ni.dol/ | noun | needle | — | — |
 | **snow** | /snow/ | noun | snow | — | — |
+| **smile** | /smi.le/ | to smile | smile-a | smile-ed | smile-wil | La baby smile at mi. → The baby smiles at me. |
 | **storm** | /storm/ | noun | storm | — | — |
 | **vulkan** | /vul.kan/ | noun | volcano | — | — |
 | **raba** | /ra.ba/ | noun | rubber | — | — |

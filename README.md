@@ -203,6 +203,8 @@ fai  + man  = faiman    (fireman / firefighter)
 
 **The principle: if you know the roots, you can understand any compound word in VELA.**
 
+VELA's **soft ceiling of ~200 atomic words** (Tier 0: 50 core + Tier 1: 150 open with Quality Gate) makes this sustainable. Unlike Esperanto, where learners memorize 900+ roots, VELA forces everything else into compounds. The derivational engine does the heavy lifting. See `vote/topics/consensus/ATOM_CEILING_consensus.md`.
+
 ### Beauty — Intentional Phonaesthetics
 
 Phonetic research (phonaesthetics) guides every sound choice:

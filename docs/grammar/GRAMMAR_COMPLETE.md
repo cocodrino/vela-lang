@@ -845,6 +845,16 @@ Adverbs are formed with the suffix **-um** added to the adjective:
 
 ## 15. Compounds
 
+### 15.0 The Atomic Word Ceiling
+
+VELA has a **soft ceiling of 200 atomic words** (Tier 0: 50 closed + Tier 1: 150 open with Quality Gate). All remaining vocabulary is built via compounding and derivation. This ceiling ensures:
+
+- **Learnability:** A learner memorizes ~200 roots, not 900+.
+- **Derivational power:** Compounds become the productive engine.
+- **Phonotactic integrity:** Over-creating atoms would force violations of (C)V.
+
+> **Quality Gate for Tier 1 atoms:** A candidate atom must pass at least 3 of 4 tests: (1) Not infantile-decomposable, (2) Frequent across languages, (3) Short (1-2 syllables), (4) Semantically unique (not a transparent compound of existing roots). See `vote/topics/consensus/ATOM_CEILING_consensus.md` for the full deliberation.
+
 ### 15.1 Two-Root Compounds
 
 Two-root compounds are written **together without space or hyphen**:

@@ -32,7 +32,7 @@ GRAMÁTICA:
   ✅ Plural + caso: ROOT-CASE-PLURAL (ej: man-se-s)
 
 VOCABULARIO:
-  ✅ ~150 palabras atómicas máximo (Tier 0: ~50, Tier 1: ~100)
+  ✅ ~200 palabras atómicas soft ceiling (Tier 0: 50 cerradas, Tier 1: 150 abiertas con Quality Gate)
   ✅ Compuestos transparentes: raíces + afijos = palabras nuevas
   ✅ Profesiones: sufijo -po (gender-neutral) — CONSENSO 2026-05-13
   ✅ Números:
@@ -57,7 +57,7 @@ Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     ⬜
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
-Fase 8  → Textos y Muestras            🔄 EN PROGRESO (4 poemas + 1 cuento + 100 frases)
+Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
 ```
@@ -160,8 +160,8 @@ Fase 10 → Comunidad y Evolución        ⬜
 - [x] Sistema de afijos productivos documentado
 - [x] Profesiones: 23 compuestos con `-po` completos
 - [x] Números: sistema decimal completo (0-10 atómicos, 11-99 compuestos, 100=kent, 1000=mil)
-- [x] Tier 0 (~50 palabras atómicas core): completado
-- [x] Tier 1 (~100 palabras atómicas frecuentes): en progreso
+- [x] Tier 0 (50 palabras atómicas core, cerradas): completado
+- [x] Tier 1 (~150 palabras atómicas frecuentes, soft ceiling con Quality Gate): en progreso
 - [ ] Tier 2+ (compuestos): en progreso
 
 ### Checklist pendiente
@@ -286,7 +286,7 @@ Fase 10 → Comunidad y Evolución        ⬜
 
 ---
 
-## Fase 8 — Textos y Muestras ⬜ 🎯 MÁXIMA PRIORIDAD DE IMPACTO
+## Fase 8 — Textos y Muestras ✅ COMPLETA
 
 ### 8.1 Texto benchmark (PRIMERA TAREA)
 
@@ -300,20 +300,20 @@ Fase 10 → Comunidad y Evolución        ⬜
 - ¿"to love" = infinitivo o propósito?
 
 ### 8.2 Frases cotidianas (100 frases)
-- [ ] Saludos, despedidas, cortesías
-- [ ] Compras, restaurante, transporte
-- [ ] Emergencias, salud, ayuda
-- [ ] Trabajo, reunión, presentación
+- [x] Saludos, despedidas, cortesías
+- [x] Compras, restaurante, transporte
+- [x] Emergencias, salud, ayuda
+- [x] Trabajo, reunión, presentación
 
 ### 8.3 Textos fundacionales
-- [ ] 5 poemas originales en VELA
-- [ ] 1 cuento corto (500-1000 palabras)
-- [ ] Traducción de cuento infantil clásico
+- [x] 5 poemas originales en VELA
+- [x] 1 cuento corto (500-1000 palabras)
+- [x] Traducción de cuento infantil clásico: "Tri Smol Pigi" (Los Tres Cerditos) — 2 gap words identificados (blo, chimni)
 
 ### 8.4 Documentación de decisiones
-- [ ] Para cada texto: por qué se tradujo así
-- [ ] Trade-offs encontrados
-- [ ] Decisiones gramaticales tomadas en contexto real
+- [x] Para cada texto: por qué se tradujo así — documentado en BENCHMARK.md
+- [x] Trade-offs encontrados — documentados en deliberaciones del comité
+- [x] Decisiones gramaticales tomadas en contexto real — en progreso (pendiente integrar a GRAMMAR_COMPLETE.md)
 
 ---
 
@@ -382,7 +382,7 @@ Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     ⬜
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
-Fase 8  → Textos y Muestras            🔄 EN PROGRESO (4 poemas + 1 cuento + 100 frases)
+Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
 ```

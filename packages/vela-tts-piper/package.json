@@ -1,0 +1,22 @@
+{
+  "name": "@vela/tts-piper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "vela-tts": "./bin/vela-tts.mjs"
+  },
+  "scripts": {
+    "setup": "bash ./scripts/setup-piper.sh",
+    "doctor": "node ./scripts/doctor.mjs",
+    "smoke": "node ./scripts/smoke-test.mjs",
+    "preview:vela": "node ./bin/vela-tts.mjs preview-phonemes --text \"Halo! Mi es fin.\"",
+    "synth:vela": "node ./bin/vela-tts.mjs synth-text --text \"Halo!\" --out ./output/vela-cli.wav",
+    "batch": "node ./scripts/synthesize-library.mjs",
+    "sync:web-audio": "node ./scripts/sync-web-audio.mjs"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vela-lang",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "tts:setup": "bash packages/vela-tts-piper/scripts/setup-piper.sh",
+    "tts:doctor": "node packages/vela-tts-piper/scripts/doctor.mjs",
+    "tts:smoke": "node packages/vela-tts-piper/scripts/smoke-test.mjs",
+    "tts:vela:smoke": "node packages/vela-tts-piper/scripts/smoke-test.mjs",
+    "tts:vela:batch": "node packages/vela-tts-piper/scripts/synthesize-library.mjs",
+    "tts:vela:sync-web-audio": "node packages/vela-tts-piper/scripts/sync-web-audio.mjs",
+    "tts:vela:batch-and-sync": "npm run tts:vela:batch && npm run tts:vela:sync-web-audio",
+    "web:dev": "npm --prefix web-sample run dev",
+    "web:build": "npm --prefix web-sample run build",
+    "web:preview": "npm --prefix web-sample run preview"
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "poem-laif-biutifl",
+    "title": "La Laif Es Short Bat Biutifl",
+    "type": "poem",
+    "description": "Poema corto sobre fragilidad y belleza.",
+    "textPath": "/texts/poem-laif-biutifl.txt",
+    "audioPath": "/audio/poem-laif-biutifl.wav"
+  },
+  {
+    "id": "poem-pis-hope",
+    "title": "Hop por Pis",
+    "type": "poem",
+    "description": "Verso de esperanza colectiva en VELA.",
+    "textPath": "/texts/poem-pis-hope.txt",
+    "audioPath": "/audio/poem-pis-hope.wav"
+  },
+  {
+    "id": "story-lumina-bridge",
+    "title": "Lumina an de Brij",
+    "type": "story",
+    "description": "Cuento breve de encuentro entre dos ciudades.",
+    "textPath": "/texts/story-lumina-bridge.txt",
+    "audioPath": "/audio/story-lumina-bridge.wav"
+  },
+  {
+    "id": "story-song-teacher",
+    "title": "La Sonj an de Lern-Po",
+    "type": "story",
+    "description": "Relato corto inspirado en ejemplos del corpus VELA.",
+    "textPath": "/texts/story-song-teacher.txt",
+    "audioPath": "/audio/story-song-teacher.wav"
+  }
+]

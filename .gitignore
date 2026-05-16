@@ -1,3 +1,13 @@
 graphify-out/cache/
 .mcp.json
 opencode.json
+
+node_modules/
+web-sample/node_modules/
+web-sample/dist/
+packages/*/node_modules/
+packages/vela-tts-piper/.venv/
+packages/vela-tts-piper/.env
+packages/vela-tts-piper/output/
+packages/vela-tts-piper/voices/*.onnx
+packages/vela-tts-piper/voices/*.json

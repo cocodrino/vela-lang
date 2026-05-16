@@ -1,0 +1,112 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1rem;
+}
+
+.sidebar h1 {
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.filters button,
+.sidebar li button {
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.filters button {
+  padding: 0.4rem 0.6rem;
+  text-transform: capitalize;
+}
+
+.filters .active {
+  background: #38bdf8;
+  color: #082f49;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar li button {
+  width: 100%;
+  text-align: left;
+  padding: 0.7rem;
+  background: #1e293b;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar li button.selected {
+  background: #334155;
+  outline: 1px solid #38bdf8;
+}
+
+.reader {
+  padding: 1.2rem;
+}
+
+.audio-box {
+  margin: 1rem 0;
+}
+
+audio {
+  width: 100%;
+  max-width: 480px;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  line-height: 1.55;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.muted {
+  color: #64748b;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
