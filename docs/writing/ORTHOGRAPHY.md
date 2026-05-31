@@ -244,13 +244,13 @@ En VELA, **y = /j/** (consonante, como "y" en "yo").
 | Forma | Escritura | Ejemplo |
 |-------|-----------|---------|
 | Singular | raíz | man |
-| Plural | raíz-**s** | man-**s** |
+| Plural | raíz-**n/-en** | man-**en** / siti-**n** |
 
 ### 5.5 Combinaciones
 
 | Combinación | Escritura | Orden |
 |-------------|-----------|--------|
-| Plural + Caso | raíz-**s**-**se/te** | man-s-se |
+| Caso + Plural | raíz-**se/to**-**n** | man-se-n |
 | Adjetivo + Sustantivo | se escriben juntos si es transparente | big-man |
 | Verbo + Objeto | se escriben separados | si la man |
 
@@ -258,8 +258,8 @@ En VELA, **y = /j/** (consonante, como "y" en "yo").
 
 ```
 La man's house   → La man-se    hous
-The big man's houses → La big man-s-se hous
-The men's houses     → La man-s-se    hous-s
+The big man's houses → La big man-se hous-en
+The men's houses     → La man-se-n    hous-en
 
 Liv-ing      → li-ving (vivir, presente continuo)
 Liv-ed       → li-ved (vivió)
@@ -471,7 +471,7 @@ nof       → /nof/      (to know)
 | liv-ed | /liv.ɛd/ | -ed = morpheme separado |
 | wok-er | /wok.er/ | -er = morpheme separado |
 | man-se | /man.se/ | -se = morpheme separado |
-| man-s | /mans/ | -s = plural |
+| man-en | /mans/ | -s = plural |
 | big | /big/ | bare root = adjetivo |
 | strong | /strong/ | bare root = adjetivo |
 

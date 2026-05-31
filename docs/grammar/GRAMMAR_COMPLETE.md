@@ -226,12 +226,13 @@ All nouns end in a vowel in VELA. This is a consequence of the (C)V syllable rul
 
 ### 4.2 Plural
 
-The plural suffix is **-s**:
+The plural suffix is **-n** after vowel-final roots, **-en** after consonant-final roots:
 
 ```
-man     → man-s         (men/people)
-siti    → siti-s        (cities)
-famili  → famili-s      (families)
+man     → man-en       (men/people)
+siti    → siti-n       (cities)
+famili  → famili-n     (families)
+hous    → hous-en      (houses)
 ```
 
 ### 4.3 The Minimal Case System
@@ -294,19 +295,19 @@ De kom la las dei-to. → They come on the last day. (time)
 
 | Case | Singular | Plural |
 |------|----------|--------|
-| **Nominative** | man | man-s |
-| **Accusative** | man | man-s |
-| **Genitive** | man-**se** | man-s-**se** |
-| **Locative** | man-**te** | man-s-**te** |
+| **Nominative** | man | man-en |
+| **Accusative** | man | man-en |
+| **Genitive** | man-**se** | man-en-**se** |
+| **Locative** | man-**te** | man-en-**to** |
 
 ### 4.9 Case + Other Morphemes
 
 When case combines with other suffixes, the order is always: **root → case → number**:
 
 ```
-Case + Plural:    man-se-s        (the men's + plural = men's of multiple men)
-Locative + Pl:   siti-te-s      (in the cities)
-Genitive + Pl:   famili-se-s    (of the families)
+Case + Plural:    man-se-n        (the men's + plural = men's of multiple men)
+Locative + Pl:   siti-to-n      (in the cities)
+Genitive + Pl:   famili-se-n    (of the families)
 ```
 
 ### 4.10 Case and Prepositions
@@ -885,7 +886,7 @@ When a compound noun takes a case suffix, the suffix goes on the **last root onl
 
 ```
 sunlait-se        → of the sunlight   (NOT: sun-la-se-it)
-hauskel-s-se      → of the households
+hauskel-en-se      → of the households
 ```
 
 ---

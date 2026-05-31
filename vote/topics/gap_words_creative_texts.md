@@ -71,7 +71,7 @@
 - `krei-ed (root missing: krei)`
 - `kwaiet`
 - `laik`
-- `mat-s (missing parts: mat)`
+- `mat-en (missing parts: mat)`
 - `morne`
 - `musik`
 - `neks`

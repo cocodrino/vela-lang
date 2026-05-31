@@ -2,7 +2,7 @@
 
 > **Design decision: 2025-04-13** — Based on VELA's founding principles.
 > **Method:** Apply the VELA Decision Framework first — only mark what cannot be inferred.
-> **Updated: 2026-05-13** — Following multi-agent deliberation. Changes: locative -te → -to, plural+case order reversed, possessive pronouns unified.
+> **Updated: 2026-05-13** — Following multi-agent deliberation. Changes: locative -te → -to, plural suffix changed -s → -n/-en, possessive pronouns unified.
 
 ---
 
@@ -93,15 +93,15 @@ The case suffix precedes the plural suffix for clearer pronunciation and prosody
 
 ```
  GEN-SG:  la man-se dog    → The man's dog
- GEN-PL:  la man-se-s dog  → The men's dogs
+ GEN-PL:  la man-se-n dog  → The men's dogs
 
  LOC-SG:  la siti-to       → In the city
- LOC-PL:  la siti-to-s     → In the cities
+ LOC-PL:  la siti-to-n     → In the cities
 ```
 
 Order: **ROOT → CASE → PLURAL**
 
-This prevents sibilant stacking (e.g., `man-s-se`) and preserves prosodic clarity, ensuring the case morpheme stays closest to its root.
+This prevents coda stacking (e.g., man-se-n)`) and preserves prosodic clarity, ensuring the case morpheme stays closest to its root.
 
 ---
 
@@ -160,8 +160,8 @@ The bare adjective is the preferred form. The old stative use of `-to` (e.g., `s
 
 | Case | Singular | Plural |
 |------|----------|--------|
-| **Nominative** | man | man-s |
-| **Accusative** | man | man-s |
+| **Nominative** | man | man-en |
+| **Accusative** | man | man-en |
 | **Genitive** | man-**se** | man-**se**-**s** |
 | **Locative** | man-**to** | man-**to**-**s** |
 

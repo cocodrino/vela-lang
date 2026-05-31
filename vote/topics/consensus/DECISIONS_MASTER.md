@@ -148,7 +148,7 @@ All 5 specialists independently concluded ~90% atoms, 0% descriptive compounds:
 
 ### Plural + Case Order
 - **ROOT → CASE → PLURAL**
-- Example: `man-se-s` (man + genitive + plural) = "of the men"
+- Example: `man-se-n` (man + genitive + plural) = "of the men"
 
 ### Adjective Suffix `-im`
 - **Eliminated entirely**

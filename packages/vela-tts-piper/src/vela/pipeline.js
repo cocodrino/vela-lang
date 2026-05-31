@@ -14,24 +14,24 @@ export async function textToVelaPhonemes(text, options = {}) {
     if (/^[.,;:!?\n]$/.test(token)) return token;
     if (!/[a-zA-Z]/.test(token)) return token;
     const dictHit = lookupWord(token, dictionary);
-    if (dictHit) return dictHit;
-    return g2pWord(token);
+    // WB = word boundary marker; consumed by phoneme synthesizer (ID 3 = space)
+    return ((dictHit ?? g2pWord(token)) + ' WB');
   });
 
   return applyProsody(phonemeTokens);
 }
 
 export async function synthesizeVelaText(text, outPath, options = {}) {
-  const phonemes = await textToVelaPhonemes(text, options);
   const mode = options.inputMode ?? process.env.PIPER_INPUT_MODE ?? 'text';
 
   if (mode === 'phoneme') {
-    await synthesizePhonemes(phonemes, outPath, options);
-    return { outPath, mode: 'phoneme', phonemes };
+    // Pass original VELA text — Python script handles phoneme surgery internally
+    await synthesizePhonemes(text, outPath, options);
+    return { outPath, mode: 'phoneme' };
   }
 
-  const fallbackText = options.textFallback ?? normalizeVelaText(text);
-  await synthesizeText(fallbackText, outPath, options);
+  const phonemes = await textToVelaPhonemes(text, options);
+  await synthesizeText(normalizeVelaText(text), outPath, options);
   return { outPath, mode: 'text', phonemes };
 }
 

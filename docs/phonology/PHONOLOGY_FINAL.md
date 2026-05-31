@@ -122,26 +122,30 @@ Sílaba VELA = (C) + V
 | stu, pra, tre | **kat** (terminación en /t/) |
 | pant, send | **kalb** (terminación en /b/) |
 
-### 3.2 Excepciones: consonantes permitidas al final
+### 3.2 Excepciones: codas permitidas al final de palabra
 
-Solo estas consonantes pueden aparecer al final de palabra:
+VELA mantiene preferencia por sílabas abiertas (C)V, pero **permite codas palabra-finales limitadas** por razones de legibilidad, etimología y compatibilidad con el léxico existente.
 
-| Consonante | Razón |
-|-----------|--------|
-| /n/ | Muy común en inglés, español, mandarín |
-| /m/ | Muy común |
-| /l/ | Muy común (ej: "sol", "real") |
-| /r/ | Muy común |
+**Codas oficialmente permitidas:**
 
-**¿Por qué no /p/, /t/, /k/?** Porque VELA usa la estructura (C)V limpia. Las palabras que terminan en /p/, /t/, /k/ en inglés se adaptan:
+| Consonante | Nota |
+|-----------|------|
+| /n/ | universal y fácil |
+| /m/ | universal |
+| /l/ | común |
+| /r/ | común |
+| /s/ | común en raíces existentes; fricativa suave |
 
-| Inglés | ❌ Wrong | ✅ VELA |
-|--------|---------|---------|
-| stop | stop | **to-pi** (reforma completa) |
-| act | act | **ak-tu** (agregamos -u) |
-| pick | pick | **pik-u** (agregamos -u) |
+**Importante (política de palabras nuevas):**
+- **Nuevos átomos**: SHOULD ser **vocal-final** por defecto.
+- Un átomo nuevo MAY terminar en {n,m,l,r,s} solo si (a) es de alta frecuencia, (b) reduce distorsión etimológica, y (c) no introduce ambigüedad.
+- Cualquier coda fuera de {n,m,l,r,s} es **deprecada** y SHOULD evitarse en palabras nuevas (pero puede existir como **legacy/grandfathered** en el léxico actual).
 
-### 3.3 Verificación de vocabulario existente
+### 3.3 Nota: Plural -n/-en
+
+El plural oficial es **-n/-en** (ver `docs/grammar/GRAMMAR_COMPLETE.md`). Esto es fonotácticamente legal porque la coda final /n/ está permitida y el alomorfo -en mantiene una sílaba CV final.
+
+### 3.4 Verificación de vocabulario existente
 
 Todas las 1000+ palabras del léxico VELA pasaron esta regla. Si una palabra no la cumple → se adapta con una vocal final.
 

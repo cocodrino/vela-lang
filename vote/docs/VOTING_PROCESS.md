@@ -197,10 +197,10 @@ vote/topics/discussion_plan.md  ← Leader writes
 **Point 2: Plural+Case Order**
 | Specialist | Vote |
 |------------|------|
-| Phonologist | A (man-se-s) |
-| Morphologist | A (man-se-s) |
-| Lexicographer | A (man-se-s) |
-| Semanticist | A (man-se-s) |
+| Phonologist | A (man-se-n) |
+| Morphologist | A (man-se-n) |
+| Lexicographer | A (man-se-n) |
+| Semanticist | A (man-se-n) |
 | Aestheticist | B (vowel plural) |
 
 **Tally:** A = 4, B = 1 → **Decision: A**

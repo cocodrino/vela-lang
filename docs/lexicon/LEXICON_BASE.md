@@ -38,8 +38,8 @@
 |------|-----|---------|---------|---------|
 | **dis** | /dis/ | this | Dis man es big. | This man is big. |
 | **dat** | /dat/ | that | Dat hous es nais. | That house is nice. |
-| **dese** | /de.se/ | these | Dese man-s es strong. | These men are strong. |
-| **dose** | /do.se/ | those | Dose buk-s es mi-se. | Those books are mine. |
+| **dese** | /de.se/ | these | Dese man-en es strong. | These men are strong. |
+| **dose** | /do.se/ | those | Dose buk-en es mi-se. | Those books are mine. |
 
 ### Articles
 
@@ -63,7 +63,7 @@
 | **bifor** | /bifor/ | before | Mi wok bifor yu kom. | I work before you come. |
 | **aft** | /aft/ | after | Wi kom aft la wok. | We come after the work. |
 | **arond** | /arond/ | around | Wi wok arond la siti. | We work around the city. |
-| **between** | /between/ | between | La hous es between tu tri-s. | The house is between three. |
+| **between** | /between/ | between | La hous es between tu tri-n. | The house is between three. |
 | **insaid** | /insaid/ | inside | La buk es insaid la box. | The book is inside the box. |
 | **autsid** | /autsid/ | outside | Li liv autsid la siti. | She lives outside the city. |
 | **neer** | /neer/ | near | La lern-hous es neer la park. | The school is near the park. |
@@ -223,7 +223,7 @@
 | **kuk** | /kuk/ | to cook | kuk-a | kuk-ed | kuk-wil | Mi kuk evriSandEI. → I cook every Sunday. |
 | **wosh** | /wos/ | to wash | wosh-a | wosh-ed | wosh-wil | Mi wosh mi-se masin. → I wash my car. |
 | **drai** | /drai/ | to dry | drai-a | drai-ed | drai-wil | Mi drai la plet. → I dry the plate. |
-| **siv** | /siv/ | to sieve / to filter | siv-a | siv-ed | siv-wil | Sift flour from solit-partikl-s. → Sieve flour from solid particles. |
+| **siv** | /siv/ | to sieve / to filter | siv-a | siv-ed | siv-wil | Sift flour from solit-partikl-en. → Sieve flour from solid particles. |
 
 ### Wants, Needs, and Preferences
 
@@ -246,7 +246,7 @@
 | **remembr** | /remembr/ | to remember | remembr-a | remembr-ed | remembr-wil | Mi remembr wat yu tal. → I remember what you said. |
 | **forget** | /forget/ | to forget | forget-a | forget-ed | forget-wil | Mi forget evriwei. → I forget everywhere. |
 | **undrstand** | /undredstand/ | to understand | undrstand-a | undrstand-ed | undrstand-wil | Mi undrstand VELA. → I understand VELA. |
-| **memoriz** | /memoriz/ | to memorize | memoriz-a | memoriz-ed | memoriz-wil | Mi memoriz la wod-s. → I memorize the words. |
+| **memoriz** | /memoriz/ | to memorize | memoriz-a | memoriz-ed | memoriz-wil | Mi memoriz la wod-en. → I memorize the words. |
 | **imajin** | /imajin/ | to imagine | imajin-a | imajin-ed | imajin-wil | Mi imajin la siti. → I imagine the city. |
 | **desid** | /desid/ | to decide | desid-a | desid-ed | desid-wil | Mi desid tu kom. → I decide to come. |
 | **sugest** | /sugest/ | to suggest | sugest-a | sugest-ed | sugest-wil | Mi sugest wat yu don. → I suggest what you do. |
@@ -540,9 +540,9 @@
 | **hasband** | /hasband/ | husband | | Mi-se hasband wok. |
 | **neibr** | /neibr/ | neighbor | | Mi-se neibr es fri. |
 | **ppl** | /pi.pi.el/ | people | pp-le = many persons | La ppl es big. |
-| **man-s** | /man.s/ | men / people | plural | De man-s wok. |
-| **wuman-s** | /wuman.s/ | women | plural | Dese wuman-s es nais. |
-| **child-s** | /tcild.s/ | children | plural | Dese child-s ple. |
+| **man-en** | /ma.nen/ | men / people | plural (man + -en) | De man-en wok. |
+| **wuman-en** | /wu.ma.nen/ | women | plural (wuman + -en) | Dese wuman-en es nais. |
+| **child-en** | /tchild.en/ | children | plural (child + -en) | Dese child-en ple. |
 
 ### Society and Roles
 
@@ -555,7 +555,7 @@ Social and legal entities (not professions):
 | **vilaj** | /vilaj/ | village | | La vilaj es smol. |
 | **naishon** | /naishon/ | nation | | La naishon es big. |
 | **kantri** | /kantri/ | country | | La kantri es beautiful. |
-| **gvrnmnt** | /gvnmnt/ | government | | La gvrnmnt mak lex-s. |
+| **gvrnmnt** | /gvnmnt/ | government | | La gvrnmnt mak lex-en. |
 | **lex** | /lex/ | law | | La lex es importent. |
 | **king** | /king/ | king | title (hereditary) | La king es rich. |
 | **kwain** | /kwain/ | queen | title (hereditary) | La kwain es beautiful. |
@@ -566,11 +566,11 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound | Example |
 |------|-----|---------|----------|---------|
 | **doktr** | /doktor/ | doctor | *(atomic — Latin, universal)* | Mi go tu doktr. |
-| **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lern child-s. |
+| **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lern child-en. |
 | **stodi-po** | /stodi.po/ | student / learner | study-person | La stodi-po stodi evri dei. |
 | **sik-fix-po** | /sik.fik.po/ | doctor | fix-sick-person | La sik-fix-po fix la sik-nes. |
 | **food-mak-po** | /fud.mak.po/ | chef / cook | food-make-person | La food-mak-po mak gud food. |
-| **plant-grow-po** | /plant.grou.po/ | farmer | plant-grow-person | La plant-grow-po grow crop-s. |
+| **plant-grow-po** | /plant.grou.po/ | farmer | plant-grow-person | La plant-grow-po grow crop-en. |
 | **word-mak-po** | /word.mak.po/ | writer | word-make-person | La word-mak-po rit la buk. |
 | **biju-mak-po** | /biju.mak.po/ | artist | beauty-make-person | La biju-mak-po maki beautiful art. |
 | **masin-fix-po** | /ma.sin.fik.po/ | engineer | machine-fix-person | La masin-fix-po maki bridj. |
@@ -629,7 +629,7 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **hous** | /haus/ | house | | La hous es big. |
-| **houskel** | /haus.kel/ | household | hous + kel (people of house) | La houskel hav five man-s. |
+| **houskel** | /haus.kel/ | household | hous + kel (people of house) | La houskel hav five man-en. |
 | **hom** | /hom/ | home | | Mi go hom. |
 | **rum** | /rum/ | room | | La rum es big. |
 | **bedrum** | /bedrum/ | bedroom | bed + rum | Mi slip in la bedrum. |
@@ -655,7 +655,7 @@ Social and legal entities (not professions):
 | **lok** | /lok/ | lock | | Mi lok la dor. |
 | **key** | /ki/ | key | | Mi hav la key. |
 | **maki-hous** | /ma.ki.haus/ | building | | La maki-hous es tall. |
-| **lern-hous** | /lern.haus/ | school | | Child-s go tu lern-hous. |
+| **lern-hous** | /lern.haus/ | school | | Child-en go tu lern-hous. |
 | **ofis** | /ofis/ | office | | Mi wok in la ofis. |
 | **sik-hous** | /sik.haus/ | hospital | | Mi go tu sik-hous. |
 | **hotl** | /hotl/ | hotel | | Wi liv in la hotl. |
@@ -673,7 +673,7 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **moon** | /mun/ | moon | | La moon es round. |
-| **star** | /star/ | star | | La star-s shine at noite. |
+| **star** | /star/ | star | | La star-en shine at noite. |
 | **skai** | /skai/ | sky | | La skai es blu. |
 | **watre** | /watre/ | water | ← international | Mi drink watre. |
 | **fai** | /fai/ | fire | | La fai burin. |
@@ -687,7 +687,7 @@ Social and legal entities (not professions):
 | **fores** | /fores/ | forest | | La fores es big. |
 | **gras** | /gras/ | grass | | La gras es green. |
 | **flauor** | /flauor/ | flower | | La flauor es nais. |
-| **plant** | /plant/ | plant | | Mi grow plant-s. |
+| **plant** | /plant/ | plant | | Mi grow plant-en. |
 | **wud** | /wud/ | wood | | La tri es mad from wud. |
 | **sand** | /sand/ | sand | | La sand es yelo. |
 | **ston** | /ston/ | stone | | La ston es hardi. |
@@ -698,7 +698,7 @@ Social and legal entities (not professions):
 | **wo** | /wo/ | wave | | La wo kom and go. |
 | **rein** | /rein/ | rain | | La rein fal. |
 | **wind** | /wind/ | wind | | La wind blow. |
-| **kraud** | /kraud/ | cloud | | La kraud-s es wit. |
+| **kraud** | /kraud/ | cloud | | La kraud-en es wit. |
 | **sarkis** | /sarkis/ | thunder | | La sarkis kom aft la rein. |
 | **letning** | /letning/ | lightning | | La letning shain. |
 | **storm** | /storm/ | storm | | La storm es dangerus. |
@@ -822,7 +822,7 @@ Social and legal entities (not professions):
 | **bef** | /bef/ | beef | | 
 | **porki** | /por.ki/ | pork | | 
 | **fisi** | /fi.si/ | fish | | 
-| **egi** | /e.gi/ | egg | | Mi fried two egi-s. |
+| **egi** | /e.gi/ | egg | | Mi fried two egi-n. |
 | **milk** | /milk/ | milk | | La baby drink milk. |
 | **ces** | /tes/ | cheese | | 
 | **butr** | /butr/ | butter | | 
@@ -879,26 +879,26 @@ Social and legal entities (not professions):
 | **month** | /month/ | month | Wot month es nau? |
 | **munts** | /munts/ | month | La munts of yeer. |
 | **dei** | /dei/ | day | Nau-dei mi wok. |
-| **nour** | /nauur/ | hour | Wan nour es sixty minimit-s. |
+| **nour** | /nauur/ | hour | Wan nour es sixty minimit-en. |
 | **minimit** | /minimit/ | minute | 
 | **sekond** | /sekond/ | second | 
 | **moring** | /moring/ | morning | Mi wok evri moring. |
 | **noon** | /nun/ | noon | La sun es at top at noon. |
 | **aftnaun** | /aftnaun/ | afternoon | 
 | **eveing** | /iveing/ | evening | 
-| **noit** | /noit/ | night | La star-s shine at noit. |
+| **noit** | /noit/ | night | La star-en shine at noit. |
 | **midnaight** | /midnait/ | midnight | La midnaight es very kwaiat. |
-| **spring** | /spring/ | spring | Plant-s gro in spring. |
+| **spring** | /spring/ | spring | Plant-en gro in spring. |
 | **samr** | /samr/ | summer | La sun es strong in samr. |
-| **fol** | /fol/ | fall / autumn | La leaf-s fal in fol. |
+| **fol** | /fol/ | fall / autumn | La leaf-en fal in fol. |
 | **winter** | /winter/ | winter | La snow fal in winter. |
-| **centuri** | /senturi/ | century | Wan centuri es hundred yeer-s. |
+| **centuri** | /senturi/ | century | Wan centuri es hundred yeer-en. |
 
 ### Communication and Media
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **wod** | /wod/ | word | | Mi lern nu wod-s. |
+| **wod** | /wod/ | word | | Mi lern nu wod-en. |
 | **langwij** | /langwii/ | language | | VELA es nu langwij. |
 | **buk** | /buk/ | book | ← Latin: liber, recogn. | Mi rid la buk. |
 | **paper** | /peiper/ | paper | | Mi rit on la paper. |
@@ -976,7 +976,7 @@ Social and legal entities (not professions):
 | **engin** | /engin/ | engine | | La engin of la kar. |
 | **traktor** | /traktor/ | tractor | | |
 | **robot** | /robot/ | robot | | La robot wok fast. |
-| **tool** | /tul/ | tool | | Mi masin gav la tool-s. |
+| **tool** | /tul/ | tool | | Mi masin gav la tool-en. |
 | **hammer** | /hammer/ | hammer | | |
 | **nail** | /neil/ | nail | | |
 | **skru** | /skru/ | screw | | |
@@ -1094,7 +1094,7 @@ Social and legal entities (not professions):
 |------|-----|---------|---------------|---------|
 | **biznes** | /biznes/ | business | | Mi hav un biznes. |
 | **kompani** | /kompani/ | company | | La kompani es big. |
-| **mak-hous** | /mak.haus/ | factory | | La mak-hous maki product-s. |
+| **mak-hous** | /mak.haus/ | factory | | La mak-hous maki product-en. |
 | **shop** | /sop/ | shop | | Mi bai food from shop. |
 | **market** | /market/ | market | | La market es bizi. |
 | **eat-hous** | /it.haus/ | restaurant | | Wi it in la eat-hous. |

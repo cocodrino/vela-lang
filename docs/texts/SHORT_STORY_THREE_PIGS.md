@@ -1,7 +1,7 @@
 # Tri Smol Pigi
 
 **VELA:**
-Wan taim, tri smol pig-s liv-ed wit de-se mat in big fores. Wan dei mat tok-ed, "Yu ar old enuf. Go maki yu on haus."
+Wan taim, tri smol pig-en liv-ed wit de-se mat in big fores. Wan dei mat tok-ed, "Yu ar old enuf. Go maki yu on haus."
 
 Pig 1 tok-ed,"Mi wil maki wan kwik haus." Li maki-ed gras-haus. "Dis kwik and esy," li tok-ed.
 
@@ -29,7 +29,7 @@ Wulfi kom-ed to wud-haus."Smol pig, smol pig, let mi in!"
 
 Den li haf wan ide. Li klaim-ed on la ston-haus roof and go-ed down la chimni. Bot Pig 3 put-ed hot watre under la chimni. Wulfi faul-ed down in la hot watre.
 
-"Owowow!" Wulfi jump-ed aut and ran awe in tu la fores. Tri smol pig-s dans-ed in la rum and luk-ed la sun. "Wi ar seif," de tok-ed. And de liv-ed hapi evri dei.
+"Owowow!" Wulfi jump-ed aut and ran awe in tu la fores. Tri smol pig-en dans-ed in la rum and luk-ed la sun. "Wi ar seif," de tok-ed. And de liv-ed hapi evri dei.
 
 ---
 

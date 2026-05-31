@@ -1,3 +1,8 @@
+---
+name: vela-deliberation
+description: Run a structured VELA multi-agent deliberation workflow for language-design decisions, choosing between pi-teams and Agent tool based on user/runtime constraints.
+---
+
 # VELA Deliberation
 
 ## When to use

@@ -20,10 +20,10 @@ A hard ceiling of ~150 atoms is **aesthetically unsustainable** for VELA. The la
 With a strict 150-atom ceiling, VELA speakers would be forced into compounds for dozens of everyday domestic concepts. Consider a mother singing to her child:
 
 > **Current VELA (with ~450 atoms, workable):**  
-> *"La moon es bright. La star-s shine. Mi luv yu. Slip on la pilow, under la blanket."*
+> *"La moon es bright. La star-en shine. Mi luv yu. Slip on la pilow, under la blanket."*
 
 > **Strict 150-atom VELA (hypothetical):**  
-> *"La nait-sun es bright. La nait-lait-s shine. Mi hart-luv yu. Slip on la hed-rest, under la warm-kloth."*
+> *"La nait-sun es bright. La nait-lait-en shine. Mi hart-luv yu. Slip on la hed-rest, under la warm-kloth."*
 
 The second version **fails the cradle test**: it would wake the baby. The compound density is too high, the rhythm is broken, and the emotional warmth is lost in mechanical description.
 
@@ -146,7 +146,7 @@ I propose that the cradle test be used not merely as a compound filter, but as a
 A sample VELA lullaby under the 250-atom proposal:
 
 > *La moon es bright,  
-> La star-s shine.  
+> La star-en shine.  
 > Mi luv yu, mi baby.  
 > Slip now, dream sweet.*
 

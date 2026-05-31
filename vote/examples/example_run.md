@@ -38,5 +38,5 @@ Agent({
 ## Example Output Snippet (projected)
 | Change | Reason | Implementation | Priority |
 |--------|--------|---------------|----------|
-| Swap plural-case order | Reduces parsing ambiguity | `man-se-s` instead of `man-s-se` | High |
+| Swap plural-case order | Reduces parsing ambiguity | `man-se-n` instead of `man-en-se` | High |
 | Make `-te` optional always | Prepositions cover locative meaning | Update docs to show both forms as valid | Medium |

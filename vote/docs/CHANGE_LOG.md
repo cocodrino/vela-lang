@@ -49,7 +49,7 @@
 - **Deliberation mode**: Synthesized consensus from convergent proposals
 - **Decisions**: 5 approved changes
   1. Locative -te → -to (vowel differentiation)
-  2. Plural+Case order: man-s-se → man-se-s
+  2. Plural system: -s → -n/-en; Case+Plural: man-se + PL → man-se-n (order: CASE → PL)
   3. Eliminate possessive -f forms (unified genitive)
   4. Restrict locative to spatial/temporal (state → bare adjective)
   5. Demonstrative dase → dose (homonymy resolution)
