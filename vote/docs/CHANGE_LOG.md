@@ -1,4 +1,80 @@
 # VELA Deliberation Change Log
+
+## 2026-07-24 — Fase 5: Full Lexicon Review (23 domains, ~246 words)
+
+**Committee:** 5 specialist roles across 3 Pi agents (distinct models) over the NATS bridge, 2 rounds.
+**Method:** Domain-level review → consensus ballot (APPROVE/AMEND/REJECT per resolution).
+**Result:** ✅ RATIFIED — see `vote/topics/consensus/fase5_consensus.md`.
+
+### Resolutions adopted
+| # | Decision | Vote |
+|---|----------|------|
+| R1 | **Two-tier atom ceiling** — soft ~200 core target + open domain registers; every loan carries a ≤3-root compound alternative | APPROVE ×2, AMEND ×1 |
+| R2 | **Thematic vowel /a/** for illegal single codas (~115 words) + **banned final clusters** (~32 words restructured); grandfathered roots `fors/art/self/god → forsa/arta/sela/goda` (2-release window) | unanimous |
+| R3 | **Loan reduction** in Ethics/Politics/Arts — `moral→rait-rong-sistam`, `etik→rait-rong-lern`, `harm→bada-mak`, `responsibil→du-nob`, `parlamnt→rul-mak-hous`; loans kept as domain-register synonyms | APPROVE ×2, AMEND ×1 |
+| R4 | **Emotion clusters kept** (gold standard); POETIC/PROSE tag adopted; clinical forms get poetic synonyms, not replacement | unanimous |
+| R5 | `pilgrimage→pilgrimej`; `-shon` standardized; beauty swaps `tretmnt→kura`, `govrnr→rul-po`, `varibl→chanj-tip`, `vershn→edi-shon`, `ekshibishon→shou-hous` | unanimous |
+| R6 | **Plural canon fixed** — `-n`/`-en` is the single rule (all `-s` deleted); morpheme order **root→number→case** (`man-en-se`); `man-se-n` removed | unanimous |
+
+### Follow-up review (same day)
+- **Homonymies — resolved, no action.** `fors→forsa`, `spid→spida`, `bit`→`muzika-bita` already eliminated the real clashes; `masa`≠`mas` (not homonyms); `stap`≠`stop` (`topi`); `tip` = benign polysemy. Only `kor` (choir) is a **reserved form** — latent risk if `core` is added later.
+- **Locative `-te`/`-to` — FIXED.** Finished applying the prior consensus (`-to`) across GRAMMAR_COMPLETE.md (rules, AFI, paradigm, summary). Also fixed a stale `mor/mos + im` comparison line (`-im` was already eliminated).
+
+- **Phonotactic validator built** — `scripts/validate_phonology.py` (from PHONOLOGY_FINAL.md §3.2). It exposed that R2's thematic vowel clashed with compounding from consonant-final native roots. **Both specialists voted Option A:** thematic vowel for loans/new roots only; native roots grandfathered in compounds (legal inventory = BASE headwords + errata roots); diphthong `-y/-w` endings are vowel-final. Fixed 6 new coinages (`chanja-tip`, `du-noba`, `kolaja`, `pilgrimeja`, `paraiza`; `deploy` kept). LEXICON_EXTENDED.md now validates 0 errors.
+
+- **`th` = /θ ð/ nativization DONE** — 9 legacy words fixed with `/θ/→/t/`, `/ð/→/d/` (the convention already in their own AFI): `think→tink, thick→tik, thin→tin, smooth→smud, helthi→helti, month→mont, lethr→leder, theory→teori, throu→trou`. `trou` keeps `/ou/` to avoid clashing with `tru` (true); `zh` rejected (spells /ʒ/, also not in inventory). Corpus swept. Validator: 0 errors / 1439 words.
+
+- **Duplicate `month` merged** — removed `munts` (worse phonotactically, ends in /nts/ cluster); `mont` is canonical. Plural is `mont-en` (fixed `yeer` example: "ten-tu mont-en" = twelve months).
+
+### Carried forward
+- Poet-vocabulary gap (sensory/atmosphere atoms) → Fase 6.
+
+### Files changed
+- `docs/lexicon/LEXICON_EXTENDED.md` — word forms, AFI, examples, plurals
+- `docs/grammar/GRAMMAR_COMPLETE.md` — §4.9 morpheme order + plural summary
+- `ROADMAP.md` — Fase 5 status + plural note
+- `vote/topics/consensus/fase5_consensus.md` — new
+
+---
+
+## 2026-05-31 — Phase 5: Single Word Review (self-nof = consciousness)
+
+**Committee:** 5 specialists (Phonologist, Morphologist, Lexicographer, Semanticist, Aestheticist)
+**Word reviewed:** `self-nof` (self + nof) = consciousness / consciencia
+**Domain:** Philosophy / Core Concepts
+
+### Deliberation Summary
+| Specialist | Verdict | Confidence |
+|------------|---------|------------|
+| Phonologist | ✅ APPROVE | High |
+| Morphologist | ✅ APPROVE | High |
+| Lexicographer | ✅ APPROVE | Med-High |
+| Semanticist | ⚠️ MODIFY | High |
+| Aestheticist | ✅ APPROVE | Med-High |
+
+**Result:** APPROVED (4/5, 1 modify with alternative proposal)
+
+### Decision
+- **Approved:** `self-nof` = consciousness / consciencia
+- **AFI:** /self.nof/
+- **Formation:** prefix compound (`self-` + `nof`)
+- **Orthography:** hyphenated (`self-nof`) — `self-` is prefix, not root
+- **Register:** philosophical consciousness (self-awareness of existence)
+
+### Semanticist Dissent (archived)
+- Proposed: `self-nof` = "self-knowledge" (literal), `mind-wek` = "consciousness"
+- Preserved for future review if polysemy issues arise in usage
+
+### Files Updated
+- `vote/topics/consensus/self-nof_consensus.md` — full rationale and dissent
+- `vote/topics/proposals/self-nof_*.md` — per-specialist reviews (5 files)
+
+---
+
+| 2026-05-31 | `fri-chuz` = free will | APPROVED (4/5, 1 modify) | Compound of existing roots; phonotactically clean; semantically one of strongest in Phase 5; hyphenated form chosen for consistency with entire existing lexicon; morphologist orthography dissent noted for systemic follow-up |
+
+---
+
 ## 2026-05-14 — Phase 4: Lexicon Expansion (Committee Review)
 
 **Committee:** 5 specialists (Phonologist, Morphologist, Lexicographer, Semanticist, Aestheticist)

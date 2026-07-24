@@ -242,7 +242,7 @@
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
 | **bilever** | /biliver/ | to believe | biliver-a | biliver-ed | biliver-wil | Mi biliver in yu. → I believe in you. |
-| **think** | /think/ | to think | think-a | think-ed | think-wil | Mi think so. → I think so. |
+| **tink** | /tink/ | to think | tink-a | tink-ed | tink-wil | Mi tink so. → I think so. |
 | **remembr** | /remembr/ | to remember | remembr-a | remembr-ed | remembr-wil | Mi remembr wat yu tal. → I remember what you said. |
 | **forget** | /forget/ | to forget | forget-a | forget-ed | forget-wil | Mi forget evriwei. → I forget everywhere. |
 | **undrstand** | /undredstand/ | to understand | undrstand-a | undrstand-ed | undrstand-wil | Mi undrstand VELA. → I understand VELA. |
@@ -348,8 +348,8 @@
 | **naro** | /na.ro/ | narrow | la naro rod | the narrow road |
 | **deep** | /dip/ | deep | la deep wel | the deep well |
 | **shalo** | /sa.lo/ | shallow | la shalo rivr | the shallow river |
-| **thick** | /tik/ | thick | un thick buk | a thick book |
-| **thin** | /tin/ | thin | un thin paper | a thin paper |
+| **tik** | /tik/ | thick | un tik buk | a thick book |
+| **tin** | /tin/ | thin | un tin paper | a thin paper |
 | **hevi** | /hevi/ | heavy | la hevi box | the heavy box |
 | **lait** | /lait/ | light (weight) | la laimt box | the light box |
 | **fast** | /fast/ | fast | la fast kar | the fast car |
@@ -381,7 +381,7 @@
 | **hardi** | /hardi/ | hard (material) | la hardi metal | the hard metal |
 | **soft** | /soft/ | soft | la soft kusion | the soft cushion |
 | **brite** | /bri.te/ | bright | la brite son | the bright sun |
-| **smooth** | /smud/ | smooth | la smooth surfes | the smooth surface |
+| **smud** | /smud/ | smooth | la smud surfes | the smooth surface |
 | **ruf** | /ruf/ | rough | la ruf wol | the rough wool |
 | **wet** | /wet/ | wet | la wet grund | the wet ground |
 | **warm** | /warm/ | warm | la warm son | the warm sun |
@@ -456,7 +456,7 @@
 | **hagri** | /hagri/ | hungry | Mi es hagri. |
 | **torsti** | /torsti/ | thirsty | Mi es torsti. |
 | **sik** | /sik/ | sick | La man es sik. |
-| **helthi** | /helthi/ | healthy | La famili es helthi. |
+| **helti** | /hel.ti/ | healthy | La famili es helti. |
 | **slepi** | /slepi/ | sleepy | Mi es slepi. |
 | **bored** | /bord/ | bored | Mi es bored. |
 | **proud** | /praud/ | proud | Li es proud. |
@@ -500,7 +500,7 @@
 | **blud** | /blud/ | blood | | La blud flo in bodi. |
 | **bon** | /bon/ | bone | | La bon es hardi. |
 | **miscl** | /miskl/ | muscle | | La miscl es strong. |
-| **brain** | /brein/ | brain | | La brain think. |
+| **brain** | /brein/ | brain | | La brain tink. |
 | **hert** | /hert/ | heart | | La hert bit. |
 | **stomok** | /stomok/ | stomach | | Mi-se stomok es hagri. |
 | **livr** | /livr/ | liver | | | 
@@ -811,7 +811,7 @@ Social and legal entities (not professions):
 | **lemon** | /lemon/ | lemon | | 
 | **mang** | /mang/ | mango | | 
 | **watrmeln** | /watrmeln/ | watermelon | | 
-| **frukt** | /frunkt/ | fruit | | Frukt es nais and helthi. |
+| **frukt** | /frunkt/ | fruit | | Frukt es nais and helti. |
 | **frute** | /fru.te/ | fruit (atom form) | | Frute es nais and helthi. → Fruit is nice and healthy. |
 | **vegi** | /veji/ | vegetable | | 
 | **korn** | /korn/ | corn | | 
@@ -875,9 +875,8 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Example |
 |------|-----|---------|---------|
-| **yeer** | /jir/ | year | Wan yeer hav ten-tu munts. |
-| **month** | /month/ | month | Wot month es nau? |
-| **munts** | /munts/ | month | La munts of yeer. |
+| **yeer** | /jir/ | year | Wan yeer hav ten-tu mont-en. |
+| **mont** | /mont/ | month | Wot mont es nau? |
 | **dei** | /dei/ | day | Nau-dei mi wok. |
 | **nour** | /nauur/ | hour | Wan nour es sixty minimit-en. |
 | **minimit** | /minimit/ | minute | 
@@ -1055,7 +1054,7 @@ Social and legal entities (not professions):
 | **wul** | /wul/ | wool | La kot es wul. |
 | **koton** | /ko.ton/ | cotton | La shart es koton. |
 | **silk** | /silk/ | silk | La dres es silk. |
-| **lethr** | /le.thr/ | leather | La shu es lethr. |
+| **leder** | /le.der/ | leather | La shu es leder. |
 | **seramik** | /se.ra.mik/ | ceramic | La plait es seramik. |
 | **klei** | /klei/ | clay | La pot es klei. |
 | **mud** | /mud/ | mud | La shu es in mud. |
@@ -1100,7 +1099,7 @@ Social and legal entities (not professions):
 | **eat-hous** | /it.haus/ | restaurant | | Wi it in la eat-hous. |
 | **bank** | /bank/ | bank | | Mi go tu bank. |
 | **moni** | /moni/ | money | | Mi need mor moni. |
-| **sallery** | /saleri/ | salary | | Mi resiv sallery evri month. |
+| **sallery** | /saleri/ | salary | | Mi resiv sallery evri mont. |
 | **prize** | /praiz/ | prize / price | | La prize es high. |
 | **gain** | /gain/ | profit / gain | La biznes mak gain. |
 | **kosl** | /kost/ | cost | | La kost es low. |
@@ -1169,7 +1168,7 @@ Social and legal entities (not professions):
 | **nombr** | /nombr/ | number | | Wan nomber es twenty. |
 | **formul** | /formul/ | formula | | |
 | **eksperimnt** | /eksperimnt/ | experiment | | La sientist don eksperimnt. |
-| **theory** | /teori/ | theory | | |
+| **teori** | /te.o.ri/ | theory | | |
 | **diskovr** | /diskovr/ | discovery | | La diskovr es importent. |
 | **technoloji** | /teknoloji/ | technology | | Technoloji es modern. |
 | **invenshon** | /invenshon/ | invention | | La invenshon change la waild. |
@@ -1301,7 +1300,7 @@ This section shows complete example sentences demonstrating all grammar structur
 | **hit** | /hit/ | to hit | | La bal hit la wal. → The ball hits the wall. |
 | **push** | /push/ | to push | | Mi push la dor. → I push the door. |
 | **pul** | /pul/ | to pull | | Mi pul la rop. → I pull the rope. |
-| **throu** | /throu/ | to throw | | Mi throu la bal. → I throw the ball. |
+| **trou** | /trou/ | to throw | | Mi trou la bal. → I throw the ball. |
 | **katch** | /katch/ | to catch | | Mi katch la bal. → I catch the ball. |
 | **klaim** | /klaim/ | to climb | | Wi klaim la tri. → We climb the tree. |
 | **jump** | /jump/ | to jump | | La kat jump. → The cat jumps. |

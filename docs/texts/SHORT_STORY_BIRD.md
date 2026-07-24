@@ -22,7 +22,7 @@ In a small forest near a river, a little bird lived in an old wooden tree. Every
 ### Paragraph 2 — The Night of Questions
 
 **VELA:**
-Nait kom-ed, moon shin-ed on watre, and smol bird no slip-ed gud. Li think-ed, "Bikos wat mi no sing-ed? Bikos mi voys no strong?" Yest and tuodei sem pein kom-ed agen. Tuodei aft rein, li go-ed far from kraud. Li wok-ed daun hil tu wan kalm mautin path, and li hier-ed low voys from dark tre. Wan old owl, big ai and warm voys, stand-ed stil and si-ed li wit trust.
+Nait kom-ed, moon shin-ed on watre, and smol bird no slip-ed gud. Li tink-ed, "Bikos wat mi no sing-ed? Bikos mi voys no strong?" Yest and tuodei sem pein kom-ed agen. Tuodei aft rein, li go-ed far from kraud. Li wok-ed daun hil tu wan kalm mautin path, and li hier-ed low voys from dark tre. Wan old owl, big ai and warm voys, stand-ed stil and si-ed li wit trust.
 
 **English:**
 Night came, the moon shone on the water, and the little bird did not sleep well. It thought, “Why did I not sing? Why is my voice not strong?” Yesterday and today the same pain came again. That day after rain, it went far from the crowd. It walked down a hill to a calm mountain path, and heard a low voice from a dark tree. An old owl, with big eyes and a warm voice, stood still and looked at it with trust.
@@ -42,7 +42,7 @@ The owl said, “Little bird, why do you cry inside?” The bird said, “I did 
 ### Paragraph 4 — The Practice
 
 **VELA:**
-From den, evri morne bifor kraud bird-en awaik-ed, smol bird wake-ed wit sun first lait. Li go-ed tu rivr side, stand-ed on ston, and breth-ed deep. Li think-ed about wind, about mat-en warm wing, about moon on watre, about pain and hop tugeter. Den li sing-ed wan not. Neks morne, tu not-en. Neks week, long sonj line. Sam day voys brok-ed agen, and li krei-ed. Bot li kontinyu-ed bikos owl tok-ed, "Pasi bring-a flauor from hard erd."
+From den, evri morne bifor kraud bird-en awaik-ed, smol bird wake-ed wit sun first lait. Li go-ed tu rivr side, stand-ed on ston, and breth-ed deep. Li tink-ed about wind, about mat-en warm wing, about moon on watre, about pain and hop tugeter. Den li sing-ed wan not. Neks morne, tu not-en. Neks week, long sonj line. Sam day voys brok-ed agen, and li krei-ed. Bot li kontinyu-ed bikos owl tok-ed, "Pasi bring-a flauor from hard erd."
 
 **English:**
 From then on, every morning before the crowd of birds awoke, the little bird woke with the first sunlight. It went to the riverside, stood on a stone, and breathed deeply. It thought about the wind, about its mother’s warm wing, about moonlight on water, about pain and hope together. Then it sang one note. The next morning, two notes. The next week, a longer line of song. Some days the voice broke again, and it cried. But it continued because the owl had said, “Patience brings a flower from hard earth.”

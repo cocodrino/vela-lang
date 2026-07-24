@@ -15,7 +15,7 @@ Mi ai si-a yu memori in wind,
 mi hart fiel-a longin and sad.
 Wind go-a arond mi smol rum slow,
 star wait-a bifor kraud autsid.
-Mi think-a yu kom-wil from far lond,
+Mi tink-a yu kom-wil from far lond,
 bot dor stay-a closed in kold.
 Wen morne start-a wit pale sun,
 mi still wait-a, and rein sing-a.
@@ -75,7 +75,7 @@ Skai turn-a from orange tu gray,
 and wind touch-a mi skin slow.
 No fren kom-a, no bird sing-a near,
 onli watre and mi step on sand.
-Mi think-a about laif, about deth,
+Mi tink-a about laif, about deth,
 about trut, about hop, about mi self.
 Mar stay-a big, mi stay-a smol,
 bot in solitud mi hart lern-a peis.

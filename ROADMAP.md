@@ -29,7 +29,8 @@ GRAMÁTICA:
       Locativo: -to  (ubicación, tiempo) ← CAMBIADO por consenso (era -te)
   ✅ Adjetivo = raíz bare (sin sufijo) — ELIMINADO -im por consenso
   ✅ Posesivos unificados: mi-se, yu-se, li-se, wi-se, de-se (eliminado -f)
-  ✅ Plural + caso: ROOT-CASE-PLURAL (ej: man-se-s)
+  ✅ Plural: -n (tras vocal) / -en (tras consonante) — CONSENSO 2026-07-24
+  ✅ Plural + caso: ROOT-PLURAL-CASE (ej: man-en-se) — corregido por consenso 2026-07-24
 
 VOCABULARIO:
   ✅ ~200 palabras atómicas soft ceiling (Tier 0: 50 cerradas, Tier 1: 150 abiertas con Quality Gate)
@@ -54,7 +55,7 @@ Fase 1  → Fonología Final              ✅
 Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
-Fase 5  → Léxico Extendido (3000+)     ⬜
+Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
@@ -379,7 +380,7 @@ Fase 1  → Fonología                    ✅
 Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
-Fase 5  → Léxico Extendido (3000+)     ⬜
+Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
 Fase 6  → Gramática de Referencia      ⬜
 Fase 7  → Diccionario                  ⬜
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)

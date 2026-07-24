@@ -113,7 +113,7 @@ Articles do not change form for case. The noun after the article takes the case:
 
 ```
 la man-se    → the man's     (la + man + se)
-la siti-to  → in the city  (la + siti + te)
+la siti-to  → in the city  (la + siti + to)
 ```
 
 ---
@@ -171,15 +171,15 @@ Yu si la man-se buk.   → You see the man's book.    (genitive: noun + -se)
 
 ### 3.4 Locative Pronouns (full form)
 
-These are the **-te** suffix form, used for locative case on pronouns:
+These are the **-to** suffix form, used for locative case on pronouns:
 
 | Locative | AFI | English equivalent |
 |----------|-----|------------------|
-| **mi-to** | /mi.te/ | at/to me |
-| **yu-to** | /ju.te/ | at/to you |
-| **li-to** | /li.te/ | at/to him/her/it |
-| **wi-to** | /wi.te/ | at/to us |
-| **de-to** | /de.te/ | at/to them |
+| **mi-to** | /mi.to/ | at/to me |
+| **yu-to** | /ju.to/ | at/to you |
+| **li-to** | /li.to/ | at/to him/her/it |
+| **wi-to** | /wi.to/ | at/to us |
+| **de-to** | /de.to/ | at/to them |
 
 ```
 Mi go mi-to.      → I go to my place.  (to where I am)
@@ -244,7 +244,7 @@ VELA has **two cases** — only marking what word order cannot express.
 | **Nominative** | Subject of sentence | none | *Mi* si la film. |
 | **Accusative** | Direct object | none | Yu si *mi*. |
 | **Genitive** | Possessor of another noun | **-se** | la man-**se** buk |
-| **Locative** | Location or time | **-te** | Mi liv la siti-**te**. |
+| **Locative** | Location or time | **-to** | Mi liv la siti-**to**. |
 
 **The key principle:** Word order (SVO) handles nominative and accusative. Only add a suffix when word order is insufficient.
 
@@ -280,7 +280,7 @@ la Siti-to laibri     → the city's library
 
 **Position:** The possessor (with -se) comes BEFORE the possessed noun. Order: **possessor-GEN + possessed**.
 
-### 4.7 Locative — **-te**
+### 4.7 Locative — **-to**
 
 Used for location, time, or state:
 
@@ -298,34 +298,34 @@ De kom la las dei-to. → They come on the last day. (time)
 | **Nominative** | man | man-en |
 | **Accusative** | man | man-en |
 | **Genitive** | man-**se** | man-en-**se** |
-| **Locative** | man-**te** | man-en-**to** |
+| **Locative** | man-**to** | man-en-**to** |
 
 ### 4.9 Case + Other Morphemes
 
-When case combines with other suffixes, the order is always: **root → case → number**:
+When case combines with number, the order is always: **root → number → case** — number is inner (stem-level) morphology, case is outer (syntactic), added last:
 
 ```
-Case + Plural:    man-se-n        (the men's + plural = men's of multiple men)
-Locative + Pl:   siti-to-n      (in the cities)
-Genitive + Pl:   famili-se-n    (of the families)
+Genitive + Pl:   man-en-se       (of the men — multiple men's)
+Locative + Pl:   siti-n-to       (in the cities)
+Genitive + Pl:   famili-n-se     (of the families)
 ```
 
 ### 4.10 Case and Prepositions
 
-When a preposition already marks location/time, the -te suffix is **optional**:
+When a preposition already marks location/time, the -to suffix is **optional**:
 
 ```
 Mi liv en la siti.      → I live in the city.          (en = in)
-Mi liv la siti-to.     → I live in the city.          (-te alone)
+Mi liv la siti-to.     → I live in the city.          (-to alone)
 
 Wi wok at la ofis.      → We work at the office.      (at = location)
-Wi wok la ofis-to.     → We work at the office.       (-te alone)
+Wi wok la ofis-to.     → We work at the office.       (-to alone)
 
 Li kom from la lern-hous.    → She comes from the school.   (from = origin)
-Li kom la lern-hous-to.     → She comes from the school.    (-te alone)
+Li kom la lern-hous-to.     → She comes from the school.    (-to alone)
 ```
 
-**Rule:** When a preposition marks the semantic role clearly, -te can be dropped. Without a preposition, -te is required.
+**Rule:** When a preposition marks the semantic role clearly, -to can be dropped. Without a preposition, -to is required.
 
 ---
 
@@ -361,7 +361,7 @@ Adjectives do not agree with the noun's case. They simply precede the noun:
 NOM:  La big man si la film.         → The big man sees the film.
 ACC:  Mi si la big man-a.           → I see the big man.      (man takes -a, not big)
 GEN:  La big man-se hous.          → The big man's house.    (man takes -se, not big)
-LOC:  Mi liv la big siti-to.       → I live in the big city. (siti takes -te)
+LOC:  Mi liv la big siti-to.       → I live in the big city. (siti takes -to)
 ```
 
 ### 5.4 Comparison
@@ -623,7 +623,7 @@ Wot kolor es la kar? → Which color is the car?
 
 ### 10.2 Prepositions and the Case System
 
-When a noun after a preposition is also marked with -te or -se, the noun's role is doubly marked (preposition + suffix):
+When a noun after a preposition is also marked with -to or -se, the noun's role is doubly marked (preposition + suffix):
 
 ```
 Mi liv in la siti-to.      → I live in the city.    (in + LOC)
@@ -989,8 +989,8 @@ De mas no don dat.               → They must not do that.
 ```
 WORD ORDER:      SVO (strict)
 ARTICLES:        la (the), un (a/an)
-CASES:           NOM = order | ACC = order | GEN = -se | LOC = -te
-PLURAL:          -s
+CASES:           NOM = order | ACC = order | GEN = -se | LOC = -to
+PLURAL:          -n (after vowel) / -en (after consonant)
 ADJECTIVES:      base (before noun)
 ADVERBS:         base-um
 PRESENT TENSE:   root + -a
@@ -1001,7 +1001,7 @@ MODALS:          kan, mas, wan (followed by bare root)
 NEGATION:        no + verb
 YES/NO QUESTIONS: sentence + q
 WH-QUESTIONS:     hu / wat / wen / wer / hai / wai / hou
-COMPARISON:       mor + im (comp) | mos + im (superl)
+COMPARISON:       mor + base (comp) | mos + base (superl)
 CONJUNCTIONS:     and, or, bot, bikos, if, wen, den, so
 PRONOUNS:         mi, yu, li, wi, de
 POSSESSIVE:       mif, yuf, liz, wef, def
