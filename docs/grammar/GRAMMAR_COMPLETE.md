@@ -1,8 +1,9 @@
 # VELA Grammar — Complete Reference
 
-> **Status:** COMPLETE ✅ — Phase 3 of the Roadmap  
-> **Source:** `INITIAL_RESEARCH.md` + design decisions made 2025-04-13  
-> **Language:** English (this document is written in English for maximum accessibility)
+> **Status:** REFERENCE MANUAL ✅ — Phase 6 (consolidated from Phase 3; canon reconciled 2026-07-24)  
+> **Source:** `INITIAL_RESEARCH.md` + design decisions; cross-refs `ORTHOGRAPHY.md`, `PHONOLOGY_FINAL.md`, `vote/topics/consensus/fase5_consensus.md`  
+> **Language:** English (this document is written in English for maximum accessibility)  
+> **Scope:** 18 sections — one paradigm per word class, one example per rule, quick-reference summary, FAQ, and exceptions list.
 
 ---
 
@@ -24,6 +25,8 @@
 14. [Word Formation — Affixes](#14-word-formation)
 15. [Word Formation — Compounds](#15-compounds)
 16. [Sentence Types — Full Paradigms](#16-sentence-types)
+17. [Frequently Asked Questions](#17-faq)
+18. [Exceptions & Closed Classes](#18-exceptions--closed-classes)
 
 ---
 
@@ -848,28 +851,26 @@ Adverbs are formed with the suffix **-um** added to the adjective:
 
 ### 15.0 The Atomic Word Ceiling
 
-VELA has a **soft ceiling of 200 atomic words** (Tier 0: 50 closed + Tier 1: 150 open with Quality Gate). All remaining vocabulary is built via compounding and derivation. This ceiling ensures:
+VELA has a **soft target of ~200 core atomic words** (Tier 0: 50 closed + Tier 1: ~150 open with Quality Gate). Beyond the core, **domain registers** (science, technology, arts) form an open class — but every loan there must carry a transparent ≤3-root compound alternative (Fase 5, R1; see `vote/topics/consensus/fase5_consensus.md`). All general vocabulary is built via compounding and derivation. This design ensures:
 
-- **Learnability:** A learner memorizes ~200 roots, not 900+.
+- **Learnability:** A learner memorizes ~200 core roots, not thousands.
 - **Derivational power:** Compounds become the productive engine.
-- **Phonotactic integrity:** Over-creating atoms would force violations of (C)V.
+- **Phonotactic integrity:** The thematic-vowel rule applies to loans/new roots; native roots are grandfathered in compounds.
 
 > **Quality Gate for Tier 1 atoms:** A candidate atom must pass at least 3 of 4 tests: (1) Not infantile-decomposable, (2) Frequent across languages, (3) Short (1-2 syllables), (4) Semantically unique (not a transparent compound of existing roots). See `vote/topics/consensus/ATOM_CEILING_consensus.md` for the full deliberation.
 
 ### 15.1 Two-Root Compounds
 
-Two-root compounds are written **together without space or hyphen**:
+Compounds are written with a **hyphen between morphemes** (`ORTHOGRAPHY.md` §6.3 — morphological transparency). The hyphen makes every root, prefix, and suffix visible:
 
 | Compound | From | Meaning |
 |---------|------|---------|
-| **sunlait** | sun + lait | sunlight |
-| **hauskel** | haus + kel | household |
-| **wok-er** | wok + er | worker |
-| **wotc-man** | wotc + man | watchman |
-| **self-lov** | self + lov | self-love |
-| **strongmind** | strong + mind | strong-minded |
-| **fainal** | fain + al | final |
-| **over-hapi** | over + hapi | over-happy |
+| **sik-hous** | sik + hous | hospital |
+| **god-hous** | god + hous | church |
+| **far-si** | far + si | television |
+| **kom-tok** | kom + tok | conversation |
+| **nau-dei** | nau + dei | today |
+| **eat-hous** | eat + hous | restaurant |
 
 ### 15.2 Three+ Root Compounds
 
@@ -885,8 +886,8 @@ liv-siti          → city where one lives / dwelling
 When a compound noun takes a case suffix, the suffix goes on the **last root only**:
 
 ```
-sunlait-se        → of the sunlight   (NOT: sun-la-se-it)
-hauskel-en-se      → of the households
+sik-hous-se        → of the hospital   (case on the last root only)
+sik-hous-en-se     → of the hospitals  (root → number → case)
 ```
 
 ---
@@ -981,6 +982,73 @@ Li wan kom.                      → She wants to come.
 Wi no kan liv la siti-to.        → We cannot live in the city.
 De mas no don dat.               → They must not do that.
 ```
+
+---
+
+## 17. Frequently Asked Questions
+
+**How do I combine a case and a plural?**
+Order is always root → number → case: `man-en-se` = "of the men" (§4.9).
+
+**When can I drop the locative `-to`?**
+Only when a preposition already marks the location: `Mi liv in la siti`. With no preposition, `-to` is required: `Mi liv la siti-to` (§4.10).
+
+**Are there any irregular verbs?**
+None. Every verb takes `-a` / `-ed` / `-wil`, including `bi` (to be): `bi-a, bi-ed, bi-wil`. There are no irregular forms anywhere in the verb system (§6).
+
+**Do adjectives change for number or case?**
+No. Adjectives are invariable and come before the noun (§5.3).
+
+**How do I say "more" and "most"?**
+`mor` + adjective (comparative), `mos` + adjective (superlative). There is no `-er`/`-est` suffix (§5.4).
+
+**How do I turn an adjective into an adverb?**
+Add `-um`: `nais → nais-um` ("nicely") (§13.1).
+
+**How are compounds and affixes written?**
+With a hyphen between every morpheme: `sik-hous`, `man-se`, `liv-ed`. One rule for all morpheme boundaries (§15.1; `ORTHOGRAPHY.md` §6.3).
+
+**What is the plural suffix?**
+`-n` after a vowel-final word, `-en` after a consonant-final word: `siti-n`, `man-en` (§4.2).
+
+**Where does the yes/no question particle go?**
+`q` closes a yes/no question: `Yu si la film q?` (§9.1).
+
+**`mi-se` vs `man-se` — what's the difference?**
+Both use the genitive `-se`. `mi-se` is the possessive on a pronoun ("my"); `-se` attaches to any noun to show possession: `man-se` = "the man's" (§3.2, §4.6).
+
+---
+
+## 18. Exceptions & Closed Classes
+
+VELA has **no irregular morphology** — no irregular verbs, no irregular plurals, no grammatical gender. The only "exceptions" a learner memorizes are **closed-class function words** and a few **suppletive phrases**.
+
+### Closed classes (fixed — memorize as-is)
+
+| Class | Members |
+|-------|---------|
+| Pronouns | mi, yu, li, wi, de |
+| Articles | la (the), un (a/an) |
+| Modals | kan, mas, wan |
+| Demonstratives | dis, dat, dese, dase |
+| Indefinites | som, eni, non, evri |
+| WH-words | hu, wat, wen, wer, hai, wai, hou |
+| Question particle | q |
+| Core prepositions | a, in, on, from, for, wit, to |
+| Conjunctions | and, bot, or, so, bikos, if, den |
+
+### Suppletive comparisons (phrasal, not irregular forms)
+
+| English | VELA |
+|---------|------|
+| better / best | mor gud / mos gud |
+| worse / worst | mor bad / mos bad |
+
+These are regular `mor`/`mos` phrases — VELA has no irregular comparative *forms*.
+
+### Atomic exceptions to compound-first
+
+The ~200 core atoms (§15.0) and a few internationally-recognized loans (`atom`, `DNA`, `protein`) are kept as atoms rather than built from roots, because a transparent compound would be longer or less recognizable. Every other loan carries a compound alternative (Fase 5, R1).
 
 ---
 

@@ -56,7 +56,7 @@ Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
-Fase 6  → Gramática de Referencia      ⬜
+Fase 6  → Gramática de Referencia      ✅ COMPLETA (18 secciones + FAQ + excepciones, canon reconciliado)
 Fase 7  → Diccionario                  ⬜
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
@@ -249,19 +249,20 @@ Fase 10 → Comunidad y Evolución        ⬜
 
 ---
 
-## Fase 6 — Gramática de Referencia ⬜
+## Fase 6 — Gramática de Referencia ✅ COMPLETA
 
 **Objetivo:** Consolidar TODA la gramática en un solo documento de referencia (no tutorial).
 
-**Contenido planeado:**
-- [ ] Índice completo con links
-- [ ] Un paradigma por clase de palabra
-- [ ] Un ejemplo por regla
-- [ ] Tablas de referencia rápida
-- [ ] Lista de excepciones atómicas (justificadas)
-- [ ] FAQ gramatical
+**Entregable:** `docs/grammar/GRAMMAR_COMPLETE.md` (18 secciones).
 
-**Nota**: GRAMMAR_COMPLETE.md ya existe como boceto. Esta fase es pulirlo a manual de referencia profesional.
+- [x] Índice completo con links (TOC, 18 secciones)
+- [x] Un paradigma por clase de palabra (sustantivo §4.8, verbo §6.2, bi §6.3...)
+- [x] Un ejemplo por regla
+- [x] Tablas de referencia rápida (Summary — Grammar at a Glance)
+- [x] Lista de excepciones atómicas justificadas (§18 Exceptions & Closed Classes)
+- [x] FAQ gramatical (§17)
+
+**Reconciliación de canon (2026-07-24)**: se corrigieron inconsistencias que arrastraba el boceto — plural `-s`→`-n/-en`, orden de morfemas raíz-número-caso, locativo `-te`→`-to`, comparativo `+im`→`+base`, y la regla de compuestos (§15.1: guion entre morfemas, confirmado por comité + ORTHOGRAPHY §6.3). Techo de átomos actualizado a dos niveles (Fase 5 R1).
 
 ---
 
@@ -381,7 +382,7 @@ Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
-Fase 6  → Gramática de Referencia      ⬜
+Fase 6  → Gramática de Referencia      ✅ COMPLETA (18 secciones + FAQ + excepciones, canon reconciliado)
 Fase 7  → Diccionario                  ⬜
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜

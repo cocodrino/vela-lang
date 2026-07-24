@@ -1,5 +1,19 @@
 # VELA Deliberation Change Log
 
+## 2026-07-24 — Fase 6: Gramática de Referencia
+
+**Deliverable:** `docs/grammar/GRAMMAR_COMPLETE.md` polished to an 18-section reference manual.
+
+- Added §17 **FAQ** (10 common questions) and §18 **Exceptions & Closed Classes** (closed-class function words, suppletive comparisons, atomic exceptions) — TOC updated.
+- **Compound orthography decision (committee):** the owner proposed dropping the hyphen for elegance; both specialists voted **KEEP THE HYPHEN** unanimously. Aestheticist: "the hyphen IS the elegance" for short-root VELA (`sik-hous` = haiku, `sikhous` = barcode). Morphologist: without it, `liv-ed`/`li-ved`, `man-se`/`ma-nse` are ambiguous; transparency ranks above beauty in VELA's principles. §15.1 fixed to match `ORTHOGRAPHY.md` §6.3 (hyphen between all morphemes).
+- Updated §15.0 atomic ceiling to the two-tier model (Fase 5 R1).
+- Canon reconciliation carried from the Fase 5 work: plural `-n/-en`, morpheme order root-number-case, locative `-to`, comparative `mor/mos + base`.
+
+### Open (lexicon, not grammar)
+- Duplicate `maind`/`mind` (both = mind) — dedup candidate, like the `mont`/`munts` merge.
+
+---
+
 ## 2026-07-24 — Fase 5: Full Lexicon Review (23 domains, ~246 words)
 
 **Committee:** 5 specialist roles across 3 Pi agents (distinct models) over the NATS bridge, 2 rounds.
