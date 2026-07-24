@@ -57,7 +57,7 @@ Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
 Fase 6  → Gramática de Referencia      ✅ COMPLETA (18 secciones + FAQ + excepciones, canon reconciliado)
-Fase 7  → Diccionario                  ⬜
+Fase 7  → Diccionario                  ✅ COMPLETA (1446 entradas, generado por script)
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
@@ -266,9 +266,13 @@ Fase 10 → Comunidad y Evolución        ⬜
 
 ---
 
-## Fase 7 — Diccionario ⬜
+## Fase 7 — Diccionario ✅ COMPLETA
 
-**Objetivo:** Diccionario oficial VELA → IPA → español/inglés.
+**Entregable:** `docs/dictionary/DICTIONARY.md` (1446 entradas) + `docs/dictionary/INDEX_EN_VELA.md` (índice inverso inglés→VELA), generados por `scripts/generate_dictionary.py` desde los léxicos existentes (0 palabras nuevas).
+
+El generador es header-aware (soporta los ~13 layouts de tabla de los léxicos), deriva la etimología y los compuestos automáticamente, y actúa como auditoría: detectó **85 headwords duplicados** y varias entradas con punto en el headword (`lai.on`, `fri.dom`, `dol.fin`) — candidatos de limpieza del léxico. Re-ejecutable: se regenera cuando cambian los léxicos.
+
+**Objetivo original:** Diccionario oficial VELA → IPA → español/inglés.
 
 **Formato planeado:**
 
@@ -383,7 +387,7 @@ Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
 Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
 Fase 6  → Gramática de Referencia      ✅ COMPLETA (18 secciones + FAQ + excepciones, canon reconciliado)
-Fase 7  → Diccionario                  ⬜
+Fase 7  → Diccionario                  ✅ COMPLETA (1446 entradas, generado por script)
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
