@@ -1814,8 +1814,7 @@
 | yesterday | yestdei | /jestdei/ |
 | you (singular) | yu | /ju/ |
 | young | yong | /jon/ |
-| young | yunga | /jun.ga/ |
-| youngster / youth | yunga-po | /jun.ga.po/ |
+| youngster / youth | yong-po | /jon.po/ |
 | your / of you | yu-se | /ju.se/ |
 | zebra | zebra | /ze.bra/ |
 | zipper | zipar | /zi.par/ |

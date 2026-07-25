@@ -546,13 +546,12 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **luva-fren** | /lu.va.fren/ | noun | boyfriend / girlfriend | love + friend | Mi luva-fren giv mi un roza. |
 | **grot-man** | /grot.man/ | noun | adult | grown + person | La gem es for grot-man, no child. |
 | **old-po** | /old.po/ | noun | elder | old + -po | Respek la old-po. |
-| **yunga-po** | /jun.ga.po/ | noun | youngster / youth | young + -po | La yunga-po lern from la old-po. |
+| **yong-po** | /jon.po/ | noun | youngster / youth | young + -po | La yong-po lern from la old-po. |
 | **gesta** | /ges.ta/ | noun | guest | loan | Wi welkom la gesta. |
 | **twin** | /twin/ | noun | twin | loan | La tu twin luk sem. |
 | **no-marri** | /no.ma.ri/ | adj | single / unmarried | not + married | Li es stil no-marri. |
 | **deda** | /de.da/ | adj | dead | loan | La old tre es deda. |
 | **liva** | /li.va/ | adj | alive / living | live (participle) | La liv-ing tin need watre. |
-| **yunga** | /jun.ga/ | adj | young | loan | La yunga child play. |
 | **rula-famili** | /ru.la.fa.mi.li/ | noun | royal family | rule + family | La rula-famili liv in la king-hous. |
 | **fren-nes** | /fren.nes/ | noun | friendship | friend + -nes | Wi hav strong fren-nes. |
 | **luva-nes** | /lu.va.nes/ | noun | love (bond) | love + -nes | La luva-nes bind la famili. |

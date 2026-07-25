@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 1818. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 1817. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -1926,11 +1926,10 @@
 | yeer | /jir/ |  | year |  |  | Wan yeer hav ten-tu mont-en. |
 | yelo | /jelo/ |  | yellow |  |  | la yelo sun |
 | yestdei | /jestdei/ |  | yesterday |  |  | Yestdei mi go a la siti. |
-| yong | /jon/ |  | young |  |  | un yong gerl |
+| yong | /jon/ |  | young |  | yong-po | un yong gerl |
+| yong-po | /jon.po/ | noun | youngster / youth | young + -po |  | La yong-po lern from la old-po. |
 | yu | /ju/ | pronoun | you (singular) |  | yu-se | Yu si la man. |
 | yu-se | /ju.se/ |  | your / of you | yu (you (singular)) + se |  | Yu si yu-se buk. |
-| yunga | /jun.ga/ | adj | young | loan | yunga-po | La yunga child play. |
-| yunga-po | /jun.ga.po/ | noun | youngster / youth | young + -po |  | La yunga-po lern from la old-po. |
 
 ## Z
 
