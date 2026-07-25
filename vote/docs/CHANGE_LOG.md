@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 12: Family, Relationships & Age (+36)
+
+Committee-reviewed + verified (86% compounds, most compound-heavy batch). Dropped home (base HOM). Fixed young to yunga (/ng/ coda), niu-fren to new-fren, best-fren to dep-fren (best not in base), tak-kea-po to kea-po (tak not a headword), liv-ing to liva (-ing is not a VELA suffix, an English calque). Gold: -fren series (old/new/dep/wuman/man/luva-fren), -po roles, no- antonyms. Standout: no-nof-po (stranger = not-know-person). Batch-11 post-hoc: removed shipi/werma (late phonologist review; base already has shep/worm). Dictionary now 1818, 0 duplicates, validator 0 errors. Progress: 1818 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 11: Animals, Plants & Body Parts (+38)
 
 Committee-reviewed + verified (2 of 3 in time; validator covers phonotactics). Dropped oul and nait-bird (base already has aul AND auk for owl) plus redundant loans fer/fin (animal-hair/fish-arm win). Backfilled wail (wild). Fixed pain-tre to nidel-tre (verified pain=suffering; needle-tree). Gold: animal body-part series (flai-arm=wing, animal-fut=paw, bird-mous=beak, fish-skin=scale, plant-fut=root, plant-bodi=stem), smol- baby animals (puppy/kitten/calf), -animal categories (watre/flai/wail/hous-animal). Note flagged: base has many pre-existing animal duplicate spellings (butterfly x3, frog x3, owl x2) for a future cleanup. Dictionary 1746 to 1784, 0 duplicates, validator 0 errors. Progress: 1784 / 3000.

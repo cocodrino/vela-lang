@@ -34,6 +34,7 @@
 | actor | rol-play-po | /rol.plei.po/ |
 | adapt | adapta | /a.dap.ta/ |
 | address | adresa | /a.dre.sa/ |
+| adult | grot-man | /grot.man/ |
 | advertisement | advertais | /advertais/ |
 | affection | warm-fel | /warm.fel/ |
 | afraid | afred | /afred/ |
@@ -48,12 +49,14 @@
 | airplane | aereplan | /aereplan/ |
 | airport | flai-ground | /flai.graund/ |
 | algorithm | algoritmo | /a.lo.rit.mo/ |
+| alive / living | liva | /li.va/ |
 | all | ol | /ol/ |
 | allergy | alerji | /alerji/ |
 | alphabet | alfabeta | /al.fa.be.ta/ |
 | although | tuo | /tuo/ |
 | always | oldei | /oldei/ |
 | ambulance | sik-fast-kar | /sik.fast.kar/ |
+| ancestor | old-famili | /old.fa.mi.li/ |
 | and | and | /and/ |
 | anesthesia | anestezi | /a.nes.te.zi/ |
 | angry | angri | /angri/ |
@@ -129,6 +132,7 @@
 | belt | bela | /bela/ |
 | belt | belt | /belt/ |
 | berry | beri | /beri/ |
+| best friend | dep-fren | /dep.fren/ |
 | between | between | /between/ |
 | between | bitwin | /bi.twin/ |
 | bicycle | baikel | /baikel/ |
@@ -138,6 +142,7 @@
 | biology (alt) | lifa-lerna | /li.fa.ler.na/ |
 | bird | bird | /bird/ |
 | birthday | born-dei | /born.dei/ |
+| birthplace | born-ples | /born.ples/ |
 | bit (computing, binary) | bit | /bit/ |
 | black | blak | /blak/ |
 | black hole | blak-hol | /blak.hol/ |
@@ -145,6 +150,7 @@
 | blanket | slip-kover | /slip.ko.ver/ |
 | blessing | blesina | /ble.si.na/ |
 | blood | blud | /blud/ |
+| blood relatives | blud-famili | /blud.fa.mi.li/ |
 | blue | blu | /blu/ |
 | boat | boot | /but/ |
 | body | bodi | /bodi/ |
@@ -161,6 +167,7 @@
 | bowl | boli | /bo.li/ |
 | box | boksi | /bok.si/ |
 | boy | boy | /boi/ |
+| boyfriend / girlfriend | luva-fren | /lu.va.fren/ |
 | brain | brain | /brein/ |
 | brain | brein | /brein/ |
 | branch (git) | brancha | /bran.cha/ |
@@ -211,6 +218,7 @@
 | cap | kap | /kap/ |
 | car | kar | /kar/ |
 | care (casual) | kea | /ke.a/ |
+| caregiver / guardian | kea-po | /ke.a.po/ |
 | carpet | karpet | /kar.pet/ |
 | carpet / rug | flor-kover | /flor.ko.ver/ |
 | carrot | karota | /ka.ro.ta/ |
@@ -246,6 +254,7 @@
 | chest | hert-hous | /hert.haus/ |
 | chicken | sisn | /sisen/ |
 | child | child | /tcild/ |
+| childhood | child-taim | /child.taim/ |
 | children | child-en | /tchild.en/ |
 | chimney | chimni | /cimni/ |
 | chip (silicon) | chipa | /chi.pa/ |
@@ -359,6 +368,7 @@
 | database | data-beis | /da.ta.beis/ |
 | daughter | dafter | /dofter/ |
 | day | dei | /dei/ |
+| dead | deda | /de.da/ |
 | debt | dea | /dea/ |
 | debt | det | /det/ |
 | debug | folta-fiksa | /fol.ta.fik.sa/ |
@@ -430,6 +440,7 @@
 | effect | efect | /efect/ |
 | egg | egi | /e.gi/ |
 | elbow | elbo | /el.bo/ |
+| elder | old-po | /old.po/ |
 | election | elekshon | /elekshon/ |
 | election | rula-chuz | /ru.la.chuz/ |
 | electricity / electric | elektrika | /e.lek.tri.ka/ |
@@ -480,6 +491,7 @@
 | father | fater | /fater/ |
 | feather | bird-hair | /bird.her/ |
 | February | Februari | /februa.ri/ |
+| female friend | wuman-fren | /wu.man.fren/ |
 | fence | fensa | /fen.sa/ |
 | festival | hapi-dei | /ha.pi.dei/ |
 | fever | hot-sik | /hot.sik/ |
@@ -522,6 +534,7 @@
 | Friday | Fraidei | /frai.dei/ |
 | fridge | kol-boksi | /kol.bok.si/ |
 | friend | fren | /fren/ |
+| friendship | fren-nes | /fren.nes/ |
 | frog | fraug | /fraug/ |
 | frog | fraui | /fra.ui/ |
 | frog | frog | /frog/ |
@@ -572,6 +585,7 @@
 | governor | rul-po | /rul.po/ |
 | GPU | piktur-chipa | /pik.tur.chi.pa/ |
 | grammar | gramr | /gramr/ |
+| grandchild | child-child | /child.child/ |
 | grandfather | granfater | /granfater/ |
 | grandmother | granmoter | /granmoter/ |
 | grandparent | granparan | /granparan/ |
@@ -585,8 +599,10 @@
 | green | gren | /gren/ |
 | grief | losa-pain | /lo.sa.pein/ |
 | group | grup | /grup/ |
+| group of friends | fren-grup | /fren.grup/ |
 | guard | kip-po | /kip.po/ |
 | guard / watcher | luk-po | /luk.po/ |
+| guest | gesta | /ges.ta/ |
 | guilt | gilta | /gil.ta/ |
 | guitar | gitar | /gi.tar/ |
 | gun | gan | /gan/ |
@@ -624,6 +640,7 @@
 | height | hait | /hait/ |
 | hello | helo | /he.lo/ |
 | helper / assistant | help-po | /help.po/ |
+| helper / support | help-hand | /help.hand/ |
 | high voice / treble | hai-vois | /hai.vois/ |
 | highway | big-rod | /big.rod/ |
 | hill | hil | /hil/ |
@@ -648,6 +665,7 @@
 | hour | our | /our/ |
 | house | hous | /haus/ |
 | household | houskel | /haus.kel/ |
+| household member | hom-po | /hom.po/ |
 | how | hai | /hai/ |
 | how much | hou | /hou/ |
 | hungry | hagri | /hagri/ |
@@ -775,6 +793,8 @@
 | loss | los | /los/ |
 | loud | louud | /loud/ |
 | love | luva | /lu.va/ |
+| love (bond) | luva-nes | /lu.va.nes/ |
+| lover | luva-po | /lu.va.po/ |
 | low | lo | /lo/ |
 | low voice / bass | lo-vois | /lo.vois/ |
 | luck | lak | /lak/ |
@@ -787,6 +807,7 @@
 | magnet | magneta | /mag.ne.ta/ |
 | mail | meil | /meil/ |
 | maker / producer | mak-po | /mak.po/ |
+| male friend | man-fren | /man.fren/ |
 | man / person | man | /man/ |
 | manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
@@ -794,6 +815,7 @@
 | marble | marmol | /mar.mol/ |
 | March | Marti | /mar.ti/ |
 | market | market | /market/ |
+| marriage bond | luva-tai | /lu.va.tai/ |
 | mass (physics) | masa | /ma.sa/ |
 | mathematics | matamatiks | /matamatiks/ |
 | mattress | matres | /ma.tres/ |
@@ -892,11 +914,13 @@
 | neural network | brain-neta | /brein.ne.ta/ |
 | never | never | /never/ |
 | new | new | /nu/ |
+| new friend | new-fren | /nu.fren/ |
 | news | niaz | /niaz/ |
 | news | nius | /nius/ |
 | newspaper | news-paper | /nuz.pe.per/ |
 | newspaper | newspaper | /nuspeiper/ |
 | nice / beautiful | nais | /nais/ |
+| niece / nephew | broter-child | /bro.ter.child/ |
 | night | noit | /noit/ |
 | no | no | /no/ |
 | noise | nois | /nois/ |
@@ -920,6 +944,8 @@
 | often | ofen | /ofen/ |
 | oil | oil | /oil/ |
 | old | old | /old/ |
+| old age | old-taim | /old.taim/ |
+| old friend | old-fren | /old.fren/ |
 | on | on | /on/ |
 | onion | onyon | /on.yon/ |
 | opportunity | oportuniti | /oportiuniti/ |
@@ -931,6 +957,7 @@
 | orchestra | muzika-grupa | /mu.zi.ka.gru.pa/ |
 | order | ordar | /or.dar/ |
 | organization | organizashon | /or.ga.ni.za.shon/ |
+| orphan | no-paran-child | /no.pa.ran.child/ |
 | otter | otar | /o.tar/ |
 | our / of us | wi-se | /wi.se/ |
 | output | outputa | /out.pu.ta/ |
@@ -958,6 +985,7 @@
 | parking | kar-ples | /kar.ples/ |
 | parliament | rul-mak-hous | /rul.mak.haus/ |
 | particle | partikula | /par.ti.ku.la/ |
+| partner (romantic) | luva-tai-po | /lu.va.tai.po/ |
 | party (political) | parti | /parti/ |
 | passenger | pasenjer | /pasenjer/ |
 | passion | strong-luva | /stron.lu.va/ |
@@ -1095,6 +1123,7 @@
 | refuge | rifuj | /rifuj/ |
 | refugee | refyuji | /re.fyu.ji/ |
 | region | ridshon | /rid.shon/ |
+| relative | famili-po | /fa.mi.li.po/ |
 | relief / freedom-feeling | fri-fel | /fri.fel/ |
 | religion | god-wei | /god.wei/ |
 | religion | relijon | /re.li.jon/ |
@@ -1133,6 +1162,7 @@
 | rose | roza | /ro.za/ |
 | rough | ruf | /ruf/ |
 | round | raunda | /raun.da/ |
+| royal family | rula-famili | /ru.la.fa.mi.li/ |
 | rubber | raba | /ra.ba/ |
 | rude | no-nais | /no.nais/ |
 | rug | rug | /rug/ |
@@ -1198,7 +1228,6 @@
 | shark | shark | /shark/ |
 | shark | sharka | /shar.ka/ |
 | sheep | shep | /sep/ |
-| sheep | shipi | /shi.pi/ |
 | sheet | shit | /shit/ |
 | shelf | shelfa | /shel.fa/ |
 | shell | shel | /shel/ |
@@ -1225,6 +1254,7 @@
 | silver | silva | /sil.va/ |
 | simple | simpli | /simpli/ |
 | singer | song-mak-po | /son.mak.po/ |
+| single / unmarried | no-marri | /no.ma.ri/ |
 | sink | wosh-boli | /wosh.bo.li/ |
 | sister | sisr | /sistr/ |
 | size | saii | /sai.i/ |
@@ -1310,6 +1340,7 @@
 | storyteller | stor-tal-po | /stor.tal.po/ |
 | stove | kuk-fai | /kuk.fai/ |
 | straight | streta | /stre.ta/ |
+| stranger | no-nof-po | /no.nof.po/ |
 | strawberry | strobri | /strobri/ |
 | stream | smol-river | /smol.ri.ver/ |
 | stream | strim | /strim/ |
@@ -1337,6 +1368,7 @@
 | supernova | supernova | /su.per.no.va/ |
 | surgery | sergeri | /sergeri/ |
 | surgery | sik-kur | /sik.kur/ |
+| surname / family name | famili-neim | /fa.mi.li.neim/ |
 | surprised | surprisd | /surprisd/ |
 | swamp | wet-lond | /wet.lond/ |
 | swelling | swela | /swe.la/ |
@@ -1654,6 +1686,7 @@
 | tunnel | tunnel | /tunnel/ |
 | turtle | tartel | /tar.tl/ |
 | turtle | tatu | /ta.tu/ |
+| twin | twin | /twin/ |
 | type | tip | /tip/ |
 | umbrella | umbrel | /umbrel/ |
 | umbrella | umbrela | /um.bre.la/ |
@@ -1767,7 +1800,6 @@
 | word | wod | /wod/ |
 | worker | wok-po | /wok.po/ |
 | world | waild | /waild/ |
-| worm | werma | /wer.ma/ |
 | worm | worm | /worm/ |
 | worry | tota-afreda | /to.ta.a.fre.da/ |
 | worship | goda-ador | /go.da.a.dor/ |
@@ -1782,6 +1814,8 @@
 | yesterday | yestdei | /jestdei/ |
 | you (singular) | yu | /ju/ |
 | young | yong | /jon/ |
+| young | yunga | /jun.ga/ |
+| youngster / youth | yunga-po | /jun.ga.po/ |
 | your / of you | yu-se | /ju.se/ |
 | zebra | zebra | /ze.bra/ |
 | zipper | zipar | /zi.par/ |
