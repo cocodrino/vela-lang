@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 13: Abstract Concepts & Qualities (+38)
+
+Committee-reviewed + verified. Dropped fri-chuz (Fase 5 fri-chuza = free will). Backfilled yus (use). Fixed step-wei to stap-wei and haf- to hafa- (verified base roots stap/hafa). Kept loans rer/gola/risolta/eksampel (2 of 3 reviewers approved over semanticist compound suggestions). Gold: -wei series (do-wei=method, tink-wei=opinion, nof-wei=knowledge, tru-wei/bad-wei), no-yus/yus-ful, mas-hav=necessary, neer-sem=similar, tru-tin=fact; reduplication mor-mor/les-les; antonym pairs big-tin/smol-tin, gud-luki/bad-luki, no-end=infinite. Dictionary 1817 to 1855, 0 duplicates, validator 0 errors. Progress: 1855 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 12: Family, Relationships & Age (+36)
 
 Committee-reviewed + verified (86% compounds, most compound-heavy batch). Dropped home (base HOM). Fixed young to yunga (/ng/ coda), niu-fren to new-fren, best-fren to dep-fren (best not in base), tak-kea-po to kea-po (tak not a headword), liv-ing to liva (-ing is not a VELA suffix, an English calque). Gold: -fren series (old/new/dep/wuman/man/luva-fren), -po roles, no- antonyms. Standout: no-nof-po (stranger = not-know-person). Batch-11 post-hoc: removed shipi/werma (late phonologist review; base already has shep/worm). Dictionary now 1818, 0 duplicates, validator 0 errors. Progress: 1818 / 3000.

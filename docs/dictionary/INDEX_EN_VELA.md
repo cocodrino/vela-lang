@@ -235,6 +235,7 @@
 | center | senta | /sen.ta/ |
 | century | centuri | /senturi/ |
 | ceramic | seramik | /se.ra.mik/ |
+| certain / sure | sertin | /ser.tin/ |
 | chair | ceir | /seir/ |
 | chance | chans | /tcans/ |
 | change | chang | /tcainj/ |
@@ -295,6 +296,7 @@
 | comics | komiks | /komiks/ |
 | commit (git) | komita | /ko.mi.ta/ |
 | common | comon | /komon/ |
+| common | komon | /ko.mon/ |
 | community | liv-grup | /liv.grup/ |
 | company | kompani | /kompani/ |
 | compile | kompail | /kom.pail/ |
@@ -362,6 +364,7 @@
 | custom / tradition | old-wei | /old.wei/ |
 | customer | kastomer | /kastomer/ |
 | dancer | dansi-po | /dan.si.po/ |
+| danger | danjer | /dan.jer/ |
 | dangerous | dangerus | /dainjerus/ |
 | dark | dark | /dark/ |
 | data | data | /data/ |
@@ -391,6 +394,7 @@
 | diagnosis / diagnose | diagnoze | /di.ag.no.ze/ |
 | dictionary | diksbri | /diksbri/ |
 | dictionary | wod-buk | /wod.buk/ |
+| different | difren | /di.fren/ |
 | difficulty | difikulti | /difikulti/ |
 | dinner | dina | /di.na/ |
 | diplomat | diplomata | /di.plo.ma.ta/ |
@@ -453,6 +457,7 @@
 | empathy | empatia | /em.pa.tia/ |
 | empty | no-ful | /no.ful/ |
 | encrypt / encryption | kripta | /krip.ta/ |
+| endless / infinite | no-end | /no.end/ |
 | enemy | no-fren | /no.fren/ |
 | energy | enrji | /en.rji/ |
 | engine | engin | /engin/ |
@@ -465,7 +470,9 @@
 | euphoria | topa-hapi | /to.pa.ha.pi/ |
 | evening | eveing | /iveing/ |
 | evolution | evolushon | /e.vo.lu.shon/ |
+| exact | eksakta | /ek.sak.ta/ |
 | exact | exakt | /eksakt/ |
+| example | eksampel | /ek.sam.pel/ |
 | exciting | eksiting | /eksaiting/ |
 | exercise | bodi-wok | /bo.di.wok/ |
 | exhibition | shou-hous | /shou.haus/ |
@@ -475,6 +482,7 @@
 | eye | ai | /ai/ |
 | eyebrow | ai-hair | /ai.her/ |
 | face | fas | /fas/ |
+| fact | tru-tin | /tru.tin/ |
 | factory | mak-hous | /mak.haus/ |
 | failure | faiolr | /faiolr/ |
 | fairy tale | child-stor | /child.stor/ |
@@ -570,12 +578,14 @@
 | glass | glasi | /gla.si/ |
 | glove | gluv | /gluv/ |
 | glue | glu | /glu/ |
+| goal / aim | gola | /go.la/ |
 | goat | goa | /go.a/ |
 | goat | got | /got/ |
 | god | god | /god/ |
 | gold (metal) | golda | /gol.da/ |
 | golden | gol | /gol/ |
 | good | gud | /gud/ |
+| good fortune | gud-luki | /gud.lu.ki/ |
 | goodbye | gudbai | /gud.bai/ |
 | goose | gui | /gui/ |
 | goose | gus | /gus/ |
@@ -611,6 +621,8 @@
 | hail | ais-rein | /ais.rein/ |
 | hair | hair | /her/ |
 | half | hafa | /ha.fa/ |
+| half-truth | hafa-tru | /ha.fa.tru/ |
+| halfway point | hafa-wei | /ha.fa.wei/ |
 | hammer | hamar | /ha.mar/ |
 | hammer | hamer | /ha.mer/ |
 | hammer | hammer | /hammer/ |
@@ -682,6 +694,7 @@
 | imagination | maind-piktur | /maind.pik.tur/ |
 | immunity | imuniiti | /i.mu.nii.ti/ |
 | important | importent | /importent/ |
+| important matter | big-tin | /big.tin/ |
 | impossible | imposibel | /imposibel/ |
 | in | in | /in/ |
 | index | indeksa | /in.dek.sa/ |
@@ -744,6 +757,7 @@
 | knife | naif | /naif/ |
 | knife | naiu | /na.iu/ |
 | knowledge | nof-nes | /nof.nes/ |
+| knowledge / know-how | nof-wei | /nof.wei/ |
 | koala | koala | /ko.a.la/ |
 | laboratory | laboratori | /la.bo.ra.to.ri/ |
 | lake | lek | /lek/ |
@@ -765,6 +779,7 @@
 | length | lenga | /len.ga/ |
 | length | lengt | /lengt/ |
 | less | les | /les/ |
+| less and less | les-les | /les.les/ |
 | letter | leter | /leter/ |
 | library | buk-hous | /buk.haus/ |
 | lid | poti-kover | /po.ti.ko.ver/ |
@@ -772,6 +787,7 @@
 | light (weight) | lait | /lait/ |
 | lightning | fai-flasha | /fai.fla.sha/ |
 | lightning | letning | /letning/ |
+| likely | laikli | /laik.li/ |
 | limit | limia | /li.mia/ |
 | limit | limit | /li.mit/ |
 | line | lain | /lain/ |
@@ -806,6 +822,7 @@
 | magic | majika | /ma.ji.ka/ |
 | magnet | magneta | /mag.ne.ta/ |
 | mail | meil | /meil/ |
+| main / chief | main | /main/ |
 | maker / producer | mak-po | /mak.po/ |
 | male friend | man-fren | /man.fren/ |
 | man / person | man | /man/ |
@@ -837,6 +854,7 @@
 | metal | metal | /me.tal/ |
 | metaphor | metafor | /me.ta.for/ |
 | meter | meter | /me.ter/ |
+| method / way of doing | do-wei | /do.wei/ |
 | microbe | mikruba | /mik.ru.ba/ |
 | microservice | mikro-servis | /mi.kro.ser.vis/ |
 | microwave | maikrowev | /mai.kro.wev/ |
@@ -850,6 +868,7 @@
 | miracle | mirakla | /mi.rak.la/ |
 | mirror | mirar | /mi.rar/ |
 | mirror | si-glasi | /si.gla.si/ |
+| misfortune | bad-luki | /bad.lu.ki/ |
 | mobile | mobil | /mobil/ |
 | molecule | molkul | /mol.kul/ |
 | moment | momena | /mo.me.na/ |
@@ -864,6 +883,7 @@
 | mop | mop | /mop/ |
 | morality / moral | rait-rong-sistam | /rait.rong.sis.tam/ |
 | more | mor | /mor/ |
+| more and more | mor-mor | /mor.mor/ |
 | morning | moring | /moring/ |
 | mosque | moslem-hous | /moz.lem.haus/ |
 | mosquito | moskito | /mos.ki.to/ |
@@ -898,6 +918,7 @@
 | nature | naitur | /naitur/ |
 | navy | navy | /nevi/ |
 | near | neer | /neer/ |
+| necessary | mas-hav | /mas.hav/ |
 | necessary | nesesar | /nesesar/ |
 | necklace | neklai | /neklai/ |
 | necklace | neklas | /ne.klas/ |
@@ -948,7 +969,9 @@
 | old friend | old-fren | /old.fren/ |
 | on | on | /on/ |
 | onion | onyon | /on.yon/ |
+| opinion / viewpoint | tink-wei | /tink.wei/ |
 | opportunity | oportuniti | /oportiuniti/ |
+| opposite / against | kontra | /kon.tra/ |
 | or | or | /or/ |
 | orange | orange | /oranj/ |
 | orange | oranj | /oranj/ |
@@ -1073,6 +1096,7 @@
 | private | privat | /privat/ |
 | prize / price | prize | /praiz/ |
 | problem | problem | /problem/ |
+| process | stap-wei | /stap.wei/ |
 | product | product | /product/ |
 | production | produkshon | /pro.duk.shon/ |
 | profile | profil | /profil/ |
@@ -1108,12 +1132,14 @@
 | rainbow | rein-arka | /rein.ar.ka/ |
 | RAM | woka-mem | /wo.ka.mem/ |
 | rare | rar | /rar/ |
+| rare | rer | /rer/ |
 | rarely | rarli | /rar.li/ |
 | rash | skin-red | /skin.red/ |
 | rat | raa | /ra.a/ |
 | rat | rat | /rat/ |
 | reader | rid-po | /rid.po/ |
 | ready | redi | /re.di/ |
+| real | real | /re.al/ |
 | reality | realiti | /re.a.li.ti/ |
 | reason | reason | /rizon/ |
 | record (DB row) | rekorda | /re.kor.da/ |
@@ -1135,6 +1161,7 @@
 | responsible | du-noba | /du.no.ba/ |
 | restaurant | eat-hous | /it.haus/ |
 | result | risolt | /rizolt/ |
+| result | risolta | /ri.sol.ta/ |
 | reward | gud-giv | /gud.giv/ |
 | rhinoceros | raino | /rai.no/ |
 | rhythm | ritmo | /rit.mo/ |
@@ -1178,6 +1205,7 @@
 | salt | salt | /solt/ |
 | salt | sola | /so.la/ |
 | salt | solt | /solt/ |
+| same | sem | /sem/ |
 | sand | sand | /sand/ |
 | sand | sani | /sa.ni/ |
 | sandals | sandali | /san.da.li/ |
@@ -1252,6 +1280,7 @@
 | silk | silk | /silk/ |
 | silver | silv | /silv/ |
 | silver | silva | /sil.va/ |
+| similar | neer-sem | /neer.sem/ |
 | simple | simpli | /simpli/ |
 | singer | song-mak-po | /son.mak.po/ |
 | single / unmarried | no-marri | /no.ma.ri/ |
@@ -1328,6 +1357,7 @@
 | stair / staircase | stera | /ste.ra/ |
 | stairs | stair | /stair/ |
 | star | star | /star/ |
+| state / condition | steta | /ste.ta/ |
 | steam | stim | /stim/ |
 | stem / stalk | plant-bodi | /plant.bo.di/ |
 | step | stap | /stap/ |
@@ -1340,6 +1370,7 @@
 | storyteller | stor-tal-po | /stor.tal.po/ |
 | stove | kuk-fai | /kuk.fai/ |
 | straight | streta | /stre.ta/ |
+| strange | streinja | /strein.ja/ |
 | stranger | no-nof-po | /no.nof.po/ |
 | strawberry | strobri | /strobri/ |
 | stream | smol-river | /smol.ri.ver/ |
@@ -1401,6 +1432,8 @@
 | tempo | tempa | /tem.pa/ |
 | that | dat | /dat/ |
 | the (definite) | la | /la/ |
+| the right way | tru-wei | /tru.wei/ |
+| the wrong way | bad-wei | /bad.wei/ |
 | theater | teatra | /te.a.tra/ |
 | their / of them | de-se | /de.se/ |
 | then | den | /den/ |
@@ -1633,6 +1666,7 @@
 | to try | trai | /trai/ |
 | to turn | turna | /tur.na/ |
 | to understand | understand | /undredstand/ |
+| to use / use | yus | /jus/ |
 | to visit | vizit | /vizit/ |
 | to visit | vizita | /vi.zi.ta/ |
 | to wait | wait | /weit/ |
@@ -1678,6 +1712,7 @@
 | triangle | tri-korner | /tri.kor.ner/ |
 | trip | tripa | /tri.pa/ |
 | triumph / victory pride | win-praida | /win.prai.da/ |
+| trivial matter | smol-tin | /smol.tin/ |
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
@@ -1700,12 +1735,15 @@
 | update | apdata | /ap.da.ta/ |
 | upload | lowda-upa | /low.da.u.pa/ |
 | useful | useful | /usful/ |
+| useful | yus-ful | /jus.ful/ |
+| useless | no-yus | /no.jus/ |
 | useless | useles | /usles/ |
 | vaccine | vacine | /vasin/ |
 | vaccine (formal) | vaksin | /vak.sin/ |
 | vacuum | vakum | /va.kum/ |
 | valley | lo-lond | /lo.lond/ |
 | value | valiu | /va.liu/ |
+| value / worth | worta | /wor.ta/ |
 | variable | chanja-tip | /chan.ja.tip/ |
 | vegetable | vegi | /veji/ |
 | vein | blud-lain | /blud.lain/ |
