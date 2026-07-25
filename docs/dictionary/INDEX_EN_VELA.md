@@ -91,6 +91,7 @@
 | bandage | wond-kover | /wond.ko.ver/ |
 | bank | bani | /ba.ni/ |
 | bank | bank | /bank/ |
+| banknote | paper-moni | /pe.per.mo.ni/ |
 | bark | tre-skin | /tre.skin/ |
 | base / alkaline | alkalin | /al.ka.lin/ |
 | bat | baet | /baet/ |
@@ -137,6 +138,7 @@
 | book | buk | /buk/ |
 | boot | but | /but/ |
 | border | bordar | /bor.dar/ |
+| border | lond-lain | /lond.lain/ |
 | bored | bored | /bord/ |
 | boring | boring | /boring/ |
 | boss / leader | hed-po | /hed.po/ |
@@ -176,6 +178,7 @@
 | button | baton | /baton/ |
 | button | batu | /batu/ |
 | button | buton | /buton/ |
+| buyer | bai-po | /bai.po/ |
 | cable | kabel | /ka.bel/ |
 | cache | kasha | /ka.sha/ |
 | cake | keik | /keik/ |
@@ -234,6 +237,7 @@
 | clay | klei | /klei/ |
 | clean | clean | /klian/ |
 | client | klient | /klient/ |
+| client | klienta | /kli.en.ta/ |
 | climate | climat | /klimait/ |
 | clock | klok | /klok/ |
 | clone | klon | /klon/ |
@@ -245,6 +249,7 @@
 | coat | kot | /kot/ |
 | code (source) | koda | /ko.da/ |
 | coffee | kofi | /kofi/ |
+| coin | metal-moni | /me.tal.mo.ni/ |
 | cold | kol | /kol/ |
 | cold | kold | /kold/ |
 | collage | kolaja | /ko.la.ja/ |
@@ -254,6 +259,7 @@
 | comics | komiks | /komiks/ |
 | commit (git) | komita | /ko.mi.ta/ |
 | common | comon | /komon/ |
+| community | liv-grup | /liv.grup/ |
 | company | kompani | /kompani/ |
 | compile | kompail | /kom.pail/ |
 | complex | kompleksi | /kom.plek.si/ |
@@ -277,6 +283,7 @@
 | container | kontener | /kontener/ |
 | continent | kantin | /kantin/ |
 | contract | kontract | /kontract/ |
+| contract | kontrakta | /kon.trak.ta/ |
 | conversation | kom-tok | /kom.tok/ |
 | copper | kopa | /ko.pa/ |
 | corn | korn | /korn/ |
@@ -376,6 +383,7 @@
 | egg | egi | /e.gi/ |
 | elbow | elbo | /el.bo/ |
 | election | elekshon | /elekshon/ |
+| election | rula-chuz | /ru.la.chuz/ |
 | electricity / electric | elektrika | /e.lek.tri.ka/ |
 | electron | elektron | /e.lek.tron/ |
 | element | elementa | /e.le.men.ta/ |
@@ -384,6 +392,7 @@
 | embassy | amnbasy | /ambasy/ |
 | empathy | empatia | /em.pa.tia/ |
 | encrypt / encryption | kripta | /krip.ta/ |
+| enemy | no-fren | /no.fren/ |
 | energy | enrji | /en.rji/ |
 | engine | engin | /engin/ |
 | engineer | masin-fix-po | /ma.sin.fik.po/ |
@@ -419,12 +428,14 @@
 | February | Februari | /februa.ri/ |
 | fever | hot-sik | /hot.sik/ |
 | fiction | fikshon | /fik.shon/ |
+| fighter / warrior | fajt-po | /fait.po/ |
 | film / movie | film | /film/ |
 | finger | fingar | /fingar/ |
 | fire | fai | /fai/ |
 | fish | fish | /fis/ |
 | fish | fisi | /fi.si/ |
 | fisherman | fis-kat-po | /fis.kat.po/ |
+| flag | flaga | /fla.ga/ |
 | flai (insect) | flai | /flai/ |
 | flood | flod | /flod/ |
 | flood | floi | /floi/ |
@@ -484,6 +495,7 @@
 | goose | gus | /gus/ |
 | gorilla | gorila | /go.ri.la/ |
 | government | goverment | /gvnmnt/ |
+| government | rula-grup | /ru.la.grup/ |
 | governor | rul-po | /rul.po/ |
 | GPU | piktur-chipa | /pik.tur.chi.pa/ |
 | grammar | gramr | /gramr/ |
@@ -499,7 +511,10 @@
 | green | gren | /gren/ |
 | grief | losa-pain | /lo.sa.pein/ |
 | group | grup | /grup/ |
+| guard | kip-po | /kip.po/ |
+| guard / watcher | luk-po | /luk.po/ |
 | guitar | gitar | /gi.tar/ |
+| gun | gan | /gan/ |
 | habit | habia | /ha.bia/ |
 | habit | habit | /ha.bit/ |
 | hail | ais-rein | /ais.rein/ |
@@ -531,6 +546,7 @@
 | height | haia | /ha.ia/ |
 | height | hait | /hait/ |
 | hello | helo | /he.lo/ |
+| helper / assistant | help-po | /help.po/ |
 | hill | hil | /hil/ |
 | hip | hipa | /hi.pa/ |
 | hippopotamus | haipo | /hai.po/ |
@@ -669,7 +685,9 @@
 | machine learning | masin-lern | /ma.sin.lern/ |
 | magnet | magneta | /mag.ne.ta/ |
 | mail | meil | /meil/ |
+| maker / producer | mak-po | /mak.po/ |
 | man / person | man | /man/ |
+| manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
 | map | map | /map/ |
 | marble | marmol | /mar.mol/ |
@@ -886,6 +904,7 @@
 | poster | poster | /poster/ |
 | pot | poti | /po.ti/ |
 | potato | poteto | /po.te.to/ |
+| poverty | poor-nes | /pur.nes/ |
 | power | power | /pauer/ |
 | prayer | prer | /prer/ |
 | predict | predika | /pre.di.ka/ |
@@ -915,6 +934,7 @@
 | psychology | sikoloji | /si.ko.lo.ji/ |
 | public | public | /publik/ |
 | pulse / heartbeat | hert-bit | /hert.bit/ |
+| punishment | bad-giv | /bad.giv/ |
 | purple | purpel | /purpel/ |
 | quantum | kwantuma | /kwan.tu.ma/ |
 | queen | kwain | /kwain/ |
@@ -943,6 +963,7 @@
 | refuge | rifuj | /rifuj/ |
 | refugee | refyuji | /re.fyu.ji/ |
 | region | ridshon | /rid.shon/ |
+| religion | god-wei | /god.wei/ |
 | religion | relijon | /re.li.jon/ |
 | repository | repositori | /re.po.si.to.ri/ |
 | respect | respekt | /respekt/ |
@@ -950,6 +971,7 @@
 | responsible | du-noba | /du.no.ba/ |
 | restaurant | eat-hous | /it.haus/ |
 | result | risolt | /rizolt/ |
+| reward | gud-giv | /gud.giv/ |
 | rhinoceros | raino | /rai.no/ |
 | rhythm | ritmo | /rit.mo/ |
 | rib | riba | /ri.ba/ |
@@ -974,6 +996,7 @@
 | rubber | raba | /ra.ba/ |
 | rug | rug | /rug/ |
 | rule | rule | /rul/ |
+| ruler / governor | rula-po | /ru.la.po/ |
 | runtime | ran-taim | /ran.taim/ |
 | sacred / holy | holi | /ho.li/ |
 | sad | sad | /sad/ |
@@ -1015,8 +1038,10 @@
 | seed | sida | /si.da/ |
 | self | self | /self/ |
 | self-supervised learning | auto-lern | /au.to.lern/ |
+| seller | sel-po | /sel.po/ |
 | September | September | /septembr/ |
 | serenity | kwaiat-hapi | /kwai.at.ha.pi/ |
+| servant | servi-po | /ser.vi.po/ |
 | server | server | /server/ |
 | shadow | shado | /sha.do/ |
 | shallow | shalo | /sa.lo/ |
@@ -1196,6 +1221,7 @@
 | to answer | ansr | /ansr/ |
 | to arrive | ariv | /ariv/ |
 | to ask | ask | /ask/ |
+| to attack | ataka | /a.ta.ka/ |
 | to bake | baka | /ba.ka/ |
 | to be | bi | /bi/ |
 | to be (stative) | es | /es/ |
@@ -1231,6 +1257,7 @@
 | to dance | dansi | /dan.si/ |
 | to decide | desid | /desid/ |
 | to decide | disaid | /disaid/ |
+| to defend | defenda | /de.fen.da/ |
 | to die | dai | /dai/ |
 | to die | die | /dai/ |
 | to dig | diga | /di.ga/ |
@@ -1243,6 +1270,7 @@
 | to drop | dropa | /dro.pa/ |
 | to dry | drai | /drai/ |
 | to eat | eat | /it/ |
+| to elect | elekta | /e.lek.ta/ |
 | to end | end | /end/ |
 | to enter | entar | /entar/ |
 | to exit | eksit | /eksit/ |
@@ -1302,6 +1330,7 @@
 | to need | need | /nid/ |
 | to need | niid | /niid/ |
 | to open | open | /open/ |
+| to own | owna | /ow.na/ |
 | to paint | kolori | /ko.lo.ri/ |
 | to pay | pe | /pe/ |
 | to pay | pei | /pei/ |
@@ -1311,7 +1340,9 @@
 | to prefer | prefer | /prefer/ |
 | to prepare | pripar | /pripar/ |
 | to press | presa | /pre.sa/ |
+| to protect | proteka | /pro.te.ka/ |
 | to pull | pul | /pul/ |
+| to punish | punisha | /pu.ni.sha/ |
 | to push | push | /push/ |
 | to rain | rain | /rein/ |
 | to read | rid | /rid/ |
@@ -1322,8 +1353,10 @@
 | to rest | rest | /rest/ |
 | to return | ritan | /ritan/ |
 | to return home | kom-hom | /kom.hom/ |
+| to reward | rewarda | /re.war.da/ |
 | to ride | raida | /rai.da/ |
 | to rise | rais | /rais/ |
+| to rule / govern | rula | /ru.la/ |
 | to run | ran | /ran/ |
 | to save | sava | /sa.va/ |
 | to say | sey | /sei/ |
@@ -1446,10 +1479,12 @@
 | volcano | vulkan | /vul.kan/ |
 | vote | vote | /vot/ |
 | voter | vota-po | /vo.ta.po/ |
+| wage / salary | wok-moni | /wok.mo.ni/ |
 | waist | waista | /wais.ta/ |
 | wall | wal | /wal/ |
 | wallet | walea | /walea/ |
 | wallet | walet | /wa.let/ |
+| war | war | /war/ |
 | war | wor | /wor/ |
 | warm | warm | /warm/ |
 | washing machine | wosh-masin | /wosh.ma.sin/ |
@@ -1462,6 +1497,8 @@
 | way / path (abstract) | wei | /wei/ |
 | we | wi | /wi/ |
 | weak | wik | /wik/ |
+| wealth | rich-nes | /ritc.nes/ |
+| weapon | fajt-tool | /fait.tul/ |
 | website | webseit | /webseit/ |
 | Wednesday | Wenzdei | /wens.dei/ |
 | weight | weia | /we.ia/ |
