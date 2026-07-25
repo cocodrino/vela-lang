@@ -156,8 +156,8 @@
 | busy | bizi | /bizi/ |
 | but | bot | /bot/ |
 | butter | butr | /butr/ |
-| butterfly | ba.ta.flai | /ba.ta.flai/ |
 | butterfly | baflai | /ba.flai/ |
+| butterfly | bataflai | /ba.ta.flai/ |
 | butterfly | buterflai | /buterflai/ |
 | button | batn | /batn/ |
 | button | batu | /batu/ |
@@ -166,7 +166,6 @@
 | cache | kasha | /ka.sha/ |
 | cake | keik | /keik/ |
 | calendar | kalendár | /ka.len.dar/ |
-| camel | ka.mal | /ka.mal/ |
 | camel | kamal | /ka.mal/ |
 | camera | kamera | /kamera/ |
 | can | kan | /kan/ |
@@ -224,7 +223,6 @@
 | cloud storage | klauda-sava | /klau.da.sa.va/ |
 | coat | koa | /koa/ |
 | coat | kot | /kot/ |
-| code | koda | /ko.da/ |
 | code (source) | koda | /ko.da/ |
 | coffee | kofi | /kofi/ |
 | cold | kol | /kol/ |
@@ -276,7 +274,6 @@
 | cream | cream | /kriam/ |
 | crime | krime | /kraim/ |
 | criminal | kriminal | /kriminal/ |
-| crocodile | kro.ko.dail | /kro.ko.dail/ |
 | crocodile | krokodail | /kro.ko.dail/ |
 | crow | krau | /krau/ |
 | crow | krou | /krou/ |
@@ -318,7 +315,6 @@
 | doctor | doktr | /doktor/ |
 | doctor | sik-fix-po | /sik.fik.po/ |
 | dog | dog | /dog/ |
-| dolphin | dol.fin | /dol.fin/ |
 | dolphin | dolfin | /dol.fin/ |
 | domain | domain | /do.main/ |
 | door | dor | /dor/ |
@@ -331,11 +327,11 @@
 | driver | kar-po | /kar.po/ |
 | drum | drum | /drum/ |
 | dryer | draiar | /drai.ar/ |
-| duck | dai | /dai/ |
 | duck | dak | /dak/ |
+| duck | duk | /duk/ |
 | duration | dureshon | /du.re.shon/ |
 | duty | duti | /du.ti/ |
-| eagle | i.gl | /i.gl/ |
+| eagle | igl | /i.gl/ |
 | eagle | igol | /i.gol/ |
 | ear | ear | /ir/ |
 | early | erli | /er.li/ |
@@ -353,7 +349,6 @@
 | electricity / electric | elektrika | /e.lek.tri.ka/ |
 | electron | elektron | /e.lek.tron/ |
 | element | elementa | /e.le.men.ta/ |
-| elephant | e.le.fant | /e.le.fant/ |
 | elephant | elefana | /e.le.fa.na/ |
 | elephant | elefant | /e.le.fant/ |
 | embassy | amnbasy | /ambasy/ |
@@ -414,7 +409,7 @@
 | fracture | fraktur | /fraktur/ |
 | free / free | fri | /frai/ |
 | free will | fri-chuza | /fri.chu.za/ |
-| freedom | fri.dom | /fri.dom/ |
+| freedom | fridom | /fri.dom/ |
 | Friday | Fraidei | /frai.dei/ |
 | friend | fren | /fren/ |
 | frog | fraug | /fraug/ |
@@ -432,7 +427,6 @@
 | gene | jen | /jen/ |
 | genetic code | lifa-koda | /li.fa.ko.da/ |
 | genre | jenra | /jen.ra/ |
-| giraffe | ji.raf | /ji.raf/ |
 | giraffe | jiraf | /ji.raf/ |
 | giraffe | jirau | /ji.rau/ |
 | girl | gerl | /gerl/ |
@@ -446,7 +440,6 @@
 | goodbye | gudbai | /gud.bai/ |
 | goose | gui | /gui/ |
 | goose | gus | /gus/ |
-| gorilla | go.ri.la | /go.ri.la/ |
 | gorilla | gorila | /go.ri.la/ |
 | government | gvrnmnt | /gvnmnt/ |
 | governor | rul-po | /rul.po/ |
@@ -487,13 +480,13 @@
 | heart | hert | /hert/ |
 | heater | hitar | /hi.tar/ |
 | heavy | hevi | /hevi/ |
-| hedgehog | hej.hog | /hej.hog/ |
+| hedgehog | hejhog | /hej.hog/ |
 | height | haia | /ha.ia/ |
 | height | hait | /hait/ |
 | hello | helo | /he.lo/ |
 | hill | hil | /hil/ |
-| hippopotamus | hai.po | /hai.po/ |
-| hippopotamus | hi.po | /hi.po/ |
+| hippopotamus | haipo | /hai.po/ |
+| hippopotamus | hipo | /hi.po/ |
 | his/her/its / of him/her | li-se | /li.se/ |
 | home | hom | /hom/ |
 | honey | honi | /ho.ni/ |
@@ -558,7 +551,7 @@
 | justice | justis | /jus.tis/ |
 | justify | justifai | /jus.ti.fai/ |
 | kangaroo | kaigaru | /kai.ga.ru/ |
-| kangaroo | kan.ga.ru | /kan.ga.ru/ |
+| kangaroo | kangaru | /kan.ga.ru/ |
 | key | key | /ki/ |
 | keyboard | kibod | /ki.bod/ |
 | kidney | kidni | /kidni/ |
@@ -568,7 +561,6 @@
 | knife | naif | /naif/ |
 | knife | naiu | /na.iu/ |
 | knowledge | nof-nes | /nof.nes/ |
-| koala | ko.a.la | /ko.a.la/ |
 | koala | koala | /ko.a.la/ |
 | laboratory | laboratori | /la.bo.ra.to.ri/ |
 | lake | lek | /lek/ |
@@ -592,11 +584,11 @@
 | lightning | letning | /letning/ |
 | limit | limia | /li.mia/ |
 | limit | limit | /li.mit/ |
-| lion | lai.on | /lai.on/ |
 | lion | laigon | /lai.gon/ |
+| lion | laion | /lai.on/ |
 | liver | livr | /livr/ |
 | living room | livrum | /livrum/ |
-| lizard | li.zard | /li.zard/ |
+| lizard | lizard | /li.zard/ |
 | load balancer | loda-balansa | /lo.da.ba.lan.sa/ |
 | loan | lon | /lon/ |
 | lock | lok | /lok/ |
@@ -608,8 +600,8 @@
 | loss | los | /los/ |
 | loud | louud | /loud/ |
 | love | luva | /lu.va/ |
-| luck | lai | /lai/ |
 | luck | lak | /lak/ |
+| luck | luki | /lu.ki/ |
 | machine | masin | /masin/ |
 | machine learning | masin-lern | /ma.sin.lern/ |
 | magnet | magneta | /mag.ne.ta/ |
@@ -643,7 +635,6 @@
 | midnight | midnaight | /midnait/ |
 | milk | milk | /milk/ |
 | mind | maind | /maind/ |
-| mind | mind | /maind/ |
 | mind | mini | /mi.ni/ |
 | minute | minimit | /minimit/ |
 | minute | minua | /mi.nua/ |
@@ -658,7 +649,6 @@
 | Monday | Mondei | /mon.dei/ |
 | money | moni | /moni/ |
 | monitor | monitar | /mo.ni.tar/ |
-| monkey | mon.ki | /mon.ki/ |
 | monkey | monki | /mon.ki/ |
 | month | mont | /mont/ |
 | moon | moon | /mun/ |
@@ -667,7 +657,6 @@
 | more | mor | /mor/ |
 | morning | moring | /moring/ |
 | mosque | moslem-hous | /moz.lem.haus/ |
-| mosquito | mos.ki.to | /mos.ki.to/ |
 | mosquito | moskito | /mos.ki.to/ |
 | mother | motr | /motr/ |
 | motorcycle | motorbaik | /motorbaik/ |
@@ -739,7 +728,6 @@
 | orchestra | muzika-grupa | /mu.zi.ka.gru.pa/ |
 | order | ordar | /or.dar/ |
 | organization | organizashon | /or.ga.ni.za.shon/ |
-| otter | o.tar | /o.tar/ |
 | otter | otar | /o.tar/ |
 | our / of us | wi-se | /wi.se/ |
 | output | outputa | /out.pu.ta/ |
@@ -751,7 +739,6 @@
 | owl | aul | /aul/ |
 | package | paket | /paket/ |
 | pain | pain | /pein/ |
-| panda | pan.da | /pan.da/ |
 | panda | panda | /pan.da/ |
 | panic | biga-afreda | /bi.ga.a.fre.da/ |
 | pants | pana | /pana/ |
@@ -771,7 +758,6 @@
 | peace | pis | /pis/ |
 | pen | pen | /pen/ |
 | pencil | pensil | /pensil/ |
-| penguin | pen.gwin | /pen.gwin/ |
 | penguin | pengwin | /pen.gwin/ |
 | people | ppl | /pi.pi.el/ |
 | people / population | popul | /popiul/ |
@@ -851,7 +837,7 @@
 | query | data-aska | /da.ta.as.ka/ |
 | quick | kwikly | /kwikli/ |
 | quiet | kwaiat | /kwaiat/ |
-| rabbit | ra.bit | /ra.bit/ |
+| rabbit | rabit | /ra.bit/ |
 | rabbit | raibia | /rai.bia/ |
 | rabbit | raibit | /rai.bit/ |
 | radio | radia | /radia/ |
@@ -878,7 +864,7 @@
 | responsible | du-noba | /du.no.ba/ |
 | restaurant | eat-hous | /it.haus/ |
 | result | risolt | /rizolt/ |
-| rhinoceros | rai.no | /rai.no/ |
+| rhinoceros | raino | /rai.no/ |
 | rhythm | ritmo | /rit.mo/ |
 | rice | ris | /ris/ |
 | rich | rich | /ritc/ |
@@ -975,11 +961,9 @@
 | slow | sloli | /sloli/ |
 | small | smol | /smol/ |
 | smartphone | smaurtfon | /smartfon/ |
-| smile-a | smile | /smi.le/ |
 | smooth | smud | /smud/ |
 | snail | sneil | /sneil/ |
 | snake | snak | /snak/ |
-| snow | snow | /snow/ |
 | so / therefore | so | /so/ |
 | soap | sop | /sop/ |
 | soap | sopi | /so.pi/ |
@@ -1005,19 +989,17 @@
 | south | saua | /sau.a/ |
 | space | spei | /spe.i/ |
 | space | spes | /spes/ |
-| sparrow | spa.rou | /spa.rou/ |
+| sparrow | sparou | /spa.rou/ |
 | speaker | speaker | /spiker/ |
 | special | speshal | /speshal/ |
 | species | lifa-tipa | /li.fa.ti.pa/ |
 | speed | spida | /spi.da/ |
 | spice | spice | /spais/ |
-| spider | spai.dar | /spai.dar/ |
 | spider | spaidar | /spai.dar/ |
 | spirit | spirit | /spi.rit/ |
 | spiritual | spiritu | /spi.ri.tu/ |
 | spoon | sponn | /spon/ |
 | spring | spring | /spring/ |
-| squirrel | skwi.ral | /skwi.ral/ |
 | squirrel | skwiral | /skwi.ral/ |
 | stairs | stair | /stair/ |
 | star | star | /star/ |
@@ -1088,7 +1070,7 @@
 | Thursday | Terzdei | /ters.dei/ |
 | ticket | bilet | /bilet/ |
 | tie | tai | /tai/ |
-| tiger | tai.gar | /tai.gar/ |
+| tiger | taigar | /tai.gar/ |
 | tiger | taigor | /tai.gor/ |
 | time | taim | /taim/ |
 | tired | tired | /taird/ |
@@ -1263,7 +1245,6 @@
 | truth (abstract) | tru-nes | /tru.nes/ |
 | Tuesday | Tiuzdei | /tius.dei/ |
 | tunnel | tunnel | /tunnel/ |
-| turtle | tar.tl | /tar.tl/ |
 | turtle | tartl | /tar.tl/ |
 | turtle | tatu | /ta.tu/ |
 | type | tip | /tip/ |
@@ -1365,7 +1346,6 @@
 | you (singular) | yu | /ju/ |
 | young | yong | /jon/ |
 | your / of you | yu-se | /ju.se/ |
-| zebra | ze.bra | /ze.bra/ |
 | zebra | zebra | /ze.bra/ |
 | zipper | zipar | /zi.par/ |
 | zone | zaun | /zaun/ |

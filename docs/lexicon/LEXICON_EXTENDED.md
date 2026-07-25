@@ -486,12 +486,10 @@ These words are used in Phase 5 compounds, existing corpus, or example sentences
 
 | Word | AFI | English | Evidence |
 |------|-----|---------|---------|
-| **luva** | /lu.va/ | love | corpus poems, `strong-luva`, `depa-luva` |
 | **taim** | /taim/ | time | `ran-taim`, `somtaim`, `nau-taim` |
 | **wei** | /wei/ | way / path (abstract) | `motorwei`, directional idioms |
 | **art** | /art/ | art | `arta-hous`, `art-stail`, professions |
 | **net** | /net/ | network | `brain-neta`, `nettwerk` already in Phase 4 but inconsistent spelling |
-| **koda** | /ko.da/ | code | `lifa-koda`, `testa-koda` |
 | **sav** | /sav/ | save | `klauda-sava`, `data-sav` |
 | **tip** | /tip/ | type | `lifa-tipa` |
 | **stap** | /stap/ | step | idioms, instruction sequences |

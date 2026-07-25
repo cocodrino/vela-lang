@@ -721,51 +721,51 @@ Social and legal entities (not professions):
 | **insect** | /insect/ | insect | | 
 | **buterflai** | /buterflai/ | butterfly | butterfly | 
 
-| **lai.on** | /lai.on/ | lion | | La lai.on es strong. |
-| **tai.gar** | /tai.gar/ | tiger | | La tai.gar es fast. |
-| **e.le.fant** | /e.le.fant/ | elephant | | La e.le.fant es big. |
-| **mon.ki** | /mon.ki/ | monkey | | La mon.ki plei. |
-| **go.ri.la** | /go.ri.la/ | gorilla | | La go.ri.la es strong. |
+| **laion** | /lai.on/ | lion | | La laion es strong |
+| **taigar** | /tai.gar/ | tiger | | La taigar es fast |
+| **elefant** | /e.le.fant/ | elephant | | La elefant es big |
+| **monki** | /mon.ki/ | monkey | | La monki plei |
+| **gorila** | /go.ri.la/ | gorilla | | La gorila es strong |
 | **ber** | /ber/ | bear | | La ber sleep in winter. |
 | **wulf** | /wulf/ | wolf | | La wulf hau. |
 | **foks** | /foks/ | fox | | La foks es smart. |
 | **dir** | /dir/ | deer | | La dir run fast. |
-| **ra.bit** | /ra.bit/ | rabbit | | La ra.bit jump. |
+| **rabit** | /ra.bit/ | rabbit | | La rabit jump |
 | **maus** | /maus/ | mouse | | La maus es smol. |
 | **rat** | /rat/ | rat | | La rat es dirty. |
 | **frog** | /frog/ | frog | | La frog liv in la pond. |
-| **tar.tl** | /tar.tl/ | turtle | | La tar.tl es slo. |
-| **kro.ko.dail** | /kro.ko.dail/ | crocodile | | La kro.ko.dail es dangerus. |
+| **tartl** | /tar.tl/ | turtle | | La tartl es slo |
+| **krokodail** | /kro.ko.dail/ | crocodile | | La krokodail es dangerus |
 | **shark** | /shark/ | shark | | La shark liv in la mar. |
 | **weil** | /weil/ | whale | | La weil es big. |
-| **dol.fin** | /dol.fin/ | dolphin | | La dol.fin es smart. |
-| **pen.gwin** | /pen.gwin/ | penguin | | La pen.gwin es nais. |
-| **i.gl** | /i.gl/ | eagle | | La i.gl flai hait. |
+| **dolfin** | /dol.fin/ | dolphin | | La dolfin es smart |
+| **pengwin** | /pen.gwin/ | penguin | | La pengwin es nais |
+| **igl** | /i.gl/ | eagle | | La igl flai hait |
 | **hok** | /hok/ | hawk | | La hok katch mous. |
 | **aul** | /aul/ | owl | | La aul flai at nait. |
 | **krou** | /krou/ | crow | | La krou es blak. |
-| **spa.rou** | /spa.rou/ | sparrow | | La spa.rou es smol. |
-| **ba.ta.flai** | /ba.ta.flai/ | butterfly | | La ba.ta.flai es biju. |
+| **sparou** | /spa.rou/ | sparrow | | La sparou es smol |
+| **bataflai** | /ba.ta.flai/ | butterfly | | La bataflai es biju |
 | **ant** | /ant/ | ant | | La ant wok hard. |
-| **spai.dar** | /spai.dar/ | spider | | La spai.dar mak web. |
-| **mos.ki.to** | /mos.ki.to/ | mosquito | | La mos.ki.to bite. |
+| **spaidar** | /spai.dar/ | spider | | La spaidar mak web |
+| **moskito** | /mos.ki.to/ | mosquito | | La moskito bite |
 | **flai** | /flai/ | fly (insect) | | La flai es pest. |
 | **worm** | /worm/ | worm | | La worm liv in la soil. |
 | **sneil** | /sneil/ | snail | | La sneil es slo. |
-| **li.zard** | /li.zard/ | lizard | | La li.zard es cold. |
-| **ka.mal** | /ka.mal/ | camel | | La ka.mal liv in dese. |
-| **ji.raf** | /ji.raf/ | giraffe | | La ji.raf es tall. |
-| **ze.bra** | /ze.bra/ | zebra | | La ze.bra hav stripe. |
-| **rai.no** | /rai.no/ | rhinoceros | | La rai.no es big. |
-| **hi.po** | /hi.po/ | hippopotamus | | La hi.po liv in watre. |
-| **kan.ga.ru** | /kan.ga.ru/ | kangaroo | | La kan.ga.ru jump. |
-| **ko.a.la** | /ko.a.la/ | koala | | La ko.a.la eat lef. |
-| **pan.da** | /pan.da/ | panda | | La pan.da eat bamboo. |
-| **skwi.ral** | /skwi.ral/ | squirrel | | La skwi.ral klim tri. |
-| **hej.hog** | /hej.hog/ | hedgehog | | La hej.hog es smol. |
+| **lizard** | /li.zard/ | lizard | | La lizard es cold |
+| **kamal** | /ka.mal/ | camel | | La kamal liv in dese |
+| **jiraf** | /ji.raf/ | giraffe | | La jiraf es tall |
+| **zebra** | /ze.bra/ | zebra | | La zebra hav stripe |
+| **raino** | /rai.no/ | rhinoceros | | La raino es big |
+| **hipo** | /hi.po/ | hippopotamus | | La hipo liv in watre |
+| **kangaru** | /kan.ga.ru/ | kangaroo | | La kangaru jump |
+| **koala** | /ko.a.la/ | koala | | La koala eat lef |
+| **panda** | /pan.da/ | panda | | La panda eat bamboo |
+| **skwiral** | /skwi.ral/ | squirrel | | La skwiral klim tri |
+| **hejhog** | /hej.hog/ | hedgehog | | La hejhog es smol |
 | **bat** | /bat/ | bat (animal) | | La bat flai at nait. |
 | **sil** | /sil/ | seal | | La sil liv in mar. |
-| **o.tar** | /o.tar/ | otter | | La o.tar plei in watre. |
+| **otar** | /o.tar/ | otter | | La otar plei in watre |
 | **got** | /got/ | goat | | La got giv milk. |
 | **dak** | /dak/ | duck | | La dak swim. |
 | **gus** | /gus/ | goose | | La gus flai. |
@@ -775,27 +775,11 @@ Social and legal entities (not professions):
 | **taigor** | /tai.gor/ | tiger | La taigor es fast. |
 | **raibit** | /rai.bit/ | rabbit | La raibit jump. |
 | **fraug** | /fraug/ | frog | La fraug liv in pond. |
-| **dolfin** | /dol.fin/ | dolphin | La dolfin es smart. |
-| **pengwin** | /pen.gwin/ | penguin | La pengwin is cold. |
 | **igol** | /i.gol/ | eagle | La igol flai hait. |
 | **auk** | /auk/ | owl | La auk flai at nait. |
 | **baflai** | /ba.flai/ | butterfly | La baflai es biju. |
-| **spaidar** | /spai.dar/ | spider | La spaidar mak web. |
-| **moskito** | /mos.ki.to/ | mosquito | La moskito bite. |
-| **kamal** | /ka.mal/ | camel | La kamal liv in dese. |
-| **jiraf** | /ji.raf/ | giraffe | La jiraf es tall. |
 | **kaigaru** | /kai.ga.ru/ | kangaroo | La kaigaru jump. |
-| **koala** | /ko.a.la/ | koala | La koala eat lef. |
-| **panda** | /pan.da/ | panda | La panda eat bamboo. |
-| **skwiral** | /skwi.ral/ | squirrel | La skwiral klim tri. |
-| **otar** | /o.tar/ | otter | La otar plei in watre. |
-| **monki** | /mon.ki/ | monkey | La monki plei in tri. |
-| **gorila** | /go.ri.la/ | gorilla | La gorila es strong. |
-| **krokodail** | /kro.ko.dail/ | crocodile | La krokodail es dangerus. |
-| **elefant** | /e.le.fant/ | elephant | La elefant es big. |
-| **tartl** | /tar.tl/ | turtle | La tartl es slo. |
-| **hai.po** | /hai.po/ | hippopotamus | La hai.po liv in watre. |
-| **zebra** | /ze.bra/ | zebra | La zebra hav stripe. |
+| **haipo** | /hai.po/ | hippopotamus | La haipo liv in watre |
 
 ### Food and Drink
 
@@ -918,7 +902,6 @@ Social and legal entities (not professions):
 | **nius** | /nius/ | news | | La nius es sad. |
 | **kanal** | /kanal/ | channel | | La kanal brodkast la program. |
 | **radia** | /radia/ | radio | | Mi lisn tu la radia. |
-| **far-si** | /far.si/ | television | | Mi si la far-si. |
 | **internet** | /internet/ | internet | | Wi komunikat via internet. |
 | **meil** | /meil/ | mail | | Mi resiv meil. |
 | **letr** | /letr/ | letter | | Mi rit un letr. |
@@ -1215,7 +1198,7 @@ Social and legal entities (not professions):
 | **aproximt** | /aproksimat/ | approximate | | La kalkulashon es aproximt. |
 
 | **justis** | /jus.tis/ | justice | | La justis es importent. |
-| **fri.dom** | /fri.dom/ | freedom | | Wi luv fri.dom. |
+| **fridom** | /fri.dom/ | freedom | | Wi luv fridom |
 | **ikualiti** | /i.kua.li.ti/ | equality | | La ikualiti es importent. |
 | **demokrasi** | /de.mo.kra.si/ | democracy | | La demokrasi es gud. |
 | **pis** | /pis/ | peace | | La pis es importent. |
@@ -1255,9 +1238,6 @@ Social and legal entities (not professions):
 | **lon** | /lon/ | loan | | Mi tak lon. |
 | **bil** | /bil/ | bill | | Mi pei la bil. |
 
-
-| **fri.dom** | /fri.dom/ | freedom | Wi luv fri.dom. |
-| **mind** | /maind/ | mind | La mind es strong. |
 
 | **minut** | /mi.nut/ | minute | Wi wait 10 minut. |
 | **our** | /our/ | hour | La our es long. |
@@ -1427,29 +1407,17 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
-| **shu** | /shu/ | noun | shoe | — | — |
-| **gluv** | /gluv/ | noun | glove | — | — |
-| **zipar** | /zipar/ | noun | zipper | — | — |
-| **kolar** | /kolar/ | noun | collar | — | — |
-| **sliv** | /sliv/ | noun | sleeve | — | — |
-| **umbrela** | /umbrela/ | noun | umbrella | — | — |
-| **uniform** | /uniform/ | noun | uniform | — | — |
-| **kostum** | /kostum/ | noun | costume | — | — |
-| **sandali** | /sandali/ | noun | sandals | — | — |
 | **haa** | /haa/ | noun | hat | — | — |
-| **kap** | /kap/ | noun | cap | — | — |
 | **jakia** | /jakia/ | noun | jacket | — | — |
 | **pana** | /pana/ | noun | pants | — | — |
 | **soi** | /soi/ | noun | sock | — | — |
 | **skara** | /skara/ | noun | skirt | — | — |
 | **skaru** | /skaru/ | noun | scarf | — | — |
 | **bela** | /bela/ | noun | belt | — | — |
-| **tai** | /tai/ | noun | tie | — | — |
 | **batu** | /batu/ | noun | button | — | — |
 | **pokea** | /pokea/ | noun | pocket | — | — |
 | **rini** | /rini/ | noun | ring | — | — |
 | **neklai** | /neklai/ | noun | necklace | — | — |
-| **wotch** | /wotch/ | noun | watch | — | — |
 | **walea** | /walea/ | noun | wallet | — | — |
 | **bakpai** | /bakpai/ | noun | backpack | — | — |
 | **sutkei** | /sutkei/ | noun | suitcase | — | — |
@@ -1460,26 +1428,6 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
-| **laigon** | /laigon/ | noun | lion | — | — |
-| **taigor** | /taigor/ | noun | tiger | — | — |
-| **dir** | /dir/ | noun | deer | — | — |
-| **weil** | /weil/ | noun | whale | — | — |
-| **dolfin** | /dolfin/ | noun | dolphin | — | — |
-| **pengwin** | /pen.gwin/ | noun | penguin | — | — |
-| **igol** | /i.gol/ | noun | eagle | — | — |
-| **baflai** | /ba.flai/ | noun | butterfly | — | — |
-| **spaidar** | /spai.dar/ | noun | spider | — | — |
-| **moskito** | /mos.ki.to/ | noun | mosquito | — | — |
-| **sneil** | /sneil/ | noun | snail | — | — |
-| **kamal** | /ka.mal/ | noun | camel | — | — |
-| **kaigaru** | /kai.ga.ru/ | noun | kangaroo | — | — |
-| **koala** | /ko.a.la/ | noun | koala | — | — |
-| **panda** | /pan.da/ | noun | panda | — | — |
-| **otar** | /o.tar/ | noun | otter | — | — |
-| **monki** | /mon.ki/ | noun | monkey | — | — |
-| **gorila** | /go.ri.la/ | noun | gorilla | — | — |
-| **krokodail** | /kro.ko.dail/ | noun | crocodile | — | — |
-| **zebra** | /ze.bra/ | noun | zebra | — | — |
 | **wulu** | /wu.lu/ | noun | wolf | — | — |
 | **foki** | /fo.ki/ | noun | fox | — | — |
 | **raibia** | /rai.bia/ | noun | rabbit | — | — |
@@ -1489,7 +1437,7 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 | **krau** | /krau/ | noun | crow | — | — |
 | **jirau** | /ji.rau/ | noun | giraffe | — | — |
 | **goa** | /go.a/ | noun | goat | — | — |
-| **dai** | /dai/ | noun | duck | — | — |
+| **duk** | /duk/ | noun | duck | loan (was dai — homonym with "to die") | La duk swim in watre. |
 | **gui** | /gui/ | noun | goose | — | — |
 | **elefana** | /e.le.fa.na/ | noun | elephant | — | — |
 | **tatu** | /ta.tu/ | noun | turtle | — | — |
@@ -1499,27 +1447,15 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
-| **wor** | /wor/ | noun | war | — | — |
-| **drim** | /drim/ | noun | dream | — | — |
-| **aidia** | /ai.dia/ | noun | idea | — | — |
-| **prer** | /prer/ | noun | prayer | — | — |
-| **kultur** | /kul.tur/ | noun | culture | — | — |
-| **tradishon** | /tra.di.shon/ | noun | tradition | — | — |
-| **sistam** | /sis.tam/ | noun | system | — | — |
-| **ekonomi** | /e.ko.no.mi/ | noun | economy | — | — |
-| **moni** | /mo.ni/ | noun | money | — | — |
-| **valiu** | /va.liu/ | noun | value | — | — |
-| **lon** | /lon/ | noun | loan | — | — |
 | **justii** | /jus.tii/ | noun | justice | — | — |
 | **mini** | /mi.ni/ | noun | mind | — | — |
 | **saul** | /saul/ | noun | soul | — | — |
-| **lai** | /lai/ | noun | luck | — | — |
+| **luki** | /lu.ki/ | noun | luck | loan (was lai — homonym with "to lie down") | Yu hav gud luki. |
 | **habia** | /ha.bia/ | noun | habit | — | — |
 | **praii** | /prai.i/ | noun | price | — | — |
 | **profia** | /pro.fia/ | noun | profit | — | — |
 | **dea** | /dea/ | noun | debt | — | — |
 | **taki** | /ta.ki/ | noun | tax | — | — |
-| **bil** | /bil/ | noun | bill | — | — |
 | **akauna** | /a.ka.u.na/ | noun | account | — | — |
 | **bani** | /ba.ni/ | noun | bank | — | — |
 
@@ -1527,20 +1463,12 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
-| **dureshon** | /du.re.shon/ | noun | duration | — | — |
-| **delay** | /de.lai/ | noun | delay | — | — |
-| **mesaj** | /me.saj/ | noun | message | — | — |
-| **informashon** | /in.for.ma.shon/ | noun | information | — | — |
-| **medi** | /me.di/ | noun | media | — | — |
-| **ridshon** | /rid.shon/ | noun | region | — | — |
-| **bordar** | /bor.dar/ | noun | border | — | — |
 | **minua** | /mi.nua/ | noun | minute | — | — |
 | **momena** | /mo.me.na/ | noun | moment | — | — |
 | **perioi** | /pe.ri.oi/ | noun | period | — | — |
 | **lenga** | /len.ga/ | noun | length | — | — |
 | **wida** | /wi.da/ | noun | width | — | — |
 | **haia** | /ha.ia/ | noun | height | — | — |
-| **dep** | /dep/ | noun | depth | — | — |
 | **weia** | /we.ia/ | noun | weight | — | — |
 | **saii** | /sai.i/ | noun | size | — | — |
 | **spei** | /spe.i/ | noun | space | — | — |
@@ -1552,20 +1480,6 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
-| **hamar** | /ha.mar/ | noun | hammer | — | — |
-| **dril** | /dril/ | noun | drill | — | — |
-| **sizorz** | /si.zorz/ | noun | scissors | — | — |
-| **nidol** | /ni.dol/ | noun | needle | — | — |
-| **snow** | /snow/ | noun | snow | — | — |
-| **smile** | /smi.le/ | to smile | smile-a | smile-ed | smile-wil | La baby smile at mi. → The baby smiles at me. |
-| **storm** | /storm/ | noun | storm | — | — |
-| **vulkan** | /vul.kan/ | noun | volcano | — | — |
-| **raba** | /ra.ba/ | noun | rubber | — | — |
-| **wul** | /wul/ | noun | wool | — | — |
-| **koton** | /ko.ton/ | noun | cotton | — | — |
-| **klei** | /klei/ | noun | clay | — | — |
-| **shuga** | /shu.ga/ | noun | sugar | — | — |
-| **honi** | /ho.ni/ | noun | honey | — | — |
 | **naiu** | /na.iu/ | noun | knife | — | — |
 | **aii** | /ai.i/ | noun | ice | — | — |
 | **floi** | /floi/ | noun | flood | — | — |
@@ -1577,27 +1491,14 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 | **sani** | /sa.ni/ | noun | sand | — | — |
 | **mui** | /mui/ | noun | mud | — | — |
 | **sola** | /so.la/ | noun | salt | — | — |
-| **skru-draivar** | /skru.drai.var/ | noun | screwdriver | — | — |
 
 ### Body Parts, Technology, and Directions
 
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
-| **fingar** | /fin.gar/ | noun | finger | — | — |
-| **bon** | /bon/ | noun | bone | — | — |
-| **skin** | /skin/ | noun | skin | — | — |
 | **brein** | /brein/ | noun | brain | — | — |
 | **antisipashon** | /an.ti.si.pa.shon/ | noun | anticipation | — | — |
-| **fon** | /fon/ | noun | phone | — | — |
-| **mobil** | /mo.bil/ | noun | mobile | — | — |
-| **vidio** | /vi.dio/ | noun | video | — | — |
-| **kamera** | /ka.me.ra/ | noun | camera | — | — |
-| **foto** | /fo.to/ | noun | photo | — | — |
-| **bateri** | /ba.te.ri/ | noun | battery | — | — |
 | **charjar** | /char.jar/ | noun | charger | — | — |
-| **wair** | /wair/ | noun | wire | — | — |
-| **lamp** | /lamp/ | noun | lamp | — | — |
-| **switsh** | /switsh/ | noun | switch | — | — |
 | **ap** | /ap/ | noun | up | — | — |
 | **daun** | /daun/ | noun | down | — | — |
 | **inside** | /in.said/ | noun | inside | — | — |
