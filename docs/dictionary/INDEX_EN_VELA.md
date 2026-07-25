@@ -144,6 +144,7 @@
 | birthday | born-dei | /born.dei/ |
 | birthplace | born-ples | /born.ples/ |
 | bit (computing, binary) | bit | /bit/ |
+| bitter | bita | /bi.ta/ |
 | black | blak | /blak/ |
 | black hole | blak-hol | /blak.hol/ |
 | blanket | blanket | /blan.ket/ |
@@ -152,9 +153,11 @@
 | blood | blud | /blud/ |
 | blood relatives | blud-famili | /blud.fa.mi.li/ |
 | blue | blu | /blu/ |
+| blunt / dull | blanta | /blan.ta/ |
 | boat | boot | /but/ |
 | body | bodi | /bodi/ |
 | body modification | in-bodi | /in.bo.di/ |
+| boiling hot | fai-hot | /fai.hot/ |
 | bone | bon | /bon/ |
 | book | buk | /buk/ |
 | boot | but | /but/ |
@@ -272,6 +275,7 @@
 | clay | klei | /klei/ |
 | clean | clean | /klian/ |
 | clear | klar | /klar/ |
+| clear sky | klar-skai | /klar.skai/ |
 | clear-spoken / articulate | klar-tok | /klar.tok/ |
 | client | klient | /klient/ |
 | client | klienta | /kli.en.ta/ |
@@ -281,6 +285,7 @@
 | cloud | kloud | /klaud/ |
 | cloud | kraud | /kraud/ |
 | cloud storage | klauda-sava | /klau.da.sa.va/ |
+| cloudy | kloud-ful | /kloud.ful/ |
 | coal | blak-ston | /blak.ston/ |
 | coat | koa | /koa/ |
 | coat | kot | /kot/ |
@@ -289,6 +294,8 @@
 | coin | metal-moni | /me.tal.mo.ni/ |
 | cold | kol | /kol/ |
 | cold | kold | /kold/ |
+| cold day | kold-dei | /kold.dei/ |
+| cold light | kold-lait | /kold.lait/ |
 | collage | kolaja | /ko.la.ja/ |
 | collar | kolar | /ko.lar/ |
 | column | kolum | /ko.lum/ |
@@ -325,6 +332,7 @@
 | contract | kontrakta | /kon.trak.ta/ |
 | conversation | kom-tok | /kom.tok/ |
 | conversation time | tok-taim | /tok.taim/ |
+| cool | kul | /kul/ |
 | copper | kopa | /ko.pa/ |
 | corn | korn | /korn/ |
 | corner | korner | /kor.ner/ |
@@ -396,6 +404,7 @@
 | dictionary | wod-buk | /wod.buk/ |
 | different | difren | /di.fren/ |
 | difficulty | difikulti | /difikulti/ |
+| dim | lo-lait | /lo.lait/ |
 | dinner | dina | /di.na/ |
 | diplomat | diplomata | /di.plo.ma.ta/ |
 | director | film-rul-po | /film.rul.po/ |
@@ -421,6 +430,7 @@
 | driver | draiva-po | /drai.va.po/ |
 | driver | kar-po | /kar.po/ |
 | drum | drum | /drum/ |
+| dry season | drai-taim | /drai.taim/ |
 | dryer | draiar | /drai.ar/ |
 | duck | dak | /dak/ |
 | duck | duk | /duk/ |
@@ -436,6 +446,7 @@
 | earthquake | ert-kweik | /er.kweik/ |
 | east | isa | /i.sa/ |
 | easy | eas | /iz/ |
+| echo | bak-sonj | /bak.sonj/ |
 | eclipse | son-bloka | /son.blo.ka/ |
 | economy | ekonomi | /e.ko.no.mi/ |
 | ecosystem | eko-sistam | /e.ko.sis.tam/ |
@@ -536,9 +547,11 @@
 | fox | foki | /fo.ki/ |
 | fox | foks | /foks/ |
 | fracture | fraktur | /fraktur/ |
+| fragrant | gud-smel | /gud.smel/ |
 | free / free | fri | /frai/ |
 | free will | fri-chuza | /fri.chu.za/ |
 | freedom | fridom | /fri.dom/ |
+| freezing | ais-kold | /ais.kold/ |
 | Friday | Fraidei | /frai.dei/ |
 | fridge | kol-boksi | /kol.bok.si/ |
 | friend | fren | /fren/ |
@@ -653,6 +666,7 @@
 | hello | helo | /he.lo/ |
 | helper / assistant | help-po | /help.po/ |
 | helper / support | help-hand | /help.hand/ |
+| high pitch | hai-sonj | /hai.sonj/ |
 | high voice / treble | hai-vois | /hai.vois/ |
 | highway | big-rod | /big.rod/ |
 | hill | hil | /hil/ |
@@ -672,6 +686,7 @@
 | horse | hors | /hors/ |
 | hospital | sik-hous | /sik.haus/ |
 | hot | hot | /hot/ |
+| hot day | hot-dei | /hot.dei/ |
 | hotel | hotel | /hotel/ |
 | hour | nour | /nauur/ |
 | hour | our | /our/ |
@@ -812,10 +827,12 @@
 | love (bond) | luva-nes | /lu.va.nes/ |
 | lover | luva-po | /lu.va.po/ |
 | low | lo | /lo/ |
+| low pitch | lo-sonj | /lo.sonj/ |
 | low voice / bass | lo-vois | /lo.vois/ |
 | luck | lak | /lak/ |
 | luck | luki | /lu.ki/ |
 | luggage | lugaja | /lu.ga.ja/ |
+| lukewarm | hafa-warm | /ha.fa.warm/ |
 | lung | lunga | /lun.ga/ |
 | machine | masin | /masin/ |
 | machine learning | masin-lern | /ma.sin.lern/ |
@@ -960,6 +977,7 @@
 | nurse | sik-help-po | /sik.help.po/ |
 | oak (tree) | oka | /o.ka/ |
 | October | Oktober | /oktobr/ |
+| odorless | no-smel | /no.smel/ |
 | of | of | /of/ |
 | office | ofis | /ofis/ |
 | often | ofen | /ofen/ |
@@ -1113,6 +1131,7 @@
 | psychology | sikoloji | /si.ko.lo.ji/ |
 | public | public | /publik/ |
 | pulse / heartbeat | hert-bit | /hert.bit/ |
+| pungent | strong-smel | /strong.smel/ |
 | punishment | bad-giv | /bad.giv/ |
 | puppy | smol-dog | /smol.dog/ |
 | purple | purpel | /purpel/ |
@@ -1130,6 +1149,8 @@
 | radio | radia | /radia/ |
 | rain | rein | /rein/ |
 | rainbow | rein-arka | /rein.ar.ka/ |
+| rainy | rein-dei | /rein.dei/ |
+| rainy season | wet-taim | /wet.taim/ |
 | RAM | woka-mem | /wo.ka.mem/ |
 | rare | rar | /rar/ |
 | rare | rer | /rer/ |
@@ -1205,6 +1226,7 @@
 | salt | salt | /solt/ |
 | salt | sola | /so.la/ |
 | salt | solt | /solt/ |
+| salty | salti | /sal.ti/ |
 | same | sem | /sem/ |
 | sand | sand | /sand/ |
 | sand | sani | /sa.ni/ |
@@ -1255,10 +1277,12 @@
 | shark | shari | /sha.ri/ |
 | shark | shark | /shark/ |
 | shark | sharka | /shar.ka/ |
+| sharp | sharpa | /shar.pa/ |
 | sheep | shep | /sep/ |
 | sheet | shit | /shit/ |
 | shelf | shelfa | /shel.fa/ |
 | shell | shel | /shel/ |
+| shiny | shaini | /shai.ni/ |
 | ship | ship | /sip/ |
 | shirt | shart | /shart/ |
 | shoe | shu | /shu/ |
@@ -1296,6 +1320,7 @@
 | sleepy | slepi | /slepi/ |
 | sleeve | arm-kover | /arm.ko.ver/ |
 | sleeve | sliv | /sliv/ |
+| slippery | slipari | /sli.pa.ri/ |
 | slow | slo | /slo/ |
 | slow | sloli | /sloli/ |
 | slow-witted | slo-maind | /slo.maind/ |
@@ -1308,6 +1333,7 @@
 | snake | snak | /snak/ |
 | snake | sneka | /sne.ka/ |
 | sneeze | snizi | /sni.zi/ |
+| snowy | snow-dei | /snow.dei/ |
 | so / therefore | so | /so/ |
 | soap | sop | /sop/ |
 | soap | sopi | /so.pi/ |
@@ -1318,6 +1344,7 @@
 | sofa | sof | /sof/ |
 | sofa / couch | long-ceir | /long.seir/ |
 | soft | soft | /soft/ |
+| soft glow | soft-lait | /soft.lait/ |
 | software | softwer | /softwer/ |
 | software bug | buga | /bu.ga/ |
 | solar system | son-sistam | /son.sis.tam/ |
@@ -1331,6 +1358,7 @@
 | soul | saul | /saul/ |
 | soul | soul | /soul/ |
 | soup | sup | /sup/ |
+| sour | soura | /sou.ra/ |
 | south | saua | /sau.a/ |
 | space | spei | /spe.i/ |
 | space | spes | /spes/ |
@@ -1344,6 +1372,7 @@
 | speech | spicha | /spi.cha/ |
 | speed | spida | /spi.da/ |
 | spice | spice | /spais/ |
+| spicy / hot (taste) | spaisi | /spai.si/ |
 | spider | spaida | /spai.da/ |
 | spider | spaidar | /spai.dar/ |
 | spirit | spirit | /spi.rit/ |
@@ -1361,6 +1390,8 @@
 | steam | stim | /stim/ |
 | stem / stalk | plant-bodi | /plant.bo.di/ |
 | step | stap | /stap/ |
+| sticky | stiki | /sti.ki/ |
+| stinky / smelly | bad-smel | /bad.smel/ |
 | stomach | stomok | /stomok/ |
 | stomachache | stomok-pain | /sto.mok.pein/ |
 | stone | ston | /ston/ |
@@ -1393,6 +1424,7 @@
 | sum / total | sum | /sum/ |
 | summer | samr | /samr/ |
 | Sunday | Sandei | /san.dei/ |
+| sunny | son-dei | /son.dei/ |
 | sunrise / dawn | son-rais | /son.rais/ |
 | sunset / dusk | son-daun | /son.daun/ |
 | sunshine | son-lait | /son.lait/ |
@@ -1402,6 +1434,7 @@
 | surname / family name | famili-neim | /fa.mi.li.neim/ |
 | surprised | surprisd | /surprisd/ |
 | swamp | wet-lond | /wet.lond/ |
+| sweet | swita | /swi.ta/ |
 | swelling | swela | /swe.la/ |
 | switch | swic | /switc/ |
 | switch | switsh | /switsh/ |
@@ -1415,6 +1448,7 @@
 | tail | tela | /te.la/ |
 | talkative / fast-talking | fast-tok | /fast.tok/ |
 | tall | tall | /tol/ |
+| tasteless | no-teista | /no.tei.sta/ |
 | tax | taki | /ta.ki/ |
 | tax | taks | /taks/ |
 | tax | tax | /taks/ |
@@ -1541,6 +1575,7 @@
 | to forget | forget | /forget/ |
 | to freeze | friza | /fri.za/ |
 | to give | giv | /giv/ |
+| to glow / glow | glo | /glo/ |
 | to go | go | /go/ |
 | to grow | grot | /grot/ |
 | to guess | gesa | /ge.sa/ |
@@ -1654,6 +1689,7 @@
 | to swim | swim | /swim/ |
 | to take | tek | /tek/ |
 | to taste | tas | /tas/ |
+| to taste / flavor | teista | /tei.sta/ |
 | to teach | teach | /tiatc/ |
 | to tell | tal | /tal/ |
 | to think | tink | /tink/ |
@@ -1774,6 +1810,7 @@
 | war | war | /war/ |
 | war | wor | /wor/ |
 | warm | warm | /warm/ |
+| warm light | warm-lait | /warm.lait/ |
 | washing machine | wosh-masin | /wosh.ma.sin/ |
 | watch | wotch | /wotch/ |
 | water | watre | /watre/ |
@@ -1818,6 +1855,7 @@
 | will | wil | /wil/ |
 | wind | wind | /wind/ |
 | window | windo | /windo/ |
+| windy | wind-dei | /wind.dei/ |
 | wine | win | /win/ |
 | wing | flai-arm | /flai.arm/ |
 | winter | winter | /winter/ |
