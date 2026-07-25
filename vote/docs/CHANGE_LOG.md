@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 8: Communication & Language (+37)
+
+Committee-reviewed + verified (semanticist: strongest batch yet, 60% compounds). Dropped dups (rida/rita/anser/sei/tel/mining to base rid/rit/ansr/sey/tal/min). Backfilled klar (clear). Fixed homonymy: lai-wod to fols-wod (lai means recline; used false-word for lie). stor-tel-po to stor-tal-po. Kept vois + lo-vois (verified vois new, lo exists, against stale claims). Gold series: wod- (dictionary/translate/describe/sentence/vocabulary) and vois- (soft/big/hai/lo). Antonyms tru-wod/fols-wod, no-tok. Dictionary 1628 to 1665, 0 duplicates, validator 0 errors. Progress: 1665 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 7: Math, Quantity, Shape & Measure (+39)
 
 Committee-reviewed + verified. Dropped dups (long-nes/wei-nes/leita to existing lenga/weit/let; big-nes redundant with saiza). Kept raunda-lain (lain verified to exist, against a recurring stale morphologist claim). empti to no-ful (fits the no- antonym series: brave/rude/despair/empty). Math operators (ada, minus, multipli) and units (meter, kilo, liter, degri) are justified international loans; transparent shapes tri-korner=triangle, for-korner=square, and -nes measures far-nes=distance, hot-nes, ful-nes. Dictionary 1589 to 1628, 0 duplicates, validator 0 errors. Progress: 1628 / 3000.

@@ -47,6 +47,7 @@
 | algorithm | algoritmo | /a.lo.rit.mo/ |
 | all | ol | /ol/ |
 | allergy | alerji | /alerji/ |
+| alphabet | alfabeta | /al.fa.be.ta/ |
 | although | tuo | /tuo/ |
 | always | oldei | /oldei/ |
 | ambulance | sik-fast-kar | /sik.fast.kar/ |
@@ -80,6 +81,7 @@
 | atom | atom | /a.tom/ |
 | August | Agost | /agost/ |
 | aunt | aunt | /ant/ |
+| author / publisher | buk-mak-po | /buk.mak.po/ |
 | baby | baby | /beibi/ |
 | back | bak | /bak/ |
 | backpack | bakpai | /bakpai/ |
@@ -242,6 +244,8 @@
 | classify | klasifai | /kla.si.fai/ |
 | clay | klei | /klei/ |
 | clean | clean | /klian/ |
+| clear | klar | /klar/ |
+| clear-spoken / articulate | klar-tok | /klar.tok/ |
 | client | klient | /klient/ |
 | client | klienta | /kli.en.ta/ |
 | climate | climat | /klimait/ |
@@ -291,6 +295,7 @@
 | contract | kontract | /kontract/ |
 | contract | kontrakta | /kon.trak.ta/ |
 | conversation | kom-tok | /kom.tok/ |
+| conversation time | tok-taim | /tok.taim/ |
 | copper | kopa | /ko.pa/ |
 | corn | korn | /korn/ |
 | corner | korner | /kor.ner/ |
@@ -351,6 +356,7 @@
 | dew | moring-watre | /mo.ring.wa.tre/ |
 | diagnosis / diagnose | diagnoze | /di.ag.no.ze/ |
 | dictionary | diksbri | /diksbri/ |
+| dictionary | wod-buk | /wod.buk/ |
 | difficulty | difikulti | /difikulti/ |
 | dinner | dina | /di.na/ |
 | diplomat | diplomata | /di.plo.ma.ta/ |
@@ -575,6 +581,7 @@
 | height | hait | /hait/ |
 | hello | helo | /he.lo/ |
 | helper / assistant | help-po | /help.po/ |
+| high voice / treble | hai-vois | /hai.vois/ |
 | hill | hil | /hil/ |
 | hip | hipa | /hi.pa/ |
 | hippopotamus | haipo | /hai.po/ |
@@ -689,6 +696,7 @@
 | less | les | /les/ |
 | letter | leter | /leter/ |
 | lid | poti-kover | /po.ti.ko.ver/ |
+| lie (statement) | fols-wod | /fols.wod/ |
 | light (weight) | lait | /lait/ |
 | lightning | fai-flasha | /fai.fla.sha/ |
 | lightning | letning | /letning/ |
@@ -714,6 +722,7 @@
 | loud | louud | /loud/ |
 | love | luva | /lu.va/ |
 | low | lo | /lo/ |
+| low voice / bass | lo-vois | /lo.vois/ |
 | luck | lak | /lak/ |
 | luck | luki | /lu.ki/ |
 | lung | lunga | /lun.ga/ |
@@ -801,6 +810,7 @@
 | my / of me | mi-se | /mi.se/ |
 | nail | nail | /neil/ |
 | nail | naila | /nai.la/ |
+| name | neim | /neim/ |
 | narrator | narator | /na.ra.tor/ |
 | narrow | naro | /na.ro/ |
 | nation | naishon | /naishon/ |
@@ -825,10 +835,12 @@
 | new | new | /nu/ |
 | news | niaz | /niaz/ |
 | news | nius | /nius/ |
+| newspaper | news-paper | /nuz.pe.per/ |
 | newspaper | newspaper | /nuspeiper/ |
 | nice / beautiful | nais | /nais/ |
 | night | noit | /noit/ |
 | no | no | /no/ |
+| noise | nois | /nois/ |
 | non-fiction | non-fikshon | /non.fik.shon/ |
 | noon | noon | /nun/ |
 | normal | normal | /normal/ |
@@ -869,6 +881,7 @@
 | owl | auk | /auk/ |
 | owl | aul | /aul/ |
 | package | paket | /paket/ |
+| page | peija | /pei.ja/ |
 | pain | pain | /pein/ |
 | palm (of hand) | palma | /pal.ma/ |
 | pan | pani | /pa.ni/ |
@@ -985,6 +998,7 @@
 | quarter | kwarta | /kwar.ta/ |
 | queen | kwain | /kwain/ |
 | query | data-aska | /da.ta.as.ka/ |
+| question | ask-wod | /ask.wod/ |
 | quick | kwikli | /kwikli/ |
 | quiet | kwaiat | /kwaiat/ |
 | rabbit | rabit | /ra.bit/ |
@@ -999,6 +1013,7 @@
 | rash | skin-red | /skin.red/ |
 | rat | raa | /ra.a/ |
 | rat | rat | /rat/ |
+| reader | rid-po | /rid.po/ |
 | ready | redi | /re.di/ |
 | reality | realiti | /re.a.li.ti/ |
 | reason | reason | /rizon/ |
@@ -1012,6 +1027,7 @@
 | relief / freedom-feeling | fri-fel | /fri.fel/ |
 | religion | god-wei | /god.wei/ |
 | religion | relijon | /re.li.jon/ |
+| report | riporta | /ri.por.ta/ |
 | repository | repositori | /re.po.si.to.ri/ |
 | respect | respekt | /respekt/ |
 | responsibility | respons | /respons/ |
@@ -1089,6 +1105,7 @@
 | self-supervised learning | auto-lern | /au.to.lern/ |
 | selfish / self-love | self-luva | /self.lu.va/ |
 | seller | sel-po | /sel.po/ |
+| sentence | wod-lain | /wod.lain/ |
 | September | September | /septembr/ |
 | serene | kwaiat-hert | /kwai.at.hert/ |
 | serenity | kwaiat-hapi | /kwai.at.ha.pi/ |
@@ -1110,10 +1127,14 @@
 | short | short | /sot/ |
 | should | shod | /sod/ |
 | shoulder | sholda | /shol.da/ |
+| shout (loud voice) | big-vois | /big.vois/ |
 | shy | shy | /sai/ |
 | sick | sik | /sik/ |
 | sickness / disease | siknes | /siknes/ |
 | sign | sain | /sain/ |
+| sign language | sain-tok | /sain.tok/ |
+| silence | kwaiat-nes | /kwai.at.nes/ |
+| silent / mute | no-tok | /no.tok/ |
 | silk | sili | /si.li/ |
 | silk | silk | /silk/ |
 | silver | silv | /silv/ |
@@ -1172,8 +1193,11 @@
 | spark | sparka | /spar.ka/ |
 | sparrow | sparou | /spa.rou/ |
 | speaker | speaker | /spiker/ |
+| speaker | tok-po | /tok.po/ |
+| speaker/interlocutor | kom-tok-po | /kom.tok.po/ |
 | special | speshal | /speshal/ |
 | species | lifa-tipa | /li.fa.ti.pa/ |
+| speech | spicha | /spi.cha/ |
 | speed | spida | /spi.da/ |
 | spice | spice | /spais/ |
 | spider | spaidar | /spai.dar/ |
@@ -1193,6 +1217,7 @@
 | storm | big-wind | /big.wind/ |
 | storm | storm | /storm/ |
 | story | stor | /stor/ |
+| storyteller | stor-tal-po | /stor.tal.po/ |
 | stove | kuk-fai | /kuk.fai/ |
 | straight | streta | /stre.ta/ |
 | strawberry | strobri | /strobri/ |
@@ -1233,6 +1258,7 @@
 | system | sistem | /sistem/ |
 | table | tebul | /tebul/ |
 | tablet | tablet | /ta.blet/ |
+| talkative / fast-talking | fast-tok | /fast.tok/ |
 | tall | tall | /tol/ |
 | tax | taki | /ta.ki/ |
 | tax | taks | /taks/ |
@@ -1276,6 +1302,7 @@
 | time | taim | /taim/ |
 | tired | tired | /taird/ |
 | tired (short) | tri | /tri/ |
+| title | taitel | /tai.tel/ |
 | to / at | a | /a/ |
 | to add | ada | /a.da/ |
 | to answer | ansr | /ansr/ |
@@ -1299,6 +1326,7 @@
 | to burn | berna | /ber.na/ |
 | to buy | bai | /bai/ |
 | to calculate | kalkula | /kal.ku.la/ |
+| to call | kal | /kal/ |
 | to carry | kari | /ka.ri/ |
 | to catch | katch | /katch/ |
 | to check | chek | /tcek/ |
@@ -1319,6 +1347,7 @@
 | to decide | desid | /desid/ |
 | to decide | disaid | /disaid/ |
 | to defend | defenda | /de.fen.da/ |
+| to describe | wod-piktur | /wod.pik.tur/ |
 | to die | dai | /dai/ |
 | to die | die | /dai/ |
 | to dig | diga | /di.ga/ |
@@ -1339,6 +1368,7 @@
 | to enter | entar | /entar/ |
 | to exit | eksit | /eksit/ |
 | to explain | explen | /eksplen/ |
+| to explain | klar-mak | /klar.mak/ |
 | to feed | fida | /fi.da/ |
 | to feel | fel | /fel/ |
 | to finish | fini | /fini/ |
@@ -1407,6 +1437,7 @@
 | to prefer | prefer | /prefer/ |
 | to prepare | pripar | /pripar/ |
 | to press | presa | /pre.sa/ |
+| to print | printa | /prin.ta/ |
 | to protect | proteka | /pro.te.ka/ |
 | to pull | pul | /pul/ |
 | to punish | punisha | /pu.ni.sha/ |
@@ -1444,6 +1475,7 @@
 | to smell | smel | /smel/ |
 | to smile | smile | /smi.le/ |
 | to snow | snow | /sno/ |
+| to speak | spika | /spi.ka/ |
 | to speak | tok | /tok/ |
 | to squeeze | skwiza | /skwi.za/ |
 | to stand | stand | /stand/ |
@@ -1464,6 +1496,7 @@
 | to throw | trou | /trou/ |
 | to touch | tucha | /tu.cha/ |
 | to trade | trid | /trad/ |
+| to translate | wod-chanja | /wod.chan.ja/ |
 | to travel | rul | /rul/ |
 | to trust | trasta | /tras.ta/ |
 | to try | trai | /trai/ |
@@ -1510,6 +1543,7 @@
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
+| truth (spoken) | tru-wod | /tru.wod/ |
 | Tuesday | Tiuzdei | /tius.dei/ |
 | tunnel | tunnel | /tunnel/ |
 | turtle | tartel | /tar.tl/ |
@@ -1548,6 +1582,8 @@
 | visual effects | vizal-efekta | /vi.zal.e.fek.ta/ |
 | vitamin | bitamin | /bitamin/ |
 | vocabulary | vokabulari | /vokabulari/ |
+| vocabulary | wod-lista | /wod.lis.ta/ |
+| voice | vois | /vois/ |
 | volcano | fai-mautin | /fai.mau.tin/ |
 | volcano | vulkan | /vul.kan/ |
 | vote | vote | /vot/ |
@@ -1584,6 +1620,7 @@
 | when | wen | /wen/ |
 | where | wer | /wer/ |
 | which | wot | /wot/ |
+| whisper (soft voice) | soft-vois | /soft.vois/ |
 | who | hu | /hu/ |
 | whole / complete | komplita | /kom.pli.ta/ |
 | why | wai | /wai/ |
