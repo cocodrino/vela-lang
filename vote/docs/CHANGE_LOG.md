@@ -1,5 +1,17 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 2: Home & Daily Life (+48)
+
+Same author-generates/committee-reviews pipeline. Improved prompts from batch-1 lessons: told the morphologist to verify every "X exists" claim, told the semanticist to use real/legal roots. All 3 specialists reviewed.
+
+- **Synthesis with verification** — confirmed `wash→wosh`, `kold→kol` (cleaner cold root), and dropped `keki`/`chizi` (existing `keik`/`ces`). Applied `string→stringa`, `metal-string→metal-stringa` (both specialists: /ŋ/ is not in the legal coda set {n,m,l,r,s}). Rejected the phonologist's "ropi is a duplicate" (verified: `ropi` does not exist — kept). Kept clean loans the majority approved over the semanticist's compound suggestions (a candle can stay `kandel`).
+- Highlights: transparent compounds `kol-boksi`=fridge, `si-glasi`=mirror, `slip-kover`=blanket, `frute-watre`=juice, `arm-kover`=sleeve.
+- Result: 48 words added. **Dictionary 1396 → 1444 entries, 0 duplicates, validator 0 errors.**
+
+Progress: **1444 / 3000**. (Systemic questions flagged for later: is /tʃ/ "ch" in the inventory? `kol`/`kold`, `lon`/`long`, `frukt`/`frute` near-duplicates.)
+
+
+
 ## 2026-07-25 — Expansion Batch 1: Nature & Environment (+51)
 
 First vocabulary-expansion batch under the "author generates, committee reviews" model. Claude authored ~54 words → validator pre-filter → 3 Pi specialists reviewed (each read the repo first): semanticist (transparency), phonologist+aestheticist (sound/beauty), morphologist+lexicographer (structure/consistency).
