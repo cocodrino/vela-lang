@@ -38,12 +38,14 @@
 | after | aft | /aft/ |
 | afternoon | aftnaun | /aftnaun/ |
 | again | agen | /agen/ |
+| ago | ago | /a.go/ |
 | AI model | lerna-modla | /ler.na.mod.la/ |
 | air conditioner | kondishonár | /kon.di.sho.nar/ |
 | air force | afyr | /afyr/ |
 | airplane | aereplan | /aereplan/ |
 | airport | flai-ground | /flai.graund/ |
 | algorithm | algoritmo | /a.lo.rit.mo/ |
+| all | ol | /ol/ |
 | allergy | alerji | /alerji/ |
 | although | tuo | /tuo/ |
 | always | oldei | /oldei/ |
@@ -203,6 +205,7 @@
 | cell | selu | /se.lu/ |
 | cement | simana | /si.ma.na/ |
 | cement | simant | /si.mant/ |
+| center | senta | /sen.ta/ |
 | century | centuri | /senturi/ |
 | ceramic | seramik | /se.ra.mik/ |
 | chair | ceir | /seir/ |
@@ -232,6 +235,7 @@
 | chord | korda | /kor.da/ |
 | chronic | kron-sika | /kron.si.ka/ |
 | church | god-hous | /god.haus/ |
+| circle | raunda-lain | /raun.da.lain/ |
 | citizen | sitizen | /sitizn/ |
 | city | siti | /siti/ |
 | city (modern) | sityu | /situ/ |
@@ -289,6 +293,7 @@
 | conversation | kom-tok | /kom.tok/ |
 | copper | kopa | /ko.pa/ |
 | corn | korn | /korn/ |
+| corner | korner | /kor.ner/ |
 | corporation | big-biznes | /big.biz.nes/ |
 | corruption | korpshon | /kor.pshon/ |
 | cost | kosl | /kost/ |
@@ -317,6 +322,7 @@
 | curious | kurius | /ku.ri.us/ |
 | curtain | kartin | /kar.tin/ |
 | curtain | kurtena | /kur.te.na/ |
+| curve | kurva | /kur.va/ |
 | custom | kastom | /kas.tom/ |
 | customer | kastomer | /kastomer/ |
 | dangerous | dangerus | /dainjerus/ |
@@ -331,6 +337,7 @@
 | December | Desember | /decembr/ |
 | deep | deep | /dip/ |
 | deer | dir | /dir/ |
+| degree | degri | /de.gri/ |
 | delay | delay | /de.lai/ |
 | democracy | demokrasi | /de.mo.kra.si/ |
 | deploy | deploy | /de.ploi/ |
@@ -351,6 +358,7 @@
 | dirty | diti | /diti/ |
 | discovery | diskover | /diskover/ |
 | dishwasher | dishwoshar | /dish.wo.shar/ |
+| distance | far-nes | /far.nes/ |
 | dizzy | dizi | /di.zi/ |
 | DNA | DNA | /de.en.a/ |
 | doctor | dokter | /doktor/ |
@@ -371,6 +379,7 @@
 | duck | dak | /dak/ |
 | duck | duk | /duk/ |
 | duration | dureshon | /du.re.shon/ |
+| during | duro | /du.ro/ |
 | duty | duti | /du.ti/ |
 | eagle | igel | /i.gl/ |
 | eagle | igol | /i.gol/ |
@@ -384,6 +393,7 @@
 | eclipse | son-bloka | /son.blo.ka/ |
 | economy | ekonomi | /e.ko.no.mi/ |
 | ecosystem | eko-sistam | /e.ko.sis.tam/ |
+| edge | edja | /e.dja/ |
 | editor | editar | /e.di.tar/ |
 | effect | efect | /efect/ |
 | egg | egi | /e.gi/ |
@@ -397,6 +407,7 @@
 | elephant | elefant | /e.le.fant/ |
 | embassy | amnbasy | /ambasy/ |
 | empathy | empatia | /em.pa.tia/ |
+| empty | no-ful | /no.ful/ |
 | encrypt / encryption | kripta | /krip.ta/ |
 | enemy | no-fren | /no.fren/ |
 | energy | enrji | /en.rji/ |
@@ -404,6 +415,7 @@
 | engineer | masin-fix-po | /ma.sin.fik.po/ |
 | environment | natur | /na.tur/ |
 | envy | envi | /en.vi/ |
+| equal | ekwal | /e.kwal/ |
 | equality | ikualiti | /i.kua.li.ti/ |
 | ethics | rait-rong-lern | /rait.rong.lern/ |
 | euphoria | topa-hapi | /to.pa.ha.pi/ |
@@ -434,6 +446,7 @@
 | father | fater | /fater/ |
 | February | Februari | /februa.ri/ |
 | fever | hot-sik | /hot.sik/ |
+| few | fyu | /fyu/ |
 | fiction | fikshon | /fik.shon/ |
 | fighter / warrior | fajt-po | /fait.po/ |
 | film / movie | film | /film/ |
@@ -456,6 +469,7 @@
 | force | forsa | /for.sa/ |
 | forest | fores | /fores/ |
 | forest | tre-lond | /tre.lond/ |
+| forever | foreva | /fo.re.va/ |
 | fork | forki | /for.ki/ |
 | formula | formul | /formul/ |
 | fox | foki | /fo.ki/ |
@@ -474,6 +488,8 @@
 | fruit | frukt | /frunkt/ |
 | fruit (atom form) | frute | /fru.te/ |
 | frustration | bloka-angri | /blo.ka.an.gri/ |
+| full | ful | /ful/ |
+| fullness | ful-nes | /ful.nes/ |
 | function | funkshon | /funk.shon/ |
 | galaxy | galaksi | /ga.lak.si/ |
 | gallery | arta-hous | /ar.ta.haus/ |
@@ -530,6 +546,7 @@
 | habit | habit | /ha.bit/ |
 | hail | ais-rein | /ais.rein/ |
 | hair | hair | /her/ |
+| half | hafa | /ha.fa/ |
 | hammer | hamar | /ha.mar/ |
 | hammer | hamer | /ha.mer/ |
 | hammer | hammer | /hammer/ |
@@ -640,6 +657,7 @@
 | key | key | /ki/ |
 | keyboard | kibod | /ki.bod/ |
 | kidney | kidni | /kidni/ |
+| kilogram | kilo | /ki.lo/ |
 | kind | warm-hert | /warm.hert/ |
 | king | king | /king/ |
 | kitchen | kitcen | /kitcen/ |
@@ -680,6 +698,7 @@
 | lion | laigon | /lai.gon/ |
 | lion | laion | /lai.on/ |
 | lip | lipa | /li.pa/ |
+| liter | liter | /li.ter/ |
 | liver | liver | /liver/ |
 | living room | livrum | /livrum/ |
 | lizard | lizard | /li.zard/ |
@@ -730,6 +749,7 @@
 | message | mesij | /mesij/ |
 | metal | metal | /me.tal/ |
 | metaphor | metafor | /me.ta.for/ |
+| meter | meter | /me.ter/ |
 | microbe | mikruba | /mik.ru.ba/ |
 | microservice | mikro-servis | /mi.kro.ser.vis/ |
 | microwave | maikrowev | /mai.kro.wev/ |
@@ -876,6 +896,7 @@
 | people / population | popul | /popiul/ |
 | pepper | peper | /pe.per/ |
 | pepper | pepper | /peper/ |
+| percent | persenta | /per.sen.ta/ |
 | period | period | /pe.ri.od/ |
 | period | perioi | /pe.ri.oi/ |
 | periodic table | period-tebla | /pe.ri.od.te.bla/ |
@@ -889,6 +910,7 @@
 | physics | fiziks | /fiziks/ |
 | piano | piano | /pi.a.no/ |
 | picture | piktur | /piktur/ |
+| piece | pisa | /pi.sa/ |
 | pig | pig | /pig/ |
 | pilgrimage | pilgrimeja | /pil.gri.me.ja/ |
 | pill | pili | /pi.li/ |
@@ -906,11 +928,13 @@
 | please | plise | /pli.se/ |
 | plot | plota | /plo.ta/ |
 | plug | plug | /plug/ |
+| plus | plus | /plus/ |
 | pocket | pokea | /pokea/ |
 | pocket | poket | /po.ket/ |
 | pocket | poketa | /po.ke.ta/ |
 | poem | poem | /po.em/ |
 | poetry | poetri | /po.et.ri/ |
+| point / dot | punta | /pun.ta/ |
 | police car | polis-kar | /polis.kar/ |
 | police officer | law-keep-po | /lo.kip.po/ |
 | polite | polaita | /po.lai.ta/ |
@@ -958,6 +982,7 @@
 | punishment | bad-giv | /bad.giv/ |
 | purple | purpel | /purpel/ |
 | quantum | kwantuma | /kwan.tu.ma/ |
+| quarter | kwarta | /kwar.ta/ |
 | queen | kwain | /kwain/ |
 | query | data-aska | /da.ta.as.ka/ |
 | quick | kwikli | /kwikli/ |
@@ -1015,6 +1040,7 @@
 | rope | rope | /rop/ |
 | rope | ropi | /ro.pi/ |
 | rough | ruf | /ruf/ |
+| round | raunda | /raun.da/ |
 | rubber | raba | /ra.ba/ |
 | rude | no-nais | /no.nais/ |
 | rug | rug | /rug/ |
@@ -1098,6 +1124,7 @@
 | sister | sisr | /sistr/ |
 | size | saii | /sai.i/ |
 | size | sais | /sais/ |
+| size | saiza | /sai.za/ |
 | skin | skin | /skin/ |
 | skirt | skara | /skara/ |
 | skirt | skart | /skart/ |
@@ -1154,6 +1181,7 @@
 | spiritual | spiritu | /spi.ri.tu/ |
 | spoon | sponn | /spon/ |
 | spring | spring | /spring/ |
+| square | for-korner | /for.kor.ner/ |
 | squirrel | skwiral | /skwi.ral/ |
 | stairs | stair | /stair/ |
 | star | star | /star/ |
@@ -1166,6 +1194,7 @@
 | storm | storm | /storm/ |
 | story | stor | /stor/ |
 | stove | kuk-fai | /kuk.fai/ |
+| straight | streta | /stre.ta/ |
 | strawberry | strobri | /strobri/ |
 | stream | smol-river | /smol.ri.ver/ |
 | stream | strim | /strim/ |
@@ -1183,6 +1212,7 @@
 | suit | sut | /sut/ |
 | suitcase | sutkei | /sutkei/ |
 | suitcase | sutkes | /sut.kes/ |
+| sum / total | sum | /sum/ |
 | summer | samr | /samr/ |
 | Sunday | Sandei | /san.dei/ |
 | sunrise / dawn | son-rais | /son.rais/ |
@@ -1215,6 +1245,7 @@
 | telescope | far-si-tool | /far.si.tul/ |
 | television | far-si | /far.si/ |
 | temperature | temperaturu | /tem.pe.ra.tu.ru/ |
+| temperature / heat | hot-nes | /hot.nes/ |
 | temple | holi-hous | /ho.li.haus/ |
 | tempo | tempa | /tem.pa/ |
 | that | dat | /dat/ |
@@ -1246,6 +1277,7 @@
 | tired | tired | /taird/ |
 | tired (short) | tri | /tri/ |
 | to / at | a | /a/ |
+| to add | ada | /a.da/ |
 | to answer | ansr | /ansr/ |
 | to arrive | ariv | /ariv/ |
 | to ask | ask | /ask/ |
@@ -1266,6 +1298,7 @@
 | to build | maki | /ma.ki/ |
 | to burn | berna | /ber.na/ |
 | to buy | bai | /bai/ |
+| to calculate | kalkula | /kal.ku.la/ |
 | to carry | kari | /ka.ri/ |
 | to catch | katch | /katch/ |
 | to check | chek | /tcek/ |
@@ -1290,7 +1323,9 @@
 | to die | die | /dai/ |
 | to dig | diga | /di.ga/ |
 | to dislike | dislik | /dislik/ |
+| to divide | part-mak | /part.mak/ |
 | to do | don | /don/ |
+| to double | dobla | /do.bla/ |
 | to doubt | douta | /dau.ta/ |
 | to drag | draga | /dra.ga/ |
 | to draw | rava | /ra.va/ |
@@ -1358,6 +1393,7 @@
 | to melt | melta | /mel.ta/ |
 | to memorize | memoriz | /memoriz/ |
 | to mix | miksa | /mik.sa/ |
+| to multiply | multipli | /mul.ti.pli/ |
 | to need | need | /nid/ |
 | to need | niid | /niid/ |
 | to open | open | /open/ |
@@ -1415,6 +1451,7 @@
 | to stay | stei | /stei/ |
 | to stop | topi | /to.pi/ |
 | to study | stodi | /stodi/ |
+| to subtract / minus | minus | /mi.nus/ |
 | to suggest | sugest | /sugest/ |
 | to sweat | swet | /swet/ |
 | to sweep | swipa | /swi.pa/ |
@@ -1469,6 +1506,7 @@
 | treasurer / accountant | moni-keep-po | /moni.kip.po/ |
 | treatment | kura | /ku.ra/ |
 | tree | tre | /tre/ |
+| triangle | tri-korner | /tri.kor.ner/ |
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
@@ -1547,6 +1585,7 @@
 | where | wer | /wer/ |
 | which | wot | /wot/ |
 | who | hu | /hu/ |
+| whole / complete | komplita | /kom.pli.ta/ |
 | why | wai | /wai/ |
 | Wi-Fi | wifi | /wifi/ |
 | wide | wid | /wid/ |

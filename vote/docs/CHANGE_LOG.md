@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 7: Math, Quantity, Shape & Measure (+39)
+
+Committee-reviewed + verified. Dropped dups (long-nes/wei-nes/leita to existing lenga/weit/let; big-nes redundant with saiza). Kept raunda-lain (lain verified to exist, against a recurring stale morphologist claim). empti to no-ful (fits the no- antonym series: brave/rude/despair/empty). Math operators (ada, minus, multipli) and units (meter, kilo, liter, degri) are justified international loans; transparent shapes tri-korner=triangle, for-korner=square, and -nes measures far-nes=distance, hot-nes, ful-nes. Dictionary 1589 to 1628, 0 duplicates, validator 0 errors. Progress: 1628 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 6: Mind, Emotion & Personality (+36)
 
 Committee-reviewed + verified. Dropped dups (fil/plana/desaida to base fel/plan/desid; warm-fil to Fase 5 warm-fel). Phonologist wrongly rejected fil twice on the wrong spelling; verified the real root is fel. Gold-standard trait series emerged: hert (warm-hert=kind, kol-hert=cruel, strong-hert=courage, kwaiat-hert=serene) and maind (kwik-maind=smart, slo-maind, strong-maind); antonym pairs no-afred=brave, no-nais=rude, no-hop=despair. Dictionary 1553 to 1589, 0 duplicates, validator 0 errors. Progress: 1589 / 3000.
