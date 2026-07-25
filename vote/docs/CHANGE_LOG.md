@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Phoneme Decision: admit /tʃ/ (ch) and /dʒ/ (j)
+
+Systemic question raised during batch 3. **5-specialist committee voted UNANIMOUS to ADMIT** /tʃ/ and /dʒ/ as consonants #19-20 (inventory 18→20). Rationale: ~74 words already use them (chipa, teach, child, jara, oranja, jen); mapping them out would cause fatal collisions (chip→ship, jen→zen, chin→shin) + a 74-word migration; they are among the world's most common consonants (Universality). Zero word changes — only PHONOLOGY_FINAL.md §1 amended. This unblocks ch/j freely in future vocabulary.
+
+
 ## 2026-07-25 — Expansion Batch 3: Body & Health (+33)
 
 Committee-reviewed (3 specialists), synthesized with verification. Dropped `breta`/`resta`/`healti` (existing `brit`/`rest`/`helti`); `kut-kur→sik-kur` (kut not in base); `chesta→hert-hous`. Kept `blud-lain`/`hert-bit` (verified `lain`/`bit` exist, against stale review claims). Gold-standard series: `big-fingar`=thumb, `fut-fingar`=toe, `blud-lain`=vein, `hot-sik`=fever, `hed-pain`=headache.
