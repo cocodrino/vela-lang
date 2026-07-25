@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 10: Arts, Culture, Games & Color (+39)
+
+Committee-reviewed + verified. Dropped dups (art-hous to arta-hous; grei to grin=gray; kolor-mak to kolori=paint). Fixed fait-stor to fajt-stor (verified fait means fate, fajt is fight) and sker-stor to afred-stor (sker undefined; afred=afraid). Kept gem=game (verified no gem=jewel homonym; jewel is biju-ston). Gold series: -dei (no-wok-dei=holiday, born-dei=birthday, marri-dei=wedding), -stor genres (luva-stor=romance, fajt-stor=action, afred-stor=scary, child-stor=fairytale), -wei (pipel-wei=culture, old-wei=tradition). Standout: pipel-wei captures the anthropological definition of culture in 2 roots. Dictionary 1707 to 1746, 0 duplicates, validator 0 errors. Progress: 1746 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 9: Travel & Places (+42)
 
 Committee-reviewed + verified (semanticist: lowest loan ratio of all 9 batches at 16%). Dropped dups (tunel/kontinenta to base tunnel/kantin) and sport-ples (sport ends in illegal /rt/). Backfilled kros (cross) and under. Kept geita/adresa (verified genuinely new, against stale dup claims). Gold series: -hous (buk-hous=library, king-hous=castle, hai-hous=apartment building, bred-mak-hous=bakery, old-tin-hous=museum) and -ples (9 place compounds). Standouts: ap-boksi=elevator (up-box), kar-kraud=traffic, under-rod=subway, watre-wei=canal. Dictionary 1665 to 1707, 0 duplicates, validator 0 errors. Progress: 1707 / 3000.

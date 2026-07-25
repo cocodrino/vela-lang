@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 1707. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 1746. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -17,7 +17,8 @@
 | adresa | /a.dre.sa/ | noun | address | loan | IP-adresa | Wat es yu hous adresa? |
 | advertais | /advertais/ |  | advertisement |  |  |  |
 | aereplan | /aereplan/ |  | airplane |  |  | Wi flai by aereplan. |
-| afred | /afred/ |  | afraid |  | no-afred | Mi es afred. |
+| afred | /afred/ |  | afraid |  | afred-stor, no-afred | Mi es afred. |
+| afred-stor | /a.fred.stor/ | noun | scary story | afraid + story |  | No tel afred-stor at nait. |
 | aft | /aft/ |  | after |  |  | Wi kom aft la wok. |
 | aftnaun | /aftnaun/ |  | afternoon |  |  |  |
 | afyr | /afyr/ |  | air force |  |  |  |
@@ -36,6 +37,8 @@
 | akauna | /a.ka.u.na/ | noun | account |  |  | — |
 | akcident | /aksident/ |  | accident |  |  | La akcident es sad. |
 | akount | /akaunt/ |  | account |  |  | Mi akount es secure. |
+| akta | /ak.ta/ | verb | to act (perform) | loan | akta-po | La child akta in la play. |
+| akta-po | /ak.ta.po/ | noun | actor | act + -po |  | La akta-po lern la wod-en. |
 | aktivista | /ak.ti.vis.ta/ | noun | activist | adapted loan (+/a/) |  | La aktivista fajt for rait-en. |
 | alerji | /alerji/ |  | allergy |  |  |  |
 | alfabeta | /al.fa.be.ta/ | noun | alphabet | loan |  | La alfabeta hav meni leter. |
@@ -67,7 +70,8 @@
 | arm-kover | /arm.ko.ver/ | noun | sleeve | arm + cover |  | La arm-kover es too long. |
 | army | /armi/ |  | army |  |  |  |
 | arond | /arond/ |  | around |  |  | Wi wok arond la siti. |
-| art | /art/ |  | art |  |  | `arta-hous`, `art-stail`, professions |
+| art | /art/ |  | art |  | art-mak-po, hand-art | `arta-hous`, `art-stail`, professions |
+| art-mak-po | /art.mak.po/ | noun | artist | art + make + -po |  | La art-mak-po paint ol dei. |
 | arta-hous | /ar.ta.haus/ | noun | gallery | art + house |  | Wi go tu la arta-hous tumoro. |
 | artficial | /artficial/ |  | artificial |  |  | la artficial intelijens |
 | asha | /a.sha/ | noun | ash | loan |  | La fai lev asha. |
@@ -143,6 +147,7 @@
 | big-wind | /big.wind/ | noun | storm | big + wind |  | La big-wind brek la tre-en. |
 | biga-afreda | /bi.ga.a.fre.da/ |  | panic | big + afraid |  | acute, overwhelming fear |
 | biju-mak-po | /biju.mak.po/ |  | artist | beauty-make-person |  | La biju-mak-po maki beautiful art. |
+| biju-nes | /bi.ju.nes/ | noun | beauty | beautiful + -nes |  | La biju-nes of la son-daun. |
 | biju-ston | /bi.ju.ston/ | noun | gem | beautiful + stone |  | La biju-ston es dir. |
 | bikos | /bikos/ |  | because |  |  | Mi wok bikos mi wan moni. |
 | bil | /bil/ |  | bill |  |  | Mi pei la bil. |
@@ -163,6 +168,7 @@
 | blak | /blak/ |  | black |  | blak-hol, blak-ston | la blak kat |
 | blak-hol | /blak.hol/ | noun | black hole | black + hole |  | La blak-hol absorb all lait. |
 | blak-ston | /blak.ston/ | noun | coal | black + stone |  | La blak-ston born hot. |
+| blan | /blan/ | adj | white | loan |  | La snow es blan. |
 | blanket | /blan.ket/ |  | blanket |  |  | La blanket es warm. |
 | blesina | /ble.si.na/ | noun | blessing | adapted loan |  | La blesina kom from god. |
 | blo | /blo/ | verb | to blow |  |  | La win blo. → The wind blows. |
@@ -170,10 +176,12 @@
 | blu | /blu/ |  | blue |  |  | la blu skai |
 | blud | /blud/ |  | blood |  | blud-lain | La blud flo in bodi. |
 | blud-lain | /blud.lain/ | noun | vein | blood + line |  | La blud-lain es blu. |
-| bodi | /bodi/ |  | body |  | bodi-wok, in-bodi | Mi-se bodi es strong. |
+| bodi | /bodi/ |  | body |  | bodi-gem, bodi-wok, in-bodi | Mi-se bodi es strong. |
+| bodi-gem | /bo.di.gem/ | noun | sport | body + game |  | Swim es un gud bodi-gem. |
 | bodi-wok | /bo.di.wok/ | noun | exercise | body + work |  | Bodi-wok mak yu strong. |
 | boila | /boi.la/ | verb | to boil | loan |  | Boila la watre for ti. |
 | boksi | /bok.si/ |  | box |  | ap-boksi, hot-boksi, kol-boksi |  |
+| bol | /bol/ | noun | ball | loan |  | Kika la bol tu mi. |
 | boli | /bo.li/ | noun | bowl | loan | wosh-boli | La boli hav ris. |
 | bon | /bon/ |  | bone |  |  | La bon es hardi. |
 | boot | /but/ |  | boat |  | boot-ples |  |
@@ -181,7 +189,8 @@
 | bordar | /bor.dar/ |  | border |  |  | La bordar is long. |
 | bored | /bord/ |  | bored |  |  | Mi es bored. |
 | boring | /boring/ |  | boring |  |  | la boring class |
-| born | /born/ | verb | to be born |  |  | Mi born in 1990. → I was born in 1990. |
+| born | /born/ | verb | to be born |  | born-dei | Mi born in 1990. → I was born in 1990. |
+| born-dei | /born.dei/ | noun | birthday | born + day |  | Tudei es mi born-dei. |
 | boro | /boro/ | verb | to borrow |  |  | Mi boro moni from mi-fren. → I borrow money from my friend. |
 | bot | /bot/ |  | but |  |  | Mi wok, bot mi es hapi. |
 | botel | /botel/ |  | bottle |  |  |  |
@@ -207,7 +216,7 @@
 | brusa | /bru.sa/ | noun | bruise | loan |  | La fol mak un brusa. |
 | brushi | /bru.shi/ | noun | brush | loan | flor-brushi | Mi paint wit la brushi. |
 | buga | /bu.ga/ | noun | software bug | loan — phonetically valid (+/a/) |  | La buga stop la program. |
-| buk | /buk/ |  | book | ← Latin: liber, recogn. | buk-hous, buk-mak-po, wod-buk | Mi rid la buk. |
+| buk | /buk/ |  | book | ← Latin: liber, recogn. | buk-hous, buk-mak-po, stor-buk, wod-buk | Mi rid la buk. |
 | buk-hous | /buk.haus/ | noun | library | book + house |  | Mi rid in la buk-hous. |
 | buk-mak-po | /buk.mak.po/ | noun | author / publisher | book + make + -po |  | La buk-mak-po rita meni buk. |
 | buka-parta | /bu.ka.par.ta/ | noun | chapter | book + part (+/a/) |  | La buk hav tu-ten buka-parta-n. |
@@ -234,8 +243,9 @@
 | charjár | /char.jar/ |  | charger |  |  | Mi plog in la charjár. |
 | cheap | /tcip/ |  | cheap |  |  | la cheap product |
 | chek | /tcek/ | verb | to check |  |  | Mi chek la risolt. → I check the result. |
-| child | /tcild/ |  | child |  | child-en | Un child ple. |
+| child | /tcild/ |  | child |  | child-en, child-stor | Un child ple. |
 | child-en | /tchild.en/ |  | children | plural (child + -en) |  | Dese child-en ple. |
+| child-stor | /child.stor/ | noun | fairy tale | child + story |  | La granmoter tel un child-stor. |
 | chimni | /cimni/ |  | chimney |  |  | La smok kom from la chimni. |
 | chipa | /chi.pa/ | noun | chip (silicon) | loan (+/a/) | brain-chipa, piktur-chipa | La chipa es smol and powerful. |
 | chokolat | /tokolat/ |  | chocolate |  |  | Mi love chokolat. |
@@ -256,7 +266,8 @@
 | dai | /dai/ |  | to die |  |  | La old man dai. → The old man dies. |
 | dak | /dak/ |  | duck |  |  | La dak swim. |
 | dangerus | /dainjerus/ |  | dangerous |  |  | la danger |
-| dansi | /dan.si/ | verb | to dance |  |  | Wi dansi evri noite. → We dance every night. |
+| dansi | /dan.si/ | verb | to dance |  | dansi-po | Wi dansi evri noite. → We dance every night. |
+| dansi-po | /dan.si.po/ | noun | dancer | dance + -po |  | La dansi-po muv soft. |
 | dark | /dark/ |  | dark |  |  | la dark noite |
 | dat | /dat/ |  | that |  |  | Dat hous es nais. |
 | data | /data/ |  | data |  | data-aska, data-beis, data-diska, lern-data | La data es importent. |
@@ -270,7 +281,7 @@
 | deep | /dip/ |  | deep |  |  | la deep wel |
 | defenda | /de.fen.da/ | verb | to defend | loan |  | Wi defenda la lond-lain. |
 | degri | /de.gri/ | noun | degree | loan |  | La watre boila at hundred degri. |
-| dei | /dei/ |  | day |  | nau-dei | Nau-dei mi wok. |
+| dei | /dei/ |  | day |  | born-dei, hapi-dei, marri-dei, nau-dei, no-wok-dei | Nau-dei mi wok. |
 | delay | /de.lai/ |  | delay |  |  | La train hav delay. |
 | demokrasi | /de.mo.kra.si/ |  | democracy |  |  | La demokrasi es gud. |
 | den | /den/ |  | then |  |  | If yu no kom, den mi go. |
@@ -388,10 +399,13 @@
 | fait | /fait/ |  | fate |  |  | La fait es strang. |
 | faiv | /faiv/ |  | 5 |  | ten-faiv |  |
 | fajt-po | /fait.po/ | noun | fighter / warrior | fight + -po |  | La fajt-po es brev. |
+| fajt-stor | /fajt.stor/ | noun | action story | fight + story |  | La boy lik fajt-stor. |
 | fajt-tool | /fait.tul/ | noun | weapon | fight + tool |  | La soldia hold la fajt-tool. |
 | famili | /famili/ |  | family | ← Latin, recogn. all |  | La famili es big. |
 | famos | /famos/ |  | famous |  |  | la famoso skul |
 | fan | /fan/ |  | fan |  |  | La fan es cool. |
+| fani | /fa.ni/ | adj | funny | loan | fani-tin | La stor es fani. |
+| fani-tin | /fa.ni.tin/ | noun | joke | funny + thing |  | Li tel un gud fani-tin. |
 | far | /far/ |  | far |  | far-nes, far-ples, far-si, far-si-tool, far-tok-box | La siti es far from hier. |
 | far-nes | /far.nes/ | noun | distance | far + -nes |  | La far-nes tu la siti es big. |
 | far-ples | /far.ples/ | noun | destination | far + place |  | Wi ariv at la far-ples. |
@@ -428,7 +442,7 @@
 | flaur | /fla.ur/ | noun | flour | loan |  | La bred kom from flaur. |
 | flod | /flod/ |  | flood |  |  | La flod destroy. |
 | floi | /floi/ | noun | flood |  |  | — |
-| flor | /flor/ |  | floor |  | flor-brushi, flor-kover, flor-nomber | La flor es klean. |
+| flor | /flor/ |  | floor |  | flor-brushi, flor-kover, flor-nomber, play-flor | La flor es klean. |
 | flor-brushi | /flor.bru.shi/ | noun | broom | floor + brush |  | Mi klin la flor wit la flor-brushi. |
 | flor-kover | /flor.ko.ver/ | noun | carpet / rug | floor + cover |  | La flor-kover es soft. |
 | flor-nomber | /flor.nom.ber/ | noun | floor (level) | floor + number |  | Mi liv on flor-nomber tri. |
@@ -492,11 +506,13 @@
 | gas | /gas/ | noun | gas | loan |  | La gas es lait. |
 | gasi | /ga.si/ |  | gasoline |  |  | Mi bai gasi for la kar. |
 | geita | /gei.ta/ | noun | gate | loan |  | Open la geita for la kar. |
+| gem | /gem/ | noun | game | loan | bodi-gem | Wi play un gem. |
 | gerl | /gerl/ |  | girl |  |  | Un gerl sing. |
 | gesa | /ge.sa/ | verb | to guess | loan |  | Gesa la anser. |
 | gilta | /gil.ta/ | noun | guilt | loan |  | La gilta wei on his hert. |
 | gitar | /gi.tar/ | noun | guitar | adapted loan |  | Mi plei gitar. |
-| giv | /giv/ | verb | to give |  | bad-giv, gud-giv | Mi giv yu la buk. → I give you the book. |
+| giv | /giv/ | verb | to give |  | bad-giv, giv-tin, gud-giv | Mi giv yu la buk. → I give you the book. |
+| giv-tin | /giv.tin/ | noun | gift | give + thing |  | Mi bring un giv-tin for yu. |
 | glasi | /gla.si/ |  | glass |  | si-glasi | Mi drink watre from glasi. |
 | glu | /glu/ | noun | glue | loan |  | La glu hold la paper. |
 | gluv | /gluv/ |  | glove |  |  | Mi wer gluv in winter. |
@@ -551,8 +567,11 @@
 | hamar | /ha.mar/ |  | hammer |  |  | Mi us hamar. |
 | hamer | /ha.mer/ | noun | hammer | loan |  | Mi hit la naila wit la hamer. |
 | hammer | /hammer/ |  | hammer |  |  |  |
-| hand | /hand/ |  | hand |  | open-hand | Mi-se hand es big. |
-| hapi | /hapi/ |  | happy |  | enufa-hapi, kwaiat-hapi, topa-hapi, waita-hapi, warm-hapi | la hapi famili |
+| hand | /hand/ |  | hand |  | hand-art, open-hand | Mi-se hand es big. |
+| hand-art | /hand.art/ | noun | craft / handicraft | hand + art |  | La old wuman mak hand-art. |
+| hapi | /hapi/ |  | happy |  | enufa-hapi, hapi-dei, hapi-song, kwaiat-hapi, topa-hapi, waita-hapi, warm-hapi | la hapi famili |
+| hapi-dei | /ha.pi.dei/ | noun | festival | happy + day |  | La siti hav un big hapi-dei. |
+| hapi-song | /ha.pi.song/ | noun | celebration song | happy + song |  | De sing un hapi-song. |
 | hard | /hard/ |  | hard (difficult) |  |  | la hard kwestion |
 | hardi | /hardi/ |  | hard (material) |  |  | la hardi metal |
 | hardwer | /hardwer/ |  | hardware |  |  |  |
@@ -836,7 +855,8 @@
 | laigon | /lai.gon/ |  | lion |  |  | La laigon es strong. |
 | lain | /lain/ | noun | line | atomic root | blud-lain, lond-lain, poem-lain, raunda-lain, skai-lain, wod-lain | Rit un stret lain. |
 | laion | /lai.on/ |  | lion |  |  | La laion es strong |
-| lait | /lait/ |  | light (weight) |  | son-lait | la laimt box |
+| lait | /lait/ |  | light (weight) |  | lait-red, son-lait | la laimt box |
+| lait-red | /lait.red/ | adj | pink | light + red |  | La flauor es lait-red. |
 | lak | /lak/ |  | luck |  |  | Mi hav gud lak. |
 | lamp | /lamp/ |  | lamp |  |  | La lamp shin. |
 | langwij | /langwii/ |  | language |  |  | VELA es nu langwij. |
@@ -873,7 +893,8 @@
 | lifa-lerna | /li.fa.ler.na/ | noun | biology (alt) | life + learn |  | La lifa-lerna stodi all lifa-tipa-n. |
 | lifa-tipa | /li.fa.ti.pa/ | noun | species | life + type |  | La Erd hav milyon lifa-tipa-n. |
 | lifta | /lif.ta/ | verb | to lift | loan |  | Lifta la boksi hai. |
-| lik | /lik/ | verb | to like |  |  | Mi lik la sonj. → I like the song. |
+| lik | /lik/ | verb | to like |  | lik-wok | Mi lik la sonj. → I like the song. |
+| lik-wok | /lik.wok/ | noun | hobby | like + work |  | Painting es mi lik-wok. |
 | limia | /li.mia/ | noun | limit |  |  | — |
 | limit | /li.mit/ |  | limit |  |  | La limit es der. |
 | lipa | /li.pa/ | noun | lip | loan |  | La lipa es red. |
@@ -911,7 +932,8 @@
 | luki | /lu.ki/ | noun | luck |  |  | loan (was lai — homonym with "to lie down") |
 | lunga | /lun.ga/ | noun | lung | loan |  | Wi bret wit tu lunga. |
 | lupa | /lu.pa/ | noun/verb | loop | loan (+/a/) |  | La lupa run ten taim. |
-| luva | /lu.va/ |  | love | atomic — cross-ref Phase 4 (+/a/) | depa-luva, pasta-luva-pain, self-luva, strong-luva | the base emotion, all forms below derive from it |
+| luva | /lu.va/ |  | love | atomic — cross-ref Phase 4 (+/a/) | depa-luva, luva-stor, pasta-luva-pain, self-luva, strong-luva | the base emotion, all forms below derive from it |
+| luva-stor | /lu.va.stor/ | noun | romance (story) | love + story |  | Li rid un luva-stor. |
 | luz | /luz/ |  | to lose |  |  | Mi luz la kei. → I lose the key. |
 
 ## M
@@ -926,7 +948,8 @@
 | maind-mak | /maind.mak/ | verb | to imagine | mind + make |  | Maind-mak un beter waild. |
 | maind-piktur | /maind.pik.tur/ | noun | imagination | mind + picture |  | La child hav strong maind-piktur. |
 | Maji | /maji/ |  | May |  |  |  |
-| mak | /mak/ | verb | to make |  | bada-mak, biju-mak-po, bred-mak-hous, buk-mak-po, food-mak-po, klar-mak, maind-mak, mak-hous, mak-po, part-mak, rul-mak-hous, song-mak-po, word-mak-po | Mi mak la disf. → I make the dinner. |
+| majika | /ma.ji.ka/ | noun | magic | loan |  | La stor hav majika. |
+| mak | /mak/ | verb | to make |  | art-mak-po, bada-mak, biju-mak-po, bred-mak-hous, buk-mak-po, food-mak-po, klar-mak, maind-mak, mak-hous, mak-po, part-mak, rul-mak-hous, song-mak-po, word-mak-po | Mi mak la disf. → I make the dinner. |
 | mak-hous | /mak.haus/ |  | factory | mak (to make) + hous (house) |  | La mak-hous maki product-en. |
 | mak-po | /mak.po/ | noun | maker / producer | make + -po |  | La mak-po bild la tul-en. |
 | maki | /ma.ki/ | verb | to build |  | maki-hous | De maki un hous. → They build a house. |
@@ -940,6 +963,8 @@
 | mar-po | /mar.po/ |  | sailor / mariner | sea-person |  | La mar-po sail la boto. |
 | market | /market/ |  | market |  |  | La market es bizi. |
 | marmol | /mar.mol/ | noun | marble | loan |  | La statu es marmol. |
+| marri | /ma.ri/ | verb | to marry | loan | marri-dei | De marri in la god-hous. |
+| marri-dei | /ma.ri.dei/ | noun | wedding | marry + day |  | Wi selebra la marri-dei. |
 | Marti | /mar.ti/ |  | March |  |  |  |
 | mas | /mas/ |  | must | mas + bare root |  | Wi mas wok. → We must work. |
 | mas no | /mas no/ |  | must not | mas no + bare root |  | De mas no kom. → They must not come. |
@@ -1069,13 +1094,14 @@
 | nifaw | /nifaw/ |  | nephew/niece |  |  |  |
 | niid | /niid/ |  | to need |  |  | Mi niid help. → I need help. |
 | nius | /nius/ |  | news |  |  | La nius es sad. |
-| no | /no/ |  | no |  | no-afred, no-fren, no-ful, no-hop, no-nais, no-tok | negative answer |
+| no | /no/ |  | no |  | no-afred, no-fren, no-ful, no-hop, no-nais, no-tok, no-wok-dei | negative answer |
 | no-afred | /no.a.fred/ | adj | brave | not + afraid |  | La soldia es no-afred. |
 | no-fren | /no.fren/ | noun | enemy | not + friend |  | La no-fren atak la siti. |
 | no-ful | /no.ful/ | adj | empty | not + full |  | La kup es no-ful. |
 | no-hop | /no.hop/ | noun | despair | no + hope |  | La war bring no-hop. |
 | no-nais | /no.nais/ | adj | rude | not + nice |  | No bi no-nais tu othr-en. |
 | no-tok | /no.tok/ | adj | silent / mute | not + talk |  | Li stei no-tok ol dei. |
+| no-wok-dei | /no.wok.dei/ | noun | holiday | not + work + day |  | Sandei es un no-wok-dei. |
 | nof | /nof/ | verb | to know |  | dep-nof, nof-hu, nof-nes | Mi nof wat yu wan. → I know what you want. |
 | nof-hu | /nof.hu/ | verb | to know someone | nof (to know) + hu (who) |  | Mi nof-hu yu. → I know you. |
 | nof-nes | /nof.nes/ | noun | knowledge | know + -nes |  | La nof-nes kom from lern and eksperyens. |
@@ -1102,8 +1128,9 @@
 | oil | /oil/ |  | oil |  | kar-oil |  |
 | Oktober | /oktobr/ |  | October |  |  |  |
 | ol | /ol/ | adj | all | loan |  | Ol la pipel kom. |
-| old | /old/ |  | old |  | old-tin-hous | la old hous |
+| old | /old/ |  | old |  | old-tin-hous, old-wei | la old hous |
 | old-tin-hous | /old.tin.haus/ | noun | museum | old + thing + house |  | La old-tin-hous hav old art. |
+| old-wei | /old.wei/ | noun | custom / tradition | old + way |  | Dis dansi es un old-wei. |
 | oldei | /oldei/ |  | always |  |  | Mi es hapi oldei. |
 | on | /on/ |  | on |  |  | La buk es on la tebul. |
 | onyon | /on.yon/ | noun | onion | loan |  | La onyon mak mi krei. |
@@ -1171,7 +1198,8 @@
 | pili | /pi.li/ | noun | pill | loan |  | Tak un pili for la pain. |
 | pilo | /pi.lo/ | noun | pillow | loan |  | Mi hed rest on la pilo. |
 | pilow | /pi.low/ |  | pillow |  |  | Mi slip on pilow. |
-| pipel | /pi.pi.el/ |  | people | pp-le = many persons |  | La pipel es big. |
+| pipel | /pi.pi.el/ |  | people | pp-le = many persons | pipel-wei | La pipel es big. |
+| pipel-wei | /pi.pel.wei/ | noun | culture (way of a people) | people + way |  | Evri pipel-wei es difren. |
 | pis | /pis/ |  | peace |  |  | La pis es importent. |
 | pisa | /pi.sa/ | noun | piece | loan |  | Giv mi wan pisa of keik. |
 | plan | /plan/ | verb | to plan |  |  | Wi plan tu kom. → We plan to come. |
@@ -1181,6 +1209,9 @@
 | plastii | /plas.tii/ | noun | plastic |  |  | — |
 | plastik | /plas.tik/ |  | plastic |  |  | La botel es plastik. |
 | plati | /pla.ti/ |  | plate |  |  |  |
+| play-flor | /play.flor/ | noun | stage | play + floor |  | La akta-po stand on la play-flor. |
+| play-po | /play.po/ | noun | player | play + -po |  | La play-po kik la bol. |
+| play-tin | /play.tin/ | noun | toy | play + thing |  | La child luv la play-tin. |
 | ple | /ple/ | verb | to play |  |  | La child ple in la garden. → The child plays in the garden. |
 | plei | /ple.i/ | noun | place |  |  | — |
 | ples | /ples/ |  | place |  | boot-ples, far-ples, hom-ples, kar-ples, liv-ples, rest-ples, sit-ples | Dis ples es nais. |
@@ -1211,7 +1242,7 @@
 | poti | /po.ti/ | noun | pot | loan | poti-kover, watre-poti | Mi kuk sup in la poti. |
 | poti-kover | /po.ti.ko.ver/ | noun | lid | pot + cover |  | Put la poti-kover on la poti. |
 | power | /pauer/ |  | power |  |  | La power es strong. |
-| praida | /prai.da/ | noun | pride | loan |  | Li tok wit praida. |
+| praida | /prai.da/ | noun | pride | loan | win-praida | Li tok wit praida. |
 | praii | /prai.i/ | noun | price |  |  | — |
 | prais | /prais/ |  | price |  |  | La prais es high. |
 | predika | /pre.di.ka/ | verb | predict | adapted loan (+/a/) |  | La modl predika la risolt. |
@@ -1268,14 +1299,16 @@
 | rapa | /ra.pa/ | verb | to wrap | loan |  | Rapa la gift. |
 | rar | /rar/ |  | rare |  |  | La oportuniti es rar. |
 | rarli | /rar.li/ |  | rarely |  |  | Li wok rarli. |
+| rasa | /ra.sa/ | noun/verb | race | loan |  | Wi rasa tu la tre. |
 | rat | /rat/ |  | rat |  |  | La rat es dirty. |
 | raunda | /raun.da/ | adj | round | loan | raunda-lain | La bol es raunda. |
 | raunda-lain | /raun.da.lain/ | noun | circle | round + line |  | La son mak un raunda-lain. |
-| rava | /ra.va/ | verb | to draw |  |  | La child rava la man. → The child draws the man. |
+| rava | /ra.va/ | verb | to draw |  | rava-tin | La child rava la man. → The child draws the man. |
+| rava-tin | /ra.va.tin/ | noun | drawing | draw + thing |  | La child mak un rava-tin. |
 | reakshon | /re.ak.shon/ | noun | chemical reaction | adapted loan |  | La reakshon produk heit. |
 | realiti | /re.a.li.ti/ | noun | reality | adapted loan |  | Wat es la realiti? |
 | reason | /rizon/ |  | reason |  |  | Wat es la reason? |
-| red | /red/ |  | red |  | skin-red | la red rozs |
+| red | /red/ |  | red |  | lait-red, skin-red | la red rozs |
 | redi | /re.di/ |  | ready |  |  | Mi es redi. |
 | refom | /re.fom/ | noun/verb | reform | adapted loan |  | La goverment refom la sistem. |
 | refrijerator | /re.fri.je.ra.tor/ |  | refrigerator |  |  | La food in refrijerator. |
@@ -1375,6 +1408,7 @@
 | sel-po | /sel.po/ | noun | seller | sell + -po |  | La sel-po hav many gud. |
 | sela | /se.la/ | verb | to sail | loan | sela-nofa | Wi sela ova la mar. |
 | sela-nofa | /se.la.no.fa/ | noun | consciousness | self + know (+/a/) |  | La sela-nofa es wat mak wi man. |
+| selebra | /se.le.bra/ | verb | to celebrate | loan |  | Wi selebra la win. |
 | self | /self/ | reflexive | self |  | self-luva | Mi si self. |
 | self-luva | /self.lu.va/ | adj/noun | selfish / self-love | self + love |  | La self-luva man tink onli of self. |
 | selu | /se.lu/ | noun | cell | Latin *cella* — universal |  | La bodi hav milyon selu-n. |
@@ -1436,7 +1470,8 @@
 | simbolisma | /sim.bo.lis.ma/ | noun | symbolism | adapted loan (+/a/) |  | La poem hav dep simbolisma. |
 | simpli | /simpli/ |  | simple |  |  | la simpli sistem |
 | simtom | /sim.tom/ | noun | symptom | adapted loan |  | Wat simtom yu hav? |
-| sing | /sing/ | verb | to sing |  |  | Mi sing la sonj. → I sing the song. |
+| sing | /sing/ | verb | to sing |  | sing-taim | Mi sing la sonj. → I sing the song. |
+| sing-taim | /sing.taim/ | noun | concert | sing + time |  | Wi go tu la sing-taim. |
 | sini | /si.ni/ | noun | scene | adapted loan |  | La sini hav tu aktor-en. |
 | sinkra | /sin.kra/ | verb | sync | adapted loan (+/a/) |  | La data sinkra in klaud. |
 | sisn | /sisen/ |  | chicken |  |  |  |
@@ -1460,6 +1495,7 @@
 | skaru | /skaru/ | noun | scarf |  |  | — |
 | skin | /skin/ |  | skin |  | skin-red, tre-skin | La skin es soft. |
 | skin-red | /skin.red/ | noun | rash | skin + red |  | La skin-red itc. |
+| skor | /skor/ | noun | score | loan |  | Wat es la skor? |
 | skrin | /skrin/ |  | screen |  | skrin-tocha | Mi luk at la skrin. |
 | skrin-tocha | /skrin.to.cha/ | noun | touchscreen | screen + touch (+/a/) |  | La skrin-tocha respond fast. |
 | skrinina | /skri.ni.na/ | noun | screening | adapted loan |  | La skrinina of la film es tumoro. |
@@ -1546,7 +1582,8 @@
 | stomok-pain | /sto.mok.pein/ | noun | stomachache | stomach + pain |  | La bad fud giv stomok-pain. |
 | ston | /ston/ |  | stone |  | biju-ston, blak-ston, ston-hol | La ston es hardi. |
 | ston-hol | /ston.hol/ | noun | cave | stone + hole |  | La ston-hol es dark and kold. |
-| stor | /stor/ |  | story |  | long-stor, stor-tal-po | La stor es interesting. |
+| stor | /stor/ |  | story |  | afred-stor, child-stor, fajt-stor, long-stor, luva-stor, stor-buk, stor-tal-po | La stor es interesting. |
+| stor-buk | /stor.buk/ | noun | novel / storybook | story + book |  | Mi rid un long stor-buk. |
 | stor-tal-po | /stor.tal.po/ | noun | storyteller | story + tell + -po |  | La stor-tal-po sit wit la child-en. |
 | storm | /storm/ |  | storm |  |  | La storm es dangerus. |
 | streta | /stre.ta/ | adj | straight | loan |  | Rit un streta lain. |
@@ -1588,7 +1625,7 @@
 | tai | /tai/ |  | tie |  |  | La man wer tai. |
 | taigar | /tai.gar/ |  | tiger |  |  | La taigar es fast |
 | taigor | /tai.gor/ |  | tiger |  |  | La taigor es fast. |
-| taim | /taim/ |  | time |  | ran-taim, tok-taim | `ran-taim`, `somtaim`, `nau-taim` |
+| taim | /taim/ |  | time |  | ran-taim, sing-taim, tok-taim | `ran-taim`, `somtaim`, `nau-taim` |
 | taitel | /tai.tel/ | noun | title | loan |  | Wat es la buk taitel? |
 | taki | /ta.ki/ | noun | tax |  |  | — |
 | taks | /taks/ |  | tax |  |  | Mi pei taks. |
@@ -1624,7 +1661,8 @@
 | testa-koda | /tes.ta.ko.da/ | noun | unit test | test + code |  | La testa-koda chek la funkshon. |
 | ti | /ti/ | noun | tea | loan |  | Mi drink hot ti. |
 | tik | /tik/ |  | thick |  |  | un tik buk |
-| tin | /tin/ |  | thin |  | old-tin-hous | un tin paper |
+| tim | /tim/ | noun | team | loan |  | Mi tim win la gem. |
+| tin | /tin/ |  | thin |  | fani-tin, giv-tin, old-tin-hous, play-tin, rava-tin | un tin paper |
 | tink | /tink/ | verb | to think |  | dep-tink | Mi tink so. → I think so. |
 | tip | /tip/ |  | type |  | chanja-tip | `lifa-tipa` |
 | tired | /taird/ |  | tired |  |  | Mi es tri. |
@@ -1748,7 +1786,7 @@
 | watre-wei | /wa.tre.wei/ | noun | canal / waterway | water + way |  | La boot go on la watre-wei. |
 | wava | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) |  | Lait es un elektromagnetek wava. |
 | webseit | /webseit/ |  | website |  |  |  |
-| wei | /wei/ |  | way / path (abstract) |  | god-wei, watre-wei | `motorwei`, directional idioms |
+| wei | /wei/ |  | way / path (abstract) |  | god-wei, old-wei, pipel-wei, watre-wei | `motorwei`, directional idioms |
 | weia | /we.ia/ | noun | weight |  |  | — |
 | weik | /weik/ |  | to wake |  |  | Mi weik erli. → I wake early. |
 | weil | /weil/ |  | whale |  |  | La weil es big. |
@@ -1770,7 +1808,8 @@
 | wifi | /wifi/ |  | Wi-Fi |  |  | La wifi es fast. |
 | wik | /wik/ |  | weak |  |  | la wik child |
 | wil | /wil/ |  | will | wil + bare root |  | Mi wil kom. → I will come. |
-| win | /win/ |  | wine |  |  |  |
+| win | /win/ |  | wine |  | win-praida |  |
+| win-praida | /win.prai.da/ | noun | triumph / victory pride | win + pride |  | La tim fil win-praida. |
 | wind | /wind/ |  | wind |  | big-wind | La wind blow. |
 | windo | /windo/ |  | window |  |  | La windo es open. |
 | winter | /winter/ |  | winter |  |  | La snow fal in winter. |
@@ -1784,7 +1823,7 @@
 | wod-lain | /wod.lain/ | noun | sentence | word + line |  | Un wod-lain hav meni wod. |
 | wod-lista | /wod.lis.ta/ | noun | vocabulary | word + list |  | Lern la new wod-lista. |
 | wod-piktur | /wod.pik.tur/ | verb | to describe | word + picture |  | Wod-piktur la ples. |
-| wok | /wok/ | verb | to walk |  | bodi-wok, wok-moni, wok-po, wok-rod, wok-tebul | Mi wok la parke-to. → I walk in the park. |
+| wok | /wok/ | verb | to walk |  | bodi-wok, lik-wok, no-wok-dei, wok-moni, wok-po, wok-rod, wok-tebul | Mi wok la parke-to. → I walk in the park. |
 | wok-moni | /wok.mo.ni/ | noun | wage / salary | work + money |  | La wok-moni kom evri mont. |
 | wok-po | /wok.po/ |  | worker | work-person |  | La wok-po wok hard. |
 | wok-rod | /wok.rod/ | noun | sidewalk | walk + road |  | Wok on la wok-rod, no la big-rod. |

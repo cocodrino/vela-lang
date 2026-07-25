@@ -28,7 +28,9 @@
 | account | akauna | /a.ka.u.na/ |
 | account | akount | /akaunt/ |
 | acid | asida | /a.si.da/ |
+| action story | fajt-stor | /fajt.stor/ |
 | activist | aktivista | /ak.ti.vis.ta/ |
+| actor | akta-po | /ak.ta.po/ |
 | actor | rol-play-po | /rol.plei.po/ |
 | adapt | adapta | /a.dap.ta/ |
 | address | adresa | /a.dre.sa/ |
@@ -74,6 +76,7 @@
 | around | arond | /arond/ |
 | art | art | /art/ |
 | artificial | artficial | /artficial/ |
+| artist | art-mak-po | /art.mak.po/ |
 | artist | biju-mak-po | /biju.mak.po/ |
 | ash | asha | /a.sha/ |
 | asteroid | asteroida | /as.te.roi.da/ |
@@ -93,6 +96,7 @@
 | bad | bad | /bad/ |
 | bag | bagi | /ba.gi/ |
 | bakery | bred-mak-hous | /bred.mak.haus/ |
+| ball | bol | /bol/ |
 | banana | banan | /banan/ |
 | banana | banana | /ba.na.na/ |
 | bandage | wond-kover | /wond.ko.ver/ |
@@ -111,6 +115,7 @@
 | bear | ber | /ber/ |
 | beard | berd | /berd/ |
 | beat (music unit) | muzika-bita | /mu.zi.ka.bi.ta/ |
+| beauty | biju-nes | /bi.ju.nes/ |
 | because | bikos | /bikos/ |
 | bed | bed | /bed/ |
 | bedroom | bedrum | /bedrum/ |
@@ -130,6 +135,7 @@
 | biology | bioloji | /bioloji/ |
 | biology (alt) | lifa-lerna | /li.fa.ler.na/ |
 | bird | bird | /bird/ |
+| birthday | born-dei | /born.dei/ |
 | bit (computing, binary) | bit | /bit/ |
 | black | blak | /blak/ |
 | black hole | blak-hol | /blak.hol/ |
@@ -210,6 +216,7 @@
 | cave | ston-hol | /ston.hol/ |
 | ceiling | ruma-kover | /ru.ma.ko.ver/ |
 | ceiling | seiling | /seiling/ |
+| celebration song | hapi-song | /ha.pi.song/ |
 | cell | selu | /se.lu/ |
 | cement | simana | /si.ma.na/ |
 | cement | simant | /si.mant/ |
@@ -284,6 +291,7 @@
 | computer | kalkulato | /kal.ku.la.to/ |
 | computer | kompiuter | /kom.pi.utr/ |
 | concert | konser | /kon.ser/ |
+| concert | sing-taim | /sing.taim/ |
 | concrete | konkria | /kon.kria/ |
 | concrete | konkrit | /kon.krit/ |
 | concrete / tangible | konkreta | /kon.kre.ta/ |
@@ -319,6 +327,7 @@
 | cousin | kuzen | /kuzen/ |
 | cow | cau | /kau/ |
 | CPU / processor | brain-chipa | /brein.chi.pa/ |
+| craft / handicraft | hand-art | /hand.art/ |
 | cream | cream | /kriam/ |
 | crime | krime | /kraim/ |
 | criminal | kriminal | /kriminal/ |
@@ -328,6 +337,7 @@
 | cruel | kol-hert | /kol.hert/ |
 | crystal | kristal | /kris.tal/ |
 | culture | kultur | /kul.tur/ |
+| culture (way of a people) | pipel-wei | /pi.pel.wei/ |
 | cup | kup | /kup/ |
 | cure | kur | /kur/ |
 | curious | kurius | /ku.ri.us/ |
@@ -335,7 +345,9 @@
 | curtain | kurtena | /kur.te.na/ |
 | curve | kurva | /kur.va/ |
 | custom | kastom | /kas.tom/ |
+| custom / tradition | old-wei | /old.wei/ |
 | customer | kastomer | /kastomer/ |
+| dancer | dansi-po | /dan.si.po/ |
 | dangerous | dangerus | /dainjerus/ |
 | dark | dark | /dark/ |
 | data | data | /data/ |
@@ -383,6 +395,7 @@
 | dose | doza | /do.za/ |
 | down | daun | /daun/ |
 | download | lowda-in | /low.da.in/ |
+| drawing | rava-tin | /ra.va.tin/ |
 | dread | depa-afreda | /de.pa.a.fre.da/ |
 | dream | drim | /drim/ |
 | drill | dril | /dril/ |
@@ -448,6 +461,7 @@
 | face | fas | /fas/ |
 | factory | mak-hous | /mak.haus/ |
 | failure | faiolr | /faiolr/ |
+| fairy tale | child-stor | /child.stor/ |
 | faith | feit | /feit/ |
 | fall / autumn | fol | /fol/ |
 | false | fols | /fols/ |
@@ -461,6 +475,7 @@
 | father | fater | /fater/ |
 | February | Februari | /februa.ri/ |
 | fence | fensa | /fen.sa/ |
+| festival | hapi-dei | /ha.pi.dei/ |
 | fever | hot-sik | /hot.sik/ |
 | few | fyu | /fyu/ |
 | fiction | fikshon | /fik.shon/ |
@@ -510,8 +525,10 @@
 | full | ful | /ful/ |
 | fullness | ful-nes | /ful.nes/ |
 | function | funkshon | /funk.shon/ |
+| funny | fani | /fa.ni/ |
 | galaxy | galaksi | /ga.lak.si/ |
 | gallery | arta-hous | /ar.ta.haus/ |
+| game | gem | /gem/ |
 | garage | kar-hous | /kar.haus/ |
 | garden | garden | /garden/ |
 | gas | gas | /gas/ |
@@ -523,6 +540,7 @@
 | genetic code | lifa-koda | /li.fa.ko.da/ |
 | genre | jenra | /jen.ra/ |
 | gentle | jentel | /jen.tel/ |
+| gift | giv-tin | /giv.tin/ |
 | giraffe | jiraf | /ji.raf/ |
 | giraffe | jirau | /ji.rau/ |
 | girl | gerl | /gerl/ |
@@ -604,6 +622,8 @@
 | hippopotamus | haipo | /hai.po/ |
 | hippopotamus | hipo | /hi.po/ |
 | his/her/its / of him/her | li-se | /li.se/ |
+| hobby | lik-wok | /lik.wok/ |
+| holiday | no-wok-dei | /no.wok.dei/ |
 | home | hom | /hom/ |
 | homeland | hom-ples | /hom.ples/ |
 | honest | tru-tok | /tru.tok/ |
@@ -666,6 +686,7 @@
 | January | Januari | /janua.ri/ |
 | jar | jara | /ja.ra/ |
 | jealous | jelus | /je.lus/ |
+| joke | fani-tin | /fa.ni.tin/ |
 | journalist | news-tak-po | /nuz.tak.po/ |
 | journey | jorni | /jor.ni/ |
 | joy (radiant) | warm-hapi | /warm.ha.pi/ |
@@ -750,6 +771,7 @@
 | lung | lunga | /lun.ga/ |
 | machine | masin | /masin/ |
 | machine learning | masin-lern | /ma.sin.lern/ |
+| magic | majika | /ma.ji.ka/ |
 | magnet | magneta | /mag.ne.ta/ |
 | mail | meil | /meil/ |
 | maker / producer | mak-po | /mak.po/ |
@@ -873,6 +895,7 @@
 | nostalgia | pasta-luva-pain | /pas.ta.lu.va.pein/ |
 | notice | notis | /notis/ |
 | novel | long-stor | /lon.stor/ |
+| novel / storybook | stor-buk | /stor.buk/ |
 | November | November | /novembr/ |
 | now | nau | /nau/ |
 | number | nomber | /nomber/ |
@@ -956,6 +979,7 @@
 | pillow | pilo | /pi.lo/ |
 | pillow | pilow | /pi.low/ |
 | pilot | flai-po | /flai.po/ |
+| pink | lait-red | /lait.red/ |
 | place | plei | /ple.i/ |
 | place | ples | /ples/ |
 | plain | flat-lond | /flat.lond/ |
@@ -964,6 +988,7 @@
 | plastic | plastii | /plas.tii/ |
 | plastic | plastik | /plas.tik/ |
 | plate | plati | /pla.ti/ |
+| player | play-po | /play.po/ |
 | please | plise | /pli.se/ |
 | plot | plota | /plo.ta/ |
 | plug | plug | /plug/ |
@@ -1030,6 +1055,7 @@
 | rabbit | rabit | /ra.bit/ |
 | rabbit | raibia | /rai.bia/ |
 | rabbit | raibit | /rai.bit/ |
+| race | rasa | /ra.sa/ |
 | radio | radia | /radia/ |
 | rain | rein | /rein/ |
 | rainbow | rein-arka | /rein.ar.ka/ |
@@ -1079,6 +1105,7 @@
 | robot | robot | /robot/ |
 | robotics | robotiks | /robotiks/ |
 | rocket | rokete | /ro.ke.te/ |
+| romance (story) | luva-stor | /lu.va.stor/ |
 | roof | rof | /rof/ |
 | room | rum | /rum/ |
 | rope | rope | /rop/ |
@@ -1111,11 +1138,13 @@
 | scanner | skanar | /ska.nar/ |
 | scarf | skarf | /skarf/ |
 | scarf | skaru | /skaru/ |
+| scary story | afred-stor | /a.fred.stor/ |
 | scene | sini | /si.ni/ |
 | school | lern-hous | /lern.haus/ |
 | science | syens | /saiens/ |
 | scientist | sientist | /saientist/ |
 | scissors | sizorz | /si.zorz/ |
+| score | skor | /skor/ |
 | screen | screen | /skrin/ |
 | screen | skrin | /skrin/ |
 | screening | skrinina | /skri.ni.na/ |
@@ -1234,9 +1263,11 @@
 | spirit | spirit | /spi.rit/ |
 | spiritual | spiritu | /spi.ri.tu/ |
 | spoon | sponn | /spon/ |
+| sport | bodi-gem | /bo.di.gem/ |
 | spring | spring | /spring/ |
 | square | for-korner | /for.kor.ner/ |
 | squirrel | skwiral | /skwi.ral/ |
+| stage | play-flor | /play.flor/ |
 | stair / staircase | stera | /ste.ra/ |
 | stairs | stair | /stair/ |
 | star | star | /star/ |
@@ -1298,6 +1329,7 @@
 | taxi | taxi | /taksi/ |
 | tea | ti | /ti/ |
 | teacher | lern-po | /lern.po/ |
+| team | tim | /tim/ |
 | technology | technoloji | /teknoloji/ |
 | telephone | far-tok-box | /far.tok.boks/ |
 | telescope | far-si-tool | /far.si.tul/ |
@@ -1336,6 +1368,7 @@
 | tired (short) | tri | /tri/ |
 | title | taitel | /tai.tel/ |
 | to / at | a | /a/ |
+| to act (perform) | akta | /ak.ta/ |
 | to add | ada | /a.da/ |
 | to answer | ansr | /ansr/ |
 | to arrive | ariv | /ariv/ |
@@ -1361,6 +1394,7 @@
 | to call | kal | /kal/ |
 | to carry | kari | /ka.ri/ |
 | to catch | katch | /katch/ |
+| to celebrate | selebra | /se.le.bra/ |
 | to check | chek | /tcek/ |
 | to choose | chuz | /chuz/ |
 | to chop | chopa | /cho.pa/ |
@@ -1450,6 +1484,7 @@
 | to look | luk | /luk/ |
 | to lose | luz | /luz/ |
 | to make | mak | /mak/ |
+| to marry | marri | /ma.ri/ |
 | to mean | min | /min/ |
 | to measure | meis | /meis/ |
 | to meet | mita | /mi.ta/ |
@@ -1564,6 +1599,7 @@
 | towel | taual | /tau.al/ |
 | towel | tuai | /tuai/ |
 | tower | tauer | /tau.er/ |
+| toy | play-tin | /play.tin/ |
 | tractor | traktor | /traktor/ |
 | trade | treid | /treid/ |
 | tradition | tradishon | /tra.di.shon/ |
@@ -1579,6 +1615,7 @@
 | tree | tre | /tre/ |
 | triangle | tri-korner | /tri.kor.ner/ |
 | trip | tripa | /tri.pa/ |
+| triumph / victory pride | win-praida | /win.prai.da/ |
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
@@ -1649,6 +1686,7 @@
 | wealth | rich-nes | /ritc.nes/ |
 | weapon | fajt-tool | /fait.tul/ |
 | website | webseit | /webseit/ |
+| wedding | marri-dei | /ma.ri.dei/ |
 | Wednesday | Wenzdei | /wens.dei/ |
 | weight | weia | /we.ia/ |
 | weight | weit | /weit/ |
@@ -1662,6 +1700,7 @@
 | where | wer | /wer/ |
 | which | wot | /wot/ |
 | whisper (soft voice) | soft-vois | /soft.vois/ |
+| white | blan | /blan/ |
 | who | hu | /hu/ |
 | whole / complete | komplita | /kom.pli.ta/ |
 | why | wai | /wai/ |
