@@ -45,7 +45,7 @@
 | # | English | VELA |
 |---|---------|------|
 | 21 | Help! | Help! |
-| 22 | Call a doctor! | Kol a doktr! |
+| 22 | Call a doctor! | Kol a dokter! |
 | 23 | I'm sick. | Mi es sik. |
 | 24 | Where is the hospital? | Wer es la sik-hous? |
 | 25 | Police! | Polis! |
@@ -150,7 +150,7 @@
 | 82 | I'm thirsty. | Mi es tirsti. |
 | 83 | Breakfast is ready. | Brekfast es redi. |
 | 84 | Lunch was good. | Lunch es gud. |
-| 85 | Dinner is at seven. | Dina es at sevn. |
+| 85 | Dinner is at seven. | Dina es at seven. |
 | 86 | Pass the salt. | Pas la solt. |
 | 87 | This is delicious. | Dis es delishus. |
 | 88 | I don't eat meat. | Mi no eat mit. |
@@ -213,7 +213,7 @@
 | klin | clean | Home | MEDIUM |
 | lait | light | Home | HIGH |
 | klos | close | Verb | MEDIUM |
-| opn | open | Verb | MEDIUM |
+| open | open | Verb | MEDIUM |
 | windo | window | Home | MEDIUM |
 | nain | nine | Number | HIGH |
 | ren-a | raining | Weather (verb form) | LOW |

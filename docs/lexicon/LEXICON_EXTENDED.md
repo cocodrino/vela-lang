@@ -207,7 +207,7 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **diagnoze** | /di.ag.no.ze/ | noun/verb | diagnosis / diagnose | adapted loan | La doktr diagnoze la siknes. |
+| **diagnoze** | /di.ag.no.ze/ | noun/verb | diagnosis / diagnose | adapted loan | La dokter diagnoze la siknes. |
 | **simtom** | /sim.tom/ | noun | symptom | adapted loan | Wat simtom yu hav? |
 | **kura** | /ku.ra/ | noun | treatment | adapted loan | La kura es long. |
 | **imuniiti** | /i.mu.nii.ti/ | noun | immunity | adapted loan | La vaksin bild imuniiti. |
@@ -215,7 +215,7 @@ These rules govern every word proposed in this document:
 | **anti-bodika** | /an.ti.bo.di.ka/ | noun | antibody | anti + body (+/a/) | La anti-bodika fajt la infekshon. |
 | **kron-sika** | /kron.si.ka/ | adj | chronic | chronic + sick (+/a/) | La kron-sika kondishon no go. |
 | **mental-helta** | /men.tal.hel.ta/ | noun | mental health | mental + health | Mental-helta es importent as bodi-healt. |
-| **anestezi** | /a.nes.te.zi/ | noun | anesthesia | adapted loan | La doktr giv anestezi bifor la sergeri. |
+| **anestezi** | /a.nes.te.zi/ | noun | anesthesia | adapted loan | La dokter giv anestezi bifor la sergeri. |
 | **sikoloji** | /si.ko.lo.ji/ | noun | psychology | adapted loan | La sikoloji stodi la maind. |
 | **terapia** | /te.ra.pia/ | noun | therapy | adapted loan | Mi go tu terapia evri wik. |
 | **doza** | /do.za/ | noun | dose | adapted loan (+/a/) | Tak tu doza evri dei. |
@@ -243,7 +243,7 @@ These rules govern every word proposed in this document:
 | **drum** | /drum/ | noun | drum | adapted loan | La drum mak big ritmo. |
 | **viulin** | /vi.u.lin/ | noun | violin | adapted loan | La viulin sonj es biju. |
 | **kor** | /kor/ | noun | choir | adapted loan | La kor sing at la god-hous. |
-| **nota-muzika** | /no.ta.mu.zi.ka/ | noun | musical note | note + music | La muzik hav sevn nota-muzika-n. |
+| **nota-muzika** | /no.ta.mu.zi.ka/ | noun | musical note | note + music | La muzik hav seven nota-muzika-n. |
 
 ### Visual Arts
 
@@ -336,7 +336,7 @@ These rules govern every word proposed in this document:
 | **diplomata** | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) | La diplomata negosiata for pis. |
 | **vota-po** | /vo.ta.po/ | noun | voter | vote + -po | La vota-po chuz la rul-po. |
 | **rul-po** | /rul.po/ | noun | governor | rule + -po | La rul-po of la rejon. |
-| **refom** | /re.fom/ | noun/verb | reform | adapted loan | La gvrnmnt refom la sistem. |
+| **refom** | /re.fom/ | noun/verb | reform | adapted loan | La goverment refom la sistem. |
 | **korpshon** | /kor.pshon/ | noun | corruption | adapted loan | La korpshon stop progress. |
 | **transparensa** | /trans.pa.ren.sa/ | noun | transparency | adapted loan (+/a/) | La transparensa bild trust. |
 | **negosiata** | /ne.go.si.a.ta/ | verb | negotiate | adapted loan (+/a/) | Wi negosiata un solushon. |
@@ -457,7 +457,7 @@ Proper nouns and highly culture-specific terms keep their original form:
 
 | Idiom | Literal | Meaning |
 |-------|---------|---------|
-| `La rivr no nof wer li go` | The river doesn't know where it goes | Don't overthink your path — keep moving |
+| `La river no nof wer li go` | The river doesn't know where it goes | Don't overthink your path — keep moving |
 | `Wan hand no kan klap` | One hand cannot clap | All achievements need others |
 | `La root mak la frut` | The root makes the fruit | Your foundations determine your outcomes |
 | `Nau es la mos long moment` | Now is the longest moment | The present is the only real time |

@@ -112,8 +112,8 @@
 | **tomoro** | /tomoro/ | tomorrow | Tomoro wi kom. | Tomorrow we come. |
 | **yestdei** | /jestdei/ | yesterday | Yestdei mi go a la siti. | Yesterday I went to the city. |
 | **oldei** | /oldei/ | always | Mi es hapi oldei. | I am always happy. |
-| **nevr** | /nevr/ | never | Li nevr kom. | She never comes. |
-| **ofn** | /ofn/ | often | Mi wok ofn. | I work often. |
+| **never** | /never/ | never | Li never kom. | She never comes. |
+| **ofen** | /ofen/ | often | Mi wok ofen. | I work often. |
 | **somtaim** | /somtaim/ | sometimes | Wi kom somtaim. | We come sometimes. |
 | **rarli** | /rar.li/ | rarely | Li wok rarli. | She rarely works. |
 | **sun** | /sun/ | soon | Wi kom sun. | We come soon. |
@@ -133,7 +133,7 @@
 | **Wenzdei** | /wens.dei/ | Wednesday |
 | **Terzdei** | /ters.dei/ | Thursday |
 | **Fraidei** | /frai.dei/ | Friday |
-| **Satrdei** | /satrs.dei/ | Saturday |
+| **Saterdei** | /satrs.dei/ | Saturday |
 | **Sandei** | /san.dei/ | Sunday |
 
 ### Months
@@ -148,10 +148,10 @@
 | **Juni** | /juni/ | June |
 | **Julai** | /julai/ | July |
 | **Agost** | /agost/ | August |
-| **Septembr** | /septembr/ | September |
-| **Octobr** | /oktobr/ | October |
-| **Novembr** | /novembr/ | November |
-| **Decembr** | /decembr/ | December |
+| **September** | /septembr/ | September |
+| **Oktober** | /oktobr/ | October |
+| **November** | /novembr/ | November |
+| **Desember** | /decembr/ | December |
 
 ---
 
@@ -197,11 +197,11 @@
 | **rul** | /rul/ | to travel | rul-a | rul-ed | rul-wil | Wi rul tu la naid. → We travel to the nation. |
 | **ran** | /ran/ | to run | ran-a | ran-ed | ran-wil | La man ran. → The man runs. |
 | **jamp** | /jamp/ | to jump | jamp-a | jamp-ed | jamp-wil | Li jamp over la bond. → She jumps over the bond. |
-| **swim** | /swim/ | to swim | swim-a | swim-ed | swim-wil | Wi swim in la rivr. → We swim in the river. |
-| **frai** | /frai/ | to fly | frai-a | frai-ed | frai-wil | La berd frai. → The bird flies. |
+| **swim** | /swim/ | to swim | swim-a | swim-ed | swim-wil | Wi swim in la river. → We swim in the river. |
+| **frai** | /frai/ | to flai | frai-a | frai-ed | frai-wil | La berd frai. → The bird flies. |
 | **folo** | /folo/ | to follow | folo-a | folo-ed | folo-wil | Mi folo yu. → I follow you. |
 | **bow** | /bou/ | to bend down | bow-a | bow-ed | bow-wil | Li bow tu pik la ting. → She bends to pick the thing. |
-| **ariv** | /ariv/ | to arrive | ariv-a | ariv-ed | ariv-wil | Wi ariv at sevn. → We arrive at seven. |
+| **ariv** | /ariv/ | to arrive | ariv-a | ariv-ed | ariv-wil | Wi ariv at seven. → We arrive at seven. |
 
 ### Actions and Work
 
@@ -217,7 +217,7 @@
 | **maki** | /ma.ki/ | to build | maki-a | maki-ed | maki-wil | De maki un hous. → They build a house. |
 | **repai** | /re.pa.i/ | to fix | repai-a | repai-ed | repai-wil | Mi repai la masin. → I fix the machine. |
 | **brak** | /brak/ | to break | brak-a | brak-ed | brak-wil | Li brak la glas. → She breaks the glass. |
-| **opn** | /opn/ | to open | opn-a | opn-ed | opn-wil | Mi opn la dor. → I open the door. |
+| **open** | /open/ | to open | open-a | open-ed | open-wil | Mi open la dor. → I open the door. |
 | **clos** | /klos/ | to close | klos-a | klos-ed | klos-wil | Yu klos la windo. → You close the window. |
 | **klian** | /klian/ | to clean | klian-a | klian-ed | klian-wil | Wi klian la hous. → We clean the house. |
 | **kuk** | /kuk/ | to cook | kuk-a | kuk-ed | kuk-wil | Mi kuk evriSandEI. → I cook every Sunday. |
@@ -243,9 +243,9 @@
 |------|-----|---------|---------|------|--------|---------|
 | **bilever** | /biliver/ | to believe | biliver-a | biliver-ed | biliver-wil | Mi biliver in yu. → I believe in you. |
 | **tink** | /tink/ | to think | tink-a | tink-ed | tink-wil | Mi tink so. → I think so. |
-| **remembr** | /remembr/ | to remember | remembr-a | remembr-ed | remembr-wil | Mi remembr wat yu tal. → I remember what you said. |
+| **remember** | /remember/ | to remember | remember-a | remember-ed | remember-wil | Mi remember wat yu tal. → I remember what you said. |
 | **forget** | /forget/ | to forget | forget-a | forget-ed | forget-wil | Mi forget evriwei. → I forget everywhere. |
-| **undrstand** | /undredstand/ | to understand | undrstand-a | undrstand-ed | undrstand-wil | Mi undrstand VELA. → I understand VELA. |
+| **understand** | /undredstand/ | to understand | understand-a | understand-ed | understand-wil | Mi understand VELA. → I understand VELA. |
 | **memoriz** | /memoriz/ | to memorize | memoriz-a | memoriz-ed | memoriz-wil | Mi memoriz la wod-en. → I memorize the words. |
 | **imajin** | /imajin/ | to imagine | imajin-a | imajin-ed | imajin-wil | Mi imajin la siti. → I imagine the city. |
 | **desid** | /desid/ | to decide | desid-a | desid-ed | desid-wil | Mi desid tu kom. → I decide to come. |
@@ -260,7 +260,7 @@
 | **hav** | /hav/ | to have | hav-a | hav-ed | hav-wil | Mi hav un kar. → I have a car. |
 | **giv** | /giv/ | to give | giv-a | giv-ed | giv-wil | Mi giv yu la buk. → I give you the book. |
 | **tek** | /tek/ | to take | tek-a | tek-ed | tek-wil | Yu tek la buk from mi. → You take the book from me. |
-| **send** | /send/ | to send | send-a | send-ed | send-wil | Mi send la letr. → I send the letter. |
+| **send** | /send/ | to send | send-a | send-ed | send-wil | Mi send la leter. → I send the letter. |
 | **resiv** | /resiv/ | to receive | resiv-a | resiv-ed | resiv-wil | Mi resiv la paket. → I receive the package. |
 | **share** | /sher/ | to share | share-a | share-ed | share-wil | Wi share la food. → We share the food. |
 | **trid** | /trad/ | to trade | trad-a | trad-ed | trad-wil | De trad wit es otfr. → They trade with each other. |
@@ -282,8 +282,8 @@
 | **kai** | /kai/ | to cry | kai-a | kai-ed | kai-wil | Baby kai. → Baby cries. |
 | **sing** | /sing/ | to sing | sing-a | sing-ed | sing-wil | Mi sing la sonj. → I sing the song. |
 | **dansi** | /dan.si/ | to dance | dansi-a | dansi-ed | dansi-wil | Wi dansi evri noite. → We dance every night. |
-| **ple** | /ple/ | to play | ple-a | ple-ed | ple-wil | La child ple in la gardn. → The child plays in the garden. |
-| **rit** | /rit/ | to write | rit-a | rit-ed | rit-wil | Mi rit la letr. → I write the letter. |
+| **ple** | /ple/ | to play | ple-a | ple-ed | ple-wil | La child ple in la garden. → The child plays in the garden. |
+| **rit** | /rit/ | to write | rit-a | rit-ed | rit-wil | Mi rit la leter. → I write the letter. |
 | **rid** | /rid/ | to read | rid-a | rid-ed | rid-wil | Mi rid la buk. → I read the book. |
 | **rava** | /ra.va/ | to draw | rava-a | rava-ed | rava-wil | La child rava la man. → The child draws the man. |
 | **kolori** | /ko.lo.ri/ | to paint | kolori-a | kolori-ed | kolori-wil | Mi kolori la wall. → I paint the wall. |
@@ -347,7 +347,7 @@
 | **wid** | /wid/ | wide | la wid strit | the wide street |
 | **naro** | /na.ro/ | narrow | la naro rod | the narrow road |
 | **deep** | /dip/ | deep | la deep wel | the deep well |
-| **shalo** | /sa.lo/ | shallow | la shalo rivr | the shallow river |
+| **shalo** | /sa.lo/ | shallow | la shalo river | the shallow river |
 | **tik** | /tik/ | thick | un tik buk | a thick book |
 | **tin** | /tin/ | thin | un tin paper | a thin paper |
 | **hevi** | /hevi/ | heavy | la hevi box | the heavy box |
@@ -387,7 +387,7 @@
 | **warm** | /warm/ | warm | la warm son | the warm sun |
 | **hot** | /hot/ | hot | la hot sup | the hot soup |
 | **kol** | /kol/ | cold | la kol win | the cold wind |
-| **kwikly** | /kwikli/ | quick | la kwikli man | the quick man |
+| **kwikli** | /kwikli/ | quick | la kwikli man | the quick man |
 | **sloli** | /sloli/ | slow | la sloli man | the slow man |
 | **louud** | /loud/ | loud | la loud nois | the loud noise |
 | **kwaiat** | /kwaiat/ | quiet | la kwaiat siti | the quiet city |
@@ -423,7 +423,7 @@
 | **gren** | /gren/ | green | la gren tri |
 | **yelo** | /jelo/ | yellow | la yelo sun |
 | **orange** | /oranj/ | orange | la orange frukt |
-| **purpl** | /purpl/ | purple | la purpl flauor |
+| **purpel** | /purpel/ | purple | la purpel flauor |
 | **grin** | /grin/ | gray | la grin wal |
 | **broun** | /braun/ | brown | la broun eirt |
 | **gol** | /gol/ | golden | la gol sun |
@@ -499,11 +499,11 @@
 | **skin** | /skin/ | skin | | La skin es soft. |
 | **blud** | /blud/ | blood | | La blud flo in bodi. |
 | **bon** | /bon/ | bone | | La bon es hardi. |
-| **miscl** | /miskl/ | muscle | | La miscl es strong. |
+| **muskul** | /miskl/ | muscle | | La muskul es strong. |
 | **brain** | /brein/ | brain | | La brain tink. |
 | **hert** | /hert/ | heart | | La hert bit. |
 | **stomok** | /stomok/ | stomach | | Mi-se stomok es hagri. |
-| **livr** | /livr/ | liver | | | 
+| **liver** | /liver/ | liver | | | 
 | **kidni** | /kidni/ | kidney | | 
 | **tung** | /tun/ | tongue | | La tung tas. |
 | **te** | /te/ | tooth/teeth | | Mi hav thirty-te. |
@@ -523,23 +523,23 @@
 | **baby** | /beibi/ | baby | | Un baby slip. |
 | **fren** | /fren/ | friend | | Mi-se fren es hapi. |
 | **paran** | /paran/ | parent | | Mi-se paran es old. |
-| **fatr** | /fatr/ | father | | Mi-se fatr es strong. |
-| **motr** | /motr/ | mother | | Mi-se motr es kwin. |
+| **fater** | /fater/ | father | | Mi-se fater es strong. |
+| **moter** | /moter/ | mother | | Mi-se moter es kwin. |
 | **son** | /son/ | son | | La son wok. |
 | **dafter** | /dofter/ | daughter | | La dafter lern. |
-| **brotr** | /brotr/ | brother | | Mi-se brotr es tall. |
+| **broter** | /broter/ | brother | | Mi-se broter es tall. |
 | **sisr** | /sistr/ | sister | | Mi-se sisr es smol. |
 | **granparan** | /granparan/ | grandparent | | La granparan es old. |
-| **granfatr** | /granfatr/ | grandfather | | Mi-se granfatr liv hier. |
-| **granmotr** | /granmotr/ | grandmother | | La granmotr kuk wel. |
-| **unkl** | /unkl/ | uncle | | 
+| **granfater** | /granfater/ | grandfather | | Mi-se granfater liv hier. |
+| **granmoter** | /granmoter/ | grandmother | | La granmoter kuk wel. |
+| **unkel** | /unkel/ | uncle | | 
 | **aunt** | /ant/ | aunt | | 
-| **kuzn** | /kuzn/ | cousin | | 
+| **kuzen** | /kuzen/ | cousin | | 
 | **nifaw** | /nifaw/ | nephew/niece | | 
 | **wif** | /waf/ | wife | | Mi-se wif es nais. |
 | **hasband** | /hasband/ | husband | | Mi-se hasband wok. |
-| **neibr** | /neibr/ | neighbor | | Mi-se neibr es fri. |
-| **ppl** | /pi.pi.el/ | people | pp-le = many persons | La ppl es big. |
+| **neiber** | /neiber/ | neighbor | | Mi-se neiber es fri. |
+| **pipel** | /pi.pi.el/ | people | pp-le = many persons | La pipel es big. |
 | **man-en** | /ma.nen/ | men / people | plural (man + -en) | De man-en wok. |
 | **wuman-en** | /wu.ma.nen/ | women | plural (wuman + -en) | Dese wuman-en es nais. |
 | **child-en** | /tchild.en/ | children | plural (child + -en) | Dese child-en ple. |
@@ -555,17 +555,17 @@ Social and legal entities (not professions):
 | **vilaj** | /vilaj/ | village | | La vilaj es smol. |
 | **naishon** | /naishon/ | nation | | La naishon es big. |
 | **kantri** | /kantri/ | country | | La kantri es beautiful. |
-| **gvrnmnt** | /gvnmnt/ | government | | La gvrnmnt mak lex-en. |
+| **goverment** | /gvnmnt/ | government | | La goverment mak lex-en. |
 | **lex** | /lex/ | law | | La lex es importent. |
 | **king** | /king/ | king | title (hereditary) | La king es rich. |
 | **kwain** | /kwain/ | queen | title (hereditary) | La kwain es beautiful. |
-| **citizn** | /sitizn/ | citizen | legal status | Mi es sitizn of la naishon. |
+| **sitizen** | /sitizn/ | citizen | legal status | Mi es sitizn of la naishon. |
 
 ### Professions — All Compound, Gender-Neutral
 
 | Word | AFI | English | Compound | Example |
 |------|-----|---------|----------|---------|
-| **doktr** | /doktor/ | doctor | *(atomic — Latin, universal)* | Mi go tu doktr. |
+| **dokter** | /doktor/ | doctor | *(atomic — Latin, universal)* | Mi go tu dokter. |
 | **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lern child-en. |
 | **stodi-po** | /stodi.po/ | student / learner | study-person | La stodi-po stodi evri dei. |
 | **sik-fix-po** | /sik.fik.po/ | doctor | fix-sick-person | La sik-fix-po fix la sik-nes. |
@@ -588,11 +588,11 @@ Social and legal entities (not professions):
 | **fis-kat-po** | /fis.kat.po/ | fisherman | fish-catch-person | La fis-kat-po kat fisi. |
 | **naid-rul-po** | /nait.rul.po/ | president | nation-rule-person | La naid-rul-po rul la naishon. |
 | **moni-keep-po** | /moni.kip.po/ | treasurer / accountant | money-keep-person | La moni-keep-po keep la moni. |
-| **fly-po** | /flai.po/ | pilot | fly-person | La fly-po kontrol la aereplan. |
+| **flai-po** | /flai.po/ | pilot | flai-person | La flai-po kontrol la aereplan. |
 | **mar-po** | /mar.po/ | sailor / mariner | sea-person | La mar-po sail la boto. |
 
 **Rule**: All professions are `[action]-po` = person who does the action. Transparent, gender-neutral, deducible.
-**Single exception**: `doktr` = doctor (Latin loan, universally recognized, in the ~150 atomic core).
+**Single exception**: `dokter` = doctor (Latin loan, universally recognized, in the ~150 atomic core).
 | **shart** | /shart/ | shirt | Mi wosh la shart. |
 | **shu** | /shu/ | shoe | Mi put on la shu. |
 | **hat** | /hat/ | hat | La man wer hat. |
@@ -605,7 +605,7 @@ Social and legal entities (not professions):
 | **skarf** | /skarf/ | scarf | Mi wer skarf. |
 | **belt** | /belt/ | belt | Mi hav belt. |
 | **tai** | /tai/ | tie | La man wer tai. |
-| **batn** | /batn/ | button | La shart hav batn. |
+| **baton** | /baton/ | button | La shart hav baton. |
 | **zipar** | /zi.par/ | zipper | La jakit hav zipar. |
 | **poket** | /po.ket/ | pocket | Mi put moni in poket. |
 | **kolar** | /ko.lar/ | collar | La shart hav kolar. |
@@ -636,9 +636,9 @@ Social and legal entities (not professions):
 | **kitcen** | /kitcen/ | kitchen | | Mi kuk in la kitcen. |
 | **baterom** | /baterom/ | bathroom | | Mi wosh in la baterom. |
 | **livrum** | /livrum/ | living room | | Wi tok in la livrum. |
-| **gardn** | /gardn/ | garden | | La child ple in la gardn. |
-| **dor** | /dor/ | door | | Mi opn la dor. |
-| **windo** | /windo/ | window | | La windo es opn. |
+| **garden** | /garden/ | garden | | La child ple in la garden. |
+| **dor** | /dor/ | door | | Mi open la dor. |
+| **windo** | /windo/ | window | | La windo es open. |
 | **wal** | /wal/ | wall | | La wal es wit. |
 | **flor** | /flor/ | floor | | La flor es klean. |
 | **seiling** | /seiling/ | ceiling | | La seiling es high. |
@@ -658,7 +658,7 @@ Social and legal entities (not professions):
 | **lern-hous** | /lern.haus/ | school | | Child-en go tu lern-hous. |
 | **ofis** | /ofis/ | office | | Mi wok in la ofis. |
 | **sik-hous** | /sik.haus/ | hospital | | Mi go tu sik-hous. |
-| **hotl** | /hotl/ | hotel | | Wi liv in la hotl. |
+| **hotel** | /hotel/ | hotel | | Wi liv in la hotel. |
 | **god-hous** | /god.haus/ | church | | Wi go tu la god-hous. |
 | **holi-hous** | /ho.li.haus/ | temple | | 
 | **moslem-hous** | /moz.lem.haus/ | mosque | | 
@@ -680,7 +680,7 @@ Social and legal entities (not professions):
 | **erd** | /erd/ | earth | | La erd es round. |
 | **lond** | /lond/ | land | | La lond es big. |
 | **mar** | /mar/ | sea / ocean | | Wi swim in la mar. |
-| **rivr** | /rivr/ | river | | La rivr flo. |
+| **river** | /river/ | river | | La river flo. |
 | **lek** | /lek/ | lake | | Wi swim in la lek. |
 | **mautin** | /mautin/ | mountain | | La mautin es high. |
 | **hil** | /hil/ | hill | | Wi climb la hil. |
@@ -734,13 +734,13 @@ Social and legal entities (not professions):
 | **maus** | /maus/ | mouse | | La maus es smol. |
 | **rat** | /rat/ | rat | | La rat es dirty. |
 | **frog** | /frog/ | frog | | La frog liv in la pond. |
-| **tartl** | /tar.tl/ | turtle | | La tartl es slo |
+| **tartel** | /tar.tl/ | turtle | | La tartel es slo |
 | **krokodail** | /kro.ko.dail/ | crocodile | | La krokodail es dangerus |
 | **shark** | /shark/ | shark | | La shark liv in la mar. |
 | **weil** | /weil/ | whale | | La weil es big. |
 | **dolfin** | /dol.fin/ | dolphin | | La dolfin es smart |
 | **pengwin** | /pen.gwin/ | penguin | | La pengwin es nais |
-| **igl** | /i.gl/ | eagle | | La igl flai hait |
+| **igel** | /i.gl/ | eagle | | La igel flai hait |
 | **hok** | /hok/ | hawk | | La hok katch mous. |
 | **aul** | /aul/ | owl | | La aul flai at nait. |
 | **krou** | /krou/ | crow | | La krou es blak. |
@@ -749,7 +749,7 @@ Social and legal entities (not professions):
 | **ant** | /ant/ | ant | | La ant wok hard. |
 | **spaidar** | /spai.dar/ | spider | | La spaidar mak web |
 | **moskito** | /mos.ki.to/ | mosquito | | La moskito bite |
-| **flai** | /flai/ | fly (insect) | | La flai es pest. |
+| **flai** | /flai/ | flai (insect) | | La flai es pest. |
 | **worm** | /worm/ | worm | | La worm liv in la soil. |
 | **sneil** | /sneil/ | snail | | La sneil es slo. |
 | **lizard** | /li.zard/ | lizard | | La lizard es cold |
@@ -786,7 +786,7 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **food** | /fud/ | food | | La food es gud. |
-| **appl** | /apel/ | apple | | Mi eat un appl. |
+| **apel** | /apel/ | apple | | Mi eat un apel. |
 | **banan** | /banan/ | banana | | 
 | **oranj** | /oranj/ | orange | | 
 | **grap** | /grap/ | grape | | 
@@ -794,14 +794,14 @@ Social and legal entities (not professions):
 | **strobri** | /strobri/ | strawberry | | 
 | **lemon** | /lemon/ | lemon | | 
 | **mang** | /mang/ | mango | | 
-| **watrmeln** | /watrmeln/ | watermelon | | 
+| **watre-melon** | /watre-melon/ | watermelon | | 
 | **frukt** | /frunkt/ | fruit | | Frukt es nais and helti. |
 | **frute** | /fru.te/ | fruit (atom form) | | Frute es nais and helthi. → Fruit is nice and healthy. |
 | **vegi** | /veji/ | vegetable | | 
 | **korn** | /korn/ | corn | | 
 | **ris** | /ris/ | rice | | 
 | **bred** | /bred/ | bread | | Mi eat bred. |
-| **mitn** | /mitn/ | meat | | Mi eat mitn. |
+| **miten** | /miten/ | meat | | Mi eat miten. |
 | **sisn** | /sisen/ | chicken | | 
 | **bef** | /bef/ | beef | | 
 | **porki** | /por.ki/ | pork | | 
@@ -809,15 +809,15 @@ Social and legal entities (not professions):
 | **egi** | /e.gi/ | egg | | Mi fried two egi-n. |
 | **milk** | /milk/ | milk | | La baby drink milk. |
 | **ces** | /tes/ | cheese | | 
-| **butr** | /butr/ | butter | | 
+| **buter** | /buter/ | butter | | 
 | **cream** | /kriam/ | cream | | 
 | **sup** | /sup/ | soup | | La sup es hot. |
 | **dina** | /di.na/ | dinner | | Wi eat dina at nait. → We eat dinner at night. |
 | **salad** | /salad/ | salad | | 
 | **salt** | /solt/ | salt | | 
-| **sugr** | /sukr/ | sugar | | 
+| **sugar** | /sukr/ | sugar | | 
 | **oil** | /oil/ | oil | | 
-| **vinegr** | /vinegr/ | vinegar | | 
+| **vinegar** | /vinegar/ | vinegar | | 
 | **spice** | /spais/ | spice | | 
 | **pepper** | /peper/ | pepper | | 
 | **kofi** | /kofi/ | coffee | | Mi drink kofi evri moring. |
@@ -838,7 +838,7 @@ Social and legal entities (not professions):
 | **kwatro** | /kwa.tro/ | 4 | **ten-kwatro** | /ten.kwa.tro/ | 14 |
 | **faiv** | /faiv/ | 5 | **ten-faiv** | /ten.faiv/ | 15 |
 | **siks** | /siks/ | 6 | **ten-siks** | /ten.siks/ | 16 |
-| **sevn** | /sevn/ | 7 | **ten-sevn** | /ten.sevn/ | 17 |
+| **seven** | /seven/ | 7 | **ten-seven** | /ten.seven/ | 17 |
 | **eit** | /eit/ | 8 | **ten-eit** | /ten.eit/ | 18 |
 | **nain** | /nain/ | 9 | **ten-nain** | /ten.nain/ | 19 |
 | | | | **tu-ten** | /tu.ten/ | 20 |
@@ -847,7 +847,7 @@ Social and legal entities (not professions):
 | | | | **kwatro-ten** | /kwa.tro.ten/ | 40 |
 | | | | **faiv-ten** | /faiv.ten/ | 50 |
 | | | | **siks-ten** | /siks.ten/ | 60 |
-| | | | **sevn-ten** | /sevn.ten/ | 70 |
+| | | | **seven-ten** | /seven.ten/ | 70 |
 | | | | **eit-ten** | /eit.ten/ | 80 |
 | | | | **nain-ten** | /nain.ten/ | 90 |
 | | | | **kent** | /kent/ | 100 |
@@ -888,7 +888,7 @@ Social and legal entities (not professions):
 | **pen** | /pen/ | pen | | Mi rit wit pen. |
 | **pensil** | /pensil/ | pencil | | 
 | **ink** | /ink/ | ink | | 
-| **postr** | /postr/ | poster | | 
+| **poster** | /poster/ | poster | | 
 | **notis** | /notis/ | notice | | 
 | **sain** | /sain/ | sign | | La sain es big. |
 | **map** | /map/ | map | | Mi luk at la map. |
@@ -904,7 +904,7 @@ Social and legal entities (not professions):
 | **radia** | /radia/ | radio | | Mi lisn tu la radia. |
 | **internet** | /internet/ | internet | | Wi komunikat via internet. |
 | **meil** | /meil/ | mail | | Mi resiv meil. |
-| **letr** | /letr/ | letter | | Mi rit un letr. |
+| **leter** | /leter/ | letter | | Mi rit un leter. |
 | **paket** | /paket/ | package | | Mi resiv un paket. |
 | **far-tok-box** | /far.tok.boks/ | telephone | | Mi kal on la far-tok-box. |
 | **mesij** | /mesij/ | message | | Mi send un mesij. |
@@ -968,7 +968,7 @@ Social and legal entities (not professions):
 | **plati** | /pla.ti/ | plate | | |
 | **glasi** | /gla.si/ | glass | | Mi drink watre from glasi. |
 | **kup** | /kup/ | cup | | Mi drink kofi from kup. |
-| **botl** | /botl/ | bottle | | |
+| **botel** | /botel/ | bottle | | |
 | **bagi** | /ba.gi/ | bag | | |
 | **boksi** | /bok.si/ | box | | |
 | **kontener** | /kontener/ | container | | |
@@ -977,9 +977,9 @@ Social and legal entities (not professions):
 | **umbrel** | /umbrel/ | umbrella | | Mi hold la umbrel in la rein. |
 
 | **skrin** | /skrin/ | screen | | Mi luk at la skrin. |
-| **kompiutr** | /kom.pi.utr/ | computer | kalkulato | Mi us kompiutr. |
-| **lapto** | /lap.to/ | laptop | kompiutr | Mi wok on lapto. |
-| **tablét** | /ta.blet/ | tablet | skrin | La tablét es flat. |
+| **kompiuter** | /kom.pi.utr/ | computer | kalkulato | Mi us kompiuter. |
+| **lapto** | /lap.to/ | laptop | kompiuter | Mi wok on lapto. |
+| **tablet** | /ta.blet/ | tablet | loan | La tablet es flat. |
 | **kibod** | /ki.bod/ | keyboard | | Mi tip on kibod. |
 | **monitar** | /mo.ni.tar/ | monitor | skrin | La monitar es big. |
 | **printar** | /prin.tar/ | printer | | Mi us printar. |
@@ -1030,7 +1030,7 @@ Social and legal entities (not professions):
 | **flod** | /flod/ | flood | La flod destroy. |
 | **vulkan** | /vul.kan/ | volcano | La vulkan erupt. |
 | **erkweik** | /er.kweik/ | earthquake | La erkweik shake la ground. |
-| **plastik** | /plas.tik/ | plastic | La botl es plastik. |
+| **plastik** | /plas.tik/ | plastic | La botel es plastik. |
 | **raba** | /ra.ba/ | rubber | La raba is soft. |
 | **konkrit** | /kon.krit/ | concrete | La bridj es konkrit. |
 | **simant** | /si.mant/ | cement | De us simant. |
@@ -1053,7 +1053,7 @@ Social and legal entities (not professions):
 | **truk** | /truk/ | truck | | |
 | **bis** | /bis/ | bus | | Wi go wit la bis. |
 | **trein** | /trein/ | train | | Wi travel by trein. |
-| **bikl** | /bikl/ | bicycle | | Mi rid la bikl. |
+| **baikel** | /baikel/ | bicycle | | Mi rid la baikel. |
 | **motorbaik** | /motorbaik/ | motorcycle | | |
 | **aereplan** | /aereplan/ | airplane | | Wi flai by aereplan. |
 | **ship** | /sip/ | ship | | Wi travl by ship. |
@@ -1062,13 +1062,13 @@ Social and legal entities (not professions):
 | **sik-fast-kar** | /sik.fast.kar/ | ambulance | | La sik-fast-kar kom fast. |
 | **polis-kar** | /polis.kar/ | police car | | |
 | **trein-stashon** | /trein.stashon/ | train station | | Wi asiv at la trein-stashon. |
-| **fly-ground** | /flai.graund/ | airport | | |
+| **flai-ground** | /flai.graund/ | airport | | |
 | **port** | /port/ | port | | |
 | **motorway** | /motorwei/ | motorway | | |
 | **gasi** | /ga.si/ | gasoline | | Mi bai gasi for la kar. |
 | **petrol** | /petrol/ | petrol | | |
 | **trafik** | /trafik/ | traffic | | La trafik es bizi. |
-| **pasengr** | /pasengr/ | passenger | | |
+| **pasenjer** | /pasenjer/ | passenger | | |
 
 ### Work and Business
 
@@ -1093,7 +1093,7 @@ Social and legal entities (not professions):
 | **konsumer** | /konsumer/ | consumer | | |
 | **product** | /product/ | product | | La product es gud. |
 | **brand** | /brand/ | brand | | |
-| **advrtais** | /advrtais/ | advertisement | | |
+| **advertais** | /advertais/ | advertisement | | |
 | **kastomer** | /kastomer/ | customer | | La kastomer es importent. |
 | **big-biznes** | /big.biz.nes/ | corporation | | |
 
@@ -1102,7 +1102,7 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **karta** | /kar.ta/ | constitution | | |
-| **elekshon** | /elekshon/ | election | | La elekshon es in Novembr. |
+| **elekshon** | /elekshon/ | election | | La elekshon es in November. |
 | **vote** | /vot/ | vote | | Mi vote for la naid-rul-po. |
 | **parti** | /parti/ | party (political) | | |
 | **kontri** | /kontri/ | country | | Mi kontri es Venesuela. |
@@ -1143,16 +1143,16 @@ Social and legal entities (not professions):
 | **fraktur** | /fraktur/ | fracture | | |
 | **sergeri** | /sergeri/ | surgery | | |
 | **medisin-shop** | /me.di.sin.sop/ | pharmacy | | Mi go tu medisin-shop. |
-| **medikl** | /medikl/ | medical | | |
+| **medikal** | /medikal/ | medical | | |
 | **bioloji** | /bioloji/ | biology | | |
 | **kimistri** | /kimistri/ | chemistry | | |
 | **fiziks** | /fiziks/ | physics | | |
 | **matamatiks** | /matamatiks/ | mathematics | | Mi lern matamatiks. |
-| **nombr** | /nombr/ | number | | Wan nomber es twenty. |
+| **nomber** | /nomber/ | number | | Wan nomber es twenty. |
 | **formul** | /formul/ | formula | | |
 | **eksperimnt** | /eksperimnt/ | experiment | | La sientist don eksperimnt. |
 | **teori** | /te.o.ri/ | theory | | |
-| **diskovr** | /diskovr/ | discovery | | La diskovr es importent. |
+| **diskover** | /diskover/ | discovery | | La diskover es importent. |
 | **technoloji** | /teknoloji/ | technology | | Technoloji es modern. |
 | **invenshon** | /invenshon/ | invention | | La invenshon change la waild. |
 | **intilijens** | /intelijens/ | intelligence | | Artficial intelijens es powerful. |
@@ -1176,8 +1176,8 @@ Social and legal entities (not professions):
 | **faiolr** | /faiolr/ | failure | | Faiolr es part of lerning. |
 | **progress** | /progress/ | progress | | Wi mak progress. |
 | **chang** | /tcainj/ | change | | La chang es rapid. |
-| **dificlti** | /dificlti/ | difficulty | | La dificlti es big. |
-| **oprtuniti** | /oportiuniti/ | opportunity | | La oprtuniti es big. |
+| **difikulti** | /difikulti/ | difficulty | | La difikulti es big. |
+| **oportuniti** | /oportiuniti/ | opportunity | | La oportuniti es big. |
 | **abilliti** | /abiliti/ | ability | | Mi abilliti es big. |
 | **power** | /pauer/ | power | | La power es strong. |
 | **respekt** | /respekt/ | respect | | Mi respet yu. |
@@ -1190,8 +1190,8 @@ Social and legal entities (not professions):
 | **speshal** | /speshal/ | special | | La dei es speshal. |
 | **comon** | /komon/ | common | | La problem es comon. |
 | **rar** | /rar/ | rare | | La oportuniti es rar. |
-| **imposibl** | /imposibl/ | impossible | | La task es imposible. |
-| **posibl** | /posibl/ | possible | | La plan es posibl. |
+| **imposibel** | /imposibel/ | impossible | | La task es imposible. |
+| **posibel** | /posibel/ | possible | | La plan es posibel. |
 | **nesesar** | /nesesar/ | necessary | | La wok es nesesari. |
 | **sufisent** | /sufisent/ | sufficient | | La moni es suficent. |
 | **exakt** | /eksakt/ | exact | | La ansr es exakt. |
@@ -1274,7 +1274,6 @@ This section shows complete example sentences demonstrating all grammar structur
 | **fini** | /fini/ | to finish | | Mi fini la wok. → I finish the work. |
 | **begin** | /begin/ | to begin | | La klas begin. → The class begins. |
 | **end** | /end/ | to end | | La film end. → The film ends. |
-| **open** | /open/ | to open | | Mi open la dor. → I open the door. |
 | **klos** | /klos/ | to close | | Mi klos la windo. → I close the window. |
 | **klin** | /klin/ | to clean | | Mi klin la rum. → I clean the room. |
 | **hit** | /hit/ | to hit | | La bal hit la wal. → The ball hits the wall. |
@@ -1342,7 +1341,7 @@ Mi no wok.               → I don't work.
 Yu no kom.               → You don't come.
 Li no si la man.         → She doesn't see the man.
 Wi no hav moni.          → We don't have money.
-De no undrstand.          → They don't understand.
+De no understand.          → They don't understand.
 ```
 
 **Modal verbs (kan/mas/wan + bare root):**
@@ -1393,7 +1392,7 @@ Mi si yu-se fren.             → I see your friend.
 ```
 Mi liv la siti-to.            → I live in the city.
 Wi wok la ofis-to.            → We work at the office.
-La bird fly la skai-te.       → The bird flies in the sky.
+La bird flai la skai-te.       → The bird flies in the sky.
 ```
 
 **Conditional (if... den...):**

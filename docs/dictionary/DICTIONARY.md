@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 1346. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 1345. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -13,7 +13,7 @@
 | abilliti | /abiliti/ |  | ability |  |  | Mi abilliti es big. |
 | abstraka | /abs.tra.ka/ | adj | abstract | adapted loan (+/a/) |  | La filosofi stodi abstraka idea-n. |
 | adapta | /a.dap.ta/ | verb | adapt | adapted loan (+/a/) |  | Lifa-tipa-n adapta to la natur. |
-| advrtais | /advrtais/ |  | advertisement |  |  |  |
+| advertais | /advertais/ |  | advertisement |  |  |  |
 | aereplan | /aereplan/ |  | airplane |  |  | Wi flai by aereplan. |
 | afred | /afred/ |  | afraid |  |  | Mi es afred. |
 | aft | /aft/ |  | after |  |  | Wi kom aft la wok. |
@@ -36,7 +36,7 @@
 | amnbasy | /ambasy/ |  | embassy |  |  |  |
 | and | /and/ |  | and |  |  | Mi si la man and la wuman. |
 | andar | /an.dar/ | noun | under |  |  | — |
-| anestezi | /a.nes.te.zi/ | noun | anesthesia | adapted loan |  | La doktr giv anestezi bifor la sergeri. |
+| anestezi | /a.nes.te.zi/ | noun | anesthesia | adapted loan |  | La dokter giv anestezi bifor la sergeri. |
 | angri | /angri/ |  | angry |  | bloka-angri | La man es angri. |
 | animal | /animal/ |  | animal |  |  |  |
 | ansr | /ansr/ | verb | to answer |  |  | Li ansr mi-se kwestion. → She answers my question. |
@@ -45,13 +45,13 @@
 | antisipashon | /an.ti.si.pa.shon/ | noun | anticipation |  |  | — |
 | ap | /ap/ | noun | up |  |  | — |
 | apdata | /ap.da.ta/ | verb | update | up + data adapted |  | Mi apdata la softwer. |
+| apel | /apel/ |  | apple |  |  | Mi eat un apel. |
 | apli-brija | /ap.li.bri.ja/ | noun | API | application + bridge |  | La apli-brija konekt la sistem-en. |
 | aplik | /ap.lik/ |  | application / app |  |  | Mi aplik es useful. |
-| appl | /apel/ |  | apple |  |  | Mi eat un appl. |
 | Aprim | /aprim/ |  | April |  |  |  |
 | aproximt | /aproksimat/ |  | approximate |  |  | La kalkulashon es aproximt. |
 | arauni | /a.rau.ni/ | noun | around |  |  | — |
-| ariv | /ariv/ | verb | to arrive |  |  | Wi ariv at sevn. → We arrive at seven. |
+| ariv | /ariv/ | verb | to arrive |  |  | Wi ariv at seven. → We arrive at seven. |
 | arm | /arm/ |  | arm |  |  | La arm es strong. |
 | army | /armi/ |  | army |  |  |  |
 | arond | /arond/ |  | around |  |  | Wi wok arond la siti. |
@@ -83,6 +83,7 @@
 | baflai | /ba.flai/ |  | butterfly |  |  | La baflai es biju. |
 | bagi | /ba.gi/ |  | bag |  |  |  |
 | bai | /bai/ | verb | to buy |  |  | Mi bai un hous. → I buy a house. |
+| baikel | /baikel/ |  | bicycle |  |  | Mi rid la baikel. |
 | bak | /bak/ |  | back |  |  | Mi-se bak es sik. |
 | baka-upa | /ba.ka.u.pa/ | noun/verb | backup | back + up (+/a/) |  | Mi mak baka-upa evri dei. |
 | baket | /ba.ket/ |  | bucket |  |  | La baket hav watre. |
@@ -97,7 +98,7 @@
 | bataflai | /ba.ta.flai/ |  | butterfly |  |  | La bataflai es biju |
 | bateri | /ba.te.ri/ |  | battery |  |  | La bateri es low. |
 | baterom | /baterom/ |  | bathroom |  |  | Mi wosh in la baterom. |
-| batn | /batn/ |  | button |  |  | La shart hav batn. |
+| baton | /baton/ |  | button |  |  | La shart hav baton. |
 | batrei | /batrei/ |  | battery |  |  | La batrei es low. |
 | batu | /batu/ | noun | button |  |  | — |
 | bech | /bitc/ |  | beach |  |  | Wi relaks on la bech. |
@@ -117,7 +118,6 @@
 | big-biznes | /big.biz.nes/ |  | corporation | big (big) + biznes (business) |  |  |
 | biga-afreda | /bi.ga.a.fre.da/ |  | panic | big + afraid |  | acute, overwhelming fear |
 | biju-mak-po | /biju.mak.po/ |  | artist | beauty-make-person |  | La biju-mak-po maki beautiful art. |
-| bikl | /bikl/ |  | bicycle |  |  | Mi rid la bikl. |
 | bikos | /bikos/ |  | because |  |  | Mi wok bikos mi wan moni. |
 | bil | /bil/ |  | bill |  |  | Mi pei la bil. |
 | bilau | /bi.lau/ | noun | below |  |  | — |
@@ -151,7 +151,7 @@
 | born | /born/ | verb | to be born |  |  | Mi born in 1990. → I was born in 1990. |
 | boro | /boro/ | verb | to borrow |  |  | Mi boro moni from mi-fren. → I borrow money from my friend. |
 | bot | /bot/ |  | but |  |  | Mi wok, bot mi es hapi. |
-| botl | /botl/ |  | bottle |  |  |  |
+| botel | /botel/ |  | bottle |  |  |  |
 | bow | /bou/ | verb | to bend down |  |  | Li bow tu pik la ting. → She bends to pick the thing. |
 | boy | /boi/ |  | boy |  |  | Un boy luk. |
 | brain | /brein/ |  | brain |  | brain-chipa, brain-neta | La brain tink. |
@@ -166,7 +166,7 @@
 | bright | /brait/ |  | bright |  |  | la bright son |
 | brit | /brit/ | verb | to breathe |  |  | Mi brit evri dei. → I breathe every day. |
 | brite | /bri.te/ |  | bright |  |  | la brite son |
-| brotr | /brotr/ |  | brother |  |  | Mi-se brotr es tall. |
+| broter | /broter/ |  | brother |  |  | Mi-se broter es tall. |
 | broun | /braun/ |  | brown |  |  | la broun eirt |
 | bruis | /bruis/ |  | bruise |  |  |  |
 | brum | /brum/ |  | broom |  |  | Mi us brum. |
@@ -174,9 +174,9 @@
 | buk | /buk/ |  | book | ← Latin: liber, recogn. |  | Mi rid la buk. |
 | buka-parta | /bu.ka.par.ta/ | noun | chapter | book + part (+/a/) |  | La buk hav tu-ten buka-parta-n. |
 | but | /but/ |  | boot |  |  | La but es warm. |
+| buter | /buter/ |  | butter |  |  |  |
 | buterflai | /buterflai/ |  | butterfly |  |  | butterfly |
 | buton | /buton/ |  | button |  |  | Mi push la buton. |
-| butr | /butr/ |  | butter |  |  |  |
 
 ## C
 
@@ -201,7 +201,6 @@
 | chipa | /chi.pa/ | noun | chip (silicon) | loan (+/a/) | brain-chipa, piktur-chipa | La chipa es smol and powerful. |
 | chokolat | /tokolat/ |  | chocolate |  |  | Mi love chokolat. |
 | chuz | /chuz/ |  | to choose |  |  | Yu chuz wan. → You choose one. |
-| citizn | /sitizn/ |  | citizen | legal status |  | Mi es sitizn of la naishon. |
 | clean | /klian/ |  | clean |  |  | la clean rum |
 | climat | /klimait/ |  | climate |  |  | La klimait es warm. |
 | clos | /klos/ | verb | to close |  |  | Yu klos la windo. → You close the window. |
@@ -228,7 +227,6 @@
 | de | /de/ | pronoun | they |  | de-se | De wok la ofis-to. |
 | de-se | /de.se/ |  | their / of them | de (they) + se |  | De liv de-se siti. |
 | dea | /dea/ | noun | debt |  |  | — |
-| Decembr | /decembr/ |  | December |  |  |  |
 | deep | /dip/ |  | deep |  |  | la deep wel |
 | dei | /dei/ |  | day |  | nau-dei | Nau-dei mi wok. |
 | delay | /de.lai/ |  | delay |  |  | La train hav delay. |
@@ -241,11 +239,12 @@
 | depa-sad | /de.pa.sad/ |  | melancholy | deep + sad |  | sustained sadness without clear cause |
 | deploy | /de.ploi/ | verb | deploy | adapted loan |  | Wi deploy la aplik. |
 | dese | /de.se/ |  | these |  |  | Dese man-en es strong. |
+| Desember | /decembr/ |  | December |  |  |  |
 | desid | /desid/ | verb | to decide |  |  | Mi desid tu kom. → I decide to come. |
 | det | /det/ |  | debt |  |  | Mi hav det. |
-| diagnoze | /di.ag.no.ze/ | noun/verb | diagnosis / diagnose | adapted loan |  | La doktr diagnoze la siknes. |
+| diagnoze | /di.ag.no.ze/ | noun/verb | diagnosis / diagnose | adapted loan |  | La dokter diagnoze la siknes. |
 | die | /dai/ | verb | to die |  |  | La man die. → The man dies. |
-| dificlti | /dificlti/ |  | difficulty |  |  | La dificlti es big. |
+| difikulti | /difikulti/ |  | difficulty |  |  | La difikulti es big. |
 | diksbri | /diksbri/ |  | dictionary |  |  | Mi luku in la diksbri. |
 | dina | /di.na/ |  | dinner |  |  | Wi eat dina at nait. → We eat dinner at night. |
 | diplomata | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) |  | La diplomata negosiata for pis. |
@@ -253,17 +252,17 @@
 | dis | /dis/ |  | this |  |  | Dis man es big. |
 | disaid | /disaid/ |  | to decide |  |  | Wi disaid nau. → We decide now. |
 | dishwoshar | /dish.wo.shar/ |  | dishwasher | masin |  | La dishwoshar klin. |
-| diskovr | /diskovr/ |  | discovery |  |  | La diskovr es importent. |
+| diskover | /diskover/ |  | discovery |  |  | La diskover es importent. |
 | dislik | /dislik/ | verb | to dislike |  |  | Mi dislik la test. → I dislike the taste. |
 | diti | /diti/ |  | dirty |  |  | la diti masin |
 | dizain | /di.zain/ | noun/verb | design | adapted loan |  | La dizain of la siti es nais. |
 | DNA | /de.en.a/ | noun | DNA | acronym — international |  | La DNA es la lifa-koda. |
 | dog | /dog/ |  | dog |  |  | Mi dog es big. |
-| doktr | /doktor/ |  | doctor | *(atomic — Latin, universal)* |  | Mi go tu doktr. |
+| dokter | /doktor/ |  | doctor | *(atomic — Latin, universal)* |  | Mi go tu dokter. |
 | dolfin | /dol.fin/ |  | dolphin |  |  | La dolfin es smart |
 | domain | /do.main/ | noun | domain | adapted loan |  | La domain es nais. |
 | don | /don/ | verb | to do |  |  | Mi don la wok. → I do the work. |
-| dor | /dor/ |  | door |  |  | Mi opn la dor. |
+| dor | /dor/ |  | door |  |  | Mi open la dor. |
 | dose | /do.se/ |  | those |  |  | Dose buk-en es mi-se. |
 | doza | /do.za/ | noun | dose | adapted loan (+/a/) |  | Tak tu doza evri dei. |
 | drai | /drai/ | verb | to dry |  |  | Mi drai la plet. → I dry the plate. |
@@ -298,7 +297,7 @@
 | eksperimnt | /eksperimnt/ |  | experiment |  |  | La sientist don eksperimnt. |
 | elefana | /e.le.fa.na/ | noun | elephant |  |  | — |
 | elefant | /e.le.fant/ |  | elephant |  |  | La elefant es big |
-| elekshon | /elekshon/ |  | election |  |  | La elekshon es in Novembr. |
+| elekshon | /elekshon/ |  | election |  |  | La elekshon es in November. |
 | elektrika | /e.lek.tri.ka/ | noun/adj | electricity / electric | adapted loan (+/a/) |  | La elektrika run la lamp. |
 | elektron | /e.lek.tron/ | noun | electron | adapted loan |  | La elektron orbit la atom. |
 | elementa | /e.le.men.ta/ | noun | element | adapted loan |  | La period-tebla hav 118 elementa-n. |
@@ -336,7 +335,7 @@
 | far-tok-box | /far.tok.boks/ |  | telephone | far (far) + tok (to speak) + box |  | Mi kal on la far-tok-box. |
 | fas | /fas/ |  | face |  | babi-fas | La fas es nais. |
 | fast | /fast/ |  | fast |  | sik-fast-kar | la fast kar |
-| fatr | /fatr/ |  | father |  |  | Mi-se fatr es strong. |
+| fater | /fater/ |  | father |  |  | Mi-se fater es strong. |
 | Februari | /februa.ri/ |  | February |  |  |  |
 | feit | /feit/ |  | faith |  |  | Mi hav feit. |
 | fel | /fel/ | verb | to feel |  | warm-fel | Mi fel hapi. → I feel happy. |
@@ -350,13 +349,13 @@
 | fish | /fis/ |  | fish |  |  | Wi katch fish. |
 | fisi | /fi.si/ |  | fish |  |  |  |
 | fiziks | /fiziks/ |  | physics |  |  |  |
-| flai | /flai/ |  | fly (insect) |  |  | La flai es pest. |
+| flai | /flai/ |  | flai (insect) |  | flai-ground, flai-po | La flai es pest. |
+| flai-ground | /flai.graund/ |  | airport | flai (flai (insect)) + ground |  |  |
+| flai-po | /flai.po/ |  | pilot | flai-person |  | La flai-po kontrol la aereplan. |
 | flauor | /flauor/ |  | flower |  |  | La flauor es nais. |
 | flod | /flod/ |  | flood |  |  | La flod destroy. |
 | floi | /floi/ | noun | flood |  |  | — |
 | flor | /flor/ |  | floor |  |  | La flor es klean. |
-| fly-ground | /flai.graund/ |  | airport | fly + ground |  |  |
-| fly-po | /flai.po/ |  | pilot | fly-person |  | La fly-po kontrol la aereplan. |
 | foki | /fo.ki/ | noun | fox |  |  | — |
 | foks | /foks/ |  | fox |  |  | La foks es smart. |
 | fol | /fol/ |  | fall / autumn |  | fol-forsa | La leaf-en fal in fol. |
@@ -376,7 +375,7 @@
 | foto | /foto/ |  | photo |  |  | Mi tak un foto. |
 | fotografi | /fo.to.gra.fi/ | noun | photography | adapted loan |  | Mi lern fotografi. |
 | fotosintesis | /fo.to.sin.te.sis/ | noun | photosynthesis | adapted loan |  | Plant-en don fotosintesis. |
-| frai | /frai/ | verb | to fly |  |  | La berd frai. → The bird flies. |
+| frai | /frai/ | verb | to flai |  |  | La berd frai. → The bird flies. |
 | Fraidei | /frai.dei/ |  | Friday |  |  |  |
 | fraktur | /fraktur/ |  | fracture |  |  |  |
 | fraug | /fraug/ |  | frog |  |  | La fraug liv in pond. |
@@ -399,7 +398,7 @@
 |------|-----|------|-----------|-----------|-----------|---------|
 | gain | /gain/ |  | profit / gain |  |  | La biznes mak gain. |
 | galaksi | /ga.lak.si/ | noun | galaxy | adapted loan |  | La Milki-Wei es un galaksi. |
-| gardn | /gardn/ |  | garden |  |  | La child ple in la gardn. |
+| garden | /garden/ |  | garden |  |  | La child ple in la garden. |
 | gasi | /ga.si/ |  | gasoline |  |  | Mi bai gasi for la kar. |
 | gerl | /gerl/ |  | girl |  |  | Un gerl sing. |
 | gitar | /gi.tar/ | noun | guitar | adapted loan |  | Mi plei gitar. |
@@ -414,9 +413,10 @@
 | gol | /gol/ |  | golden |  |  | la gol sun |
 | gorila | /go.ri.la/ |  | gorilla |  |  | La gorila es strong |
 | got | /got/ |  | goat |  |  | La got giv milk. |
+| goverment | /gvnmnt/ |  | government |  |  | La goverment mak lex-en. |
 | gramr | /gramr/ |  | grammar |  |  | VELA gramr es simpli. |
-| granfatr | /granfatr/ |  | grandfather |  |  | Mi-se granfatr liv hier. |
-| granmotr | /granmotr/ |  | grandmother |  |  | La granmotr kuk wel. |
+| granfater | /granfater/ |  | grandfather |  |  | Mi-se granfater liv hier. |
+| granmoter | /granmoter/ |  | grandmother |  |  | La granmoter kuk wel. |
 | granparan | /granparan/ |  | grandparent |  |  | La granparan es old. |
 | grap | /grap/ |  | grape |  |  |  |
 | gras | /gras/ |  | grass |  |  | La gras es green. |
@@ -429,7 +429,6 @@
 | gudbai | /gud.bai/ |  | goodbye |  |  | Gudbai! → Goodbye! |
 | gui | /gui/ | noun | goose |  |  | — |
 | gus | /gus/ |  | goose |  |  | La gus flai. |
-| gvrnmnt | /gvnmnt/ |  | government |  |  | La gvrnmnt mak lex-en. |
 
 ## H
 
@@ -480,7 +479,7 @@
 | hormon | /hor.mon/ | noun | hormone | adapted loan |  | La hormon kontrol la bodi. |
 | hors | /hors/ |  | horse |  |  | Wi rid la hors. |
 | hot | /hot/ |  | hot |  |  | la hot sup |
-| hotl | /hotl/ |  | hotel |  |  | Wi liv in la hotl. |
+| hotel | /hotel/ |  | hotel |  |  | Wi liv in la hotel. |
 | hou | /hou/ |  | how much |  |  | Hou big es la hous? |
 | hous | /haus/ |  | house |  | arta-hous, eat-hous, god-hous, holi-hous, lern-hous, mak-hous, maki-hous, moslem-hous, rul-mak-hous, shou-hous, sik-hous | La hous es big. |
 | houskel | /haus.kel/ |  | household | hous + kel (people of house) |  | La houskel hav five man-en. |
@@ -493,14 +492,14 @@
 | ide | /i.de/ | verb | idea |  |  | La ide es gret! → The idea is great! |
 | idea | /aidea/ |  | idea |  |  | La idea es simpli. |
 | if | /if/ |  | if |  |  | If yu kom, den mi es hapi. |
-| igl | /i.gl/ |  | eagle |  |  | La igl flai hait |
+| igel | /i.gl/ |  | eagle |  |  | La igel flai hait |
 | igol | /i.gol/ |  | eagle |  |  | La igol flai hait. |
 | ikualiti | /i.kua.li.ti/ |  | equality |  |  | La ikualiti es importent. |
 | iland | /iland/ |  | island |  |  |  |
 | imaj-nofa | /i.maj.no.fa/ | noun | image recognition | image + know (+/a/) |  | Imaj-nofa es powerful. |
 | imajin | /imajin/ | verb | to imagine |  |  | Mi imajin la siti. → I imagine the city. |
 | importent | /importent/ |  | important |  |  | la importent man |
-| imposibl | /imposibl/ |  | impossible |  |  | La task es imposible. |
+| imposibel | /imposibel/ |  | impossible |  |  | La task es imposible. |
 | imuniiti | /i.mu.nii.ti/ | noun | immunity | adapted loan |  | La vaksin bild imuniiti. |
 | in | /in/ |  | in |  | in-bodi, lowda-in | Mi liv in la siti. |
 | in-bodi | /in.bo.di/ |  | body modification | in (in) + bodi (body) |  |  |
@@ -619,7 +618,7 @@
 | komita | /ko.mi.ta/ | noun/verb | commit (git) | adapted loan (+/a/) |  | Mi komita la chang. |
 | kompail | /kom.pail/ | verb | compile | adapted loan |  | Mi kompail la koda. |
 | kompani | /kompani/ |  | company |  |  | La kompani es big. |
-| kompiutr | /kom.pi.utr/ |  | computer | kalkulato |  | Mi us kompiutr. |
+| kompiuter | /kom.pi.utr/ |  | computer | kalkulato |  | Mi us kompiuter. |
 | kompleksi | /kom.plek.si/ |  | complex |  |  | la kompleksi sistem |
 | kompounda | /kom.poun.da/ | noun | compound | adapted loan (+/a/) |  | Watre (H₂O) es un kompounda. |
 | kondishonár | /kon.di.sho.nar/ |  | air conditioner |  |  | La kondishonár es cool. |
@@ -661,14 +660,14 @@
 | kur | /kur/ |  | cure |  |  | La medisin kur la siknes. |
 | kura | /ku.ra/ | noun | treatment | adapted loan |  | La kura es long. |
 | kurius | /ku.ri.us/ |  | curious | adapted loan |  | active desire to know |
-| kuzn | /kuzn/ |  | cousin |  |  |  |
+| kuzen | /kuzen/ |  | cousin |  |  |  |
 | kwaiat | /kwaiat/ |  | quiet |  | kwaiat-hapi | la kwaiat siti |
 | kwaiat-hapi | /kwai.at.ha.pi/ |  | serenity | quiet + happy |  | calm, undisturbed contentment |
 | kwain | /kwain/ |  | queen | title (hereditary) |  | La kwain es beautiful. |
 | kwantuma | /kwan.tu.ma/ | noun/adj | quantum | adapted loan |  | La kwantuma fiziks es kompleks. |
 | kwatro | /kwa.tro/ |  | 4 |  | ten-kwatro |  |
 | kwik | /kwik/ | verb | to hurry |  |  | Mi kwik! |
-| kwikly | /kwikli/ |  | quick |  |  | la kwikli man |
+| kwikli | /kwikli/ |  | quick |  |  | la kwikli man |
 
 ## L
 
@@ -685,7 +684,7 @@
 | lamp | /lamp/ |  | lamp |  |  | La lamp shin. |
 | langwij | /langwii/ |  | language |  |  | VELA es nu langwij. |
 | laptap | /laptap/ |  | laptop |  |  |  |
-| lapto | /lap.to/ |  | laptop | kompiutr |  | Mi wok on lapto. |
+| lapto | /lap.to/ |  | laptop | kompiuter |  | Mi wok on lapto. |
 | law-keep-po | /lo.kip.po/ |  | police officer | law-keep-person |  | La law-keep-po keep la lex. |
 | law-speak-po | /lo.speak.po/ |  | lawyer | law-speak-person |  | La law-speak-po speak la lex. |
 | leder | /le.der/ |  | leather |  |  | La shu es leder. |
@@ -704,8 +703,8 @@
 | les | /les/ |  | less |  |  | Mi hav les. |
 | lesti | /les.ti/ |  | at least |  |  | Lest wan dei. |
 | let | /let/ |  | late |  |  | Mi kom let. |
+| leter | /leter/ |  | letter |  |  | Mi rit un leter. |
 | letning | /letning/ |  | lightning |  |  | La letning shain. |
-| letr | /letr/ |  | letter |  |  | Mi rit un letr. |
 | lex | /lex/ |  | law |  |  | La lex es importent. |
 | li | /li/ | pronoun | he/she/it |  | li-se | Li es hapi. |
 | li-se | /li.se/ |  | his/her/its / of him/her | li (he/she/it) + se |  | Li her li-se vois. |
@@ -717,7 +716,7 @@
 | limit | /li.mit/ |  | limit |  |  | La limit es der. |
 | lisen | /lisen/ | verb | to listen |  |  | Wi lisen a la muzik. → We listen to the music. |
 | liv | /liv/ | verb | to live |  |  | Wi liv la siti-to. → We live in the city. |
-| livr | /livr/ |  | liver |  |  |  |
+| liver | /liver/ |  | liver |  |  |  |
 | livrum | /livrum/ |  | living room |  |  | Wi tok in la livrum. |
 | lizard | /li.zard/ |  | lizard |  |  | La lizard es cold |
 | loda-balansa | /lo.da.ba.lan.sa/ | noun | load balancer | load + balance (+/a/) |  | La loda-balansa distribut la trafik. |
@@ -773,7 +772,7 @@
 | maus | /maus/ |  | mouse |  |  | La maus es smol. |
 | mautin | /mautin/ |  | mountain |  |  | La mautin es high. |
 | medi | /me.di/ |  | media |  |  | La medi shou niaz. |
-| medikl | /medikl/ |  | medical |  |  |  |
+| medikal | /medikal/ |  | medical |  |  |  |
 | medisin | /medisin/ |  | medicine / drug |  | medisin-shop | La medisin kure la siknes. |
 | medisin-shop | /me.di.sin.sop/ |  | pharmacy | medisin (medicine / drug) + shop (shop) |  | Mi go tu medisin-shop. |
 | meditashon | /me.di.ta.shon/ | noun/verb | meditation | adapted loan |  | Mi don meditashon evri moring. |
@@ -799,9 +798,8 @@
 | minut | /mi.nut/ |  | minute |  |  | Wi wait 10 minut. |
 | mirakla | /mi.rak.la/ | noun | miracle | adapted loan (+/a/) |  | La mirakla happen somtaim. |
 | mirar | /mi.rar/ |  | mirror |  |  | Mi luk in mirar. |
-| miscl | /miskl/ |  | muscle |  |  | La miscl es strong. |
+| miten | /miten/ |  | meat |  |  | Mi eat miten. |
 | miting | /miting/ |  | meeting |  |  | Wi hav miting at three. |
-| mitn | /mitn/ |  | meat |  |  | Mi eat mitn. |
 | mobil | /mobil/ |  | mobile |  |  | Mi fon es mobil. |
 | molkul | /mol.kul/ | noun | molecule | adapted loan |  | Tu atom-en bon to mak un molkul. |
 | momena | /mo.me.na/ | noun | moment |  |  | — |
@@ -819,13 +817,14 @@
 | moring | /moring/ |  | morning |  |  | Mi wok evri moring. |
 | moskito | /mos.ki.to/ |  | mosquito |  |  | La moskito bite |
 | moslem-hous | /moz.lem.haus/ |  | mosque | moslem + hous (house) |  |  |
+| moter | /moter/ |  | mother |  |  | Mi-se moter es kwin. |
 | motorbaik | /motorbaik/ |  | motorcycle |  |  |  |
 | motorway | /motorwei/ |  | motorway |  |  |  |
-| motr | /motr/ |  | mother |  |  | Mi-se motr es kwin. |
 | mous | /maus/ |  | mouth |  |  | La mous es smol. |
 | mud | /mud/ |  | mud |  |  | La shu es in mud. |
 | mui | /mui/ | noun | mud |  |  | — |
 | mural | /mu.ral/ | noun | mural | adapted loan |  | La mural kover la big wal. |
+| muskul | /miskl/ |  | muscle |  |  | La muskul es strong. |
 | muzik | /muzik/ |  | music |  | muzik-po | Mi lik la muzik. |
 | muzik-po | /muzik.po/ |  | musician | music-person |  | La muzik-po plei la muzik. |
 | muzika-bita | /mu.zi.ka.bi.ta/ | noun | beat (music unit) | music + bit (+/a/) |  | La drum plei la muzika-bita. |
@@ -855,13 +854,13 @@
 | need | /nid/ | verb | to need |  |  | Mi need hel. → I need help. |
 | neer | /neer/ |  | near |  |  | La lern-hous es neer la park. |
 | negosiata | /ne.go.si.a.ta/ | verb | negotiate | adapted loan (+/a/) |  | Wi negosiata un solushon. |
-| neibr | /neibr/ |  | neighbor |  |  | Mi-se neibr es fri. |
+| neiber | /neiber/ |  | neighbor |  |  | Mi-se neiber es fri. |
 | neklai | /neklai/ | noun | necklace |  |  | — |
 | neklas | /ne.klas/ |  | necklace |  |  | La wuman wer neklas. |
 | nesesar | /nesesar/ |  | necessary |  |  | La wok es nesesari. |
 | net | /net/ |  | network |  |  | `brain-neta`, `nettwerk` already in Phase 4 but inconsistent spelling |
 | nettwerk | /netwerk/ |  | network |  |  |  |
-| nevr | /nevr/ |  | never |  |  | Li nevr kom. |
+| never | /never/ |  | never |  |  | Li never kom. |
 | new | /nu/ |  | new |  |  | un new kar |
 | news-tak-po | /nuz.tak.po/ |  | journalist | news-take-person |  | La news-tak-po tak la news. |
 | newspaper | /nuspeiper/ |  | newspaper |  |  | Mi rid la newspaper evri moring. |
@@ -875,32 +874,31 @@
 | nof-hu | /nof.hu/ | verb | to know someone | nof (to know) + hu (who) |  | Mi nof-hu yu. → I know you. |
 | nof-nes | /nof.nes/ | noun | knowledge | know + -nes |  | La nof-nes kom from lern and eksperyens. |
 | noit | /noit/ |  | night |  |  | La star-en shine at noit. |
-| nombr | /nombr/ |  | number |  |  | Wan nomber es twenty. |
+| nomber | /nomber/ |  | number |  |  | Wan nomber es twenty. |
 | non-fikshon | /non.fik.shon/ | noun | non-fiction | non + fiction |  | La non-fikshon stor es tru. |
 | noon | /nun/ |  | noon |  |  | La sun es at top at noon. |
 | nora | /no.ra/ | noun | north |  |  | — |
 | normal | /normal/ |  | normal |  |  | La sitiuashon es normal. |
 | nos | /nos/ |  | nose |  |  | Mi nos es big. |
-| nota-muzika | /no.ta.mu.zi.ka/ | noun | musical note | note + music |  | La muzik hav sevn nota-muzika-n. |
+| nota-muzika | /no.ta.mu.zi.ka/ | noun | musical note | note + music |  | La muzik hav seven nota-muzika-n. |
 | notis | /notis/ |  | notice |  |  |  |
 | nour | /nauur/ |  | hour |  |  | Wan nour es sixty minimit-en. |
-| Novembr | /novembr/ |  | November |  |  |  |
+| November | /novembr/ |  | November |  |  |  |
 
 ## O
 
 | VELA | IPA | Cat. | Definition | Etymology | Compounds | Example |
 |------|-----|------|-----------|-----------|-----------|---------|
-| Octobr | /oktobr/ |  | October |  |  |  |
 | of | /of/ |  | of |  |  | La ofis of la siti. |
+| ofen | /ofen/ |  | often |  |  | Mi wok ofen. |
 | ofis | /ofis/ |  | office |  |  | Mi wok in la ofis. |
-| ofn | /ofn/ |  | often |  |  | Mi wok ofn. |
 | oil | /oil/ |  | oil |  |  |  |
+| Oktober | /oktobr/ |  | October |  |  |  |
 | old | /old/ |  | old |  |  | la old hous |
 | oldei | /oldei/ |  | always |  |  | Mi es hapi oldei. |
 | on | /on/ |  | on |  |  | La buk es on la tebul. |
-| open | /open/ |  | to open |  |  | Mi open la dor. → I open the door. |
-| opn | /opn/ | verb | to open |  |  | Mi opn la dor. → I open the door. |
-| oprtuniti | /oportiuniti/ |  | opportunity |  |  | La oprtuniti es big. |
+| open | /open/ | verb | to open |  |  | Mi open la dor. → I open the door. |
+| oportuniti | /oportiuniti/ |  | opportunity |  |  | La oportuniti es big. |
 | or | /or/ |  | or |  |  | Yu wan kom or no? |
 | orange | /oranj/ |  | orange |  |  | la orange frukt |
 | oranj | /oranj/ |  | orange |  |  |  |
@@ -929,7 +927,7 @@
 | park | /park/ |  | park |  |  | Wi wok in la park. |
 | parti | /parti/ |  | party (political) |  |  |  |
 | partikula | /par.ti.ku.la/ | noun | particle | adapted loan |  | La atom hav smol partikula-n. |
-| pasengr | /pasengr/ |  | passenger |  |  |  |
+| pasenjer | /pasenjer/ |  | passenger |  |  |  |
 | passport | /pasport/ |  | passport |  |  |  |
 | pasta-luva-pain | /pas.ta.lu.va.pein/ |  | nostalgia | past + love + pain |  | bittersweet longing for what was |
 | paswrd | /paswrd/ |  | password |  |  | Mi Paswrd es sekri. |
@@ -950,15 +948,16 @@
 | piktur-chipa | /pik.tur.chi.pa/ | noun | GPU | picture + chip (+/a/) |  | La piktur-chipa ren la grafik. |
 | pilgrimeja | /pil.gri.me.ja/ | noun | pilgrimage | adapted loan (+/a/) |  | De don pilgrimeja to la holi ples. |
 | pilow | /pi.low/ |  | pillow |  |  | Mi slip on pilow. |
+| pipel | /pi.pi.el/ |  | people | pp-le = many persons |  | La pipel es big. |
 | pis | /pis/ |  | peace |  |  | La pis es importent. |
 | plan | /plan/ | verb | to plan |  |  | Wi plan tu kom. → We plan to come. |
 | planite | /pla.ni.te/ | noun | planet | adapted loan |  | La Erd es un planite. |
 | plant | /plant/ |  | plant |  | plant-grow-po | Mi grow plant-en. |
 | plant-grow-po | /plant.grou.po/ |  | farmer | plant-grow-person |  | La plant-grow-po grow crop-en. |
 | plastii | /plas.tii/ | noun | plastic |  |  | — |
-| plastik | /plas.tik/ |  | plastic |  |  | La botl es plastik. |
+| plastik | /plas.tik/ |  | plastic |  |  | La botel es plastik. |
 | plati | /pla.ti/ |  | plate |  |  |  |
-| ple | /ple/ | verb | to play |  |  | La child ple in la gardn. → The child plays in the garden. |
+| ple | /ple/ | verb | to play |  |  | La child ple in la garden. → The child plays in the garden. |
 | plei | /ple.i/ | noun | place |  |  | — |
 | ples | /ples/ |  | place |  |  | Dis ples es nais. |
 | plise | /pli.se/ |  | please |  |  | Plise kom. → Please come. |
@@ -977,10 +976,9 @@
 | port | /port/ |  | port |  |  |  |
 | porta-konekta | /por.ta.ko.nek.ta/ | noun | port (USB etc.) | port + connect |  | Mi plog in la porta-konekta. |
 | portreta | /por.tre.ta/ | noun | portrait | adapted loan (+/a/) |  | La portreta es of la king. |
-| posibl | /posibl/ |  | possible |  |  | La plan es posibl. |
-| postr | /postr/ |  | poster |  |  |  |
+| posibel | /posibel/ |  | possible |  |  | La plan es posibel. |
+| poster | /poster/ |  | poster |  |  |  |
 | power | /pauer/ |  | power |  |  | La power es strong. |
-| ppl | /pi.pi.el/ |  | people | pp-le = many persons |  | La ppl es big. |
 | praii | /prai.i/ | noun | price |  |  | — |
 | prais | /prais/ |  | price |  |  | La prais es high. |
 | predika | /pre.di.ka/ | verb | predict | adapted loan (+/a/) |  | La modl predika la risolt. |
@@ -1007,7 +1005,7 @@
 | proud | /praud/ |  | proud |  |  | Li es proud. |
 | public | /publik/ |  | public |  |  | la public parks |
 | pul | /pul/ |  | to pull |  |  | Mi pul la rop. → I pull the rope. |
-| purpl | /purpl/ |  | purple |  |  | la purpl flauor |
+| purpel | /purpel/ |  | purple |  |  | la purpel flauor |
 | push | /push/ |  | to push |  |  | Mi push la dor. → I push the door. |
 
 ## R
@@ -1036,13 +1034,13 @@
 | reason | /rizon/ |  | reason |  |  | Wat es la reason? |
 | red | /red/ |  | red |  |  | la red rozs |
 | redi | /re.di/ |  | ready |  |  | Mi es redi. |
-| refom | /re.fom/ | noun/verb | reform | adapted loan |  | La gvrnmnt refom la sistem. |
+| refom | /re.fom/ | noun/verb | reform | adapted loan |  | La goverment refom la sistem. |
 | refrijerator | /re.fri.je.ra.tor/ |  | refrigerator |  |  | La food in refrijerator. |
 | refyuji | /re.fyu.ji/ | noun | refugee | adapted loan |  | La refyuji need hel. |
 | rein | /rein/ |  | rain |  |  | La rein fal. |
 | rekorda | /re.kor.da/ | noun | record (DB row) | adapted loan (+/a/) |  | La data-beis hav milyon rekorda-n. |
 | relijon | /re.li.jon/ |  | religion |  |  | La relijon is old. |
-| remembr | /remembr/ | verb | to remember |  |  | Mi remembr wat yu tal. → I remember what you said. |
+| remember | /remember/ | verb | to remember |  |  | Mi remember wat yu tal. → I remember what you said. |
 | repai | /re.pa.i/ | verb | to fix |  |  | Mi repai la masin. → I fix the machine. |
 | repositori | /re.po.si.to.ri/ | noun | repository | adapted loan |  | La koda es in la repositori. |
 | reserch | /risertc/ | verb | to research |  |  | Li reserch la sindei. → She researches the subject. |
@@ -1061,12 +1059,12 @@
 | risiv | /risiv/ |  | to receive |  |  | Mi risiv la paki. → I receive the package. |
 | risk | /risk/ |  | risk |  |  | La risk es big. |
 | risolt | /rizolt/ |  | result |  |  | La risolt es gud. |
-| rit | /rit/ | verb | to write |  |  | Mi rit la letr. → I write the letter. |
+| rit | /rit/ | verb | to write |  |  | Mi rit la leter. → I write the letter. |
 | ritan | /ritan/ |  | to return |  |  | Mi ritan tumoro. → I return tomorrow. |
 | riten | /riten/ |  | writing |  |  |  |
 | ritmo | /rit.mo/ | noun | rhythm | adapted loan |  | La ritmo of la sonj mak mi dansi. |
 | ritual | /ri.tu.al/ | noun | ritual | adapted loan |  | La ritual don evri yeer. |
-| rivr | /rivr/ |  | river |  |  | La rivr flo. |
+| river | /river/ |  | river |  |  | La river flo. |
 | robot | /robot/ |  | robot |  |  | La robot wok fast. |
 | robotiks | /robotiks/ |  | robotics |  |  |  |
 | rod | /rod/ |  | road |  |  | La rod es long. |
@@ -1101,7 +1099,7 @@
 | Sandei | /san.dei/ |  | Sunday |  |  |  |
 | sani | /sa.ni/ | noun | sand |  |  | — |
 | sarkis | /sarkis/ |  | thunder |  |  | La sarkis kom aft la rein. |
-| Satrdei | /satrs.dei/ |  | Saturday |  |  |  |
+| Saterdei | /satrs.dei/ |  | Saturday |  |  |  |
 | saua | /sau.a/ | noun | south |  |  | — |
 | saul | /saul/ | noun | soul |  |  | — |
 | sav | /sav/ |  | save |  |  | `klauda-sava`, `data-sav` |
@@ -1113,15 +1111,15 @@
 | sela-nofa | /se.la.no.fa/ | noun | consciousness | self + know (+/a/) |  | La sela-nofa es wat mak wi man. |
 | self | /self/ | reflexive | self |  |  | Mi si self. |
 | selu | /se.lu/ | noun | cell | Latin *cella* — universal |  | La bodi hav milyon selu-n. |
-| send | /send/ | verb | to send |  |  | Mi send la letr. → I send the letter. |
-| Septembr | /septembr/ |  | September |  |  |  |
+| send | /send/ | verb | to send |  |  | Mi send la leter. → I send the letter. |
+| September | /septembr/ |  | September |  |  |  |
 | seramik | /se.ra.mik/ |  | ceramic |  |  | La plait es seramik. |
 | sergeri | /sergeri/ |  | surgery |  |  |  |
 | serv | /serv/ | verb | to serve |  |  | Li serv la kofi. → She serves the coffee. |
 | server | /server/ |  | server |  |  |  |
-| sevn | /sevn/ |  | 7 |  | ten-sevn |  |
+| seven | /seven/ |  | 7 |  | ten-seven |  |
 | sey | /sei/ | verb | to say |  |  | Mi sey "helo". → I say "hello". |
-| shalo | /sa.lo/ |  | shallow |  |  | la shalo rivr |
+| shalo | /sa.lo/ |  | shallow |  |  | la shalo river |
 | share | /sher/ | verb | to share |  |  | Wi share la food. → We share the food. |
 | shari | /sha.ri/ | noun | shark |  |  | — |
 | shark | /shark/ |  | shark |  |  | La shark liv in la mar. |
@@ -1167,6 +1165,7 @@
 | sistem | /sistem/ |  | system |  |  | La sistem es kompleksi. |
 | sit | /sit/ |  | to sit |  |  | Mi sit hier. → I sit here. |
 | siti | /siti/ |  | city | ← Latin (urbs), recogn. |  | Wi liv la siti-to. |
+| sitizen | /sitizn/ |  | citizen | legal status |  | Mi es sitizn of la naishon. |
 | sityu | /situ/ |  | city (modern) |  |  |  |
 | siv | /siv/ | verb | to sieve / to filter |  |  | Sift flour from solit-partikl-en. → Sieve flour from solid particles. |
 | sizorz | /si.zorz/ |  | scissors |  |  | Mi us sizorz. |
@@ -1251,8 +1250,8 @@
 | struktur | /struk.tur/ |  | structure |  |  | La struktur es strong. |
 | sua | /sua/ | noun | suit |  |  | — |
 | sufisent | /sufisent/ |  | sufficient |  |  | La moni es suficent. |
+| sugar | /sukr/ |  | sugar |  |  |  |
 | sugest | /sugest/ | verb | to suggest |  |  | Mi sugest wat yu don. → I suggest what you do. |
-| sugr | /sukr/ |  | sugar |  |  |  |
 | sukses | /sukses/ |  | success |  |  | Sukses es gud. |
 | sun | /sun/ |  | soon |  |  | Wi kom sun. |
 | sup | /sup/ |  | soup |  |  | La sup es hot. |
@@ -1263,7 +1262,7 @@
 | sutkes | /sut.kes/ |  | suitcase |  |  | Mi pak la sutkes. |
 | swet | /swet/ | verb | to sweat |  |  | Mi swet aft la wok. → I sweat after the work. |
 | swic | /switc/ |  | switch |  |  | Mi push la swic. |
-| swim | /swim/ | verb | to swim |  |  | Wi swim in la rivr. → We swim in the river. |
+| swim | /swim/ | verb | to swim |  |  | Wi swim in la river. → We swim in the river. |
 | switsh | /switsh/ |  | switch |  |  | Mi pres la switsh. |
 | syens | /saiens/ |  | science |  |  | Syens es importent. |
 
@@ -1271,7 +1270,7 @@
 
 | VELA | IPA | Cat. | Definition | Etymology | Compounds | Example |
 |------|-----|------|-----------|-----------|-----------|---------|
-| tablét | /ta.blet/ |  | tablet | skrin |  | La tablét es flat. |
+| tablet | /ta.blet/ |  | tablet | loan |  | La tablet es flat. |
 | tai | /tai/ |  | tie |  |  | La man wer tai. |
 | taigar | /tai.gar/ |  | tiger |  |  | La taigar es fast |
 | taigor | /tai.gor/ |  | tiger |  |  | La taigor es fast. |
@@ -1280,7 +1279,7 @@
 | taks | /taks/ |  | tax |  |  | Mi pei taks. |
 | tal | /tal/ | verb | to tell |  |  | Yu tal mi wat yunof. → You tell me what you know. |
 | tall | /tol/ |  | tall |  |  | un tall man |
-| tartl | /tar.tl/ |  | turtle |  |  | La tartl es slo |
+| tartel | /tar.tl/ |  | turtle |  |  | La tartel es slo |
 | tas | /tas/ | verb | to taste |  |  | La supa tas-a gud. → The soup tastes good. |
 | tatu | /ta.tu/ | noun | turtle |  |  | — |
 | taual | /tau.al/ |  | towel |  |  | Mi drai wit taual. |
@@ -1294,12 +1293,12 @@
 | tek | /tek/ | verb | to take |  |  | Yu tek la buk from mi. → You take the book from me. |
 | tempa | /tem.pa/ | noun | tempo | adapted loan |  | La tempa of la sonj es fast. |
 | temperaturu | /tem.pe.ra.tu.ru/ |  | temperature |  |  | La temperaturu es hot. |
-| ten | /ten/ |  | 10 |  | ten-eit, ten-faiv, ten-kwatro, ten-nain, ten-sevn, ten-siks, ten-tu |  |
+| ten | /ten/ |  | 10 |  | ten-eit, ten-faiv, ten-kwatro, ten-nain, ten-seven, ten-siks, ten-tu |  |
 | ten-eit | /ten.eit/ |  | 18 | ten (10) + eit (8) |  |  |
 | ten-faiv | /ten.faiv/ |  | 15 | ten (10) + faiv (5) |  |  |
 | ten-kwatro | /ten.kwa.tro/ |  | 14 | ten (10) + kwatro (4) |  |  |
 | ten-nain | /ten.nain/ |  | 19 | ten (10) + nain (9) |  |  |
-| ten-sevn | /ten.sevn/ |  | 17 | ten (10) + sevn (7) |  |  |
+| ten-seven | /ten.seven/ |  | 17 | ten (10) + seven (7) |  |  |
 | ten-siks | /ten.siks/ |  | 16 | ten (10) + siks (6) |  |  |
 | ten-tu | /ten.tu/ |  | 12 | ten (10) + tu (2) |  |  |
 | teori | /te.o.ri/ |  | theory |  |  |  |
@@ -1349,10 +1348,10 @@
 | umbrel | /umbrel/ |  | umbrella |  |  | Mi hold la umbrel in la rein. |
 | umbrela | /um.bre.la/ |  | umbrella |  |  | Mi us ambrela in rein. |
 | un | /un/ |  | a/an (indefinite) |  |  | Un man kom. |
-| undrstand | /undredstand/ | verb | to understand |  |  | Mi undrstand VELA. → I understand VELA. |
+| understand | /undredstand/ | verb | to understand |  |  | Mi understand VELA. → I understand VELA. |
 | uniform | /u.ni.form/ |  | uniform |  |  | La polis wer uniform. |
 | universa | /u.ni.ver.sa/ | noun | universe | adapted loan (+/a/) |  | La universa es infinit. |
-| unkl | /unkl/ |  | uncle |  |  |  |
+| unkel | /unkel/ |  | uncle |  |  |  |
 | useful | /usful/ |  | useful |  |  | la useful tool |
 | useles | /usles/ |  | useless |  |  | la useles ting |
 
@@ -1367,7 +1366,7 @@
 | vibra | /vi.bra/ | verb/noun | vibrate / vibration | adapted loan (+/a/) |  | La string vibra and mak sonj. |
 | vidio | /vi.dio/ |  | video | movi |  | Wi wotch vidio. |
 | vilaj | /vilaj/ |  | village |  |  | La vilaj es smol. |
-| vinegr | /vinegr/ |  | vinegar |  |  |  |
+| vinegar | /vinegar/ |  | vinegar |  |  |  |
 | virtu | /vir.tu/ | noun | virtue | adapted loan — Latin |  | Patiens es un virtu. |
 | virus | /virus/ |  | virus |  |  | La virus es dangerus. |
 | viulin | /vi.u.lin/ | noun | violin | adapted loan |  | La viulin sonj es biju. |
@@ -1396,8 +1395,8 @@
 | warm-fel | /warm.fel/ |  | affection | warm + feel |  | gentle care for another |
 | warm-hapi | /warm.ha.pi/ |  | joy (radiant) | warm + happy |  | happiness that spreads to others |
 | wat | /wat/ |  | what |  |  | Wat yu lik? |
-| watre | /watre/ |  | water | ← international |  | Mi drink watre. |
-| watrmeln | /watrmeln/ |  | watermelon |  |  |  |
+| watre | /watre/ |  | water | ← international | watre-melon | Mi drink watre. |
+| watre-melon | /watre-melon/ |  | watermelon | watre (water) + melon |  |  |
 | wava | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) |  | Lait es un elektromagnetek wava. |
 | webseit | /webseit/ |  | website |  |  |  |
 | wei | /wei/ |  | way / path (abstract) |  |  | `motorwei`, directional idioms |
@@ -1423,7 +1422,7 @@
 | wil | /wil/ |  | will | wil + bare root |  | Mi wil kom. → I will come. |
 | win | /win/ |  | wine |  |  |  |
 | wind | /wind/ |  | wind |  |  | La wind blow. |
-| windo | /windo/ |  | window |  |  | La windo es opn. |
+| windo | /windo/ |  | window |  |  | La windo es open. |
 | winter | /winter/ |  | winter |  |  | La snow fal in winter. |
 | wit | /wit/ |  | with |  |  | Mi wok wit yu. |
 | wo | /wo/ |  | wave |  |  | La wo kom and go. |

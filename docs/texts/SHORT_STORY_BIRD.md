@@ -12,10 +12,10 @@
 ### Paragraph 1 — The Broken Voice
 
 **VELA:**
-In wan smol fores neer rivr, wan smol bird liv-ed in wan old wud tre. Evri morne sun raiz-ed, bird-en flai-ed ova gras and sing-ed brite sonj-en. Bot dis smol bird sit-ed kwaiet on branch and hier-ed dem. Wen li try-ed sing, li voys kom-ed brok and shak. Kraud bird-en turn-ed and si-ed li. Sam bird-en tok-ed, "Yu no sing-a, yu no flya sonj." Den dei laf-ed loud, and smol bird fiel-ed sad and smol insaid li hart.
+In wan smol fores neer river, wan smol bird liv-ed in wan old wud tre. Evri morne sun raiz-ed, bird-en flai-ed ova gras and sing-ed brite sonj-en. Bot dis smol bird sit-ed kwaiet on branch and hier-ed dem. Wen li try-ed sing, li voys kom-ed brok and shak. Kraud bird-en turn-ed and si-ed li. Sam bird-en tok-ed, "Yu no sing-a, yu no flya sonj." Den dei laf-ed loud, and smol bird fiel-ed sad and smol insaid li hart.
 
 **English:**
-In a small forest near a river, a little bird lived in an old wooden tree. Every morning the sun rose, birds flew over the grass and sang bright songs. But this little bird sat quietly on a branch and listened. When it tried to sing, its voice came out broken and shaking. The crowd of birds turned and saw it. Some birds said, “You do not sing, you cannot fly a song.” Then they laughed loudly, and the little bird felt sad and very small inside its heart.
+In a small forest near a river, a little bird lived in an old wooden tree. Every morning the sun rose, birds flew over the grass and sang bright songs. But this little bird sat quietly on a branch and listened. When it tried to sing, its voice came out broken and shaking. The crowd of birds turned and saw it. Some birds said, “You do not sing, you cannot flai a song.” Then they laughed loudly, and the little bird felt sad and very small inside its heart.
 
 ---
 
@@ -42,7 +42,7 @@ The owl said, “Little bird, why do you cry inside?” The bird said, “I did 
 ### Paragraph 4 — The Practice
 
 **VELA:**
-From den, evri morne bifor kraud bird-en awaik-ed, smol bird wake-ed wit sun first lait. Li go-ed tu rivr side, stand-ed on ston, and breth-ed deep. Li tink-ed about wind, about mat-en warm wing, about moon on watre, about pain and hop tugeter. Den li sing-ed wan not. Neks morne, tu not-en. Neks week, long sonj line. Sam day voys brok-ed agen, and li krei-ed. Bot li kontinyu-ed bikos owl tok-ed, "Pasi bring-a flauor from hard erd."
+From den, evri morne bifor kraud bird-en awaik-ed, smol bird wake-ed wit sun first lait. Li go-ed tu river side, stand-ed on ston, and breth-ed deep. Li tink-ed about wind, about mat-en warm wing, about moon on watre, about pain and hop tugeter. Den li sing-ed wan not. Neks morne, tu not-en. Neks week, long sonj line. Sam day voys brok-ed agen, and li krei-ed. Bot li kontinyu-ed bikos owl tok-ed, "Pasi bring-a flauor from hard erd."
 
 **English:**
 From then on, every morning before the crowd of birds awoke, the little bird woke with the first sunlight. It went to the riverside, stood on a stone, and breathed deeply. It thought about the wind, about its mother’s warm wing, about moonlight on water, about pain and hope together. Then it sang one note. The next morning, two notes. The next week, a longer line of song. Some days the voice broke again, and it cried. But it continued because the owl had said, “Patience brings a flower from hard earth.”
@@ -52,7 +52,7 @@ From then on, every morning before the crowd of birds awoke, the little bird wok
 ### Paragraph 5 — The Singing
 
 **VELA:**
-Wan kold morne storm pas-ed and skai turn-ed klin blu. Smol bird stand-ed on high branch. Li no plan-ed show. Li just fiel-ed hart full and open, so li sing-ed. Sonj kom-ed klia and warm, laik sun aft long nait. Not-en flai-ed ova fores, pas-ed rivr, and touch-ed leaf-en, ston-en, and watre. Bird-en stop-ed flai, stop-ed tok, and hier-ed. Even wind wait-ed. Even old tre seem-ed smile-ed in lait.
+Wan kold morne storm pas-ed and skai turn-ed klin blu. Smol bird stand-ed on high branch. Li no plan-ed show. Li just fiel-ed hart full and open, so li sing-ed. Sonj kom-ed klia and warm, laik sun aft long nait. Not-en flai-ed ova fores, pas-ed river, and touch-ed leaf-en, ston-en, and watre. Bird-en stop-ed flai, stop-ed tok, and hier-ed. Even wind wait-ed. Even old tre seem-ed smile-ed in lait.
 
 **English:**
 One cold morning, after a storm passed and the sky turned clear blue, the little bird stood on a high branch. It had not planned to perform. It simply felt its heart full and open, so it sang. The song came out clear and warm, like sunlight after a long night. The notes flew over the forest, passed the river, and touched leaves, stones, and water. Birds stopped flying, stopped talking, and listened. Even the wind waited. Even the old tree seemed to smile in the light.
@@ -110,7 +110,7 @@ Direct speech uses `" "` quotation marks, standard in VELA orthography. The tens
 
 ### Compound Usage
 The story uses descriptive compounds where clear:
-- `rivr side` (riverside) — transparent compound
+- `river side` (riverside) — transparent compound
 - `sun first lait` (first sunlight) — descriptive phrase
 - `dark tre` (dark tree) — adjective + noun
 

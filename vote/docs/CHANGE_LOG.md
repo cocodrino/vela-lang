@@ -9,8 +9,9 @@ Surfaced by `generate_dictionary.py`, applied via `scripts/clean_lexicon.py` (id
 - **Resolved homonyms:** `dai` (die/duck) → duck is now `duk`; `lai` (lie/luck) → luck is now `luki`. The basic verbs keep the short form.
 - **Merged spelling variant:** removed `mind` (pronounced /maind/ — violated write-as-you-speak); `maind` is canonical.
 - **Flagged, not changed:** `mini` /mi.ni/ glossed "mind" looks like a mis-gloss (should likely be "mini/small") — needs review.
+- **Pronounceability pass (`scripts/fix_pronounceability.py`)** — 54 words dropped the English schwa entirely, leaving an unreadable obstruent+sonorant cluster (`rivr`, `botl`, `opn`, `sevn`, `ppl`, `gvrnmnt`, months `Septembr`…). Restored the pure vowel so they read as they sound: `rivr→river`, `nevr→never`, `opn→open`, `sevn→seven`, `ppl→pipel`, `letr→leter`, `Septembr→September`, `watrmeln→watre-melon`, etc. (177 replacements across lexicons + corpus). This fixes a triple violation: write-as-you-speak, the schwa→pure-vowel rule, and (C)V.
 
-Lexicon now: **1347 unique entries**, clean base for vocabulary expansion.
+Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocabulary expansion.
 
 
 

@@ -151,7 +151,7 @@ So simpler version requires only 1 new word: `forti`.
 | # | English | VELA | Notes |
 |---|---------|------|-------|
 | 16 | Help! | **Help!** | ✅ Already in lexicon |
-| 17 | Call a doctor! | **Kol a doktr!** | `kol` = call. New. `doktr` = doctor. New? Wait, `doktr` — ends in /r/. Sonorant. Valid. But is it in lexicon? Check... |
+| 17 | Call a doctor! | **Kol a dokter!** | `kol` = call. New. `dokter` = doctor. New? Wait, `dokter` — ends in /r/. Sonorant. Valid. But is it in lexicon? Check... |
 | 18 | I'm sick. | **Mi es sik.** | `sik` = sick. New. |
 | 19 | Where is the hospital? | **Wer es la sik-hous?** | `sik-hous` = compound (house for sick). Valid per Quality Gate! |
 | 20 | Police! | **Polis!** | `polis` = police. New. Ends in /s/ → needs amendment: `polisi`. |

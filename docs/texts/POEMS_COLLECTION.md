@@ -103,7 +103,7 @@ Yu si-a mi wen day start-a low,
 yu tok-a gud wen world feel-a hevi.
 Mi hand hold-a yu hand in storm,
 and fraid go-a daun from mi hart.
-Wi wok-a long rivr at nait,
+Wi wok-a long river at nait,
 star and moon stay-a wit wi.
 Yu laugh-a, mi laugh-a, wind dansi-a,
 wi share-a bred, wi drink-a watre.
