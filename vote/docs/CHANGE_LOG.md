@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 6: Mind, Emotion & Personality (+36)
+
+Committee-reviewed + verified. Dropped dups (fil/plana/desaida to base fel/plan/desid; warm-fil to Fase 5 warm-fel). Phonologist wrongly rejected fil twice on the wrong spelling; verified the real root is fel. Gold-standard trait series emerged: hert (warm-hert=kind, kol-hert=cruel, strong-hert=courage, kwaiat-hert=serene) and maind (kwik-maind=smart, slo-maind, strong-maind); antonym pairs no-afred=brave, no-nais=rude, no-hop=despair. Dictionary 1553 to 1589, 0 duplicates, validator 0 errors. Progress: 1589 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 5: Society & Work (+37)
 
 Committee-reviewed + verified. Dropped dups (vota/serva/taksa/profita/sava/trada → existing vote/serv/taks/profit/sav/trid; smol-siti → vilaj) + redundant loans (koin/salari). Key verified fix: base "rul" = "to travel" (not rule) — backfilled "rula" = "to rule/govern", so government = rula-grup, election = rula-chuz. (Pre-existing inconsistency noted: rul-po / naid-rul-po misuse rul as "rule".) Highlights: no-fren=enemy, gud-giv/bad-giv, rich-nes/poor-nes, -po professions. Dictionary 1516 → 1553, 0 duplicates, validator 0 errors. Progress: **1553 / 3000**.

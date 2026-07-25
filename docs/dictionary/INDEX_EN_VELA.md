@@ -151,6 +151,7 @@
 | branch (git) | brancha | /bran.cha/ |
 | branch (of a tree) | tre-arm | /tre.arm/ |
 | brand | brand | /brand/ |
+| brave | no-afred | /no.a.fred/ |
 | bread | bred | /bred/ |
 | bridge | bridj | /brij/ |
 | bright | bright | /brait/ |
@@ -183,6 +184,7 @@
 | cache | kasha | /ka.sha/ |
 | cake | keik | /keik/ |
 | calendar | kalendár | /ka.len.dar/ |
+| calm | kalma | /kal.ma/ |
 | camel | kamal | /ka.mal/ |
 | camera | kamera | /kamera/ |
 | can | kan | /kan/ |
@@ -296,6 +298,7 @@
 | could | kan-ed | /kan.ed/ |
 | country | kantri | /kantri/ |
 | country | kontri | /kontri/ |
+| courage | strong-hert | /strong.hert/ |
 | court | kort | /kort/ |
 | cousin | kuzen | /kuzen/ |
 | cow | cau | /kau/ |
@@ -306,6 +309,7 @@
 | crocodile | krokodail | /kro.ko.dail/ |
 | crow | krau | /krau/ |
 | crow | krou | /krou/ |
+| cruel | kol-hert | /kol.hert/ |
 | crystal | kristal | /kris.tal/ |
 | culture | kultur | /kul.tur/ |
 | cup | kup | /kup/ |
@@ -334,6 +338,8 @@
 | desert | drai-lond | /drai.lond/ |
 | design | dizain | /di.zain/ |
 | desk | wok-tebul | /wok.te.bul/ |
+| despair | no-hop | /no.hop/ |
+| determined | strong-maind | /strong.maind/ |
 | devotion | depa-luva | /de.pa.lu.va/ |
 | dew | moring-watre | /mo.ring.wa.tre/ |
 | diagnosis / diagnose | diagnoze | /di.ag.no.ze/ |
@@ -397,6 +403,7 @@
 | engine | engin | /engin/ |
 | engineer | masin-fix-po | /ma.sin.fik.po/ |
 | environment | natur | /na.tur/ |
+| envy | envi | /en.vi/ |
 | equality | ikualiti | /i.kua.li.ti/ |
 | ethics | rait-rong-lern | /rait.rong.lern/ |
 | euphoria | topa-hapi | /to.pa.ha.pi/ |
@@ -475,8 +482,10 @@
 | gasoline | gasi | /ga.si/ |
 | gem | biju-ston | /bi.ju.ston/ |
 | gene | jen | /jen/ |
+| generous | open-hand | /open.hand/ |
 | genetic code | lifa-koda | /li.fa.ko.da/ |
 | genre | jenra | /jen.ra/ |
+| gentle | jentel | /jen.tel/ |
 | giraffe | jiraf | /ji.raf/ |
 | giraffe | jirau | /ji.rau/ |
 | girl | gerl | /gerl/ |
@@ -505,6 +514,7 @@
 | grape | grap | /grap/ |
 | grape | grepi | /gre.pi/ |
 | grass | gras | /gras/ |
+| gratitude | grati | /gra.ti/ |
 | gravity | fol-forsa | /fol.for.sa/ |
 | gray | grin | /grin/ |
 | great | grett | /gret/ |
@@ -513,6 +523,7 @@
 | group | grup | /grup/ |
 | guard | kip-po | /kip.po/ |
 | guard / watcher | luk-po | /luk.po/ |
+| guilt | gilta | /gil.ta/ |
 | guitar | gitar | /gi.tar/ |
 | gun | gan | /gan/ |
 | habit | habia | /ha.bia/ |
@@ -553,6 +564,7 @@
 | hippopotamus | hipo | /hi.po/ |
 | his/her/its / of him/her | li-se | /li.se/ |
 | home | hom | /hom/ |
+| honest | tru-tok | /tru.tok/ |
 | honey | honi | /ho.ni/ |
 | horizon | skai-lain | /skai.lain/ |
 | hormone | hormon | /hor.mon/ |
@@ -577,6 +589,7 @@
 | idea | idea | /aidea/ |
 | if | if | /if/ |
 | image recognition | imaj-nofa | /i.maj.no.fa/ |
+| imagination | maind-piktur | /maind.pik.tur/ |
 | immunity | imuniiti | /i.mu.nii.ti/ |
 | important | importent | /importent/ |
 | impossible | imposibel | /imposibel/ |
@@ -602,12 +615,14 @@
 | invention | invenshon | /invenshon/ |
 | IP address | IP-adresa | /ip.a.dre.sa/ |
 | iron | airon | /ai.ron/ |
+| irritable | fast-angri | /fast.an.gri/ |
 | island | iland | /iland/ |
 | island | mar-lond | /mar.lond/ |
 | jacket | jakia | /jakia/ |
 | jacket | jakit | /ja.kit/ |
 | January | Januari | /janua.ri/ |
 | jar | jara | /ja.ra/ |
+| jealous | jelus | /je.lus/ |
 | journalist | news-tak-po | /nuz.tak.po/ |
 | joy (radiant) | warm-hapi | /warm.ha.pi/ |
 | judge | juis | /juis/ |
@@ -625,6 +640,7 @@
 | key | key | /ki/ |
 | keyboard | kibod | /ki.bod/ |
 | kidney | kidni | /kidni/ |
+| kind | warm-hert | /warm.hert/ |
 | king | king | /king/ |
 | kitchen | kitcen | /kitcen/ |
 | knee | ni | /ni/ |
@@ -644,6 +660,7 @@
 | late | let | /let/ |
 | law | lex | /lex/ |
 | lawyer | law-speak-po | /lo.speak.po/ |
+| lazy | lazi | /la.zi/ |
 | leaf | folia | /fo.lia/ |
 | leather | leder | /le.der/ |
 | left | lefa | /le.fa/ |
@@ -706,6 +723,7 @@
 | meeting | miting | /miting/ |
 | melancholy | depa-sad | /de.pa.sad/ |
 | melody | melodi | /me.lo.di/ |
+| memory | memori | /me.mo.ri/ |
 | men / people | man-en | /ma.nen/ |
 | mental health | mental-helta | /men.tal.hel.ta/ |
 | message | mesaj | /me.saj/ |
@@ -779,6 +797,7 @@
 | neighbor | neiber | /neiber/ |
 | nephew/niece | nifaw | /nifaw/ |
 | nerve | nerva | /ner.va/ |
+| nervous | nervus | /ner.vus/ |
 | network | net | /net/ |
 | network | nettwerk | /netwerk/ |
 | neural network | brain-neta | /brein.ne.ta/ |
@@ -894,6 +913,7 @@
 | poetry | poetri | /po.et.ri/ |
 | police car | polis-kar | /polis.kar/ |
 | police officer | law-keep-po | /lo.kip.po/ |
+| polite | polaita | /po.lai.ta/ |
 | poor | poor | /pur/ |
 | popular | popular | /popiular/ |
 | pork | porki | /por.ki/ |
@@ -913,6 +933,7 @@
 | prevention | privent | /privent/ |
 | price | praii | /prai.i/ |
 | price | prais | /prais/ |
+| pride | praida | /prai.da/ |
 | printer | printar | /prin.tar/ |
 | prison | prison | /prison/ |
 | private | privat | /privat/ |
@@ -963,6 +984,7 @@
 | refuge | rifuj | /rifuj/ |
 | refugee | refyuji | /re.fyu.ji/ |
 | region | ridshon | /rid.shon/ |
+| relief / freedom-feeling | fri-fel | /fri.fel/ |
 | religion | god-wei | /god.wei/ |
 | religion | relijon | /re.li.jon/ |
 | repository | repositori | /re.po.si.to.ri/ |
@@ -994,6 +1016,7 @@
 | rope | ropi | /ro.pi/ |
 | rough | ruf | /ruf/ |
 | rubber | raba | /ra.ba/ |
+| rude | no-nais | /no.nais/ |
 | rug | rug | /rug/ |
 | rule | rule | /rul/ |
 | ruler / governor | rula-po | /ru.la.po/ |
@@ -1038,13 +1061,16 @@
 | seed | sida | /si.da/ |
 | self | self | /self/ |
 | self-supervised learning | auto-lern | /au.to.lern/ |
+| selfish / self-love | self-luva | /self.lu.va/ |
 | seller | sel-po | /sel.po/ |
 | September | September | /septembr/ |
+| serene | kwaiat-hert | /kwai.at.hert/ |
 | serenity | kwaiat-hapi | /kwai.at.ha.pi/ |
 | servant | servi-po | /ser.vi.po/ |
 | server | server | /server/ |
 | shadow | shado | /sha.do/ |
 | shallow | shalo | /sa.lo/ |
+| shame | shem | /shem/ |
 | shark | shari | /sha.ri/ |
 | shark | shark | /shark/ |
 | sheep | shep | /sep/ |
@@ -1081,7 +1107,9 @@
 | sleeve | sliv | /sliv/ |
 | slow | slo | /slo/ |
 | slow | sloli | /sloli/ |
+| slow-witted | slo-maind | /slo.maind/ |
 | small | smol | /smol/ |
+| smart / clever | kwik-maind | /kwik.maind/ |
 | smartphone | smaurtfon | /smartfon/ |
 | smoke | smoka | /smo.ka/ |
 | smooth | smud | /smud/ |
@@ -1263,6 +1291,7 @@
 | to dig | diga | /di.ga/ |
 | to dislike | dislik | /dislik/ |
 | to do | don | /don/ |
+| to doubt | douta | /dau.ta/ |
 | to drag | draga | /dra.ga/ |
 | to draw | rava | /ra.va/ |
 | to drink | drink | /drink/ |
@@ -1287,6 +1316,7 @@
 | to give | giv | /giv/ |
 | to go | go | /go/ |
 | to grow | grot | /grot/ |
+| to guess | gesa | /ge.sa/ |
 | to have | hav | /hav/ |
 | to heal | heal | /hial/ |
 | to hear | her | /her/ |
@@ -1299,6 +1329,7 @@
 | to hurry | hari | /hari/ |
 | to hurry | kwik | /kwik/ |
 | to imagine | imajin | /imajin/ |
+| to imagine | maind-mak | /maind.mak/ |
 | to invite | invait | /invait/ |
 | to join | joi | /joi/ |
 | to jump | jamp | /jamp/ |
@@ -1348,6 +1379,7 @@
 | to read | rid | /rid/ |
 | to receive | resiv | /resiv/ |
 | to receive | risiv | /risiv/ |
+| to reflect / ponder | dep-tink | /dep.tink/ |
 | to remember | remember | /remember/ |
 | to research | reserch | /risertc/ |
 | to rest | rest | /rest/ |
@@ -1396,6 +1428,7 @@
 | to touch | tucha | /tu.cha/ |
 | to trade | trid | /trad/ |
 | to travel | rul | /rul/ |
+| to trust | trasta | /tras.ta/ |
 | to try | trai | /trai/ |
 | to turn | turna | /tur.na/ |
 | to understand | understand | /undredstand/ |
@@ -1409,6 +1442,8 @@
 | to watch | wocha | /wo.cha/ |
 | to whisper | soft-tok | /soft.tok/ |
 | to wipe | waipa | /wai.pa/ |
+| to wish | wisha | /wi.sha/ |
+| to wonder | wanda | /wan.da/ |
 | to wrap | rapa | /ra.pa/ |
 | to write | rit | /rit/ |
 | today | nau-dei | /nau.dei/ |
@@ -1526,6 +1561,7 @@
 | wire | metal-stringa | /me.tal.strin.ga/ |
 | wire | wair | /wair/ |
 | wisdom | dep-nof | /dep.nof/ |
+| wise | wais | /wais/ |
 | with | wit | /wit/ |
 | wolf | wulf | /wulf/ |
 | wolf | wulu | /wu.lu/ |
