@@ -97,6 +97,7 @@
 | bag | bagi | /ba.gi/ |
 | bakery | bred-mak-hous | /bred.mak.haus/ |
 | ball | bol | /bol/ |
+| bamboo | bambu | /bam.bu/ |
 | banana | banan | /banan/ |
 | banana | banana | /ba.na.na/ |
 | bandage | wond-kover | /wond.ko.ver/ |
@@ -111,6 +112,7 @@
 | battery | bateri | /ba.te.ri/ |
 | battery | batrei | /batrei/ |
 | beach | bech | /bitc/ |
+| beak | bird-mous | /bird.maus/ |
 | bean | bin | /bin/ |
 | bear | ber | /ber/ |
 | beard | berd | /berd/ |
@@ -195,8 +197,10 @@
 | buyer | bai-po | /bai.po/ |
 | cable | kabel | /ka.bel/ |
 | cache | kasha | /ka.sha/ |
+| cactus | kaktus | /kak.tus/ |
 | cake | keik | /keik/ |
 | calendar | kalendár | /ka.len.dar/ |
+| calf | smol-cau | /smol.kau/ |
 | calm | kalma | /kal.ma/ |
 | camel | kamal | /ka.mal/ |
 | camera | kamera | /kamera/ |
@@ -327,6 +331,7 @@
 | cousin | kuzen | /kuzen/ |
 | cow | cau | /kau/ |
 | CPU / processor | brain-chipa | /brein.chi.pa/ |
+| crab | kraba | /kra.ba/ |
 | craft / handicraft | hand-art | /hand.art/ |
 | cream | cream | /kriam/ |
 | crime | krime | /kraim/ |
@@ -473,6 +478,7 @@
 | fast | fast | /fast/ |
 | fate | fait | /fait/ |
 | father | fater | /fater/ |
+| feather | bird-hair | /bird.her/ |
 | February | Februari | /februa.ri/ |
 | fence | fensa | /fen.sa/ |
 | festival | hapi-dei | /ha.pi.dei/ |
@@ -481,10 +487,12 @@
 | fiction | fikshon | /fik.shon/ |
 | fighter / warrior | fajt-po | /fait.po/ |
 | film / movie | film | /film/ |
+| fin | fish-arm | /fis.arm/ |
 | finger | fingar | /fingar/ |
 | fire | fai | /fai/ |
 | fish | fish | /fis/ |
 | fish | fisi | /fi.si/ |
+| fish / aquatic animal | watre-animal | /wa.tre.a.ni.mal/ |
 | fisherman | fis-kat-po | /fis.kat.po/ |
 | flag | flaga | /fla.ga/ |
 | flai (insect) | flai | /flai/ |
@@ -526,6 +534,7 @@
 | fullness | ful-nes | /ful.nes/ |
 | function | funkshon | /funk.shon/ |
 | funny | fani | /fa.ni/ |
+| fur | animal-hair | /a.ni.mal.her/ |
 | galaxy | galaksi | /ga.lak.si/ |
 | gallery | arta-hous | /ar.ta.haus/ |
 | game | gem | /gem/ |
@@ -630,6 +639,7 @@
 | honey | honi | /ho.ni/ |
 | horizon | skai-lain | /skai.lain/ |
 | hormone | hormon | /hor.mon/ |
+| horn | horna | /hor.na/ |
 | horse | hors | /hors/ |
 | hospital | sik-hous | /sik.haus/ |
 | hot | hot | /hot/ |
@@ -664,6 +674,7 @@
 | ink | ink | /ink/ |
 | input | inputa | /in.pu.ta/ |
 | insect | insect | /insect/ |
+| insect / flying creature | flai-animal | /flai.a.ni.mal/ |
 | inside | insaid | /insaid/ |
 | inside | inside | /in.said/ |
 | inspiration | inspir | /in.spir/ |
@@ -709,6 +720,7 @@
 | kind | warm-hert | /warm.hert/ |
 | king | king | /king/ |
 | kitchen | kitcen | /kitcen/ |
+| kitten | smol-kat | /smol.kat/ |
 | knee | ni | /ni/ |
 | knife | knafi | /kna.fi/ |
 | knife | naif | /naif/ |
@@ -847,6 +859,7 @@
 | mural | mural | /mu.ral/ |
 | muscle | muskul | /miskl/ |
 | museum | old-tin-hous | /old.tin.haus/ |
+| mushroom | mashrum | /mash.rum/ |
 | music | muzik | /muzik/ |
 | musical note | nota-muzika | /no.ta.mu.zi.ka/ |
 | musician | muzik-po | /muzik.po/ |
@@ -900,6 +913,7 @@
 | now | nau | /nau/ |
 | number | nomber | /nomber/ |
 | nurse | sik-help-po | /sik.help.po/ |
+| oak (tree) | oka | /o.ka/ |
 | October | Oktober | /oktobr/ |
 | of | of | /of/ |
 | office | ofis | /ofis/ |
@@ -950,6 +964,7 @@
 | passport | pasporta | /pas.por.ta/ |
 | passport | passport | /pasport/ |
 | password | paswrd | /paswrd/ |
+| paw | animal-fut | /a.ni.mal.fut/ |
 | peace | pis | /pis/ |
 | pen | pen | /pen/ |
 | pencil | pensil | /pensil/ |
@@ -963,6 +978,8 @@
 | period | perioi | /pe.ri.oi/ |
 | periodic table | period-tebla | /pe.ri.od.te.bla/ |
 | perspective | perspektiva | /per.spek.ti.va/ |
+| pet | hous-animal | /haus.a.ni.mal/ |
+| petal | petala | /pe.ta.la/ |
 | petrol | petrol | /petrol/ |
 | pharmacy | medisin-shop | /me.di.sin.sop/ |
 | phone | fon | /fon/ |
@@ -979,6 +996,7 @@
 | pillow | pilo | /pi.lo/ |
 | pillow | pilow | /pi.low/ |
 | pilot | flai-po | /flai.po/ |
+| pine tree | nidel-tre | /ni.del.tre/ |
 | pink | lait-red | /lait.red/ |
 | place | plei | /ple.i/ |
 | place | ples | /ples/ |
@@ -1044,6 +1062,7 @@
 | public | public | /publik/ |
 | pulse / heartbeat | hert-bit | /hert.bit/ |
 | punishment | bad-giv | /bad.giv/ |
+| puppy | smol-dog | /smol.dog/ |
 | purple | purpel | /purpel/ |
 | quantum | kwantuma | /kwan.tu.ma/ |
 | quarter | kwarta | /kwar.ta/ |
@@ -1108,8 +1127,10 @@
 | romance (story) | luva-stor | /lu.va.stor/ |
 | roof | rof | /rof/ |
 | room | rum | /rum/ |
+| root | plant-fut | /plant.fut/ |
 | rope | rope | /rop/ |
 | rope | ropi | /ro.pi/ |
+| rose | roza | /ro.za/ |
 | rough | ruf | /ruf/ |
 | round | raunda | /raun.da/ |
 | rubber | raba | /ra.ba/ |
@@ -1135,6 +1156,7 @@
 | sauce | sosi | /so.si/ |
 | save | sav | /sav/ |
 | saw | sawa | /sa.wa/ |
+| scale (fish) | fish-skin | /fis.skin/ |
 | scanner | skanar | /ska.nar/ |
 | scarf | skarf | /skarf/ |
 | scarf | skaru | /skaru/ |
@@ -1174,9 +1196,12 @@
 | shame | shem | /shem/ |
 | shark | shari | /sha.ri/ |
 | shark | shark | /shark/ |
+| shark | sharka | /shar.ka/ |
 | sheep | shep | /sep/ |
+| sheep | shipi | /shi.pi/ |
 | sheet | shit | /shit/ |
 | shelf | shelfa | /shel.fa/ |
+| shell | shel | /shel/ |
 | ship | ship | /sip/ |
 | shirt | shart | /shart/ |
 | shoe | shu | /shu/ |
@@ -1222,6 +1247,7 @@
 | smooth | smud | /smud/ |
 | snail | sneil | /sneil/ |
 | snake | snak | /snak/ |
+| snake | sneka | /sne.ka/ |
 | sneeze | snizi | /sni.zi/ |
 | so / therefore | so | /so/ |
 | soap | sop | /sop/ |
@@ -1259,6 +1285,7 @@
 | speech | spicha | /spi.cha/ |
 | speed | spida | /spi.da/ |
 | spice | spice | /spais/ |
+| spider | spaida | /spai.da/ |
 | spider | spaidar | /spai.dar/ |
 | spirit | spirit | /spi.rit/ |
 | spiritual | spiritu | /spi.ri.tu/ |
@@ -1272,6 +1299,7 @@
 | stairs | stair | /stair/ |
 | star | star | /star/ |
 | steam | stim | /stim/ |
+| stem / stalk | plant-bodi | /plant.bo.di/ |
 | step | stap | /stap/ |
 | stomach | stomok | /stomok/ |
 | stomachache | stomok-pain | /sto.mok.pein/ |
@@ -1321,6 +1349,7 @@
 | system | sistem | /sistem/ |
 | table | tebul | /tebul/ |
 | tablet | tablet | /ta.blet/ |
+| tail | tela | /te.la/ |
 | talkative / fast-talking | fast-tok | /fast.tok/ |
 | tall | tall | /tol/ |
 | tax | taki | /ta.ki/ |
@@ -1352,6 +1381,7 @@
 | thin | tin | /tin/ |
 | thirsty | torsti | /torsti/ |
 | this | dis | /dis/ |
+| thorn | torna | /tor.na/ |
 | those | dose | /do.se/ |
 | thought | tot | /tot/ |
 | thread | tredi | /tre.di/ |
@@ -1688,13 +1718,16 @@
 | website | webseit | /webseit/ |
 | wedding | marri-dei | /ma.ri.dei/ |
 | Wednesday | Wenzdei | /wens.dei/ |
+| weed | bad-plant | /bad.plant/ |
 | weight | weia | /we.ia/ |
 | weight | weit | /weit/ |
 | welcome | welkom | /wel.kom/ |
 | west | wesa | /we.sa/ |
 | wet | wet | /wet/ |
+| whale | big-fish | /big.fis/ |
 | whale | weil | /weil/ |
 | what | wat | /wat/ |
+| wheat / grain | bred-plant | /bred.plant/ |
 | wheel | roda | /ro.da/ |
 | when | wen | /wen/ |
 | where | wer | /wer/ |
@@ -1709,16 +1742,20 @@
 | width | wida | /wi.da/ |
 | width | widt | /widt/ |
 | wife | wif | /waf/ |
+| wild | wail | /wail/ |
+| wild animal | wail-animal | /wail.a.ni.mal/ |
 | will | wil | /wil/ |
 | wind | wind | /wind/ |
 | window | windo | /windo/ |
 | wine | win | /win/ |
+| wing | flai-arm | /flai.arm/ |
 | winter | winter | /winter/ |
 | wire | metal-stringa | /me.tal.strin.ga/ |
 | wire | wair | /wair/ |
 | wisdom | dep-nof | /dep.nof/ |
 | wise | wais | /wais/ |
 | with | wit | /wit/ |
+| wolf | wail-dog | /wail.dog/ |
 | wolf | wulf | /wulf/ |
 | wolf | wulu | /wu.lu/ |
 | woman | wuman | /wuman/ |
@@ -1730,6 +1767,7 @@
 | word | wod | /wod/ |
 | worker | wok-po | /wok.po/ |
 | world | waild | /waild/ |
+| worm | werma | /wer.ma/ |
 | worm | worm | /worm/ |
 | worry | tota-afreda | /to.ta.a.fre.da/ |
 | worship | goda-ador | /go.da.a.dor/ |

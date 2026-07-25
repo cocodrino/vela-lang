@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 11: Animals, Plants & Body Parts (+38)
+
+Committee-reviewed + verified (2 of 3 in time; validator covers phonotactics). Dropped oul and nait-bird (base already has aul AND auk for owl) plus redundant loans fer/fin (animal-hair/fish-arm win). Backfilled wail (wild). Fixed pain-tre to nidel-tre (verified pain=suffering; needle-tree). Gold: animal body-part series (flai-arm=wing, animal-fut=paw, bird-mous=beak, fish-skin=scale, plant-fut=root, plant-bodi=stem), smol- baby animals (puppy/kitten/calf), -animal categories (watre/flai/wail/hous-animal). Note flagged: base has many pre-existing animal duplicate spellings (butterfly x3, frog x3, owl x2) for a future cleanup. Dictionary 1746 to 1784, 0 duplicates, validator 0 errors. Progress: 1784 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 10: Arts, Culture, Games & Color (+39)
 
 Committee-reviewed + verified. Dropped dups (art-hous to arta-hous; grei to grin=gray; kolor-mak to kolori=paint). Fixed fait-stor to fajt-stor (verified fait means fate, fajt is fight) and sker-stor to afred-stor (sker undefined; afred=afraid). Kept gem=game (verified no gem=jewel homonym; jewel is biju-ston). Gold series: -dei (no-wok-dei=holiday, born-dei=birthday, marri-dei=wedding), -stor genres (luva-stor=romance, fajt-stor=action, afred-stor=scary, child-stor=fairytale), -wei (pipel-wei=culture, old-wei=tradition). Standout: pipel-wei captures the anthropological definition of culture in 2 roots. Dictionary 1707 to 1746, 0 duplicates, validator 0 errors. Progress: 1746 / 3000.
