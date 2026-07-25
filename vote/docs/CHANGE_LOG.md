@@ -2,7 +2,7 @@
 
 ## 2026-07-25 — Expansion Batch 5: Society & Work (+37)
 
-Committee-reviewed + verified. Dropped dups (vota/serva/taksa/profita/sava/trada → existing vote/serv/taks/profit/sav/trid; smol-siti → vilaj) + redundant loans (koin/salari). Key verified fix: base  = "to travel" (not rule) — backfilled  = "to rule/govern", so government=, election=. (Pre-existing inconsistency noted: / misuse rul as "rule".) Highlights: no-fren=enemy, gud-giv/bad-giv, rich-nes/poor-nes, -po professions. Dictionary 1516 → 1553, 0 duplicates, validator 0 errors. Progress: **1553 / 3000**.
+Committee-reviewed + verified. Dropped dups (vota/serva/taksa/profita/sava/trada → existing vote/serv/taks/profit/sav/trid; smol-siti → vilaj) + redundant loans (koin/salari). Key verified fix: base "rul" = "to travel" (not rule) — backfilled "rula" = "to rule/govern", so government = rula-grup, election = rula-chuz. (Pre-existing inconsistency noted: rul-po / naid-rul-po misuse rul as "rule".) Highlights: no-fren=enemy, gud-giv/bad-giv, rich-nes/poor-nes, -po professions. Dictionary 1516 → 1553, 0 duplicates, validator 0 errors. Progress: **1553 / 3000**.
 
 
 ## 2026-07-25 — Expansion Batch 4: Actions/Verbs (+39)
