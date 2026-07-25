@@ -1,5 +1,13 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 3: Body & Health (+33)
+
+Committee-reviewed (3 specialists), synthesized with verification. Dropped `breta`/`resta`/`healti` (existing `brit`/`rest`/`helti`); `kut-kur→sik-kur` (kut not in base); `chesta→hert-hous`. Kept `blud-lain`/`hert-bit` (verified `lain`/`bit` exist, against stale review claims). Gold-standard series: `big-fingar`=thumb, `fut-fingar`=toe, `blud-lain`=vein, `hot-sik`=fever, `hed-pain`=headache.
+
+**Systemic flag raised (morphologist, twice): /tʃ/ "ch" and /dʒ/ "j" are NOT in the 17-consonant inventory** (PHONOLOGY_FINAL §1). Yet ~19 `ch`-words and many `j`-words exist (jen, imaj, jara, oranja, chip…). Deferred `chin`/`chesta` pending a dedicated committee decision on whether VELA admits /tʃ/,/dʒ/ or maps them (e.g. ch→sh/ts, j→y/zh). **Dictionary 1444 → 1477, 0 duplicates, validator 0 errors.** Progress: **1477 / 3000**.
+
+
+
 ## 2026-07-25 — Expansion Batch 2: Home & Daily Life (+48)
 
 Same author-generates/committee-reviews pipeline. Improved prompts from batch-1 lessons: told the morphologist to verify every "X exists" claim, told the semanticist to use real/legal roots. All 3 specialists reviewed.

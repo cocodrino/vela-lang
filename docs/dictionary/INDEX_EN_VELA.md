@@ -52,6 +52,7 @@
 | anesthesia | anestezi | /a.nes.te.zi/ |
 | angry | angri | /angri/ |
 | animal | animal | /animal/ |
+| ankle | ankel | /an.kel/ |
 | ant | ant | /ant/ |
 | antibody | anti-bodika | /an.ti.bo.di.ka/ |
 | anticipation | antisipashon | /an.ti.si.pa.shon/ |
@@ -87,6 +88,7 @@
 | bag | bagi | /ba.gi/ |
 | banana | banan | /banan/ |
 | banana | banana | /ba.na.na/ |
+| bandage | wond-kover | /wond.ko.ver/ |
 | bank | bani | /ba.ni/ |
 | bank | bank | /bank/ |
 | bark | tre-skin | /tre.skin/ |
@@ -156,6 +158,7 @@
 | brother | broter | /broter/ |
 | brown | broun | /braun/ |
 | bruise | bruis | /bruis/ |
+| bruise | brusa | /bru.sa/ |
 | brush | brushi | /bru.shi/ |
 | bucket | baket | /ba.ket/ |
 | bucket | buketa | /bu.ke.ta/ |
@@ -213,6 +216,7 @@
 | chemical bond | kima-bonda | /ki.ma.bon.da/ |
 | chemical reaction | reakshon | /re.ak.shon/ |
 | chemistry | kimistri | /kimistri/ |
+| chest | hert-hous | /hert.haus/ |
 | chicken | sisn | /sisen/ |
 | child | child | /tcild/ |
 | children | child-en | /tchild.en/ |
@@ -281,6 +285,7 @@
 | cost | kosl | /kost/ |
 | costume | kostum | /kos.tum/ |
 | cotton | koton | /ko.ton/ |
+| cough | kofa | /ko.fa/ |
 | could | kan-ed | /kan.ed/ |
 | country | kantri | /kantri/ |
 | country | kontri | /kontri/ |
@@ -333,6 +338,7 @@
 | dirty | diti | /diti/ |
 | discovery | diskover | /diskover/ |
 | dishwasher | dishwoshar | /dish.wo.shar/ |
+| dizzy | dizi | /di.zi/ |
 | DNA | DNA | /de.en.a/ |
 | doctor | dokter | /doktor/ |
 | doctor | sik-fix-po | /sik.fik.po/ |
@@ -368,6 +374,7 @@
 | editor | editar | /e.di.tar/ |
 | effect | efect | /efect/ |
 | egg | egi | /e.gi/ |
+| elbow | elbo | /el.bo/ |
 | election | elekshon | /elekshon/ |
 | electricity / electric | elektrika | /e.lek.tri.ka/ |
 | electron | elektron | /e.lek.tron/ |
@@ -388,11 +395,13 @@
 | evolution | evolushon | /e.vo.lu.shon/ |
 | exact | exakt | /eksakt/ |
 | exciting | eksiting | /eksaiting/ |
+| exercise | bodi-wok | /bo.di.wok/ |
 | exhibition | shou-hous | /shou.haus/ |
 | existence | eksistensa | /eks.is.ten.sa/ |
 | expensive | expensive | /ekspensiv/ |
 | experiment | eksperimnt | /eksperimnt/ |
 | eye | ai | /ai/ |
+| eyebrow | ai-hair | /ai.her/ |
 | face | fas | /fas/ |
 | factory | mak-hous | /mak.haus/ |
 | failure | faiolr | /faiolr/ |
@@ -408,6 +417,7 @@
 | fate | fait | /fait/ |
 | father | fater | /fater/ |
 | February | Februari | /februa.ri/ |
+| fever | hot-sik | /hot.sik/ |
 | fiction | fikshon | /fik.shon/ |
 | film / movie | film | /film/ |
 | finger | fingar | /fingar/ |
@@ -510,16 +520,19 @@
 | hawk | hok | /hok/ |
 | he/she/it | li | /li/ |
 | head | head | /hed/ |
+| headache | hed-pain | /hed.pein/ |
 | health | healt | /helt/ |
 | healthy | helti | /hel.ti/ |
 | heart | hert | /hert/ |
 | heater | hitar | /hi.tar/ |
 | heavy | hevi | /hevi/ |
 | hedgehog | hejhog | /hej.hog/ |
+| heel | fut-bak | /fut.bak/ |
 | height | haia | /ha.ia/ |
 | height | hait | /hait/ |
 | hello | helo | /he.lo/ |
 | hill | hil | /hil/ |
+| hip | hipa | /hi.pa/ |
 | hippopotamus | haipo | /hai.po/ |
 | hippopotamus | hipo | /hi.po/ |
 | his/her/its / of him/her | li-se | /li.se/ |
@@ -598,6 +611,7 @@
 | kidney | kidni | /kidni/ |
 | king | king | /king/ |
 | kitchen | kitcen | /kitcen/ |
+| knee | ni | /ni/ |
 | knife | knafi | /kna.fi/ |
 | knife | naif | /naif/ |
 | knife | naiu | /na.iu/ |
@@ -632,6 +646,7 @@
 | line | lain | /lain/ |
 | lion | laigon | /lai.gon/ |
 | lion | laion | /lai.on/ |
+| lip | lipa | /li.pa/ |
 | liver | liver | /liver/ |
 | living room | livrum | /livrum/ |
 | lizard | lizard | /li.zard/ |
@@ -649,6 +664,7 @@
 | low | lo | /lo/ |
 | luck | lak | /lak/ |
 | luck | luki | /lu.ki/ |
+| lung | lunga | /lun.ga/ |
 | machine | masin | /masin/ |
 | machine learning | masin-lern | /ma.sin.lern/ |
 | magnet | magneta | /mag.ne.ta/ |
@@ -744,6 +760,7 @@
 | negotiate | negosiata | /ne.go.si.a.ta/ |
 | neighbor | neiber | /neiber/ |
 | nephew/niece | nifaw | /nifaw/ |
+| nerve | nerva | /ner.va/ |
 | network | net | /net/ |
 | network | nettwerk | /netwerk/ |
 | neural network | brain-neta | /brein.ne.ta/ |
@@ -796,6 +813,7 @@
 | owl | aul | /aul/ |
 | package | paket | /paket/ |
 | pain | pain | /pein/ |
+| palm (of hand) | palma | /pal.ma/ |
 | pan | pani | /pa.ni/ |
 | panda | panda | /pan.da/ |
 | panic | biga-afreda | /bi.ga.a.fre.da/ |
@@ -836,6 +854,7 @@
 | picture | piktur | /piktur/ |
 | pig | pig | /pig/ |
 | pilgrimage | pilgrimeja | /pil.gri.me.ja/ |
+| pill | pili | /pi.li/ |
 | pillow | pilo | /pi.lo/ |
 | pillow | pilow | /pi.low/ |
 | pilot | flai-po | /flai.po/ |
@@ -895,6 +914,7 @@
 | proud | proud | /praud/ |
 | psychology | sikoloji | /si.ko.lo.ji/ |
 | public | public | /publik/ |
+| pulse / heartbeat | hert-bit | /hert.bit/ |
 | purple | purpel | /purpel/ |
 | quantum | kwantuma | /kwan.tu.ma/ |
 | queen | kwain | /kwain/ |
@@ -910,6 +930,7 @@
 | RAM | woka-mem | /wo.ka.mem/ |
 | rare | rar | /rar/ |
 | rarely | rarli | /rar.li/ |
+| rash | skin-red | /skin.red/ |
 | rat | raa | /ra.a/ |
 | rat | rat | /rat/ |
 | ready | redi | /re.di/ |
@@ -931,6 +952,7 @@
 | result | risolt | /rizolt/ |
 | rhinoceros | raino | /rai.no/ |
 | rhythm | ritmo | /rit.mo/ |
+| rib | riba | /ri.ba/ |
 | rice | ris | /ris/ |
 | rich | rich | /ritc/ |
 | right | raia | /ra.ia/ |
@@ -1010,6 +1032,7 @@
 | shopping | shopping | /soping/ |
 | short | short | /sot/ |
 | should | shod | /sod/ |
+| shoulder | sholda | /shol.da/ |
 | shy | shy | /sai/ |
 | sick | sik | /sik/ |
 | sickness / disease | siknes | /siknes/ |
@@ -1039,6 +1062,7 @@
 | smooth | smud | /smud/ |
 | snail | sneil | /sneil/ |
 | snake | snak | /snak/ |
+| sneeze | snizi | /sni.zi/ |
 | so / therefore | so | /so/ |
 | soap | sop | /sop/ |
 | soap | sopi | /so.pi/ |
@@ -1083,6 +1107,7 @@
 | steam | stim | /stim/ |
 | step | stap | /stap/ |
 | stomach | stomok | /stomok/ |
+| stomachache | stomok-pain | /sto.mok.pein/ |
 | stone | ston | /ston/ |
 | storm | big-wind | /big.wind/ |
 | storm | storm | /storm/ |
@@ -1112,8 +1137,10 @@
 | sunshine | son-lait | /son.lait/ |
 | supernova | supernova | /su.per.no.va/ |
 | surgery | sergeri | /sergeri/ |
+| surgery | sik-kur | /sik.kur/ |
 | surprised | surprisd | /surprisd/ |
 | swamp | wet-lond | /wet.lond/ |
+| swelling | swela | /swe.la/ |
 | switch | swic | /switc/ |
 | switch | switsh | /switsh/ |
 | symbolism | simbolisma | /sim.bo.lis.ma/ |
@@ -1154,6 +1181,7 @@
 | those | dose | /do.se/ |
 | thought | tot | /tot/ |
 | thread | tredi | /tre.di/ |
+| thumb | big-fingar | /big.fin.gar/ |
 | thunder | sarkis | /sarkis/ |
 | thunder | skai-drum | /skai.drum/ |
 | Thursday | Terzdei | /ters.dei/ |
@@ -1312,6 +1340,7 @@
 | to wash | wosh | /wos/ |
 | to write | rit | /rit/ |
 | today | nau-dei | /nau.dei/ |
+| toe | fut-fingar | /fut.fin.gar/ |
 | tomato | tomata | /to.ma.ta/ |
 | tomorrow | tomoro | /tomoro/ |
 | tongue | tung | /tun/ |
@@ -1354,11 +1383,13 @@
 | useful | useful | /usful/ |
 | useless | useles | /usles/ |
 | vaccine | vacine | /vasin/ |
+| vaccine (formal) | vaksin | /vak.sin/ |
 | vacuum | vakum | /va.kum/ |
 | valley | lo-lond | /lo.lond/ |
 | value | valiu | /va.liu/ |
 | variable | chanja-tip | /chan.ja.tip/ |
 | vegetable | vegi | /veji/ |
+| vein | blud-lain | /blud.lain/ |
 | verse | poem-lain | /po.em.lain/ |
 | version | edi-shon | /e.di.shon/ |
 | vibrate / vibration | vibra | /vi.bra/ |
@@ -1376,6 +1407,7 @@
 | volcano | vulkan | /vul.kan/ |
 | vote | vote | /vot/ |
 | voter | vota-po | /vo.ta.po/ |
+| waist | waista | /wais.ta/ |
 | wall | wal | /wal/ |
 | wallet | walea | /walea/ |
 | wallet | walet | /wa.let/ |
@@ -1434,6 +1466,7 @@
 | worry | tota-afreda | /to.ta.a.fre.da/ |
 | worship | goda-ador | /go.da.a.dor/ |
 | wound | wond | /wond/ |
+| wrist | rista | /ris.ta/ |
 | writer | word-mak-po | /word.mak.po/ |
 | writing | riten | /riten/ |
 | wrong | rong | /rong/ |
