@@ -1,5 +1,17 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 1: Nature & Environment (+51)
+
+First vocabulary-expansion batch under the "author generates, committee reviews" model. Claude authored ~54 words → validator pre-filter → 3 Pi specialists reviewed (each read the repo first): semanticist (transparency), phonologist+aestheticist (sound/beauty), morphologist+lexicographer (structure/consistency).
+
+- **Synthesis with verification** — several morphologist fixes were stale/wrong and rejected after checking the actual lexicon (claimed `river`→`rivr` but we'd just fixed that; claimed `ais`/`daun` missing but they exist). Phonologist's `-lond → -londa` fixes were rejected as contradicting the ratified Option A (native roots grandfathered in compounds).
+- **Applied consensus** — `watre-lond → mar-lond` (island, not "wetland"); `morn → moring`; `jema → biju-ston` (transparent); dropped season compounds (samr/winter/spring/fol already exist) and `sanda`/`beri` (duplicates); backfilled gap roots `tre, lo, lain, rais`.
+- Result: `docs/lexicon/LEXICON_EXPANSION.md` (51 words), added to the validator + dictionary pipeline. **Dictionary 1345 → 1396 entries, 0 duplicates, validator 0 errors.**
+
+Progress: **1396 / 3000**.
+
+
+
 ## 2026-07-25 — Lexicon Cleanup (pre-expansion)
 
 Surfaced by `generate_dictionary.py`, applied via `scripts/clean_lexicon.py` (idempotent) + manual fixes. Verified: dictionary regenerated with **0 duplicate headwords**, phonotactic validator still **0 errors**.

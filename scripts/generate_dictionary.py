@@ -19,7 +19,8 @@ Prints a generation report (counts, duplicates, entries missing AFI/gloss).
 import re
 import sys
 
-SOURCES = ["docs/lexicon/LEXICON_BASE.md", "docs/lexicon/LEXICON_EXTENDED.md"]
+SOURCES = ["docs/lexicon/LEXICON_BASE.md", "docs/lexicon/LEXICON_EXTENDED.md",
+           "docs/lexicon/LEXICON_EXPANSION.md"]
 OUT_DIR = "docs/dictionary"
 
 FORMATION_KEYS = ("formation", "compound", "compound notes", "structure")

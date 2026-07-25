@@ -35,6 +35,7 @@ import sys
 DEFAULT_FILES = [
     "docs/lexicon/LEXICON_BASE.md",
     "docs/lexicon/LEXICON_EXTENDED.md",
+    "docs/lexicon/LEXICON_EXPANSION.md",
 ]
 
 VOWELS = set("aeiou")
@@ -141,7 +142,7 @@ def main(argv):
     findings = []  # (severity, rule, path, line_no, word, detail)
     total = 0
     for path in files:
-        strict = force if force is not None else ("EXTENDED" in path)
+        strict = force if force is not None else ("EXTENDED" in path or "EXPANSION" in path)
         tag = "NEW/strict" if strict else "legacy"
         count = 0
         for word, afi, line_no in parse(path):

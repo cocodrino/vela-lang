@@ -69,6 +69,7 @@
 | art | art | /art/ |
 | artificial | artficial | /artficial/ |
 | artist | biju-mak-po | /biju.mak.po/ |
+| ash | asha | /a.sha/ |
 | asteroid | asteroida | /as.te.roi.da/ |
 | astronaut | astronauta | /as.tro.nau.ta/ |
 | at | at | /at/ |
@@ -87,6 +88,7 @@
 | banana | banan | /banan/ |
 | bank | bani | /ba.ni/ |
 | bank | bank | /bank/ |
+| bark | tre-skin | /tre.skin/ |
 | base / alkaline | alkalin | /al.ka.lin/ |
 | bat | baet | /baet/ |
 | bat (animal) | bat | /bat/ |
@@ -139,6 +141,7 @@
 | brain | brain | /brein/ |
 | brain | brein | /brein/ |
 | branch (git) | brancha | /bran.cha/ |
+| branch (of a tree) | tre-arm | /tre.arm/ |
 | brand | brand | /brand/ |
 | bread | bred | /bred/ |
 | bridge | bridj | /brij/ |
@@ -152,6 +155,7 @@
 | building | maki-hous | /ma.ki.haus/ |
 | bulb | balb | /balb/ |
 | bus | bis | /bis/ |
+| bush | smol-tre | /smol.tre/ |
 | business | biznes | /biznes/ |
 | busy | bizi | /bizi/ |
 | but | bot | /bot/ |
@@ -176,6 +180,7 @@
 | carpet | karpet | /kar.pet/ |
 | cat | kat | /kat/ |
 | cause | caus | /kauz/ |
+| cave | ston-hol | /ston.hol/ |
 | ceiling | seiling | /seiling/ |
 | cell | selu | /se.lu/ |
 | cement | simana | /si.ma.na/ |
@@ -221,6 +226,7 @@
 | cloud | kloud | /klaud/ |
 | cloud | kraud | /kraud/ |
 | cloud storage | klauda-sava | /klau.da.sa.va/ |
+| coal | blak-ston | /blak.ston/ |
 | coat | koa | /koa/ |
 | coat | kot | /kot/ |
 | code (source) | koda | /ko.da/ |
@@ -258,6 +264,7 @@
 | continent | kantin | /kantin/ |
 | contract | kontract | /kontract/ |
 | conversation | kom-tok | /kom.tok/ |
+| copper | kopa | /ko.pa/ |
 | corn | korn | /korn/ |
 | corporation | big-biznes | /big.biz.nes/ |
 | corruption | korpshon | /kor.pshon/ |
@@ -277,6 +284,7 @@
 | crocodile | krokodail | /kro.ko.dail/ |
 | crow | krau | /krau/ |
 | crow | krou | /krou/ |
+| crystal | kristal | /kris.tal/ |
 | culture | kultur | /kul.tur/ |
 | cup | kup | /kup/ |
 | cure | kur | /kur/ |
@@ -300,8 +308,10 @@
 | democracy | demokrasi | /de.mo.kra.si/ |
 | deploy | deploy | /de.ploi/ |
 | depth | dep | /dep/ |
+| desert | drai-lond | /drai.lond/ |
 | design | dizain | /di.zain/ |
 | devotion | depa-luva | /de.pa.lu.va/ |
+| dew | moring-watre | /mo.ring.wa.tre/ |
 | diagnosis / diagnose | diagnoze | /di.ag.no.ze/ |
 | dictionary | diksbri | /diksbri/ |
 | difficulty | difikulti | /difikulti/ |
@@ -340,6 +350,7 @@
 | earthquake | ert-kweik | /er.kweik/ |
 | east | isa | /i.sa/ |
 | easy | eas | /iz/ |
+| eclipse | son-bloka | /son.blo.ka/ |
 | economy | ekonomi | /e.ko.no.mi/ |
 | ecosystem | eko-sistam | /e.ko.sis.tam/ |
 | editor | editar | /e.di.tar/ |
@@ -397,11 +408,13 @@
 | flood | floi | /floi/ |
 | floor | flor | /flor/ |
 | flower | flauor | /flauor/ |
+| fog / mist | lo-kloud | /lo.kloud/ |
 | food | food | /fud/ |
 | foot/feet | fut | /fut/ |
 | for | for | /for/ |
 | force | forsa | /for.sa/ |
 | forest | fores | /fores/ |
+| forest | tre-lond | /tre.lond/ |
 | fork | forki | /for.ki/ |
 | formula | formul | /formul/ |
 | fox | foki | /fo.ki/ |
@@ -423,18 +436,22 @@
 | galaxy | galaksi | /ga.lak.si/ |
 | gallery | arta-hous | /ar.ta.haus/ |
 | garden | garden | /garden/ |
+| gas | gas | /gas/ |
 | gasoline | gasi | /ga.si/ |
+| gem | biju-ston | /bi.ju.ston/ |
 | gene | jen | /jen/ |
 | genetic code | lifa-koda | /li.fa.ko.da/ |
 | genre | jenra | /jen.ra/ |
 | giraffe | jiraf | /ji.raf/ |
 | giraffe | jirau | /ji.rau/ |
 | girl | gerl | /gerl/ |
+| glacier | ais-river | /ais.ri.ver/ |
 | glass | glasi | /gla.si/ |
 | glove | gluv | /gluv/ |
 | goat | goa | /go.a/ |
 | goat | got | /got/ |
 | god | god | /god/ |
+| gold (metal) | golda | /gol.da/ |
 | golden | gol | /gol/ |
 | good | gud | /gud/ |
 | goodbye | gudbai | /gud.bai/ |
@@ -459,6 +476,7 @@
 | guitar | gitar | /gi.tar/ |
 | habit | habia | /ha.bia/ |
 | habit | habit | /ha.bit/ |
+| hail | ais-rein | /ais.rein/ |
 | hair | hair | /her/ |
 | hammer | hamar | /ha.mar/ |
 | hammer | hammer | /hammer/ |
@@ -490,6 +508,7 @@
 | his/her/its / of him/her | li-se | /li.se/ |
 | home | hom | /hom/ |
 | honey | honi | /ho.ni/ |
+| horizon | skai-lain | /skai.lain/ |
 | hormone | hormon | /hor.mon/ |
 | horse | hors | /hors/ |
 | hospital | sik-hous | /sik.haus/ |
@@ -536,7 +555,9 @@
 | internet | internet | /internet/ |
 | invention | invenshon | /invenshon/ |
 | IP address | IP-adresa | /ip.a.dre.sa/ |
+| iron | airon | /ai.ron/ |
 | island | iland | /iland/ |
+| island | mar-lond | /mar.lond/ |
 | jacket | jakia | /jakia/ |
 | jacket | jakit | /ja.kit/ |
 | January | Januari | /janua.ri/ |
@@ -564,6 +585,7 @@
 | koala | koala | /ko.a.la/ |
 | laboratory | laboratori | /la.bo.ra.to.ri/ |
 | lake | lek | /lek/ |
+| lake | smol-mar | /smol.mar/ |
 | lamp | lamp | /lamp/ |
 | land | lond | /lond/ |
 | language | langwij | /langwii/ |
@@ -572,6 +594,7 @@
 | late | let | /let/ |
 | law | lex | /lex/ |
 | lawyer | law-speak-po | /lo.speak.po/ |
+| leaf | folia | /fo.lia/ |
 | leather | leder | /le.der/ |
 | left | lefa | /le.fa/ |
 | leg | leg | /leg/ |
@@ -581,9 +604,11 @@
 | less | les | /les/ |
 | letter | leter | /leter/ |
 | light (weight) | lait | /lait/ |
+| lightning | fai-flasha | /fai.fla.sha/ |
 | lightning | letning | /letning/ |
 | limit | limia | /li.mia/ |
 | limit | limit | /li.mit/ |
+| line | lain | /lain/ |
 | lion | laigon | /lai.gon/ |
 | lion | laion | /lai.on/ |
 | liver | liver | /liver/ |
@@ -600,6 +625,7 @@
 | loss | los | /los/ |
 | loud | louud | /loud/ |
 | love | luva | /lu.va/ |
+| low | lo | /lo/ |
 | luck | lak | /lak/ |
 | luck | luki | /lu.ki/ |
 | machine | masin | /masin/ |
@@ -609,6 +635,7 @@
 | man / person | man | /man/ |
 | mango | mang | /mang/ |
 | map | map | /map/ |
+| marble | marmol | /mar.mol/ |
 | March | Marti | /mar.ti/ |
 | market | market | /market/ |
 | mass (physics) | masa | /ma.sa/ |
@@ -628,6 +655,7 @@
 | mental health | mental-helta | /men.tal.hel.ta/ |
 | message | mesaj | /me.saj/ |
 | message | mesij | /mesij/ |
+| metal | metal | /me.tal/ |
 | metaphor | metafor | /me.ta.for/ |
 | microbe | mikruba | /mik.ru.ba/ |
 | microservice | mikro-servis | /mi.kro.ser.vis/ |
@@ -658,6 +686,7 @@
 | morning | moring | /moring/ |
 | mosque | moslem-hous | /moz.lem.haus/ |
 | mosquito | moskito | /mos.ki.to/ |
+| moss | musa | /mu.sa/ |
 | mother | moter | /moter/ |
 | motorcycle | motorbaik | /motorbaik/ |
 | motorway | motorway | /motorwei/ |
@@ -665,6 +694,7 @@
 | mouse | maui | /ma.ui/ |
 | mouse | maus | /maus/ |
 | mouth | mous | /maus/ |
+| mud | mada | /ma.da/ |
 | mud | mud | /mud/ |
 | mud | mui | /mui/ |
 | mural | mural | /mu.ral/ |
@@ -781,6 +811,7 @@
 | pilot | flai-po | /flai.po/ |
 | place | plei | /ple.i/ |
 | place | ples | /ples/ |
+| plain | flat-lond | /flat.lond/ |
 | planet | planite | /pla.ni.te/ |
 | plant | plant | /plant/ |
 | plastic | plastii | /plas.tii/ |
@@ -842,6 +873,7 @@
 | rabbit | raibit | /rai.bit/ |
 | radio | radia | /radia/ |
 | rain | rein | /rein/ |
+| rainbow | rein-arka | /rein.ar.ka/ |
 | RAM | woka-mem | /wo.ka.mem/ |
 | rare | rar | /rar/ |
 | rarely | rarli | /rar.li/ |
@@ -922,11 +954,13 @@
 | second | sekond | /sekond/ |
 | secret | sekri | /sekri/ |
 | secret | sikret | /si.kret/ |
+| seed | sida | /si.da/ |
 | self | self | /self/ |
 | self-supervised learning | auto-lern | /au.to.lern/ |
 | September | September | /septembr/ |
 | serenity | kwaiat-hapi | /kwai.at.ha.pi/ |
 | server | server | /server/ |
+| shadow | shado | /sha.do/ |
 | shallow | shalo | /sa.lo/ |
 | shark | shari | /sha.ri/ |
 | shark | shark | /shark/ |
@@ -946,6 +980,7 @@
 | silk | sili | /si.li/ |
 | silk | silk | /silk/ |
 | silver | silv | /silv/ |
+| silver | silva | /sil.va/ |
 | simple | simpli | /simpli/ |
 | singer | song-mak-po | /son.mak.po/ |
 | sister | sisr | /sistr/ |
@@ -961,6 +996,7 @@
 | slow | sloli | /sloli/ |
 | small | smol | /smol/ |
 | smartphone | smaurtfon | /smartfon/ |
+| smoke | smoka | /smo.ka/ |
 | smooth | smud | /smud/ |
 | snail | sneil | /sneil/ |
 | snake | snak | /snak/ |
@@ -989,6 +1025,7 @@
 | south | saua | /sau.a/ |
 | space | spei | /spe.i/ |
 | space | spes | /spes/ |
+| spark | sparka | /spar.ka/ |
 | sparrow | sparou | /spa.rou/ |
 | speaker | speaker | /spiker/ |
 | special | speshal | /speshal/ |
@@ -1003,12 +1040,15 @@
 | squirrel | skwiral | /skwi.ral/ |
 | stairs | stair | /stair/ |
 | star | star | /star/ |
+| steam | stim | /stim/ |
 | step | stap | /stap/ |
 | stomach | stomok | /stomok/ |
 | stone | ston | /ston/ |
+| storm | big-wind | /big.wind/ |
 | storm | storm | /storm/ |
 | story | stor | /stor/ |
 | strawberry | strobri | /strobri/ |
+| stream | smol-river | /smol.ri.ver/ |
 | stream | strim | /strim/ |
 | street | strit | /strit/ |
 | strong | strong | /stron/ |
@@ -1025,9 +1065,13 @@
 | suitcase | sutkes | /sut.kes/ |
 | summer | samr | /samr/ |
 | Sunday | Sandei | /san.dei/ |
+| sunrise / dawn | son-rais | /son.rais/ |
+| sunset / dusk | son-daun | /son.daun/ |
+| sunshine | son-lait | /son.lait/ |
 | supernova | supernova | /su.per.no.va/ |
 | surgery | sergeri | /sergeri/ |
 | surprised | surprisd | /surprisd/ |
+| swamp | wet-lond | /wet.lond/ |
 | switch | swic | /switc/ |
 | switch | switsh | /switsh/ |
 | symbolism | simbolisma | /sim.bo.lis.ma/ |
@@ -1067,6 +1111,7 @@
 | those | dose | /do.se/ |
 | thought | tot | /tot/ |
 | thunder | sarkis | /sarkis/ |
+| thunder | skai-drum | /skai.drum/ |
 | Thursday | Terzdei | /ters.dei/ |
 | ticket | bilet | /bilet/ |
 | tie | tai | /tai/ |
@@ -1179,6 +1224,7 @@
 | to rest | rest | /rest/ |
 | to return | ritan | /ritan/ |
 | to return home | kom-hom | /kom.hom/ |
+| to rise | rais | /rais/ |
 | to run | ran | /ran/ |
 | to say | sey | /sei/ |
 | to see | si | /si/ |
@@ -1239,6 +1285,7 @@
 | transparency | transparensa | /trans.pa.ren.sa/ |
 | treasurer / accountant | moni-keep-po | /moni.kip.po/ |
 | treatment | kura | /ku.ra/ |
+| tree | tre | /tre/ |
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
@@ -1261,6 +1308,7 @@
 | useless | useles | /usles/ |
 | vaccine | vacine | /vasin/ |
 | vacuum | vakum | /va.kum/ |
+| valley | lo-lond | /lo.lond/ |
 | value | valiu | /va.liu/ |
 | variable | chanja-tip | /chan.ja.tip/ |
 | vegetable | vegi | /veji/ |
@@ -1269,6 +1317,7 @@
 | vibrate / vibration | vibra | /vi.bra/ |
 | video | vidio | /vi.dio/ |
 | village | vilaj | /vilaj/ |
+| vine | vain | /vain/ |
 | vinegar | vinegar | /vinegar/ |
 | violin | viulin | /vi.u.lin/ |
 | virtue | virtu | /vir.tu/ |
@@ -1276,6 +1325,7 @@
 | visual effects | vizal-efekta | /vi.zal.e.fek.ta/ |
 | vitamin | bitamin | /bitamin/ |
 | vocabulary | vokabulari | /vokabulari/ |
+| volcano | fai-mautin | /fai.mau.tin/ |
 | volcano | vulkan | /vul.kan/ |
 | vote | vote | /vot/ |
 | voter | vota-po | /vo.ta.po/ |
@@ -1287,6 +1337,7 @@
 | washing machine | wosh-masin | /wosh.ma.sin/ |
 | watch | wotch | /wotch/ |
 | water | watre | /watre/ |
+| waterfall | watre-fol | /wa.tre.fol/ |
 | watermelon | watre-melon | /watre-melon/ |
 | wave | wo | /wo/ |
 | wave (physics) | wava | /wa.va/ |
