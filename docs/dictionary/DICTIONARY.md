@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 1477. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 1516. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -91,7 +91,9 @@
 | bagi | /ba.gi/ |  | bag |  |  |  |
 | bai | /bai/ | verb | to buy |  |  | Mi bai un hous. → I buy a house. |
 | baikel | /baikel/ |  | bicycle |  |  | Mi rid la baikel. |
+| baita | /bai.ta/ | verb | to bite | loan |  | La dog baita. |
 | bak | /bak/ |  | back |  | fut-bak | Mi-se bak es sik. |
+| baka | /ba.ka/ | verb | to bake | loan | baka-upa | Baka la bred in la hot-boksi. |
 | baka-upa | /ba.ka.u.pa/ | noun/verb | backup | back + up (+/a/) |  | Mi mak baka-upa evri dei. |
 | baket | /ba.ket/ |  | bucket |  |  | La baket hav watre. |
 | bakpai | /bakpai/ | noun | backpack |  |  | — |
@@ -119,6 +121,7 @@
 | ber | /ber/ |  | bear |  |  | La ber sleep in winter. |
 | berd | /berd/ |  | beard |  |  | La man hav berd. |
 | beri | /beri/ |  | berry |  |  |  |
+| berna | /ber.na/ | verb | to burn | loan |  | La fai berna la wud. |
 | between | /between/ |  | between |  |  | La hous es between tu tri-n. |
 | bi | /bi/ | verb | to be |  |  | Mi bi-a hapi. → I am happy. |
 | bifor | /bifor/ |  | before |  |  | Mi wok bifor yu kom. |
@@ -157,6 +160,7 @@
 | blud-lain | /blud.lain/ | noun | vein | blood + line |  | La blud-lain es blu. |
 | bodi | /bodi/ |  | body |  | bodi-wok, in-bodi | Mi-se bodi es strong. |
 | bodi-wok | /bo.di.wok/ | noun | exercise | body + work |  | Bodi-wok mak yu strong. |
+| boila | /boi.la/ | verb | to boil | loan |  | Boila la watre for ti. |
 | boksi | /bok.si/ |  | box |  | hot-boksi, kol-boksi |  |
 | boli | /bo.li/ | noun | bowl | loan | wosh-boli | La boli hav ris. |
 | bon | /bon/ |  | bone |  |  | La bon es hardi. |
@@ -219,6 +223,7 @@
 | chimni | /cimni/ |  | chimney |  |  | La smok kom from la chimni. |
 | chipa | /chi.pa/ | noun | chip (silicon) | loan (+/a/) | brain-chipa, piktur-chipa | La chipa es smol and powerful. |
 | chokolat | /tokolat/ |  | chocolate |  |  | Mi love chokolat. |
+| chopa | /cho.pa/ | verb | to chop | loan |  | Chopa la onyon smol. |
 | chuz | /chuz/ |  | to choose |  |  | Yu chuz wan. → You choose one. |
 | clean | /klian/ |  | clean |  |  | la clean rum |
 | climat | /klimait/ |  | climate |  |  | La klimait es warm. |
@@ -264,6 +269,7 @@
 | diagnoze | /di.ag.no.ze/ | noun/verb | diagnosis / diagnose | adapted loan |  | La dokter diagnoze la siknes. |
 | die | /dai/ | verb | to die |  |  | La man die. → The man dies. |
 | difikulti | /difikulti/ |  | difficulty |  |  | La difikulti es big. |
+| diga | /di.ga/ | verb | to dig | loan |  | Diga un hol in la erd. |
 | diksbri | /diksbri/ |  | dictionary |  |  | Mi luku in la diksbri. |
 | dina | /di.na/ |  | dinner |  |  | Wi eat dina at nait. → We eat dinner at night. |
 | diplomata | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) |  | La diplomata negosiata for pis. |
@@ -285,13 +291,16 @@
 | dor | /dor/ |  | door |  |  | Mi open la dor. |
 | dose | /do.se/ |  | those |  |  | Dose buk-en es mi-se. |
 | doza | /do.za/ | noun | dose | adapted loan (+/a/) |  | Tak tu doza evri dei. |
+| draga | /dra.ga/ | verb | to drag | loan |  | Draga la boksi. |
 | drai | /drai/ | verb | to dry |  | drai-kloti, drai-lond | Mi drai la plet. → I dry the plate. |
 | drai-kloti | /drai.klo.ti/ | noun | towel | dry + cloth |  | Mi drai wit la drai-kloti. |
 | drai-lond | /drai.lond/ | noun | desert | dry + land |  | La drai-lond hav no watre. |
 | draiar | /drai.ar/ |  | dryer |  |  | La draiar drai. |
+| draiva | /drai.va/ | verb | to drive | loan |  | Draiva la kar slo. |
 | dril | /dril/ |  | drill |  |  | Mi us dril. |
 | drim | /drim/ |  | dream |  |  | Mi hav drim. |
 | drink | /drink/ | verb | to drink |  |  | Mi drink watre. → I drink water. |
+| dropa | /dro.pa/ | verb | to drop | loan |  | Mi dropa la kup. |
 | drum | /drum/ | noun | drum | adapted loan | skai-drum | La drum mak big ritmo. |
 | du-noba | /du.no.ba/ | adj | responsible | duty-bound (+/a/) |  | Wi es du-noba for la erd. |
 | duk | /duk/ | noun | duck |  |  | loan (was dai — homonym with "to die") |
@@ -364,6 +373,7 @@
 | Februari | /februa.ri/ |  | February |  |  |  |
 | feit | /feit/ |  | faith |  |  | Mi hav feit. |
 | fel | /fel/ | verb | to feel |  | warm-fel | Mi fel hapi. → I feel happy. |
+| fida | /fi.da/ | verb | to feed | loan |  | Fida la animal. |
 | fikshon | /fik.shon/ | noun | fiction | adapted loan | non-fikshon | Mi lik fikshon more zan non-fikshon. |
 | film | /film/ |  | film / movie |  | film-rita, film-rul-po | Wi si la film. |
 | film-rita | /film.ri.ta/ | noun | screenplay | film + write (+/a/) |  | La film-rita es klar. |
@@ -389,6 +399,7 @@
 | foks | /foks/ |  | fox |  |  | La foks es smart. |
 | fol | /fol/ |  | fall / autumn |  | fol-forsa, watre-fol | La leaf-en fal in fol. |
 | fol-forsa | /fol.for.sa/ | noun | gravity | fall + force |  | `fol-forsa` kip wi on la Erd. |
+| folda | /fol.da/ | verb | to fold | loan |  | Folda la kloti. |
 | folia | /fo.lia/ | noun | leaf | loan (Latin) |  | La folia es grin in spring. |
 | folo | /folo/ | verb | to follow |  |  | Mi folo yu. → I follow you. |
 | fols | /fols/ |  | false |  |  | La klaim es fols. |
@@ -414,6 +425,7 @@
 | fri | /frai/ |  | free / free |  | fri-chuza | Mi es fri. |
 | fri-chuza | /fri.chu.za/ | noun | free will | free + choose (+/a/) |  | La diskushon of la fri-chuza es old. |
 | fridom | /fri.dom/ |  | freedom |  |  | Wi luv fridom |
+| friza | /fri.za/ | verb | to freeze | loan |  | La kold friza la watre. |
 | frog | /frog/ |  | frog |  |  | La frog liv in la pond. |
 | from | /from/ |  | from |  |  | Wi kom from la lern-hous. |
 | frukt | /frunkt/ |  | fruit |  |  | Frukt es nais and helti. |
@@ -474,9 +486,11 @@
 | haa | /haa/ | noun | hat |  |  | — |
 | habia | /ha.bia/ | noun | habit |  |  | — |
 | habit | /ha.bit/ |  | habit |  |  | Mi hav gud habit. |
+| haga | /ha.ga/ | verb | to hug | loan |  | Haga la fren. |
 | hagri | /hagri/ |  | hungry |  |  | Mi es hagri. |
 | hai | /hai/ |  | how |  |  | Hai yu fel? |
 | haia | /ha.ia/ | noun | height |  |  | — |
+| haida | /hai.da/ | verb | to hide | loan |  | Haida bihaind la tre. |
 | haipo | /hai.po/ |  | hippopotamus |  |  | La haipo liv in watre |
 | hair | /her/ |  | hair |  | ai-hair | La hair es long. |
 | hait | /hait/ |  | height |  |  | La hait es 2 meter. |
@@ -513,6 +527,7 @@
 | hit | /hit/ |  | to hit |  |  | La bal hit la wal. → The ball hits the wall. |
 | hitar | /hi.tar/ |  | heater |  |  | La hitar es warm. |
 | hok | /hok/ |  | hawk |  |  | La hok katch mous. |
+| holda | /hol.da/ | verb | to hold | loan |  | Holda mi hand. |
 | holi | /ho.li/ | adj | sacred / holy | adapted loan | holi-hous | La text es holi. |
 | holi-hous | /ho.li.haus/ |  | temple | holi (sacred / holy) + hous (house) |  |  |
 | hom | /hom/ |  | home |  | kom-hom | Mi go hom. |
@@ -616,6 +631,7 @@
 | kar | /kar/ |  | car |  | kar-po, polis-kar, sik-fast-kar | La kar es fast. |
 | kar-po | /kar.po/ |  | driver | car-person |  | La kar-po driv la kar. |
 | karakter | /ka.rak.ter/ | noun | character (story) | adapted loan |  | La karakter grow tru la stor. |
+| kari | /ka.ri/ | verb | to carry | loan |  | Mi kari la bagi. |
 | karota | /ka.ro.ta/ | noun | carrot | loan |  | La karota es orange. |
 | karpet | /kar.pet/ |  | carpet |  |  | La flor hav karpet. |
 | karta | /kar.ta/ |  | constitution |  |  |  |
@@ -630,10 +646,12 @@
 | key | /ki/ |  | key |  |  | Mi hav la key. |
 | kibod | /ki.bod/ |  | keyboard |  |  | Mi tip on kibod. |
 | kidni | /kidni/ |  | kidney |  |  |  |
+| kika | /ki.ka/ | verb | to kick | loan |  | Kika la bol. |
 | kil | /kil/ |  | to kill |  |  | Yu mas no kil. → You must not kill. |
 | kima-bonda | /ki.ma.bon.da/ | noun | chemical bond | chemistry + bond |  | La kima-bonda kip la molkul together. |
 | kimistri | /kimistri/ |  | chemistry |  |  |  |
 | king | /king/ |  | king | title (hereditary) |  | La king es rich. |
+| kisa | /ki.sa/ | verb | to kiss | loan |  | Kisa la babi. |
 | kitcen | /kitcen/ |  | kitchen |  |  | Mi kuk in la kitcen. |
 | klaim | /klaim/ |  | to climb |  |  | Wi klaim la tri. → We climb the tree. |
 | klasifai | /kla.si.fai/ | verb | classify | adapted loan |  | La masin klasifai la imaj. |
@@ -759,12 +777,15 @@
 | let | /let/ |  | late |  |  | Mi kom let. |
 | leter | /leter/ |  | letter |  |  | Mi rit un leter. |
 | letning | /letning/ |  | lightning |  |  | La letning shain. |
+| leva | /le.va/ | verb | to leave | loan |  | Leva la ruma kwaiat. |
 | lex | /lex/ |  | law |  |  | La lex es importent. |
 | li | /li/ | pronoun | he/she/it |  | li-se | Li es hapi. |
 | li-se | /li.se/ |  | his/her/its / of him/her | li (he/she/it) + se |  | Li her li-se vois. |
+| lida | /li.da/ | verb | to lead | loan |  | Lida la grup. |
 | lifa-koda | /li.fa.ko.da/ | noun | genetic code | life + code |  | La lifa-koda mak evri lifa-tipa. |
 | lifa-lerna | /li.fa.ler.na/ | noun | biology (alt) | life + learn |  | La lifa-lerna stodi all lifa-tipa-n. |
 | lifa-tipa | /li.fa.ti.pa/ | noun | species | life + type |  | La Erd hav milyon lifa-tipa-n. |
+| lifta | /lif.ta/ | verb | to lift | loan |  | Lifta la boksi hai. |
 | lik | /lik/ | verb | to like |  |  | Mi lik la sonj. → I like the song. |
 | limia | /li.mia/ | noun | limit |  |  | — |
 | limit | /li.mit/ |  | limit |  |  | La limit es der. |
@@ -842,6 +863,7 @@
 | meil | /meil/ |  | mail |  |  | Mi resiv meil. |
 | meis | /meis/ | verb | to measure |  |  | Mi meis la rum. → I measure the room. |
 | melodi | /me.lo.di/ | noun | melody | adapted loan |  | La melodi es biju. |
+| melta | /mel.ta/ | verb | to melt | loan |  | La son melta la ais. |
 | memoriz | /memoriz/ | verb | to memorize |  |  | Mi memoriz la wod-en. → I memorize the words. |
 | mental-helta | /men.tal.hel.ta/ | noun | mental health | mental + health |  | Mental-helta es importent as bodi-healt. |
 | mesaj | /me.saj/ |  | message |  |  | Mi send mesaj. |
@@ -855,6 +877,7 @@
 | midnaight | /midnait/ |  | midnight |  |  | La midnaight es very kwaiat. |
 | mikro-servis | /mi.kro.ser.vis/ | noun | microservice | micro + service (modifier-head) |  | La mikro-servis es smol and fast. |
 | mikruba | /mik.ru.ba/ | noun | microbe | adapted loan (+/a/) |  | La mikruba es smol. |
+| miksa | /mik.sa/ | verb | to mix | loan |  | Miksa la flaur and watre. |
 | milk | /milk/ |  | milk |  |  | La baby drink milk. |
 | min | /min/ | verb | to mean |  |  | Wat yu min? → What do you mean? |
 | mini | /mi.ni/ | noun | mind |  |  | — |
@@ -863,6 +886,7 @@
 | minut | /mi.nut/ |  | minute |  |  | Wi wait 10 minut. |
 | mirakla | /mi.rak.la/ | noun | miracle | adapted loan (+/a/) |  | La mirakla happen somtaim. |
 | mirar | /mi.rar/ |  | mirror |  |  | Mi luk in mirar. |
+| mita | /mi.ta/ | verb | to meet | loan |  | Mi mita yu at la eat-hous. |
 | miten | /miten/ |  | meat |  |  | Mi eat miten. |
 | miting | /miting/ |  | meeting |  |  | Wi hav miting at three. |
 | mobil | /mobil/ |  | mobile |  |  | Mi fon es mobil. |
@@ -1051,6 +1075,7 @@
 | poor | /pur/ |  | poor |  |  | la poor famili |
 | popul | /popiul/ |  | people / population |  |  | La popul es big. |
 | popular | /popiular/ |  | popular |  |  | la popular artst |
+| pora | /po.ra/ | verb | to pour | loan |  | Pora la watre in la kup. |
 | porki | /por.ki/ |  | pork |  |  |  |
 | port | /port/ |  | port |  |  |  |
 | porta-konekta | /por.ta.ko.nek.ta/ | noun | port (USB etc.) | port + connect |  | Mi plog in la porta-konekta. |
@@ -1067,6 +1092,7 @@
 | predikshon | /pre.dik.shon/ | noun | prediction | adapted loan |  | La predikshon es rait. |
 | prefer | /prefer/ | verb | to prefer |  |  | Mi prefer te rather than kofi. → I prefer tea rather than coffee. |
 | prer | /prer/ |  | prayer |  |  | Mi mak prer. |
+| presa | /pre.sa/ | verb | to press | loan |  | Presa la baton. |
 | printar | /prin.tar/ |  | printer |  |  | Mi us printar. |
 | pripar | /pripar/ |  | to prepare |  |  | Mi pripar la food. → I prepare the food. |
 | prison | /prison/ |  | prison |  |  | La kriminal go tu prison. |
@@ -1101,6 +1127,7 @@
 | raia | /ra.ia/ | noun | right |  |  | — |
 | raibia | /rai.bia/ | noun | rabbit |  |  | — |
 | raibit | /rai.bit/ |  | rabbit |  |  | La raibit jump. |
+| raida | /rai.da/ | verb | to ride | loan |  | Raida la baikel. |
 | rain | /rein/ | verb | to rain |  |  | La rein fal. → The rain falls. |
 | raino | /rai.no/ |  | rhinoceros |  |  | La raino es big |
 | rais | /rais/ | verb | to rise | atomic root | son-rais | La son rais in la moring. |
@@ -1108,6 +1135,7 @@
 | rait-rong-sistam | /rait.rong.sis.tam/ | noun/adj | morality / moral | right + wrong + system (`moral` = domain-register synonym) |  | Dat es un moral kwestion. |
 | ran | /ran/ | verb | to run |  | ran-taim | La man ran. → The man runs. |
 | ran-taim | /ran.taim/ | noun | runtime | run + time |  | La buga aper in ran-taim. |
+| rapa | /ra.pa/ | verb | to wrap | loan |  | Rapa la gift. |
 | rar | /rar/ |  | rare |  |  | La oportuniti es rar. |
 | rarli | /rar.li/ |  | rarely |  |  | Li wok rarli. |
 | rat | /rat/ |  | rat |  |  | La rat es dirty. |
@@ -1190,6 +1218,7 @@
 | saua | /sau.a/ | noun | south |  |  | — |
 | saul | /saul/ | noun | soul |  |  | — |
 | sav | /sav/ |  | save |  |  | `klauda-sava`, `data-sav` |
+| sava | /sa.va/ | verb | to save | loan | klauda-sava | Sava la moni. |
 | sawa | /sa.wa/ | noun | saw | loan |  | La sawa kut la tre. |
 | screen | /skrin/ |  | screen |  |  | La screen es big. |
 | seiling | /seiling/ |  | ceiling |  |  | La seiling es high. |
@@ -1202,17 +1231,20 @@
 | send | /send/ | verb | to send |  |  | Mi send la leter. → I send the letter. |
 | September | /septembr/ |  | September |  |  |  |
 | seramik | /se.ra.mik/ |  | ceramic |  |  | La plait es seramik. |
+| sercha | /ser.cha/ | verb | to search | loan |  | Sercha la key. |
 | sergeri | /sergeri/ |  | surgery |  |  |  |
 | serv | /serv/ | verb | to serve |  |  | Li serv la kofi. → She serves the coffee. |
 | server | /server/ |  | server |  |  |  |
 | seven | /seven/ |  | 7 |  | ten-seven |  |
 | sey | /sei/ | verb | to say |  |  | Mi sey "helo". → I say "hello". |
 | shado | /sha.do/ | noun | shadow | loan |  | La tre mak un long shado. |
+| shaka | /sha.ka/ | verb | to shake | loan |  | Shaka la jara. |
 | shalo | /sa.lo/ |  | shallow |  |  | la shalo river |
 | share | /sher/ | verb | to share |  |  | Wi share la food. → We share the food. |
 | shari | /sha.ri/ | noun | shark |  |  | — |
 | shark | /shark/ |  | shark |  |  | La shark liv in la mar. |
 | shart | /shart/ |  | shirt |  |  | Mi wosh la shart. |
+| shauta | /shau.ta/ | verb | to shout | loan |  | No shauta in la hous. |
 | shelfa | /shel.fa/ | noun | shelf | loan |  | La buk es on la shelfa. |
 | shep | /sep/ |  | sheep |  |  | La shep es soft. |
 | shin | /sin/ | verb | to shine |  |  | La son shin. → The sun shines. |
@@ -1281,6 +1313,7 @@
 | skru-draivar | /skru.drai.var/ |  | screwdriver | skru (screw) + draivar |  | La skru-draivar turn skru. |
 | skulptur | /skul.pur/ | noun | sculpture | adapted loan |  | La skulptur es in la arta-hous. |
 | skwiral | /skwi.ral/ |  | squirrel |  |  | La skwiral klim tri |
+| skwiza | /skwi.za/ | verb | to squeeze | loan |  | Skwiza la lemon. |
 | slepi | /slepi/ |  | sleepy |  |  | Mi es slepi. |
 | slip | /slip/ | verb | to sleep |  | slip-kover | Baby slip. → Baby sleeps. |
 | slip-kover | /slip.ko.ver/ | noun | blanket | sleep + cover |  | La slip-kover es warm. |
@@ -1303,7 +1336,8 @@
 | so | /so/ |  | so / therefore |  |  | Mi es hapi, so mi tok. |
 | soda | /soda/ |  | soda |  |  |  |
 | sof | /sof/ |  | sofa |  |  | Wi liv on la sof. |
-| soft | /soft/ |  | soft |  |  | la soft kusion |
+| soft | /soft/ |  | soft |  | soft-tok | la soft kusion |
+| soft-tok | /soft.tok/ | verb | to whisper | soft + talk |  | Soft-tok in mi ear. |
 | softwer | /softwer/ |  | software |  |  | La softwer es modern. |
 | soi | /soi/ | noun | sock |  |  | — |
 | sok | /sok/ |  | sock |  |  | Mi wer sok. |
@@ -1378,6 +1412,7 @@
 | swet | /swet/ | verb | to sweat |  |  | Mi swet aft la wok. → I sweat after the work. |
 | swic | /switc/ |  | switch |  |  | Mi push la swic. |
 | swim | /swim/ | verb | to swim |  |  | Wi swim in la river. → We swim in the river. |
+| swipa | /swi.pa/ | verb | to sweep | loan |  | Swipa la flor. |
 | switsh | /switsh/ |  | switch |  |  | Mi pres la switsh. |
 | syens | /saiens/ |  | science |  |  | Syens es importent. |
 
@@ -1428,7 +1463,7 @@
 | tip | /tip/ |  | type |  | chanja-tip | `lifa-tipa` |
 | tired | /taird/ |  | tired |  |  | Mi es tri. |
 | Tiuzdei | /tius.dei/ |  | Tuesday |  |  |  |
-| tok | /tok/ | verb | to speak |  | far-tok-box, kom-tok | Mi tok wit yu. → I speak with you. |
+| tok | /tok/ | verb | to speak |  | far-tok-box, kom-tok, soft-tok | Mi tok wit yu. → I speak with you. |
 | tomata | /to.ma.ta/ | noun | tomato | loan |  | La tomata es red. |
 | tomoro | /tomoro/ |  | tomorrow |  |  | Tomoro wi kom. |
 | tool | /tul/ |  | tool |  | far-si-tool, muzika-tool | Mi masin gav la tool-en. |
@@ -1460,9 +1495,11 @@
 | truk | /truk/ |  | truck |  |  |  |
 | tu | /tu/ |  | 2 |  | ten-tu |  |
 | tuai | /tuai/ |  | towel |  |  |  |
+| tucha | /tu.cha/ | verb | to touch | loan |  | No tucha la hot poti. |
 | tung | /tun/ |  | tongue |  |  | La tung tas. |
 | tunnel | /tunnel/ |  | tunnel |  |  | Wi go tru la tunnel. |
 | tuo | /tuo/ |  | although |  |  | Mi wok tuo mi es tri. |
+| turna | /tur.na/ | verb | to turn | loan |  | Turna la key. |
 
 ## U
 
@@ -1508,6 +1545,7 @@
 |------|-----|------|-----------|-----------|-----------|---------|
 | wai | /wai/ |  | why |  |  | Wai yu wok? |
 | waild | /waild/ |  | world | ← Latin: mundus, recogn. |  | La waild es big. |
+| waipa | /wai.pa/ | verb | to wipe | loan |  | Waipa la tebul. |
 | wair | /wair/ |  | wire |  |  | La wair es long. |
 | waista | /wais.ta/ | noun | waist | loan |  | La belt go on la waista. |
 | wait | /weit/ | verb | to wait |  |  | Mi wait for yu. → I wait for you. |
@@ -1555,6 +1593,7 @@
 | winter | /winter/ |  | winter |  |  | La snow fal in winter. |
 | wit | /wit/ |  | with |  |  | Mi wok wit yu. |
 | wo | /wo/ |  | wave |  |  | La wo kom and go. |
+| wocha | /wo.cha/ | verb | to watch | loan |  | Wocha la far-si. |
 | wod | /wod/ |  | word |  |  | Mi lern nu wod-en. |
 | wok | /wok/ | verb | to walk |  | bodi-wok, wok-po, wok-tebul | Mi wok la parke-to. → I walk in the park. |
 | wok-po | /wok.po/ |  | worker | work-person |  | La wok-po wok hard. |

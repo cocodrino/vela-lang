@@ -1196,21 +1196,27 @@
 | to answer | ansr | /ansr/ |
 | to arrive | ariv | /ariv/ |
 | to ask | ask | /ask/ |
+| to bake | baka | /ba.ka/ |
 | to be | bi | /bi/ |
 | to be (stative) | es | /es/ |
 | to be born | born | /born/ |
 | to begin | begin | /begin/ |
 | to believe | bilever | /biliver/ |
 | to bend down | bow | /bou/ |
+| to bite | baita | /bai.ta/ |
 | to blow | blo | /blo/ |
+| to boil | boila | /boi.la/ |
 | to borrow | boro | /boro/ |
 | to break | brak | /brak/ |
 | to breathe | brit | /brit/ |
 | to build | maki | /ma.ki/ |
+| to burn | berna | /ber.na/ |
 | to buy | bai | /bai/ |
+| to carry | kari | /ka.ri/ |
 | to catch | katch | /katch/ |
 | to check | chek | /tcek/ |
 | to choose | chuz | /chuz/ |
+| to chop | chopa | /cho.pa/ |
 | to clean | klian | /klian/ |
 | to clean | klin | /klin/ |
 | to climb | klaim | /klaim/ |
@@ -1227,22 +1233,29 @@
 | to decide | disaid | /disaid/ |
 | to die | dai | /dai/ |
 | to die | die | /dai/ |
+| to dig | diga | /di.ga/ |
 | to dislike | dislik | /dislik/ |
 | to do | don | /don/ |
+| to drag | draga | /dra.ga/ |
 | to draw | rava | /ra.va/ |
 | to drink | drink | /drink/ |
+| to drive | draiva | /drai.va/ |
+| to drop | dropa | /dro.pa/ |
 | to dry | drai | /drai/ |
 | to eat | eat | /it/ |
 | to end | end | /end/ |
 | to enter | entar | /entar/ |
 | to exit | eksit | /eksit/ |
 | to explain | explen | /eksplen/ |
+| to feed | fida | /fi.da/ |
 | to feel | fel | /fel/ |
 | to finish | fini | /fini/ |
 | to fix | repai | /re.pa.i/ |
 | to flai | frai | /frai/ |
+| to fold | folda | /fol.da/ |
 | to follow | folo | /folo/ |
 | to forget | forget | /forget/ |
+| to freeze | friza | /fri.za/ |
 | to give | giv | /giv/ |
 | to go | go | /go/ |
 | to grow | grot | /grot/ |
@@ -1250,8 +1263,11 @@
 | to heal | heal | /hial/ |
 | to hear | her | /her/ |
 | to help | help | /help/ |
+| to hide | haida | /hai.da/ |
 | to hit | hit | /hit/ |
+| to hold | holda | /hol.da/ |
 | to hope | hop | /hop/ |
+| to hug | haga | /ha.ga/ |
 | to hurry | hari | /hari/ |
 | to hurry | kwik | /kwik/ |
 | to imagine | imajin | /imajin/ |
@@ -1259,13 +1275,18 @@
 | to join | joi | /joi/ |
 | to jump | jamp | /jamp/ |
 | to jump | jump | /jump/ |
+| to kick | kika | /ki.ka/ |
 | to kill | kil | /kil/ |
+| to kiss | kisa | /ki.sa/ |
 | to know | nof | /nof/ |
 | to know someone | nof-hu | /nof.hu/ |
 | to laugh | laf | /laf/ |
+| to lead | lida | /li.da/ |
 | to learn | lern | /lern/ |
+| to leave | leva | /le.va/ |
 | to lend | lent | /lent/ |
 | to lie down | lai | /lai/ |
+| to lift | lifta | /lif.ta/ |
 | to like | lik | /lik/ |
 | to listen | lisen | /lisen/ |
 | to live | liv | /liv/ |
@@ -1274,7 +1295,10 @@
 | to make | mak | /mak/ |
 | to mean | min | /min/ |
 | to measure | meis | /meis/ |
+| to meet | mita | /mi.ta/ |
+| to melt | melta | /mel.ta/ |
 | to memorize | memoriz | /memoriz/ |
+| to mix | miksa | /mik.sa/ |
 | to need | need | /nid/ |
 | to need | niid | /niid/ |
 | to open | open | /open/ |
@@ -1283,8 +1307,10 @@
 | to pay | pei | /pei/ |
 | to plan | plan | /plan/ |
 | to play | ple | /ple/ |
+| to pour | pora | /po.ra/ |
 | to prefer | prefer | /prefer/ |
 | to prepare | pripar | /pripar/ |
+| to press | presa | /pre.sa/ |
 | to pull | pul | /pul/ |
 | to push | push | /push/ |
 | to rain | rain | /rein/ |
@@ -1296,15 +1322,20 @@
 | to rest | rest | /rest/ |
 | to return | ritan | /ritan/ |
 | to return home | kom-hom | /kom.hom/ |
+| to ride | raida | /rai.da/ |
 | to rise | rais | /rais/ |
 | to run | ran | /ran/ |
+| to save | sava | /sa.va/ |
 | to say | sey | /sei/ |
+| to search | sercha | /ser.cha/ |
 | to see | si | /si/ |
 | to sell | sel | /sel/ |
 | to send | send | /send/ |
 | to serve | serv | /serv/ |
+| to shake | shaka | /sha.ka/ |
 | to share | share | /sher/ |
 | to shine | shin | /sin/ |
+| to shout | shauta | /shau.ta/ |
 | to sieve / to filter | siv | /siv/ |
 | to sing | sing | /sing/ |
 | to sit | sit | /sit/ |
@@ -1313,6 +1344,7 @@
 | to smile | smile | /smi.le/ |
 | to snow | snow | /sno/ |
 | to speak | tok | /tok/ |
+| to squeeze | skwiza | /skwi.za/ |
 | to stand | stand | /stand/ |
 | to start | start | /start/ |
 | to stay | stei | /stei/ |
@@ -1320,6 +1352,7 @@
 | to study | stodi | /stodi/ |
 | to suggest | sugest | /sugest/ |
 | to sweat | swet | /swet/ |
+| to sweep | swipa | /swi.pa/ |
 | to swim | swim | /swim/ |
 | to take | tek | /tek/ |
 | to taste | tas | /tas/ |
@@ -1327,9 +1360,11 @@
 | to tell | tal | /tal/ |
 | to think | tink | /tink/ |
 | to throw | trou | /trou/ |
+| to touch | tucha | /tu.cha/ |
 | to trade | trid | /trad/ |
 | to travel | rul | /rul/ |
 | to try | trai | /trai/ |
+| to turn | turna | /tur.na/ |
 | to understand | understand | /undredstand/ |
 | to visit | vizit | /vizit/ |
 | to wait | wait | /weit/ |
@@ -1338,6 +1373,10 @@
 | to walk | wok | /wok/ |
 | to want | wan | /wan/ |
 | to wash | wosh | /wos/ |
+| to watch | wocha | /wo.cha/ |
+| to whisper | soft-tok | /soft.tok/ |
+| to wipe | waipa | /wai.pa/ |
+| to wrap | rapa | /ra.pa/ |
 | to write | rit | /rit/ |
 | today | nau-dei | /nau.dei/ |
 | toe | fut-fingar | /fut.fin.gar/ |
