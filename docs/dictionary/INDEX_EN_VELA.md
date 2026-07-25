@@ -31,6 +31,7 @@
 | activist | aktivista | /ak.ti.vis.ta/ |
 | actor | rol-play-po | /rol.plei.po/ |
 | adapt | adapta | /a.dap.ta/ |
+| address | adresa | /a.dre.sa/ |
 | advertisement | advertais | /advertais/ |
 | affection | warm-fel | /warm.fel/ |
 | afraid | afred | /afred/ |
@@ -61,6 +62,7 @@
 | anticipation | antisipashon | /an.ti.si.pa.shon/ |
 | anticipation | waita-hapi | /wei.ta.ha.pi/ |
 | anxiety | futur-afreda | /fu.tur.a.fre.da/ |
+| apartment building | hai-hous | /hai.haus/ |
 | API | apli-brija | /ap.li.bri.ja/ |
 | apple | apel | /apel/ |
 | application / app | aplik | /ap.lik/ |
@@ -90,6 +92,7 @@
 | bacteria | bakteri | /bak.te.ri/ |
 | bad | bad | /bad/ |
 | bag | bagi | /ba.gi/ |
+| bakery | bred-mak-hous | /bred.mak.haus/ |
 | banana | banan | /banan/ |
 | banana | banana | /ba.na.na/ |
 | bandage | wond-kover | /wond.ko.ver/ |
@@ -192,6 +195,7 @@
 | camel | kamal | /ka.mal/ |
 | camera | kamera | /kamera/ |
 | can | kan | /kan/ |
+| canal / waterway | watre-wei | /wa.tre.wei/ |
 | candle | kandel | /kan.del/ |
 | canvas | kanvasa | /kan.va.sa/ |
 | cap | kap | /kap/ |
@@ -200,9 +204,11 @@
 | carpet | karpet | /kar.pet/ |
 | carpet / rug | flor-kover | /flor.ko.ver/ |
 | carrot | karota | /ka.ro.ta/ |
+| castle | king-hous | /king.haus/ |
 | cat | kat | /kat/ |
 | cause | caus | /kauz/ |
 | cave | ston-hol | /ston.hol/ |
+| ceiling | ruma-kover | /ru.ma.ko.ver/ |
 | ceiling | seiling | /seiling/ |
 | cell | selu | /se.lu/ |
 | cement | simana | /si.ma.na/ |
@@ -351,6 +357,7 @@
 | design | dizain | /di.zain/ |
 | desk | wok-tebul | /wok.te.bul/ |
 | despair | no-hop | /no.hop/ |
+| destination | far-ples | /far.ples/ |
 | determined | strong-maind | /strong.maind/ |
 | devotion | depa-luva | /de.pa.lu.va/ |
 | dew | moring-watre | /mo.ring.wa.tre/ |
@@ -379,6 +386,7 @@
 | dread | depa-afreda | /de.pa.a.fre.da/ |
 | dream | drim | /drim/ |
 | drill | dril | /dril/ |
+| driver | draiva-po | /drai.va.po/ |
 | driver | kar-po | /kar.po/ |
 | drum | drum | /drum/ |
 | dryer | draiar | /drai.ar/ |
@@ -411,6 +419,7 @@
 | element | elementa | /e.le.men.ta/ |
 | elephant | elefana | /e.le.fa.na/ |
 | elephant | elefant | /e.le.fant/ |
+| elevator | ap-boksi | /ap.bok.si/ |
 | embassy | amnbasy | /ambasy/ |
 | empathy | empatia | /em.pa.tia/ |
 | empty | no-ful | /no.ful/ |
@@ -451,6 +460,7 @@
 | fate | fait | /fait/ |
 | father | fater | /fater/ |
 | February | Februari | /februa.ri/ |
+| fence | fensa | /fen.sa/ |
 | fever | hot-sik | /hot.sik/ |
 | few | fyu | /fyu/ |
 | fiction | fikshon | /fik.shon/ |
@@ -463,9 +473,11 @@
 | fisherman | fis-kat-po | /fis.kat.po/ |
 | flag | flaga | /fla.ga/ |
 | flai (insect) | flai | /flai/ |
+| flight | flai-go | /flai.go/ |
 | flood | flod | /flod/ |
 | flood | floi | /floi/ |
 | floor | flor | /flor/ |
+| floor (level) | flor-nomber | /flor.nom.ber/ |
 | flour | flaur | /fla.ur/ |
 | flower | flauor | /flauor/ |
 | fog / mist | lo-kloud | /lo.kloud/ |
@@ -494,14 +506,17 @@
 | fruit | frukt | /frunkt/ |
 | fruit (atom form) | frute | /fru.te/ |
 | frustration | bloka-angri | /blo.ka.an.gri/ |
+| fuel | kar-oil | /kar.oil/ |
 | full | ful | /ful/ |
 | fullness | ful-nes | /ful.nes/ |
 | function | funkshon | /funk.shon/ |
 | galaxy | galaksi | /ga.lak.si/ |
 | gallery | arta-hous | /ar.ta.haus/ |
+| garage | kar-hous | /kar.haus/ |
 | garden | garden | /garden/ |
 | gas | gas | /gas/ |
 | gasoline | gasi | /ga.si/ |
+| gate | geita | /gei.ta/ |
 | gem | biju-ston | /bi.ju.ston/ |
 | gene | jen | /jen/ |
 | generous | open-hand | /open.hand/ |
@@ -558,6 +573,7 @@
 | hammer | hammer | /hammer/ |
 | hand | hand | /hand/ |
 | happy | hapi | /hapi/ |
+| harbor / dock | boot-ples | /but.ples/ |
 | hard (difficult) | hard | /hard/ |
 | hard (material) | hardi | /hardi/ |
 | hard drive / SSD | data-diska | /da.ta.dis.ka/ |
@@ -582,12 +598,14 @@
 | hello | helo | /he.lo/ |
 | helper / assistant | help-po | /help.po/ |
 | high voice / treble | hai-vois | /hai.vois/ |
+| highway | big-rod | /big.rod/ |
 | hill | hil | /hil/ |
 | hip | hipa | /hi.pa/ |
 | hippopotamus | haipo | /hai.po/ |
 | hippopotamus | hipo | /hi.po/ |
 | his/her/its / of him/her | li-se | /li.se/ |
 | home | hom | /hom/ |
+| homeland | hom-ples | /hom.ples/ |
 | honest | tru-tok | /tru.tok/ |
 | honey | honi | /ho.ni/ |
 | horizon | skai-lain | /skai.lain/ |
@@ -636,6 +654,7 @@
 | intelligence | intilijens | /intelijens/ |
 | interesting | interesting | /interisting/ |
 | internet | internet | /internet/ |
+| intersection | rod-kros | /rod.kros/ |
 | invention | invenshon | /invenshon/ |
 | IP address | IP-adresa | /ip.a.dre.sa/ |
 | iron | airon | /ai.ron/ |
@@ -648,6 +667,7 @@
 | jar | jara | /ja.ra/ |
 | jealous | jelus | /je.lus/ |
 | journalist | news-tak-po | /nuz.tak.po/ |
+| journey | jorni | /jor.ni/ |
 | joy (radiant) | warm-hapi | /warm.ha.pi/ |
 | judge | juis | /juis/ |
 | juice | frute-watre | /fru.te.wa.tre/ |
@@ -695,6 +715,7 @@
 | length | lengt | /lengt/ |
 | less | les | /les/ |
 | letter | leter | /leter/ |
+| library | buk-hous | /buk.haus/ |
 | lid | poti-kover | /po.ti.ko.ver/ |
 | lie (statement) | fols-wod | /fols.wod/ |
 | light (weight) | lait | /lait/ |
@@ -725,6 +746,7 @@
 | low voice / bass | lo-vois | /lo.vois/ |
 | luck | lak | /lak/ |
 | luck | luki | /lu.ki/ |
+| luggage | lugaja | /lu.ga.ja/ |
 | lung | lunga | /lun.ga/ |
 | machine | masin | /masin/ |
 | machine learning | masin-lern | /ma.sin.lern/ |
@@ -802,6 +824,7 @@
 | mud | mui | /mui/ |
 | mural | mural | /mu.ral/ |
 | muscle | muskul | /miskl/ |
+| museum | old-tin-hous | /old.tin.haus/ |
 | music | muzik | /muzik/ |
 | musical note | nota-muzika | /no.ta.mu.zi.ka/ |
 | musician | muzik-po | /muzik.po/ |
@@ -825,6 +848,7 @@
 | needle | nidol | /ni.dol/ |
 | negotiate | negosiata | /ne.go.si.a.ta/ |
 | neighbor | neiber | /neiber/ |
+| neighborhood | liv-ples | /liv.ples/ |
 | nephew/niece | nifaw | /nifaw/ |
 | nerve | nerva | /ner.va/ |
 | nervous | nervus | /ner.vus/ |
@@ -894,11 +918,13 @@
 | paradox | paradoksa | /pa.ra.dok.sa/ |
 | parent | paran | /paran/ |
 | park | park | /park/ |
+| parking | kar-ples | /kar.ples/ |
 | parliament | rul-mak-hous | /rul.mak.haus/ |
 | particle | partikula | /par.ti.ku.la/ |
 | party (political) | parti | /parti/ |
 | passenger | pasenjer | /pasenjer/ |
 | passion | strong-luva | /stron.lu.va/ |
+| passport | pasporta | /pas.por.ta/ |
 | passport | passport | /pasport/ |
 | password | paswrd | /paswrd/ |
 | peace | pis | /pis/ |
@@ -1029,6 +1055,7 @@
 | religion | relijon | /re.li.jon/ |
 | report | riporta | /ri.por.ta/ |
 | repository | repositori | /re.po.si.to.ri/ |
+| resort / rest stop | rest-ples | /rest.ples/ |
 | respect | respekt | /respekt/ |
 | responsibility | respons | /respons/ |
 | responsible | du-noba | /du.no.ba/ |
@@ -1048,6 +1075,7 @@
 | ritual | ritual | /ri.tu.al/ |
 | river | river | /river/ |
 | road | rod | /rod/ |
+| road sign | rod-sain | /rod.sain/ |
 | robot | robot | /robot/ |
 | robotics | robotiks | /robotiks/ |
 | rocket | rokete | /ro.ke.te/ |
@@ -1097,6 +1125,7 @@
 | sculpture | skulptur | /skul.pur/ |
 | sea / ocean | mar | /mar/ |
 | seal | sil | /sil/ |
+| seat | sit-ples | /sit.ples/ |
 | second | sekond | /sekond/ |
 | secret | sekri | /sekri/ |
 | secret | sikret | /si.kret/ |
@@ -1131,6 +1160,7 @@
 | shy | shy | /sai/ |
 | sick | sik | /sik/ |
 | sickness / disease | siknes | /siknes/ |
+| sidewalk | wok-rod | /wok.rod/ |
 | sign | sain | /sain/ |
 | sign language | sain-tok | /sain.tok/ |
 | silence | kwaiat-nes | /kwai.at.nes/ |
@@ -1207,6 +1237,7 @@
 | spring | spring | /spring/ |
 | square | for-korner | /for.kor.ner/ |
 | squirrel | skwiral | /skwi.ral/ |
+| stair / staircase | stera | /ste.ra/ |
 | stairs | stair | /stair/ |
 | star | star | /star/ |
 | steam | stim | /stim/ |
@@ -1229,6 +1260,7 @@
 | structure | struktur | /struk.tur/ |
 | student / learner | stodi-po | /stodi.po/ |
 | style | stail | /stail/ |
+| subway / metro | under-rod | /un.der.rod/ |
 | success | sukses | /sukses/ |
 | sufficient | sufisent | /sufisent/ |
 | sugar | shuga | /shu.ga/ |
@@ -1342,6 +1374,7 @@
 | to cook | kuk | /kuk/ |
 | to cost | kost | /kost/ |
 | to count | kount | /kount/ |
+| to cross / a cross | kros | /kros/ |
 | to cry | kai | /kai/ |
 | to dance | dansi | /dan.si/ |
 | to decide | desid | /desid/ |
@@ -1457,6 +1490,7 @@
 | to rise | rais | /rais/ |
 | to rule / govern | rula | /ru.la/ |
 | to run | ran | /ran/ |
+| to sail | sela | /se.la/ |
 | to save | sava | /sa.va/ |
 | to say | sey | /sei/ |
 | to search | sercha | /ser.cha/ |
@@ -1503,6 +1537,7 @@
 | to turn | turna | /tur.na/ |
 | to understand | understand | /undredstand/ |
 | to visit | vizit | /vizit/ |
+| to visit | vizita | /vi.zi.ta/ |
 | to wait | wait | /weit/ |
 | to wake | weik | /weik/ |
 | to wake up | wek | /wek/ |
@@ -1524,12 +1559,15 @@
 | tool | tool | /tul/ |
 | tooth/teeth | te | /te/ |
 | touchscreen | skrin-tocha | /skrin.to.cha/ |
+| tourist / visitor | vizita-po | /vi.zi.ta.po/ |
 | towel | drai-kloti | /drai.klo.ti/ |
 | towel | taual | /tau.al/ |
 | towel | tuai | /tuai/ |
+| tower | tauer | /tau.er/ |
 | tractor | traktor | /traktor/ |
 | trade | treid | /treid/ |
 | tradition | tradishon | /tra.di.shon/ |
+| traffic | kar-kraud | /kar.kraud/ |
 | traffic | trafik | /trafik/ |
 | train | trein | /trein/ |
 | train station | trein-stashon | /trein.stashon/ |
@@ -1540,6 +1578,7 @@
 | treatment | kura | /ku.ra/ |
 | tree | tre | /tre/ |
 | triangle | tri-korner | /tri.kor.ner/ |
+| trip | tripa | /tri.pa/ |
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
@@ -1553,6 +1592,7 @@
 | umbrella | umbrela | /um.bre.la/ |
 | uncle | unkel | /unkel/ |
 | under | andar | /an.dar/ |
+| under / below | under | /un.der/ |
 | uniform | uniform | /u.ni.form/ |
 | unit test | testa-koda | /tes.ta.ko.da/ |
 | universe | universa | /u.ni.ver.sa/ |
@@ -1617,6 +1657,7 @@
 | wet | wet | /wet/ |
 | whale | weil | /weil/ |
 | what | wat | /wat/ |
+| wheel | roda | /ro.da/ |
 | when | wen | /wen/ |
 | where | wer | /wer/ |
 | which | wot | /wot/ |
@@ -1669,3 +1710,4 @@
 | zipper | zipar | /zi.par/ |
 | zone | zaun | /zaun/ |
 | zone | zoun | /zoun/ |
+| zoo | animal-park | /a.ni.mal.park/ |

@@ -1,5 +1,10 @@
 # VELA Deliberation Change Log
 
+## 2026-07-25 — Expansion Batch 9: Travel & Places (+42)
+
+Committee-reviewed + verified (semanticist: lowest loan ratio of all 9 batches at 16%). Dropped dups (tunel/kontinenta to base tunnel/kantin) and sport-ples (sport ends in illegal /rt/). Backfilled kros (cross) and under. Kept geita/adresa (verified genuinely new, against stale dup claims). Gold series: -hous (buk-hous=library, king-hous=castle, hai-hous=apartment building, bred-mak-hous=bakery, old-tin-hous=museum) and -ples (9 place compounds). Standouts: ap-boksi=elevator (up-box), kar-kraud=traffic, under-rod=subway, watre-wei=canal. Dictionary 1665 to 1707, 0 duplicates, validator 0 errors. Progress: 1707 / 3000.
+
+
 ## 2026-07-25 — Expansion Batch 8: Communication & Language (+37)
 
 Committee-reviewed + verified (semanticist: strongest batch yet, 60% compounds). Dropped dups (rida/rita/anser/sei/tel/mining to base rid/rit/ansr/sey/tal/min). Backfilled klar (clear). Fixed homonymy: lai-wod to fols-wod (lai means recline; used false-word for lie). stor-tel-po to stor-tal-po. Kept vois + lo-vois (verified vois new, lo exists, against stale claims). Gold series: wod- (dictionary/translate/describe/sentence/vocabulary) and vois- (soft/big/hai/lo). Antonyms tru-wod/fols-wod, no-tok. Dictionary 1628 to 1665, 0 duplicates, validator 0 errors. Progress: 1665 / 3000.
