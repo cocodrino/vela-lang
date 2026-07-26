@@ -2,6 +2,9 @@ graphify-out/cache/
 .mcp.json
 opencode.json
 
+__pycache__/
+*.pyc
+
 node_modules/
 web-sample/node_modules/
 web-sample/dist/

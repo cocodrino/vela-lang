@@ -1,4 +1,209 @@
 # VELA Deliberation Change Log
+
+## 2026-07-25 — Expansion Batch 13: Abstract Concepts & Qualities (+38)
+
+Committee-reviewed + verified. Dropped fri-chuz (Fase 5 fri-chuza = free will). Backfilled yus (use). Fixed step-wei to stap-wei and haf- to hafa- (verified base roots stap/hafa). Kept loans rer/gola/risolta/eksampel (2 of 3 reviewers approved over semanticist compound suggestions). Gold: -wei series (do-wei=method, tink-wei=opinion, nof-wei=knowledge, tru-wei/bad-wei), no-yus/yus-ful, mas-hav=necessary, neer-sem=similar, tru-tin=fact; reduplication mor-mor/les-les; antonym pairs big-tin/smol-tin, gud-luki/bad-luki, no-end=infinite. Dictionary 1817 to 1855, 0 duplicates, validator 0 errors. Progress: 1855 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 12: Family, Relationships & Age (+36)
+
+Committee-reviewed + verified (86% compounds, most compound-heavy batch). Dropped home (base HOM). Fixed young to yunga (/ng/ coda), niu-fren to new-fren, best-fren to dep-fren (best not in base), tak-kea-po to kea-po (tak not a headword), liv-ing to liva (-ing is not a VELA suffix, an English calque). Gold: -fren series (old/new/dep/wuman/man/luva-fren), -po roles, no- antonyms. Standout: no-nof-po (stranger = not-know-person). Batch-11 post-hoc: removed shipi/werma (late phonologist review; base already has shep/worm). Dictionary now 1818, 0 duplicates, validator 0 errors. Progress: 1818 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 11: Animals, Plants & Body Parts (+38)
+
+Committee-reviewed + verified (2 of 3 in time; validator covers phonotactics). Dropped oul and nait-bird (base already has aul AND auk for owl) plus redundant loans fer/fin (animal-hair/fish-arm win). Backfilled wail (wild). Fixed pain-tre to nidel-tre (verified pain=suffering; needle-tree). Gold: animal body-part series (flai-arm=wing, animal-fut=paw, bird-mous=beak, fish-skin=scale, plant-fut=root, plant-bodi=stem), smol- baby animals (puppy/kitten/calf), -animal categories (watre/flai/wail/hous-animal). Note flagged: base has many pre-existing animal duplicate spellings (butterfly x3, frog x3, owl x2) for a future cleanup. Dictionary 1746 to 1784, 0 duplicates, validator 0 errors. Progress: 1784 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 10: Arts, Culture, Games & Color (+39)
+
+Committee-reviewed + verified. Dropped dups (art-hous to arta-hous; grei to grin=gray; kolor-mak to kolori=paint). Fixed fait-stor to fajt-stor (verified fait means fate, fajt is fight) and sker-stor to afred-stor (sker undefined; afred=afraid). Kept gem=game (verified no gem=jewel homonym; jewel is biju-ston). Gold series: -dei (no-wok-dei=holiday, born-dei=birthday, marri-dei=wedding), -stor genres (luva-stor=romance, fajt-stor=action, afred-stor=scary, child-stor=fairytale), -wei (pipel-wei=culture, old-wei=tradition). Standout: pipel-wei captures the anthropological definition of culture in 2 roots. Dictionary 1707 to 1746, 0 duplicates, validator 0 errors. Progress: 1746 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 9: Travel & Places (+42)
+
+Committee-reviewed + verified (semanticist: lowest loan ratio of all 9 batches at 16%). Dropped dups (tunel/kontinenta to base tunnel/kantin) and sport-ples (sport ends in illegal /rt/). Backfilled kros (cross) and under. Kept geita/adresa (verified genuinely new, against stale dup claims). Gold series: -hous (buk-hous=library, king-hous=castle, hai-hous=apartment building, bred-mak-hous=bakery, old-tin-hous=museum) and -ples (9 place compounds). Standouts: ap-boksi=elevator (up-box), kar-kraud=traffic, under-rod=subway, watre-wei=canal. Dictionary 1665 to 1707, 0 duplicates, validator 0 errors. Progress: 1707 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 8: Communication & Language (+37)
+
+Committee-reviewed + verified (semanticist: strongest batch yet, 60% compounds). Dropped dups (rida/rita/anser/sei/tel/mining to base rid/rit/ansr/sey/tal/min). Backfilled klar (clear). Fixed homonymy: lai-wod to fols-wod (lai means recline; used false-word for lie). stor-tel-po to stor-tal-po. Kept vois + lo-vois (verified vois new, lo exists, against stale claims). Gold series: wod- (dictionary/translate/describe/sentence/vocabulary) and vois- (soft/big/hai/lo). Antonyms tru-wod/fols-wod, no-tok. Dictionary 1628 to 1665, 0 duplicates, validator 0 errors. Progress: 1665 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 7: Math, Quantity, Shape & Measure (+39)
+
+Committee-reviewed + verified. Dropped dups (long-nes/wei-nes/leita to existing lenga/weit/let; big-nes redundant with saiza). Kept raunda-lain (lain verified to exist, against a recurring stale morphologist claim). empti to no-ful (fits the no- antonym series: brave/rude/despair/empty). Math operators (ada, minus, multipli) and units (meter, kilo, liter, degri) are justified international loans; transparent shapes tri-korner=triangle, for-korner=square, and -nes measures far-nes=distance, hot-nes, ful-nes. Dictionary 1589 to 1628, 0 duplicates, validator 0 errors. Progress: 1628 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 6: Mind, Emotion & Personality (+36)
+
+Committee-reviewed + verified. Dropped dups (fil/plana/desaida to base fel/plan/desid; warm-fil to Fase 5 warm-fel). Phonologist wrongly rejected fil twice on the wrong spelling; verified the real root is fel. Gold-standard trait series emerged: hert (warm-hert=kind, kol-hert=cruel, strong-hert=courage, kwaiat-hert=serene) and maind (kwik-maind=smart, slo-maind, strong-maind); antonym pairs no-afred=brave, no-nais=rude, no-hop=despair. Dictionary 1553 to 1589, 0 duplicates, validator 0 errors. Progress: 1589 / 3000.
+
+
+## 2026-07-25 — Expansion Batch 5: Society & Work (+37)
+
+Committee-reviewed + verified. Dropped dups (vota/serva/taksa/profita/sava/trada → existing vote/serv/taks/profit/sav/trid; smol-siti → vilaj) + redundant loans (koin/salari). Key verified fix: base "rul" = "to travel" (not rule) — backfilled "rula" = "to rule/govern", so government = rula-grup, election = rula-chuz. (Pre-existing inconsistency noted: rul-po / naid-rul-po misuse rul as "rule".) Highlights: no-fren=enemy, gud-giv/bad-giv, rich-nes/poor-nes, -po professions. Dictionary 1516 → 1553, 0 duplicates, validator 0 errors. Progress: **1553 / 3000**.
+
+
+## 2026-07-25 — Expansion Batch 4: Actions/Verbs (+39)
+
+Committee-reviewed + verified. Dropped 6 dups (waita/lafa/shara/loka/risiva/planta → wait/laf/share/lok/resiv/plant); kept wocha (verified 'wotc' does not exist, against a stale phonologist claim); wispa→soft-tok (whisper; only compound whose roots verified). Verbs kept mostly as nativized loans (both reviewers agree: justified for basic universal actions; hardest category to compound). Dictionary 1477 → 1516, 0 duplicates, validator 0 errors. Progress: **1516 / 3000**.
+
+
+## 2026-07-25 — Phoneme Decision: admit /tʃ/ (ch) and /dʒ/ (j)
+
+Systemic question raised during batch 3. **5-specialist committee voted UNANIMOUS to ADMIT** /tʃ/ and /dʒ/ as consonants #19-20 (inventory 18→20). Rationale: ~74 words already use them (chipa, teach, child, jara, oranja, jen); mapping them out would cause fatal collisions (chip→ship, jen→zen, chin→shin) + a 74-word migration; they are among the world's most common consonants (Universality). Zero word changes — only PHONOLOGY_FINAL.md §1 amended. This unblocks ch/j freely in future vocabulary.
+
+
+## 2026-07-25 — Expansion Batch 3: Body & Health (+33)
+
+Committee-reviewed (3 specialists), synthesized with verification. Dropped `breta`/`resta`/`healti` (existing `brit`/`rest`/`helti`); `kut-kur→sik-kur` (kut not in base); `chesta→hert-hous`. Kept `blud-lain`/`hert-bit` (verified `lain`/`bit` exist, against stale review claims). Gold-standard series: `big-fingar`=thumb, `fut-fingar`=toe, `blud-lain`=vein, `hot-sik`=fever, `hed-pain`=headache.
+
+**Systemic flag raised (morphologist, twice): /tʃ/ "ch" and /dʒ/ "j" are NOT in the 17-consonant inventory** (PHONOLOGY_FINAL §1). Yet ~19 `ch`-words and many `j`-words exist (jen, imaj, jara, oranja, chip…). Deferred `chin`/`chesta` pending a dedicated committee decision on whether VELA admits /tʃ/,/dʒ/ or maps them (e.g. ch→sh/ts, j→y/zh). **Dictionary 1444 → 1477, 0 duplicates, validator 0 errors.** Progress: **1477 / 3000**.
+
+
+
+## 2026-07-25 — Expansion Batch 2: Home & Daily Life (+48)
+
+Same author-generates/committee-reviews pipeline. Improved prompts from batch-1 lessons: told the morphologist to verify every "X exists" claim, told the semanticist to use real/legal roots. All 3 specialists reviewed.
+
+- **Synthesis with verification** — confirmed `wash→wosh`, `kold→kol` (cleaner cold root), and dropped `keki`/`chizi` (existing `keik`/`ces`). Applied `string→stringa`, `metal-string→metal-stringa` (both specialists: /ŋ/ is not in the legal coda set {n,m,l,r,s}). Rejected the phonologist's "ropi is a duplicate" (verified: `ropi` does not exist — kept). Kept clean loans the majority approved over the semanticist's compound suggestions (a candle can stay `kandel`).
+- Highlights: transparent compounds `kol-boksi`=fridge, `si-glasi`=mirror, `slip-kover`=blanket, `frute-watre`=juice, `arm-kover`=sleeve.
+- Result: 48 words added. **Dictionary 1396 → 1444 entries, 0 duplicates, validator 0 errors.**
+
+Progress: **1444 / 3000**. (Systemic questions flagged for later: is /tʃ/ "ch" in the inventory? `kol`/`kold`, `lon`/`long`, `frukt`/`frute` near-duplicates.)
+
+
+
+## 2026-07-25 — Expansion Batch 1: Nature & Environment (+51)
+
+First vocabulary-expansion batch under the "author generates, committee reviews" model. Claude authored ~54 words → validator pre-filter → 3 Pi specialists reviewed (each read the repo first): semanticist (transparency), phonologist+aestheticist (sound/beauty), morphologist+lexicographer (structure/consistency).
+
+- **Synthesis with verification** — several morphologist fixes were stale/wrong and rejected after checking the actual lexicon (claimed `river`→`rivr` but we'd just fixed that; claimed `ais`/`daun` missing but they exist). Phonologist's `-lond → -londa` fixes were rejected as contradicting the ratified Option A (native roots grandfathered in compounds).
+- **Applied consensus** — `watre-lond → mar-lond` (island, not "wetland"); `morn → moring`; `jema → biju-ston` (transparent); dropped season compounds (samr/winter/spring/fol already exist) and `sanda`/`beri` (duplicates); backfilled gap roots `tre, lo, lain, rais`.
+- Result: `docs/lexicon/LEXICON_EXPANSION.md` (51 words), added to the validator + dictionary pipeline. **Dictionary 1345 → 1396 entries, 0 duplicates, validator 0 errors.**
+
+Progress: **1396 / 3000**.
+
+
+
+## 2026-07-25 — Lexicon Cleanup (pre-expansion)
+
+Surfaced by `generate_dictionary.py`, applied via `scripts/clean_lexicon.py` (idempotent) + manual fixes. Verified: dictionary regenerated with **0 duplicate headwords**, phonotactic validator still **0 errors**.
+
+- **De-dotted 29 headwords** — the syllable dot belongs in the AFI only: `lai.on → laion`, `dol.fin → dolfin`, `e.le.fant → elefant`, etc. (AFI keeps its dots).
+- **Removed ~99 duplicate rows** — same headword listed in multiple thematic sections (all intra-file; kept the first occurrence).
+- **Resolved homonyms:** `dai` (die/duck) → duck is now `duk`; `lai` (lie/luck) → luck is now `luki`. The basic verbs keep the short form.
+- **Merged spelling variant:** removed `mind` (pronounced /maind/ — violated write-as-you-speak); `maind` is canonical.
+- **Flagged, not changed:** `mini` /mi.ni/ glossed "mind" looks like a mis-gloss (should likely be "mini/small") — needs review.
+- **Pronounceability pass (`scripts/fix_pronounceability.py`)** — 54 words dropped the English schwa entirely, leaving an unreadable obstruent+sonorant cluster (`rivr`, `botl`, `opn`, `sevn`, `ppl`, `gvrnmnt`, months `Septembr`…). Restored the pure vowel so they read as they sound: `rivr→river`, `nevr→never`, `opn→open`, `sevn→seven`, `ppl→pipel`, `letr→leter`, `Septembr→September`, `watrmeln→watre-melon`, etc. (177 replacements across lexicons + corpus). This fixes a triple violation: write-as-you-speak, the schwa→pure-vowel rule, and (C)V.
+
+Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocabulary expansion.
+
+
+
+## 2026-07-24 — Fase 7: Diccionario
+
+**Deliverable:** `docs/dictionary/DICTIONARY.md` (1446 entries) + `docs/dictionary/INDEX_EN_VELA.md` (English→VELA reverse index), generated by `scripts/generate_dictionary.py`.
+
+- Built entirely from existing lexicons (LEXICON_BASE + LEXICON_EXTENDED) — **no new vocabulary**. Reformats, merges, sorts, and auto-derives etymology (`god-hous` → "god + house") and the compounds-per-root list (`hous` → sik-hous, god-hous, lern-hous...).
+- Parser is **header-aware** — the lexicons use ~13 different table column layouts; it maps columns by header name, persists headers across mid-table prose/blank lines, splits the "two-entries-per-row" layout, and falls back to a positional default. Skips non-entry rows (design-note tables) via a bold-headword guard.
+- **Audit findings** (surfaced by generation, for a future lexicon cleanup): 85 duplicate headwords (e.g. far-si, fon, foto, dep); several entries carry a syllable dot in the headword (`lai.on`, `fri.dom`, `dol.fin`) which belongs in the AFI only.
+
+### Open (lexicon cleanup candidates)
+- 85 duplicate headwords + dotted headwords → normalize in a lexicon pass. Also the earlier `maind`/`mind` duplicate.
+
+---
+
+## 2026-07-24 — Fase 6: Gramática de Referencia
+
+**Deliverable:** `docs/grammar/GRAMMAR_COMPLETE.md` polished to an 18-section reference manual.
+
+- Added §17 **FAQ** (10 common questions) and §18 **Exceptions & Closed Classes** (closed-class function words, suppletive comparisons, atomic exceptions) — TOC updated.
+- **Compound orthography decision (committee):** the owner proposed dropping the hyphen for elegance; both specialists voted **KEEP THE HYPHEN** unanimously. Aestheticist: "the hyphen IS the elegance" for short-root VELA (`sik-hous` = haiku, `sikhous` = barcode). Morphologist: without it, `liv-ed`/`li-ved`, `man-se`/`ma-nse` are ambiguous; transparency ranks above beauty in VELA's principles. §15.1 fixed to match `ORTHOGRAPHY.md` §6.3 (hyphen between all morphemes).
+- Updated §15.0 atomic ceiling to the two-tier model (Fase 5 R1).
+- Canon reconciliation carried from the Fase 5 work: plural `-n/-en`, morpheme order root-number-case, locative `-to`, comparative `mor/mos + base`.
+
+### Open (lexicon, not grammar)
+- Duplicate `maind`/`mind` (both = mind) — dedup candidate, like the `mont`/`munts` merge.
+
+---
+
+## 2026-07-24 — Fase 5: Full Lexicon Review (23 domains, ~246 words)
+
+**Committee:** 5 specialist roles across 3 Pi agents (distinct models) over the NATS bridge, 2 rounds.
+**Method:** Domain-level review → consensus ballot (APPROVE/AMEND/REJECT per resolution).
+**Result:** ✅ RATIFIED — see `vote/topics/consensus/fase5_consensus.md`.
+
+### Resolutions adopted
+| # | Decision | Vote |
+|---|----------|------|
+| R1 | **Two-tier atom ceiling** — soft ~200 core target + open domain registers; every loan carries a ≤3-root compound alternative | APPROVE ×2, AMEND ×1 |
+| R2 | **Thematic vowel /a/** for illegal single codas (~115 words) + **banned final clusters** (~32 words restructured); grandfathered roots `fors/art/self/god → forsa/arta/sela/goda` (2-release window) | unanimous |
+| R3 | **Loan reduction** in Ethics/Politics/Arts — `moral→rait-rong-sistam`, `etik→rait-rong-lern`, `harm→bada-mak`, `responsibil→du-nob`, `parlamnt→rul-mak-hous`; loans kept as domain-register synonyms | APPROVE ×2, AMEND ×1 |
+| R4 | **Emotion clusters kept** (gold standard); POETIC/PROSE tag adopted; clinical forms get poetic synonyms, not replacement | unanimous |
+| R5 | `pilgrimage→pilgrimej`; `-shon` standardized; beauty swaps `tretmnt→kura`, `govrnr→rul-po`, `varibl→chanj-tip`, `vershn→edi-shon`, `ekshibishon→shou-hous` | unanimous |
+| R6 | **Plural canon fixed** — `-n`/`-en` is the single rule (all `-s` deleted); morpheme order **root→number→case** (`man-en-se`); `man-se-n` removed | unanimous |
+
+### Follow-up review (same day)
+- **Homonymies — resolved, no action.** `fors→forsa`, `spid→spida`, `bit`→`muzika-bita` already eliminated the real clashes; `masa`≠`mas` (not homonyms); `stap`≠`stop` (`topi`); `tip` = benign polysemy. Only `kor` (choir) is a **reserved form** — latent risk if `core` is added later.
+- **Locative `-te`/`-to` — FIXED.** Finished applying the prior consensus (`-to`) across GRAMMAR_COMPLETE.md (rules, AFI, paradigm, summary). Also fixed a stale `mor/mos + im` comparison line (`-im` was already eliminated).
+
+- **Phonotactic validator built** — `scripts/validate_phonology.py` (from PHONOLOGY_FINAL.md §3.2). It exposed that R2's thematic vowel clashed with compounding from consonant-final native roots. **Both specialists voted Option A:** thematic vowel for loans/new roots only; native roots grandfathered in compounds (legal inventory = BASE headwords + errata roots); diphthong `-y/-w` endings are vowel-final. Fixed 6 new coinages (`chanja-tip`, `du-noba`, `kolaja`, `pilgrimeja`, `paraiza`; `deploy` kept). LEXICON_EXTENDED.md now validates 0 errors.
+
+- **`th` = /θ ð/ nativization DONE** — 9 legacy words fixed with `/θ/→/t/`, `/ð/→/d/` (the convention already in their own AFI): `think→tink, thick→tik, thin→tin, smooth→smud, helthi→helti, month→mont, lethr→leder, theory→teori, throu→trou`. `trou` keeps `/ou/` to avoid clashing with `tru` (true); `zh` rejected (spells /ʒ/, also not in inventory). Corpus swept. Validator: 0 errors / 1439 words.
+
+- **Duplicate `month` merged** — removed `munts` (worse phonotactically, ends in /nts/ cluster); `mont` is canonical. Plural is `mont-en` (fixed `yeer` example: "ten-tu mont-en" = twelve months).
+
+### Carried forward
+- Poet-vocabulary gap (sensory/atmosphere atoms) → Fase 6.
+
+### Files changed
+- `docs/lexicon/LEXICON_EXTENDED.md` — word forms, AFI, examples, plurals
+- `docs/grammar/GRAMMAR_COMPLETE.md` — §4.9 morpheme order + plural summary
+- `ROADMAP.md` — Fase 5 status + plural note
+- `vote/topics/consensus/fase5_consensus.md` — new
+
+---
+
+## 2026-05-31 — Phase 5: Single Word Review (self-nof = consciousness)
+
+**Committee:** 5 specialists (Phonologist, Morphologist, Lexicographer, Semanticist, Aestheticist)
+**Word reviewed:** `self-nof` (self + nof) = consciousness / consciencia
+**Domain:** Philosophy / Core Concepts
+
+### Deliberation Summary
+| Specialist | Verdict | Confidence |
+|------------|---------|------------|
+| Phonologist | ✅ APPROVE | High |
+| Morphologist | ✅ APPROVE | High |
+| Lexicographer | ✅ APPROVE | Med-High |
+| Semanticist | ⚠️ MODIFY | High |
+| Aestheticist | ✅ APPROVE | Med-High |
+
+**Result:** APPROVED (4/5, 1 modify with alternative proposal)
+
+### Decision
+- **Approved:** `self-nof` = consciousness / consciencia
+- **AFI:** /self.nof/
+- **Formation:** prefix compound (`self-` + `nof`)
+- **Orthography:** hyphenated (`self-nof`) — `self-` is prefix, not root
+- **Register:** philosophical consciousness (self-awareness of existence)
+
+### Semanticist Dissent (archived)
+- Proposed: `self-nof` = "self-knowledge" (literal), `mind-wek` = "consciousness"
+- Preserved for future review if polysemy issues arise in usage
+
+### Files Updated
+- `vote/topics/consensus/self-nof_consensus.md` — full rationale and dissent
+- `vote/topics/proposals/self-nof_*.md` — per-specialist reviews (5 files)
+
+---
+
+| 2026-05-31 | `fri-chuz` = free will | APPROVED (4/5, 1 modify) | Compound of existing roots; phonotactically clean; semantically one of strongest in Phase 5; hyphenated form chosen for consistency with entire existing lexicon; morphologist orthography dissent noted for systemic follow-up |
+
+---
+
 ## 2026-05-14 — Phase 4: Lexicon Expansion (Committee Review)
 
 **Committee:** 5 specialists (Phonologist, Morphologist, Lexicographer, Semanticist, Aestheticist)

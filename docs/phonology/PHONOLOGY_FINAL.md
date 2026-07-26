@@ -29,8 +29,12 @@ Cada sonido tiene: **símbolo AFI / símbolo VELA / ejemplo en inglés / ejemplo
 | 16 | /r/ | r | **r**ed (español/inglés) | **r**ich |
 | 17 | /w/ | w | **w**ater | **w**an |
 | 18 | /j/ | y | **y**es | **y**elo |
+| 19 | /tʃ/ | **ch** | **ch**ild, **ch**air | **ch**ipa, tea**ch** |
+| 20 | /dʒ/ | **j** | **j**oy, **j**ump | **j**en, oran**j**a |
 
-**Total: 18 fonemas consonánticos** (no 17 — /j/ se cuenta como /y/)
+**Total: 20 fonemas consonánticos.**
+
+> **Decisión (consenso de comité, 2026-07-25):** Se admiten las africadas /tʃ/ (ch) y /dʒ/ (j) como fonemas #19-20. El inventario original de 18 las omitía, pero ~74 palabras ya las usaban (chipa, brancha, teach, child, jara, oranja, jen, imaj). Los 5 especialistas votaron unánime ADMITIR: (1) cero migración de palabras; (2) mapearlas fuera crearía colisiones fatales (chip→ship, jen→zen, chin→shin); (3) son de las consonantes más comunes del mundo (~70% de las lenguas) y sirven a la Universalidad; (4) palabras core como `teach`, `child`, `chuz` (choose) las necesitan. El inventario estaba subespecificado; se admiten los fonemas que la lengua ya usa.
 
 ### 1.1 Decisión: /r/ = alveolar múltiple
 

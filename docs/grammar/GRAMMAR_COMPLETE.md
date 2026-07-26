@@ -1,8 +1,9 @@
 # VELA Grammar — Complete Reference
 
-> **Status:** COMPLETE ✅ — Phase 3 of the Roadmap  
-> **Source:** `INITIAL_RESEARCH.md` + design decisions made 2025-04-13  
-> **Language:** English (this document is written in English for maximum accessibility)
+> **Status:** REFERENCE MANUAL ✅ — Phase 6 (consolidated from Phase 3; canon reconciled 2026-07-24)  
+> **Source:** `INITIAL_RESEARCH.md` + design decisions; cross-refs `ORTHOGRAPHY.md`, `PHONOLOGY_FINAL.md`, `vote/topics/consensus/fase5_consensus.md`  
+> **Language:** English (this document is written in English for maximum accessibility)  
+> **Scope:** 18 sections — one paradigm per word class, one example per rule, quick-reference summary, FAQ, and exceptions list.
 
 ---
 
@@ -24,6 +25,8 @@
 14. [Word Formation — Affixes](#14-word-formation)
 15. [Word Formation — Compounds](#15-compounds)
 16. [Sentence Types — Full Paradigms](#16-sentence-types)
+17. [Frequently Asked Questions](#17-faq)
+18. [Exceptions & Closed Classes](#18-exceptions--closed-classes)
 
 ---
 
@@ -113,7 +116,7 @@ Articles do not change form for case. The noun after the article takes the case:
 
 ```
 la man-se    → the man's     (la + man + se)
-la siti-to  → in the city  (la + siti + te)
+la siti-to  → in the city  (la + siti + to)
 ```
 
 ---
@@ -171,15 +174,15 @@ Yu si la man-se buk.   → You see the man's book.    (genitive: noun + -se)
 
 ### 3.4 Locative Pronouns (full form)
 
-These are the **-te** suffix form, used for locative case on pronouns:
+These are the **-to** suffix form, used for locative case on pronouns:
 
 | Locative | AFI | English equivalent |
 |----------|-----|------------------|
-| **mi-to** | /mi.te/ | at/to me |
-| **yu-to** | /ju.te/ | at/to you |
-| **li-to** | /li.te/ | at/to him/her/it |
-| **wi-to** | /wi.te/ | at/to us |
-| **de-to** | /de.te/ | at/to them |
+| **mi-to** | /mi.to/ | at/to me |
+| **yu-to** | /ju.to/ | at/to you |
+| **li-to** | /li.to/ | at/to him/her/it |
+| **wi-to** | /wi.to/ | at/to us |
+| **de-to** | /de.to/ | at/to them |
 
 ```
 Mi go mi-to.      → I go to my place.  (to where I am)
@@ -244,7 +247,7 @@ VELA has **two cases** — only marking what word order cannot express.
 | **Nominative** | Subject of sentence | none | *Mi* si la film. |
 | **Accusative** | Direct object | none | Yu si *mi*. |
 | **Genitive** | Possessor of another noun | **-se** | la man-**se** buk |
-| **Locative** | Location or time | **-te** | Mi liv la siti-**te**. |
+| **Locative** | Location or time | **-to** | Mi liv la siti-**to**. |
 
 **The key principle:** Word order (SVO) handles nominative and accusative. Only add a suffix when word order is insufficient.
 
@@ -280,7 +283,7 @@ la Siti-to laibri     → the city's library
 
 **Position:** The possessor (with -se) comes BEFORE the possessed noun. Order: **possessor-GEN + possessed**.
 
-### 4.7 Locative — **-te**
+### 4.7 Locative — **-to**
 
 Used for location, time, or state:
 
@@ -298,34 +301,34 @@ De kom la las dei-to. → They come on the last day. (time)
 | **Nominative** | man | man-en |
 | **Accusative** | man | man-en |
 | **Genitive** | man-**se** | man-en-**se** |
-| **Locative** | man-**te** | man-en-**to** |
+| **Locative** | man-**to** | man-en-**to** |
 
 ### 4.9 Case + Other Morphemes
 
-When case combines with other suffixes, the order is always: **root → case → number**:
+When case combines with number, the order is always: **root → number → case** — number is inner (stem-level) morphology, case is outer (syntactic), added last:
 
 ```
-Case + Plural:    man-se-n        (the men's + plural = men's of multiple men)
-Locative + Pl:   siti-to-n      (in the cities)
-Genitive + Pl:   famili-se-n    (of the families)
+Genitive + Pl:   man-en-se       (of the men — multiple men's)
+Locative + Pl:   siti-n-to       (in the cities)
+Genitive + Pl:   famili-n-se     (of the families)
 ```
 
 ### 4.10 Case and Prepositions
 
-When a preposition already marks location/time, the -te suffix is **optional**:
+When a preposition already marks location/time, the -to suffix is **optional**:
 
 ```
 Mi liv en la siti.      → I live in the city.          (en = in)
-Mi liv la siti-to.     → I live in the city.          (-te alone)
+Mi liv la siti-to.     → I live in the city.          (-to alone)
 
 Wi wok at la ofis.      → We work at the office.      (at = location)
-Wi wok la ofis-to.     → We work at the office.       (-te alone)
+Wi wok la ofis-to.     → We work at the office.       (-to alone)
 
 Li kom from la lern-hous.    → She comes from the school.   (from = origin)
-Li kom la lern-hous-to.     → She comes from the school.    (-te alone)
+Li kom la lern-hous-to.     → She comes from the school.    (-to alone)
 ```
 
-**Rule:** When a preposition marks the semantic role clearly, -te can be dropped. Without a preposition, -te is required.
+**Rule:** When a preposition marks the semantic role clearly, -to can be dropped. Without a preposition, -to is required.
 
 ---
 
@@ -361,7 +364,7 @@ Adjectives do not agree with the noun's case. They simply precede the noun:
 NOM:  La big man si la film.         → The big man sees the film.
 ACC:  Mi si la big man-a.           → I see the big man.      (man takes -a, not big)
 GEN:  La big man-se hous.          → The big man's house.    (man takes -se, not big)
-LOC:  Mi liv la big siti-to.       → I live in the big city. (siti takes -te)
+LOC:  Mi liv la big siti-to.       → I live in the big city. (siti takes -to)
 ```
 
 ### 5.4 Comparison
@@ -623,7 +626,7 @@ Wot kolor es la kar? → Which color is the car?
 
 ### 10.2 Prepositions and the Case System
 
-When a noun after a preposition is also marked with -te or -se, the noun's role is doubly marked (preposition + suffix):
+When a noun after a preposition is also marked with -to or -se, the noun's role is doubly marked (preposition + suffix):
 
 ```
 Mi liv in la siti-to.      → I live in the city.    (in + LOC)
@@ -848,28 +851,26 @@ Adverbs are formed with the suffix **-um** added to the adjective:
 
 ### 15.0 The Atomic Word Ceiling
 
-VELA has a **soft ceiling of 200 atomic words** (Tier 0: 50 closed + Tier 1: 150 open with Quality Gate). All remaining vocabulary is built via compounding and derivation. This ceiling ensures:
+VELA has a **soft target of ~200 core atomic words** (Tier 0: 50 closed + Tier 1: ~150 open with Quality Gate). Beyond the core, **domain registers** (science, technology, arts) form an open class — but every loan there must carry a transparent ≤3-root compound alternative (Fase 5, R1; see `vote/topics/consensus/fase5_consensus.md`). All general vocabulary is built via compounding and derivation. This design ensures:
 
-- **Learnability:** A learner memorizes ~200 roots, not 900+.
+- **Learnability:** A learner memorizes ~200 core roots, not thousands.
 - **Derivational power:** Compounds become the productive engine.
-- **Phonotactic integrity:** Over-creating atoms would force violations of (C)V.
+- **Phonotactic integrity:** The thematic-vowel rule applies to loans/new roots; native roots are grandfathered in compounds.
 
 > **Quality Gate for Tier 1 atoms:** A candidate atom must pass at least 3 of 4 tests: (1) Not infantile-decomposable, (2) Frequent across languages, (3) Short (1-2 syllables), (4) Semantically unique (not a transparent compound of existing roots). See `vote/topics/consensus/ATOM_CEILING_consensus.md` for the full deliberation.
 
 ### 15.1 Two-Root Compounds
 
-Two-root compounds are written **together without space or hyphen**:
+Compounds are written with a **hyphen between morphemes** (`ORTHOGRAPHY.md` §6.3 — morphological transparency). The hyphen makes every root, prefix, and suffix visible:
 
 | Compound | From | Meaning |
 |---------|------|---------|
-| **sunlait** | sun + lait | sunlight |
-| **hauskel** | haus + kel | household |
-| **wok-er** | wok + er | worker |
-| **wotc-man** | wotc + man | watchman |
-| **self-lov** | self + lov | self-love |
-| **strongmind** | strong + mind | strong-minded |
-| **fainal** | fain + al | final |
-| **over-hapi** | over + hapi | over-happy |
+| **sik-hous** | sik + hous | hospital |
+| **god-hous** | god + hous | church |
+| **far-si** | far + si | television |
+| **kom-tok** | kom + tok | conversation |
+| **nau-dei** | nau + dei | today |
+| **eat-hous** | eat + hous | restaurant |
 
 ### 15.2 Three+ Root Compounds
 
@@ -885,8 +886,8 @@ liv-siti          → city where one lives / dwelling
 When a compound noun takes a case suffix, the suffix goes on the **last root only**:
 
 ```
-sunlait-se        → of the sunlight   (NOT: sun-la-se-it)
-hauskel-en-se      → of the households
+sik-hous-se        → of the hospital   (case on the last root only)
+sik-hous-en-se     → of the hospitals  (root → number → case)
 ```
 
 ---
@@ -984,13 +985,80 @@ De mas no don dat.               → They must not do that.
 
 ---
 
+## 17. Frequently Asked Questions
+
+**How do I combine a case and a plural?**
+Order is always root → number → case: `man-en-se` = "of the men" (§4.9).
+
+**When can I drop the locative `-to`?**
+Only when a preposition already marks the location: `Mi liv in la siti`. With no preposition, `-to` is required: `Mi liv la siti-to` (§4.10).
+
+**Are there any irregular verbs?**
+None. Every verb takes `-a` / `-ed` / `-wil`, including `bi` (to be): `bi-a, bi-ed, bi-wil`. There are no irregular forms anywhere in the verb system (§6).
+
+**Do adjectives change for number or case?**
+No. Adjectives are invariable and come before the noun (§5.3).
+
+**How do I say "more" and "most"?**
+`mor` + adjective (comparative), `mos` + adjective (superlative). There is no `-er`/`-est` suffix (§5.4).
+
+**How do I turn an adjective into an adverb?**
+Add `-um`: `nais → nais-um` ("nicely") (§13.1).
+
+**How are compounds and affixes written?**
+With a hyphen between every morpheme: `sik-hous`, `man-se`, `liv-ed`. One rule for all morpheme boundaries (§15.1; `ORTHOGRAPHY.md` §6.3).
+
+**What is the plural suffix?**
+`-n` after a vowel-final word, `-en` after a consonant-final word: `siti-n`, `man-en` (§4.2).
+
+**Where does the yes/no question particle go?**
+`q` closes a yes/no question: `Yu si la film q?` (§9.1).
+
+**`mi-se` vs `man-se` — what's the difference?**
+Both use the genitive `-se`. `mi-se` is the possessive on a pronoun ("my"); `-se` attaches to any noun to show possession: `man-se` = "the man's" (§3.2, §4.6).
+
+---
+
+## 18. Exceptions & Closed Classes
+
+VELA has **no irregular morphology** — no irregular verbs, no irregular plurals, no grammatical gender. The only "exceptions" a learner memorizes are **closed-class function words** and a few **suppletive phrases**.
+
+### Closed classes (fixed — memorize as-is)
+
+| Class | Members |
+|-------|---------|
+| Pronouns | mi, yu, li, wi, de |
+| Articles | la (the), un (a/an) |
+| Modals | kan, mas, wan |
+| Demonstratives | dis, dat, dese, dase |
+| Indefinites | som, eni, non, evri |
+| WH-words | hu, wat, wen, wer, hai, wai, hou |
+| Question particle | q |
+| Core prepositions | a, in, on, from, for, wit, to |
+| Conjunctions | and, bot, or, so, bikos, if, den |
+
+### Suppletive comparisons (phrasal, not irregular forms)
+
+| English | VELA |
+|---------|------|
+| better / best | mor gud / mos gud |
+| worse / worst | mor bad / mos bad |
+
+These are regular `mor`/`mos` phrases — VELA has no irregular comparative *forms*.
+
+### Atomic exceptions to compound-first
+
+The ~200 core atoms (§15.0) and a few internationally-recognized loans (`atom`, `DNA`, `protein`) are kept as atoms rather than built from roots, because a transparent compound would be longer or less recognizable. Every other loan carries a compound alternative (Fase 5, R1).
+
+---
+
 ## Summary — Grammar at a Glance
 
 ```
 WORD ORDER:      SVO (strict)
 ARTICLES:        la (the), un (a/an)
-CASES:           NOM = order | ACC = order | GEN = -se | LOC = -te
-PLURAL:          -s
+CASES:           NOM = order | ACC = order | GEN = -se | LOC = -to
+PLURAL:          -n (after vowel) / -en (after consonant)
 ADJECTIVES:      base (before noun)
 ADVERBS:         base-um
 PRESENT TENSE:   root + -a
@@ -1001,7 +1069,7 @@ MODALS:          kan, mas, wan (followed by bare root)
 NEGATION:        no + verb
 YES/NO QUESTIONS: sentence + q
 WH-QUESTIONS:     hu / wat / wen / wer / hai / wai / hou
-COMPARISON:       mor + im (comp) | mos + im (superl)
+COMPARISON:       mor + base (comp) | mos + base (superl)
 CONJUNCTIONS:     and, or, bot, bikos, if, wen, den, so
 PRONOUNS:         mi, yu, li, wi, de
 POSSESSIVE:       mif, yuf, liz, wef, def

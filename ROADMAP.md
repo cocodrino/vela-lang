@@ -29,7 +29,8 @@ GRAMÁTICA:
       Locativo: -to  (ubicación, tiempo) ← CAMBIADO por consenso (era -te)
   ✅ Adjetivo = raíz bare (sin sufijo) — ELIMINADO -im por consenso
   ✅ Posesivos unificados: mi-se, yu-se, li-se, wi-se, de-se (eliminado -f)
-  ✅ Plural + caso: ROOT-CASE-PLURAL (ej: man-se-s)
+  ✅ Plural: -n (tras vocal) / -en (tras consonante) — CONSENSO 2026-07-24
+  ✅ Plural + caso: ROOT-PLURAL-CASE (ej: man-en-se) — corregido por consenso 2026-07-24
 
 VOCABULARIO:
   ✅ ~200 palabras atómicas soft ceiling (Tier 0: 50 cerradas, Tier 1: 150 abiertas con Quality Gate)
@@ -54,9 +55,9 @@ Fase 1  → Fonología Final              ✅
 Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
-Fase 5  → Léxico Extendido (3000+)     ⬜
-Fase 6  → Gramática de Referencia      ⬜
-Fase 7  → Diccionario                  ⬜
+Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
+Fase 6  → Gramática de Referencia      ✅ COMPLETA (18 secciones + FAQ + excepciones, canon reconciliado)
+Fase 7  → Diccionario                  ✅ COMPLETA (1446 entradas, generado por script)
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
@@ -248,25 +249,30 @@ Fase 10 → Comunidad y Evolución        ⬜
 
 ---
 
-## Fase 6 — Gramática de Referencia ⬜
+## Fase 6 — Gramática de Referencia ✅ COMPLETA
 
 **Objetivo:** Consolidar TODA la gramática en un solo documento de referencia (no tutorial).
 
-**Contenido planeado:**
-- [ ] Índice completo con links
-- [ ] Un paradigma por clase de palabra
-- [ ] Un ejemplo por regla
-- [ ] Tablas de referencia rápida
-- [ ] Lista de excepciones atómicas (justificadas)
-- [ ] FAQ gramatical
+**Entregable:** `docs/grammar/GRAMMAR_COMPLETE.md` (18 secciones).
 
-**Nota**: GRAMMAR_COMPLETE.md ya existe como boceto. Esta fase es pulirlo a manual de referencia profesional.
+- [x] Índice completo con links (TOC, 18 secciones)
+- [x] Un paradigma por clase de palabra (sustantivo §4.8, verbo §6.2, bi §6.3...)
+- [x] Un ejemplo por regla
+- [x] Tablas de referencia rápida (Summary — Grammar at a Glance)
+- [x] Lista de excepciones atómicas justificadas (§18 Exceptions & Closed Classes)
+- [x] FAQ gramatical (§17)
+
+**Reconciliación de canon (2026-07-24)**: se corrigieron inconsistencias que arrastraba el boceto — plural `-s`→`-n/-en`, orden de morfemas raíz-número-caso, locativo `-te`→`-to`, comparativo `+im`→`+base`, y la regla de compuestos (§15.1: guion entre morfemas, confirmado por comité + ORTHOGRAPHY §6.3). Techo de átomos actualizado a dos niveles (Fase 5 R1).
 
 ---
 
-## Fase 7 — Diccionario ⬜
+## Fase 7 — Diccionario ✅ COMPLETA
 
-**Objetivo:** Diccionario oficial VELA → IPA → español/inglés.
+**Entregable:** `docs/dictionary/DICTIONARY.md` (1446 entradas) + `docs/dictionary/INDEX_EN_VELA.md` (índice inverso inglés→VELA), generados por `scripts/generate_dictionary.py` desde los léxicos existentes (0 palabras nuevas).
+
+El generador es header-aware (soporta los ~13 layouts de tabla de los léxicos), deriva la etimología y los compuestos automáticamente, y actúa como auditoría: detectó **85 headwords duplicados** y varias entradas con punto en el headword (`lai.on`, `fri.dom`, `dol.fin`) — candidatos de limpieza del léxico. Re-ejecutable: se regenera cuando cambian los léxicos.
+
+**Objetivo original:** Diccionario oficial VELA → IPA → español/inglés.
 
 **Formato planeado:**
 
@@ -379,9 +385,9 @@ Fase 1  → Fonología                    ✅
 Fase 2  → Sistema de Escritura         ✅
 Fase 3  → Gramática Completa           ✅
 Fase 4  → Léxico Base (1004/1000)      ✅ COMPLETA
-Fase 5  → Léxico Extendido (3000+)     ⬜
-Fase 6  → Gramática de Referencia      ⬜
-Fase 7  → Diccionario                  ⬜
+Fase 5  → Léxico Extendido (3000+)     🔶 EN CURSO (246 palabras, consenso aplicado 2026-07-24)
+Fase 6  → Gramática de Referencia      ✅ COMPLETA (18 secciones + FAQ + excepciones, canon reconciliado)
+Fase 7  → Diccionario                  ✅ COMPLETA (1446 entradas, generado por script)
 Fase 8  → Textos y Muestras            ✅ COMPLETA (5 poemas + 1 cuento + 1 cuento clásico + 5 historias + 100 frases + benchmark)
 Fase 9  → Audio y Pronunciación        ⬜
 Fase 10 → Comunidad y Evolución        ⬜
