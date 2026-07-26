@@ -398,35 +398,44 @@ Some comparisons are more common as phrases:
 
 ### 6.1 The Three Tenses — Zero Irregular Verbs
 
-This is VELA's most important grammatical feature. **Every verb follows the same three rules:**
+VELA's flagship feature: tense is marked by two suffixes and an **unmarked present**. There are **no irregular verbs, no person endings, no spelling changes.**
 
-| Tense | Suffix | Structure | Example | English |
-|-------|--------|-----------|---------|---------|
-| **Present** | **-a** | root + -a | liv-**a** | I live |
-| **Past** | **-ed** | root + -ed | liv-**ed** | I lived |
-| **Future** | **-wil** | root + -wil | liv-**wil** | I will live |
+| Tense | Marker | Form | Example | English |
+|-------|--------|------|---------|---------|
+| **Present** | *(none)* | the **citation form** — the word exactly as the dictionary lists it | **hava** | I have |
+| **Past** | **-ed** | bare root + -ed | **hav-ed** | I had |
+| **Future** | **-wil** | bare root + -wil | **hav-wil** | I will have |
 
-### 6.2 Full Paradigm of a Regular Verb: liv (to live)
+**The present is unmarked: it is simply the dictionary word.** Past and future attach to the **bare root** — the same short form used inside compounds (see R7).
+
+Why no present `-a`? A dedicated present suffix would collide with the citation vowel of R7: `maka` (*to make*) would also be *makes*. Ratified by unanimous committee vote (**R8**, `vote/topics/consensus/fase5_consensus.md`): the **citation form *is* the present**, so `maka` / `hava` / `luva` mean both *to make/have/love* and *makes/has/loves*. This is identity, not ambiguity — SVO word order and the `-ed` / `-wil` contrast keep tenses distinct (cf. Spanish *hablo*, German *mache = ich mache*).
+
+The citation vowel only appears where phonotactics demand it (a hard coda). Roots already legal standalone keep their bare shape in the present too:
+
+| Root type | Present (= citation) | Past | Future |
+|-----------|----------------------|------|--------|
+| Vowel-final / soft coda {n m l r s ŋ} | `si`, `go`, `wan`, `her`, `lern` | `si-ed` | `si-wil` |
+| Hard coda (k v t p g b d f z …) | `maka`, `hava`, `luva`, `toka` | `mak-ed`, `hav-ed` | `mak-wil` |
+
+### 6.2 Full Paradigm of a Regular Verb: hava (to have)
+
+The verb never changes for person — only tense changes.
 
 | Person | Present | Past | Future |
 |--------|---------|------|--------|
-| mi | liv-**a** | liv-**ed** | liv-**wil** |
-| yu | liv-**a** | liv-**ed** | liv-**wil** |
-| li | liv-**a** | liv-**ed** | liv-**wil** |
-| wi | liv-**a** | liv-**ed** | liv-**wil** |
-| de | liv-**a** | liv-**ed** | liv-**wil** |
+| mi / yu / li / wi / de | **hava** | **hav-ed** | **hav-wil** |
 
-**There are no exceptions. No irregular verbs. No spelling changes.**
+**No exceptions. No irregular verbs. No spelling changes.**
 
 ```
-liv     liv-a     liv-ed     liv-wil
-to live  I live   I lived    I will live
+hava     hav-ed     hav-wil
+I have   I had      I will have
 
-si      si-a      si-ed      si-wil
-to see   I see     I saw      I will see
+si       si-ed      si-wil        (si is legal standalone → bare present)
+I see    I saw      I will see
 
-tok     tok-a     tok-ed     tok-wil
-to speak I speak  I spoke    I will speak
+maka     mak-ed     mak-wil       (hard coda → citation form takes -a)
+I make   I made     I will make
 ```
 
 ### 6.3 The Verb "To Be" — bi
@@ -435,9 +444,11 @@ The verb **bi** (to be) is regular — unlike in English:
 
 | Person | Present | Past | Future |
 |--------|---------|------|--------|
-| mi | bi-**a** | bi-**ed** | bi-**wil** |
-| yu | bi-**a** | bi-**ed** | bi-**wil** |
-| li | bi-**a** | bi-**ed** | bi-**wil** |
+| mi | **es** | es-**ed** | wil es |
+| yu | **es** | es-**ed** | wil es |
+| li | **es** | es-**ed** | wil es |
+
+`bi` is the one verb whose present is not its citation form: the present is **es**. (Past `es-ed`, future `wil es`.)
 
 ```
 Mi es hapi.          → I am happy.           (present)
@@ -451,23 +462,25 @@ YES: Mi es-ed hapi.   ✅ VELA regular form
 
 ### 6.4 Core Verb List
 
-| VELA | English | Present | Past | Future |
+The **Present** column is the citation form (the dictionary word). Past/future use the bare root.
+
+| VELA (root) | English | Present (= citation) | Past | Future |
 |------|---------|---------|------|--------|
-| bi | to be | bi-a | bi-ed | bi-wil |
-| si | to see | si-a | si-ed | si-wil |
-| go | to go | go-a | go-ed | go-wil |
-| kom | to come | kom-a | kom-ed | kom-wil |
-| tok | to speak | tok-a | tok-ed | tok-wil |
-| liv | to live | liv-a | liv-ed | liv-wil |
-| wok | to work | wok-a | wok-ed | wok-wil |
-| her | to hear | her-a | her-ed | her-wil |
-| fel | to feel | fel-a | fel-ed | fel-wil |
-| luk | to look | luk-a | luk-ed | luk-wil |
-| lik | to like | lik-a | lik-ed | lik-wil |
-| lern | to learn | lern-a | lern-ed | lern-wil |
-| hav | to have | hav-a | hav-ed | hav-wil |
-| don | to do | don-a | don-ed | don-wil |
-| nof | to know | nof-a | nof-ed | nof-wil |
+| bi | to be | es | es-ed | wil es |
+| si | to see | si | si-ed | si-wil |
+| go | to go | go | go-ed | go-wil |
+| kom | to come | kom | kom-ed | kom-wil |
+| tok | to speak | toka | tok-ed | tok-wil |
+| liv | to live | livi | liv-ed | liv-wil |
+| wok | to work | woka | wok-ed | wok-wil |
+| her | to hear | her | her-ed | her-wil |
+| fel | to feel | fel | fel-ed | fel-wil |
+| luk | to look | luka | luk-ed | luk-wil |
+| lik | to like | liki | lik-ed | lik-wil |
+| lern | to learn | lerna | lern-ed | lern-wil |
+| hav | to have | hava | hav-ed | hav-wil |
+| don | to do | don | don-ed | don-wil |
+| nof | to know | nof | nof-ed | nof-wil |
 
 ---
 

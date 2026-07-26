@@ -140,3 +140,26 @@ Toda raíz de CONTENIDO con coda dura word-final (consonante fuera de {n,m,l,r,s
 Precedentes naturales de la alternancia: español (e-epéntesis: estado), latín (rex/reg-), japonés (人 jin/nin), turco (ev/ev-e), portugués (água/agua-).
 
 Aplicado 2026-07-26: 273 raíces de contenido normalizadas a forma de cita; compuestos intactos; validador actualizado para reconocer las formas de composición bare.
+
+---
+
+## R8 — El presente = la forma de cita (ratificada unánime 2026-07-26)
+
+**Conflicto detectado:** GRAMMAR_COMPLETE.md §6.1 declaraba presente = raíz + `-a` sin excepción (`liv-a`, `si-a`), pero TODO el corpus (PHRASES_100, poemas, cuentos, ejemplos del diccionario) usa la raíz pelada en presente (`Mi wan la dis`, `Mi luv mi-se mat`, `Mi hav a child`, `Wi si la starz`). El pasado sí es consistente (raíz+`-ed`).
+
+**Voto:** ronda 1 → B, B, A (2-1). El fonólogo (A) detectó que bajo B puro `mak` /k/, `hav` /v/, `luv` /v/ son **codas ilegales** como palabra suelta — justo lo que R7 resolvió. Ronda 2 → síntesis **Opción C**, ratificada **C-sí unánime** (pi-29881 morfólogo, pi-26905 fonólogo, pi-34067 semantista).
+
+**Regla:** el presente **no lleva marca gramatical propia**. El presente ES la forma de cita (R7). La `-a` de `maka`/`hava` no es marca de presente: es la vocal de cita que solo aparece donde la fonotáctica la exige.
+
+| Tipo de raíz | Cita = Presente | Pasado | Futuro |
+|---|---|---|---|
+| Legal suelta (vocal-final o coda ∈ {n,m,l,r,s,ng}) | `si`, `go`, `wan`, `tok`, `liv`, `lern` | `si-ed` | `si-wil` |
+| Coda dura (k,v,t,p,g,b,d,f,z,…) | `maka`, `hava`, `luva` | `mak-ed`, `hav-ed` (/ha.ved/) | `mak-wil` |
+
+**Consecuencias:**
+- `bi` (to be) mantiene su presente irregular `es` (única excepción, ya canónica).
+- Pasado/futuro se unen a la raíz **pelada**; la coda dura queda en onset de la sílaba siguiente (`hav-ed` → /ha.ved/, legal).
+- "maka = to make = makes" NO es homonimia: es identidad cita↔presente, como esp. "hablo", alemán "mache=ich mache".
+- **Migración de corpus pendiente:** ejemplos con presente de coda dura pelado (`Mi mak…`, `Mi luv…`, `Mi hav…`) → forma de cita (`Mi maka…`, `Mi luva…`, `Mi hava…`). Raíces legales (`si/go/wan/tok`) quedan intactas. Afecta ~200 ejemplos + el generador de ejemplos del diccionario.
+
+**Argumentos clave:** presente no marcado = default translingüístico (inglés/mandarín/criollos) y SVO ya desambigua (semantista); R7 y presente pasan a ser UN sistema en vez de dos reglas (morfólogo); todo presente queda (C)V-legal sin reintroducir codas duras (fonólogo).
