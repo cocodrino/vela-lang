@@ -47,8 +47,10 @@
   .sail{display:inline-block;color:var(--sun)}
 
   /* ---- how it works ---- */
-  .legend{margin:-2.2rem auto 0;position:relative;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:1.2rem 1.4rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem}
-  .legend div{display:flex;gap:.6rem;align-items:flex-start;font-size:.9rem}
+  .legend{margin:-2.2rem auto 0;position:relative;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:1.4rem 1.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1.2rem 1.6rem}
+  .legend .li{display:flex;flex-direction:column;gap:.45rem}
+  .legend .head{display:flex;align-items:center;gap:.55rem;font-family:var(--display);font-weight:800;font-size:1.02rem;color:var(--ink)}
+  .legend .li p{margin:0;font-size:.88rem;color:var(--muted);line-height:1.5}
   .dot{flex:0 0 auto;width:1.7rem;height:1.7rem;border-radius:8px;display:grid;place-items:center;font-family:var(--display);font-weight:800;color:#fff;font-size:.95rem}
 
   /* ---- lesson ---- */
@@ -123,10 +125,10 @@
 
 <div class="wrap">
   <section class="legend" aria-label="How this course works">
-    <div><span class="dot" style="background:var(--brand)">A</span><div><strong>Vocabulary</strong><br>New words, with how to say them.</div></div>
-    <div><span class="dot" style="background:var(--sun)">B</span><div><strong>One rule</strong><br>A single grammar idea per lesson.</div></div>
-    <div><span class="dot" style="background:var(--brand-deep)">C</span><div><strong>Dialogue</strong><br>Hear the words in real use.</div></div>
-    <div><span class="dot" style="background:var(--coral)">D</span><div><strong>Your turn</strong><br>Small exercises — answers included.</div></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--brand)">A</span>Vocabulary</div><p>New words, with how to say them.</p></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--sun)">B</span>One rule</div><p>A single grammar idea per lesson.</p></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--brand-deep)">C</span>Dialogue</div><p>Hear the words in real use.</p></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--coral)">D</span>Your turn</div><p>Small exercises — answers included.</p></div>
   </section>
 
   <!-- ================= LESSON 1 ================= -->
