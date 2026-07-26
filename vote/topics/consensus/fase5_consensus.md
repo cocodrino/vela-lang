@@ -123,3 +123,20 @@ After the amendment, `LEXICON_EXTENDED.md` validates with **0 errors**.
 - `docs/grammar/GRAMMAR_COMPLETE.md` — R6 plural rule + morpheme order.
 - `vote/docs/CHANGE_LOG.md` — dated entry.
 - `ROADMAP.md` — Fase 5 status + plural note.
+
+---
+
+## R7 — Alomorfía Cita/Composición (Opción D, ratificada unánime 2026-07-26)
+
+Toda raíz de CONTENIDO con coda dura word-final (consonante fuera de {n,m,l,r,s,ng}) tiene **dos formas**:
+
+- **Forma de CITA** (standalone / entrada de diccionario): raíz + vocal epentética `/a/` → `maka` (make), `luka` (look), `aska` (ask), `teacha` (teach). Vocal-final = pronunciable en aislamiento para cualquier hablante (hispano/asiático/etc.).
+- **Forma de COMPOSICIÓN** (dentro de compuestos): raíz **bare** (sin la `-a`) → `mak-tin`, `luk-for`, `tok-tin`. La coda queda interna, acústicamente enmascarada por el ritmo del compuesto.
+
+**Regla del aprendiz (una línea):** en composición, quita la `-a` de la forma de cita.
+
+**Palabras FUNCIÓN** (at, of, and, if, wit, but, self…) quedan **grandfathered con forma única** — son monosílabos hiper-frecuentes tolerados en todo idioma natural; no reciben forma de cita.
+
+Precedentes naturales de la alternancia: español (e-epéntesis: estado), latín (rex/reg-), japonés (人 jin/nin), turco (ev/ev-e), portugués (água/agua-).
+
+Aplicado 2026-07-26: 273 raíces de contenido normalizadas a forma de cita; compuestos intactos; validador actualizado para reconocer las formas de composición bare.

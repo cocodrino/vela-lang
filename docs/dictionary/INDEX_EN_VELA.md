@@ -15,16 +15,16 @@
 | 19 | ten-nain | /ten.nain/ |
 | 2 | tu | /tu/ |
 | 4 | kwatro | /kwa.tro/ |
-| 5 | faiv | /faiv/ |
-| 6 | siks | /siks/ |
+| 5 | faiva | /fai.va/ |
+| 6 | siksa | /sik.sa/ |
 | 7 | seven | /seven/ |
-| 8 | eit | /eit/ |
+| 8 | eita | /ei.ta/ |
 | 9 | nain | /nain/ |
 | a/an (indefinite) | un | /un/ |
 | ability | abilliti | /abiliti/ |
-| above | abav | /a.bav/ |
+| above | abava | /a.ba.va/ |
 | abstract | abstraka | /abs.tra.ka/ |
-| accident | akcident | /aksident/ |
+| accident | akcidenta | /ak.ci.den.ta/ |
 | accordion | akordiona | /a.kor.di.o.na/ |
 | account | akounta | /a.koun.ta/ |
 | acid | asida | /a.si.da/ |
@@ -41,15 +41,15 @@
 | adulthood | grot-man-taim | /grot.man.taim/ |
 | advertisement | advertais | /advertais/ |
 | affection | warm-fel | /warm.fel/ |
-| afraid | afred | /afred/ |
-| afraid/scared | traid | /trait/ |
+| afraid | afreda | /af.re.da/ |
+| afraid/scared | traida | /trai.da/ |
 | after | aft | /aft/ |
 | afternoon | aftnaun | /aftnaun/ |
 | again | agen | /agen/ |
 | ago | ago | /a.go/ |
 | AI model | lerna-modla | /ler.na.mod.la/ |
 | air conditioner | kondishonár | /kon.di.sho.nar/ |
-| air force | afyr | /afyr/ |
+| air force | afyra | /af.yra/ |
 | airplane | aereplan | /aereplan/ |
 | airport | flai-ground | /flai.graund/ |
 | album | albuma | /al.bu.ma/ |
@@ -84,7 +84,7 @@
 | animal | animal | /animal/ |
 | ankle | ankel | /an.kel/ |
 | anniversary | yeer-dei | /yeer.dei/ |
-| ant | ant | /ant/ |
+| ant | anta | /an.ta/ |
 | antibiotic | antibiotika | /an.ti.bi.o.ti.ka/ |
 | antibody | anti-bodika | /an.ti.bo.di.ka/ |
 | anticipation | antisipashon | /an.ti.si.pa.shon/ |
@@ -96,12 +96,12 @@
 | appeal (legal) | apila | /a.pi.la/ |
 | appetizer | bifor-eat | /bi.for.eat/ |
 | apple | apel | /apel/ |
-| application / app | aplik | /ap.lik/ |
-| approximate | aproximt | /aproksimat/ |
+| application / app | aplika | /ap.li.ka/ |
+| approximate | aproximta | /ap.ro.xim.ta/ |
 | April | Aprim | /aprim/ |
 | apron | aprona | /a.pro.na/ |
 | architect | hous-plan-po | /haus.plan.po/ |
-| arm | arm | /arm/ |
+| arm | arma | /ar.ma/ |
 | army | army | /armi/ |
 | aroma | aroma | /a.ro.ma/ |
 | around | aronda | /a.ron.da/ |
@@ -121,19 +121,19 @@
 | athletics | atletika | /at.le.ti.ka/ |
 | atom | atom | /a.tom/ |
 | August | Agost | /agost/ |
-| aunt | aunt | /ant/ |
+| aunt | aunta | /aun.ta/ |
 | author / publisher | buk-mak-po | /buk.mak.po/ |
 | average | midela-nomber | /mi.de.la.nom.ber/ |
 | awe | wunda-fel | /wun.da.fel/ |
 | axe | aksa | /ak.sa/ |
 | baby | baby | /beibi/ |
-| back | bak | /bak/ |
+| back | baki | /ba.ki/ |
 | backpack | bakpaka | /bak.pa.ka/ |
 | backup | baka-upa | /ba.ka.u.pa/ |
 | backward | bak-wei | /bak.wei/ |
 | bacon | beikon | /bei.kon/ |
 | bacteria | bakteri | /bak.te.ri/ |
-| bad | bad | /bad/ |
+| bad | bada | /ba.da/ |
 | badminton | badminta | /bad.min.ta/ |
 | bag | bagi | /ba.gi/ |
 | bail | fri-moni | /fri.mo.ni/ |
@@ -160,30 +160,30 @@
 | basil | basila | /ba.si.la/ |
 | basket | basketa | /bas.ke.ta/ |
 | basketball | basketa-bol | /bas.ke.ta.bol/ |
-| bat | baet | /baet/ |
-| bat (animal) | bat | /bat/ |
+| bat | baeta | /bae.ta/ |
+| bat (animal) | bata | /ba.ta/ |
 | bathroom | baterom | /baterom/ |
 | battery | bateri | /ba.te.ri/ |
 | bay / gulf | mar-in | /mar.in/ |
-| beach | bech | /bitc/ |
+| beach | becha | /bec.ha/ |
 | beak | bird-mous | /bird.maus/ |
 | bean | bin | /bin/ |
 | bear | ber | /ber/ |
-| beard | berd | /berd/ |
+| beard | berda | /ber.da/ |
 | beat (music unit) | muzika-bita | /mu.zi.ka.bi.ta/ |
 | beauty | biju-nes | /bi.ju.nes/ |
 | because | bikos | /bikos/ |
-| bed | bed | /bed/ |
+| bed | beda | /be.da/ |
 | bedroom | bedrum | /bedrum/ |
 | bee | honi-flai | /ho.ni.flai/ |
-| beef | bef | /bef/ |
-| beer | birr | /bir/ |
+| beef | befa | /be.fa/ |
+| beer | birra | /bir.ra/ |
 | beetle | bitela | /bi.te.la/ |
 | before | bifor | /bifor/ |
 | beforehand | bifor-taim | /bi.for.taim/ |
 | beginning | start-taim | /start.taim/ |
 | beige | beija | /bei.ja/ |
-| belief | biliv | /bi.liv/ |
+| belief | biliva | /bi.li.va/ |
 | below | bilau | /bi.lau/ |
 | belt | belta | /bel.ta/ |
 | bench | bencha | /ben.cha/ |
@@ -194,29 +194,29 @@
 | between | bitwin | /bi.twin/ |
 | beyond | far-saida | /far.sai.da/ |
 | bicycle | baikel | /baikel/ |
-| big | big | /big/ |
+| big | biga | /bi.ga/ |
 | bill | bil | /bil/ |
 | biology | bioloji | /bioloji/ |
 | biology (alt) | lifa-lerna | /li.fa.ler.na/ |
 | birch | bircha | /bir.cha/ |
-| bird | bird | /bird/ |
+| bird | birda | /bir.da/ |
 | birthday | born-dei | /born.dei/ |
 | birthplace | born-ples | /born.ples/ |
 | bit (computing, binary) | bit | /bit/ |
 | bitter | bita | /bi.ta/ |
-| black | blak | /blak/ |
+| black | blaka | /bla.ka/ |
 | black hole | blak-hol | /blak.hol/ |
 | blade | bleida | /blei.da/ |
-| blanket | blanket | /blan.ket/ |
+| blanket | blanketa | /blan.ke.ta/ |
 | blanket | slip-kover | /slip.ko.ver/ |
 | blessing | blesina | /ble.si.na/ |
 | blister | blista | /blis.ta/ |
 | blizzard | snow-storm | /snow.storm/ |
-| blood | blud | /blud/ |
+| blood | bluda | /blu.da/ |
 | blood relatives | blud-famili | /blud.fa.mi.li/ |
 | blue | blu | /blu/ |
 | blunt / dull | blanta | /blan.ta/ |
-| boat | boot | /but/ |
+| boat | boota | /boo.ta/ |
 | body | bodi | /bodi/ |
 | body modification | in-bodi | /in.bo.di/ |
 | boiling hot | fai-hot | /fai.hot/ |
@@ -224,11 +224,11 @@
 | bolt | bolta | /bol.ta/ |
 | bone | bon | /bon/ |
 | bonus | bonsa | /bon.sa/ |
-| book | buk | /buk/ |
+| book | buka | /bu.ka/ |
 | boot | but | /but/ |
 | border | bordar | /bor.dar/ |
 | border | lond-lain | /lond.lain/ |
-| bored | bored | /bord/ |
+| bored | boreda | /bo.re.da/ |
 | boring | boring | /boring/ |
 | boss / leader | hed-po | /hed.po/ |
 | bottle | botel | /botel/ |
@@ -242,12 +242,12 @@
 | brain | brain | /brein/ |
 | branch (git) | brancha | /bran.cha/ |
 | branch (of a tree) | tre-arm | /tre.arm/ |
-| brand | brand | /brand/ |
+| brand | branda | /bran.da/ |
 | brave | no-afred | /no.a.fred/ |
-| bread | bred | /bred/ |
+| bread | breda | /bre.da/ |
 | breeze | soft-wind | /soft.wind/ |
 | brick | brika | /bri.ka/ |
-| bridge | bridj | /brij/ |
+| bridge | bridja | /brid.ja/ |
 | bright | brite | /bri.te/ |
 | brittle | britla | /brit.la/ |
 | broken | broka | /bro.ka/ |
@@ -262,14 +262,14 @@
 | bruise | brusa | /bru.sa/ |
 | brush | brushi | /bru.shi/ |
 | bubble | bobla | /bo.bla/ |
-| bucket | baket | /ba.ket/ |
+| bucket | baketa | /ba.ke.ta/ |
 | bucket | buketa | /bu.ke.ta/ |
 | buckle | bakola | /ba.ko.la/ |
 | bud | boda | /bo.da/ |
 | budget | bojeta | /bo.je.ta/ |
 | builder | hous-mak-po | /haus.mak.po/ |
 | building | maki-hous | /ma.ki.haus/ |
-| bulb | balb | /balb/ |
+| bulb | balba | /bal.ba/ |
 | bundle | bandel | /ban.del/ |
 | bus | bis | /bis/ |
 | bush | smol-tre | /smol.tre/ |
@@ -286,7 +286,7 @@
 | cache | kasha | /ka.sha/ |
 | cactus | kaktus | /kak.tus/ |
 | caffeine | kafina | /ka.fi.na/ |
-| cake | keik | /keik/ |
+| cake | keika | /kei.ka/ |
 | calendar | kalendár | /ka.len.dar/ |
 | calf | smol-cau | /smol.kau/ |
 | calm | kalma | /kal.ma/ |
@@ -301,7 +301,7 @@
 | canoe | kanua | /ka.nu.a/ |
 | canvas | kanvasa | /kan.va.sa/ |
 | canyon | kanyona | /kan.yo.na/ |
-| cap | kap | /kap/ |
+| cap | kapa | /ka.pa/ |
 | capsule | kapsula | /kap.su.la/ |
 | car | kar | /kar/ |
 | carbon | karbona | /kar.bo.na/ |
@@ -311,14 +311,14 @@
 | careless | no-kea | /no.ke.a/ |
 | cargo / load | karga | /kar.ga/ |
 | carpenter | wud-mak-po | /wud.mak.po/ |
-| carpet | karpet | /kar.pet/ |
+| carpet | karpeta | /kar.pe.ta/ |
 | carpet / rug | flor-kover | /flor.ko.ver/ |
 | carrot | karota | /ka.ro.ta/ |
 | cartoon | kartuna | /kar.tu.na/ |
 | cash | hand-moni | /hand.mo.ni/ |
 | cashier | pei-tek-po | /pei.tek.po/ |
 | castle | king-hous | /king.haus/ |
-| cat | kat | /kat/ |
+| cat | kata | /ka.ta/ |
 | caterpillar | katapila | /ka.ta.pi.la/ |
 | cause | caus | /kauz/ |
 | cautious | kosha | /ko.sha/ |
@@ -332,13 +332,13 @@
 | cement | simanta | /si.man.ta/ |
 | center | senta | /sen.ta/ |
 | century | centuri | /senturi/ |
-| ceramic | seramik | /se.ra.mik/ |
+| ceramic | seramika | /se.ra.mi.ka/ |
 | cereal | serial | /se.ri.al/ |
 | ceremony | serimoni | /se.ri.mo.ni/ |
 | certain / sure | sertin | /ser.tin/ |
 | chain | cheina | /chei.na/ |
 | chair | ceir | /seir/ |
-| chance | chans | /tcans/ |
+| chance | chansa | /chan.sa/ |
 | change | chang | /tcainj/ |
 | channel | kanal | /kanal/ |
 | chaos | keosa | /ke.o.sa/ |
@@ -346,7 +346,7 @@
 | character (story) | karakter | /ka.rak.ter/ |
 | charger | charger | /tcarger/ |
 | charger | charjár | /char.jar/ |
-| cheap | cheap | /tcip/ |
+| cheap | cheapa | /chea.pa/ |
 | checkered | chekera | /che.ke.ra/ |
 | cheek | babi-fas | /babi.fas/ |
 | cheerful | hapi-ful | /ha.pi.ful/ |
@@ -357,15 +357,15 @@
 | chemistry | kimistri | /kimistri/ |
 | chess | chesa | /che.sa/ |
 | chest | hert-hous | /hert.haus/ |
-| chicken | sisn | /sisen/ |
-| child | child | /tcild/ |
+| chicken | sisna | /sis.na/ |
+| child | childa | /chil.da/ |
 | childhood | child-taim | /child.taim/ |
 | children | child-en | /tchild.en/ |
 | chimney | chimni | /cimni/ |
 | chin | china | /chi.na/ |
 | chip (silicon) | chipa | /chi.pa/ |
 | chisel | chisla | /chis.la/ |
-| chocolate | chokolat | /tokolat/ |
+| chocolate | chokolata | /cho.ko.la.ta/ |
 | choir | kor | /kor/ |
 | chord | korda | /kor.da/ |
 | chorus | korusa | /ko.ru.sa/ |
@@ -388,18 +388,18 @@
 | clear sky | klar-skai | /klar.skai/ |
 | clear-spoken / articulate | klar-tok | /klar.tok/ |
 | clerk | ofis-po | /o.fis.po/ |
-| client | klient | /klient/ |
 | client | klienta | /kli.en.ta/ |
+| client | klienti | /klien.ti/ |
 | cliff | klifa | /kli.fa/ |
-| climate | climat | /klimait/ |
+| climate | climata | /cli.ma.ta/ |
 | clip | klipa | /kli.pa/ |
-| clock | klok | /klok/ |
+| clock | kloka | /klo.ka/ |
 | clone | klon | /klon/ |
 | closet / wardrobe | klota-boksi | /klo.ta.bok.si/ |
 | cloth / fabric | klota | /klo.ta/ |
 | clothing / garment | bodi-klota | /bo.di.klo.ta/ |
-| cloud | kloud | /klaud/ |
-| cloud | kraud | /kraud/ |
+| cloud | klouda | /klou.da/ |
+| cloud | krauda | /krau.da/ |
 | cloud storage | klauda-sava | /klau.da.sa.va/ |
 | cloudy | kloud-ful | /kloud.ful/ |
 | clover | klova | /klo.va/ |
@@ -425,7 +425,7 @@
 | comet | kometa | /ko.me.ta/ |
 | comfort | komfa | /kom.fa/ |
 | comic | fani-buk | /fa.ni.buk/ |
-| comics | komiks | /komiks/ |
+| comics | komiksa | /ko.mik.sa/ |
 | commit (git) | komita | /ko.mi.ta/ |
 | common | comon | /komon/ |
 | common | komon | /ko.mon/ |
@@ -446,9 +446,9 @@
 | concrete / tangible | konkreta | /kon.kre.ta/ |
 | cone | kona | /ko.na/ |
 | conference | konferensa | /kon.fe.ren.sa/ |
-| confident | kongident | /kongident/ |
+| confident | kongidenta | /kon.gi.den.ta/ |
 | conflict | fajt-tin | /fait.tin/ |
-| confused | confyuzd | /konfaiuzd/ |
+| confused | confyuzda | /con.fyuz.da/ |
 | connection | konekshon | /ko.nek.shon/ |
 | consciousness | sela-nofa | /se.la.no.fa/ |
 | consent | konsenta | /kon.sen.ta/ |
@@ -459,7 +459,7 @@
 | container | kontener | /kontener/ |
 | content / satisfied | kontenta | /kon.ten.ta/ |
 | continent | kantin | /kantin/ |
-| contract | kontract | /kontract/ |
+| contract | kontracta | /kon.trac.ta/ |
 | contract | kontrakta | /kon.trak.ta/ |
 | contrast | kontrasta | /kon.tras.ta/ |
 | control | kontrola | /kon.tro.la/ |
@@ -468,18 +468,18 @@
 | cookie | kuki | /ku.ki/ |
 | cool | kul | /kul/ |
 | copper | kopa | /ko.pa/ |
-| corn | korn | /korn/ |
+| corn | korna | /kor.na/ |
 | corner | korner | /kor.ner/ |
 | corporation | big-biznes | /big.biz.nes/ |
 | corruption | korpshon | /kor.pshon/ |
-| cost | kosl | /kost/ |
+| cost | kosla | /kos.la/ |
 | costume | kostum | /kos.tum/ |
 | cotton | koton | /ko.ton/ |
 | cough | kofa | /ko.fa/ |
 | could | kan-ed | /kan.ed/ |
 | country | kontri | /kontri/ |
 | courage | strong-hert | /strong.hert/ |
-| court | kort | /kort/ |
+| court | korta | /kor.ta/ |
 | cousin | kuzen | /kuzen/ |
 | cow | cau | /kau/ |
 | cowardly | afred-ful | /a.fred.ful/ |
@@ -509,7 +509,7 @@
 | cuff | kafa | /ka.fa/ |
 | culture | kultur | /kul.tur/ |
 | culture (way of a people) | pipel-wei | /pi.pel.wei/ |
-| cup | kup | /kup/ |
+| cup | kupa | /ku.pa/ |
 | cupboard | kap-boksi | /kap.bok.si/ |
 | cure | kur | /kur/ |
 | curious | kurius | /ku.ri.us/ |
@@ -532,7 +532,7 @@
 | dandelion | dandela | /dan.de.la/ |
 | danger | danjer | /dan.jer/ |
 | dangerous | dangerus | /dainjerus/ |
-| dark | dark | /dark/ |
+| dark | darka | /dar.ka/ |
 | data | data | /data/ |
 | database | data-beis | /da.ta.beis/ |
 | daughter | dafter | /dofter/ |
@@ -547,7 +547,7 @@
 | decimal | desima | /de.si.ma/ |
 | deck | boot-flor | /but.flor/ |
 | decline | daun-way | /daun.wei/ |
-| deep | deep | /dip/ |
+| deep | deepa | /dee.pa/ |
 | deeply | dep-wei | /dep.wei/ |
 | deer | dir | /dir/ |
 | degree | degri | /de.gri/ |
@@ -558,7 +558,7 @@
 | density | densa-nes | /den.sa.nes/ |
 | dent | denta | /den.ta/ |
 | deploy | deploy | /de.ploi/ |
-| depth | dep | /dep/ |
+| depth | depa | /de.pa/ |
 | desert | drai-lond | /drai.lond/ |
 | design | dizain | /di.zain/ |
 | desk | wok-tebul | /wok.te.bul/ |
@@ -597,7 +597,7 @@
 | doctor | dokter | /doktor/ |
 | doctor | sik-fix-po | /sik.fik.po/ |
 | documentary | tru-film | /tru.film/ |
-| dog | dog | /dog/ |
+| dog | doga | /do.ga/ |
 | dolphin | dolfin | /dol.fin/ |
 | domain | domain | /do.main/ |
 | donkey | donki | /don.ki/ |
@@ -634,7 +634,7 @@
 | eagle | igel | /i.gl/ |
 | ear | ear | /ir/ |
 | early | erli | /er.li/ |
-| earth | erd | /erd/ |
+| earth | erda | /er.da/ |
 | earthquake | erkweika | /er.kwei.ka/ |
 | east | isa | /i.sa/ |
 | easy | eas | /iz/ |
@@ -645,7 +645,7 @@
 | ecosystem | eko-sistam | /e.ko.sis.tam/ |
 | edge | edja | /e.dja/ |
 | editor | editar | /e.di.tar/ |
-| effect | efect | /efect/ |
+| effect | efecta | /e.fec.ta/ |
 | egg | egi | /e.gi/ |
 | elastic | elastika | /e.las.ti.ka/ |
 | elbow | elbo | /el.bo/ |
@@ -690,7 +690,7 @@
 | evil | evila | /e.vi.la/ |
 | evolution | evolushon | /e.vo.lu.shon/ |
 | exact | eksakta | /ek.sak.ta/ |
-| exact | exakt | /eksakt/ |
+| exact | exakta | /e.xak.ta/ |
 | exam | lern-testa | /lern.tes.ta/ |
 | example | eksampel | /ek.sam.pel/ |
 | excitement | ekasaita | /e.ka.sai.ta/ |
@@ -701,20 +701,20 @@
 | expedition | ekspedisa | /eks.pe.di.sa/ |
 | expense | ekspensa | /eks.pen.sa/ |
 | expensive | expensive | /ekspensiv/ |
-| experiment | eksperimnt | /eksperimnt/ |
+| experiment | eksperimnta | /ek.spe.rim.nta/ |
 | expert | big-nof-po | /big.nof.po/ |
 | eye | ai | /ai/ |
 | eyebrow | ai-hair | /ai.her/ |
 | face | fas | /fas/ |
 | fact | tru-tin | /tru.tin/ |
 | factory | mak-hous | /mak.haus/ |
-| failure | faiolr | /faiolr/ |
+| failure | faiolra | /faiol.ra/ |
 | fair / just | fera | /fe.ra/ |
 | fairy tale | child-stor | /child.stor/ |
-| faith | feit | /feit/ |
+| faith | feita | /fei.ta/ |
 | fake | no-real | /no.re.al/ |
 | fall / autumn | fol | /fol/ |
-| false | fols | /fols/ |
+| false | folsa | /fol.sa/ |
 | family | famili | /famili/ |
 | famous | famos | /famos/ |
 | fan | fan | /fan/ |
@@ -722,10 +722,10 @@
 | farm | farma | /far.ma/ |
 | farmer | plant-grow-po | /plant.grou.po/ |
 | fashionable | fashona | /fa.sho.na/ |
-| fast | fast | /fast/ |
+| fast | fasta | /fas.ta/ |
 | fasting | no-eat | /no.eat/ |
 | fat / greasy | fata | /fa.ta/ |
-| fate | fait | /fait/ |
+| fate | faita | /fai.ta/ |
 | father | fater | /fater/ |
 | fatherhood | fater-nes | /fa.ter.nes/ |
 | faucet | fauseta | /fau.se.ta/ |
@@ -745,7 +745,7 @@
 | fiction | fikshon | /fik.shon/ |
 | field / open land | open-lond | /o.pen.lond/ |
 | fighter / warrior | fajt-po | /fait.po/ |
-| film / movie | film | /film/ |
+| film / movie | filma | /fil.ma/ |
 | fin | fisha-arm | /fis.ha.ar/ |
 | finger | fingar | /fingar/ |
 | fire | fai | /fai/ |
@@ -772,9 +772,9 @@
 | foggy | fogi | /fo.gi/ |
 | folder | foldera | /fol.de.ra/ |
 | follower | folo-po | /fo.lo.po/ |
-| food | food | /fud/ |
+| food | fooda | /foo.da/ |
 | foolish | no-wais | /no.wais/ |
-| foot/feet | fut | /fut/ |
+| foot/feet | futa | /fu.ta/ |
 | for | for | /for/ |
 | force | forsa | /for.sa/ |
 | forehead | ap-fas | /ap.fas/ |
@@ -808,7 +808,7 @@
 | frost | frosta | /fros.ta/ |
 | frosty | frosta-ful | /fros.ta.ful/ |
 | frozen | ais-hard | /ais.hard/ |
-| fruit | frukt | /frunkt/ |
+| fruit | frukta | /fruk.ta/ |
 | fruit (atom form) | frute | /fru.te/ |
 | frustration | bloka-angri | /blo.ka.an.gri/ |
 | frustration | frustra | /frus.tra/ |
@@ -851,25 +851,25 @@
 | gift | giv-tin | /giv.tin/ |
 | ginger | jinja | /jin.ja/ |
 | giraffe | jirafa | /ji.ra.fa/ |
-| girl | gerl | /gerl/ |
+| girl | gerla | /ger.la/ |
 | glacier | ais-river | /ais.ri.ver/ |
 | glass | glasi | /gla.si/ |
 | gloomy | glumi | /glu.mi/ |
 | glossy | glosa | /glo.sa/ |
-| glove | gluv | /gluv/ |
+| glove | gluva | /glu.va/ |
 | glue | glu | /glu/ |
 | goal / aim | gola | /go.la/ |
 | goat | goa | /go.a/ |
-| god | god | /god/ |
+| god | goda | /go.da/ |
 | gold (metal) | golda | /gol.da/ |
 | golden | gol | /gol/ |
 | golf | golfa | /gol.fa/ |
-| good | gud | /gud/ |
+| good | guda | /gu.da/ |
 | good fortune | gud-luki | /gud.lu.ki/ |
 | goodbye | gudbai | /gud.bai/ |
 | goose | gus | /gus/ |
 | gorilla | gorila | /go.ri.la/ |
-| government | goverment | /gvnmnt/ |
+| government | govermenta | /go.ver.men.ta/ |
 | government | rula-grup | /ru.la.grup/ |
 | governor | rul-po | /rul.po/ |
 | GPU | piktur-chipa | /pik.tur.chi.pa/ |
@@ -879,12 +879,12 @@
 | gradual / gradually | slo-slo | /slo.slo/ |
 | grainy | greini | /grei.ni/ |
 | gram | grama | /gra.ma/ |
-| grammar | gramr | /gramr/ |
+| grammar | gramra | /gram.ra/ |
 | grandchild | child-child | /child.child/ |
 | grandfather | granfater | /granfater/ |
 | grandmother | granmoter | /granmoter/ |
 | grandparent | granparan | /granparan/ |
-| grape | grap | /grap/ |
+| grape | grapa | /gra.pa/ |
 | grape | grepi | /gre.pi/ |
 | grass | gras | /gras/ |
 | grasshopper | grashopa | /gras.ho.pa/ |
@@ -893,7 +893,7 @@
 | gravity | fol-forsa | /fol.for.sa/ |
 | gravy | greivi | /grei.vi/ |
 | gray | grin | /grin/ |
-| great | grett | /gret/ |
+| great | gretta | /gret.ta/ |
 | greatly | big-wei | /big.wei/ |
 | greedy | gridi | /gri.di/ |
 | green | gren | /gren/ |
@@ -921,13 +921,13 @@
 | half-truth | hafa-tru | /ha.fa.tru/ |
 | halfway point | hafa-wei | /ha.fa.wei/ |
 | hammer | hamer | /ha.mer/ |
-| hand | hand | /hand/ |
+| hand | handa | /han.da/ |
 | handful | hand-ful | /hand.ful/ |
 | handle | handela | /han.de.la/ |
 | handsome | hansoma | /han.so.ma/ |
 | happy | hapi | /hapi/ |
 | harbor / dock | boot-ples | /but.ples/ |
-| hard (difficult) | hard | /hard/ |
+| hard (difficult) | harda | /har.da/ |
 | hard (material) | hardi | /hardi/ |
 | hard drive / SSD | data-diska | /da.ta.dis.ka/ |
 | hardware | hardwer | /hardwer/ |
@@ -936,19 +936,19 @@
 | harp | harpa | /har.pa/ |
 | harsh | harsha | /har.sha/ |
 | hat | hata | /ha.ta/ |
-| hawk | hok | /hok/ |
+| hawk | hoka | /ho.ka/ |
 | haze | heiza | /hei.za/ |
 | he/she/it | li | /li/ |
-| head | head | /hed/ |
+| head | heada | /hea.da/ |
 | headache | hed-pain | /hed.pein/ |
 | headscarf / head cover | hed-klota | /hed.klo.ta/ |
-| health | healt | /helt/ |
+| health | healta | /heal.ta/ |
 | healthy | helti | /hel.ti/ |
-| heart | hert | /hert/ |
+| heart | herta | /her.ta/ |
 | heater | hitar | /hi.tar/ |
 | heaven | god-ples | /god.ples/ |
 | heavy | hevi | /hevi/ |
-| hedgehog | hejhog | /hej.hog/ |
+| hedgehog | hejhoga | /hej.ho.ga/ |
 | heel | fut-bak | /fut.bak/ |
 | height | haita | /hai.ta/ |
 | hell | hela | /he.la/ |
@@ -983,12 +983,12 @@
 | horizon | skai-lain | /skai.lain/ |
 | hormone | hormon | /hor.mon/ |
 | horn | horna | /hor.na/ |
-| horse | hors | /hors/ |
+| horse | horsa | /hor.sa/ |
 | hospital | sik-hous | /sik.haus/ |
 | host | welkom-po | /wel.kom.po/ |
 | hostel | hostela | /hos.te.la/ |
 | hostile | hostila | /hos.ti.la/ |
-| hot | hot | /hot/ |
+| hot | hota | /ho.ta/ |
 | hot beverage | hot-drink | /hot.drink/ |
 | hot day | hot-dei | /hot.dei/ |
 | hotel | hotel | /hotel/ |
@@ -1003,7 +1003,7 @@
 | humid | humida | /hu.mi.da/ |
 | hungry | hagri | /hagri/ |
 | hunter | hunta-po | /hun.ta.po/ |
-| husband | hasband | /hasband/ |
+| husband | hasbanda | /has.ban.da/ |
 | I | mi | /mi/ |
 | I don't know | mi nof no | /mi nof no/ |
 | ice | ais | /ais/ |
@@ -1016,7 +1016,7 @@
 | immunity | imuniiti | /i.mu.nii.ti/ |
 | impact | impakta | /im.pak.ta/ |
 | impatient | no-pashenta | /no.pa.shen.ta/ |
-| important | importent | /importent/ |
+| important | importenta | /im.por.ten.ta/ |
 | important matter | big-tin | /big.tin/ |
 | impossible | imposibel | /imposibel/ |
 | in | in | /in/ |
@@ -1030,9 +1030,9 @@
 | ingredient | ingredienta | /in.gre.di.en.ta/ |
 | injection | injesa | /in.je.sa/ |
 | injury | injuri | /injuri/ |
-| ink | ink | /ink/ |
+| ink | inka | /in.ka/ |
 | input | inputa | /in.pu.ta/ |
-| insect | insect | /insect/ |
+| insect | insecta | /in.sec.ta/ |
 | insect / flying creature | flai-animal | /flai.a.ni.mal/ |
 | inside | insaida | /in.sai.da/ |
 | inspiration | inspir | /in.spir/ |
@@ -1042,10 +1042,10 @@
 | instruction / prompt | instruka | /in.stru.ka/ |
 | instrument | muzika-tool | /mu.zi.ka.tul/ |
 | integrity | integriti | /in.te.gri.ti/ |
-| intelligence | intilijens | /intelijens/ |
+| intelligence | intilijensa | /in.ti.li.jen.sa/ |
 | interest (finance) | moni-gro | /mo.ni.gro/ |
 | interesting | interesting | /interisting/ |
-| internet | internet | /internet/ |
+| internet | interneta | /in.ter.ne.ta/ |
 | intersection | rod-kros | /rod.kros/ |
 | interval | midela-taim | /mi.de.la.taim/ |
 | interview | intervi | /in.ter.vi/ |
@@ -1055,7 +1055,7 @@
 | IP address | IP-adresa | /ip.a.dre.sa/ |
 | iron | airon | /ai.ron/ |
 | irritable | fast-angri | /fast.an.gri/ |
-| island | iland | /iland/ |
+| island | ilanda | /i.lan.da/ |
 | island | mar-lond | /mar.lond/ |
 | ivy | aivi | /ai.vi/ |
 | jacket | jakita | /ja.ki.ta/ |
@@ -1085,7 +1085,7 @@
 | ketchup | ketchapa | /ke.tcha.pa/ |
 | kettle | watre-poti | /wa.tre.po.ti/ |
 | key | key | /ki/ |
-| keyboard | kibod | /ki.bod/ |
+| keyboard | kiboda | /ki.bo.da/ |
 | kidney | kidni | /kidni/ |
 | kilogram | kilo | /ki.lo/ |
 | kind | warm-hert | /warm.hert/ |
@@ -1104,19 +1104,19 @@
 | lace | leisa | /lei.sa/ |
 | ladder | ladra | /lad.ra/ |
 | ladybug | ledibaga | /le.di.ba.ga/ |
-| lake | lek | /lek/ |
+| lake | leki | /le.ki/ |
 | lake | smol-mar | /smol.mar/ |
-| lamp | lamp | /lamp/ |
-| land | lond | /lond/ |
+| lamp | lampi | /lam.pi/ |
+| land | londa | /lon.da/ |
 | landmark | famos-ples | /fa.mos.ples/ |
-| language | langwij | /langwii/ |
+| language | langwija | /lan.gwi.ja/ |
 | lantern | lanterna | /lan.ter.na/ |
 | laptop | lapto | /lap.to/ |
 | last / final | lasta | /las.ta/ |
 | latch | lacha | /la.cha/ |
 | late | let | /let/ |
 | later | leita | /lei.ta/ |
-| law | lex | /lex/ |
+| law | lexa | /le.xa/ |
 | lawyer | law-speak-po | /lo.speak.po/ |
 | layer | leia | /le.a/ |
 | lazy | lazi | /la.zi/ |
@@ -1126,7 +1126,7 @@
 | leathery | ledera | /le.de.ra/ |
 | left | lefa | /le.fa/ |
 | leftover | rest-eat | /rest.eat/ |
-| leg | leg | /leg/ |
+| leg | lega | /le.ga/ |
 | lemon | lemon | /lemon/ |
 | length | lengta | /len.gta/ |
 | less | les | /les/ |
@@ -1137,7 +1137,7 @@
 | library | buk-hous | /buk.haus/ |
 | lid | poti-kover | /po.ti.ko.ver/ |
 | lie (statement) | fols-wod | /fols.wod/ |
-| light (weight) | lait | /lait/ |
+| light (weight) | laita | /lai.ta/ |
 | lightning | fai-flasha | /fai.fla.sha/ |
 | lightning | letning | /letning/ |
 | likely | laikli | /laik.li/ |
@@ -1152,13 +1152,13 @@
 | literature | literatura | /li.te.ra.tu.ra/ |
 | liver | liver | /liver/ |
 | living room | livrum | /livrum/ |
-| lizard | lizard | /li.zard/ |
+| lizard | lizarda | /li.zar.da/ |
 | load balancer | loda-balansa | /lo.da.ba.lan.sa/ |
 | loan | lon | /lon/ |
 | lobby | lobia | /lo.bi.a/ |
 | lobster | lobosta | /lo.bos.ta/ |
-| lock | lok | /lok/ |
 | lock | loka | /lo.ka/ |
+| lock | loki | /lo.ki/ |
 | logic | logika | /lo.gi.ka/ |
 | loneliness | lonli-fel | /lon.li.fel/ |
 | loneliness-ache | lonli-sad | /lon.li.sad/ |
@@ -1169,7 +1169,7 @@
 | loose | lusa | /lu.sa/ |
 | loosely | lusa-wei | /lu.sa.wei/ |
 | loss | los | /los/ |
-| loud | louud | /loud/ |
+| loud | louuda | /louu.da/ |
 | love | luva | /lu.va/ |
 | love (bond) | luva-nes | /lu.va.nes/ |
 | lover | luva-po | /lu.va.po/ |
@@ -1178,7 +1178,7 @@
 | low voice / bass | lo-vois | /lo.vois/ |
 | loyal | loiala | /loi.a.la/ |
 | loyalty | loiala-nes | /loi.a.la.nes/ |
-| luck | lak | /lak/ |
+| luck | laka | /la.ka/ |
 | luck | luki | /lu.ki/ |
 | luggage | lugaja | /lu.ga.ja/ |
 | lukewarm | hafa-warm | /ha.fa.warm/ |
@@ -1199,17 +1199,17 @@
 | man / person | man | /man/ |
 | manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
-| map | map | /map/ |
+| map | mapa | /ma.pa/ |
 | maple | meipla | /mei.pla/ |
 | marathon | long-ran | /long.ran/ |
 | marble | marmol | /mar.mol/ |
 | March | Marti | /mar.ti/ |
-| market | market | /market/ |
+| market | marketa | /mar.ke.ta/ |
 | marriage bond | luva-tai | /lu.va.tai/ |
 | mass (physics) | masa | /ma.sa/ |
 | match | macha | /ma.cha/ |
 | material | mak-tin | /mak.tin/ |
-| mathematics | matamatiks | /matamatiks/ |
+| mathematics | matamatiksa | /ma.ta.ma.tik.sa/ |
 | matte | mata | /ma.ta/ |
 | matter / substance | matia | /ma.ti.a/ |
 | mattress | matres | /ma.tres/ |
@@ -1243,12 +1243,12 @@
 | microbe | mikruba | /mik.ru.ba/ |
 | microphone | maika | /mai.ka/ |
 | microservice | mikro-servis | /mi.kro.ser.vis/ |
-| microwave | maikrowev | /mai.kro.wev/ |
+| microwave | maikroweva | /maik.ro.we.va/ |
 | middle | midela | /mi.de.la/ |
-| midnight | midnaight | /midnait/ |
+| midnight | midnaighta | /mid.naig.hta/ |
 | mild | milda | /mil.da/ |
-| milk | milk | /milk/ |
-| mind | maind | /maind/ |
+| milk | milka | /mil.ka/ |
+| mind | mainda | /main.da/ |
 | mind | mini | /mi.ni/ |
 | minority | minoria | /mi.no.ri.a/ |
 | mint | minta | /min.ta/ |
@@ -1269,10 +1269,10 @@
 | monitor | monitar | /mo.ni.tar/ |
 | monk / nun | god-hous-po | /god.hous.po/ |
 | monkey | monki | /mon.ki/ |
-| month | mont | /mont/ |
+| month | monta | /mon.ta/ |
 | monthly | evri-mont | /ev.ri.mont/ |
 | moon | moon | /mun/ |
-| mop | mop | /mop/ |
+| mop | mopa | /mo.pa/ |
 | morality / moral | rait-rong-sistam | /rait.rong.sis.tam/ |
 | more | mor | /mor/ |
 | more and more | mor-mor | /mor.mor/ |
@@ -1283,7 +1283,7 @@
 | moth | mota | /mo.ta/ |
 | mother | moter | /moter/ |
 | motherhood | moter-nes | /mo.ter.nes/ |
-| motorcycle | motorbaik | /motorbaik/ |
+| motorcycle | motorbaika | /mo.tor.bai.ka/ |
 | motorway | motorway | /motorwei/ |
 | mountain | mautin | /mautin/ |
 | mouse | maus | /maus/ |
@@ -1295,7 +1295,7 @@
 | muscular | strong-bodi | /strong.bo.di/ |
 | museum | old-tin-hous | /old.tin.haus/ |
 | mushroom | mashrum | /mash.rum/ |
-| music | muzik | /muzik/ |
+| music | muzika | /mu.zi.ka/ |
 | musical note | nota-muzika | /no.ta.mu.zi.ka/ |
 | musician | muzik-po | /muzik.po/ |
 | must | mas | /mas/ |
@@ -1327,7 +1327,7 @@
 | nest | bird-hous | /bird.hous/ |
 | net | neta | /ne.ta/ |
 | network | net | /net/ |
-| network | nettwerk | /netwerk/ |
+| network | nettwerka | /net.twer.ka/ |
 | neural network | brain-neta | /brein.ne.ta/ |
 | never | never | /never/ |
 | new | new | /nu/ |
@@ -1338,7 +1338,7 @@
 | next | folo-wan | /fo.lo.wan/ |
 | nice / beautiful | nais | /nais/ |
 | niece / nephew | broter-child | /bro.ter.child/ |
-| night | noit | /noit/ |
+| night | noita | /noi.ta/ |
 | no | no | /no/ |
 | noise | nois | /nois/ |
 | non-fiction | non-fikshon | /non.fik.shon/ |
@@ -1373,7 +1373,7 @@
 | often | ofen | /ofen/ |
 | oil | oil | /oil/ |
 | ointment | ointa | /oin.ta/ |
-| old | old | /old/ |
+| old | olda | /ol.da/ |
 | old age | old-taim | /old.taim/ |
 | old friend | old-fren | /old.fren/ |
 | olive | oliva | /o.li.va/ |
@@ -1413,7 +1413,7 @@
 | owner | hav-po | /hav.po/ |
 | ownership | hav-nes | /hav.nes/ |
 | oxygen | okisijena | /o.ki.si.je.na/ |
-| package | paket | /paket/ |
+| package | paketa | /pa.ke.ta/ |
 | page | peija | /pei.ja/ |
 | pain | pain | /pein/ |
 | painkiller | eika-kil | /ei.ka.kil/ |
@@ -1434,7 +1434,7 @@
 | parallel | sem-lain | /sem.lain/ |
 | parent | paran | /paran/ |
 | parenthood | paran-nes | /pa.ran.nes/ |
-| park | park | /park/ |
+| park | parka | /par.ka/ |
 | parking | kar-ples | /kar.ples/ |
 | parliament | rul-mak-hous | /rul.mak.haus/ |
 | parole | parola | /pa.ro.la/ |
@@ -1445,8 +1445,8 @@
 | passenger | pasenjer | /pasenjer/ |
 | passion | strong-luva | /stron.lu.va/ |
 | passport | pasporta | /pas.por.ta/ |
-| passport | passport | /pasport/ |
-| password | paswrd | /paswrd/ |
+| passport | passporta | /pas.spor.ta/ |
+| password | paswrda | /pas.wrda/ |
 | patience | pashensa | /pa.shen.sa/ |
 | patient | pashenta | /pa.shen.ta/ |
 | pattern | paterna | /pa.ter.na/ |
@@ -1478,13 +1478,13 @@
 | photo | foto | /foto/ |
 | photography | fotografi | /fo.to.gra.fi/ |
 | photosynthesis | fotosintesis | /fo.to.sin.te.sis/ |
-| physics | fiziks | /fiziks/ |
+| physics | fiziksa | /fi.zik.sa/ |
 | piano | piano | /pi.a.no/ |
 | picnic | pikinika | /pi.ki.ni.ka/ |
 | picture | piktur | /piktur/ |
 | pie | pai | /pai/ |
 | piece | pisa | /pi.sa/ |
-| pig | pig | /pig/ |
+| pig | piga | /pi.ga/ |
 | pilgrimage | pilgrimeja | /pil.gri.me.ja/ |
 | pill | pili | /pi.li/ |
 | pillow | pilo | /pi.lo/ |
@@ -1497,7 +1497,7 @@
 | place | ples | /ples/ |
 | plain | flat-lond | /flat.lond/ |
 | planet | planite | /pla.ni.te/ |
-| plant | plant | /plant/ |
+| plant | planta | /plan.ta/ |
 | plastic | plastika | /plas.ti.ka/ |
 | plate | plati | /pla.ti/ |
 | plateau | flata-hil | /fla.ta.hil/ |
@@ -1505,7 +1505,7 @@
 | please | plise | /pli.se/ |
 | pliers | plaia | /pla.i.a/ |
 | plot | plota | /plo.ta/ |
-| plug | plug | /plug/ |
+| plug | pluga | /plu.ga/ |
 | plumber | plumba | /plum.ba/ |
 | plus | plus | /plus/ |
 | pocket | poketa | /po.ke.ta/ |
@@ -1523,7 +1523,7 @@
 | popular | popular | /popiular/ |
 | pork | porki | /por.ki/ |
 | porridge | porija | /po.ri.ja/ |
-| port | port | /port/ |
+| port | porta | /por.ta/ |
 | port (USB etc.) | porta-konekta | /por.ta.ko.nek.ta/ |
 | portion / serving | porshon | /por.shon/ |
 | portrait | portreta | /por.tre.ta/ |
@@ -1542,7 +1542,7 @@
 | president | naid-rul-po | /nait.rul.po/ |
 | pressure | presha | /pre.sha/ |
 | pretty | priti | /pri.ti/ |
-| prevention | privent | /privent/ |
+| prevention | priventa | /pri.ven.ta/ |
 | previous | bifor-wan | /bi.for.wan/ |
 | price | prais | /prais/ |
 | pride | praida | /prai.da/ |
@@ -1550,26 +1550,26 @@
 | principle | main-rul | /main.rul/ |
 | printer | printar | /prin.tar/ |
 | prison | prison | /prison/ |
-| private | privat | /privat/ |
+| private | privata | /pri.va.ta/ |
 | prize / price | prize | /praiz/ |
 | problem | problem | /problem/ |
 | process | stap-wei | /stap.wei/ |
-| product | product | /product/ |
+| product | producta | /pro.duc.ta/ |
 | production | produkshon | /pro.duk.shon/ |
 | profile | profil | /profil/ |
 | profit | profita | /pro.fi.ta/ |
 | profit / gain | gain | /gain/ |
 | program | program | /program/ |
-| progress | progress | /progress/ |
+| progress | progressa | /prog.res.sa/ |
 | prompt (AI) | ai-instruka | /ai.in.stru.ka/ |
 | proof | tru-sain | /tru.sain/ |
 | prophet | profeta | /pro.fe.ta/ |
 | proportion | proporsa | /pro.por.sa/ |
 | protein | protein | /pro.tein/ |
 | protocol | protokol | /pro.to.kol/ |
-| proud | proud | /praud/ |
+| proud | prouda | /prou.da/ |
 | psychology | sikoloji | /si.ko.lo.ji/ |
-| public | public | /publik/ |
+| public | publica | /pub.li.ca/ |
 | pulley | pulia | /pu.li.a/ |
 | pulse / heartbeat | hert-bit | /hert.bit/ |
 | pump | pampa | /pam.pa/ |
@@ -1588,7 +1588,7 @@
 | query | data-aska | /da.ta.as.ka/ |
 | question | ask-wod | /ask.wod/ |
 | quick | kwikli | /kwikli/ |
-| quiet | kwaiat | /kwaiat/ |
+| quiet | kwaiata | /kwaia.ta/ |
 | quite | kwaita | /kwai.ta/ |
 | rabbit | rabita | /ra.bi.ta/ |
 | race | rasa | /ra.sa/ |
@@ -1622,12 +1622,12 @@
 | recipe | kuk-wei | /kuk.wei/ |
 | record (DB row) | rekorda | /re.kor.da/ |
 | rectangle | long-boksi | /long.bok.si/ |
-| red | red | /red/ |
+| red | reda | /re.da/ |
 | reef | rifa | /ri.fa/ |
 | reflection | shain-bak | /shain.bak/ |
 | reform | refom | /re.fom/ |
 | refrigerator | refrijerator | /re.fri.je.ra.tor/ |
-| refuge | rifuj | /rifuj/ |
+| refuge | rifuja | /ri.fu.ja/ |
 | refugee | refyuji | /re.fyu.ji/ |
 | refund | bak-moni | /bak.mo.ni/ |
 | region | ridshon | /rid.shon/ |
@@ -1643,12 +1643,12 @@
 | resentment | bak-anga | /bak.an.ga/ |
 | reservation | reserva | /re.ser.va/ |
 | resort / rest stop | rest-ples | /rest.ples/ |
-| respect | respekt | /respekt/ |
-| responsibility | respons | /respons/ |
+| respect | respekta | /res.pek.ta/ |
+| responsibility | responsa | /res.pon.sa/ |
 | responsible | du-noba | /du.no.ba/ |
 | restaurant | eat-hous | /it.haus/ |
-| result | risolt | /rizolt/ |
 | result | risolta | /ri.sol.ta/ |
+| result | risolti | /ri.sol.ti/ |
 | retirement | wok-end | /wok.end/ |
 | reunion | agen-gada | /a.gen.ga.da/ |
 | reward | gud-giv | /gud.giv/ |
@@ -1657,34 +1657,34 @@
 | rib | riba | /ri.ba/ |
 | ribbon | ribona | /ri.bo.na/ |
 | rice | ris | /ris/ |
-| rich | rich | /ritc/ |
+| rich | richa | /ric.ha/ |
 | riddle | ridla | /rid.la/ |
 | right | raia | /ra.ia/ |
-| right (correct) | right | /rait/ |
+| right (correct) | righta | /rig.hta/ |
 | rigid | rijida | /ri.ji.da/ |
 | ring | ring | /ring/ |
 | riot | kraud-fajt | /kraud.fait/ |
 | ripe | raipa | /rai.pa/ |
 | ripple | ripla | /ri.pla/ |
-| risk | risk | /risk/ |
+| risk | riska | /ris.ka/ |
 | ritual | ritual | /ri.tu.al/ |
 | rival | fait-po | /fait.po/ |
 | river | river | /river/ |
-| road | rod | /rod/ |
+| road | rodi | /ro.di/ |
 | road sign | rod-sain | /rod.sain/ |
 | robe | roba | /ro.ba/ |
-| robot | robot | /robot/ |
-| robotics | robotiks | /robotiks/ |
+| robot | robota | /ro.bo.ta/ |
+| robotics | robotiksa | /ro.bo.tik.sa/ |
 | rocket | rokete | /ro.ke.te/ |
 | romance (story) | luva-stor | /lu.va.stor/ |
-| roof | rof | /rof/ |
+| roof | rofa | /ro.fa/ |
 | room | rum | /rum/ |
 | root | plant-fut | /plant.fut/ |
 | rope | rope | /rop/ |
 | rope | ropi | /ro.pi/ |
 | rose | roza | /ro.za/ |
 | rotten | rotna | /rot.na/ |
-| rough | ruf | /ruf/ |
+| rough | rufa | /ru.fa/ |
 | roughly | ruf-wei | /ruf.wei/ |
 | round | raunda | /raun.da/ |
 | routine | yusa-wei | /ju.sa.wei/ |
@@ -1692,7 +1692,7 @@
 | royal family | rula-famili | /ru.la.fa.mi.li/ |
 | rubber | raba | /ra.ba/ |
 | rude | no-nais | /no.nais/ |
-| rug | rug | /rug/ |
+| rug | ruga | /ru.ga/ |
 | rugby | ragbi | /rag.bi/ |
 | rule | rule | /rul/ |
 | ruler / governor | rula-po | /ru.la.po/ |
@@ -1700,10 +1700,10 @@
 | runway | flai-rod | /flai.rod/ |
 | sack | big-bagi | /big.ba.gi/ |
 | sacred / holy | holi | /ho.li/ |
-| sad | sad | /sad/ |
+| sad | sada | /sa.da/ |
 | safe | safi | /safi/ |
 | sailor / mariner | mar-po | /mar.po/ |
-| salad | salad | /salad/ |
+| salad | salada | /sa.la.da/ |
 | salary | sallery | /saleri/ |
 | salt | salta | /sal.ta/ |
 | salty | salti | /sal.ti/ |
@@ -1729,9 +1729,9 @@
 | scene | sini | /si.ni/ |
 | schedule | taim-plan | /taim.plan/ |
 | school | lern-hous | /lern.haus/ |
-| science | syens | /saiens/ |
-| scientist | sientist | /saientist/ |
-| scissors | sizorz | /si.zorz/ |
+| science | syensa | /syen.sa/ |
+| scientist | sientista | /sien.tis.ta/ |
+| scissors | sizorza | /si.zor.za/ |
 | scorching | big-hot | /big.hot/ |
 | score | skor | /skor/ |
 | screen | skrin | /skrin/ |
@@ -1745,7 +1745,7 @@
 | seal | sil | /sil/ |
 | seat | sit-ples | /sit.ples/ |
 | seaweed | mar-plant | /mar.plant/ |
-| second | sekond | /sekond/ |
+| second | sekonda | /se.kon.da/ |
 | secret | sikreta | /sik.re.ta/ |
 | seed | sida | /si.da/ |
 | self | self | /self/ |
@@ -1768,24 +1768,24 @@
 | shame | shem | /shem/ |
 | shark | sharka | /shar.ka/ |
 | sharp | sharpa | /shar.pa/ |
-| sheep | shep | /sep/ |
-| sheet | shit | /shit/ |
+| sheep | shepa | /she.pa/ |
+| sheet | shita | /shi.ta/ |
 | shelf | shelfa | /shel.fa/ |
 | shell | shel | /shel/ |
 | shiny | shaini | /shai.ni/ |
-| ship | ship | /sip/ |
-| shirt | shart | /shart/ |
+| ship | shipa | /shi.pa/ |
+| shirt | sharta | /shar.ta/ |
 | shoe | shu | /shu/ |
-| shop | shop | /sop/ |
+| shop | shopa | /sho.pa/ |
 | shopping | shopping | /soping/ |
-| short | short | /sot/ |
-| should | shod | /sod/ |
+| short | shorta | /shor.ta/ |
+| should | shoda | /sho.da/ |
 | shoulder | sholda | /shol.da/ |
 | shout (loud voice) | big-vois | /big.vois/ |
 | shovel | erd-tool | /erd.tul/ |
 | shrimp | smol-kraba | /smol.kra.ba/ |
 | shy | shy | /sai/ |
-| sick | sik | /sik/ |
+| sick | sika | /si.ka/ |
 | sickness / disease | siknes | /siknes/ |
 | side | saida | /sai.da/ |
 | sidewalk | wok-rod | /wok.rod/ |
@@ -1797,8 +1797,8 @@
 | silk | silka | /sil.ka/ |
 | silky | silki | /sil.ki/ |
 | silo | silo | /si.lo/ |
-| silver | silv | /silv/ |
 | silver | silva | /sil.va/ |
+| silver | silvi | /sil.vi/ |
 | similar | neer-sem | /neer.sem/ |
 | simple | simpli | /simpli/ |
 | sin | sina | /si.na/ |
@@ -1806,7 +1806,7 @@
 | singer | song-mak-po | /son.mak.po/ |
 | single / unmarried | no-marri | /no.ma.ri/ |
 | sink | wosh-boli | /wosh.bo.li/ |
-| sister | sisr | /sistr/ |
+| sister | sisra | /sis.ra/ |
 | size | saiza | /sai.za/ |
 | skill | skila | /ski.la/ |
 | skin | skin | /skin/ |
@@ -1816,7 +1816,7 @@
 | sled | sleda | /sle.da/ |
 | sleepy | slepi | /slepi/ |
 | sleeve | arm-kover | /arm.ko.ver/ |
-| sleeve | sliv | /sliv/ |
+| sleeve | sliva | /sli.va/ |
 | slim | slima | /sli.ma/ |
 | slimy | slaima | /slai.ma/ |
 | slipper | slipa-shu | /sli.pa.shu/ |
@@ -1828,12 +1828,12 @@
 | smart / clever | kwik-maind | /kwik.maind/ |
 | smartphone | smaurtfon | /smartfon/ |
 | smoke | smoka | /smo.ka/ |
-| smooth | smud | /smud/ |
+| smooth | smuda | /smu.da/ |
 | smoothie | smudi | /smu.di/ |
 | smoothly | smud-wei | /smud.wei/ |
 | snack | smol-eat | /smol.eat/ |
 | snail | sneil | /sneil/ |
-| snake | snak | /snak/ |
+| snake | snaka | /sna.ka/ |
 | snake | sneka | /sne.ka/ |
 | sneeze | snizi | /sni.zi/ |
 | snowy | snow-dei | /snow.dei/ |
@@ -1841,11 +1841,11 @@
 | soap | sopa | /so.pa/ |
 | soccer / football | fut-bol | /fut.bol/ |
 | sock | soki | /so.ki/ |
-| socket | soket | /so.ket/ |
+| socket | soketa | /so.ke.ta/ |
 | soda | soda | /soda/ |
-| sofa | sof | /sof/ |
+| sofa | sofa | /so.fa/ |
 | sofa / couch | long-ceir | /long.seir/ |
-| soft | soft | /soft/ |
+| soft | softa | /sof.ta/ |
 | soft glow | soft-lait | /soft.lait/ |
 | software | softwer | /softwer/ |
 | software bug | buga | /bu.ga/ |
@@ -1857,13 +1857,13 @@
 | someday / future day | futur-dei | /fu.tur.dei/ |
 | sometimes | somtaim | /somtaim/ |
 | son | son | /son/ |
-| song | sonj | /sonj/ |
+| song | sonja | /son.ja/ |
 | soon | sun | /sun/ |
 | sore | sora | /so.ra/ |
 | sorrow | soro | /so.ro/ |
 | sorry | sori | /so.ri/ |
 | soul | soul | /soul/ |
-| soup | sup | /sup/ |
+| soup | supa | /su.pa/ |
 | sour | soura | /sou.ra/ |
 | south | saua | /sau.a/ |
 | souvenir | suvenira | /su.ve.ni.ra/ |
@@ -1884,10 +1884,10 @@
 | spider | spaida | /spai.da/ |
 | spider | spaidar | /spai.dar/ |
 | spine / backbone | bak-bon | /bak.bon/ |
-| spirit | spirit | /spi.rit/ |
+| spirit | spirita | /spi.ri.ta/ |
 | spiritual | spiritu | /spi.ri.tu/ |
 | sponge | sponja | /spon.ja/ |
-| spoon | sponn | /spon/ |
+| spoon | sponna | /spon.na/ |
 | spoonful | spun-ful | /spun.ful/ |
 | sport | bodi-gem | /bo.di.gem/ |
 | spotted | spota | /spo.ta/ |
@@ -1917,12 +1917,12 @@
 | stinky / smelly | bad-smel | /bad.smel/ |
 | stitch | sticha | /sti.cha/ |
 | stock / supply | stoka | /sto.ka/ |
-| stomach | stomok | /stomok/ |
+| stomach | stomoka | /sto.mo.ka/ |
 | stomachache | stomok-pain | /sto.mok.pein/ |
 | stone | ston | /ston/ |
 | stool | smol-ceir | /smol.seir/ |
 | storm | big-wind | /big.wind/ |
-| storm | storm | /storm/ |
+| storm | storma | /stor.ma/ |
 | stormy | storm-ful | /storm.ful/ |
 | story | stor | /stor/ |
 | storyteller | stor-tal-po | /stor.tal.po/ |
@@ -1933,7 +1933,7 @@
 | strawberry | strobri | /strobri/ |
 | stream | smol-river | /smol.ri.ver/ |
 | stream | strim | /strim/ |
-| street | strit | /strit/ |
+| street | strita | /stri.ta/ |
 | strength | strong-nes | /strong.nes/ |
 | strict | hard-rul | /hard.rul/ |
 | strike (labor) | straika | /strai.ka/ |
@@ -1950,13 +1950,13 @@
 | subway / metro | under-rod | /un.der.rod/ |
 | success | sukses | /sukses/ |
 | sudden | sadna | /sad.na/ |
-| sufficient | sufisent | /sufisent/ |
+| sufficient | sufisenta | /su.fi.sen.ta/ |
 | sugar | sugar | /sukr/ |
 | suit | suta | /su.ta/ |
 | suitcase | sutkes | /sut.kes/ |
 | suite | suita | /sui.ta/ |
 | sum / total | sum | /sum/ |
-| summer | samr | /samr/ |
+| summer | samra | /sam.ra/ |
 | Sunday | Sandei | /san.dei/ |
 | sunflower | son-flauor | /son.fla.u.or/ |
 | sunny | son-dei | /son.dei/ |
@@ -1968,7 +1968,7 @@
 | surgery | sergeri | /sergeri/ |
 | surgery | sik-kur | /sik.kur/ |
 | surname / family name | famili-neim | /fa.mi.li.neim/ |
-| surprised | surprisd | /surprisd/ |
+| surprised | surprisda | /sur.pris.da/ |
 | swamp | wet-lond | /wet.lond/ |
 | sweater | sweta | /swe.ta/ |
 | sweet | swita | /swi.ta/ |
@@ -1982,11 +1982,11 @@
 | syrup | sirapa | /si.ra.pa/ |
 | system | sistam | /sis.tam/ |
 | table | tebul | /tebul/ |
-| tablet | tablet | /ta.blet/ |
+| tablet | tableta | /tab.le.ta/ |
 | tail | tela | /te.la/ |
 | talent | talenta | /ta.len.ta/ |
 | talkative / fast-talking | fast-tok | /fast.tok/ |
-| tall | tall | /tol/ |
+| tall | talla | /tal.la/ |
 | tan / tanned | tana | /ta.na/ |
 | tank | tanka | /tan.ka/ |
 | tape | teipa | /tei.pa/ |
@@ -2020,7 +2020,7 @@
 | thermal | termal | /ter.mal/ |
 | these | dese | /de.se/ |
 | they | de | /de/ |
-| thick | tik | /tik/ |
+| thick | tika | /ti.ka/ |
 | thief | stila-po | /sti.la.po/ |
 | thigh | ap-leg | /ap.leg/ |
 | thin | tin | /tin/ |
@@ -2029,14 +2029,14 @@
 | this | dis | /dis/ |
 | thorn | torna | /tor.na/ |
 | those | dose | /do.se/ |
-| thought | tot | /tot/ |
+| thought | tota | /to.ta/ |
 | thread | tredi | /tre.di/ |
 | throat | trota | /tro.ta/ |
 | thumb | big-fingar | /big.fin.gar/ |
 | thunder | sarkis | /sarkis/ |
 | thunder | skai-drum | /skai.drum/ |
 | Thursday | Terzdei | /ters.dei/ |
-| ticket | bilet | /bilet/ |
+| ticket | bileta | /bi.le.ta/ |
 | tide | taida | /tai.da/ |
 | tidy / neat | taidi | /tai.di/ |
 | tie | tai | /tai/ |
@@ -2046,7 +2046,7 @@
 | time | taim | /taim/ |
 | tiny | smol-smol | /smol.smol/ |
 | tire | taira | /tai.ra/ |
-| tired | tired | /taird/ |
+| tired | tireda | /ti.re.da/ |
 | tired (short) | tri | /tri/ |
 | tissue | tisua | /ti.su.a/ |
 | title | taitel | /tai.tel/ |
@@ -2063,15 +2063,15 @@
 | to align | lain-mak | /lain.mak/ |
 | to allow | alaua | /a.la.ua/ |
 | to announce | anaunsa | /a.naun.sa/ |
-| to answer | ansr | /ansr/ |
+| to answer | ansra | /an.sra/ |
 | to apologize | sori-tal | /so.ri.tal/ |
 | to appoint | apointa | /a.poin.ta/ |
 | to approach | neer-kom | /neer.kom/ |
 | to argue | argua | /ar.gu.a/ |
 | to arrange | arenja | /a.ren.ja/ |
 | to arrest | aresta | /a.res.ta/ |
-| to arrive | ariv | /ariv/ |
-| to ask | ask | /ask/ |
+| to arrive | ariva | /a.ri.va/ |
+| to ask | aska | /as.ka/ |
 | to assemble | asembla | /a.sem.bla/ |
 | to assume | asuma | /a.su.ma/ |
 | to attach | atacha | /a.ta.cha/ |
@@ -2080,7 +2080,7 @@
 | to bang | banga | /ban.ga/ |
 | to be | bi | /bi/ |
 | to be (stative) | es | /es/ |
-| to be born | born | /born/ |
+| to be born | borna | /bor.na/ |
 | to beep | bipa | /bi.pa/ |
 | to beg | bega | /be.ga/ |
 | to begin | begin | /begin/ |
@@ -2103,8 +2103,8 @@
 | to borrow | boro | /boro/ |
 | to bounce | baunsa | /baun.sa/ |
 | to brake / brake | breika | /brei.ka/ |
-| to break | brak | /brak/ |
-| to breathe | brit | /brit/ |
+| to break | braka | /bra.ka/ |
+| to breathe | brita | /bri.ta/ |
 | to brew | brua | /bru.a/ |
 | to brighten | brite-mak | /bri.te.mak/ |
 | to bring | bringa | /brin.ga/ |
@@ -2121,18 +2121,18 @@
 | to carry | kari | /ka.ri/ |
 | to carve | karva | /kar.va/ |
 | to cast | kasta | /kas.ta/ |
-| to catch | katch | /katch/ |
+| to catch | katcha | /kat.cha/ |
 | to celebrate | selebra | /se.le.bra/ |
 | to charge | charja | /char.ja/ |
 | to chase | cheisa | /chei.sa/ |
 | to cheat | chita | /chi.ta/ |
-| to check | chek | /tcek/ |
+| to check | cheka | /che.ka/ |
 | to cherish | dep-luva | /dep.lu.va/ |
 | to chew | chua | /chu.a/ |
 | to chill | kol-mak | /kol.mak/ |
 | to chime | chaima | /chai.ma/ |
 | to chirp | chirpa | /chir.pa/ |
-| to choose | chuz | /chuz/ |
+| to choose | chuza | /chu.za/ |
 | to chop | chopa | /cho.pa/ |
 | to chuckle | smol-laf | /smol.laf/ |
 | to clap | klapa | /kla.pa/ |
@@ -2159,9 +2159,9 @@
 | to continue | kontinyu | /kontinyu/ |
 | to convict | konvita | /kon.vi.ta/ |
 | to convince | konvinsa | /kon.vin.sa/ |
-| to cook | kuk | /kuk/ |
-| to cost | kost | /kost/ |
-| to count | kount | /kount/ |
+| to cook | kuka | /ku.ka/ |
+| to cost | kosta | /kos.ta/ |
+| to count | kounta | /koun.ta/ |
 | to crackle | krakela | /kra.ke.la/ |
 | to crawl | krola | /kro.la/ |
 | to creak | krika | /kri.ka/ |
@@ -2202,7 +2202,7 @@
 | to discourage | hop-tek | /hop.tek/ |
 | to discover | diskovera | /dis.ko.ve.ra/ |
 | to discuss | diskusa | /dis.ku.sa/ |
-| to dislike | dislik | /dislik/ |
+| to dislike | dislika | /dis.li.ka/ |
 | to dismantle | dismantla | /dis.man.tla/ |
 | to dismiss | dismisa | /dis.mi.sa/ |
 | to dispose / throw away | far-trou | /far.trou/ |
@@ -2219,16 +2219,16 @@
 | to drain | dreina | /drei.na/ |
 | to draw | rava | /ra.va/ |
 | to drift | drifita | /dri.fi.ta/ |
-| to drink | drink | /drink/ |
+| to drink | drinka | /drin.ka/ |
 | to drip | dripa | /dri.pa/ |
 | to drive | draiva | /drai.va/ |
 | to drop | dropa | /dro.pa/ |
 | to dry | drai | /drai/ |
 | to earn | erna | /er.na/ |
-| to eat | eat | /it/ |
+| to eat | eata | /ea.ta/ |
 | to elect | elekta | /e.lek.ta/ |
 | to encourage | hop-giv | /hop.giv/ |
-| to end | end | /end/ |
+| to end | enda | /en.da/ |
 | to enforce | enforsa | /en.for.sa/ |
 | to enter | entar | /entar/ |
 | to erase | ereisa | /e.rei.sa/ |
@@ -2238,7 +2238,7 @@
 | to evaporate | evapora | /e.va.po.ra/ |
 | to examine | esamina | /e.sa.mi.na/ |
 | to exchange | giv-tek | /giv.tek/ |
-| to exit | eksit | /eksit/ |
+| to exit | eksita | /ek.si.ta/ |
 | to expand / enlarge | big-mak | /big.mak/ |
 | to expect | wait-for | /weit.for/ |
 | to explain | explen | /eksplen/ |
@@ -2269,7 +2269,7 @@
 | to forbid | forbida | /for.bi.da/ |
 | to forecast | bifor-tal | /bi.for.tal/ |
 | to forge | metal-mak | /me.tal.mak/ |
-| to forget | forget | /forget/ |
+| to forget | forgeta | /for.ge.ta/ |
 | to forgive | forgiva | /for.gi.va/ |
 | to form / form | forma | /for.ma/ |
 | to freeze | friza | /fri.za/ |
@@ -2281,7 +2281,7 @@
 | to gaze | geiza | /gei.za/ |
 | to generate | power-mak | /po.wer.mak/ |
 | to giggle | gigla | /gi.gla/ |
-| to give | giv | /giv/ |
+| to give | giva | /gi.va/ |
 | to glance | glansa | /glan.sa/ |
 | to gleam | glima | /gli.ma/ |
 | to glide | glaida | /glai.da/ |
@@ -2297,7 +2297,7 @@
 | to grind | grinda | /grin.da/ |
 | to grip / grip | gripa | /gri.pa/ |
 | to groan | grona | /gro.na/ |
-| to grow | grot | /grot/ |
+| to grow | grota | /gro.ta/ |
 | to growl | graula | /grau.la/ |
 | to guess | gesa | /ge.sa/ |
 | to guide | gaida | /gai.da/ |
@@ -2306,26 +2306,26 @@
 | to hang | hanga | /han.ga/ |
 | to harden | hard-mak | /hard.mak/ |
 | to harvest / harvest | harvesta | /har.ves.ta/ |
-| to have | hav | /hav/ |
+| to have | hava | /ha.va/ |
 | to heal | heal | /hial/ |
 | to hear | her | /her/ |
-| to help | help | /help/ |
+| to help | helpa | /hel.pa/ |
 | to herd | herda | /her.da/ |
 | to hibernate | wintr-slip | /wintr.slip/ |
 | to hiccup | hikapa | /hi.ka.pa/ |
 | to hide | haida | /hai.da/ |
 | to hiss | hisa | /hi.sa/ |
-| to hit | hit | /hit/ |
+| to hit | hita | /hi.ta/ |
 | to hold | holda | /hol.da/ |
 | to honor / honor | onora | /o.no.ra/ |
-| to hope | hop | /hop/ |
+| to hope | hopa | /ho.pa/ |
 | to hover | flai-stei | /flai.stei/ |
 | to howl | haula | /hau.la/ |
 | to hug | haga | /ha.ga/ |
 | to hum | huma | /hu.ma/ |
 | to hunt | hunta | /hun.ta/ |
 | to hurry | hari | /hari/ |
-| to hurry | kwik | /kwik/ |
+| to hurry | kwika | /kwi.ka/ |
 | to identify | identifa | /i.den.ti.fa/ |
 | to ignore | ignora | /ig.no.ra/ |
 | to imagine | imajin | /imajin/ |
@@ -2345,7 +2345,7 @@
 | to interpret | interpreta | /in.ter.pre.ta/ |
 | to invent | inventa | /in.ven.ta/ |
 | to invest | investa | /in.ves.ta/ |
-| to invite | invait | /invait/ |
+| to invite | invaita | /in.vai.ta/ |
 | to irrigate | watre-giv | /wa.tre.giv/ |
 | to itch / itch | icha | /i.cha/ |
 | to join | joi | /joi/ |
@@ -2359,27 +2359,27 @@
 | to knock | noka | /no.ka/ |
 | to know | nof | /nof/ |
 | to know someone | nof-hu | /nof.hu/ |
-| to laugh | laf | /laf/ |
+| to laugh | lafa | /la.fa/ |
 | to launder | wosh-klota | /wosh.klo.ta/ |
 | to lead | lida | /li.da/ |
 | to leak | leka | /le.ka/ |
 | to lean | lina | /li.na/ |
-| to learn | lern | /lern/ |
+| to learn | lerna | /ler.na/ |
 | to leave | leva | /le.va/ |
-| to lend | lent | /lent/ |
+| to lend | lenta | /len.ta/ |
 | to lick | lika | /li.ka/ |
 | to lie down | lai | /lai/ |
 | to lift | lifta | /lif.ta/ |
-| to like | lik | /lik/ |
+| to like | liki | /li.ki/ |
 | to limp | limpa | /lim.pa/ |
 | to link | linka | /lin.ka/ |
 | to listen | lisen | /lisen/ |
-| to live | liv | /liv/ |
-| to look | luk | /luk/ |
+| to live | livi | /li.vi/ |
+| to look | luka | /lu.ka/ |
 | to loosen | lusa-mak | /lu.sa.mak/ |
-| to lose | luz | /luz/ |
+| to lose | luza | /lu.za/ |
 | to lower | daun-mak | /daun.mak/ |
-| to make | mak | /mak/ |
+| to make | maka | /ma.ka/ |
 | to manage | manija | /ma.ni.ja/ |
 | to manufacture | masin-mak | /ma.sin.mak/ |
 | to march | marcha | /mar.cha/ |
@@ -2390,7 +2390,7 @@
 | to measure | meis | /meis/ |
 | to meet | mita | /mi.ta/ |
 | to melt | melta | /mel.ta/ |
-| to memorize | memoriz | /memoriz/ |
+| to memorize | memoriza | /me.mo.ri.za/ |
 | to miss | no-hit | /no.hit/ |
 | to misunderstand | rong-nof | /rong.nof/ |
 | to mix | miksa | /mik.sa/ |
@@ -2443,13 +2443,13 @@
 | to pull | pul | /pul/ |
 | to punch | poncha | /pon.cha/ |
 | to punish | punisha | /pu.ni.sha/ |
-| to push | push | /push/ |
+| to push | pusha | /pus.ha/ |
 | to quote | kwota | /kwo.ta/ |
 | to rain | rain | /rein/ |
 | to raise | raisa | /rai.sa/ |
 | to ratify | ratifa | /ra.ti.fa/ |
 | to rattle | ratela | /ra.te.la/ |
-| to read | rid | /rid/ |
+| to read | rida | /ri.da/ |
 | to realize | rialaisa | /ri.a.lai.sa/ |
 | to reap | reapa | /re.a.pa/ |
 | to rebel | rebela | /re.be.la/ |
@@ -2473,8 +2473,8 @@
 | to replace | ripleisa | /ri.plei.sa/ |
 | to reply / respond | bak-tal | /bak.tal/ |
 | to request | rekwesta | /re.kwes.ta/ |
-| to research | reserch | /risertc/ |
-| to rest | rest | /rest/ |
+| to research | resercha | /re.ser.cha/ |
+| to rest | resta | /res.ta/ |
 | to restore | ristora | /ris.to.ra/ |
 | to retreat | bak-go | /bak.go/ |
 | to return | ritan | /ritan/ |
@@ -2508,9 +2508,9 @@
 | to see | si | /si/ |
 | to seek | luk-for | /luk.for/ |
 | to sell | sel | /sel/ |
-| to send | send | /send/ |
+| to send | senda | /sen.da/ |
 | to separate | separa | /se.pa.ra/ |
-| to serve | serv | /serv/ |
+| to serve | serva | /ser.va/ |
 | to sew | nidel-wok | /ni.del.wok/ |
 | to shake | shaka | /sha.ka/ |
 | to shape / shape | sheipa | /shei.pa/ |
@@ -2522,15 +2522,15 @@
 | to shout | shauta | /shau.ta/ |
 | to shrink | skrinka | /skrin.ka/ |
 | to shrug | shraga | /shra.ga/ |
-| to sieve / to filter | siv | /siv/ |
+| to sieve / to filter | siva | /si.va/ |
 | to sigh / sigh | saia | /sai.a/ |
 | to simmer | slo-boila | /slo.boi.la/ |
 | to sing | sing | /sing/ |
 | to sink | sinka | /sin.ka/ |
 | to sip | smol-drink | /smol.drink/ |
-| to sit | sit | /sit/ |
+| to sit | sita | /si.ta/ |
 | to slap | slapa | /sla.pa/ |
-| to sleep | slip | /slip/ |
+| to sleep | slipa | /sli.pa/ |
 | to slice / slice | slaisa | /slai.sa/ |
 | to slide | slaida | /slai.da/ |
 | to smell | smel | /smel/ |
@@ -2547,7 +2547,7 @@
 | to sow | soa | /so.a/ |
 | to sparkle | sparkla | /spar.kla/ |
 | to speak | spika | /spi.ka/ |
-| to speak | tok | /tok/ |
+| to speak | toka | /to.ka/ |
 | to spend | moni-yus | /mo.ni.jus/ |
 | to spill | spila | /spi.la/ |
 | to spin | spina | /spi.na/ |
@@ -2559,9 +2559,9 @@
 | to squeeze | skwiza | /skwi.za/ |
 | to stagger | stagera | /sta.ge.ra/ |
 | to stammer | stama | /sta.ma/ |
-| to stand | stand | /stand/ |
+| to stand | standa | /stan.da/ |
 | to stare | long-luk | /long.luk/ |
-| to start | start | /start/ |
+| to start | starta | /star.ta/ |
 | to stay | stei | /stei/ |
 | to steal | stila | /sti.la/ |
 | to steer | steia | /ste.i.a/ |
@@ -2576,32 +2576,32 @@
 | to study | stodi | /stodi/ |
 | to stumble | stambla | /stam.bla/ |
 | to subtract / minus | minus | /mi.nus/ |
-| to suggest | sugest | /sugest/ |
+| to suggest | sugesta | /su.ges.ta/ |
 | to surprise / surprise | sopraisa | /so.prai.sa/ |
 | to surrender | giv-ap | /giv.ap/ |
 | to surround | surounda | /su.roun.da/ |
 | to suspect | sospekta | /sos.pek.ta/ |
 | to swallow | swola | /swo.la/ |
-| to sweat | swet | /swet/ |
+| to sweat | sweti | /swe.ti/ |
 | to sweep | swipa | /swi.pa/ |
 | to swim | swim | /swim/ |
 | to swing | swinga | /swin.ga/ |
-| to take | tek | /tek/ |
+| to take | teka | /te.ka/ |
 | to tangle | tangla | /tan.gla/ |
 | to tap | tapa | /ta.pa/ |
 | to taste | tas | /tas/ |
 | to taste / flavor | teista | /tei.sta/ |
-| to teach | teach | /tiatc/ |
+| to teach | teacha | /teac.ha/ |
 | to tear | tera | /te.ra/ |
 | to tease | tiza | /ti.za/ |
 | to tell | tal | /tal/ |
 | to thank | tanki | /tan.ki/ |
 | to thaw | tawa | /ta.wa/ |
-| to think | tink | /tink/ |
+| to think | tinka | /tin.ka/ |
 | to throw | trou | /trou/ |
 | to tickle | tikala | /ti.ka.la/ |
 | to touch | tucha | /tu.cha/ |
-| to trade | trid | /trad/ |
+| to trade | trida | /tri.da/ |
 | to translate | wod-chanja | /wod.chan.ja/ |
 | to transmit | far-send | /far.send/ |
 | to travel | rul | /rul/ |
@@ -2613,7 +2613,7 @@
 | to turn | turna | /tur.na/ |
 | to twist | twista | /twis.ta/ |
 | to type | taipa | /tai.pa/ |
-| to understand | understand | /undredstand/ |
+| to understand | understanda | /un.der.stan.da/ |
 | to undo | bak-do | /bak.do/ |
 | to unfold | no-folda | /no.fol.da/ |
 | to unite | wan-mak | /wan.mak/ |
@@ -2623,18 +2623,18 @@
 | to unwrap | no-rapa | /no.ra.pa/ |
 | to use / use | yus | /jus/ |
 | to violate | rul-brak | /rul.brak/ |
-| to visit | vizit | /vizit/ |
 | to visit | vizita | /vi.zi.ta/ |
+| to visit | viziti | /vi.zi.ti/ |
 | to vomit | vomita | /vo.mi.ta/ |
 | to wail | loud-krai | /loud.krai/ |
-| to wait | wait | /weit/ |
-| to wake | weik | /weik/ |
-| to wake up | wek | /wek/ |
-| to walk | wok | /wok/ |
+| to wait | waita | /wai.ta/ |
+| to wake | weika | /wei.ka/ |
+| to wake up | weka | /we.ka/ |
+| to walk | woka | /wo.ka/ |
 | to wander | wandra | /wan.dra/ |
 | to want | wan | /wan/ |
 | to warn | warna | /war.na/ |
-| to wash | wosh | /wos/ |
+| to wash | woshi | /wos.hi/ |
 | to waste / waste | weista | /weis.ta/ |
 | to watch | wocha | /wo.cha/ |
 | to wax | wakosa | /wa.ko.sa/ |
@@ -2654,7 +2654,7 @@
 | to worry / worry | worria | /wo.ri.a/ |
 | to worsen | bad-mak | /bad.mak/ |
 | to wrap | rapa | /ra.pa/ |
-| to write | rit | /rit/ |
+| to write | rita | /ri.ta/ |
 | to yawn | yona | /jo.na/ |
 | toast | tosta | /tos.ta/ |
 | today | nau-dei | /nau.dei/ |
@@ -2678,10 +2678,10 @@
 | toy | play-tin | /play.tin/ |
 | trace | treisa | /trei.sa/ |
 | tractor | traktor | /traktor/ |
-| trade | treid | /treid/ |
+| trade | treida | /trei.da/ |
 | tradition | tradishon | /tra.di.shon/ |
 | traffic | kar-kraud | /kar.kraud/ |
-| traffic | trafik | /trafik/ |
+| traffic | trafika | /tra.fi.ka/ |
 | tragedy | sad-play | /sad.play/ |
 | train | trein | /trein/ |
 | train station | trein-stashon | /trein.stashon/ |
@@ -2700,7 +2700,7 @@
 | triple / thrice | tri-taim | /tri.taim/ |
 | triumph / victory pride | win-praida | /win.prai.da/ |
 | trivial matter | smol-tin | /smol.tin/ |
-| truck | truk | /truk/ |
+| truck | truka | /tru.ka/ |
 | true | tru | /tru/ |
 | trumpet | trumpeta | /trum.pe.ta/ |
 | trunk | tre-bodi | /tre.bo.di/ |
@@ -2723,7 +2723,7 @@
 | under | andar | /an.dar/ |
 | under / below | under | /un.der/ |
 | underwear | in-klota | /in.klo.ta/ |
-| uniform | uniform | /u.ni.form/ |
+| uniform | uniforma | /u.ni.for.ma/ |
 | union (labor) | wok-grup | /wok.grup/ |
 | unit test | testa-koda | /tes.ta.ko.da/ |
 | universe | universa | /u.ni.ver.sa/ |
@@ -2759,7 +2759,7 @@
 | vibrate / vibration | vibra | /vi.bra/ |
 | victim | vikima | /vi.ki.ma/ |
 | video | vidio | /vi.dio/ |
-| village | vilaj | /vilaj/ |
+| village | vilaja | /vi.la.ja/ |
 | vine | vain | /vain/ |
 | vinegar | vinegar | /vinegar/ |
 | vineyard | greipa-farma | /grei.pa.far.ma/ |
@@ -2789,12 +2789,12 @@
 | wallet | waleta | /wa.le.ta/ |
 | war | war | /war/ |
 | war | wor | /wor/ |
-| warm | warm | /warm/ |
+| warm | warma | /war.ma/ |
 | warm light | warm-lait | /warm.lait/ |
 | washer (flat ring) | wosha | /wo.sha/ |
 | washing machine | wosh-masin | /wosh.ma.sin/ |
 | wasp | waspa | /was.pa/ |
-| watch | wotch | /wotch/ |
+| watch | wotcha | /wot.cha/ |
 | water | watre | /watre/ |
 | waterfall | watre-fol | /wa.tre.fol/ |
 | watermelon | watre-melon | /watre-melon/ |
@@ -2802,11 +2802,11 @@
 | wave (physics) | wava | /wa.va/ |
 | way / path (abstract) | wei | /wei/ |
 | we | wi | /wi/ |
-| weak | wik | /wik/ |
+| weak | wika | /wi.ka/ |
 | weakness | wik-nes | /wik.nes/ |
 | wealth | rich-nes | /ritc.nes/ |
 | weapon | fajt-tool | /fait.tul/ |
-| website | webseit | /webseit/ |
+| website | webseita | /web.sei.ta/ |
 | wedding | marri-dei | /ma.ri.dei/ |
 | Wednesday | Wenzdei | /wens.dei/ |
 | weed | bad-plant | /bad.plant/ |
@@ -2816,7 +2816,7 @@
 | welcome | welkom | /wel.kom/ |
 | well | watre-hol | /wa.tre.hol/ |
 | west | wesa | /we.sa/ |
-| wet | wet | /wet/ |
+| wet | weta | /we.ta/ |
 | whale | big-fisha | /big.fis.ha/ |
 | whale | weil | /weil/ |
 | what | wat | /wat/ |
@@ -2833,15 +2833,15 @@
 | whole / complete | komplita | /kom.pli.ta/ |
 | why | wai | /wai/ |
 | Wi-Fi | wifi | /wifi/ |
-| wide | wid | /wid/ |
+| wide | wida | /wi.da/ |
 | widely | wid-wei | /wid.wei/ |
 | width | widta | /wid.ta/ |
-| wife | wif | /waf/ |
+| wife | wifa | /wi.fa/ |
 | wild | wail | /wail/ |
 | wild animal | wail-animal | /wail.a.ni.mal/ |
 | will | wil | /wil/ |
 | willow | wilo | /wi.lo/ |
-| wind | wind | /wind/ |
+| wind | winda | /win.da/ |
 | window | windo | /windo/ |
 | windy | wind-dei | /wind.dei/ |
 | wine | win | /win/ |
@@ -2859,15 +2859,15 @@
 | women | wuman-en | /wu.ma.nen/ |
 | wonder / awe | wunda | /wun.da/ |
 | wonderful | wonderful | /wanderful/ |
-| wood | wud | /wud/ |
+| wood | wuda | /wu.da/ |
 | wool | wul | /wul/ |
-| word | wod | /wod/ |
+| word | woda | /wo.da/ |
 | worker | wok-po | /wok.po/ |
-| world | waild | /waild/ |
-| worm | worm | /worm/ |
+| world | wailda | /wail.da/ |
+| worm | worma | /wor.ma/ |
 | worry | tota-afreda | /to.ta.a.fre.da/ |
 | worship | goda-ador | /go.da.a.dor/ |
-| wound | wond | /wond/ |
+| wound | wonda | /won.da/ |
 | wow | wau | /wau/ |
 | wrench | rencha | /ren.cha/ |
 | wrestling | bodi-fajt | /bo.di.fait/ |

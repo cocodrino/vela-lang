@@ -116,16 +116,23 @@ def parse(path):
                 yield m.group("word").strip(), m.group("afi").strip(), line_no
 
 
-def load_grandfathered(path):
-    """Legal root inventory: every root in the legacy lexicon, plus errata roots."""
+def load_grandfathered(paths):
+    """Legal root inventory: every root/combining-form used anywhere in the lexicon,
+    plus errata roots. Loading from all files (not just BASE) recognises the bare
+    COMBINING forms of citation roots (e.g. compound 'mak-tin' keeps 'mak' legal even
+    though the standalone citation form is 'maka') — the citation/composition allomorphy
+    ratified as Option D."""
+    if isinstance(paths, str):
+        paths = [paths]
     roots = set(ERRATA_ROOTS)
-    try:
-        for word, _, _ in parse(path):
-            for element in word.split("-"):
-                if element and not element.isupper():
-                    roots.add(element.lower())
-    except OSError:
-        pass  # legacy lexicon missing: fall back to errata roots only
+    for path in paths:
+        try:
+            for word, _, _ in parse(path):
+                for element in word.split("-"):
+                    if element and not element.isupper():
+                        roots.add(element.lower())
+        except OSError:
+            pass  # missing file: skip
     return roots
 
 
@@ -137,7 +144,7 @@ def main(argv):
     if "--legacy" in args:
         force, args = False, [a for a in args if a != "--legacy"]
     files = args or DEFAULT_FILES
-    grandfathered = load_grandfathered(LEGACY_LEXICON)
+    grandfathered = load_grandfathered(DEFAULT_FILES)
 
     findings = []  # (severity, rule, path, line_no, word, detail)
     total = 0
