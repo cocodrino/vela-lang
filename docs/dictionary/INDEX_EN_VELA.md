@@ -117,7 +117,9 @@
 | banknote | paper-moni | /pe.per.mo.ni/ |
 | barely | berli | /ber.li/ |
 | bark | tre-skin | /tre.skin/ |
+| barley | barli | /bar.li/ |
 | base / alkaline | alkalin | /al.ka.lin/ |
+| basil | basila | /ba.si.la/ |
 | bat | baet | /baet/ |
 | bat (animal) | bat | /bat/ |
 | bathroom | baterom | /baterom/ |
@@ -133,8 +135,10 @@
 | because | bikos | /bikos/ |
 | bed | bed | /bed/ |
 | bedroom | bedrum | /bedrum/ |
+| bee | honi-flai | /ho.ni.flai/ |
 | beef | bef | /bef/ |
 | beer | birr | /bir/ |
+| beetle | bitela | /bi.te.la/ |
 | before | bifor | /bifor/ |
 | beforehand | bifor-taim | /bi.for.taim/ |
 | belief | biliv | /bi.liv/ |
@@ -182,6 +186,7 @@
 | bottle | botel | /botel/ |
 | bowl | boli | /bo.li/ |
 | box | boksi | /bok.si/ |
+| boxing | bokosa | /bo.ko.sa/ |
 | boy | boy | /boi/ |
 | boyfriend / girlfriend | luva-fren | /lu.va.fren/ |
 | brain | brain | /brein/ |
@@ -205,6 +210,7 @@
 | brush | brushi | /bru.shi/ |
 | bucket | baket | /ba.ket/ |
 | bucket | buketa | /bu.ke.ta/ |
+| bud | boda | /bo.da/ |
 | budget | bojeta | /bo.je.ta/ |
 | builder | hous-mak-po | /haus.mak.po/ |
 | building | maki-hous | /ma.ki.haus/ |
@@ -222,6 +228,7 @@
 | button | batu | /batu/ |
 | button | buton | /buton/ |
 | buyer | bai-po | /bai.po/ |
+| cabbage | kabaja | /ka.ba.ja/ |
 | cable | kabel | /ka.bel/ |
 | cache | kasha | /ka.sha/ |
 | cactus | kaktus | /kak.tus/ |
@@ -290,6 +297,7 @@
 | chronic | kron-sika | /kron.si.ka/ |
 | church | god-hous | /god.haus/ |
 | circle | raunda-lain | /raun.da.lain/ |
+| circuit | serkita | /ser.ki.ta/ |
 | citizen | sitizen | /sitizn/ |
 | city | siti | /siti/ |
 | city (modern) | sityu | /situ/ |
@@ -458,6 +466,7 @@
 | dog | dog | /dog/ |
 | dolphin | dolfin | /dol.fin/ |
 | domain | domain | /do.main/ |
+| donkey | donki | /don.ki/ |
 | door | dor | /dor/ |
 | dose | doza | /do.za/ |
 | down | daun | /daun/ |
@@ -563,6 +572,7 @@
 | February | Februari | /februa.ri/ |
 | female friend | wuman-fren | /wu.man.fren/ |
 | fence | fensa | /fen.sa/ |
+| fern | ferna | /fer.na/ |
 | festival | hapi-dei | /ha.pi.dei/ |
 | fever | hot-sik | /hot.sik/ |
 | few | fyu | /fyu/ |
@@ -586,6 +596,7 @@
 | floor (level) | flor-nomber | /flor.nom.ber/ |
 | flour | flaur | /fla.ur/ |
 | flower | flauor | /flauor/ |
+| flute | fluta | /flu.ta/ |
 | fog / mist | lo-kloud | /lo.kloud/ |
 | food | food | /fud/ |
 | foolish | no-wais | /no.wais/ |
@@ -643,7 +654,9 @@
 | genetic code | lifa-koda | /li.fa.ko.da/ |
 | genre | jenra | /jen.ra/ |
 | gentle | jentel | /jen.tel/ |
+| germ | jerma | /jer.ma/ |
 | gift | giv-tin | /giv.tin/ |
+| ginger | jinja | /jin.ja/ |
 | giraffe | jiraf | /ji.raf/ |
 | giraffe | jirau | /ji.rau/ |
 | girl | gerl | /gerl/ |
@@ -825,6 +838,8 @@
 | jar | jara | /ja.ra/ |
 | jealous | jelus | /je.lus/ |
 | jealousy | jelusi | /je.lu.si/ |
+| jellyfish | medusa | /me.du.sa/ |
+| joint | jointa | /join.ta/ |
 | joke | fani-tin | /fa.ni.tin/ |
 | journalist | news-tak-po | /nuz.tak.po/ |
 | journey | jorni | /jor.ni/ |
@@ -880,6 +895,7 @@
 | less | les | /les/ |
 | less and less | les-les | /les.les/ |
 | letter | leter | /leter/ |
+| lettuce | letusa | /le.tu.sa/ |
 | library | buk-hous | /buk.haus/ |
 | lid | poti-kover | /po.ti.ko.ver/ |
 | lie (statement) | fols-wod | /fols.wod/ |
@@ -968,12 +984,14 @@
 | meter | meter | /me.ter/ |
 | method / way of doing | do-wei | /do.wei/ |
 | microbe | mikruba | /mik.ru.ba/ |
+| microphone | maika | /mai.ka/ |
 | microservice | mikro-servis | /mi.kro.ser.vis/ |
 | microwave | maikrowev | /mai.kro.wev/ |
 | midnight | midnaight | /midnait/ |
 | milk | milk | /milk/ |
 | mind | maind | /maind/ |
 | mind | mini | /mi.ni/ |
+| mint | minta | /min.ta/ |
 | minute | minimit | /minimit/ |
 | minute | minua | /mi.nua/ |
 | minute | minut | /mi.nut/ |
@@ -1064,6 +1082,7 @@
 | north | nora | /no.ra/ |
 | nose | nos | /nos/ |
 | nostalgia | pasta-luva-pain | /pas.ta.lu.va.pein/ |
+| note | nota | /no.ta/ |
 | notice | notis | /notis/ |
 | novel | long-stor | /lon.stor/ |
 | novel / storybook | stor-buk | /stor.buk/ |
@@ -1076,6 +1095,7 @@
 | oak (tree) | oka | /o.ka/ |
 | occasional | okasa | /o.ka.sa/ |
 | October | Oktober | /oktobr/ |
+| octopus | oktopa | /ok.to.pa/ |
 | odd / uneven | oda | /o.da/ |
 | odorless | no-smel | /no.smel/ |
 | of | of | /of/ |
@@ -1139,6 +1159,7 @@
 | patience | pashensa | /pa.shen.sa/ |
 | pattern | paterna | /pa.ter.na/ |
 | paw | animal-fut | /a.ni.mal.fut/ |
+| pea | pia | /pi.a/ |
 | peace | pis | /pis/ |
 | peak / summit | pika | /pi.ka/ |
 | pen | pen | /pen/ |
@@ -1362,6 +1383,7 @@
 | saw | sawa | /sa.wa/ |
 | scale (fish) | fish-skin | /fis.skin/ |
 | scanner | skanar | /ska.nar/ |
+| scar | eskara | /es.ka.ra/ |
 | scarf | skarf | /skarf/ |
 | scarf | skaru | /skaru/ |
 | scary story | afred-stor | /a.fred.stor/ |
@@ -1389,6 +1411,7 @@
 | self-supervised learning | auto-lern | /au.to.lern/ |
 | selfish / self-love | self-luva | /self.lu.va/ |
 | seller | sel-po | /sel.po/ |
+| sensor | fel-tin | /fel.tin/ |
 | sentence | wod-lain | /wod.lain/ |
 | September | September | /septembr/ |
 | serene | kwaiat-hert | /kwai.at.hert/ |
@@ -1423,6 +1446,7 @@
 | sidewalk | wok-rod | /wok.rod/ |
 | sign | sain | /sain/ |
 | sign language | sain-tok | /sain.tok/ |
+| signal | saina | /sai.na/ |
 | silence | kwaiat-nes | /kwai.at.nes/ |
 | silent / mute | no-tok | /no.tok/ |
 | silk | sili | /si.li/ |
@@ -1441,6 +1465,7 @@
 | skin | skin | /skin/ |
 | skirt | skara | /skara/ |
 | skirt | skart | /skart/ |
+| skull | hed-bon | /hed.bon/ |
 | sky | skai | /skai/ |
 | sleepy | slepi | /slepi/ |
 | sleeve | arm-kover | /arm.ko.ver/ |
@@ -1463,6 +1488,7 @@
 | so / therefore | so | /so/ |
 | soap | sop | /sop/ |
 | soap | sopi | /so.pi/ |
+| soccer / football | fut-bol | /fut.bol/ |
 | sock | soi | /soi/ |
 | sock | sok | /sok/ |
 | socket | soket | /so.ket/ |
@@ -1508,6 +1534,7 @@
 | spoon | sponn | /spon/ |
 | sport | bodi-gem | /bo.di.gem/ |
 | spring | spring | /spring/ |
+| sprout | sprauta | /sprau.ta/ |
 | square | for-korner | /for.kor.ner/ |
 | squirrel | skwiral | /skwi.ral/ |
 | stage | play-flor | /play.flor/ |
@@ -1600,6 +1627,7 @@
 | temperature / heat | hot-nes | /hot.nes/ |
 | temple | holi-hous | /ho.li.haus/ |
 | tempo | tempa | /tem.pa/ |
+| tennis | tenis | /te.nis/ |
 | that | dat | /dat/ |
 | the (definite) | la | /la/ |
 | the right way | tru-wei | /tru.wei/ |
@@ -1752,6 +1780,7 @@
 | to grow | grot | /grot/ |
 | to guess | gesa | /ge.sa/ |
 | to hang | hanga | /han.ga/ |
+| to harvest / harvest | harvesta | /har.ves.ta/ |
 | to have | hav | /hav/ |
 | to heal | heal | /hial/ |
 | to hear | her | /her/ |
@@ -1769,6 +1798,7 @@
 | to import | far-bai | /far.bai/ |
 | to invest | investa | /in.ves.ta/ |
 | to invite | invait | /invait/ |
+| to itch / itch | icha | /i.cha/ |
 | to join | joi | /joi/ |
 | to jump | jamp | /jamp/ |
 | to jump | jump | /jump/ |
@@ -1984,6 +2014,8 @@
 | trivial matter | smol-tin | /smol.tin/ |
 | truck | truk | /truk/ |
 | true | tru | /tru/ |
+| trumpet | trumpeta | /trum.pe.ta/ |
+| trunk | tre-bodi | /tre.bo.di/ |
 | truth (abstract) | tru-nes | /tru.nes/ |
 | truth (spoken) | tru-wod | /tru.wod/ |
 | Tuesday | Tiuzdei | /tius.dei/ |
