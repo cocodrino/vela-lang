@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning VELA — Level 1</title>
+</head>
+<body>
+<style>
+  :root{
+    --ink:#12303c; --muted:#5b7683; --line:#dce7e6;
+    --brand:#1c93a6; --brand-deep:#0f6e7e; --brand-soft:#eaf5f6;
+    --sun:#f4a93b; --sun-soft:#fdf1da; --coral:#e2705a; --coral-soft:#fbe9e4;
+    --good:#3aa06f; --good-soft:#e6f4ec;
+    --sand:#fbf7ef; --card:#ffffff; --shadow:0 1px 2px rgba(18,48,60,.05),0 8px 24px rgba(18,48,60,.07);
+    --display:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif;
+    --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:"SF Mono",ui-monospace,"Menlo",monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --ink:#e9f2f2; --muted:#93aeb6; --line:#22414a;
+      --brand:#4fc3d4; --brand-deep:#2a9aac; --brand-soft:#12333a;
+      --sun:#f7bb57; --sun-soft:#33291a; --coral:#f08a76; --coral-soft:#33231f;
+      --good:#5cc48c; --good-soft:#16302a;
+      --sand:#0c1f26; --card:#102a32; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px rgba(0,0,0,.35); }
+  }
+  :root[data-theme="light"]{ --ink:#12303c; --muted:#5b7683; --line:#dce7e6; --brand:#1c93a6; --brand-deep:#0f6e7e; --brand-soft:#eaf5f6; --sun:#f4a93b; --sun-soft:#fdf1da; --coral:#e2705a; --coral-soft:#fbe9e4; --good:#3aa06f; --good-soft:#e6f4ec; --sand:#fbf7ef; --card:#fff; --shadow:0 1px 2px rgba(18,48,60,.05),0 8px 24px rgba(18,48,60,.07); }
+  :root[data-theme="dark"]{ --ink:#e9f2f2; --muted:#93aeb6; --line:#22414a; --brand:#4fc3d4; --brand-deep:#2a9aac; --brand-soft:#12333a; --sun:#f7bb57; --sun-soft:#33291a; --coral:#f08a76; --coral-soft:#33231f; --good:#5cc48c; --good-soft:#16302a; --sand:#0c1f26; --card:#102a32; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px rgba(0,0,0,.35); }
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--sand);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:56rem;margin:0 auto;padding:0 1.25rem}
+  h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+  a{color:var(--brand-deep)}
+  .vela{font-weight:700;color:var(--brand-deep);white-space:nowrap}
+  :root[data-theme="dark"] .vela{color:var(--brand)}
+  @media (prefers-color-scheme:dark){.vela{color:var(--brand)}}
+  .say{font-family:var(--mono);font-size:.82em;color:var(--muted)}
+
+  /* ---- cover ---- */
+  .cover{position:relative;overflow:hidden;background:linear-gradient(160deg,var(--brand-deep),var(--brand) 55%,#2fb0c2);color:#fff}
+  .cover canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:.5}
+  .cover .wrap{position:relative;padding:4.5rem 1.25rem 4rem;text-align:center}
+  .badge{display:inline-flex;align-items:center;gap:.5ch;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);color:#fff;font-family:var(--display);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .8rem;border-radius:999px}
+  .cover h1{font-size:clamp(2.6rem,7vw,4.2rem);margin:.7rem 0 .3rem;letter-spacing:-.01em}
+  .cover .sub{font-size:clamp(1.05rem,2.4vw,1.3rem);opacity:.95;max-width:34rem;margin:.3rem auto 0}
+  .sail{display:inline-block;color:var(--sun)}
+
+  /* ---- how it works ---- */
+  .legend{margin:-2.2rem auto 0;position:relative;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:1.2rem 1.4rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem}
+  .legend div{display:flex;gap:.6rem;align-items:flex-start;font-size:.9rem}
+  .dot{flex:0 0 auto;width:1.7rem;height:1.7rem;border-radius:8px;display:grid;place-items:center;font-family:var(--display);font-weight:800;color:#fff;font-size:.95rem}
+
+  /* ---- lesson ---- */
+  .lesson{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:2rem clamp(1.1rem,3vw,2.2rem);margin:2rem 0}
+  .eyebrow{font-family:var(--display);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:var(--brand);display:flex;align-items:center;gap:.6rem}
+  .eyebrow .n{background:var(--brand);color:#fff;width:1.9rem;height:1.9rem;border-radius:9px;display:grid;place-items:center;font-size:.95rem}
+  .lesson h2{font-size:clamp(1.7rem,4vw,2.3rem);margin:.5rem 0 .2rem}
+  .goals{display:flex;flex-wrap:wrap;gap:.5rem;margin:.9rem 0 0}
+  .goals span{background:var(--sun-soft);color:var(--ink);border:1px solid color-mix(in srgb,var(--sun) 40%,transparent);font-size:.82rem;font-weight:600;padding:.3rem .7rem;border-radius:999px}
+  .sec-t{font-family:var(--display);font-weight:800;font-size:1.15rem;margin:2rem 0 .8rem;display:flex;align-items:center;gap:.55rem;color:var(--ink)}
+  .sec-t::before{content:"";width:.55rem;height:1.15rem;border-radius:3px;background:var(--sun)}
+
+  /* vocab cards */
+  .vocab{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.8rem}
+  .word{background:var(--sand);border:1px solid var(--line);border-radius:14px;padding:.85rem .95rem;transition:transform .15s ease,box-shadow .15s ease}
+  .word:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+  .word .w{font-family:var(--display);font-weight:800;font-size:1.25rem;color:var(--brand-deep)}
+  :root[data-theme="dark"] .word .w{color:var(--brand)}
+  @media (prefers-color-scheme:dark){.word .w{color:var(--brand)}}
+  .word .p{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin:.05rem 0 .35rem}
+  .word .m{font-size:.95rem;font-weight:600}
+  .word .ex{font-size:.82rem;color:var(--muted);margin-top:.3rem}
+
+  /* grammar callout */
+  .gram{background:var(--brand-soft);border:1px solid color-mix(in srgb,var(--brand) 30%,transparent);border-left:5px solid var(--brand);border-radius:12px;padding:1.1rem 1.2rem;margin:.4rem 0}
+  .gram h4{font-family:var(--display);margin:0 0 .4rem;font-size:1.02rem;color:var(--brand-deep)}
+  :root[data-theme="dark"] .gram h4{color:var(--brand)}
+  @media (prefers-color-scheme:dark){.gram h4{color:var(--brand)}}
+  .gram table{border-collapse:collapse;width:100%;margin:.6rem 0 .2rem;font-size:.92rem}
+  .gram td,.gram th{border:1px solid var(--line);padding:.4rem .6rem;text-align:left;background:var(--card)}
+  .gram th{background:var(--brand);color:#fff;font-family:var(--display)}
+
+  /* dialogue */
+  .chat{display:flex;flex-direction:column;gap:.7rem;margin:.4rem 0}
+  .turn{display:flex;gap:.6rem;align-items:flex-end;max-width:85%}
+  .turn.b{align-self:flex-end;flex-direction:row-reverse}
+  .av{flex:0 0 auto;width:2.1rem;height:2.1rem;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:800;color:#fff;font-size:.9rem}
+  .bub{background:var(--sand);border:1px solid var(--line);border-radius:16px 16px 16px 4px;padding:.6rem .85rem}
+  .turn.b .bub{border-radius:16px 16px 4px 16px;background:var(--brand-soft)}
+  .bub .l{font-family:var(--display);font-weight:700;font-size:1.05rem}
+  .bub .t{font-size:.83rem;color:var(--muted);margin-top:.15rem}
+
+  /* exercises */
+  .ex-block{background:var(--coral-soft);border:1px solid color-mix(in srgb,var(--coral) 35%,transparent);border-radius:14px;padding:1.2rem 1.3rem;margin:.5rem 0}
+  .ex-block .tag{display:inline-flex;align-items:center;gap:.4ch;font-family:var(--display);font-weight:800;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--coral);background:var(--card);border:1px solid color-mix(in srgb,var(--coral) 30%,transparent);padding:.25rem .6rem;border-radius:999px}
+  .q{margin:1rem 0 0}
+  .q p{margin:0 0 .5rem;font-weight:600}
+  .q .prompt{font-size:.85rem;color:var(--muted);font-weight:400;margin-left:.4rem}
+  .ans{margin-top:.5rem}
+  .ans button{font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--brand-deep);background:var(--card);border:1.5px solid var(--brand);border-radius:999px;padding:.35rem .9rem;cursor:pointer;transition:background .15s,color .15s}
+  .ans button:hover{background:var(--brand);color:#fff}
+  .ans button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+  .ans .reveal{display:none;margin-top:.55rem;padding:.6rem .8rem;background:var(--good-soft);border:1px solid color-mix(in srgb,var(--good) 35%,transparent);border-radius:10px;font-weight:600}
+  .ans.open .reveal{display:block}
+  .ans.open button{display:none}
+  .options{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0}
+  .options span{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.25rem .6rem;font-family:var(--display);font-weight:700;font-size:.9rem;color:var(--brand-deep)}
+
+  .foot{text-align:center;color:var(--muted);padding:2.5rem 1.25rem 3.5rem;font-size:.92rem}
+  .foot .next{display:inline-block;margin-top:.5rem;font-family:var(--display);font-weight:800;color:var(--brand-deep);font-size:1.05rem}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="cover">
+  <canvas id="waves" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <span class="badge">Level 1 · Speak the basics</span>
+    <h1>Learning <span class="sail">VELA</span></h1>
+    <p class="sub">The universal conlang, taught the friendly way. Read it as you see it, say it as you read it — and start speaking from lesson one.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="legend" aria-label="How this course works">
+    <div><span class="dot" style="background:var(--brand)">A</span><div><strong>Vocabulary</strong><br>New words, with how to say them.</div></div>
+    <div><span class="dot" style="background:var(--sun)">B</span><div><strong>One rule</strong><br>A single grammar idea per lesson.</div></div>
+    <div><span class="dot" style="background:var(--brand-deep)">C</span><div><strong>Dialogue</strong><br>Hear the words in real use.</div></div>
+    <div><span class="dot" style="background:var(--coral)">D</span><div><strong>Your turn</strong><br>Small exercises — answers included.</div></div>
+  </section>
+
+  <!-- ================= LESSON 1 ================= -->
+  <section class="lesson">
+    <p class="eyebrow"><span class="n">1</span> Leson wan</p>
+    <h2>Helo! — Greetings &amp; “to be”</h2>
+    <div class="goals"><span>say hello</span><span>introduce yourself</span><span>use <span class="vela">es</span> (am/is/are)</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">Helo!</div><div class="p">/ˈhe.lo/</div><div class="m">Hello!</div></div>
+      <div class="word"><div class="w">mi</div><div class="p">/mi/</div><div class="m">I / me</div></div>
+      <div class="word"><div class="w">yu</div><div class="p">/ju/</div><div class="m">you</div></div>
+      <div class="word"><div class="w">li</div><div class="p">/li/</div><div class="m">he / she / it</div><div class="ex">one word for all — no gender</div></div>
+      <div class="word"><div class="w">es</div><div class="p">/es/</div><div class="m">am / is / are</div></div>
+      <div class="word"><div class="w">hapi</div><div class="p">/ˈha.pi/</div><div class="m">happy</div></div>
+      <div class="word"><div class="w">gud</div><div class="p">/gud/</div><div class="m">good</div></div>
+      <div class="word"><div class="w">fren</div><div class="p">/fren/</div><div class="m">friend</div></div>
+      <div class="word"><div class="w">neim</div><div class="p">/neim/</div><div class="m">name</div></div>
+      <div class="word"><div class="w">sori</div><div class="p">/ˈso.ri/</div><div class="m">sorry</div></div>
+    </div>
+
+    <h3 class="sec-t">The one rule: <span class="vela">es</span> = am / is / are</h3>
+    <div class="gram">
+      <h4>One word for “to be” — and it never changes</h4>
+      <p>In English you juggle <em>am, is, are</em>. In VELA there is just <span class="vela">es</span>, the same for everyone. The order is <strong>Subject — es — the rest</strong>.</p>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">Mi es hapi.</span></td><td>I am happy.</td></tr>
+        <tr><td><span class="vela">Yu es mi fren.</span></td><td>You are my friend.</td></tr>
+        <tr><td><span class="vela">Li es gud.</span></td><td>He / she is good.</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">To make it negative, put <span class="vela">no</span> before it: <span class="vela">Mi no es sori.</span> — <em>I am not sorry.</em></p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Tu fren</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Helo! Mi neim es Ana.</div><div class="t">Hello! My name is Ana.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Helo, Ana! Mi es Ben.</div><div class="t">Hello, Ana! I am Ben.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Yu es mi fren. Mi es hapi!</div><div class="t">You are my friend. I am happy!</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Mi es hapi tu!</div><div class="t">I am happy too!</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · translate to VELA</span>
+      <div class="q"><p>1. I am happy.</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Mi es hapi.</span></div></div></div>
+      <div class="q"><p>2. You are my friend.</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Yu es mi fren.</span></div></div></div>
+      <div class="q"><p>3. She is good.</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Li es gud.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · fill the gap</span>
+      <div class="q"><p>Mi ___ hapi. <span class="prompt">(am)</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">es</span> → Mi <strong>es</strong> hapi.</div></div></div>
+      <div class="q"><p>Helo! Mi ___ es Ana. <span class="prompt">(name)</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">neim</span> → Mi <strong>neim</strong> es Ana.</div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 2 ================= -->
+  <section class="lesson">
+    <p class="eyebrow"><span class="n">2</span> Leson tu</p>
+    <h2>Mi famili — People &amp; the words “la / un”</h2>
+    <div class="goals"><span>talk about family</span><span>use <span class="vela">la</span> (the) &amp; <span class="vela">un</span> (a)</span><span>describe with adjectives</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">famili</div><div class="p">/fa.ˈmi.li/</div><div class="m">family</div></div>
+      <div class="word"><div class="w">moter</div><div class="p">/ˈmo.ter/</div><div class="m">mother</div></div>
+      <div class="word"><div class="w">fater</div><div class="p">/ˈfa.ter/</div><div class="m">father</div></div>
+      <div class="word"><div class="w">broter</div><div class="p">/ˈbro.ter/</div><div class="m">brother</div></div>
+      <div class="word"><div class="w">sisra</div><div class="p">/ˈsis.ra/</div><div class="m">sister</div></div>
+      <div class="word"><div class="w">child</div><div class="p">/tʃild/</div><div class="m">child</div></div>
+      <div class="word"><div class="w">man</div><div class="p">/man/</div><div class="m">man / person</div></div>
+      <div class="word"><div class="w">wuman</div><div class="p">/ˈwu.man/</div><div class="m">woman</div></div>
+      <div class="word"><div class="w">big</div><div class="p">/big/</div><div class="m">big</div></div>
+      <div class="word"><div class="w">smol</div><div class="p">/smol/</div><div class="m">small</div></div>
+      <div class="word"><div class="w">yong</div><div class="p">/joŋ/</div><div class="m">young</div></div>
+      <div class="word"><div class="w">old</div><div class="p">/old/</div><div class="m">old</div></div>
+    </div>
+
+    <h3 class="sec-t">The one rule: <span class="vela">la</span> &amp; <span class="vela">un</span></h3>
+    <div class="gram">
+      <h4>“the” and “a” — that’s all the articles there are</h4>
+      <p><span class="vela">la</span> means <strong>the</strong> (a specific one). <span class="vela">un</span> means <strong>a / an</strong> (any one). They never change for gender or number.</p>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">la moter</span></td><td>the mother</td></tr>
+        <tr><td><span class="vela">un fren</span></td><td>a friend</td></tr>
+        <tr><td><span class="vela">un big famili</span></td><td>a big family</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0"><strong>Adjectives go before the noun</strong> and never change: <span class="vela">un smol child</span> — <em>a small child</em>. <span class="vela">la old man</span> — <em>the old man</em>.</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Mi famili</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Dis es mi famili. Mi hav un moter and un fater.</div><div class="t">This is my family. I have a mother and a father.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">La moter es yong. La fater es old!</div><div class="t">The mother is young. The father is old!</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Ha! Mi hav un smol broter tu.</div><div class="t">Ha! I have a small brother too.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Un big famili. Nais!</div><div class="t">A big family. Nice!</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · translate to VELA</span>
+      <div class="q"><p>1. the mother</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">la moter</span></div></div></div>
+      <div class="q"><p>2. a small child</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">un smol child</span></div></div></div>
+      <div class="q"><p>3. The father is old.</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">La fater es old.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · put the words in order</span>
+      <div class="q"><p>Make “a big family”:</p><div class="options"><span>famili</span><span>big</span><span>un</span></div><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">un big famili</span> — remember: <em>un</em> → adjective → noun.</div></div></div>
+      <div class="q"><p>Make “The sister is young”:</p><div class="options"><span>yong</span><span>la</span><span>es</span><span>sisra</span></div><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">La sisra es yong.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 3 · say it about you</span>
+      <div class="q"><p>Write one sentence about your family using <span class="vela">mi</span>, <span class="vela">hav</span>, <span class="vela">un</span> and a family word.</p><div class="ans"><button>Show a model</button><div class="reveal">e.g. <span class="vela">Mi hav un big famili.</span> — <em>I have a big family.</em> · <span class="vela">Mi hav un yong sisra.</span></div></div></div>
+    </div>
+  </section>
+</div>
+
+<footer class="foot">
+  <div>Yu did it — tu leson-en! You can already greet, introduce yourself, and describe your family in VELA.</div>
+  <div class="next">Next → Leson 3: Objects &amp; actions (present tense)</div>
+</footer>
+
+<script>
+  // exercise reveals
+  document.querySelectorAll('.ans button').forEach(function(b){
+    b.addEventListener('click',function(){ b.parentElement.classList.add('open'); });
+  });
+  // gentle sail-wave canvas
+  (function(){
+    var c=document.getElementById('waves'); if(!c) return;
+    var x=c.getContext('2d'), W,H,t=0,
+        reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    function size(){ W=c.width=c.offsetWidth*devicePixelRatio; H=c.height=c.offsetHeight*devicePixelRatio; }
+    size(); window.addEventListener('resize',size);
+    function wave(off,amp,col){ x.beginPath(); x.moveTo(0,H);
+      for(var i=0;i<=W;i+=8){ x.lineTo(i, H*0.55 + Math.sin(i*0.006+off)*amp + Math.cos(i*0.003+off*1.3)*amp*0.6); }
+      x.lineTo(W,H); x.closePath(); x.fillStyle=col; x.fill(); }
+    function frame(){ x.clearRect(0,0,W,H);
+      wave(t*0.6, 26*devicePixelRatio,'rgba(255,255,255,.10)');
+      wave(t*0.9+2, 20*devicePixelRatio,'rgba(255,255,255,.13)');
+      wave(t*1.2+4, 14*devicePixelRatio,'rgba(255,255,255,.10)');
+      if(!reduce){ t+=0.01; requestAnimationFrame(frame); } }
+    frame();
+  })();
+</script>
+</body>
+</html>
