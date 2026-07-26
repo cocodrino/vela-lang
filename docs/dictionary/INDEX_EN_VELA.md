@@ -731,6 +731,7 @@
 | graceful | greisa-ful | /grei.sa.ful/ |
 | grade / mark | lern-skor | /lern.skor/ |
 | gradual / gradually | slo-slo | /slo.slo/ |
+| gram | grama | /gra.ma/ |
 | grammar | gramr | /gramr/ |
 | grandchild | child-child | /child.child/ |
 | grandfather | granfater | /granfater/ |
@@ -1380,6 +1381,7 @@
 | rash | skin-red | /skin.red/ |
 | rat | raa | /ra.a/ |
 | rat | rat | /rat/ |
+| rate | reita | /rei.ta/ |
 | rather | rada | /ra.da/ |
 | raw | no-kuk | /no.kuk/ |
 | reader | rid-po | /rid.po/ |
@@ -1504,6 +1506,7 @@
 | seller | sel-po | /sel.po/ |
 | sensor | fel-tin | /fel.tin/ |
 | sentence | wod-lain | /wod.lain/ |
+| sentence (punishment) | sentensa | /sen.ten.sa/ |
 | September | September | /septembr/ |
 | sequence | sekwensa | /se.kwen.sa/ |
 | serene | kwaiat-hert | /kwai.at.hert/ |
@@ -1779,6 +1782,7 @@
 | title | taitel | /tai.tel/ |
 | to / at | a | /a/ |
 | to accept | asepta | /a.sep.ta/ |
+| to accuse | akusa | /a.ku.sa/ |
 | to ache / ache | eika | /ei.ka/ |
 | to act (perform) | akta | /ak.ta/ |
 | to add | ada | /a.da/ |
@@ -1788,11 +1792,14 @@
 | to allow | alaua | /a.la.ua/ |
 | to announce | anaunsa | /a.naun.sa/ |
 | to answer | ansr | /ansr/ |
+| to appoint | apointa | /a.poin.ta/ |
 | to approach | neer-kom | /neer.kom/ |
 | to argue | argua | /ar.gu.a/ |
 | to arrange | arenja | /a.ren.ja/ |
+| to arrest | aresta | /a.res.ta/ |
 | to arrive | ariv | /ariv/ |
 | to ask | ask | /ask/ |
+| to assemble | asembla | /a.sem.bla/ |
 | to assume | asuma | /a.su.ma/ |
 | to attack | ataka | /a.ta.ka/ |
 | to bake | baka | /ba.ka/ |
@@ -1821,17 +1828,22 @@
 | to breathe | brit | /brit/ |
 | to brew | brua | /bru.a/ |
 | to brighten | brite-mak | /bri.te.mak/ |
+| to broadcast | ol-send | /ol.send/ |
+| to browse | brausa | /brau.sa/ |
 | to build | maki | /ma.ki/ |
 | to burn | berna | /ber.na/ |
+| to bury | erd-kover | /erd.ko.ver/ |
 | to buy | bai | /bai/ |
 | to buzz | buza | /bu.za/ |
 | to calculate | kalkula | /kal.ku.la/ |
 | to call | kal | /kal/ |
+| to cancel | kansela | /kan.se.la/ |
 | to carry | kari | /ka.ri/ |
 | to carve | karva | /kar.va/ |
 | to cast | kasta | /kas.ta/ |
 | to catch | katch | /katch/ |
 | to celebrate | selebra | /se.le.bra/ |
+| to charge | charja | /char.ja/ |
 | to chase | cheisa | /chei.sa/ |
 | to check | chek | /tcek/ |
 | to chew | chua | /chu.a/ |
@@ -1857,14 +1869,17 @@
 | to confuse | konfusa | /kon.fu.sa/ |
 | to connect | konekta | /ko.nek.ta/ |
 | to consider | konsida | /kon.si.da/ |
+| to construct | konstrua | /kon.stru.a/ |
 | to contain | in-hav | /in.hav/ |
 | to continue | kontinyu | /kontinyu/ |
+| to convict | konvita | /kon.vi.ta/ |
 | to cook | kuk | /kuk/ |
 | to cost | kost | /kost/ |
 | to count | kount | /kount/ |
 | to crackle | krakela | /kra.ke.la/ |
 | to crawl | krola | /kro.la/ |
 | to creak | krika | /kri.ka/ |
+| to create | kreata | /kre.a.ta/ |
 | to cross / a cross | kros | /kros/ |
 | to crush | krosha | /kro.sha/ |
 | to cry | kai | /kai/ |
@@ -1880,20 +1895,27 @@
 | to deepen | dep-mak | /dep.mak/ |
 | to defend | defenda | /de.fen.da/ |
 | to define | difaina | /di.fai.na/ |
+| to delete | delita | /de.li.ta/ |
 | to demand | dimanda | /di.man.da/ |
+| to demolish | demolisha | /de.mo.li.sha/ |
 | to deny | dinaia | /di.nai.a/ |
 | to depart | far-go | /far.go/ |
 | to describe | wod-piktur | /wod.pik.tur/ |
 | to despise | daun-luk | /daun.luk/ |
+| to destroy | destroia | /des.tro.a/ |
 | to detach | ditacha | /di.ta.cha/ |
 | to dice | daisa | /dai.sa/ |
 | to die | dai | /dai/ |
 | to die | die | /dai/ |
 | to dig | diga | /di.ga/ |
 | to dine | daina | /dai.na/ |
+| to disconnect | no-konekta | /no.ko.nek.ta/ |
 | to discourage | hop-tek | /hop.tek/ |
 | to discuss | diskusa | /dis.ku.sa/ |
 | to dislike | dislik | /dislik/ |
+| to dismantle | dismantla | /dis.man.tla/ |
+| to dismiss | dismisa | /dis.mi.sa/ |
+| to dispose / throw away | far-trou | /far.trou/ |
 | to distinguish | difren-si | /di.fren.si/ |
 | to distract | distrata | /dis.tra.ta/ |
 | to dive | daiva | /dai.va/ |
@@ -1914,7 +1936,9 @@
 | to elect | elekta | /e.lek.ta/ |
 | to encourage | hop-giv | /hop.giv/ |
 | to end | end | /end/ |
+| to enforce | enforsa | /en.for.sa/ |
 | to enter | entar | /entar/ |
+| to erase | ereisa | /e.rei.sa/ |
 | to escape | eskeipa | /es.kei.pa/ |
 | to estimate | estima | /es.ti.ma/ |
 | to evaluate | worta-chek | /wor.ta.chek/ |
@@ -1933,6 +1957,7 @@
 | to feed | fida | /fi.da/ |
 | to feel | fel | /fel/ |
 | to ferment | fermenta | /fer.men.ta/ |
+| to fine / fine | faina | /fai.na/ |
 | to finish | fini | /fini/ |
 | to fix | repai | /re.pa.i/ |
 | to flai | frai | /frai/ |
@@ -1942,13 +1967,16 @@
 | to fold | folda | /fol.da/ |
 | to follow | folo | /folo/ |
 | to forbid | forbida | /for.bi.da/ |
+| to forge | metal-mak | /me.tal.mak/ |
 | to forget | forget | /forget/ |
 | to forgive | forgiva | /for.gi.va/ |
+| to form / form | forma | /for.ma/ |
 | to freeze | friza | /fri.za/ |
 | to fry | oil-kuk | /oil.kuk/ |
 | to garnish | garnisha | /gar.ni.sha/ |
 | to gather | gada | /ga.da/ |
 | to gaze | geiza | /gei.za/ |
+| to generate | power-mak | /po.wer.mak/ |
 | to give | giv | /giv/ |
 | to glance | glansa | /glan.sa/ |
 | to gleam | glima | /gli.ma/ |
@@ -1995,7 +2023,9 @@
 | to inform | nof-giv | /nof.giv/ |
 | to injure / injured | injura | /in.ju.ra/ |
 | to insert | inserta | /in.ser.ta/ |
+| to install | instala | /in.sta.la/ |
 | to interpret | interpreta | /in.ter.pre.ta/ |
+| to invent | inventa | /in.ven.ta/ |
 | to invest | investa | /in.ves.ta/ |
 | to invite | invait | /invait/ |
 | to itch / itch | icha | /i.cha/ |
@@ -2030,6 +2060,7 @@
 | to lose | luz | /luz/ |
 | to lower | daun-mak | /daun.mak/ |
 | to make | mak | /mak/ |
+| to manufacture | masin-mak | /ma.sin.mak/ |
 | to march | marcha | /mar.cha/ |
 | to marinate | marina | /ma.ri.na/ |
 | to marry | marri | /ma.ri/ |
@@ -2040,6 +2071,7 @@
 | to melt | melta | /mel.ta/ |
 | to memorize | memoriz | /memoriz/ |
 | to mix | miksa | /mik.sa/ |
+| to mold | molda | /mol.da/ |
 | to multiply | multipli | /mul.ti.pli/ |
 | to murmur | murmura | /mur.mu.ra/ |
 | to mutter | lo-tok | /lo.tok/ |
@@ -2053,6 +2085,7 @@
 | to owe | owa | /o.wa/ |
 | to own | owna | /ow.na/ |
 | to paint | kolori | /ko.lo.ri/ |
+| to pardon | pardona | /par.do.na/ |
 | to pay | pe | /pe/ |
 | to pay | pei | /pei/ |
 | to peel | pila | /pi.la/ |
@@ -2072,8 +2105,10 @@
 | to press | presa | /pre.sa/ |
 | to prevent | preventa | /pre.ven.ta/ |
 | to print | printa | /prin.ta/ |
+| to produce | produsa | /pro.du.sa/ |
 | to promise | promisa | /pro.mi.sa/ |
 | to protect | proteka | /pro.te.ka/ |
+| to protest | protesta | /pro.tes.ta/ |
 | to pull | pul | /pul/ |
 | to punch | poncha | /pon.cha/ |
 | to punish | punisha | /pu.ni.sha/ |
@@ -2081,14 +2116,17 @@
 | to quote | kwota | /kwo.ta/ |
 | to rain | rain | /rein/ |
 | to raise | raisa | /rai.sa/ |
+| to ratify | ratifa | /ra.ti.fa/ |
 | to rattle | ratela | /ra.te.la/ |
 | to read | rid | /rid/ |
 | to realize | rialaisa | /ri.a.lai.sa/ |
+| to rebel | rebela | /re.be.la/ |
 | to recall | bak-tink | /bak.tink/ |
 | to receive | resiv | /resiv/ |
 | to receive | risiv | /risiv/ |
 | to recognize | agen-nof | /a.gen.nof/ |
 | to recover | rikova | /ri.ko.va/ |
+| to recycle | yus-agen | /jus.a.gen/ |
 | to reflect / ponder | dep-tink | /dep.tink/ |
 | to refuse | refusa | /re.fu.sa/ |
 | to regret / regret | rigreta | /ri.gre.ta/ |
@@ -2096,11 +2134,15 @@
 | to release | rileisa | /ri.lei.sa/ |
 | to remember | remember | /remember/ |
 | to remind | agen-tal | /a.gen.tal/ |
+| to renew | new-mak | /nu.mak/ |
+| to repair | ripera | /ri.pe.ra/ |
 | to repay | bak-pei | /bak.pei/ |
+| to replace | ripleisa | /ri.plei.sa/ |
 | to reply / respond | bak-tal | /bak.tal/ |
 | to request | rekwesta | /re.kwes.ta/ |
 | to research | reserch | /risertc/ |
 | to rest | rest | /rest/ |
+| to restore | ristora | /ris.to.ra/ |
 | to return | ritan | /ritan/ |
 | to return home | kom-hom | /kom.hom/ |
 | to reveal | riveala | /ri.ve.a.la/ |
@@ -2120,8 +2162,10 @@
 | to sail | sela | /se.la/ |
 | to save | sava | /sa.va/ |
 | to say | sey | /sei/ |
+| to scan | skana | /ska.na/ |
 | to scatter | skata | /ska.ta/ |
 | to scratch | skracha | /skra.cha/ |
+| to scroll | skrola | /skro.la/ |
 | to search | sercha | /ser.cha/ |
 | to season | sezona | /se.zo.na/ |
 | to see | si | /si/ |
@@ -2132,6 +2176,7 @@
 | to serve | serv | /serv/ |
 | to sew | nidel-wok | /ni.del.wok/ |
 | to shake | shaka | /sha.ka/ |
+| to shape / shape | sheipa | /shei.pa/ |
 | to share | share | /sher/ |
 | to sharpen | mak-sharpa | /mak.shar.pa/ |
 | to shimmer | shimera | /shi.me.ra/ |
@@ -2203,15 +2248,19 @@
 | to touch | tucha | /tu.cha/ |
 | to trade | trid | /trad/ |
 | to translate | wod-chanja | /wod.chan.ja/ |
+| to transmit | far-send | /far.send/ |
 | to travel | rul | /rul/ |
 | to trust | trasta | /tras.ta/ |
 | to try | trai | /trai/ |
 | to tumble | tambla | /tam.bla/ |
 | to turn | turna | /tur.na/ |
 | to twist | twista | /twis.ta/ |
+| to type | taipa | /tai.pa/ |
 | to understand | understand | /undredstand/ |
+| to undo | bak-do | /bak.do/ |
 | to unite | wan-mak | /wan.mak/ |
 | to use / use | yus | /jus/ |
+| to violate | rul-brak | /rul.brak/ |
 | to visit | vizit | /vizit/ |
 | to visit | vizita | /vi.zi.ta/ |
 | to vomit | vomita | /vo.mi.ta/ |
@@ -2223,8 +2272,10 @@
 | to want | wan | /wan/ |
 | to warn | warna | /war.na/ |
 | to wash | wosh | /wos/ |
+| to waste / waste | weista | /weis.ta/ |
 | to watch | wocha | /wo.cha/ |
 | to weaken | wik-mak | /wik.mak/ |
+| to weave | klota-mak | /klo.ta.mak/ |
 | to whisk | wiska | /wis.ka/ |
 | to whisper | soft-tok | /soft.tok/ |
 | to whistle | wisla | /wis.la/ |
@@ -2365,6 +2416,7 @@
 | wedding | marri-dei | /ma.ri.dei/ |
 | Wednesday | Wenzdei | /wens.dei/ |
 | weed | bad-plant | /bad.plant/ |
+| week | seven-dei | /se.ven.dei/ |
 | weight | weia | /we.ia/ |
 | weight | weit | /weit/ |
 | welcome | welkom | /wel.kom/ |
