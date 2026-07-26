@@ -498,14 +498,14 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **animal-hair** | /a.ni.mal.her/ | noun | fur | animal + hair | La ber hav tik animal-hair. |
 | **bird-hair** | /bird.her/ | noun | feather | bird + hair | La bird-hair es soft and lait. |
 | **bird-mous** | /bird.maus/ | noun | beak | bird + mouth | La bird pik wit la bird-mous. |
-| **fish-skin** | /fis.skin/ | noun | scale (fish) | fish + skin | La fish-skin shain in watre. |
-| **fish-arm** | /fis.arm/ | noun | fin | fish + arm | La fish muv wit la fish-arm. |
+| **fisha-skin** | /fis.ha.skin/ | noun | scale (fish) | fish + skin | La fish-skin shain in watre. |
+| **fisha-arm** | /fis.ha.ar/ | noun | fin | fish + arm | La fish muv wit la fish-arm. |
 | **tela** | /te.la/ | noun | tail | loan | La dog wag la tela. |
 | **horna** | /hor.na/ | noun | horn | loan | La cau hav tu horna. |
 | **shel** | /shel/ | noun | shell | loan | La animal liv in la shel. |
 | **wail** | /wail/ | adj | wild | atomic root | La wail-animal liv fri. |
 | **wail-dog** | /wail.dog/ | noun | wolf | wild + dog | La wail-dog hunt in nait. |
-| **big-fish** | /big.fis/ | noun | whale | big + fish | La big-fish es la most big animal. |
+| **big-fisha** | /big.fis.ha/ | noun | whale | big + fish | La big-fish es la most big animal. |
 | **bad-plant** | /bad.plant/ | noun | weed | bad + plant | Pul la bad-plant from la garden. |
 | **plant-fut** | /plant.fut/ | noun | root | plant + foot | La plant-fut go dip in erd. |
 | **plant-bodi** | /plant.bo.di/ | noun | stem / stalk | plant + body | La flauor plant-bodi es grin. |
@@ -630,7 +630,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **stiki** | /sti.ki/ | adj | sticky | loan | La honi es stiki. |
 | **slipari** | /sli.pa.ri/ | adj | slippery | loan | La wet flor es slipari. |
 | **kul** | /kul/ | adj | cool | loan | La kul wind fil gud. |
-| **ais-kold** | /ais.kold/ | adj | freezing | ice + cold | La watre es ais-kold. |
+| **ais-kol** | /ais.kol/ | adj | freezing | ice + cold | La watre es ais-kold. |
 | **fai-hot** | /fai.hot/ | adj | boiling hot | fire + hot | No tuch la fai-hot poti. |
 | **hafa-warm** | /ha.fa.warm/ | adj | lukewarm | half + warm | La ti es onli hafa-warm. |
 | **shaini** | /shai.ni/ | adj | shiny | loan | La niu kar es shaini. |
@@ -644,7 +644,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **snow-dei** | /snow.dei/ | adj | snowy | snow + day | In wintr wi hav snow-dei. |
 | **klar-skai** | /klar.skai/ | noun | clear sky | clear + sky | Aftr la storm, klar-skai. |
 | **hot-dei** | /hot.dei/ | adj | hot day | hot + day | In samr, evri dei es hot-dei. |
-| **kold-dei** | /kold.dei/ | adj | cold day | cold + day | La kold-dei mak mi shak. |
+| **kol-dei** | /kol.dei/ | adj | cold day | cold + day | La kold-dei mak mi shak. |
 | **wet-taim** | /wet.taim/ | noun | rainy season | wet + time | La wet-taim bring meni rein. |
 | **drai-taim** | /drai.taim/ | noun | dry season | dry + time | In drai-taim, no rein kom. |
 | **sharpa** | /shar.pa/ | adj | sharp | loan | La naif es sharpa. |
@@ -656,7 +656,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **hai-sonj** | /hai.sonj/ | noun | high pitch | high + sound | La bird mak hai-sonj. |
 | **lo-sonj** | /lo.sonj/ | noun | low pitch | low + sound | La drum mak lo-sonj. |
 | **warm-lait** | /warm.lait/ | noun | warm light | warm + light | La son-daun giv warm-lait. |
-| **kold-lait** | /kold.lait/ | noun | cold light | cold + light | La moon giv kold-lait. |
+| **kol-lait** | /kol.lait/ | noun | cold light | cold + light | La moon giv kold-lait. |
 
 ## Food, Clothing, Occupations, Tools & Materials
 
@@ -1196,7 +1196,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **daisa** | /dai.sa/ | verb | to dice | loan | Daisa la onyon smol. |
 | **dreina** | /drei.na/ | verb | to drain | loan | Dreina la watre from la rice. |
 | **soka** | /so.ka/ | verb | to soak | loan | Soka la bina over noit. |
-| **kold-mak** | /kold.mak/ | verb | to chill | cold + make | Kold-mak la drink bifor serv. |
+| **kol-mak** | /kol.mak/ | verb | to chill | cold + make | Kold-mak la drink bifor serv. |
 | **tawa** | /ta.wa/ | verb | to thaw | loan | Tawa la frozen fish slo. |
 | **fermenta** | /fer.men.ta/ | verb | to ferment | loan | De fermenta la greipa for wain. |
 | **brua** | /bru.a/ | verb | to brew | loan | Brua la ti for faiv minut. |
@@ -1390,9 +1390,9 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **watre-hol** | /wa.tre.hol/ | noun | well | water + hole | Draw watre from la watre-hol. |
 | **kanyona** | /kan.yo.na/ | noun | canyon | loan | La riva kut un kanyona. |
 | **flata-hil** | /fla.ta.hil/ | noun | plateau | flat + hill | La flata-hil es hai and waid. |
-| **sand-hil** | /sand.hil/ | noun | dune | sand + hill | La wind muv la sand-hil. |
+| **sanda-hil** | /san.da.hil/ | noun | dune | sand + hill | La wind muv la sand-hil. |
 | **gras-lond** | /gras.lond/ | noun | meadow / prairie | grass + land | Cau eat in la gras-lond. |
-| **kold-lond** | /kold.lond/ | noun | tundra | cold + land | No tre gro in la kold-lond. |
+| **kol-lond** | /kol.lon/ | noun | tundra | cold + land | No tre gro in la kold-lond. |
 | **breika** | /brei.ka/ | verb/noun | to brake / brake | loan | Breika bifor la korna. |
 | **steia** | /ste.i.a/ | verb | to steer | loan | Steia la bot tu la port. |
 | **taira** | /tai.ra/ | noun | tire | loan | La kar taira es flata. |
@@ -1551,7 +1551,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **reiza** | /rei.za/ | noun | razor | loan | La reiza es sharpa. |
 | **macha** | /ma.cha/ | noun | match | loan | Lait la kandel wit un macha. |
 | **lanterna** | /lan.ter.na/ | noun | lantern | loan | La lanterna giv lait in la nait. |
-| **poket-lait** | /po.ket.lait/ | noun | flashlight | pocket + light | Yus la poket-lait in la kaiv. |
+| **poketa-lait** | /po.ke.ta.lait/ | noun | flashlight | pocket + light | Yus la poket-lait in la kaiv. |
 | **open-lond** | /o.pen.lond/ | noun | field / open land | open + land | La cau ran in la open-lond. |
 | **evri-dei** | /ev.ri.dei/ | adv | daily | every + day | Mi drink kofi evri-dei. |
 | **evri-mont** | /ev.ri.mont/ | adv | monthly | every + month | Wi pei rent evri-mont. |
@@ -1575,7 +1575,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **greini** | /grei.ni/ | adj | grainy | loan | La foto es greini. |
 | **slaima** | /slai.ma/ | adj | slimy | loan | La snel es slaima. |
 | **tok-bird** | /tok.bird/ | noun | parrot | talk + bird | La tok-bird sei 'helo'. |
-| **star-fish** | /star.fis/ | noun | starfish | star + fish | La star-fish hav faiv arm. |
+| **star-fisha** | /star.fis.ha/ | noun | starfish | star + fish | La star-fish hav faiv arm. |
 | **lobosta** | /lo.bos.ta/ | noun | lobster | loan | La lobosta hav big klo. |
 | **smol-kraba** | /smol.kra.ba/ | noun | shrimp | small + crab | Wi eat smol-kraba. |
 | **klama** | /kla.ma/ | noun | clam | loan | La klama liv in la shel. |

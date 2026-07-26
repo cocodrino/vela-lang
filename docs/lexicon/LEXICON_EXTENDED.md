@@ -163,7 +163,7 @@ These rules govern every word proposed in this document:
 | **alkalin** | /al.ka.lin/ | noun/adj | base / alkaline | adapted loan | La alkalin neutraliz la asida. |
 | **kima-bonda** | /ki.ma.bon.da/ | noun | chemical bond | chemistry + bond | La kima-bonda kip la molkul together. |
 | **kompounda** | /kom.poun.da/ | noun | compound | adapted loan (+/a/) | Watre (H₂O) es un kompounda. |
-| **period-tebla** | /pe.ri.od.te.bla/ | noun | periodic table | period + table | La period-tebla shou all elementa-n. |
+| **perioda-tebla** | /pe.rio.da.teb.la/ | noun | periodic table | period + table | La period-tebla shou all elementa-n. |
 | **laboratori** | /la.bo.ra.to.ri/ | noun | laboratory | adapted loan | La sientist wok in la laboratori. |
 
 ### Physics
