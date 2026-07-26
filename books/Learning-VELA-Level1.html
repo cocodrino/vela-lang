@@ -29,7 +29,7 @@
 
   *{box-sizing:border-box}
   body{margin:0;background:var(--sand);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:56rem;margin:0 auto;padding:0 1.25rem}
+  .wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
   h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
   a{color:var(--brand-deep)}
   .vela{font-weight:700;color:var(--brand-deep);white-space:nowrap}
@@ -47,7 +47,9 @@
   .sail{display:inline-block;color:var(--sun)}
 
   /* ---- how it works ---- */
-  .legend{margin:-2.2rem auto 0;position:relative;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:1.4rem 1.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1.2rem 1.6rem}
+  .legend{margin:-2.2rem auto 0;position:relative;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:1.4rem 1.5rem;display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem 1.6rem}
+  @media (min-width:620px){ .legend{grid-template-columns:repeat(4,1fr)} }
+  @media (max-width:400px){ .legend{grid-template-columns:1fr} }
   .legend .li{display:flex;flex-direction:column;gap:.45rem}
   .legend .head{display:flex;align-items:center;gap:.55rem;font-family:var(--display);font-weight:800;font-size:1.02rem;color:var(--ink)}
   .legend .li p{margin:0;font-size:.88rem;color:var(--muted);line-height:1.5}
