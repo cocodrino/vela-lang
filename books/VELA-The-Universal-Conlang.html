@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="The VELA Project" />
+  <meta name="dcterms.date" content="2026-01-01" />
+  <title>VELA — The Universal Conlang</title>
+  <style>
+
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">@page { margin: 2.2cm; }
+html { font-size: 12pt; }
+body { font-family: "Palatino", "Georgia", serif; line-height: 1.55; color:#1a1a1a; max-width: 42em; margin: 2rem auto; padding: 0 1.2rem; }
+h1 { font-size: 1.9em; border-bottom: 3px solid #2c3e50; padding-bottom:.3em; margin-top:2.2em; page-break-before: always; }
+h1:first-of-type { page-break-before: avoid; }
+h2 { font-size: 1.35em; color:#2c3e50; margin-top:1.8em; }
+h3 { font-size: 1.1em; color:#34495e; }
+code { background:#f4f6f8; padding:.1em .35em; border-radius:3px; font-family:"Menlo","Consolas",monospace; font-size:.9em; color:#c0392b; }
+blockquote { border-left:4px solid #7f8c8d; background:#f8f9fa; margin:1.2em 0; padding:.6em 1.2em; font-style:italic; }
+table { border-collapse: collapse; margin:1.2em 0; width:100%; font-size:.92em; }
+th,td { border:1px solid #cdd3d8; padding:.4em .7em; text-align:left; }
+th { background:#2c3e50; color:#fff; }
+tr:nth-child(even){ background:#f7f9fa; }
+#TOC { background:#f8f9fa; border:1px solid #ddd; padding:1em 1.5em; border-radius:6px; }
+h1.title { text-align:center; font-size:2.6em; border:none; margin-top:3rem; }
+p.subtitle { text-align:center; font-size:1.2em; color:#555; font-style:italic; }
+p.author,p.date{ text-align:center; color:#666; }
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">VELA — The Universal Conlang</h1>
+<p class="subtitle">A minimalist auxiliary language built on English
+roots</p>
+<p class="author">The VELA Project</p>
+<p class="date">2026</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#preface" id="toc-preface">Preface</a></li>
+<li><a href="#part-i-why-vela" id="toc-part-i-why-vela">Part I — Why
+VELA</a>
+<ul>
+<li><a href="#the-problem-vela-solves" id="toc-the-problem-vela-solves">1.1 The problem VELA solves</a></li>
+<li><a href="#the-four-principles" id="toc-the-four-principles">1.2 The
+four principles</a></li>
+<li><a href="#why-english-roots" id="toc-why-english-roots">1.3 Why
+English roots?</a></li>
+</ul></li>
+<li><a href="#part-ii-sounds-and-spelling" id="toc-part-ii-sounds-and-spelling">Part II — Sounds and Spelling</a>
+<ul>
+<li><a href="#the-consonants-20" id="toc-the-consonants-20">2.1 The
+consonants (20)</a></li>
+<li><a href="#the-vowels-5" id="toc-the-vowels-5">2.2 The vowels
+(5)</a></li>
+<li><a href="#the-syllable-rule-cv" id="toc-the-syllable-rule-cv">2.3
+The syllable rule: (C)V</a></li>
+<li><a href="#pitch-accent" id="toc-pitch-accent">2.4 Pitch
+accent</a></li>
+<li><a href="#legacy-sounds-and-write-as-you-speak" id="toc-legacy-sounds-and-write-as-you-speak">2.5 Legacy sounds and
+“write-as-you-speak”</a></li>
+</ul></li>
+<li><a href="#part-iii-how-words-are-built" id="toc-part-iii-how-words-are-built">Part III — How Words Are Built</a>
+<ul>
+<li><a href="#roots-and-the-citationcomposition-rule-r7" id="toc-roots-and-the-citationcomposition-rule-r7">3.1 Roots and the
+citation/composition rule (R7)</a></li>
+<li><a href="#compounding" id="toc-compounding">3.2 Compounding</a></li>
+<li><a href="#the-productive-series" id="toc-the-productive-series">3.3
+The productive series</a></li>
+<li><a href="#the-loan-policy" id="toc-the-loan-policy">3.4 The loan
+policy</a></li>
+</ul></li>
+<li><a href="#part-iv-grammar" id="toc-part-iv-grammar">Part IV —
+Grammar</a>
+<ul>
+<li><a href="#word-order-svo" id="toc-word-order-svo">4.1 Word order —
+SVO</a></li>
+<li><a href="#articles" id="toc-articles">4.2 Articles</a></li>
+<li><a href="#pronouns" id="toc-pronouns">4.3 Pronouns</a></li>
+<li><a href="#nouns-plural-and-case" id="toc-nouns-plural-and-case">4.4
+Nouns, plural, and case</a></li>
+<li><a href="#adjectives" id="toc-adjectives">4.5 Adjectives</a></li>
+<li><a href="#verbs-three-tenses-zero-irregulars" id="toc-verbs-three-tenses-zero-irregulars">4.6 Verbs — three tenses,
+zero irregulars</a></li>
+<li><a href="#a-worked-example" id="toc-a-worked-example">4.7 A worked
+example</a></li>
+</ul></li>
+<li><a href="#part-v-the-lexicon" id="toc-part-v-the-lexicon">Part V —
+The Lexicon</a>
+<ul>
+<li><a href="#how-vela-got-its-2900-words" id="toc-how-vela-got-its-2900-words">5.1 How VELA got its ~2,900
+words</a></li>
+<li><a href="#loans-vs.-compounds" id="toc-loans-vs.-compounds">5.2
+Loans vs. compounds</a></li>
+<li><a href="#keeping-it-clean" id="toc-keeping-it-clean">5.3 Keeping it
+clean</a></li>
+</ul></li>
+<li><a href="#part-vi-vela-in-use" id="toc-part-vi-vela-in-use">Part VI
+— VELA in Use</a>
+<ul>
+<li><a href="#everyday-phrases" id="toc-everyday-phrases">6.1 Everyday
+phrases</a></li>
+<li><a href="#a-short-passage" id="toc-a-short-passage">6.2 A short
+passage</a></li>
+<li><a href="#how-vela-compares" id="toc-how-vela-compares">6.3 How VELA
+compares</a></li>
+</ul></li>
+<li><a href="#appendix-a-quick-grammar-reference" id="toc-appendix-a-quick-grammar-reference">Appendix A — Quick Grammar
+Reference</a></li>
+<li><a href="#appendix-b-the-sound-chart-at-a-glance" id="toc-appendix-b-the-sound-chart-at-a-glance">Appendix B — The Sound
+Chart at a Glance</a></li>
+<li><a href="#appendix-c-productive-patterns-cheat-sheet" id="toc-appendix-c-productive-patterns-cheat-sheet">Appendix C —
+Productive patterns cheat-sheet</a></li>
+</ul>
+</nav>
+<h1 id="preface">Preface</h1>
+<p>VELA is a <strong>constructed auxiliary language</strong> (an
+<em>auxlang</em>): a language designed on purpose to be learned quickly
+and spoken by people from any linguistic background as a shared second
+tongue.</p>
+<p>It is built on one uncompromising promise:</p>
+<blockquote>
+<p><strong>You read it exactly as you write it, and you write it exactly
+as you say it.</strong></p>
+</blockquote>
+<p>There are no silent letters, no irregular verbs, no grammatical
+gender, no cases you must memorize, and no sound a beginner cannot
+produce. A Spanish speaker, an English speaker, and a Japanese speaker
+read the same word <code>maka</code> the same way — <em>MA-ka</em> — and
+mean the same thing: <em>make</em>.</p>
+<p>This book is the <strong>reference manual</strong> — the
+<em>what</em> and the <em>why</em> of VELA. It describes the sound
+system, the grammar, the way words are built, how the ~2,900-word
+lexicon was constructed, and the design decisions behind every choice.
+It is not a course; if you want to <em>learn</em> to speak VELA, read
+the companion volume, <em>Learning VELA — Level 1</em>.</p>
+<p>Everything in this book was ratified by a review committee of three
+linguistic specialists — a <strong>morphologist</strong>, a
+<strong>phonologist</strong>, and a <strong>semanticist</strong> — who
+reviewed the language batch by batch. Where a decision was contested,
+this book records the reasoning, not just the outcome.</p>
+<h1 id="part-i-why-vela">Part I — Why VELA</h1>
+<h2 id="the-problem-vela-solves">1.1 The problem VELA solves</h2>
+<p>Natural languages are wonderful and terrible teachers. English has
+<em>through</em>, <em>though</em>, <em>tough</em>, and <em>thought</em>
+— four spellings, four pronunciations, no rule. It has <em>go /
+went</em>, <em>good / better</em>, <em>mouse / mice</em>. A learner
+spends years memorizing exceptions before they can hold a
+conversation.</p>
+<p>Existing auxiliary languages fixed <em>some</em> of this. Esperanto
+(1887) is beautifully regular but leans heavily on European roots and
+keeps grammatical case endings and accusative markers. Toki Pona (2001)
+is gorgeously tiny (~120 words) but so minimal that it cannot express
+precise meaning without long paraphrase.</p>
+<p>VELA aims for the middle: <strong>regular like Esperanto, but
+simpler; expressive like a natural language, but without the
+exceptions.</strong></p>
+<h2 id="the-four-principles">1.2 The four principles</h2>
+<p>Every decision in VELA is measured against four principles, in strict
+priority order. When two principles conflict, the earlier one wins.</p>
+<ol type="1">
+<li><p><strong>Simplicity</strong> — the smallest set of rules that
+still works. Zero irregular verbs. Zero grammatical gender. One plural
+rule. One way to form the past tense.</p></li>
+<li><p><strong>Transparency</strong> — a speaker should be able to
+<em>decompose</em> what they hear. <code>sik-hous</code> is
+<em>sick-house</em> (hospital). <code>no-nof-po</code> is
+<em>not-know-person</em> (stranger). Meaning is visible in the
+parts.</p></li>
+<li><p><strong>Beauty</strong> — the language should be pleasant to hear
+and to read. Open syllables, a gentle pitch accent, and sound-symbolic
+roots give VELA its character.</p></li>
+<li><p><strong>Universality</strong> — a person from <em>any</em>
+language background should be able to pronounce and learn it. This is
+why VELA restricts its sounds to the ones found in the vast majority of
+the world’s languages, and why every word can end in a vowel.</p></li>
+</ol>
+<h2 id="why-english-roots">1.3 Why English roots?</h2>
+<p>VELA takes most of its root vocabulary from English — not out of
+preference, but out of reach. English is today’s most widely studied
+second language; anchoring roots to English gives the largest number of
+learners a head start in <em>recognizing</em> words.</p>
+<p>But VELA is <strong>not English</strong>. It strips English of
+everything that makes it hard: the chaotic spelling, the silent letters,
+the irregular grammar, the sounds many languages lack. What remains is a
+recognizable skeleton — <code>mama</code>, <code>watre</code>,
+<code>gud</code>, <code>big</code>, <code>luk</code> — respelled
+phonetically and regularized completely.</p>
+<blockquote>
+<p><strong>A note on recognizability vs. pronunciation.</strong> The
+English word <em>make</em> “looks right” to an English speaker — but
+only because they read it with the English pronunciation /meɪk/, which
+VELA cannot use (silent <em>e</em>, diphthong, hard final <em>k</em>).
+In VELA that word is <code>maka</code> /ˈma.ka/: two open syllables any
+speaker on Earth can produce. Recognizability is a means, not the
+master; universality wins.</p>
+</blockquote>
+<h1 id="part-ii-sounds-and-spelling">Part II — Sounds and Spelling</h1>
+<p>VELA’s spelling <em>is</em> its pronunciation. Learn the sound of
+each letter once, and you can pronounce every word in the language
+forever.</p>
+<h2 id="the-consonants-20">2.1 The consonants (20)</h2>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>IPA</th>
+<th>As in English</th>
+<th>VELA example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>p</td>
+<td>/p/</td>
+<td><strong>p</strong>it</td>
+<td><code>pikni</code> (picnic)</td>
+</tr>
+<tr>
+<td>t</td>
+<td>/t/</td>
+<td><strong>t</strong>alk</td>
+<td><code>taim</code> (time)</td>
+</tr>
+<tr>
+<td>k</td>
+<td>/k/</td>
+<td><strong>c</strong>ar, <strong>k</strong>ite</td>
+<td><code>kar</code> (car)</td>
+</tr>
+<tr>
+<td>b</td>
+<td>/b/</td>
+<td><strong>b</strong>all</td>
+<td><code>bel</code> (bell)</td>
+</tr>
+<tr>
+<td>d</td>
+<td>/d/</td>
+<td><strong>d</strong>og</td>
+<td><code>dog</code> (dog)</td>
+</tr>
+<tr>
+<td>g</td>
+<td>/g/</td>
+<td><strong>g</strong>o</td>
+<td><code>gud</code> (good)</td>
+</tr>
+<tr>
+<td>m</td>
+<td>/m/</td>
+<td><strong>m</strong>an</td>
+<td><code>man</code> (person)</td>
+</tr>
+<tr>
+<td>n</td>
+<td>/n/</td>
+<td><strong>n</strong>ice</td>
+<td><code>nais</code> (nice)</td>
+</tr>
+<tr>
+<td>f</td>
+<td>/f/</td>
+<td><strong>f</strong>ish</td>
+<td><code>fair</code> (fire)</td>
+</tr>
+<tr>
+<td>v</td>
+<td>/v/</td>
+<td><strong>v</strong>an</td>
+<td><code>visa</code> (visa)</td>
+</tr>
+<tr>
+<td>s</td>
+<td>/s/</td>
+<td><strong>s</strong>un</td>
+<td><code>son</code> (sun)</td>
+</tr>
+<tr>
+<td>z</td>
+<td>/z/</td>
+<td><strong>z</strong>oo</td>
+<td><code>zon</code> (zone)</td>
+</tr>
+<tr>
+<td>sh</td>
+<td>/ʃ/</td>
+<td><strong>sh</strong>ip</td>
+<td><code>shain</code> (shine)</td>
+</tr>
+<tr>
+<td>h</td>
+<td>/h/</td>
+<td><strong>h</strong>ouse</td>
+<td><code>hous</code> (house)</td>
+</tr>
+<tr>
+<td>l</td>
+<td>/l/</td>
+<td><strong>l</strong>ove</td>
+<td><code>luva</code> (love)</td>
+</tr>
+<tr>
+<td>r</td>
+<td>/r/</td>
+<td>rolled <strong>r</strong> (Spanish)</td>
+<td><code>rich</code> (rich)</td>
+</tr>
+<tr>
+<td>w</td>
+<td>/w/</td>
+<td><strong>w</strong>ater</td>
+<td><code>watre</code> (water)</td>
+</tr>
+<tr>
+<td>y</td>
+<td>/j/</td>
+<td><strong>y</strong>es</td>
+<td><code>yelo</code> (yellow)</td>
+</tr>
+<tr>
+<td>ch</td>
+<td>/tʃ/</td>
+<td><strong>ch</strong>ild</td>
+<td><code>chua</code> (chew)</td>
+</tr>
+<tr>
+<td>j</td>
+<td>/dʒ/</td>
+<td><strong>j</strong>oy</td>
+<td><code>jara</code> (jar)</td>
+</tr>
+</tbody>
+</table>
+<p>The two affricates <strong>ch</strong> /tʃ/ and <strong>j</strong>
+/dʒ/ were admitted by unanimous committee vote in 2026: about 74 core
+words already needed them (<code>teach</code>, <code>child</code>,
+<code>chuz</code>, <code>oranja</code>), removing them would have caused
+fatal collisions (<em>chip → ship</em>, <em>jen → zen</em>), and they
+are among the most common consonants worldwide.</p>
+<p><strong>Deliberately absent:</strong> English <em>th</em> /θ ð/ (as
+in <em>think</em>, <em>this</em>) and <em>zh</em> /ʒ/ (as in
+<em>measure</em>). These sounds are rare across the world’s languages
+and hard for many learners; VELA has no use for them.</p>
+<h2 id="the-vowels-5">2.2 The vowels (5)</h2>
+<p>VELA uses the five “pure” vowels shared by Spanish, Japanese,
+Italian, Swahili, and hundreds of other languages:</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>IPA</th>
+<th>As in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>/a/</td>
+<td>Spanish <em>casa</em></td>
+</tr>
+<tr>
+<td>e</td>
+<td>/e/</td>
+<td>Spanish <em>mesa</em> / English <em>bet</em></td>
+</tr>
+<tr>
+<td>i</td>
+<td>/i/</td>
+<td>English <em>see</em></td>
+</tr>
+<tr>
+<td>o</td>
+<td>/o/</td>
+<td>Spanish <em>solo</em></td>
+</tr>
+<tr>
+<td>u</td>
+<td>/u/</td>
+<td>English <em>food</em></td>
+</tr>
+</tbody>
+</table>
+<p>There is <strong>no vowel length</strong>, <strong>no nasal
+vowels</strong>, and every vowel is always pronounced the same way. The
+letter never lies.</p>
+<h2 id="the-syllable-rule-cv">2.3 The syllable rule: (C)V</h2>
+<p>Every VELA syllable is <strong>one optional consonant plus one
+vowel</strong>: <em>ma</em>, <em>ki</em>, <em>lo</em>, <em>a</em>. This
+“open syllable” structure is the single most universal shape in human
+language — it is the easiest for the largest number of people to
+say.</p>
+<p>From this one rule follows everything about how VELA sounds:
+<code>ma.ma</code>, <code>wa.tre</code>, <code>si.ti</code>,
+<code>ba.na.na</code>. You can clap out any word.</p>
+<p><strong>Tolerated endings.</strong> A word may end in a vowel
+<em>or</em> in one of the soft “sonorant” codas <strong>{n, m, l, r,
+s}</strong> (and <em>-ng</em>): <code>man</code>, <code>sistem</code>,
+<code>gud</code>… wait — <code>gud</code> ends in /d/. That is a
+<em>legacy</em> form (see §2.5). New words and citation forms always end
+in a vowel or a soft coda.</p>
+<h2 id="pitch-accent">2.4 Pitch accent</h2>
+<p>VELA does not use heavy stress like English (<em>PHO-to-graph</em> →
+<em>pho-TO-gra-phy</em>). Instead it uses a light, predictable
+<strong>pitch accent</strong>: the voice rises gently on the
+<strong>second-to-last syllable</strong> of a word.</p>
+<ul>
+<li><code>ba.NA.na</code> — the pitch lifts on <em>NA</em></li>
+<li><code>si.TI</code> — on <em>TI</em></li>
+<li><code>MA.ka</code> — on <em>MA</em></li>
+</ul>
+<p>Because the rule is fixed, you never have to memorize where the
+accent falls, and misplacing it never changes a word’s meaning.</p>
+<h2 id="legacy-sounds-and-write-as-you-speak">2.5 Legacy sounds and
+“write-as-you-speak”</h2>
+<p>VELA’s earliest vocabulary predates the strict (C)V rule, so a
+handful of very common words still end in hard consonants:
+<code>gud</code> (good), <code>big</code> (big), <code>at</code>,
+<code>of</code>, <code>and</code>. These are
+<strong>grandfathered</strong> — kept as-is because they are short,
+hyper- frequent, and tolerated by most languages as small function
+words.</p>
+<p>Everything else obeys <strong>write-as-you-speak</strong>: what you
+see is what you say, with no silent letters and no surprises.</p>
+<h1 id="part-iii-how-words-are-built">Part III — How Words Are
+Built</h1>
+<p>This is the heart of VELA. Instead of thousands of unrelated words,
+VELA builds meaning from a compact set of roots joined by transparent,
+productive patterns.</p>
+<h2 id="roots-and-the-citationcomposition-rule-r7">3.1 Roots and the
+citation/composition rule (R7)</h2>
+<p>A <strong>root</strong> is a minimal unit of meaning:
+<code>mak</code> (make), <code>luk</code> (look), <code>tok</code>
+(talk).</p>
+<p>Because VELA wants every word to be pronounceable <em>alone</em>, a
+content root with a hard final consonant takes two shapes:</p>
+<ul>
+<li><strong>Citation form</strong> (the dictionary entry, used when the
+word stands alone): root <strong>+ a</strong> → <code>maka</code>,
+<code>luka</code>, <code>toka</code>, <code>aska</code>,
+<code>teacha</code>.</li>
+<li><strong>Composition form</strong> (used inside compounds): the
+<strong>bare</strong> root → <code>mak-tin</code> (make-thing =
+product), <code>luk-for</code> (look-for = seek), <code>tok-tin</code>
+(talk-thing = topic).</li>
+</ul>
+<p><strong>The learner’s rule is one line:</strong> <em>inside a
+compound, drop the -a.</em></p>
+<p>This citation/composition alternation is not an oddity — it is a
+well-attested feature of natural languages: Spanish epenthesis
+(<em>estado</em>), Latin <em>rex / reg-</em>, Japanese <em>jin /
+nin</em> (人), Turkish <em>ev / ev-e</em>. It lets VELA keep both easy
+standalone pronunciation <em>and</em> short, economical compounds.</p>
+<h2 id="compounding">3.2 Compounding</h2>
+<p>VELA joins roots with a <strong>hyphen</strong>, and the hyphen
+carries meaning — it marks exactly where one root ends and the next
+begins, so a compound is always decomposable:</p>
+<ul>
+<li><code>sik-hous</code> = <em>sick + house</em> =
+<strong>hospital</strong></li>
+<li><code>no-nof-po</code> = <em>not + know + person</em> =
+<strong>stranger</strong></li>
+<li><code>watre-fal</code> = <em>water + fall</em> =
+<strong>waterfall</strong></li>
+<li><code>star-fish</code> = <em>star + fish</em> =
+<strong>starfish</strong></li>
+</ul>
+<p>A compound may hold at most <strong>three roots</strong>. The hyphen
+is what keeps VELA transparent: without it, <code>sikhous</code> could
+be read as one opaque word; with it, <code>sik-hous</code> is
+self-explaining.</p>
+<h2 id="the-productive-series">3.3 The productive series</h2>
+<p>Over ~2,900 words, a handful of patterns became fully productive
+“machines” for generating vocabulary. Learn these and you can build —
+and understand — thousands of words you have never seen.</p>
+<p><strong><code>-mak</code> — the causative</strong> (<em>make X</em>):
+from an adjective, build the verb “to make it so.”</p>
+<table>
+<thead>
+<tr>
+<th>Adjective</th>
+<th>Verb (<code>-mak</code>)</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>strong</code></td>
+<td><code>strong-mak</code></td>
+<td>to strengthen</td>
+</tr>
+<tr>
+<td><code>wik</code> (weak)</td>
+<td><code>wik-mak</code></td>
+<td>to weaken</td>
+</tr>
+<tr>
+<td><code>hard</code></td>
+<td><code>hard-mak</code></td>
+<td>to harden</td>
+</tr>
+<tr>
+<td><code>soft</code></td>
+<td><code>soft-mak</code></td>
+<td>to soften</td>
+</tr>
+<tr>
+<td><code>big</code></td>
+<td><code>big-mak</code></td>
+<td>to enlarge</td>
+</tr>
+</tbody>
+</table>
+<p><strong><code>-wei</code> — manner and direction</strong> (<em>the X
+way</em>): from a quality, build an adverb.</p>
+<table>
+<thead>
+<tr>
+<th>Root</th>
+<th>Compound</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>soft</code></td>
+<td><code>soft-wei</code></td>
+<td>gently</td>
+</tr>
+<tr>
+<td><code>slo</code></td>
+<td><code>slo-wei</code></td>
+<td>slowly</td>
+</tr>
+<tr>
+<td><code>fronta</code> (front)</td>
+<td><code>fronta-wei</code></td>
+<td>forward</td>
+</tr>
+<tr>
+<td><code>bak</code></td>
+<td><code>bak-wei</code></td>
+<td>backward</td>
+</tr>
+</tbody>
+</table>
+<p><strong><code>-nes</code> — abstract nouns</strong> (<em>the quality
+of being X</em>):</p>
+<table>
+<thead>
+<tr>
+<th>Root</th>
+<th>Compound</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>strong</code></td>
+<td><code>strong-nes</code></td>
+<td>strength</td>
+</tr>
+<tr>
+<td><code>wik</code></td>
+<td><code>wik-nes</code></td>
+<td>weakness</td>
+</tr>
+<tr>
+<td><code>gud</code></td>
+<td><code>gud-nes</code></td>
+<td>goodness</td>
+</tr>
+<tr>
+<td><code>tru</code> (true)</td>
+<td><code>tru-nes</code></td>
+<td>truth</td>
+</tr>
+</tbody>
+</table>
+<p><strong><code>-po</code> — people and roles</strong> (<em>person who
+does X</em>):</p>
+<table>
+<thead>
+<tr>
+<th>Compound</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>wud-mak-po</code></td>
+<td>carpenter (wood-make-person)</td>
+</tr>
+<tr>
+<td><code>sik-kea-po</code></td>
+<td>nurse (sick-care-person)</td>
+</tr>
+<tr>
+<td><code>god-serv-po</code></td>
+<td>priest (god-serve-person)</td>
+</tr>
+<tr>
+<td><code>hunt-po</code></td>
+<td>hunter</td>
+</tr>
+</tbody>
+</table>
+<p><strong><code>-tok</code> — speech acts</strong> (<em>a way of
+talking</em>):</p>
+<table>
+<thead>
+<tr>
+<th>Compound</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>swita-tok</code></td>
+<td>to flatter (sweet-talk)</td>
+</tr>
+<tr>
+<td><code>angri-tok</code></td>
+<td>to scold (angry-talk)</td>
+</tr>
+<tr>
+<td><code>bak-tok</code></td>
+<td>to gossip (back-talk)</td>
+</tr>
+<tr>
+<td><code>lo-tok</code></td>
+<td>to mutter (low-talk)</td>
+</tr>
+</tbody>
+</table>
+<p><strong><code>no-</code> — negation and reversal:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Compound</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>no-biju</code></td>
+<td>ugly (not-beautiful)</td>
+</tr>
+<tr>
+<td><code>no-real</code></td>
+<td>fake (not-real)</td>
+</tr>
+<tr>
+<td><code>no-tai</code></td>
+<td>to untie</td>
+</tr>
+<tr>
+<td><code>no-loka</code></td>
+<td>to unlock</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reduplication — intensity:</strong> repeating a root
+intensifies it.</p>
+<table>
+<thead>
+<tr>
+<th>Compound</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>big-big</code></td>
+<td>vast</td>
+</tr>
+<tr>
+<td><code>smol-smol</code></td>
+<td>tiny</td>
+</tr>
+<tr>
+<td><code>slo-slo</code></td>
+<td>gradual</td>
+</tr>
+<tr>
+<td><code>tru-tru</code></td>
+<td>indeed / truly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-loan-policy">3.4 The loan policy</h2>
+<p>When no transparent compound is natural — for atomic concepts like
+<em>tomato</em>, <em>guitar</em>, or <em>asthma</em> — VELA borrows the
+international word and adapts it to a legal form ending in
+<strong>-a</strong>: <code>tomata</code>, <code>gitara</code>,
+<code>astama</code>. Across the lexicon, about 85% of loans already end
+in -a, giving the language one consistent vocalic rhythm.</p>
+<h1 id="part-iv-grammar">Part IV — Grammar</h1>
+<p>VELA’s grammar is deliberately tiny. This entire part can be learned
+in an afternoon.</p>
+<h2 id="word-order-svo">4.1 Word order — SVO</h2>
+<p>VELA is <strong>Subject–Verb–Object</strong>, always.</p>
+<blockquote>
+<p><strong>Mi luk la kat.</strong> — <em>I see the cat.</em> (I / see /
+the / cat)</p>
+</blockquote>
+<p>The object always follows the verb. Word order does the work that
+case endings do in other languages, so almost nothing needs a
+suffix.</p>
+<h2 id="articles">4.2 Articles</h2>
+<ul>
+<li><strong>la</strong> — the (definite): <code>la man</code> = <em>the
+person</em></li>
+<li><strong>un</strong> — a/an (indefinite): <code>un man</code> = <em>a
+person</em></li>
+<li><strong>no article</strong> — general/plural sense: <code>man</code>
+= <em>people / man in general</em></li>
+</ul>
+<h2 id="pronouns">4.3 Pronouns</h2>
+<table>
+<thead>
+<tr>
+<th>VELA</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>mi</code></td>
+<td>I / me</td>
+</tr>
+<tr>
+<td><code>yu</code></td>
+<td>you</td>
+</tr>
+<tr>
+<td><code>li</code></td>
+<td>he / she / it</td>
+</tr>
+<tr>
+<td><code>wi</code></td>
+<td>we</td>
+</tr>
+<tr>
+<td><code>de</code></td>
+<td>they</td>
+</tr>
+</tbody>
+</table>
+<p>There is <strong>no grammatical gender</strong>: <code>li</code>
+covers <em>he</em>, <em>she</em>, and <em>it</em>.</p>
+<p>Possession uses <strong>-se</strong> (see §4.5) or the short
+possessive <code>mi-se</code> (my), <code>yu-se</code> (your), etc.</p>
+<h2 id="nouns-plural-and-case">4.4 Nouns, plural, and case</h2>
+<p><strong>Plural</strong> adds <strong>-n</strong> after a vowel,
+<strong>-en</strong> after a consonant:</p>
+<ul>
+<li><code>kat</code> → <code>kat-en</code> (cats)</li>
+<li><code>siti</code> → <code>siti-n</code> (cities)</li>
+</ul>
+<p><strong>Cases</strong> — VELA has only two suffixes, because word
+order handles the rest:</p>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Marker</th>
+<th>Example</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nominative (subject)</td>
+<td>— none —</td>
+<td><code>man</code></td>
+<td>the person (does)</td>
+</tr>
+<tr>
+<td>Accusative (object)</td>
+<td>— none —</td>
+<td><code>man</code></td>
+<td>the person (is acted on)</td>
+</tr>
+<tr>
+<td>Genitive (of/’s)</td>
+<td><strong>-se</strong></td>
+<td><code>man-se</code></td>
+<td>the person’s / of the person</td>
+</tr>
+<tr>
+<td>Locative (at/in/on)</td>
+<td><strong>-to</strong></td>
+<td><code>siti-to</code></td>
+<td>in the city</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>La man-se hous es big.</strong> — <em>The person’s house is
+big.</em> <strong>Mi liv la siti-to.</strong> — <em>I live in the
+city.</em></p>
+</blockquote>
+<h2 id="adjectives">4.5 Adjectives</h2>
+<p>Adjectives come <strong>before</strong> the noun and never change
+form or take case:</p>
+<blockquote>
+<p><strong>un big hous</strong> — <em>a big house</em> <strong>la gud
+man</strong> — <em>the good person</em></p>
+</blockquote>
+<p><strong>Comparison</strong> uses <code>mor</code> (more) and
+<code>mos</code> (most):</p>
+<ul>
+<li><code>big</code> — big</li>
+<li><code>mor big</code> — bigger</li>
+<li><code>mos big</code> — biggest</li>
+</ul>
+<h2 id="verbs-three-tenses-zero-irregulars">4.6 Verbs — three tenses,
+zero irregulars</h2>
+<p>This is VELA’s proudest simplicity. <strong>Every</strong> verb,
+without exception, forms its tenses the same way:</p>
+<table>
+<thead>
+<tr>
+<th>Tense</th>
+<th>Ending</th>
+<th><code>liv</code> (to live)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Present</td>
+<td><strong>-a</strong></td>
+<td><code>liv-a</code> (live / lives)</td>
+</tr>
+<tr>
+<td>Past</td>
+<td><strong>-ed</strong></td>
+<td><code>liv-ed</code> (lived)</td>
+</tr>
+<tr>
+<td>Future</td>
+<td><strong>-wil</strong></td>
+<td><code>liv-wil</code> (will live)</td>
+</tr>
+</tbody>
+</table>
+<p>The ending never depends on the subject: <code>mi liv-a</code>,
+<code>yu liv-a</code>, <code>li liv-a</code>, <code>wi liv-a</code>,
+<code>de liv-a</code>. There are <strong>no irregular verbs and no
+spelling changes</strong> — ever.</p>
+<p>The verb <strong>“to be”</strong> is <code>bi</code> (present
+<code>es</code>):</p>
+<blockquote>
+<p><strong>Mi es hapi.</strong> — <em>I am happy.</em> <strong>La kat es
+big.</strong> — <em>The cat is big.</em></p>
+</blockquote>
+<h2 id="a-worked-example">4.7 A worked example</h2>
+<blockquote>
+<p><strong>La smol child-en play-ed in la garden, and de es
+hapi.</strong></p>
+<p><em>The small children played in the garden, and they are
+happy.</em></p>
+</blockquote>
+<p>Breaking it down: <code>la</code> (the) · <code>smol</code> (small) ·
+<code>child-en</code> (child + plural) · <code>play-ed</code> (play +
+past) · <code>in</code> (in) · <code>la garden</code> (the garden) ·
+<code>and</code> (and) · <code>de</code> (they) · <code>es</code> (are)
+· <code>hapi</code> (happy). No irregular forms, no memorized
+exceptions.</p>
+<h1 id="part-v-the-lexicon">Part V — The Lexicon</h1>
+<h2 id="how-vela-got-its-2900-words">5.1 How VELA got its ~2,900
+words</h2>
+<p>VELA’s vocabulary was not invented in one sitting. It grew from
+~1,300 to ~2,900 headwords through roughly thirty themed
+<strong>batches</strong> — nature, the body, emotions, verbs, science,
+food, clothing, tools, medicine, finance, law, travel, music, and
+more.</p>
+<p>Each batch passed through a strict pipeline before entering the
+language:</p>
+<ol type="1">
+<li><strong>Author</strong> ~100–160 candidate words for a domain,
+favoring transparent compounds and borrowing only for atomic
+concepts.</li>
+<li><strong>Validate</strong> every word against the phonotactic rules
+(the <code>(C)V</code> structure, legal codas, no forbidden sounds) with
+an automated checker.</li>
+<li><strong>De-duplicate</strong> twice — once by exact spelling, and
+once <strong>by meaning</strong> (comparing each new word’s gloss
+against every existing gloss), so that a concept already covered under a
+different spelling is never added twice.</li>
+<li><strong>Review</strong> by the three-specialist committee, each
+judging from their angle: the morphologist checked structure and
+duplicates, the phonologist checked pronounceability and beauty, the
+semanticist checked transparency and loan justification.</li>
+<li><strong>Integrate</strong> the survivors, regenerate the dictionary,
+and commit.</li>
+</ol>
+<p>Twelve of the final seventeen batches passed committee review with
+<strong>zero changes</strong> — a sign that, by the end, the patterns of
+the language had become predictable enough that new vocabulary
+practically wrote itself.</p>
+<h2 id="loans-vs.-compounds">5.2 Loans vs. compounds</h2>
+<p>VELA prefers a transparent compound whenever one is natural
+(<code>watre-fal</code> for <em>waterfall</em>, <code>no-hop-fel</code>
+for <em>desperate</em>). It borrows an international word only for
+genuinely atomic concepts that resist compounding — species names
+(<code>elefanta</code>), instruments (<code>gitara</code>), sciences
+(<code>kemistri</code>), diseases (<code>astama</code>). Across the
+lexicon the loan/compound balance settled around 60% loans, 40%
+compounds — heavier on compounds in everyday domains, heavier on loans
+in technical ones.</p>
+<h2 id="keeping-it-clean">5.3 Keeping it clean</h2>
+<p>Two invisible disciplines kept the lexicon from rotting:</p>
+<ul>
+<li><p><strong>Semantic de-duplication.</strong> Early on, the same
+concept kept re-entering under different spellings (<em>flour</em> as
+both <code>flaur</code> and <code>bred-pauda</code>). A gloss-based
+check now blocks this before every batch.</p></li>
+<li><p><strong>Base normalization.</strong> The oldest layer of the
+lexicon carried spelling duplicates
+(<code>belt</code>/<code>bela</code>) and hard-to-pronounce forms. A
+committee-ratified cleanup removed ~120 redundant entries and gave every
+hard-coda content root its vowel-final citation form — while carefully
+<em>not</em> merging words that only looked like duplicates
+(<code>cloud</code>/<code>crowd</code>,
+<code>computer</code>/<code>calculator</code>).</p></li>
+</ul>
+<h1 id="part-vi-vela-in-use">Part VI — VELA in Use</h1>
+<h2 id="everyday-phrases">6.1 Everyday phrases</h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>VELA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hello!</td>
+<td><code>Helo!</code></td>
+</tr>
+<tr>
+<td>Good morning.</td>
+<td><code>Gud morne.</code></td>
+</tr>
+<tr>
+<td>How are you?</td>
+<td><code>Hau yu?</code></td>
+</tr>
+<tr>
+<td>Thank you.</td>
+<td><code>Tanke yu.</code></td>
+</tr>
+<tr>
+<td>You’re welcome.</td>
+<td><code>Yu welkom.</code></td>
+</tr>
+<tr>
+<td>Please.</td>
+<td><code>Plise.</code></td>
+</tr>
+<tr>
+<td>I’m sorry.</td>
+<td><code>Mi es sori.</code></td>
+</tr>
+<tr>
+<td>Yes / No</td>
+<td><code>Ok / No</code></td>
+</tr>
+<tr>
+<td>Goodbye.</td>
+<td><code>Gudbai.</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="a-short-passage">6.2 A short passage</h2>
+<blockquote>
+<p><strong>La son shain-a over la mar. Un smol bird flai-a hai in la
+klar skai. It sing-a un hapi song, and la wind karri-a la sonj
+far.</strong></p>
+<p><em>The sun shines over the sea. A small bird flies high in the clear
+sky. It sings a happy song, and the wind carries the sound far.</em></p>
+</blockquote>
+<h2 id="how-vela-compares">6.3 How VELA compares</h2>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Feature</th>
+<th>English</th>
+<th>Esperanto</th>
+<th>Toki Pona</th>
+<th><strong>VELA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Irregular verbs</td>
+<td>many</td>
+<td>none</td>
+<td>none</td>
+<td><strong>none</strong></td>
+</tr>
+<tr>
+<td>Grammatical gender</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td><strong>none</strong></td>
+</tr>
+<tr>
+<td>Spelling = sound</td>
+<td>no</td>
+<td>yes</td>
+<td>yes</td>
+<td><strong>yes</strong></td>
+</tr>
+<tr>
+<td>Grammatical cases</td>
+<td>none</td>
+<td>2</td>
+<td>none</td>
+<td><strong>2 (both suffixless in practice)</strong></td>
+</tr>
+<tr>
+<td>Core vocabulary</td>
+<td>huge</td>
+<td>large</td>
+<td>~120</td>
+<td><strong>~2,900</strong></td>
+</tr>
+<tr>
+<td>Root source</td>
+<td>Germanic</td>
+<td>European</td>
+<td>a-priori</td>
+<td><strong>English, phonetic</strong></td>
+</tr>
+</tbody>
+</table>
+<p>VELA sits deliberately between Esperanto’s expressiveness and Toki
+Pona’s minimalism: expressive enough for real communication, simple
+enough to learn in weeks.</p>
+<h1 id="appendix-a-quick-grammar-reference">Appendix A — Quick Grammar
+Reference</h1>
+<ul>
+<li><strong>Word order:</strong> Subject–Verb–Object.</li>
+<li><strong>Articles:</strong> <code>la</code> (the), <code>un</code>
+(a).</li>
+<li><strong>Plural:</strong> <code>-n</code> after vowel,
+<code>-en</code> after consonant.</li>
+<li><strong>Genitive:</strong> <code>-se</code>.
+<strong>Locative:</strong> <code>-to</code>.</li>
+<li><strong>Adjective:</strong> before the noun, invariable.</li>
+<li><strong>Comparison:</strong> <code>mor</code> (more),
+<code>mos</code> (most).</li>
+<li><strong>Verb tenses:</strong> present <code>-a</code>, past
+<code>-ed</code>, future <code>-wil</code>. No irregulars.</li>
+<li><strong>“To be”:</strong> <code>bi</code> (present
+<code>es</code>).</li>
+<li><strong>Negation:</strong> <code>no</code> before the word.</li>
+<li><strong>Compound:</strong> roots joined by <code>-</code>, max
+three, transparent.</li>
+</ul>
+<h1 id="appendix-b-the-sound-chart-at-a-glance">Appendix B — The Sound
+Chart at a Glance</h1>
+<p><strong>Consonants (20):</strong> p t k b d g m n f v s z sh h l r w
+y ch j <strong>Vowels (5):</strong> a e i o u <strong>Syllable:</strong>
+(C)V. <strong>Accent:</strong> pitch, on the second-to-last syllable.
+<strong>Absent by design:</strong> <em>th</em> /θ ð/, <em>zh</em> /ʒ/,
+vowel length, nasal vowels.</p>
+<h1 id="appendix-c-productive-patterns-cheat-sheet">Appendix C —
+Productive patterns cheat-sheet</h1>
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 30%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Builds</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>X-mak</code></td>
+<td>verb “make X”</td>
+<td><code>strong-mak</code> = strengthen</td>
+</tr>
+<tr>
+<td><code>X-wei</code></td>
+<td>adverb “X-ly / X-ward”</td>
+<td><code>soft-wei</code> = gently</td>
+</tr>
+<tr>
+<td><code>X-nes</code></td>
+<td>abstract noun</td>
+<td><code>tru-nes</code> = truth</td>
+</tr>
+<tr>
+<td><code>X-po</code></td>
+<td>person/role</td>
+<td><code>hunt-po</code> = hunter</td>
+</tr>
+<tr>
+<td><code>X-tok</code></td>
+<td>speech act</td>
+<td><code>bak-tok</code> = gossip</td>
+</tr>
+<tr>
+<td><code>no-X</code></td>
+<td>negation/reversal</td>
+<td><code>no-loka</code> = unlock</td>
+</tr>
+<tr>
+<td><code>X-X</code></td>
+<td>intensification</td>
+<td><code>big-big</code> = vast</td>
+</tr>
+<tr>
+<td>citation ↔︎ composition</td>
+<td><code>maka</code> alone, <code>mak-</code> in compounds</td>
+<td>drop <code>-a</code> inside compounds</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>VELA is an open language project. This reference describes the
+language as ratified in 2026 at ~2,900 words. To learn to speak it,
+continue with</em> <strong>Learning VELA — Level 1.</strong></p>
+</body>
+</html>
