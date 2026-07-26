@@ -97,6 +97,7 @@
 | August | Agost | /agost/ |
 | aunt | aunt | /ant/ |
 | author / publisher | buk-mak-po | /buk.mak.po/ |
+| average | midela-nomber | /mi.de.la.nom.ber/ |
 | axe | aksa | /ak.sa/ |
 | baby | baby | /beibi/ |
 | back | bak | /bak/ |
@@ -366,6 +367,7 @@
 | concrete / tangible | konkreta | /kon.kre.ta/ |
 | cone | kona | /ko.na/ |
 | confident | kongident | /kongident/ |
+| conflict | fajt-tin | /fait.tin/ |
 | confused | confyuzd | /konfaiuzd/ |
 | connection | konekshon | /ko.nek.shon/ |
 | consciousness | sela-nofa | /se.la.no.fa/ |
@@ -407,6 +409,7 @@
 | cream | cream | /kriam/ |
 | crime | krime | /kraim/ |
 | criminal | kriminal | /kriminal/ |
+| crisis | kraisa | /krai.sa/ |
 | crocodile | krokodail | /kro.ko.dail/ |
 | crooked | kroka | /kro.ka/ |
 | crow | krau | /krau/ |
@@ -443,6 +446,7 @@
 | debug | folta-fiksa | /fol.ta.fik.sa/ |
 | decade | dekada | /de.ka.da/ |
 | December | Desember | /decembr/ |
+| decimal | desima | /de.si.ma/ |
 | decline | daun-way | /daun.wei/ |
 | deep | deep | /dip/ |
 | deeply | dep-wei | /dep.wei/ |
@@ -491,6 +495,7 @@
 | dose | doza | /do.za/ |
 | down | daun | /daun/ |
 | download | lowda-in | /low.da.in/ |
+| dozen | dazena | /da.ze.na/ |
 | drawing | rava-tin | /ra.va.tin/ |
 | dread | depa-afreda | /de.pa.a.fre.da/ |
 | dream | drim | /drim/ |
@@ -638,6 +643,7 @@
 | formula | formul | /formul/ |
 | fox | foki | /fo.ki/ |
 | fox | foks | /foks/ |
+| fraction | broka-nomber | /bro.ka.nom.ber/ |
 | fracture | fraktur | /fraktur/ |
 | fragile | frajila | /fra.ji.la/ |
 | fragrant | gud-smel | /gud.smel/ |
@@ -1189,6 +1195,7 @@
 | package | paket | /paket/ |
 | page | peija | /pei.ja/ |
 | pain | pain | /pein/ |
+| pair | pera | /pe.ra/ |
 | pale | peila | /pei.la/ |
 | palm (of hand) | palma | /pal.ma/ |
 | pan | pani | /pa.ni/ |
@@ -1417,6 +1424,7 @@
 | rough | ruf | /ruf/ |
 | roughly | ruf-wei | /ruf.wei/ |
 | round | raunda | /raun.da/ |
+| routine | yusa-wei | /ju.sa.wei/ |
 | row | roa | /ro.a/ |
 | royal family | rula-famili | /ru.la.fa.mi.li/ |
 | rubber | raba | /ra.ba/ |
@@ -1710,6 +1718,7 @@
 | temple | holi-hous | /ho.li.haus/ |
 | tempo | tempa | /tem.pa/ |
 | tennis | tenis | /te.nis/ |
+| tension | taita-fel | /tai.ta.fel/ |
 | that | dat | /dat/ |
 | the (definite) | la | /la/ |
 | the right way | tru-wei | /tru.wei/ |
@@ -1725,6 +1734,7 @@
 | thick | tik | /tik/ |
 | thief | stila-po | /sti.la.po/ |
 | thin | tin | /tin/ |
+| third (1/3) | terda | /ter.da/ |
 | thirsty | torsti | /torsti/ |
 | this | dis | /dis/ |
 | thorn | torna | /tor.na/ |
@@ -1765,9 +1775,11 @@
 | to assume | asuma | /a.su.ma/ |
 | to attack | ataka | /a.ta.ka/ |
 | to bake | baka | /ba.ka/ |
+| to bang | banga | /ban.ga/ |
 | to be | bi | /bi/ |
 | to be (stative) | es | /es/ |
 | to be born | born | /born/ |
+| to beep | bipa | /bi.pa/ |
 | to beg | bega | /be.ga/ |
 | to begin | begin | /begin/ |
 | to believe | bilever | /biliver/ |
@@ -1778,6 +1790,7 @@
 | to blame | bleima | /blei.ma/ |
 | to blink | blinka | /blin.ka/ |
 | to blow | blo | /blo/ |
+| to blur | blura | /blu.ra/ |
 | to boil | boila | /boi.la/ |
 | to borrow | boro | /boro/ |
 | to bounce | baunsa | /baun.sa/ |
@@ -1787,19 +1800,25 @@
 | to build | maki | /ma.ki/ |
 | to burn | berna | /ber.na/ |
 | to buy | bai | /bai/ |
+| to buzz | buza | /bu.za/ |
 | to calculate | kalkula | /kal.ku.la/ |
 | to call | kal | /kal/ |
 | to carry | kari | /ka.ri/ |
 | to carve | karva | /kar.va/ |
+| to cast | kasta | /kas.ta/ |
 | to catch | katch | /katch/ |
 | to celebrate | selebra | /se.le.bra/ |
 | to chase | cheisa | /chei.sa/ |
 | to check | chek | /tcek/ |
 | to chew | chua | /chu.a/ |
+| to chime | chaima | /chai.ma/ |
+| to chirp | chirpa | /chir.pa/ |
 | to choose | chuz | /chuz/ |
 | to chop | chopa | /cho.pa/ |
+| to clap | klapa | /kla.pa/ |
 | to clean | klian | /klian/ |
 | to clean | klin | /klin/ |
+| to click | klika | /kli.ka/ |
 | to climb | klaim | /klaim/ |
 | to close | clos | /klos/ |
 | to close | klos | /klos/ |
@@ -1818,12 +1837,17 @@
 | to cook | kuk | /kuk/ |
 | to cost | kost | /kost/ |
 | to count | kount | /kount/ |
+| to crackle | krakela | /kra.ke.la/ |
 | to crawl | krola | /kro.la/ |
+| to creak | krika | /kri.ka/ |
 | to cross / a cross | kros | /kros/ |
 | to crush | krosha | /kro.sha/ |
 | to cry | kai | /kai/ |
 | to dance | dansi | /dan.si/ |
 | to darken | dark-mak | /dark.mak/ |
+| to dart | darta | /dar.ta/ |
+| to dash | dasha | /da.sha/ |
+| to dazzle | dazela | /da.ze.la/ |
 | to decide | desid | /desid/ |
 | to decide | disaid | /disaid/ |
 | to declare | deklara | /de.kla.ra/ |
@@ -1845,12 +1869,14 @@
 | to dislike | dislik | /dislik/ |
 | to distinguish | difren-si | /di.fren.si/ |
 | to distract | distrata | /dis.tra.ta/ |
+| to dive | daiva | /dai.va/ |
 | to divide | part-mak | /part.mak/ |
 | to do | don | /don/ |
 | to double | dobla | /do.bla/ |
 | to doubt | douta | /dau.ta/ |
 | to drag | draga | /dra.ga/ |
 | to draw | rava | /ra.va/ |
+| to drift | drifita | /dri.fi.ta/ |
 | to drink | drink | /drink/ |
 | to drip | dripa | /dri.pa/ |
 | to drive | draiva | /drai.va/ |
@@ -1880,6 +1906,8 @@
 | to finish | fini | /fini/ |
 | to fix | repai | /re.pa.i/ |
 | to flai | frai | /frai/ |
+| to flash | flasha | /fla.sha/ |
+| to flicker | flika | /fli.ka/ |
 | to float | flota | /flo.ta/ |
 | to fold | folda | /fol.da/ |
 | to follow | folo | /folo/ |
@@ -1892,6 +1920,8 @@
 | to gaze | geiza | /gei.za/ |
 | to give | giv | /giv/ |
 | to glance | glansa | /glan.sa/ |
+| to gleam | glima | /gli.ma/ |
+| to glide | glaida | /glai.da/ |
 | to glimpse | glimsa | /glim.sa/ |
 | to glow / glow | glo | /glo/ |
 | to go | go | /go/ |
@@ -1899,6 +1929,7 @@
 | to greet | grita | /gri.ta/ |
 | to grind | grinda | /grin.da/ |
 | to grow | grot | /grot/ |
+| to growl | graula | /grau.la/ |
 | to guess | gesa | /ge.sa/ |
 | to hang | hanga | /han.ga/ |
 | to harden | hard-mak | /hard.mak/ |
@@ -1908,11 +1939,15 @@
 | to hear | her | /her/ |
 | to help | help | /help/ |
 | to hide | haida | /hai.da/ |
+| to hiss | hisa | /hi.sa/ |
 | to hit | hit | /hit/ |
 | to hold | holda | /hol.da/ |
 | to honor / honor | onora | /o.no.ra/ |
 | to hope | hop | /hop/ |
+| to hover | flai-stei | /flai.stei/ |
+| to howl | haula | /hau.la/ |
 | to hug | haga | /ha.ga/ |
+| to hum | huma | /hu.ma/ |
 | to hunt | hunta | /hun.ta/ |
 | to hurry | hari | /hari/ |
 | to hurry | kwik | /kwik/ |
@@ -1951,6 +1986,7 @@
 | to lie down | lai | /lai/ |
 | to lift | lifta | /lif.ta/ |
 | to like | lik | /lik/ |
+| to limp | limpa | /lim.pa/ |
 | to listen | lisen | /lisen/ |
 | to live | liv | /liv/ |
 | to look | luk | /luk/ |
@@ -1958,6 +1994,7 @@
 | to lose | luz | /luz/ |
 | to lower | daun-mak | /daun.mak/ |
 | to make | mak | /mak/ |
+| to march | marcha | /mar.cha/ |
 | to marry | marri | /ma.ri/ |
 | to mean | min | /min/ |
 | to measure | meis | /meis/ |
@@ -1966,6 +2003,7 @@
 | to memorize | memoriz | /memoriz/ |
 | to mix | miksa | /mik.sa/ |
 | to multiply | multipli | /mul.ti.pli/ |
+| to murmur | murmura | /mur.mu.ra/ |
 | to mutter | lo-tok | /lo.tok/ |
 | to need | need | /nid/ |
 | to need | niid | /niid/ |
@@ -1985,6 +2023,7 @@
 | to pity / pity | piti | /pi.ti/ |
 | to plan | plan | /plan/ |
 | to play | ple | /ple/ |
+| to plunge | plonja | /plon.ja/ |
 | to poke | poka | /po.ka/ |
 | to polish | polisha | /po.li.sha/ |
 | to pour | pora | /po.ra/ |
@@ -2003,6 +2042,7 @@
 | to quote | kwota | /kwo.ta/ |
 | to rain | rain | /rein/ |
 | to raise | raisa | /rai.sa/ |
+| to rattle | ratela | /ra.te.la/ |
 | to read | rid | /rid/ |
 | to realize | rialaisa | /ri.a.lai.sa/ |
 | to recall | bak-tink | /bak.tink/ |
@@ -2029,11 +2069,13 @@
 | to rip | ripa | /ri.pa/ |
 | to ripen | raipa-mak | /rai.pa.mak/ |
 | to rise | rais | /rais/ |
+| to roar | rora | /ro.ra/ |
 | to roast | rosta | /ros.ta/ |
 | to roll | rola | /ro.la/ |
 | to rot | rota | /ro.ta/ |
 | to rub | ruba | /ru.ba/ |
 | to rule / govern | rula | /ru.la/ |
+| to rumble | rambla | /ram.bla/ |
 | to run | ran | /ran/ |
 | to sail | sela | /se.la/ |
 | to save | sava | /sa.va/ |
@@ -2051,6 +2093,7 @@
 | to shake | shaka | /sha.ka/ |
 | to share | share | /sher/ |
 | to sharpen | mak-sharpa | /mak.shar.pa/ |
+| to shimmer | shimera | /shi.me.ra/ |
 | to shine | shin | /sin/ |
 | to shout | shauta | /shau.ta/ |
 | to shrink | skrinka | /skrin.ka/ |
@@ -2064,16 +2107,22 @@
 | to slide | slaida | /slai.da/ |
 | to smell | smel | /smel/ |
 | to smile | smile | /smi.le/ |
+| to snap | snapa | /sna.pa/ |
 | to snow | snow | /sno/ |
+| to soar | hai-flai | /hai.flai/ |
 | to soften | soft-mak | /soft.mak/ |
 | to solve | solva | /sol.va/ |
 | to sort | sorta | /sor.ta/ |
+| to sparkle | sparkla | /spar.kla/ |
 | to speak | spika | /spi.ka/ |
 | to speak | tok | /tok/ |
 | to spin | spina | /spi.na/ |
 | to splash | splasha | /spla.sha/ |
 | to spread | spreda | /spre.da/ |
+| to sprint | fast-ran | /fast.ran/ |
+| to squeak | skwika | /skwi.ka/ |
 | to squeeze | skwiza | /skwi.za/ |
+| to stagger | stagera | /sta.ge.ra/ |
 | to stand | stand | /stand/ |
 | to stare | long-luk | /long.luk/ |
 | to start | start | /start/ |
@@ -2083,6 +2132,7 @@
 | to stop | topi | /to.pi/ |
 | to strengthen | strong-mak | /strong.mak/ |
 | to stretch | strecha | /stre.cha/ |
+| to stroll | slo-wok | /slo.wok/ |
 | to study | stodi | /stodi/ |
 | to stumble | stambla | /stam.bla/ |
 | to subtract / minus | minus | /mi.nus/ |
@@ -2111,6 +2161,7 @@
 | to travel | rul | /rul/ |
 | to trust | trasta | /tras.ta/ |
 | to try | trai | /trai/ |
+| to tumble | tambla | /tam.bla/ |
 | to turn | turna | /tur.na/ |
 | to twist | twista | /twis.ta/ |
 | to understand | understand | /undredstand/ |
@@ -2122,15 +2173,18 @@
 | to wake | weik | /weik/ |
 | to wake up | wek | /wek/ |
 | to walk | wok | /wok/ |
+| to wander | wandra | /wan.dra/ |
 | to want | wan | /wan/ |
 | to warn | warna | /war.na/ |
 | to wash | wosh | /wos/ |
 | to watch | wocha | /wo.cha/ |
 | to weaken | wik-mak | /wik.mak/ |
 | to whisper | soft-tok | /soft.tok/ |
+| to whistle | wisla | /wis.la/ |
 | to widen | wid-mak | /wid.mak/ |
 | to wipe | waipa | /wai.pa/ |
 | to wish | wisha | /wi.sha/ |
+| to wobble | wobla | /wo.bla/ |
 | to wonder | wanda | /wan.da/ |
 | to worry / worry | worria | /wo.ri.a/ |
 | to worsen | bad-mak | /bad.mak/ |
@@ -2168,8 +2222,10 @@
 | treatment | kura | /ku.ra/ |
 | treaty | trita | /tri.ta/ |
 | tree | tre | /tre/ |
+| trend | trenda | /tren.da/ |
 | triangle | tri-korner | /tri.kor.ner/ |
 | trip | tripa | /tri.pa/ |
+| triple / thrice | tri-taim | /tri.taim/ |
 | triumph / victory pride | win-praida | /win.prai.da/ |
 | trivial matter | smol-tin | /smol.tin/ |
 | truck | truk | /truk/ |
