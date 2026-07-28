@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2899. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2903. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -248,6 +248,7 @@
 | biju-mak-po | /biju.mak.po/ |  | artist | beauty-make-person |  | La biju-mak-po maki beautiful art. |
 | biju-nes | /bi.ju.nes/ | noun | beauty | beautiful + -nes |  | La biju-nes of la son-daun. |
 | biju-ston | /bi.ju.ston/ | noun | gem | beautiful + stone |  | La biju-ston es dir. |
+| bikom | /bi.kom/ | verb | to become |  |  | Li bikom un dokter. → He becomes a doctor. |
 | bikos | /bikos/ |  | because |  |  | Mi wok bikos mi wan moni. |
 | bil | /bil/ |  | bill |  |  | Mi pei la bil. |
 | bilau | /bi.lau/ | noun | below |  |  | — |
@@ -968,6 +969,7 @@
 | handela | /han.de.la/ | noun | handle |  |  | loan |
 | hanga | /han.ga/ | verb | to hang |  |  | loan |
 | hansoma | /han.so.ma/ | adj | handsome |  |  | loan |
+| hapen | /ha.pen/ | verb | to happen |  |  | Wat hapen hier? → What happens here? |
 | hapi | /hapi/ |  | happy |  | enufa-hapi, hapi-dei, hapi-ful, hapi-song, kwaiat-hapi, topa-hapi, waita-hapi, warm-hapi | la hapi famili |
 | hapi-dei | /ha.pi.dei/ | noun | festival | happy + day |  | La siti hav un big hapi-dei. |
 | hapi-ful | /ha.pi.ful/ | adj | cheerful | hapi (happy) + ful (full) |  | happy + full |
@@ -1631,6 +1633,7 @@
 | matres | /ma.tres/ |  | mattress |  |  | La matres es soft. |
 | maus | /maus/ |  | mouse |  |  | La maus es smol. |
 | mautin | /mautin/ |  | mountain |  | fai-mautin | La mautin es high. |
+| mebi | /me.bi/ |  | maybe / perhaps |  |  | Mebi li kom tomoro. |
 | medi | /me.di/ |  | media |  |  | La medi shou niaz. |
 | medikal | /medikal/ |  | medical |  |  |  |
 | medisin | /medisin/ |  | medicine / drug |  | medisin-shop | La medisin kure la siknes. |
@@ -2367,6 +2370,7 @@
 | silo | /si.lo/ | noun | silo |  |  | loan |
 | silva | /sil.va/ | noun | silver | loan |  | La silva shain wait. |
 | silvi | /sil.vi/ |  | silver |  |  | la silv moon |
+| sima | /si.ma/ | verb | to seem |  |  | Li sima tireda. → She seems tired. |
 | simanta | /si.man.ta/ | noun | cement |  |  | — |
 | simbolisma | /sim.bo.lis.ma/ | noun | symbolism | adapted loan (+/a/) |  | La poem hav dep simbolisma. |
 | simpli | /simpli/ |  | simple |  |  | la simpli sistem |

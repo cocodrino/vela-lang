@@ -29,7 +29,7 @@
   #v(2em)
   #text(size: 11pt)[VELA #sym.arrow English  ·  English #sym.arrow VELA]
   #v(0.3em)
-  #text(size: 10pt, fill: muted)[2,899 entries · Level: reference]
+  #text(size: 10pt, fill: muted)[2,903 entries · Level: reference]
 ]
 #pagebreak()
 #text(size: 22pt, weight: 800, fill: brand)[VELA → English]
@@ -274,6 +274,7 @@
 #e("biju-mak-po", "/biju.mak.po/", [artist])
 #e("biju-nes", "/bi.ju.nes/", [beauty #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("biju-ston", "/bi.ju.ston/", [gem #text(fill: muted, size: 8pt, style: "italic")[noun]])
+#e("bikom", "/bi.kom/", [to become #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("bikos", "/bikos/", [because])
 #e("bil", "/bil/", [bill])
 #e("bilau", "/bi.lau/", [below #text(fill: muted, size: 8pt, style: "italic")[noun]])
@@ -970,6 +971,7 @@
 #e("handela", "/han.de.la/", [handle #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("hanga", "/han.ga/", [to hang #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("hansoma", "/han.so.ma/", [handsome #text(fill: muted, size: 8pt, style: "italic")[adj]])
+#e("hapen", "/ha.pen/", [to happen #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("hapi", "/hapi/", [happy])
 #e("hapi-dei", "/ha.pi.dei/", [festival #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("hapi-ful", "/ha.pi.ful/", [cheerful #text(fill: muted, size: 8pt, style: "italic")[adj]])
@@ -1613,6 +1615,7 @@
 #e("matres", "/ma.tres/", [mattress])
 #e("maus", "/maus/", [mouse])
 #e("mautin", "/mautin/", [mountain])
+#e("mebi", "/me.bi/", [maybe / perhaps])
 #e("medi", "/me.di/", [media])
 #e("medikal", "/medikal/", [medical])
 #e("medisin", "/medisin/", [medicine / drug])
@@ -2329,6 +2332,7 @@
 #e("silo", "/si.lo/", [silo #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("silva", "/sil.va/", [silver #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("silvi", "/sil.vi/", [silver])
+#e("sima", "/si.ma/", [to seem #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("simanta", "/si.man.ta/", [cement #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("simbolisma", "/sim.bo.lis.ma/", [symbolism #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("simpli", "/simpli/", [simple])
@@ -4179,6 +4183,7 @@
 #e("mattress", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[matres] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ma.tres/]])
 #e("may", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[ma] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ma/]])
 #e("May", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[Maji] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/maji/]])
+#e("maybe / perhaps", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mebi] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/me.bi/]])
 #e("meadow / prairie", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[gras-lond] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/gras.lond/]])
 #e("mealtime", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[eat-taim] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/eat.taim/]])
 #e("meaning", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[min-nes] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/min.nes/]])
@@ -5054,6 +5059,7 @@
 #e("to be", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bi] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bi/]])
 #e("to be (stative)", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[es] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/es/]])
 #e("to be born", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[borna] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bor.na/]])
+#e("to become", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bikom] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bi.kom/]])
 #e("to beep", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bipa] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bi.pa/]])
 #e("to beg", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bega] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/be.ga/]])
 #e("to begin", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[begin] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/begin/]])
@@ -5277,6 +5283,7 @@
 #e("to gulp", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[big-drink] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/big.drink/]])
 #e("to gush", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[gasha] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ga.sha/]])
 #e("to hang", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[hanga] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/han.ga/]])
+#e("to happen", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[hapen] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ha.pen/]])
 #e("to harden", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[hard-mak] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/hard.mak/]])
 #e("to harvest / harvest", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[harvesta] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/har.ves.ta/]])
 #e("to have", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[hava] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ha.va/]])
@@ -5480,6 +5487,7 @@
 #e("to season", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[sezona] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/se.zo.na/]])
 #e("to see", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[si] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/si/]])
 #e("to seek", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[luk-for] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/luk.for/]])
+#e("to seem", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[sima] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/si.ma/]])
 #e("to sell", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[sel] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/sel/]])
 #e("to send", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[senda] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/sen.da/]])
 #e("to separate", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[separa] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/se.pa.ra/]])

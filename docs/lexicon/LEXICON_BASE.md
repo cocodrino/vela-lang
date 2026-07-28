@@ -94,6 +94,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **som** | /som/ | some | Mi wan som watre. | I want some water. |
 | **veri** | /ve.ri/ | very | La dei es veri hota. | The day is very hot. |
 | **alo** | /a.lo/ | too / also | Mi es hapi alo. | I am happy too. |
+| **mebi** | /me.bi/ | maybe / perhaps | Mebi li kom tomoro. | Maybe he comes tomorrow. |
 
 ### Question Words
 
@@ -208,6 +209,9 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **livi** | /li.vi/ | to live | liv-a | liv-ed | liv-wil | Wi liv la siti-to. → We live in the city. |
 | **woka** | /wo.ka/ | to walk | wok-a | wok-ed | wok-wil | Mi wok la parke-to. → I walk in the park. |
 | **werka** | /wer.ka/ | to work | werk-a | werk-ed | werk-wil | Mi werk la ofis-to. → I work at the office. |
+| **bikom** | /bi.kom/ | to become | bikom | bikom-ed | bikom-wil | Li bikom un dokter. → He becomes a doctor. |
+| **sima** | /si.ma/ | to seem | sima | sim-ed | sim-wil | Li sima tireda. → She seems tired. |
+| **hapen** | /ha.pen/ | to happen | hapen | hapen-ed | hapen-wil | Wat hapen hier? → What happens here? |
 | **rul** | /rul/ | to travel | rul-a | rul-ed | rul-wil | Wi rul tu la naid. → We travel to the nation. |
 | **ran** | /ran/ | to run | ran-a | ran-ed | ran-wil | La man ran. → The man runs. |
 | **jumpa** | /jum.pa/ | to jump | jamp-a | jamp-ed | jamp-wil | Li jamp over la bond. → She jumps over the bond. |

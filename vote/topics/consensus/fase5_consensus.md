@@ -236,3 +236,21 @@ Aplicado: `werka` añadido a LEXICON_BASE (`werk-a/werk-ed/werk-wil`). Compuesto
 **`dat` NO es relativizador.** El fonólogo mostró que `la man dat kom` colisiona con el demostrativo (`dat`=that/eso) → lectura "el hombre, eso viene". `dat` queda reservado a: demostrativo (`dat hous`) y **complementante** tras verbos de mente (`Mi tinka dat li es guda`, L2). Los relativizadores son las palabras-pregunta.
 
 **Voz pasiva: NO dedicada (B2+).** VELA no tiene pasiva morfológica. La función impersonal se expresa con sujeto genérico `man-en` (gente) + activa: `Man-en mak la kar in Jerman` = "El coche se hace en Alemania". Añadir pasiva en B1 es carga innecesaria (semantista; chino/criollos tampoco la tienen).
+
+---
+
+## R13 — Batch de vocabulario B2 (Level 4) + política de estilo indirecto (ratificada 2026-07-28)
+
+Coinado para Learning-VELA Level 4 (B2). El comité (pi-29881, pi-26905, pi-34067) votó:
+
+| English | VELA | AFI | Voto | Nota |
+|---|---|---|---|---|
+| become | **bikom** | /bi.kom/ | unánime | compuesto transparente `bi`(be)+`kom`(come) = "become"; misma etimología que el inglés |
+| happen | **hapen** | /ha.pen/ | unánime | átomo, coda /n/ legal |
+| maybe / perhaps | **mebi** | /me.bi/ | unánime | átomo, sin colisión con `meni`(many) |
+| seem | **sima** | /si.ma/ | 2-1 | átomo (vs compuesto `luk-laik` del semantista); más corto para verbo frecuente |
+| **probably** | **`mos-laikli`** | — | (no acuñado) | `laikli`(likely) YA existe → "probably" = `mos-laikli` (most-likely), compuesto transparente. Se prefirió sobre el préstamo `probabli` por el principio compound-first de VELA (la existencia de `laikli` lo confirma). |
+
+**Ya existían para B2 (no coinar):** should=`shoda`, however=`haueva`, although=`tuo`, whether=`weda`, instead=`insteda`, possible=`posibel`, suggest=`sugesta`, advise=`help-tal`, change=`chang`, example=`eksampel` ("for eksampel"), fact=`tru-tin`, already=`olredi`, likely=`laikli`, agree=`agria`.
+
+**Estilo indirecto (reported speech):** sin construcción nueva — se usan piezas existentes: verbo-de-mente/habla + `dat` para afirmaciones (`Li tok-ed dat li kom-wil` = dijo que vendría), `weda`/`if` para preguntas sí/no (`Li ask-ed weda mi kom` = preguntó si venía), palabras-pregunta para preguntas-wh (`Li ask-ed wat mi wan`). **Voz pasiva:** impersonal con `man-en` (R12) — VELA no tiene pasiva morfológica. **Aspecto perfecto:** VELA no lo tiene; el pasado `-ed` cubre "I ate / I have eaten".

@@ -1222,6 +1222,7 @@
 | mattress | matres | /ma.tres/ |
 | may | ma | /ma/ |
 | May | Maji | /maji/ |
+| maybe / perhaps | mebi | /me.bi/ |
 | meadow / prairie | gras-lond | /gras.lond/ |
 | mealtime | eat-taim | /eat.taim/ |
 | meaning | min-nes | /min.nes/ |
@@ -2090,6 +2091,7 @@
 | to be | bi | /bi/ |
 | to be (stative) | es | /es/ |
 | to be born | borna | /bor.na/ |
+| to become | bikom | /bi.kom/ |
 | to beep | bipa | /bi.pa/ |
 | to beg | bega | /be.ga/ |
 | to begin | begin | /begin/ |
@@ -2313,6 +2315,7 @@
 | to gulp | big-drink | /big.drink/ |
 | to gush | gasha | /ga.sha/ |
 | to hang | hanga | /han.ga/ |
+| to happen | hapen | /ha.pen/ |
 | to harden | hard-mak | /hard.mak/ |
 | to harvest / harvest | harvesta | /har.ves.ta/ |
 | to have | hava | /ha.va/ |
@@ -2516,6 +2519,7 @@
 | to season | sezona | /se.zo.na/ |
 | to see | si | /si/ |
 | to seek | luk-for | /luk.for/ |
+| to seem | sima | /si.ma/ |
 | to sell | sel | /sel/ |
 | to send | senda | /sen.da/ |
 | to separate | separa | /se.pa.ra/ |
