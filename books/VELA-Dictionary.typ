@@ -29,7 +29,7 @@
   #v(2em)
   #text(size: 11pt)[VELA #sym.arrow English  ·  English #sym.arrow VELA]
   #v(0.3em)
-  #text(size: 10pt, fill: muted)[2,898 entries · Level: reference]
+  #text(size: 10pt, fill: muted)[2,899 entries · Level: reference]
 ]
 #pagebreak()
 #text(size: 22pt, weight: 800, fill: brand)[VELA → English]
@@ -1685,12 +1685,13 @@
 #e("monta", "/mon.ta/", [month])
 #e("moon", "/mun/", [moon])
 #e("mopa", "/mo.pa/", [mop])
-#e("mor", "/mor/", [more])
+#e("mor", "/mor/", [more (comparative)])
 #e("mor-mak", "/mor.mak/", [to increase #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("mor-mor", "/mor.mor/", [more and more #text(fill: muted, size: 8pt, style: "italic")[adv]])
 #e("moring", "/moring/", [morning])
 #e("moring-watre", "/mo.ring.wa.tre/", [dew #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("morna", "/mor.na/", [to mourn #text(fill: muted, size: 8pt, style: "italic")[verb]])
+#e("mos", "/mos/", [most (superlative)])
 #e("mos-taim", "/mos.taim/", [usually / generally #text(fill: muted, size: 8pt, style: "italic")[adv]])
 #e("moskito", "/mos.ki.to/", [mosquito])
 #e("moslem-hous", "/moz.lem.haus/", [mosque])
@@ -4237,12 +4238,13 @@
 #e("moon", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[moon] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mun/]])
 #e("mop", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mopa] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mo.pa/]])
 #e("morality / moral", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[rait-rong-sistam] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/rait.rong.sis.tam/]])
-#e("more", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mor] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mor/]])
+#e("more (comparative)", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mor] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mor/]])
 #e("more and more", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mor-mor] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mor.mor/]])
 #e("morning", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[moring] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/moring/]])
 #e("mosque", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[moslem-hous] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/moz.lem.haus/]])
 #e("mosquito", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[moskito] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mos.ki.to/]])
 #e("moss", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[musa] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mu.sa/]])
+#e("most (superlative)", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mos] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mos/]])
 #e("moth", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[mota] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mo.ta/]])
 #e("mother", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[moter] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/moter/]])
 #e("motherhood", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[moter-nes] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/mo.ter.nes/]])

@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2898. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2899. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -1703,13 +1703,14 @@
 | monta | /mon.ta/ |  | month |  |  | Wot mont es nau? |
 | moon | /mun/ |  | moon |  |  | La moon es round. |
 | mopa | /mo.pa/ |  | mop |  |  | Mi us mop. |
-| mor | /mor/ |  | more |  | mor-mak, mor-mor | Mi wan mor. |
-| mor-mak | /mor.mak/ | verb | to increase | mor (more) + mak |  | more + make |
+| mor | /mor/ |  | more (comparative) |  | mor-mak, mor-mor | La kar es mor fasta. |
+| mor-mak | /mor.mak/ | verb | to increase | mor (more (comparative)) + mak |  | more + make |
 | mor-mor | /mor.mor/ | adv | more and more | more + more |  | La siti gro mor-mor. |
 | moring | /moring/ |  | morning |  | moring-watre | Mi wok evri moring. |
 | moring-watre | /mo.ring.wa.tre/ | noun | dew | morning + water |  | La moring-watre es on la gras. |
 | morna | /mor.na/ | verb | to mourn |  |  | loan |
-| mos-taim | /mos.taim/ | adv | usually / generally | mos + taim (time) |  | most + time |
+| mos | /mos/ |  | most (superlative) |  | mos-taim | Dis kar es mos fasta. |
+| mos-taim | /mos.taim/ | adv | usually / generally | mos (most (superlative)) + taim (time) |  | most + time |
 | moskito | /mos.ki.to/ |  | mosquito |  |  | La moskito bite |
 | moslem-hous | /moz.lem.haus/ |  | mosque | moslem + hous (house) |  |  |
 | mota | /mo.ta/ | noun | moth |  |  | loan |

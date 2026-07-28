@@ -1281,12 +1281,13 @@
 | moon | moon | /mun/ |
 | mop | mopa | /mo.pa/ |
 | morality / moral | rait-rong-sistam | /rait.rong.sis.tam/ |
-| more | mor | /mor/ |
+| more (comparative) | mor | /mor/ |
 | more and more | mor-mor | /mor.mor/ |
 | morning | moring | /moring/ |
 | mosque | moslem-hous | /moz.lem.haus/ |
 | mosquito | moskito | /mos.ki.to/ |
 | moss | musa | /mu.sa/ |
+| most (superlative) | mos | /mos/ |
 | moth | mota | /mo.ta/ |
 | mother | moter | /moter/ |
 | motherhood | moter-nes | /mo.ter.nes/ |

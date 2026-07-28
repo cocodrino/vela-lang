@@ -131,7 +131,8 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **sun** | /sun/ | soon | Wi kom sun. | We come soon. |
 | **let** | /let/ | late | Mi kom let. | I come late. |
 | **erli** | /er.li/ | early | Mi wok erli. | I work early. |
-| **mor** | /mor/ | more | Mi wan mor. | I want more. |
+| **mor** | /mor/ | more (comparative) | La kar es mor fasta. | The car is faster. |
+| **mos** | /mos/ | most (superlative) | Dis kar es mos fasta. | This car is the fastest. |
 | **les** | /les/ | less | Mi hav les. | I have less. |
 | **lesti** | /les.ti/ | at least | Lest wan dei. | At least one day. |
 | **agen** | /agen/ | again | Mi kom agen. | I come again. |
