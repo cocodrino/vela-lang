@@ -421,7 +421,7 @@
 | cold light | kol-lait | /kol.lait/ |
 | collage | kolaja | /ko.la.ja/ |
 | collar | kolar | /ko.lar/ |
-| colleague | wok-fren | /wok.fren/ |
+| colleague | werk-fren | /werk.fren/ |
 | college | koleja | /ko.le.ja/ |
 | colour | kolor | /ko.lor/ |
 | column | kolum | /ko.lum/ |
@@ -566,7 +566,7 @@
 | depth | depa | /de.pa/ |
 | desert | drai-lond | /drai.lond/ |
 | design | dizain | /di.zain/ |
-| desk | wok-tebul | /wok.te.bul/ |
+| desk | werk-tebul | /werk.te.bul/ |
 | despair | no-hop | /no.hop/ |
 | desperate | no-hop-fel | /no.hop.fel/ |
 | despite | dispaita | /dis.pai.ta/ |
@@ -978,7 +978,7 @@
 | hollow | holo | /ho.lo/ |
 | home | hom | /hom/ |
 | homeland | hom-ples | /hom.ples/ |
-| homework | hom-wok | /hom.wok/ |
+| homework | hom-werk | /hom.werk/ |
 | honest | tru-tok | /tru.tok/ |
 | honesty | onesti | /o.nes.ti/ |
 | honey | honi | /ho.ni/ |
@@ -1656,7 +1656,7 @@
 | restaurant | eat-hous | /it.haus/ |
 | result | risolta | /ri.sol.ta/ |
 | result | risolti | /ri.sol.ti/ |
-| retirement | wok-end | /wok.end/ |
+| retirement | werk-end | /werk.end/ |
 | reunion | agen-gada | /a.gen.ga.da/ |
 | reward | gud-giv | /gud.giv/ |
 | rhinoceros | raino | /rai.no/ |
@@ -2659,6 +2659,7 @@
 | to wither | widera | /wi.de.ra/ |
 | to wobble | wobla | /wo.bla/ |
 | to wonder | wanda | /wan.da/ |
+| to work | werka | /wer.ka/ |
 | to worry / worry | worria | /wo.ri.a/ |
 | to worsen | bad-mak | /bad.mak/ |
 | to wrap | rapa | /ra.pa/ |
@@ -2733,7 +2734,7 @@
 | under / below | under | /un.der/ |
 | underwear | in-klota | /in.klo.ta/ |
 | uniform | uniforma | /u.ni.for.ma/ |
-| union (labor) | wok-grup | /wok.grup/ |
+| union (labor) | werk-grup | /werk.grup/ |
 | unit test | testa-koda | /tes.ta.ko.da/ |
 | universe | universa | /u.ni.ver.sa/ |
 | unless | if-no | /if.no/ |
@@ -2792,7 +2793,7 @@
 | vote | vote | /vot/ |
 | voter | vota-po | /vo.ta.po/ |
 | voyage | voiaja | /voi.a.ja/ |
-| wage / salary | wok-moni | /wok.mo.ni/ |
+| wage / salary | werk-moni | /werk.mo.ni/ |
 | wagon / cart | wagon | /wa.gon/ |
 | waist | waista | /wais.ta/ |
 | wall | wal | /wal/ |
@@ -2872,7 +2873,7 @@
 | wood | wuda | /wu.da/ |
 | wool | wul | /wul/ |
 | word | woda | /wo.da/ |
-| worker | wok-po | /wok.po/ |
+| worker | werk-po | /werk.po/ |
 | world | wailda | /wail.da/ |
 | worm | worma | /wor.ma/ |
 | worry | tota-afreda | /to.ta.a.fre.da/ |

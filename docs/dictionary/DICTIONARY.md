@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2897. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2898. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -796,7 +796,7 @@
 | frauna | /frau.na/ | verb/noun | to frown |  |  | loan |
 | freila | /frei.la/ | adj | frail |  |  | loan |
 | frekwenta | /fre.kwen.ta/ | adj | frequent |  |  | loan |
-| fren | /fren/ |  | friend |  | dep-fren, fren-ful, fren-grup, fren-nes, help-fren, luva-fren, man-fren, new-fren, no-fren, old-fren, wok-fren, wuman-fren | Mi-se fren es hapi. |
+| fren | /fren/ |  | friend |  | dep-fren, fren-ful, fren-grup, fren-nes, help-fren, luva-fren, man-fren, new-fren, no-fren, old-fren, werk-fren, wuman-fren | Mi-se fren es hapi. |
 | fren-ful | /fren.ful/ | adj | friendly | fren (friend) + ful (full) |  | friend + full |
 | fren-grup | /fren.grup/ | noun | group of friends | friend + group |  | Mi fren-grup go tu la mar. |
 | fren-nes | /fren.nes/ | noun | friendship | friend + -nes |  | Wi hav strong fren-nes. |
@@ -927,7 +927,7 @@
 | grot-man-taim | /grot.man.taim/ | noun | adulthood | grot + man (man / person) + taim (time) |  | adult + time |
 | grota | /gro.ta/ | verb | to grow |  |  | La plant grot. → The plant grows. |
 | grumpa | /grum.pa/ | adj | grumpy |  |  | loan |
-| grup | /grup/ |  | group |  | fren-grup, grup-po, liv-grup, muzik-grup, rula-grup, wok-grup | `star-grupa`, `muzika-grupa` |
+| grup | /grup/ |  | group |  | fren-grup, grup-po, liv-grup, muzik-grup, rula-grup, werk-grup | `star-grupa`, `muzika-grupa` |
 | grup-po | /grup.po/ | noun | member | grup (group) + po |  | group + person |
 | gud-giv | /gud.giv/ | noun | reward | good + give |  | La king giv un gud-giv. |
 | gud-luki | /gud.lu.ki/ | noun | good fortune | good + luck |  | Mi hav gud-luki tudei. |
@@ -1034,10 +1034,10 @@
 | holi | /ho.li/ | adj | sacred / holy | adapted loan | holi-hous | La text es holi. |
 | holi-hous | /ho.li.haus/ |  | temple | holi (sacred / holy) + hous (house) |  |  |
 | holo | /ho.lo/ | adj | hollow |  |  | loan |
-| hom | /hom/ |  | home |  | hom-ples, hom-po, hom-wok, kom-hom | Mi go hom. |
+| hom | /hom/ |  | home |  | hom-ples, hom-po, hom-werk, kom-hom | Mi go hom. |
 | hom-ples | /hom.ples/ | noun | homeland | home + place |  | Mi hom-ples es far from hia. |
 | hom-po | /hom.po/ | noun | household member | home + -po |  | Ol la home-po eat tugeter. |
-| hom-wok | /hom.wok/ | noun | homework | hom (home) + wok |  | home + work |
+| hom-werk | /hom.werk/ | noun | homework | hom (home) + werk |  | home + work |
 | honi | /ho.ni/ |  | honey |  | honi-flai | La bi mak honi. |
 | honi-flai | /ho.ni.flai/ | noun | bee | honi (honey) + flai (flai (insect)) |  | honey + fly |
 | hop-daun | /hop.daun/ | noun | disappointment | hop + daun (down) |  | hope + down |
@@ -1692,7 +1692,7 @@
 | momenta | /mo.men.ta/ | noun | momentum | adapted loan |  | La momenta es masa × spida. |
 | momenti | /mo.men.ti/ | noun | moment |  |  | — |
 | Mondei | /mon.dei/ |  | Monday |  |  |  |
-| moni | /moni/ |  | money |  | bak-moni, fri-moni, hand-moni, in-moni, metal-moni, moni-bagi, moni-gem, moni-gro, moni-keep-po, moni-yus, paper-moni, stor-moni, wok-moni | Mi need mor moni. |
+| moni | /moni/ |  | money |  | bak-moni, fri-moni, hand-moni, in-moni, metal-moni, moni-bagi, moni-gem, moni-gro, moni-keep-po, moni-yus, paper-moni, stor-moni, werk-moni | Mi need mor moni. |
 | moni-bagi | /mo.ni.ba.gi/ | noun | purse | moni (money) + bagi (bag) |  | money + bag |
 | moni-gem | /mo.ni.gem/ | noun | gambling | moni (money) + gem (game) |  | money + game |
 | moni-gro | /mo.ni.gro/ | noun | interest (finance) | moni (money) + gro |  | money + grow |
@@ -2678,7 +2678,7 @@
 | te-eika | /te.ei.ka/ | noun | toothache | te (tooth/teeth) + eika (to ache / ache) |  | teeth + ache |
 | teacha | /teac.ha/ | verb | to teach |  |  | Mi teach yu. → I teach you. |
 | teatra | /te.a.tra/ | noun | theater | adapted loan |  | Wi go tu la teatra. |
-| tebul | /tebul/ |  | table |  | wok-tebul | La buk es on la tebul. |
+| tebul | /tebul/ |  | table |  | werk-tebul | La buk es on la tebul. |
 | technoloji | /teknoloji/ |  | technology |  |  | Technoloji es modern. |
 | teipa | /tei.pa/ | noun | tape |  |  | loan |
 | teista | /tei.sta/ | verb/noun | to taste / flavor |  | gud-teista, no-teista | loan |
@@ -2915,6 +2915,13 @@
 | weneva | /we.ne.va/ | adv/conj | whenever |  |  | loan |
 | Wenzdei | /wens.dei/ |  | Wednesday |  |  |  |
 | wer | /wer/ |  | where |  |  | Wer wi wok? |
+| werk-end | /werk.end/ | noun | retirement | werk + end |  | work + end |
+| werk-fren | /werk.fren/ | noun | colleague | werk + fren (friend) |  | work + friend |
+| werk-grup | /werk.grup/ | noun | union (labor) | werk + grup (group) |  | work + group |
+| werk-moni | /werk.mo.ni/ | noun | wage / salary | work + money |  | La werk-moni kom evri mont. |
+| werk-po | /werk.po/ |  | worker | work-person |  | La werk-po wok hard. |
+| werk-tebul | /werk.te.bul/ | noun | desk | work + table |  | Mi rit at la werk-tebul. |
+| werka | /wer.ka/ | verb | to work |  |  | Mi werk la ofis-to. → I work at the office. |
 | wesa | /we.sa/ | noun | west |  |  | — |
 | wet-lond | /wet.lond/ | noun | swamp | wet + land |  | La wet-lond es dip and dark. |
 | wet-taim | /wet.taim/ | noun | rainy season | wet + taim (time) |  | wet + time |
@@ -2955,13 +2962,7 @@
 | wod-lista | /wod.lis.ta/ | noun | vocabulary | word + list |  | Lern la new wod-lista. |
 | wod-piktur | /wod.pik.tur/ | verb | to describe | word + picture |  | Wod-piktur la ples. |
 | woda | /wo.da/ |  | word |  |  | Mi lern nu wod-en. |
-| wok-end | /wok.end/ | noun | retirement | wok + end |  | work + end |
-| wok-fren | /wok.fren/ | noun | colleague | wok + fren (friend) |  | work + friend |
-| wok-grup | /wok.grup/ | noun | union (labor) | wok + grup (group) |  | work + group |
-| wok-moni | /wok.mo.ni/ | noun | wage / salary | work + money |  | La wok-moni kom evri mont. |
-| wok-po | /wok.po/ |  | worker | work-person |  | La wok-po wok hard. |
 | wok-rod | /wok.rod/ | noun | sidewalk | walk + road |  | Wok on la wok-rod, no la big-rod. |
-| wok-tebul | /wok.te.bul/ | noun | desk | work + table |  | Mi rit at la wok-tebul. |
 | woka | /wo.ka/ | verb | to walk |  | woka-mem | Mi wok la parke-to. → I walk in the park. |
 | woka-mem | /wo.ka.mem/ | noun | RAM | working + memory |  | La woka-mem es 16 giga. |
 | wond-kover | /wond.ko.ver/ | noun | bandage | wound + cover |  | Put un wond-kover on la kut. |

@@ -81,7 +81,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **long-ceir** | /long.seir/ | noun | sofa / couch | long + chair | Wi sit on la long-ceir. |
-| **wok-tebul** | /wok.te.bul/ | noun | desk | work + table | Mi rit at la wok-tebul. |
+| **werk-tebul** | /werk.te.bul/ | noun | desk | work + table | Mi rit at la werk-tebul. |
 | **flor-kover** | /flor.ko.ver/ | noun | carpet / rug | floor + cover | La flor-kover es soft. |
 | **slip-kover** | /slip.ko.ver/ | noun | blanket | sleep + cover | La slip-kover es warm. |
 | **si-glasi** | /si.gla.si/ | noun | mirror | see + glass | Mi si mi-self in la si-glasi. |
@@ -217,11 +217,11 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 
 ## Society & Work
 
-> Batch 5. Committee-reviewed + verified. Dropped dups (vota/serva/taksa/profita/sava/trada → vote/serv/taks/profit/sav/trid; smol-siti → vilaj) + redundant loans (koin/salari → metal-moni/wok-moni). Key fix: rul = "to travel" in base, so backfilled rula = "to rule/govern" and used rula-grup (government), rula-chuz (election). Systemic note: existing rul-po/naid-rul-po already misuse rul as "rule" — pre-existing inconsistency to reconcile later. Highlights: no-fren=enemy, gud-giv/bad-giv=reward/punishment, rich-nes/poor-nes.
+> Batch 5. Committee-reviewed + verified. Dropped dups (vota/serva/taksa/profita/sava/trada → vote/serv/taks/profit/sav/trid; smol-siti → vilaj) + redundant loans (koin/salari → metal-moni/werk-moni). Key fix: rul = "to travel" in base, so backfilled rula = "to rule/govern" and used rula-grup (government), rula-chuz (election). Systemic note: existing rul-po/naid-rul-po already misuse rul as "rule" — pre-existing inconsistency to reconcile later. Highlights: no-fren=enemy, gud-giv/bad-giv=reward/punishment, rich-nes/poor-nes.
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **wok-moni** | /wok.mo.ni/ | noun | wage / salary | work + money | La wok-moni kom evri mont. |
+| **werk-moni** | /werk.mo.ni/ | noun | wage / salary | work + money | La werk-moni kom evri mont. |
 | **paper-moni** | /pe.per.mo.ni/ | noun | banknote | paper + money | Mi pei wit paper-moni. |
 | **metal-moni** | /me.tal.mo.ni/ | noun | coin | metal + money | La metal-moni es smol. |
 | **rich-nes** | /ritc.nes/ | noun | wealth | rich + -nes | La king hav gret rich-nes. |
@@ -906,7 +906,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **investa** | /in.ves.ta/ | verb | to invest | loan | Investa yu muni wel. |
 | **far-sel** | /far.sel/ | verb/noun | to export | far + sell | La kantri far-sel rice. |
 | **far-bai** | /far.bai/ | verb/noun | to import | far + buy | Wi far-bai kar from far kantri. |
-| **wok-grup** | /wok.grup/ | noun | union (labor) | work + group | La wok-grup fait for fera wej. |
+| **werk-grup** | /werk.grup/ | noun | union (labor) | work + group | La werk-grup fait for fera wej. |
 | **straika** | /strai.ka/ | noun | strike (labor) | loan | La straika last tri dei. |
 | **trita** | /tri.ta/ | noun | treaty | loan | La tu kantri sain un trita. |
 | **visa** | /vi.sa/ | noun | visa | loan | Yu nid un visa tu enter. |
@@ -977,7 +977,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **forbida** | /for.bi.da/ | verb | to forbid | loan | La rul forbida run in la hous. |
 | **rekwesta** | /re.kwes.ta/ | verb/noun | to request | loan | Mi rekwesta yu help. |
 | **bega** | /be.ga/ | verb | to beg | loan | La por-po bega for fud. |
-| **dimanda** | /di.man.da/ | verb | to demand | loan | La wok-grup dimanda fera wej. |
+| **dimanda** | /di.man.da/ | verb | to demand | loan | La werk-grup dimanda fera wej. |
 | **ofa** | /o.fa/ | verb/noun | to offer / offer | loan | Li ofa mi un kap of ti. |
 | **rejeta** | /re.je.ta/ | verb | to reject | loan | La hed-po rejeta la plan. |
 | **glansa** | /glan.sa/ | verb/noun | to glance | loan | Mi glansa at la klok. |
@@ -1036,7 +1036,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **koleja** | /ko.le.ja/ | noun | college | loan | Aftr skol, li go tu koleja. |
 | **lern-testa** | /lern.tes.ta/ | noun | exam | learn + test | La lern-testa es next wik. |
 | **lern-skor** | /lern.skor/ | noun | grade / mark | learn + score | Mi lern-skor es hai. |
-| **hom-wok** | /hom.wok/ | noun | homework | home + work | Mi du mi hom-wok at noit. |
+| **hom-werk** | /hom.werk/ | noun | homework | home + work | Mi du mi hom-werk at noit. |
 | **esfera** | /es.fe.ra/ | noun | sphere | loan | La ball es un esfera. |
 | **kuba** | /ku.ba/ | noun | cube | loan | La ais kom in un kuba. |
 | **kona** | /ko.na/ | noun | cone | loan | La ais-kriam es in un kona. |
@@ -1097,7 +1097,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **priti** | /pri.ti/ | adj | pretty | loan | La priti flauor open. |
 | **eleganta** | /e.le.gan.ta/ | adj | elegant | loan | She wer un eleganta dresa. |
 | **slima** | /sli.ma/ | adj | slim | loan | La slima kat pas tru la gap. |
-| **strong-bodi** | /strong.bo.di/ | adj | muscular | strong + body | La strong-bodi wok-po lift it. |
+| **strong-bodi** | /strong.bo.di/ | adj | muscular | strong + body | La strong-bodi werk-po lift it. |
 | **peila** | /pei.la/ | adj | pale | loan | Aftr la sik, li es peila. |
 | **tana** | /ta.na/ | adj | tan / tanned | loan | Aftr samr, her skin es tana. |
 | **no-hair** | /no.hair/ | adj | bald | not + hair | La old man es no-hair. |
@@ -1263,7 +1263,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **far-trou** | /far.trou/ | verb | to dispose / throw away | far + throw | Far-trou la old tin. |
 | **erd-kover** | /erd.ko.ver/ | verb | to bury | earth + cover | De erd-kover la deda animal. |
 | **apointa** | /a.poin.ta/ | verb | to appoint | loan | La king apointa un niu lida. |
-| **dismisa** | /dis.mi.sa/ | verb | to dismiss | loan | La boss dismisa la lazi wok-po. |
+| **dismisa** | /dis.mi.sa/ | verb | to dismiss | loan | La boss dismisa la lazi werk-po. |
 | **faina** | /fai.na/ | verb/noun | to fine / fine | loan | La juj faina li ten muni. |
 | **aresta** | /a.res.ta/ | verb | to arrest | loan | La law-keep-po aresta la stila-po. |
 | **akusa** | /a.ku.sa/ | verb | to accuse | loan | De akusa li of la krim. |
@@ -1423,7 +1423,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **long-era** | /long.e.ra/ | noun | epoch | long + era | La ais long-era last meni yeer. |
 | **midela-taim** | /mi.de.la.taim/ | noun | interval | middle + time | In la midela-taim, wi rest. |
 | **nof-po** | /nof.po/ | noun | acquaintance | know + person | Li es un nof-po, no un dep-fren. |
-| **wok-fren** | /wok.fren/ | noun | colleague | work + friend | Mi wok-fren help mi. |
+| **werk-fren** | /werk.fren/ | noun | colleague | work + friend | Mi werk-fren help mi. |
 | **fait-po** | /fait.po/ | noun | rival | fight + person | La tu tim es fait-po. |
 | **help-fren** | /help.fren/ | noun | ally | help + friend | In war, wi nid help-fren. |
 | **folo-po** | /fo.lo.po/ | noun | follower | follow + person | La lida hav meni folo-po. |
@@ -1657,7 +1657,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **intervi** | /in.ter.vi/ | noun | interview | loan | La job intervi es tumoro. |
 | **pikinika** | /pi.ki.ni.ka/ | noun | picnic | loan | Wi hav un pikinika in la park. |
 | **agen-gada** | /a.gen.ga.da/ | noun | reunion | again + gather | La famili agen-gada evri yeer. |
-| **wok-end** | /wok.end/ | noun | retirement | work + end | Aftr wok-end, li rest. |
+| **werk-end** | /werk.end/ | noun | retirement | work + end | Aftr werk-end, li rest. |
 | **kraud-fajt** | /kraud.fait/ | noun | riot | crowd + fight | La kraud-fajt brek la windo-en. |
 | **selebra-taim** | /se.le.bra.taim/ | noun | celebration | celebrate + time | La win bring un big selebra-taim. |
 | **net-leter** | /net.le.ter/ | noun | email | net + letter | Mi send yu un net-leter. |
@@ -1686,7 +1686,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **kredita** | /kre.di.ta/ | noun | credit | loan | She bai wit kredita. |
 | **moni-gro** | /mo.ni.gro/ | noun | interest (finance) | money + grow | La bank pei moni-gro. |
 | **stor-moni** | /stor.mo.ni/ | noun | savings | store + money | Kip stor-moni for hard taim. |
-| **bonsa** | /bon.sa/ | noun | bonus | loan | La wok-po get un bonsa. |
+| **bonsa** | /bon.sa/ | noun | bonus | loan | La werk-po get un bonsa. |
 | **fia** | /fi.a/ | noun | fee | loan | La skol fia es hai. |
 | **bak-moni** | /bak.mo.ni/ | noun | refund | back + money | La stor giv mi bak-moni. |
 | **diskaunta** | /dis.kaun.ta/ | noun | discount | loan | La stor hav un big diskaunta. |

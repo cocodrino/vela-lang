@@ -334,17 +334,25 @@ Li kom la lern-hous-to.     → She comes from the school.    (-to alone)
 
 ## 5. Adjectives
 
-### 5.1 Adjective Form
+### 5.1 Adjective Form — attributive vs. predicative (R10)
 
-Adjectives are used as bare roots, placed before the noun:
+An adjective has two shapes, chosen by position — the same *bound = bare / free = citation* logic as verbs (R8) and compounds (R7):
 
-| Base | Adjective | English |
-|------|-----------|---------|
-| big | big | big |
-| strong | strong | strong |
-| happi | hapi | happy |
-| nais | nais | nice |
-| simpli | simpli | simple |
+- **Attributive** (directly **before the noun**) → **bare root**: the coda is shielded by the following noun.
+- **Predicative** (standing alone **after `es`**) → **citation form** (root + citation vowel): a phrase-final hard coda needs the vowel to stay (C)V-legal.
+
+Adjectives that are vowel-final or end in a soft coda {n m l r s ŋ} never change.
+
+| English | Attributive (before noun) | Predicative (after es) |
+|---------|---------------------------|------------------------|
+| big | **big** man | La man es **biga** |
+| good | **gud** fren | La fren es **guda** |
+| old | **old** hous | La hous es **olda** |
+| hot | **hot** dei | La dei es **hota** |
+| small *(soft coda)* | **smol** child | La child es **smol** |
+| happy *(vowel-final)* | **hapi** child | La child es **hapi** |
+
+**Rule of thumb:** the dictionary lists the citation form (`biga`, `guda`, `hota`); drop the final vowel when the adjective sits right before its noun.
 
 ### 5.2 Adjective Position
 

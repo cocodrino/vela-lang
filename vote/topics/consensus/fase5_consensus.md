@@ -208,3 +208,11 @@ Ejemplos migrados del corpus pre-R7: `es sik`→`es sika`, `es afred`→`es afre
 ### R9 addendum — `kolor` (colour) formalizado (2026-07-28)
 
 Voto 2-1: **kolor** /ko.lor/ (morfólogo + semantista) sobre `kala` (fonólogo, temía confusión con `kolar`=collar). Decisivo: `kolor` YA se usaba en decenas de ejemplos del léxico ("Wat kolor es la kar?", "La flaga hav tri kolor", "Sorta la klota bai kolor", "vivida kolor") sin entrada propia — igual que `hier`, solo faltaba formalizarlo (R8: corpus manda). Coda /r/ blanda → sin alternancia cita/composición. Compuestos: `kolor-ful`, `no-kolor`. Añadido a LEXICON_BASE §Nature.
+
+## R11 — `werka` (to work), resolviendo la colisión walk/work (ratificada 2-1, 2026-07-28)
+
+Descubierto al escribir Learning-VELA: `woka` = to WALK (única entrada), pero "to work" no tenía palabra propia — el corpus usaba `wok` para AMBOS (`Mi wok la parke-to`=walk; `De wok la ofis-to`=work) y compuestos `wok-po`/`hom-wok`=worker/homework. Homónimo inaceptable para dos verbos de la misma clase (morfólogo).
+
+Voto 2-1: **werka** /wer.ka/ (morfólogo + fonólogo) sobre `labora` (semantista, más internacional pero 3 sílabas y cercana a woka). El fonólogo refutó el temor de confusión: /e/ vs /o/ se distinguen sin esfuerzo; `werka` (2 sílabas) es eficiente.
+
+Aplicado: `werka` añadido a LEXICON_BASE (`werk-a/werk-ed/werk-wil`). Compuestos de WORK realineados `wok-→werk-`: `werk-po` (worker), `hom-werk` (homework), `werk-moni` (salary), `werk-grup` (union), `werk-fren` (colleague), `werk-end` (retirement), `werk-tebul` (desk). Se mantienen intactos `woka` (walk) y `wok-rod` (sidewalk, walk+road). Learning-VELA L1 corregido (`werka lern-hous-to`, `werk-ed ol la dei`).

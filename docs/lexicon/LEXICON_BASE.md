@@ -206,6 +206,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **kom-hom** | /kom.hom/ | to return home | kom-hom-a | kom-hom-ed | kom-hom-wil | Mi kom-hom nau. → I come home now. |
 | **livi** | /li.vi/ | to live | liv-a | liv-ed | liv-wil | Wi liv la siti-to. → We live in the city. |
 | **woka** | /wo.ka/ | to walk | wok-a | wok-ed | wok-wil | Mi wok la parke-to. → I walk in the park. |
+| **werka** | /wer.ka/ | to work | werk-a | werk-ed | werk-wil | Mi werk la ofis-to. → I work at the office. |
 | **rul** | /rul/ | to travel | rul-a | rul-ed | rul-wil | Wi rul tu la naid. → We travel to the nation. |
 | **ran** | /ran/ | to run | ran-a | ran-ed | ran-wil | La man ran. → The man runs. |
 | **jumpa** | /jum.pa/ | to jump | jamp-a | jamp-ed | jamp-wil | Li jamp over la bond. → She jumps over the bond. |
@@ -587,7 +588,7 @@ Social and legal entities (not professions):
 | **muzik-po** | /muzik.po/ | musician | music-person | La muzik-po plei la muzik. |
 | **kar-po** | /kar.po/ | driver | car-person | La kar-po driv la kar. |
 | **hed-po** | /hed.po/ | boss / leader | head-person | La hed-po manaj la wok. |
-| **wok-po** | /wok.po/ | worker | work-person | La wok-po wok hard. |
+| **werk-po** | /werk.po/ | worker | work-person | La werk-po wok hard. |
 | **fis-kat-po** | /fis.kat.po/ | fisherman | fish-catch-person | La fis-kat-po kat fisi. |
 | **naid-rul-po** | /nait.rul.po/ | president | nation-rule-person | La naid-rul-po rul la naishon. |
 | **moni-keep-po** | /moni.kip.po/ | treasurer / accountant | money-keep-person | La moni-keep-po keep la moni. |
