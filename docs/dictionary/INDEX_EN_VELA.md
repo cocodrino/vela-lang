@@ -5,8 +5,11 @@
 | English | VELA | IPA |
 |---------|------|-----|
 | 0 | zero | /zero/ |
+| 1 | wan | /wan/ |
 | 10 | ten | /ten/ |
+| 11 | ten-wan | /ten.wan/ |
 | 12 | ten-tu | /ten.tu/ |
+| 13 | ten-tri | /ten.tri/ |
 | 14 | ten-kwatro | /ten.kwa.tro/ |
 | 15 | ten-faiv | /ten.faiv/ |
 | 16 | ten-siks | /ten.siks/ |
@@ -14,6 +17,7 @@
 | 18 | ten-eit | /ten.eit/ |
 | 19 | ten-nain | /ten.nain/ |
 | 2 | tu | /tu/ |
+| 3 | tri | /tri/ |
 | 4 | kwatro | /kwa.tro/ |
 | 5 | faiva | /fai.va/ |
 | 6 | siksa | /sik.sa/ |
@@ -957,6 +961,7 @@
 | helper / support | help-hand | /help.hand/ |
 | hem | hema | /he.ma/ |
 | herb | kuk-plant | /kuk.plant/ |
+| here | hier | /hi.er/ |
 | high pitch | hai-sonj | /hai.sonj/ |
 | high voice / treble | hai-vois | /hai.vois/ |
 | highway | big-rod | /big.rod/ |
@@ -1199,6 +1204,7 @@
 | man / person | man | /man/ |
 | manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
+| many | meni | /me.ni/ |
 | map | mapa | /ma.pa/ |
 | maple | meipla | /mei.pla/ |
 | marathon | long-ran | /long.ran/ |
@@ -1854,6 +1860,7 @@
 | solid | solida | /so.li.da/ |
 | solo | solo | /so.lo/ |
 | solution | solushon | /solushon/ |
+| some | som | /som/ |
 | someday / future day | futur-dei | /fu.tur.dei/ |
 | sometimes | somtaim | /somtaim/ |
 | son | son | /son/ |
@@ -2017,6 +2024,7 @@
 | then | den | /den/ |
 | theory | teori | /te.o.ri/ |
 | therapy | terapia | /te.ra.pia/ |
+| there | dar | /dar/ |
 | thermal | termal | /ter.mal/ |
 | these | dese | /de.se/ |
 | they | de | /de/ |
@@ -2047,7 +2055,6 @@
 | tiny | smol-smol | /smol.smol/ |
 | tire | taira | /tai.ra/ |
 | tired | tireda | /ti.re.da/ |
-| tired (short) | tri | /tri/ |
 | tissue | tisua | /ti.su.a/ |
 | title | taitel | /tai.tel/ |
 | to / at | a | /a/ |
@@ -2663,6 +2670,7 @@
 | tomorrow | tomoro | /tomoro/ |
 | tone / shade | tona | /to.na/ |
 | tongue | tung | /tun/ |
+| too / also | alo | /a.lo/ |
 | tool | tool | /tul/ |
 | tooth/teeth | te | /te/ |
 | toothache | te-eika | /te.ei.ka/ |
@@ -2755,6 +2763,7 @@
 | verdict | verdita | /ver.di.ta/ |
 | verse | poem-lain | /po.em.lain/ |
 | version | edi-shon | /e.di.shon/ |
+| very | veri | /ve.ri/ |
 | vest | vesta | /ves.ta/ |
 | vibrate / vibration | vibra | /vi.bra/ |
 | victim | vikima | /vi.ki.ma/ |

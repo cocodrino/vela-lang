@@ -163,3 +163,25 @@ Aplicado 2026-07-26: 273 raíces de contenido normalizadas a forma de cita; comp
 - **Migración de corpus pendiente:** ejemplos con presente de coda dura pelado (`Mi mak…`, `Mi luv…`, `Mi hav…`) → forma de cita (`Mi maka…`, `Mi luva…`, `Mi hava…`). Raíces legales (`si/go/wan/tok`) quedan intactas. Afecta ~200 ejemplos + el generador de ejemplos del diccionario.
 
 **Argumentos clave:** presente no marcado = default translingüístico (inglés/mandarín/criollos) y SVO ya desambigua (semantista); R7 y presente pasan a ser UN sistema en vez de dos reglas (morfólogo); todo presente queda (C)V-legal sin reintroducir codas duras (fonólogo).
+
+---
+
+## R9 — Acuñación de 6 palabras-función + fix de números (ratificada 2026-07-28)
+
+El curso Learning-VELA nivel-1 reveló huecos en vocabulario-función básico. El comité (pi-29881, pi-26905, pi-34067) acuñó 6 palabras tras dos rondas de voto:
+
+| English | VELA | AFI | Voto | Nota |
+|---|---|---|---|---|
+| here | **hier** | /hi.er/ | unánime | ya atestiguada en corpus ("Mi wok hier", "far from hier") — formalizada |
+| there | **dar** | /dar/ | 2-1 | átomo corto para deíctico; "der" rechazado (colisión auditiva con `de`=they); "dat-ples" rechazado por longitud |
+| many | **meni** | /me.ni/ | unánime | vocal-final, sin coda dura |
+| some | **som** | /som/ | 2-1 | partitivo, función propia no cubierta por un+plural |
+| very | **veri** | /ve.ri/ | 2-1 | intensificador moderado; distinto de reduplicación (big-big = extremo/scorching) |
+| too/also | **alo** | /a.lo/ | unánime | "olso" rechazado (coda /l/ interna ilegal); "tu" rechazado (homonimia triple con 2/you) |
+
+**Fix de datos en LEXICON_BASE:**
+- `tri` estaba glosado como "tired (short)" en la sección de emociones — ERROR. `tired` = `tireda`. `tri` = **three** (número), como ya lo usaban los compuestos `tri-ten`=30, `tri-taim`, `tri-korner`.
+- Números **1 (`wan`)** y **3 (`tri`)** faltaban como entrada suelta en la tabla (solo existían dentro de compuestos). Añadidos, más `ten-wan`=11, `ten-tri`=13.
+- Homonimia resultante `wan` (1 / to want) es tolerada por R8 (contexto desambigua, cf. inglés two/too/to). El generador la reporta como duplicado esperado.
+
+Validación: 0 errores fonotácticos, 2896 entradas.

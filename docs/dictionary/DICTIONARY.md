@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2887. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2896. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -63,6 +63,7 @@
 | aljebra | /al.je.bra/ | noun | algebra |  |  | loan |
 | alji | /al.ji/ | noun | algae |  |  | loan |
 | alkalin | /al.ka.lin/ | noun/adj | base / alkaline | adapted loan |  | La alkalin neutraliz la asida. |
+| alo | /a.lo/ |  | too / also |  |  | Mi es hapi alo. |
 | alonga | /a.lon.ga/ | prep | along |  |  | loan |
 | ambisa | /am.bi.sa/ | adj | ambitious |  |  | loan |
 | ameiza | /a.mei.za/ | adj | amazed |  |  | loan |
@@ -223,7 +224,7 @@
 | bifor-eat | /bi.for.eat/ | noun | appetizer | bifor (before) + eat |  | before + eat |
 | bifor-taim | /bi.for.taim/ | adv | beforehand | bifor (before) + taim (time) |  | before + time |
 | bifor-tal | /bi.for.tal/ | verb | to forecast | bifor (before) + tal (to tell) |  | before + tell |
-| bifor-wan | /bi.for.wan/ | adj | previous | bifor (before) + wan (to want) |  | before + one |
+| bifor-wan | /bi.for.wan/ | adj | previous | bifor (before) + wan (1) |  | before + one |
 | big-angri | /big.an.gri/ | adj | furious | big + angri (angry) |  | big + angry |
 | big-bagi | /big.ba.gi/ | noun | sack | big + bagi (bag) |  | big + bag |
 | big-big | /big.big/ | adj | vast | big + big |  | big + big |
@@ -431,6 +432,7 @@
 | danjer | /dan.jer/ | noun | danger | loan |  | Der es danjer in la watre. |
 | dansi | /dan.si/ | verb | to dance |  | dansi-po | Wi dansi evri noite. → We dance every night. |
 | dansi-po | /dan.si.po/ | noun | dancer | dance + -po |  | La dansi-po muv soft. |
+| dar | /dar/ |  | there |  |  | La kar es dar. |
 | dark-mak | /dark.mak/ | verb | to darken | dark + mak |  | dark + make |
 | dark-skai | /dark.skai/ | noun | overcast sky | dark + skai (sky) |  | dark + sky |
 | darka | /dar.ka/ |  | dark |  |  | la dark noite |
@@ -764,7 +766,7 @@
 | folia | /fo.lia/ | noun | leaf | loan (Latin) |  | La folia es grin in spring. |
 | folo | /folo/ | verb | to follow |  | folo-po, folo-wan | Mi folo yu. → I follow you. |
 | folo-po | /fo.lo.po/ | noun | follower | folo (to follow) + po |  | follow + person |
-| folo-wan | /fo.lo.wan/ | adj | next | folo (to follow) + wan (to want) |  | follow + one |
+| folo-wan | /fo.lo.wan/ | adj | next | folo (to follow) + wan (1) |  | follow + one |
 | fols-wod | /fols.wod/ | noun | lie (statement) | false + word |  | No sei fols-wod. |
 | folsa | /fol.sa/ |  | false |  |  | La klaim es fols. |
 | folta-fiksa | /fol.ta.fik.sa/ | verb | debug | fault + fix |  | Mi folta-fiksa la koda. |
@@ -1016,6 +1018,7 @@
 | herta | /her.ta/ |  | heart |  |  | La hert bit. |
 | hevi | /hevi/ |  | heavy |  | hevi-meis | la hevi box |
 | hevi-meis | /he.vi.meis/ | verb | to weigh | hevi (heavy) + meis (to measure) |  | heavy + measure |
+| hier | /hi.er/ |  | here |  |  | Mi wok hier. |
 | hikapa | /hi.ka.pa/ | verb | to hiccup |  |  | loan |
 | hil | /hil/ |  | hill |  | flata-hil, sanda-hil | Wi climb la hil. |
 | hinja | /hin.ja/ | noun | hinge |  |  | loan |
@@ -1642,6 +1645,7 @@
 | membersha | /mem.ber.sha/ | noun | membership |  |  | loan |
 | memori | /me.mo.ri/ | noun | memory | loan |  | Mi hav gud memori of dat dei. |
 | memoriza | /me.mo.ri.za/ | verb | to memorize |  |  | Mi memoriz la wod-en. → I memorize the words. |
+| meni | /me.ni/ |  | many |  |  | Mi hava meni fren-en. |
 | mental-helta | /men.tal.hel.ta/ | noun | mental health | mental + health |  | Mental-helta es importent as bodi-healt. |
 | mersi | /mer.si/ | noun | mercy |  |  | loan |
 | mesa | /me.sa/ | adj | messy |  | mesa-luk | loan |
@@ -2484,6 +2488,7 @@
 | solo | /so.lo/ | noun | solo |  |  | loan |
 | solushon | /solushon/ |  | solution |  |  | La solushon es esi. |
 | solva | /sol.va/ | verb | to solve |  |  | loan |
+| som | /som/ |  | some |  |  | Mi wan som watre. |
 | somtaim | /somtaim/ |  | sometimes |  |  | Wi kom somtaim. |
 | son | /son/ |  | son |  | son-bloka, son-daun, son-dei, son-flauor, son-lait, son-rais, son-sistam | La son wok. |
 | son-bloka | /son.blo.ka/ | noun | eclipse | sun + block |  | La son-bloka mak dark dei. |
@@ -2680,14 +2685,16 @@
 | tela | /te.la/ | noun | tail | loan |  | La dog wag la tela. |
 | tempa | /tem.pa/ | noun | tempo | adapted loan |  | La tempa of la sonj es fast. |
 | temperaturu | /tem.pe.ra.tu.ru/ |  | temperature |  |  | La temperaturu es hot. |
-| ten | /ten/ |  | 10 |  | ten-eit, ten-faiv, ten-kwatro, ten-nain, ten-seven, ten-siks, ten-tu |  |
+| ten | /ten/ |  | 10 |  | ten-eit, ten-faiv, ten-kwatro, ten-nain, ten-seven, ten-siks, ten-tri, ten-tu, ten-wan |  |
 | ten-eit | /ten.eit/ |  | 18 | ten (10) + eit |  |  |
 | ten-faiv | /ten.faiv/ |  | 15 | ten (10) + faiv |  |  |
 | ten-kwatro | /ten.kwa.tro/ |  | 14 | ten (10) + kwatro (4) |  |  |
 | ten-nain | /ten.nain/ |  | 19 | ten (10) + nain (9) |  |  |
 | ten-seven | /ten.seven/ |  | 17 | ten (10) + seven (7) |  |  |
 | ten-siks | /ten.siks/ |  | 16 | ten (10) + siks |  |  |
+| ten-tri | /ten.tri/ |  | 13 | ten (10) + tri (3) |  |  |
 | ten-tu | /ten.tu/ |  | 12 | ten (10) + tu (2) |  |  |
+| ten-wan | /ten.wan/ |  | 11 | ten (10) + wan (1) |  |  |
 | tenanta | /te.nan.ta/ | noun | tenant |  |  | loan |
 | tenis | /te.nis/ | noun | tennis |  |  | loan |
 | teori | /te.o.ri/ |  | theory |  |  |  |
@@ -2706,7 +2713,7 @@
 | tink-wei | /tink.wei/ | noun | opinion / viewpoint | think + way |  | Wat es yu tink-wei? |
 | tinka | /tin.ka/ | verb | to think |  |  | Mi tink so. → I think so. |
 | tip | /tip/ |  | type |  | chanja-tip | `lifa-tipa` |
-| tireda | /ti.re.da/ |  | tired |  |  | Mi es tri. |
+| tireda | /ti.re.da/ |  | tired |  |  | Mi es tireda. |
 | tisua | /ti.su.a/ | noun | tissue |  |  | loan |
 | tiuna | /ti.u.na/ | noun | tune |  |  | loan |
 | Tiuzdei | /tius.dei/ |  | Tuesday |  |  |  |
@@ -2752,9 +2759,9 @@
 | treisa | /trei.sa/ | noun/verb | trace |  |  | loan |
 | trembla | /trem.bla/ | verb | to tremble |  |  | loan |
 | trenda | /tren.da/ | noun | trend |  |  | loan |
-| tri | /tri/ |  | tired (short) |  | tri-korner, tri-taim | Mi es tri. |
+| tri | /tri/ |  | 3 |  | ten-tri, tri-korner, tri-taim |  |
 | tri-korner | /tri.kor.ner/ | noun | triangle | three + corner |  | La tri-korner hav tri said. |
-| tri-taim | /tri.taim/ | adv | triple / thrice | tri (tired (short)) + taim (time) |  | three + time |
+| tri-taim | /tri.taim/ | adv | triple / thrice | tri (3) + taim (time) |  | three + time |
 | trida | /tri.da/ | verb | to trade |  |  | De trad wit es otfr. → They trade with each other. |
 | tripa | /tri.pa/ | noun | trip | loan |  | Wi mak un tripa tu la mar. |
 | trita | /tri.ta/ | noun | treaty |  |  | loan |
@@ -2782,7 +2789,7 @@
 | tulipa | /tu.li.pa/ | noun | tulip |  |  | loan |
 | tung | /tun/ |  | tongue |  |  | La tung tas. |
 | tunnel | /tunnel/ |  | tunnel |  |  | Wi go tru la tunnel. |
-| tuo | /tuo/ |  | although |  |  | Mi wok tuo mi es tri. |
+| tuo | /tuo/ |  | although |  |  | Mi wok tuo mi es tireda. |
 | tura | /tu.ra/ | noun | tour |  |  | loan |
 | turkoisa | /tur.koi.sa/ | adj | turquoise |  |  | loan |
 | turna | /tur.na/ | verb | to turn | loan |  | Turna la key. |
@@ -2820,6 +2827,7 @@
 | veipa | /vei.pa/ | noun | vapor |  |  | loan |
 | veisa | /vei.sa/ | noun | vase |  |  | loan |
 | verdita | /ver.di.ta/ | noun | verdict |  |  | loan |
+| veri | /ve.ri/ |  | very |  |  | La dei es veri hota. |
 | vesta | /ves.ta/ | noun | vest |  |  | loan |
 | vibra | /vi.bra/ | verb/noun | vibrate / vibration | adapted loan (+/a/) |  | La string vibra and mak sonj. |
 | vidio | /vi.dio/ |  | video | movi |  | Wi wotch vidio. |
@@ -2866,9 +2874,10 @@
 | wakosa | /wa.ko.sa/ | verb | to wax |  |  | loan |
 | wal | /wal/ |  | wall |  |  | La wal es wit. |
 | waleta | /wa.le.ta/ | noun | wallet |  |  | — |
-| wan | /wan/ | verb | to want |  | bifor-wan, folo-wan, wan-mak, wan-taim | Mi wan kom. → I want to come. |
-| wan-mak | /wan.mak/ | verb | to unite | wan (to want) + mak |  | one + make |
-| wan-taim | /wan.taim/ | adv | once | wan (to want) + taim (time) |  | one + time |
+| wan | /wan/ | verb | to want |  | bifor-wan, folo-wan, ten-wan, wan-mak, wan-taim | Mi wan kom. → I want to come. |
+| wan | /wan/ |  | 1 |  | bifor-wan, folo-wan, ten-wan, wan-mak, wan-taim |  |
+| wan-mak | /wan.mak/ | verb | to unite | wan (1) + mak |  | one + make |
+| wan-taim | /wan.taim/ | adv | once | wan (1) + taim (time) |  | one + time |
 | wanda | /wan.da/ | verb | to wonder | loan |  | Mi wanda wai la skai es blu. |
 | wandra | /wan.dra/ | verb | to wander |  |  | loan |
 | war | /war/ | noun | war | loan | war-fajt-po | La war bring deth and pain. |

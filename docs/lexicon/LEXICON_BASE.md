@@ -80,7 +80,20 @@
 | **wen** | /wen/ | when | Wen yu kom, mi si yu. | When you come, I see you. |
 | **den** | /den/ | then | If yu no kom, den mi go. | If you don't come, then I go. |
 | **so** | /so/ | so / therefore | Mi es hapi, so mi tok. | I am happy, so I speak. |
-| **tuo** | /tuo/ | although | Mi wok tuo mi es tri. | I work although I am tired. |
+| **tuo** | /tuo/ | although | Mi wok tuo mi es tireda. | I work although I am tired. |
+
+### Adverbs and Quantifiers
+
+Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
+
+| Word | AFI | English | Example | English |
+|------|-----|---------|---------|---------|
+| **hier** | /hi.er/ | here | Mi wok hier. | I work here. |
+| **dar** | /dar/ | there | La kar es dar. | The car is there. |
+| **meni** | /me.ni/ | many | Mi hava meni fren-en. | I have many friends. |
+| **som** | /som/ | some | Mi wan som watre. | I want some water. |
+| **veri** | /ve.ri/ | very | La dei es veri hota. | The day is very hot. |
+| **alo** | /a.lo/ | too / also | Mi es hapi alo. | I am happy too. |
 
 ### Question Words
 
@@ -443,8 +456,7 @@
 | **kongidenta** | /kon.gi.den.ta/ | confident | |
 | **shy** | /sai/ | shy | |
 | **lonli** | /lonli/ | lonely | |
-| **tireda** | /ti.re.da/ | tired | Mi es tri. |
-| **tri** | /tri/ | tired (short) | Mi es tri. |
+| **tireda** | /ti.re.da/ | tired | Mi es tireda. |
 | **hagri** | /hagri/ | hungry | Mi es hagri. |
 | **torsti** | /torsti/ | thirsty | Mi es torsti. |
 | **sika** | /si.ka/ | sick | La man es sik. |
@@ -793,7 +805,9 @@ Social and legal entities (not professions):
 | Word | AFI | English | Word | AFI | English |
 |------|-----|---------|------|-----|---------|
 | **zero** | /zero/ | 0 | **ten** | /ten/ | 10 |
+| **wan** | /wan/ | 1 | **ten-wan** | /ten.wan/ | 11 |
 | **tu** | /tu/ | 2 | **ten-tu** | /ten.tu/ | 12 |
+| **tri** | /tri/ | 3 | **ten-tri** | /ten.tri/ | 13 |
 | **kwatro** | /kwa.tro/ | 4 | **ten-kwatro** | /ten.kwa.tro/ | 14 |
 | **faiva** | /fai.va/ | 5 | **ten-faiv** | /ten.faiv/ | 15 |
 | **siksa** | /sik.sa/ | 6 | **ten-siks** | /ten.siks/ | 16 |
