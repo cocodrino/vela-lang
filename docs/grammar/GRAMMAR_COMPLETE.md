@@ -703,11 +703,11 @@ A relative clause is introduced by the **question word that matches the shared n
 
 ### 11.5 No Passive Voice
 
-VELA has no dedicated passive. Use the generic subject **pipel** (people) with a normal active verb for an impersonal/passive sense:
+VELA has no dedicated passive. Use the generic subject **pipol** (people) with a normal active verb for an impersonal/passive sense:
 
 ```
-Pipel mak la kar in Jerman.    → The car is made in Germany. (lit. people make…)
-Pipel toka VELA hier.          → VELA is spoken here.
+Pipol mak la kar in Jerman.    → The car is made in Germany. (lit. people make…)
+Pipol toka VELA hier.          → VELA is spoken here.
 ```
 
 ---

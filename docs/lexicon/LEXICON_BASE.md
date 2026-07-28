@@ -65,7 +65,7 @@
 | **aronda** | /a.ron.da/ | around | Wi wok arond la siti. | We work around the city. |
 | **insaida** | /in.sai.da/ | inside | La buk es insaid la box. | The book is inside the box. |
 | **autsida** | /aut.si.da/ | outside | Li liv autsid la siti. | She lives outside the city. |
-| **neer** | /neer/ | near | La lern-hous es neer la park. | The school is near the park. |
+| **nera** | /ne.ra/ | near | La lern-hous es nera la park. | The school is near the park. |
 | **far** | /far/ | far | La siti es far from hier. | The city is far from here. |
 
 ### Conjunctions
@@ -161,11 +161,11 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **Maji** | /maji/ | May |
 | **Juni** | /juni/ | June |
 | **Julai** | /julai/ | July |
-| **Agost** | /agost/ | August |
-| **September** | /septembr/ | September |
-| **Oktober** | /oktobr/ | October |
-| **November** | /novembr/ | November |
-| **Desember** | /decembr/ | December |
+| **Agosta** | /a.gos.ta/ | August |
+| **Septembra** | /sep.tem.bra/ | September |
+| **Oktobra** | /ok.to.bra/ | October |
+| **Novembra** | /no.vem.bra/ | November |
+| **Desembra** | /de.sem.bra/ | December |
 
 ---
 
@@ -402,7 +402,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **hota** | /ho.ta/ | hot | la hot sup | the hot soup |
 | **kol** | /kol/ | cold | la kol win | the cold wind |
 | **kwikli** | /kwikli/ | quick | la kwikli man | the quick man |
-| **louuda** | /louu.da/ | loud | la loud nois | the loud noise |
+| **louda** | /lou.da/ | loud | la loud nois | the loud noise |
 | **kwaiata** | /kwaia.ta/ | quiet | la kwaiat siti | the quiet city |
 | **darka** | /dar.ka/ | dark | la dark noite | the dark night |
 | **simpli** | /simpli/ | simple | la simpli sistem | the simple system |
@@ -515,7 +515,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **stomoka** | /sto.mo.ka/ | stomach | | Mi-se stomok es hagri. |
 | **liver** | /liver/ | liver | | | 
 | **kidni** | /kidni/ | kidney | | 
-| **tung** | /tun/ | tongue | | La tung tas. |
+| **tun** | /tun/ | tongue | | La tun tas. |
 | **te** | /te/ | tooth/teeth | | Mi hav thirty-te. |
 | **berda** | /ber.da/ | beard | | La man hav berd. |
 | **babi-fas** | /babi.fas/ | cheek | baby-face | |
@@ -525,7 +525,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **famili** | /famili/ | family | ← Latin, recogn. all | La famili es big. |
-| **person** | /per.son/ | person (any gender) | ← neutral, English root; plural person-en; collective = pipel | Un person kom. |
+| **person** | /per.son/ | person (any gender) | ← neutral, English root; plural person-en; collective = pipol | Un person kom. |
 | **man** | /man/ | man (adult male) | | Un man kom. |
 | **wuman** | /wuman/ | woman (adult female) | | La wuman es nais. |
 | **childa** | /chil.da/ | child | | Un child ple. |
@@ -550,7 +550,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **wifa** | /wi.fa/ | wife | | Mi-se wif es nais. |
 | **hasbanda** | /has.ban.da/ | husband | | Mi-se hasband wok. |
 | **neiber** | /neiber/ | neighbor | | Mi-se neiber es fri. |
-| **pipel** | /pi.pi.el/ | people | pp-le = many persons | La pipel es big. |
+| **pipol** | /pi.pol/ | people | pp-le = many persons | La pipol es big. |
 | **man-en** | /ma.nen/ | men | plural (man + -en) | De man-en wok. |
 | **wuman-en** | /wu.ma.nen/ | women | plural (wuman + -en) | Dese wuman-en es nais. |
 | **child-en** | /tchild.en/ | children | plural (child + -en) | Dese child-en ple. |
@@ -579,7 +579,7 @@ Social and legal entities (not professions):
 | **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lern child-en. |
 | **stodi-po** | /stodi.po/ | student / learner | study-person | La stodi-po stodi evri dei. |
 | **sik-fix-po** | /sik.fik.po/ | doctor | fix-sick-person | La sik-fix-po fix la sik-nes. |
-| **food-mak-po** | /fud.mak.po/ | chef / cook | food-make-person | La food-mak-po mak gud food. |
+| **food-mak-po** | /food.mak.po/ | chef / cook | food-make-person | La food-mak-po mak gud food. |
 | **plant-grow-po** | /plant.grou.po/ | farmer | plant-grow-person | La plant-grow-po grow crop-en. |
 | **word-mak-po** | /word.mak.po/ | writer | word-make-person | La word-mak-po rit la buk. |
 | **biju-mak-po** | /biju.mak.po/ | artist | beauty-make-person | La biju-mak-po maki beautiful art. |
@@ -840,7 +840,7 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Example |
 |------|-----|---------|---------|
-| **yeer** | /jir/ | year | Wan yeer hav ten-tu mont-en. |
+| **jir** | /jir/ | year | Wan jir hav ten-tu mont-en. |
 | **monta** | /mon.ta/ | month | Wot mont es nau? |
 | **dei** | /dei/ | day | Nau-dei mi wok. |
 | **sekonda** | /se.kon.da/ | second | 
@@ -854,7 +854,7 @@ Social and legal entities (not professions):
 | **samra** | /sam.ra/ | summer | La sun es strong in samr. |
 | **fol** | /fol/ | fall / autumn | La leaf-en fal in fol. |
 | **winter** | /winter/ | winter | La snow fal in winter. |
-| **centuri** | /senturi/ | century | Wan centuri es hundred yeer-en. |
+| **centuri** | /senturi/ | century | Wan centuri es hundred jir-en. |
 
 ### Communication and Media
 
@@ -1158,7 +1158,7 @@ Social and legal entities (not professions):
 | **fridom** | /fri.dom/ | freedom | | Wi luv fridom |
 | **ikualiti** | /i.kua.li.ti/ | equality | | La ikualiti es importent. |
 | **demokrasi** | /de.mo.kra.si/ | democracy | | La demokrasi es gud. |
-| **pis** | /pis/ | peace | | La pis es importent. |
+| **pisi** | /pisi/ | peace | | La pisi es importent. |
 | **wor** | /wor/ | war | | La wor es bad. |
 | **drim** | /drim/ | dream | | Mi hav drim. |
 | **laka** | /la.ka/ | luck | | Mi hav gud lak. |

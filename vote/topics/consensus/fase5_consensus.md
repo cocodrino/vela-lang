@@ -257,15 +257,37 @@ Coinado para Learning-VELA Level 4 (B2). El comité (pi-29881, pi-26905, pi-3406
 
 ---
 
-## R14 — Neutralidad de género: `person` / `pipel` reemplazan a `man`=persona (ratificada 2026-07-28)
+## R14 — Neutralidad de género: `person` / `pipol` reemplazan a `man`=persona (ratificada 2026-07-28)
 
 **Problema (planteado por el usuario):** `man` estaba glosado "man / person" — lo masculino como default de lo humano (el sesgo inglés `mankind`/`manpower`). Un idioma nuevo pensado para todos no debe arrastrarlo.
 
 **Decisión:**
 - **`person`** /per.son/ = persona (cualquier género), plural **`person-en`**. Raíz inglesa (base de VELA), coda /n/ legal (precedentes `prison`, `reason`), neutro, reconocible para hispanohablantes. *(El comité votó `persona` unánime, pero el usuario propuso `person` a secas — más fiel a la filosofía English-root y más corto; adoptado.)* Rechazado `peson` (suena a "pezón" en español) y `human` (termina en `-man`, y = especie, no individuo).
-- **`pipel`** = gente (colectivo) + **sujeto impersonal/genérico** (reemplaza `man-en` en la voz pasiva, §11.5): `Pipel toka VELA hier`. everyone = `ol pipel`.
+- **`pipol`** = gente (colectivo) + **sujeto impersonal/genérico** (reemplaza `man-en` en la voz pasiva, §11.5): `Pipel toka VELA hier`. everyone = `ol pipol`.
 - **`man`** re-glosado a **varón adulto** (ya no "person"). **`wuman`** = mujer adulta.
 - **Compuestos migrados:** `grot-man`→`grot-person` (adult), `grot-man-taim`→`grot-person-taim` (adulthood). **Se mantienen** (ya correctos con man=varón): `man-fren` (boyfriend/male friend), `wuman-fren`, `wuman-en`. **Sin tocar** (loans, "man" coincidental): `dimanda`, `dismantla`, `komanda`, `mang`, `manija`, `simanta`.
-- Los 4 cursos Learning-VELA migrados: `man-en`→`pipel`, `man`(genérico=persona)→`person`, tarjetas de vocab re-enseñan `person`.
+- Los 4 cursos Learning-VELA migrados: `man-en`→`pipol`, `man`(genérico=persona)→`person`, tarjetas de vocab re-enseñan `person`.
 
 Nota pendiente: `wuman` (wu+man) todavía embebe `man` etimológicamente — decisión futura si se busca neutralidad total ahí.
+
+---
+
+## R15 — Batch de embellecimiento fonoestético (auditoría del fonólogo, 2026-07-28)
+
+El fonólogo auditó el léxico buscando palabras feas/incómodas para hablantes (homófonos cross-lingüísticos, violaciones de write-as-you-speak, codas ilegales). El usuario aprobó la lista. Aplicado:
+
+| Antes | Después | Motivo |
+|---|---|---|
+| `pipel` /pi.pi.el/ | **`pipol`** /pi.pol/ | hiato /i.el/ incómodo; 2 síl vs 3 (people/impersonal, R14) — `pipol-wei` también |
+| `louuda` /louu.da/ | **`louda`** /lou.da/ | triple vocal /ouu/, imposible leer-como-suena |
+| `neer` /neer/ | **`nera`** /ne.ra/ | hiato /ee/; compuestos `ner-sem/ner-ol/ner-kom` |
+| `yeer` /jir/ | **`jir`** /jir/ | ortografía no coincidía con AFI; `jir-dei`, `evri-jir` |
+| `tung` | **`tun`** /tun/ | ortografía seguía a AFI |
+| `pis` /pis/ (peace) | **`pisi`** /pi.si/ | sonaba a "pis/piss" (pipí) en español/inglés |
+| `Agost` /agost/ | **`Agosta`** /a.gos.ta/ | coda cluster ilegal |
+| `Oktober` /oktobr/ | **`Oktobra`** /ok.to.bra/ | coda cluster ilegal |
+| `November` /novembr/ | **`Novembra`** /no.vem.bra/ | coda cluster ilegal |
+| `Desember` /decembr/ | **`Desembra`** /de.sem.bra/ | coda cluster ilegal |
+| `September` /septembr/ | **`Septembra`** /sep.tem.bra/ | coda cluster ilegal |
+
+**Pendientes (no aplicados):** `fooda`→`fuda` (food) y `deepa`→`dipa` (deep) NO se tocaron porque su ortografía VELA coincide con la palabra inglesa homógrafa → un replace automático corrompe las glosas/traducciones del léxico bilingüe. Requieren un pase column-aware (col1/col2/ejemplo-VELA solamente). Marcados para el futuro.

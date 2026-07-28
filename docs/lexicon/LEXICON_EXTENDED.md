@@ -289,7 +289,7 @@ These rules govern every word proposed in this document:
 | **vizal-efekta** | /vi.zal.e.fek.ta/ | noun | visual effects | visual + effect (+/a/) | La vizal-efekta es amazing. |
 | **teatra** | /te.a.tra/ | noun | theater | adapted loan | Wi go tu la teatra. |
 | **skrinina** | /skri.ni.na/ | noun | screening | adapted loan | La skrinina of la film es tumoro. |
-| **produkshon** | /pro.duk.shon/ | noun | production | adapted loan | La produkshon of la film tek wan yeer. |
+| **produkshon** | /pro.duk.shon/ | noun | production | adapted loan | La produkshon of la film tek wan jir. |
 
 ---
 
@@ -333,7 +333,7 @@ These rules govern every word proposed in this document:
 |------|-----|------|---------|-----------|---------|
 | **rul-mak-hous** | /rul.mak.haus/ | noun | parliament | rule + make + house | La rul-mak-hous mak la lex-en. |
 | **konstitushon** | /kon.sti.tu.shon/ | noun | constitution | adapted loan | La konstitushon protekt la rait-en. |
-| **diplomata** | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) | La diplomata negosiata for pis. |
+| **diplomata** | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) | La diplomata negosiata for pisi. |
 | **vota-po** | /vo.ta.po/ | noun | voter | vote + -po | La vota-po chuz la rul-po. |
 | **rul-po** | /rul.po/ | noun | governor | rule + -po | La rul-po of la rejon. |
 | **refom** | /re.fom/ | noun/verb | reform | adapted loan | La goverment refom la sistem. |
@@ -349,7 +349,7 @@ These rules govern every word proposed in this document:
 |------|-----|------|---------|-----------|---------|
 | **goda-ador** | /go.da.a.dor/ | verb | worship | god + adore (+/a/) | De goda-ador in la holi-hous. |
 | **holi** | /ho.li/ | adj | sacred / holy | adapted loan | La text es holi. |
-| **ritual** | /ri.tu.al/ | noun | ritual | adapted loan | La ritual don evri yeer. |
+| **ritual** | /ri.tu.al/ | noun | ritual | adapted loan | La ritual don evri jir. |
 | **mirakla** | /mi.rak.la/ | noun | miracle | adapted loan (+/a/) | La mirakla happen somtaim. |
 | **paraiza** | /pa.rai.za/ | noun | paradise | adapted loan (+/a/) | La paraiza es biju ples. |
 | **profeta** | /pro.fe.ta/ | noun | prophet | adapted loan (+/a/) | La profeta tok god-wod. |

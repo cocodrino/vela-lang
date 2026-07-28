@@ -31,7 +31,7 @@
 | agen-nof | /a.gen.nof/ | verb | to recognize | agen (again) + nof (to know) |  | again + know |
 | agen-tal | /a.gen.tal/ | verb | to remind | agen (again) + tal (to tell) |  | again + tell |
 | ago | /a.go/ | adv | ago | loan |  | Tri dei ago mi si yu. |
-| Agost | /agost/ |  | August |  |  |  |
+| Agosta | /a.gos.ta/ |  | August |  |  |  |
 | agria | /a.gri.a/ | verb | to agree |  |  | loan |
 | ai | /ai/ |  | eye |  | ai-hair, ai-instruka | Mi hai tu ais. |
 | ai-hair | /ai.her/ | noun | eyebrow | eye + hair |  | La ai-hair es dark. |
@@ -353,7 +353,7 @@
 | broka-nomber | /bro.ka.nom.ber/ | noun | fraction | broka (broken) + nomber (number) |  | broken + number |
 | brota | /bro.ta/ | noun | broth |  |  | loan |
 | broter | /broter/ |  | brother |  | broter-child, broter-nes | Mi-se broter es tall. |
-| broter-child | /bro.ter.child/ | noun | niece / nephew | brother + child |  | Mi broter-child es faiv yeer old. |
+| broter-child | /bro.ter.child/ | noun | niece / nephew | brother + child |  | Mi broter-child es faiv jir old. |
 | broter-nes | /bro.ter.nes/ | noun | brotherhood | broter (brother) + nes |  | brother + -nes |
 | broun | /braun/ |  | brown |  |  | la broun eirt |
 | brua | /bru.a/ | verb | to brew |  |  | loan |
@@ -380,7 +380,7 @@
 | cau | /kau/ |  | cow |  | smol-cau | La cau giv milk. |
 | caus | /kauz/ |  | cause |  |  | La caus es unkown. |
 | ceir | /seir/ |  | chair |  | long-ceir, smol-ceir | Mi sit on la ceir. |
-| centuri | /senturi/ |  | century |  |  | Wan centuri es hundred yeer-en. |
+| centuri | /senturi/ |  | century |  |  | Wan centuri es hundred jir-en. |
 | ces | /tes/ |  | cheese |  |  |  |
 | chaima | /chai.ma/ | verb | to chime |  |  | loan |
 | chang | /tcainj/ |  | change |  | chang-power | La chang es rapid. |
@@ -458,7 +458,7 @@
 | deepa | /dee.pa/ |  | deep |  |  | la deep wel |
 | defenda | /de.fen.da/ | verb | to defend | loan |  | Wi defenda la lond-lain. |
 | degri | /de.gri/ | noun | degree | loan |  | La watre boila at hundred degri. |
-| dei | /dei/ |  | day |  | born-dei, dei-eat, evri-dei, futur-dei, hapi-dei, hot-dei, kol-dei, marri-dei, nau-dei, no-wok-dei, no-wok-dei-en, rein-dei, seven-dei, snow-dei, son-dei, wind-dei, yeer-dei | Nau-dei mi wok. |
+| dei | /dei/ |  | day |  | born-dei, dei-eat, evri-dei, futur-dei, hapi-dei, hot-dei, jir-dei, kol-dei, marri-dei, nau-dei, no-wok-dei, no-wok-dei-en, rein-dei, seven-dei, snow-dei, son-dei, wind-dei | Nau-dei mi wok. |
 | dei-eat | /dei.eat/ | noun | lunch / midday meal | dei (day) + eat |  | day + eat |
 | deizi | /dei.zi/ | noun | daisy |  |  | loan |
 | dekada | /de.ka.da/ | noun | decade |  |  | loan |
@@ -484,7 +484,7 @@
 | depa-sad | /de.pa.sad/ |  | melancholy | deep + sad |  | sustained sadness without clear cause |
 | deploy | /de.ploi/ | verb | deploy | adapted loan |  | Wi deploy la aplik. |
 | dese | /de.se/ |  | these |  |  | Dese man-en es strong. |
-| Desember | /decembr/ |  | December |  |  |  |
+| Desembra | /de.sem.bra/ |  | December |  |  |  |
 | desida | /de.si.da/ | verb | to decide |  |  | Mi desid tu kom. → I decide to come. |
 | desima | /de.si.ma/ | noun | decimal |  |  | loan |
 | destini | /des.ti.ni/ | noun | destiny |  |  | loan |
@@ -505,7 +505,7 @@
 | dimanda | /di.man.da/ | verb | to demand |  |  | loan |
 | dina | /di.na/ |  | dinner |  |  | Wi eat dina at nait. → We eat dinner at night. |
 | dinaia | /di.nai.a/ | verb | to deny |  |  | loan |
-| diplomata | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) |  | La diplomata negosiata for pis. |
+| diplomata | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) |  | La diplomata negosiata for pisi. |
 | dir | /dir/ |  | deer |  |  | La dir run fast. |
 | dis | /dis/ |  | this |  | dis-taim | Dis man es big. |
 | dis-taim | /dis.taim/ | adv | nowadays | dis (this) + taim (time) |  | this + time |
@@ -578,7 +578,7 @@
 | eata | /ea.ta/ | verb | to eat |  |  | Mi eat laappl. → I eat the apple. |
 | edi-shon | /e.di.shon/ | noun | version | edit + -shon |  | La edi-shon 2 es new. |
 | editar | /e.di.tar/ | noun | editor | adapted loan |  | La editar kut la film. |
-| edja | /e.dja/ | noun | edge | loan |  | No stand neer la edja. |
+| edja | /e.dja/ | noun | edge | loan |  | No stand nera la edja. |
 | efecta | /e.fec.ta/ |  | effect |  |  | La efect es big. |
 | egi | /e.gi/ |  | egg |  |  | Mi fried two egi-n. |
 | eika | /ei.ka/ | verb/noun | to ache / ache |  | eika-kil, te-eika | loan |
@@ -602,7 +602,7 @@
 | elefanta | /e.le.fan.ta/ | noun | elephant |  |  | — |
 | eleganta | /e.le.gan.ta/ | adj | elegant |  |  | loan |
 | elekshon | /elekshon/ |  | election |  |  | La elekshon es in November. |
-| elekta | /e.lek.ta/ | verb | to elect | loan |  | La pipel elekta la lida-po. |
+| elekta | /e.lek.ta/ | verb | to elect | loan |  | La pipol elekta la lida-po. |
 | elektrika | /e.lek.tri.ka/ | noun/adj | electricity / electric | adapted loan (+/a/) |  | La elektrika run la lamp. |
 | elektron | /e.lek.tron/ | noun | electron | adapted loan |  | La elektron orbit la atom. |
 | elementa | /e.le.men.ta/ | noun | element | adapted loan |  | La period-tebla hav 118 elementa-n. |
@@ -643,8 +643,8 @@
 | evila | /e.vi.la/ | adj/noun | evil |  |  | loan |
 | evolushon | /e.vo.lu.shon/ | noun | evolution | adapted loan |  | Evolushon chang la lifa-tipa-n slo. |
 | evri-dei | /ev.ri.dei/ | adv | daily | evri + dei (day) |  | every + day |
+| evri-jir | /ev.ri.jir/ | adv | yearly | evri + jir (year) |  | every + year |
 | evri-mont | /ev.ri.mont/ | adv | monthly | evri + mont |  | every + month |
-| evri-yeer | /ev.ri.yeer/ | adv | yearly | evri + yeer (year) |  | every + year |
 | exakta | /e.xak.ta/ |  | exact |  |  | La ansr es exakt. |
 | expensive | /ekspensiv/ |  | expensive |  |  | la expensive kar |
 | explen | /eksplen/ | verb | to explain |  |  | Mi explen la rule. → I explain the rule. |
@@ -774,7 +774,7 @@
 | foma | /fo.ma/ | noun | foam |  |  | loan |
 | fon | /fon/ |  | phone |  |  | Mi her mi fon. |
 | fonga | /fon.ga/ | noun | fungus |  |  | loan |
-| food-mak-po | /fud.mak.po/ |  | chef / cook | food-make-person |  | La food-mak-po mak gud food. |
+| food-mak-po | /food.mak.po/ |  | chef / cook | food-make-person |  | La food-mak-po mak gud food. |
 | fooda | /foo.da/ |  | food |  |  | La food es gud. |
 | for | /for/ |  | for |  | for-korner, luk-for, wait-for | Dis es for yu. |
 | for-korner | /for.kor.ner/ | noun | square | four + corner |  | La for-korner hav ekwal said. |
@@ -1157,6 +1157,8 @@
 | jimnasa | /jim.na.sa/ | noun | gymnastics |  |  | loan |
 | jinia | /ji.ni.a/ | noun | genius |  |  | loan |
 | jinja | /jin.ja/ | noun | ginger |  |  | loan |
+| jir | /jir/ |  | year |  | evri-jir, jir-dei | Wan jir hav ten-tu mont-en. |
+| jir-dei | /jir.dei/ | noun | anniversary | jir (year) + dei (day) |  | year + day |
 | jirafa | /ji.ra.fa/ |  | giraffe |  |  | La jiraf es tall |
 | joi | /joi/ | verb | to join |  |  | Mi joi la klas. → I join the class. |
 | joia | /jo.i.a/ | noun | joy |  |  | loan |
@@ -1299,7 +1301,7 @@
 | kolor | /ko.lor/ |  | colour | kolor-ful, no-kolor |  | Wat kolor es la kar? |
 | kolori | /ko.lo.ri/ | verb | to paint |  |  | Mi kolori la wall. → I paint the wall. |
 | kolum | /ko.lum/ | noun | column | adapted loan |  | La tebul hav five kolum-en. |
-| kom | /kom/ | verb | to come |  | kom-hom, kom-tok, kom-tok-po, neer-kom | Yu kom a mi. → You come to me. |
+| kom | /kom/ | verb | to come |  | kom-hom, kom-tok, kom-tok-po, ner-kom | Yu kom a mi. → You come to me. |
 | kom-hom | /kom.hom/ | verb | to return home | kom (to come) + hom (home) |  | Mi kom-hom nau. → I come home now. |
 | kom-tok | /kom.tok/ |  | conversation | kom (to come) + tok |  | La kom-tok es interesting. |
 | kom-tok-po | /kom.tok.po/ | noun | speaker/interlocutor | with + talk + -po |  | Mi kom-tok-po es nais. |
@@ -1551,7 +1553,7 @@
 | los | /los/ |  | loss |  |  | La kompani hav los. |
 | losa-pain | /lo.sa.pein/ |  | grief | loss + pain |  | acute sadness from specific loss |
 | loud-krai | /loud.krai/ | verb | to wail | loud + krai |  | loud + cry |
-| louuda | /louu.da/ |  | loud |  |  | la loud nois |
+| louda | /lou.da/ |  | loud |  |  | la loud nois |
 | lowda-in | /low.da.in/ | verb | download | load + in |  | Mi lowda-in la film. |
 | lowda-upa | /low.da.u.pa/ | verb | upload | load + up (+/a/) |  | Mi lowda-upa la foto. |
 | lugaja | /lu.ga.ja/ | noun | luggage | loan |  | Mi lugaja es hevi. |
@@ -1760,14 +1762,14 @@
 | navy | /nevi/ |  | navy |  |  |  |
 | neda | /ne.da/ | verb | to knead |  |  | loan |
 | needa | /nee.da/ | verb | to need |  |  | Mi need hel. → I need help. |
-| neer | /neer/ |  | near |  | neer-kom, neer-ol, neer-sem | La lern-hous es neer la park. |
-| neer-kom | /neer.kom/ | verb | to approach | neer (near) + kom (to come) |  | near + come |
-| neer-ol | /neer.ol/ | adv | almost | neer (near) + ol (all) |  | near + all |
-| neer-sem | /neer.sem/ | adj | similar | near + same |  | Dis tu es neer-sem. |
 | negosiata | /ne.go.si.a.ta/ | verb | negotiate | adapted loan (+/a/) |  | Wi negosiata un solushon. |
 | neiber | /neiber/ |  | neighbor |  |  | Mi-se neiber es fri. |
 | neim | /neim/ | noun | name | loan | famili-neim | Wat es yu neim? |
 | neklai | /neklai/ | noun | necklace |  |  | — |
+| ner-kom | /ner.kom/ | verb | to approach | ner + kom (to come) |  | near + come |
+| ner-ol | /ner.ol/ | adv | almost | ner + ol (all) |  | near + all |
+| ner-sem | /ner.sem/ | adj | similar | near + same |  | Dis tu es ner-sem. |
+| nera | /ne.ra/ |  | near |  |  | La lern-hous es nera la park. |
 | nerva | /ner.va/ | noun | nerve | loan |  | La nerva send la fil. |
 | nervus | /ner.vus/ | adj | nervous | loan |  | Bifor la test mi es nervus. |
 | nesesar | /nesesar/ |  | necessary |  |  | La wok es nesesari. |
@@ -1846,7 +1848,7 @@
 | nota-muzika | /no.ta.mu.zi.ka/ | noun | musical note | note + music |  | La muzik hav seven nota-muzika-n. |
 | notis | /notis/ |  | notice |  |  |  |
 | notisa | /no.ti.sa/ | noun | notification |  |  | loan |
-| November | /novembr/ |  | November |  |  |  |
+| Novembra | /no.vem.bra/ |  | November |  |  |  |
 | nudel | /nu.del/ | noun | noodle |  |  | loan |
 | nutrienta | /nu.tri.en.ta/ | noun | nutrient |  |  | loan |
 
@@ -1868,9 +1870,9 @@
 | okasa | /o.ka.sa/ | adj | occasional |  |  | loan |
 | okatava | /o.ka.ta.va/ | noun | octave |  |  | loan |
 | okisijena | /o.ki.si.je.na/ | noun | oxygen |  |  | loan |
-| Oktober | /oktobr/ |  | October |  |  |  |
+| Oktobra | /ok.to.bra/ |  | October |  |  |  |
 | oktopa | /ok.to.pa/ | noun | octopus |  |  | loan |
-| ol | /ol/ | adj | all | loan | neer-ol, ol-giv, ol-send, ol-taim | Ol la pipel kom. |
+| ol | /ol/ | adj | all | loan | ner-ol, ol-giv, ol-send, ol-taim | Ol la pipol kom. |
 | ol-giv | /ol.giv/ | verb | to distribute | ol (all) + giv |  | all + give |
 | ol-send | /ol.send/ | verb | to broadcast | ol (all) + send |  | all + send |
 | ol-taim | /ol.taim/ | adj | permanent / constant | ol (all) + taim (time) |  | all + time |
@@ -1969,7 +1971,7 @@
 | perioda-tebla | /pe.rio.da.teb.la/ | noun | periodic table | period + table |  | La period-tebla shou all elementa-n. |
 | perseiva | /per.sei.va/ | verb | to perceive |  |  | loan |
 | persenta | /per.sen.ta/ | noun | percent | loan |  | Fifti persent es hafa. |
-| person | /per.son/ |  | person (any gender) | ← neutral, English root; plural person-en; collective = pipel | grot-person, grot-person-taim | Un person kom. |
+| person | /per.son/ |  | person (any gender) | ← neutral, English root; plural person-en; collective = pipol | grot-person, grot-person-taim | Un person kom. |
 | perspektiva | /per.spek.ti.va/ | noun | perspective | adapted loan (+/a/) |  | Evri man hav un difren perspektiva. |
 | pesimista | /pe.si.mis.ta/ | adj | pessimistic |  |  | loan |
 | petala | /pe.ta.la/ | noun | petal | loan |  | La flauor los wan petala. |
@@ -1988,16 +1990,16 @@
 | pilow | /pi.low/ |  | pillow |  |  | Mi slip on pilow. |
 | pina | /pi.na/ | noun | pin |  |  | loan |
 | pincha | /pin.cha/ | verb | to pinch |  |  | loan |
-| pipel | /pi.pi.el/ |  | people | pp-le = many persons | pipel-wei | La pipel es big. |
-| pipel-wei | /pi.pel.wei/ | noun | culture (way of a people) | people + way |  | Evri pipel-wei es difren. |
-| pis | /pis/ |  | peace |  |  | La pis es importent. |
+| pipol | /pi.pol/ |  | people | pp-le = many persons | pipol-wei | La pipol es big. |
+| pipol-wei | /pi.pol.wei/ | noun | culture (way of a people) | people + way |  | Evri pipol-wei es difren. |
 | pisa | /pi.sa/ | noun | piece | loan |  | Giv mi wan pisa of keik. |
+| pisi | /pisi/ |  | peace |  |  | La pisi es importent. |
 | piti | /pi.ti/ | verb/noun | to pity / pity |  |  | loan |
 | plaia | /pla.i.a/ | noun | pliers |  |  | loan |
 | plan | /plan/ | verb | to plan |  | eat-plan, hous-plan-po, taim-plan | Wi plan tu kom. → We plan to come. |
 | planite | /pla.ni.te/ | noun | planet | adapted loan |  | La Erd es un planite. |
 | plant-bodi | /plant.bo.di/ | noun | stem / stalk | plant + body |  | La flauor plant-bodi es grin. |
-| plant-fut | /plant.fut/ | noun | root | plant + foot |  | La plant-fut go dip in erd. |
+| plant-fut | /plant.fut/ | noun | root | plant + foot |  | La plant-fut go deep in erd. |
 | plant-grow-po | /plant.grou.po/ |  | farmer | plant-grow-person |  | La plant-grow-po grow crop-en. |
 | planta | /plan.ta/ |  | plant |  |  | Mi grow plant-en. |
 | plastika | /plas.ti.ka/ | noun | plastic |  |  | — |
@@ -2066,7 +2068,7 @@
 | prize | /praiz/ |  | prize / price |  |  | La prize es high. |
 | problem | /problem/ |  | problem |  |  | La problem es big. |
 | producta | /pro.duc.ta/ |  | product |  |  | La product es gud. |
-| produkshon | /pro.duk.shon/ | noun | production | adapted loan |  | La produkshon of la film tek wan yeer. |
+| produkshon | /pro.duk.shon/ | noun | production | adapted loan |  | La produkshon of la film tek wan jir. |
 | produsa | /pro.du.sa/ | verb | to produce |  |  | loan |
 | profeta | /pro.fe.ta/ | noun | prophet | adapted loan (+/a/) |  | La profeta tok god-wod. |
 | profil | /profil/ |  | profile |  |  |  |
@@ -2204,7 +2206,7 @@
 | ritan | /ritan/ |  | to return |  |  | Mi ritan tumoro. → I return tomorrow. |
 | riten | /riten/ |  | writing |  |  |  |
 | ritmo | /rit.mo/ | noun | rhythm | adapted loan |  | La ritmo of la sonj mak mi dansi. |
-| ritual | /ri.tu.al/ | noun | ritual | adapted loan |  | La ritual don evri yeer. |
+| ritual | /ri.tu.al/ | noun | ritual | adapted loan |  | La ritual don evri jir. |
 | riveala | /ri.ve.a.la/ | verb | to reveal |  |  | loan |
 | river | /river/ |  | river |  | ais-river, smol-river | La river flo. |
 | roa | /ro.a/ | noun | row |  |  | loan |
@@ -2238,7 +2240,7 @@
 | rul-mak-hous | /rul.mak.haus/ | noun | parliament | rule + make + house |  | La rul-mak-hous mak la lex-en. |
 | rul-po | /rul.po/ | noun | governor | rule + -po |  | La rul-po of la rejon. |
 | rula | /ru.la/ | verb | to rule / govern | loan | rula-chuz, rula-famili, rula-grup, rula-po | La king rula la nation. |
-| rula-chuz | /ru.la.chuz/ | noun | election | rule + choose |  | La rula-chuz kom evri faiv yeer. |
+| rula-chuz | /ru.la.chuz/ | noun | election | rule + choose |  | La rula-chuz kom evri faiv jir. |
 | rula-famili | /ru.la.fa.mi.li/ | noun | royal family | rule + family |  | La rula-famili liv in la king-hous. |
 | rula-grup | /ru.la.grup/ | noun | government | rule + group |  | La rula-grup mak la lex-en. |
 | rula-po | /ru.la.po/ | noun | ruler / governor | rule + -po |  | La rula-po liv in la big hous. |
@@ -2260,7 +2262,7 @@
 | saikla | /sai.kla/ | noun | cycle |  |  | loan |
 | sain | /sain/ |  | sign |  | hand-sain, rod-sain, sain-tin, sain-tok, tru-sain | La sain es big. |
 | sain-tin | /sain.tin/ | noun | evidence | sain (sign) + tin (thin) |  | sign + thing |
-| sain-tok | /sain.tok/ | noun | sign language | sign + talk |  | La def pipel yus sain-tok. |
+| sain-tok | /sain.tok/ | noun | sign language | sign + talk |  | La def pipol yus sain-tok. |
 | saina | /sai.na/ | noun | signal |  |  | loan |
 | saiza | /sai.za/ | noun | size | loan |  | Wat saiza yu wan? |
 | sakosofona | /sa.ko.so.fo.na/ | noun | saxophone |  |  | loan |
@@ -2293,7 +2295,7 @@
 | self | /self/ | reflexive | self |  | self-luva | Mi si self. |
 | self-luva | /self.lu.va/ | adj/noun | selfish / self-love | self + love |  | La self-luva man tink onli of self. |
 | selu | /se.lu/ | noun | cell | Latin *cella* — universal |  | La bodi hav milyon selu-n. |
-| sem | /sem/ | adj | same | loan | neer-sem, sem-lain, sem-saida, sem-taim | Dis tu buk es sem. |
+| sem | /sem/ | adj | same | loan | ner-sem, sem-lain, sem-saida, sem-taim | Dis tu buk es sem. |
 | sem-lain | /sem.lain/ | adj | parallel | sem (same) + lain (line) |  | same + line |
 | sem-saida | /sem.sai.da/ | noun | symmetry | sem (same) + saida (side) |  | same + side |
 | sem-taim | /sem.taim/ | adv | meanwhile | sem (same) + taim (time) |  | same + time |
@@ -2302,7 +2304,7 @@
 | senta | /sen.ta/ | noun | center | loan |  | Stand in la senta. |
 | sentensa | /sen.ten.sa/ | noun | sentence (punishment) |  |  | loan |
 | separa | /se.pa.ra/ | verb | to separate |  |  | loan |
-| September | /septembr/ |  | September |  |  |  |
+| Septembra | /sep.tem.bra/ |  | September |  |  |  |
 | seramika | /se.ra.mi.ka/ |  | ceramic |  |  | La plait es seramik. |
 | sercha | /ser.cha/ | verb | to search | loan |  | Sercha la key. |
 | sergeri | /sergeri/ |  | surgery |  |  |  |
@@ -2580,7 +2582,7 @@
 | stodi | /stodi/ | verb | to study |  | stodi-po | Mi stodi evri dei. → I study every day. |
 | stodi-po | /stodi.po/ |  | student / learner | study-person |  | La stodi-po stodi evri dei. |
 | stoka | /sto.ka/ | noun | stock / supply |  |  | loan |
-| stomok-pain | /sto.mok.pein/ | noun | stomachache | stomach + pain |  | La bad fud giv stomok-pain. |
+| stomok-pain | /sto.mok.pein/ | noun | stomachache | stomach + pain |  | La bad food giv stomok-pain. |
 | stomoka | /sto.mo.ka/ |  | stomach |  |  | Mi-se stomok es hagri. |
 | stompa | /stom.pa/ | verb | to stomp |  |  | loan |
 | ston | /ston/ |  | stone |  | biju-ston, blak-ston, ston-hol | La ston es hardi. |
@@ -2794,7 +2796,7 @@
 | tugeter-mak | /tu.ge.ter.mak/ | verb | to combine | tugeter + mak |  | together + make |
 | tugeter-tek | /tu.ge.ter.tek/ | verb | to collect | tugeter + tek |  | together + take |
 | tulipa | /tu.li.pa/ | noun | tulip |  |  | loan |
-| tung | /tun/ |  | tongue |  |  | La tung tas. |
+| tun | /tun/ |  | tongue |  |  | La tun tas. |
 | tunnel | /tunnel/ |  | tunnel |  |  | Wi go tru la tunnel. |
 | tuo | /tuo/ |  | although |  |  | Mi wok tuo mi es tireda. |
 | tura | /tu.ra/ | noun | tour |  |  | loan |
@@ -2909,7 +2911,7 @@
 | wava | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) |  | Lait es un elektromagnetek wava. |
 | webseita | /web.sei.ta/ |  | website |  |  |  |
 | weda | /we.da/ | conj | whether |  |  | loan |
-| wei | /wei/ |  | way / path (abstract) |  | ap-wei, bad-wei, bak-wei, big-wei, dep-wei, do-wei, fronta-wei, god-wei, hafa-wei, in-wei, kuk-wei, lusa-wei, nof-wei, old-wei, pipel-wei, ruf-wei, slo-wei, smud-wei, soft-wei, stap-wei, strong-wei, taita-wei, tink-wei, tru-wei, tu-wei, watre-wei, wid-wei, yusa-wei | `motorwei`, directional idioms |
+| wei | /wei/ |  | way / path (abstract) |  | ap-wei, bad-wei, bak-wei, big-wei, dep-wei, do-wei, fronta-wei, god-wei, hafa-wei, in-wei, kuk-wei, lusa-wei, nof-wei, old-wei, pipol-wei, ruf-wei, slo-wei, smud-wei, soft-wei, stap-wei, strong-wei, taita-wei, tink-wei, tru-wei, tu-wei, watre-wei, wid-wei, yusa-wei | `motorwei`, directional idioms |
 | weika | /wei.ka/ |  | to wake |  |  | Mi weik erli. → I wake early. |
 | weil | /weil/ |  | whale |  |  | La weil es big. |
 | weista | /weis.ta/ | verb/noun | to waste / waste |  |  | loan |
@@ -2929,7 +2931,7 @@
 | werk-tebul | /werk.te.bul/ | noun | desk | work + table |  | Mi rit at la werk-tebul. |
 | werka | /wer.ka/ | verb | to work |  |  | Mi werk la ofis-to. → I work at the office. |
 | wesa | /we.sa/ | noun | west |  |  | — |
-| wet-lond | /wet.lond/ | noun | swamp | wet + land |  | La wet-lond es dip and dark. |
+| wet-lond | /wet.lond/ | noun | swamp | wet + land |  | La wet-lond es deep and dark. |
 | wet-taim | /wet.taim/ | noun | rainy season | wet + taim (time) |  | wet + time |
 | weta | /we.ta/ |  | wet |  |  | la wet grund |
 | wi | /wi/ | pronoun | we |  | wi-se | Wi liv la siti-to. |
@@ -2954,7 +2956,7 @@
 | winka | /win.ka/ | verb | to wink |  |  | loan |
 | winter | /winter/ |  | winter |  |  | La snow fal in winter. |
 | wintr-slip | /wintr.slip/ | verb | to hibernate | wintr + slip |  | winter + sleep |
-| wisha | /wi.sha/ | verb | to wish | loan |  | Mi wisha for pis. |
+| wisha | /wi.sha/ | verb | to wish | loan |  | Mi wisha for pisi. |
 | wiska | /wis.ka/ | verb | to whisk |  |  | loan |
 | wisla | /wis.la/ | verb | to whistle |  |  | loan |
 | wit | /wit/ |  | with |  |  | Mi wok wit yu. |
@@ -3002,8 +3004,6 @@
 | VELA | IPA | Cat. | Definition | Etymology | Compounds | Example |
 |------|-----|------|-----------|-----------|-----------|---------|
 | ye | /je/ |  | yes |  |  | affirmative |
-| yeer | /jir/ |  | year |  | evri-yeer, yeer-dei | Wan yeer hav ten-tu mont-en. |
-| yeer-dei | /yeer.dei/ | noun | anniversary | yeer (year) + dei (day) |  | year + day |
 | yelo | /jelo/ |  | yellow |  |  | la yelo sun |
 | yestdei | /jestdei/ |  | yesterday |  |  | Yestdei mi go a la siti. |
 | yogurta | /jo.gur.ta/ | noun | yogurt |  |  | loan |

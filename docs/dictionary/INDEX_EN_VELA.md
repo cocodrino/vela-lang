@@ -66,7 +66,7 @@
 | all | ol | /ol/ |
 | allergy | alerji | /alerji/ |
 | ally | help-fren | /help.fren/ |
-| almost | neer-ol | /neer.ol/ |
+| almost | ner-ol | /ner.ol/ |
 | along | alonga | /a.lon.ga/ |
 | alphabet | alfabeta | /al.fa.be.ta/ |
 | already | olredi | /ol.re.di/ |
@@ -87,7 +87,7 @@
 | angry | angri | /angri/ |
 | animal | animal | /animal/ |
 | ankle | ankel | /an.kel/ |
-| anniversary | yeer-dei | /yeer.dei/ |
+| anniversary | jir-dei | /jir.dei/ |
 | ant | anta | /an.ta/ |
 | antibiotic | antibiotika | /an.ti.bi.o.ti.ka/ |
 | antibody | anti-bodika | /an.ti.bo.di.ka/ |
@@ -124,7 +124,7 @@
 | at least | lesti | /les.ti/ |
 | athletics | atletika | /at.le.ti.ka/ |
 | atom | atom | /a.tom/ |
-| August | Agost | /agost/ |
+| August | Agosta | /a.gos.ta/ |
 | aunt | aunta | /aun.ta/ |
 | author / publisher | buk-mak-po | /buk.mak.po/ |
 | average | midela-nomber | /mi.de.la.nom.ber/ |
@@ -355,7 +355,7 @@
 | cheek | babi-fas | /babi.fas/ |
 | cheerful | hapi-ful | /ha.pi.ful/ |
 | cheese | ces | /tes/ |
-| chef / cook | food-mak-po | /fud.mak.po/ |
+| chef / cook | food-mak-po | /food.mak.po/ |
 | chemical bond | kima-bonda | /ki.ma.bon.da/ |
 | chemical reaction | reakshon | /re.ak.shon/ |
 | chemistry | kimistri | /kimistri/ |
@@ -513,7 +513,7 @@
 | cube | kuba | /ku.ba/ |
 | cuff | kafa | /ka.fa/ |
 | culture | kultur | /kul.tur/ |
-| culture (way of a people) | pipel-wei | /pi.pel.wei/ |
+| culture (way of a people) | pipol-wei | /pi.pol.wei/ |
 | cup | kupa | /ku.pa/ |
 | cupboard | kap-boksi | /kap.bok.si/ |
 | cure | kur | /kur/ |
@@ -548,7 +548,7 @@
 | debt | deti | /de.ti/ |
 | debug | folta-fiksa | /fol.ta.fik.sa/ |
 | decade | dekada | /de.ka.da/ |
-| December | Desember | /decembr/ |
+| December | Desembra | /de.sem.bra/ |
 | decimal | desima | /de.si.ma/ |
 | deck | boot-flor | /but.flor/ |
 | decline | daun-way | /daun.wei/ |
@@ -1175,7 +1175,7 @@
 | loose | lusa | /lu.sa/ |
 | loosely | lusa-wei | /lu.sa.wei/ |
 | loss | los | /los/ |
-| loud | louuda | /louu.da/ |
+| loud | louda | /lou.da/ |
 | love | luva | /lu.va/ |
 | love (bond) | luva-nes | /lu.va.nes/ |
 | lover | luva-po | /lu.va.po/ |
@@ -1321,7 +1321,7 @@
 | natural | natural | /natural/ |
 | nature | naitur | /naitur/ |
 | navy | navy | /nevi/ |
-| near | neer | /neer/ |
+| near | nera | /ne.ra/ |
 | necessary | mas-hav | /mas.hav/ |
 | necessary | nesesar | /nesesar/ |
 | necklace | neklai | /neklai/ |
@@ -1362,7 +1362,7 @@
 | notification | notisa | /no.ti.sa/ |
 | novel | long-stor | /lon.stor/ |
 | novel / storybook | stor-buk | /stor.buk/ |
-| November | November | /novembr/ |
+| November | Novembra | /no.vem.bra/ |
 | now | nau | /nau/ |
 | nowadays | dis-taim | /dis.taim/ |
 | numb | no-fel | /no.fel/ |
@@ -1373,7 +1373,7 @@
 | oak (tree) | oka | /o.ka/ |
 | occasional | okasa | /o.ka.sa/ |
 | octave | okatava | /o.ka.ta.va/ |
-| October | Oktober | /oktobr/ |
+| October | Oktobra | /ok.to.bra/ |
 | octopus | oktopa | /ok.to.pa/ |
 | odd / uneven | oda | /o.da/ |
 | odorless | no-smel | /no.smel/ |
@@ -1461,13 +1461,13 @@
 | pattern | paterna | /pa.ter.na/ |
 | paw | animal-fut | /a.ni.mal.fut/ |
 | pea | pia | /pi.a/ |
-| peace | pis | /pis/ |
+| peace | pisi | /pisi/ |
 | peak / summit | pika | /pi.ka/ |
 | pen | pen | /pen/ |
 | pencil | pensil | /pensil/ |
 | penguin | pengwin | /pen.gwin/ |
 | peninsula | lond-arm | /lond.arm/ |
-| people | pipel | /pi.pi.el/ |
+| people | pipol | /pi.pol/ |
 | people / population | popul | /popiul/ |
 | pepper | peper | /pe.per/ |
 | pepper | pepper | /peper/ |
@@ -1766,7 +1766,7 @@
 | sensor | fel-tin | /fel.tin/ |
 | sentence | wod-lain | /wod.lain/ |
 | sentence (punishment) | sentensa | /sen.ten.sa/ |
-| September | September | /septembr/ |
+| September | Septembra | /sep.tem.bra/ |
 | sequence | sekwensa | /se.kwen.sa/ |
 | serene | kwaiat-hert | /kwai.at.hert/ |
 | serenity | kwaiat-hapi | /kwai.at.ha.pi/ |
@@ -1809,7 +1809,7 @@
 | silo | silo | /si.lo/ |
 | silver | silva | /sil.va/ |
 | silver | silvi | /sil.vi/ |
-| similar | neer-sem | /neer.sem/ |
+| similar | ner-sem | /ner.sem/ |
 | simple | simpli | /simpli/ |
 | sin | sina | /si.na/ |
 | sincere | tru-hert | /tru.hert/ |
@@ -2077,7 +2077,7 @@
 | to answer | ansra | /an.sra/ |
 | to apologize | sori-tal | /so.ri.tal/ |
 | to appoint | apointa | /a.poin.ta/ |
-| to approach | neer-kom | /neer.kom/ |
+| to approach | ner-kom | /ner.kom/ |
 | to argue | argua | /ar.gu.a/ |
 | to arrange | arenja | /a.ren.ja/ |
 | to arrest | aresta | /a.res.ta/ |
@@ -2677,7 +2677,7 @@
 | tomato | tomata | /to.ma.ta/ |
 | tomorrow | tomoro | /tomoro/ |
 | tone / shade | tona | /to.na/ |
-| tongue | tung | /tun/ |
+| tongue | tun | /tun/ |
 | too / also | alo | /a.lo/ |
 | tool | tool | /tul/ |
 | tooth/teeth | te | /te/ |
@@ -2893,8 +2893,8 @@
 | writer | word-mak-po | /word.mak.po/ |
 | writing | riten | /riten/ |
 | wrong | rong | /rong/ |
-| year | yeer | /jir/ |
-| yearly | evri-yeer | /ev.ri.yeer/ |
+| year | jir | /jir/ |
+| yearly | evri-jir | /ev.ri.jir/ |
 | yellow | yelo | /jelo/ |
 | yes | ye | /je/ |
 | yesterday | yestdei | /jestdei/ |
