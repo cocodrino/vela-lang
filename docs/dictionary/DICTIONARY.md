@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2896. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2897. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -1294,6 +1294,7 @@
 | kolaja | /ko.la.ja/ | noun | collage | adapted loan (+/a/) |  | La child mak kolaja from paper-en. |
 | kolar | /ko.lar/ |  | collar |  |  | La shart hav kolar. |
 | koleja | /ko.le.ja/ | noun | college |  |  | loan |
+| kolor | /ko.lor/ |  | colour | kolor-ful, no-kolor |  | Wat kolor es la kar? |
 | kolori | /ko.lo.ri/ | verb | to paint |  |  | Mi kolori la wall. → I paint the wall. |
 | kolum | /ko.lum/ | noun | column | adapted loan |  | La tebul hav five kolum-en. |
 | kom | /kom/ | verb | to come |  | kom-hom, kom-tok, kom-tok-po, neer-kom | Yu kom a mi. → You come to me. |

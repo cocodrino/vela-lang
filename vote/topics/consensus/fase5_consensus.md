@@ -185,3 +185,26 @@ El curso Learning-VELA nivel-1 reveló huecos en vocabulario-función básico. E
 - Homonimia resultante `wan` (1 / to want) es tolerada por R8 (contexto desambigua, cf. inglés two/too/to). El generador la reporta como duplicado esperado.
 
 Validación: 0 errores fonotácticos, 2896 entradas.
+
+---
+
+## R10 — Alomorfía del adjetivo: atributivo pelado / predicativo cita (ratificada unánime 2026-07-28)
+
+Extensión natural de R7 (compuestos) y R8 (verbos) a los ADJETIVOS con coda dura. Votada R10-sí por unanimidad (pi-29881, pi-26905, pi-34067).
+
+**Regla:**
+- **Atributivo** (antes del sustantivo, posición prosódica NO-final, ligada como compuesto) → raíz **pelada**: `big famili`, `gud man`, `smol childa`, `old man`.
+- **Predicativo** (tras `es`, palabra libre prosódicamente final) → forma de **cita** (raíz+vocal): `Li es biga`, `La man es guda`, `La fater es olda`, `La dei es veri hota`, `Mi es tireda`.
+- **Vocal-final o coda blanda {n m l r s ŋ}**: invariable en toda posición (`hapi`, `smol`, `angri`, `yong`, `kol`, `new`).
+
+**Fundamento:** la posición sintáctica determina la saliencia prosódica (fonólogo). Atributivo = no-final, la coda queda protegida por el sustantivo siguiente. Predicativo = final, la coda dura exige la vocal de cita para ser (C)V-legal — el mismo mecanismo de R7/R8. Precedentes: alemán (groß/großer), ruso (forma corta/larga).
+
+**Sustantivos** siguen R7 directamente: forma de cita (= entrada de diccionario) cuando van solos como sujeto/objeto (`Mi si la buka`, `un smol childa`); forma pelada dentro de compuestos (`buk-…`, `child-taim`). Esto garantiza que ninguna palabra de contenido standalone quede con coda dura ilegal.
+
+**Regla única del aprendiz (unifica R7+R8+R10):** *libre → con la vocal de cita; ligado (atributivo, compuesto, o base de pasado/futuro) → pelado.*
+
+Ejemplos migrados del corpus pre-R7: `es sik`→`es sika`, `es afred`→`es afreda`, `La fater es old`→`La fater es olda`.
+
+### R9 addendum — `kolor` (colour) formalizado (2026-07-28)
+
+Voto 2-1: **kolor** /ko.lor/ (morfólogo + semantista) sobre `kala` (fonólogo, temía confusión con `kolar`=collar). Decisivo: `kolor` YA se usaba en decenas de ejemplos del léxico ("Wat kolor es la kar?", "La flaga hav tri kolor", "Sorta la klota bai kolor", "vivida kolor") sin entrada propia — igual que `hier`, solo faltaba formalizarlo (R8: corpus manda). Coda /r/ blanda → sin alternancia cita/composición. Compuestos: `kolor-ful`, `no-kolor`. Añadido a LEXICON_BASE §Nature.

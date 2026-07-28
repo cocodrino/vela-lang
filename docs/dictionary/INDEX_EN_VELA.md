@@ -423,6 +423,7 @@
 | collar | kolar | /ko.lar/ |
 | colleague | wok-fren | /wok.fren/ |
 | college | koleja | /ko.le.ja/ |
+| colour | kolor | /ko.lor/ |
 | column | kolum | /ko.lum/ |
 | comb | komba | /kom.ba/ |
 | comedy | fani-play | /fa.ni.play/ |

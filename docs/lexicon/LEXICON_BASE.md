@@ -665,6 +665,7 @@ Social and legal entities (not professions):
 | **moon** | /mun/ | moon | | La moon es round. |
 | **star** | /star/ | star | | La star-en shine at noite. |
 | **skai** | /skai/ | sky | | La skai es blu. |
+| **kolor** | /ko.lor/ | colour | kolor-ful, no-kolor | Wat kolor es la kar? |
 | **watre** | /watre/ | water | ← international | Mi drink watre. |
 | **fai** | /fai/ | fire | | La fai burin. |
 | **erda** | /er.da/ | earth | | La erd es round. |
