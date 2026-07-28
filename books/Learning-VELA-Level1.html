@@ -115,7 +115,49 @@
   .foot{text-align:center;color:var(--muted);padding:2.5rem 1.25rem 3.5rem;font-size:.92rem}
   .foot .next{display:inline-block;margin-top:.5rem;font-family:var(--display);font-weight:800;color:var(--brand-deep);font-size:1.05rem}
   @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+  /* ---- lesson nav (native popover) ---- */
+  .nav-fab{position:fixed;right:1.05rem;bottom:1.05rem;z-index:60;display:inline-flex;align-items:center;gap:.45ch;
+    font-family:var(--display);font-weight:800;font-size:.92rem;color:#fff;background:var(--brand-deep);
+    border:none;border-radius:999px;padding:.68rem 1.05rem;box-shadow:var(--shadow);cursor:pointer;
+    transition:transform .15s ease,background .15s ease}
+  .nav-fab:hover{transform:translateY(-2px);background:var(--brand)}
+  .nav-fab:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+  .nav-fab .car{font-size:.7em;opacity:.85}
+  #lesson-menu{position:fixed;inset:auto;right:1.05rem;bottom:3.95rem;margin:0;
+    width:min(20rem,calc(100vw - 2.1rem));max-height:min(68vh,34rem);overflow-y:auto;
+    background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;
+    box-shadow:var(--shadow);padding:.6rem}
+  #lesson-menu::backdrop{background:rgba(0,0,0,.14)}
+  .nav-head{font-family:var(--display);font-weight:800;font-size:.74rem;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--muted);padding:.35rem .55rem .5rem}
+  #lesson-menu a{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--ink);
+    font-size:.92rem;padding:.48rem .55rem;border-radius:10px;transition:background .12s ease}
+  #lesson-menu a:hover,#lesson-menu a:focus-visible{background:var(--brand-soft);outline:none}
+  #lesson-menu a .nn{flex:0 0 auto;width:1.55rem;height:1.55rem;border-radius:7px;display:grid;place-items:center;
+    font-family:var(--display);font-weight:800;font-size:.8rem;color:#fff;background:var(--brand)}
+  #lesson-menu a b{font-weight:700}
+  #lesson-menu a .lbl{color:var(--muted);font-size:.82rem}
+  .lesson{scroll-margin-top:1rem}
+  @media (prefers-reduced-motion:reduce){.nav-fab{transition:none}}
 </style>
+<button class="nav-fab" popovertarget="lesson-menu" aria-label="Jump to a lesson">Leson-en <span class="car">▾</span></button>
+<div id="lesson-menu" popover>
+  <div class="nav-head">Leson-en · Jump to a lesson</div>
+  <a href="#leson-1"><span class="nn">1</span><span><b>Helo!</b> <span class="lbl">Greetings</span></span></a>
+  <a href="#leson-2"><span class="nn">2</span><span><b>Mi famili</b> <span class="lbl">Family</span></span></a>
+  <a href="#leson-3"><span class="nn">3</span><span><b>Objek & akshon</b> <span class="lbl">Verbs (present)</span></span></a>
+  <a href="#leson-4"><span class="nn">4</span><span><b>Meni tin</b> <span class="lbl">Plurals & colours</span></span></a>
+  <a href="#leson-5"><span class="nn">5</span><span><b>Nomber</b> <span class="lbl">Numbers</span></span></a>
+  <a href="#leson-6"><span class="nn">6</span><span><b>Taim</b> <span class="lbl">Past & future</span></span></a>
+  <a href="#leson-7"><span class="nn">7</span><span><b>Ples</b> <span class="lbl">Place (-to)</span></span></a>
+  <a href="#leson-8"><span class="nn">8</span><span><b>Mi-se</b> <span class="lbl">Possession</span></span></a>
+  <a href="#leson-9"><span class="nn">9</span><span><b>Kwesti</b> <span class="lbl">Questions</span></span></a>
+  <a href="#leson-10"><span class="nn">10</span><span><b>Fooda & dei</b> <span class="lbl">Food & daily life</span></span></a>
+  <a href="#leson-11"><span class="nn">11</span><span><b>Fieling</b> <span class="lbl">Feelings</span></span></a>
+  <a href="#leson-12"><span class="nn">12</span><span><b>Toka!</b> <span class="lbl">Conversation</span></span></a>
+</div>
+
 
 <header class="cover">
   <canvas id="waves" aria-hidden="true"></canvas>
@@ -135,7 +177,7 @@
   </section>
 
   <!-- ================= LESSON 1 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-1">
     <p class="eyebrow"><span class="n">1</span> Leson wan</p>
     <h2>Helo! — Greetings &amp; “to be”</h2>
     <div class="goals"><span>say hello</span><span>introduce yourself</span><span>use <span class="vela">es</span> (am/is/are)</span></div>
@@ -190,7 +232,7 @@
   </section>
 
   <!-- ================= LESSON 2 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-2">
     <p class="eyebrow"><span class="n">2</span> Leson tu</p>
     <h2>Mi famili — People &amp; the words “la / un”</h2>
     <div class="goals"><span>talk about family</span><span>use <span class="vela">la</span> (the) &amp; <span class="vela">un</span> (a)</span><span>describe with adjectives</span></div>
@@ -260,7 +302,7 @@
     </div>
   </section>
   <!-- ================= LESSON 3 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-3">
     <p class="eyebrow"><span class="n">3</span> Leson tri</p>
     <h2>Objek and akshon — Doing things (present)</h2>
     <div class="goals"><span>use everyday verbs</span><span>build <strong>subject–verb–object</strong></span><span>talk about what you do</span></div>
@@ -315,7 +357,7 @@
   </section>
 
   <!-- ================= LESSON 4 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-4">
     <p class="eyebrow"><span class="n">4</span> Leson kwatro</p>
     <h2>Meni tin — Plurals &amp; colours</h2>
     <div class="goals"><span>make plurals</span><span>name colours</span><span>describe things</span></div>
@@ -380,7 +422,7 @@
   </section>
 
   <!-- ================= LESSON 5 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-5">
     <p class="eyebrow"><span class="n">5</span> Leson faiv</p>
     <h2>Nomber — Numbers &amp; quantity</h2>
     <div class="goals"><span>count 1–10</span><span>say how many</span><span>use <span class="vela">meni / som / fyu</span></span></div>
@@ -435,7 +477,7 @@
   </section>
 
   <!-- ================= LESSON 6 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-6">
     <p class="eyebrow"><span class="n">6</span> Leson siks</p>
     <h2>Taim — Yesterday, today, tomorrow</h2>
     <div class="goals"><span>talk about the past</span><span>talk about the future</span><span>one verb, three tenses</span></div>
@@ -484,7 +526,7 @@
   </section>
 
   <!-- ================= LESSON 7 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-7">
     <p class="eyebrow"><span class="n">7</span> Leson seven</p>
     <h2>Ples — Here, there &amp; everywhere</h2>
     <div class="goals"><span>say where things are</span><span>use <span class="vela">hier / dar</span></span><span>use the place-ending <span class="vela">-to</span></span></div>
@@ -535,7 +577,7 @@
   </section>
 
   <!-- ================= LESSON 8 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-8">
     <p class="eyebrow"><span class="n">8</span> Leson eit</p>
     <h2>Mi-se — Mine, yours &amp; “to have”</h2>
     <div class="goals"><span>say whose it is</span><span>use <span class="vela">-se</span></span><span>use <span class="vela">hava</span> (have)</span></div>
@@ -586,7 +628,7 @@
   </section>
 
   <!-- ================= LESSON 9 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-9">
     <p class="eyebrow"><span class="n">9</span> Leson nain</p>
     <h2>Kwesti — Asking questions</h2>
     <div class="goals"><span>ask what, who, where…</span><span>ask yes/no</span><span>have a real chat</span></div>
@@ -638,7 +680,7 @@
   </section>
 
   <!-- ================= LESSON 10 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-10">
     <p class="eyebrow"><span class="n">10</span> Leson ten</p>
     <h2>Fooda and dei — Food &amp; daily life</h2>
     <div class="goals"><span>name food &amp; drinks</span><span>describe your day</span><span>go shopping</span></div>
@@ -690,7 +732,7 @@
   </section>
 
   <!-- ================= LESSON 11 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-11">
     <p class="eyebrow"><span class="n">11</span> Leson ten-wan</p>
     <h2>Fieling — Feelings &amp; opinions</h2>
     <div class="goals"><span>say how you feel</span><span>use <span class="vela">veri</span> (very)</span><span>give an opinion</span></div>
@@ -744,7 +786,7 @@
   </section>
 
   <!-- ================= LESSON 12 ================= -->
-  <section class="lesson">
+  <section class="lesson" id="leson-12">
     <p class="eyebrow"><span class="n">12</span> Leson ten-tu</p>
     <h2>Toka! — Put it all together</h2>
     <div class="goals"><span>hold a real conversation</span><span>review everything</span><span>speak for a minute</span></div>
@@ -816,6 +858,12 @@
       wave(t*1.2+4, 14*devicePixelRatio,'rgba(255,255,255,.10)');
       if(!reduce){ t+=0.01; requestAnimationFrame(frame); } }
     frame();
+  })();
+
+  // close the lesson menu after picking a lesson
+  (function(){ var m=document.getElementById('lesson-menu'); if(!m) return;
+    m.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){
+      if(m.hidePopover) m.hidePopover(); }); });
   })();
 </script>
 </body>
