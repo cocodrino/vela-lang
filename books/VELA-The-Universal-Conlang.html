@@ -8,40 +8,170 @@
   <meta name="dcterms.date" content="2026-01-01" />
   <title>VELA — The Universal Conlang</title>
   <style>
-
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-ul.task-list[class]{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-font-size: inherit;
-width: 0.8em;
-margin: 0 0.8em 0.2em -1.6em;
-vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
-</style>
-  <style type="text/css">@page { margin: 2.2cm; }
-html { font-size: 12pt; }
-body { font-family: "Palatino", "Georgia", serif; line-height: 1.55; color:#1a1a1a; max-width: 42em; margin: 2rem auto; padding: 0 1.2rem; }
-h1 { font-size: 1.9em; border-bottom: 3px solid #2c3e50; padding-bottom:.3em; margin-top:2.2em; page-break-before: always; }
-h1:first-of-type { page-break-before: avoid; }
-h2 { font-size: 1.35em; color:#2c3e50; margin-top:1.8em; }
-h3 { font-size: 1.1em; color:#34495e; }
-code { background:#f4f6f8; padding:.1em .35em; border-radius:3px; font-family:"Menlo","Consolas",monospace; font-size:.9em; color:#c0392b; }
-blockquote { border-left:4px solid #7f8c8d; background:#f8f9fa; margin:1.2em 0; padding:.6em 1.2em; font-style:italic; }
-table { border-collapse: collapse; margin:1.2em 0; width:100%; font-size:.92em; }
-th,td { border:1px solid #cdd3d8; padding:.4em .7em; text-align:left; }
-th { background:#2c3e50; color:#fff; }
-tr:nth-child(even){ background:#f7f9fa; }
-#TOC { background:#f8f9fa; border:1px solid #ddd; padding:1em 1.5em; border-radius:6px; }
-h1.title { text-align:center; font-size:2.6em; border:none; margin-top:3rem; }
-p.subtitle { text-align:center; font-size:1.2em; color:#555; font-style:italic; }
-p.author,p.date{ text-align:center; color:#666; }
-</style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 </head>
 <body>
 <header id="title-block-header">
@@ -57,13 +187,15 @@ roots</p>
 <li><a href="#part-i-why-vela" id="toc-part-i-why-vela">Part I — Why
 VELA</a>
 <ul>
-<li><a href="#the-problem-vela-solves" id="toc-the-problem-vela-solves">1.1 The problem VELA solves</a></li>
+<li><a href="#the-problem-vela-solves"
+id="toc-the-problem-vela-solves">1.1 The problem VELA solves</a></li>
 <li><a href="#the-four-principles" id="toc-the-four-principles">1.2 The
 four principles</a></li>
 <li><a href="#why-english-roots" id="toc-why-english-roots">1.3 Why
 English roots?</a></li>
 </ul></li>
-<li><a href="#part-ii-sounds-and-spelling" id="toc-part-ii-sounds-and-spelling">Part II — Sounds and Spelling</a>
+<li><a href="#part-ii-sounds-and-spelling"
+id="toc-part-ii-sounds-and-spelling">Part II — Sounds and Spelling</a>
 <ul>
 <li><a href="#the-consonants-20" id="toc-the-consonants-20">2.1 The
 consonants (20)</a></li>
@@ -71,14 +203,18 @@ consonants (20)</a></li>
 (5)</a></li>
 <li><a href="#the-syllable-rule-cv" id="toc-the-syllable-rule-cv">2.3
 The syllable rule: (C)V</a></li>
-<li><a href="#pitch-accent" id="toc-pitch-accent">2.4 Pitch
-accent</a></li>
-<li><a href="#legacy-sounds-and-write-as-you-speak" id="toc-legacy-sounds-and-write-as-you-speak">2.5 Legacy sounds and
+<li><a href="#where-the-accent-falls-one-rule-for-every-word"
+id="toc-where-the-accent-falls-one-rule-for-every-word">2.4 Where the
+accent falls — one rule for every word</a></li>
+<li><a href="#legacy-sounds-and-write-as-you-speak"
+id="toc-legacy-sounds-and-write-as-you-speak">2.5 Legacy sounds and
 “write-as-you-speak”</a></li>
 </ul></li>
-<li><a href="#part-iii-how-words-are-built" id="toc-part-iii-how-words-are-built">Part III — How Words Are Built</a>
+<li><a href="#part-iii-how-words-are-built"
+id="toc-part-iii-how-words-are-built">Part III — How Words Are Built</a>
 <ul>
-<li><a href="#roots-and-the-citationcomposition-rule-r7" id="toc-roots-and-the-citationcomposition-rule-r7">3.1 Roots and the
+<li><a href="#roots-and-the-citationcomposition-rule-r7"
+id="toc-roots-and-the-citationcomposition-rule-r7">3.1 Roots and the
 citation/composition rule (R7)</a></li>
 <li><a href="#compounding" id="toc-compounding">3.2 Compounding</a></li>
 <li><a href="#the-productive-series" id="toc-the-productive-series">3.3
@@ -96,7 +232,8 @@ SVO</a></li>
 <li><a href="#nouns-plural-and-case" id="toc-nouns-plural-and-case">4.4
 Nouns, plural, and case</a></li>
 <li><a href="#adjectives" id="toc-adjectives">4.5 Adjectives</a></li>
-<li><a href="#verbs-three-tenses-zero-irregulars" id="toc-verbs-three-tenses-zero-irregulars">4.6 Verbs — three tenses,
+<li><a href="#verbs-three-tenses-zero-irregulars"
+id="toc-verbs-three-tenses-zero-irregulars">4.6 Verbs — three tenses,
 zero irregulars</a></li>
 <li><a href="#a-worked-example" id="toc-a-worked-example">4.7 A worked
 example</a></li>
@@ -104,7 +241,8 @@ example</a></li>
 <li><a href="#part-v-the-lexicon" id="toc-part-v-the-lexicon">Part V —
 The Lexicon</a>
 <ul>
-<li><a href="#how-vela-got-its-2900-words" id="toc-how-vela-got-its-2900-words">5.1 How VELA got its ~2,900
+<li><a href="#how-vela-got-its-2900-words"
+id="toc-how-vela-got-its-2900-words">5.1 How VELA got its ~2,900
 words</a></li>
 <li><a href="#loans-vs.-compounds" id="toc-loans-vs.-compounds">5.2
 Loans vs. compounds</a></li>
@@ -121,11 +259,14 @@ passage</a></li>
 <li><a href="#how-vela-compares" id="toc-how-vela-compares">6.3 How VELA
 compares</a></li>
 </ul></li>
-<li><a href="#appendix-a-quick-grammar-reference" id="toc-appendix-a-quick-grammar-reference">Appendix A — Quick Grammar
+<li><a href="#appendix-a-quick-grammar-reference"
+id="toc-appendix-a-quick-grammar-reference">Appendix A — Quick Grammar
 Reference</a></li>
-<li><a href="#appendix-b-the-sound-chart-at-a-glance" id="toc-appendix-b-the-sound-chart-at-a-glance">Appendix B — The Sound
+<li><a href="#appendix-b-the-sound-chart-at-a-glance"
+id="toc-appendix-b-the-sound-chart-at-a-glance">Appendix B — The Sound
 Chart at a Glance</a></li>
-<li><a href="#appendix-c-productive-patterns-cheat-sheet" id="toc-appendix-c-productive-patterns-cheat-sheet">Appendix C —
+<li><a href="#appendix-c-productive-patterns-cheat-sheet"
+id="toc-appendix-c-productive-patterns-cheat-sheet">Appendix C —
 Productive patterns cheat-sheet</a></li>
 </ul>
 </nav>
@@ -415,18 +556,91 @@ s}</strong> (and <em>-ng</em>): <code>man</code>, <code>sistem</code>,
 <code>gud</code>… wait — <code>gud</code> ends in /d/. That is a
 <em>legacy</em> form (see §2.5). New words and citation forms always end
 in a vowel or a soft coda.</p>
-<h2 id="pitch-accent">2.4 Pitch accent</h2>
-<p>VELA does not use heavy stress like English (<em>PHO-to-graph</em> →
-<em>pho-TO-gra-phy</em>). Instead it uses a light, predictable
-<strong>pitch accent</strong>: the voice rises gently on the
-<strong>second-to-last syllable</strong> of a word.</p>
-<ul>
-<li><code>ba.NA.na</code> — the pitch lifts on <em>NA</em></li>
-<li><code>si.TI</code> — on <em>TI</em></li>
-<li><code>MA.ka</code> — on <em>MA</em></li>
-</ul>
-<p>Because the rule is fixed, you never have to memorize where the
-accent falls, and misplacing it never changes a word’s meaning.</p>
+<h2 id="where-the-accent-falls-one-rule-for-every-word">2.4 Where the
+accent falls — one rule for every word</h2>
+<p>VELA does not use heavy, unpredictable stress like English
+(<em>PHO-to-graph</em> → <em>pho-TO-gra-phy</em>, where the beat jumps
+around and you simply have to know it). Instead it uses a light,
+<strong>fully predictable pitch accent</strong>:</p>
+<blockquote>
+<p><strong>The rule:</strong> the voice rises gently on the
+<strong>second-to-last (penultimate) syllable</strong> of the word.
+Always. No exceptions.</p>
+</blockquote>
+<p>Count the syllables, step back one from the end, and lift the pitch
+there:</p>
+<table>
+<thead>
+<tr>
+<th>Syllables</th>
+<th>Word</th>
+<th>Accent</th>
+<th>Say it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>si</code> (see)</td>
+<td>the only one</td>
+<td><strong>si</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td><code>go</code> (go)</td>
+<td>the only one</td>
+<td><strong>go</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>ma.ka</code> (make)</td>
+<td>1st</td>
+<td><strong>MA</strong>·ka</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>si.ti</code> (city)</td>
+<td>1st</td>
+<td><strong>SI</strong>·ti</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>fa.mi.li</code> (family)</td>
+<td>2nd</td>
+<td>fa·<strong>MI</strong>·li</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>ba.na.na</code> (banana)</td>
+<td>2nd</td>
+<td>ba·<strong>NA</strong>·na</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>im.por.ten.ta</code> (important)</td>
+<td>3rd</td>
+<td>im·por·<strong>TEN</strong>·ta</td>
+</tr>
+</tbody>
+</table>
+<p><strong>One-syllable words</strong> (<code>si</code>,
+<code>go</code>, <code>man</code>, <code>la</code>) simply carry the
+pitch on their single syllable — there is nowhere else for it to go.</p>
+<p><strong>How the dictionary shows it.</strong> In a pronunciation like
+<code>/ˈma.ka/</code>, the little mark <code>ˈ</code> sits right before
+the stressed syllable: <code>/ˈma.ka/</code> = <strong>MA</strong>·ka,
+<code>/fa.ˈmi.li/</code> = fa·<strong>MI</strong>·li. Dots separate the
+syllables.</p>
+<p><strong>Compounds</strong> are read as one long word: count every
+syllable and accent the second-to-last of the whole thing.
+<code>far-tok-box</code> (telephone) → far·<strong>TOK</strong>·boks;
+each root also keeps a light beat of its own, but the main lift is still
+on the penultimate.</p>
+<p>Because the rule never changes, you never memorize where the accent
+goes — and unlike English (<em>RE-cord</em> the noun
+vs. <em>re-CORD</em> the verb), <strong>misplacing the accent in VELA
+never changes a word’s meaning.</strong> At worst you sound a little
+foreign; you are always understood.</p>
 <h2 id="legacy-sounds-and-write-as-you-speak">2.5 Legacy sounds and
 “write-as-you-speak”</h2>
 <p>VELA’s earliest vocabulary predates the strict (C)V rule, so a

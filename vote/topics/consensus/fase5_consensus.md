@@ -254,3 +254,18 @@ Coinado para Learning-VELA Level 4 (B2). El comité (pi-29881, pi-26905, pi-3406
 **Ya existían para B2 (no coinar):** should=`shoda`, however=`haueva`, although=`tuo`, whether=`weda`, instead=`insteda`, possible=`posibel`, suggest=`sugesta`, advise=`help-tal`, change=`chang`, example=`eksampel` ("for eksampel"), fact=`tru-tin`, already=`olredi`, likely=`laikli`, agree=`agria`.
 
 **Estilo indirecto (reported speech):** sin construcción nueva — se usan piezas existentes: verbo-de-mente/habla + `dat` para afirmaciones (`Li tok-ed dat li kom-wil` = dijo que vendría), `weda`/`if` para preguntas sí/no (`Li ask-ed weda mi kom` = preguntó si venía), palabras-pregunta para preguntas-wh (`Li ask-ed wat mi wan`). **Voz pasiva:** impersonal con `man-en` (R12) — VELA no tiene pasiva morfológica. **Aspecto perfecto:** VELA no lo tiene; el pasado `-ed` cubre "I ate / I have eaten".
+
+---
+
+## R14 — Neutralidad de género: `person` / `pipel` reemplazan a `man`=persona (ratificada 2026-07-28)
+
+**Problema (planteado por el usuario):** `man` estaba glosado "man / person" — lo masculino como default de lo humano (el sesgo inglés `mankind`/`manpower`). Un idioma nuevo pensado para todos no debe arrastrarlo.
+
+**Decisión:**
+- **`person`** /per.son/ = persona (cualquier género), plural **`person-en`**. Raíz inglesa (base de VELA), coda /n/ legal (precedentes `prison`, `reason`), neutro, reconocible para hispanohablantes. *(El comité votó `persona` unánime, pero el usuario propuso `person` a secas — más fiel a la filosofía English-root y más corto; adoptado.)* Rechazado `peson` (suena a "pezón" en español) y `human` (termina en `-man`, y = especie, no individuo).
+- **`pipel`** = gente (colectivo) + **sujeto impersonal/genérico** (reemplaza `man-en` en la voz pasiva, §11.5): `Pipel toka VELA hier`. everyone = `ol pipel`.
+- **`man`** re-glosado a **varón adulto** (ya no "person"). **`wuman`** = mujer adulta.
+- **Compuestos migrados:** `grot-man`→`grot-person` (adult), `grot-man-taim`→`grot-person-taim` (adulthood). **Se mantienen** (ya correctos con man=varón): `man-fren` (boyfriend/male friend), `wuman-fren`, `wuman-en`. **Sin tocar** (loans, "man" coincidental): `dimanda`, `dismantla`, `komanda`, `mang`, `manija`, `simanta`.
+- Los 4 cursos Learning-VELA migrados: `man-en`→`pipel`, `man`(genérico=persona)→`person`, tarjetas de vocab re-enseñan `person`.
+
+Nota pendiente: `wuman` (wu+man) todavía embebe `man` etimológicamente — decisión futura si se busca neutralidad total ahí.

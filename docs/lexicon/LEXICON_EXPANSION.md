@@ -544,7 +544,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **no-nof-po** | /no.nof.po/ | noun | stranger | not + know + person | Un no-nof-po nok on la dor. |
 | **luva-po** | /lu.va.po/ | noun | lover | love + -po | Li si his luva-po evri dei. |
 | **luva-fren** | /lu.va.fren/ | noun | boyfriend / girlfriend | love + friend | Mi luva-fren giv mi un roza. |
-| **grot-man** | /grot.man/ | noun | adult | grown + person | La gem es for grot-man, no child. |
+| **grot-person** | /grot.per.son/ | noun | adult | grown + person | La gem es for grot-person, no child. |
 | **old-po** | /old.po/ | noun | elder | old + -po | Respek la old-po. |
 | **yong-po** | /jon.po/ | noun | youngster / youth | young + -po | La yong-po lern from la old-po. |
 | **gesta** | /ges.ta/ | noun | guest | loan | Wi welkom la gesta. |
@@ -1762,7 +1762,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 
 ## Final Batch — Kinship, States, Fire/Water, Verbs, Gestures, Sounds, Nature
 
-| **grot-man-taim** | /grot.man.taim/ | noun | adulthood | adult + time | In grot-man-taim, wi wok. |
+| **grot-person-taim** | /grot.per.son.taim/ | noun | adulthood | adult + time | In grot-person-taim, wi werka. |
 | **broter-nes** | /bro.ter.nes/ | noun | brotherhood | brother + -nes | La war-po hav strong broter-nes. |
 | **moter-nes** | /mo.ter.nes/ | noun | motherhood | mother + -nes | Moter-nes bring joia and wok. |
 | **fater-nes** | /fa.ter.nes/ | noun | fatherhood | father + -nes | Fater-nes nid pati-nes. |

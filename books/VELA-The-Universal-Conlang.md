@@ -168,18 +168,43 @@ From this one rule follows everything about how VELA sounds: `ma.ma`, `wa.tre`,
 `gud` ends in /d/. That is a *legacy* form (see §2.5). New words and citation
 forms always end in a vowel or a soft coda.
 
-## 2.4 Pitch accent
+## 2.4 Where the accent falls — one rule for every word
 
-VELA does not use heavy stress like English (*PHO-to-graph* → *pho-TO-gra-phy*).
-Instead it uses a light, predictable **pitch accent**: the voice rises gently on
-the **second-to-last syllable** of a word.
+VELA does not use heavy, unpredictable stress like English (*PHO-to-graph* →
+*pho-TO-gra-phy*, where the beat jumps around and you simply have to know it).
+Instead it uses a light, **fully predictable pitch accent**:
 
-- `ba.NA.na` — the pitch lifts on *NA*
-- `si.TI` — on *TI*
-- `MA.ka` — on *MA*
+> **The rule:** the voice rises gently on the **second-to-last (penultimate)
+> syllable** of the word. Always. No exceptions.
 
-Because the rule is fixed, you never have to memorize where the accent falls, and
-misplacing it never changes a word's meaning.
+Count the syllables, step back one from the end, and lift the pitch there:
+
+| Syllables | Word | Accent | Say it |
+|-----------|------|--------|--------|
+| 1 | `si` (see) | the only one | **si** |
+| 1 | `go` (go) | the only one | **go** |
+| 2 | `ma.ka` (make) | 1st | **MA**·ka |
+| 2 | `si.ti` (city) | 1st | **SI**·ti |
+| 3 | `fa.mi.li` (family) | 2nd | fa·**MI**·li |
+| 3 | `ba.na.na` (banana) | 2nd | ba·**NA**·na |
+| 4 | `im.por.ten.ta` (important) | 3rd | im·por·**TEN**·ta |
+
+**One-syllable words** (`si`, `go`, `man`, `la`) simply carry the pitch on their
+single syllable — there is nowhere else for it to go.
+
+**How the dictionary shows it.** In a pronunciation like `/ˈma.ka/`, the little
+mark `ˈ` sits right before the stressed syllable: `/ˈma.ka/` = **MA**·ka,
+`/fa.ˈmi.li/` = fa·**MI**·li. Dots separate the syllables.
+
+**Compounds** are read as one long word: count every syllable and accent the
+second-to-last of the whole thing. `far-tok-box` (telephone) → far·**TOK**·boks;
+each root also keeps a light beat of its own, but the main lift is still on the
+penultimate.
+
+Because the rule never changes, you never memorize where the accent goes — and
+unlike English (*RE-cord* the noun vs. *re-CORD* the verb), **misplacing the
+accent in VELA never changes a word's meaning.** At worst you sound a little
+foreign; you are always understood.
 
 ## 2.5 Legacy sounds and "write-as-you-speak"
 

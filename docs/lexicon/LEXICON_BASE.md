@@ -525,8 +525,9 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **famili** | /famili/ | family | ← Latin, recogn. all | La famili es big. |
-| **man** | /man/ | man / person | | Un man kom. |
-| **wuman** | /wuman/ | woman | | La wuman es nais. |
+| **person** | /per.son/ | person (any gender) | ← neutral, English root; plural person-en; collective = pipel | Un person kom. |
+| **man** | /man/ | man (adult male) | | Un man kom. |
+| **wuman** | /wuman/ | woman (adult female) | | La wuman es nais. |
 | **childa** | /chil.da/ | child | | Un child ple. |
 | **gerla** | /ger.la/ | girl | | Un gerl sing. |
 | **boy** | /boi/ | boy | | Un boy luk. |
@@ -550,7 +551,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **hasbanda** | /has.ban.da/ | husband | | Mi-se hasband wok. |
 | **neiber** | /neiber/ | neighbor | | Mi-se neiber es fri. |
 | **pipel** | /pi.pi.el/ | people | pp-le = many persons | La pipel es big. |
-| **man-en** | /ma.nen/ | men / people | plural (man + -en) | De man-en wok. |
+| **man-en** | /ma.nen/ | men | plural (man + -en) | De man-en wok. |
 | **wuman-en** | /wu.ma.nen/ | women | plural (wuman + -en) | Dese wuman-en es nais. |
 | **child-en** | /tchild.en/ | children | plural (child + -en) | Dese child-en ple. |
 

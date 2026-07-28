@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2903. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2904. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -924,8 +924,8 @@
 | grita | /gri.ta/ | verb | to greet |  |  | loan |
 | gro-nes | /gro.nes/ | noun | growth | gro + nes |  | grow + -nes |
 | grona | /gro.na/ | verb | to groan |  |  | loan |
-| grot-man | /grot.man/ | noun | adult | grown + person |  | La gem es for grot-man, no child. |
-| grot-man-taim | /grot.man.taim/ | noun | adulthood | grot + man (man / person) + taim (time) |  | adult + time |
+| grot-person | /grot.per.son/ | noun | adult | grown + person |  | La gem es for grot-person, no child. |
+| grot-person-taim | /grot.per.son.taim/ | noun | adulthood | grot + person (person (any gender)) + taim (time) |  | adult + time |
 | grota | /gro.ta/ | verb | to grow |  |  | La plant grot. → The plant grows. |
 | grumpa | /grum.pa/ | adj | grumpy |  |  | loan |
 | grup | /grup/ |  | group |  | fren-grup, grup-po, liv-grup, muzik-grup, rula-grup, werk-grup | `star-grupa`, `muzika-grupa` |
@@ -1599,8 +1599,8 @@
 | maka | /ma.ka/ | verb | to make |  | muzika-maka-po | Mi mak la disf. → I make the dinner. |
 | maki | /ma.ki/ | verb | to build |  | maki-hous | De maki un hous. → They build a house. |
 | maki-hous | /ma.ki.haus/ |  | building | maki (to build) + hous (house) |  | La maki-hous es tall. |
-| man | /man/ |  | man / person |  | grot-man, grot-man-taim, man-en, man-fren | Un man kom. |
-| man-en | /ma.nen/ |  | men / people | plural (man + -en) |  | De man-en wok. |
+| man | /man/ |  | man (adult male) |  | man-en, man-fren | Un man kom. |
+| man-en | /ma.nen/ |  | men | plural (man + -en) |  | De man-en wok. |
 | man-fren | /man.fren/ | noun | male friend | man + friend |  | Mi man-fren play futbol. |
 | mang | /mang/ |  | mango |  |  |  |
 | manija | /ma.ni.ja/ | verb | to manage |  |  | loan |
@@ -1969,6 +1969,7 @@
 | perioda-tebla | /pe.rio.da.teb.la/ | noun | periodic table | period + table |  | La period-tebla shou all elementa-n. |
 | perseiva | /per.sei.va/ | verb | to perceive |  |  | loan |
 | persenta | /per.sen.ta/ | noun | percent | loan |  | Fifti persent es hafa. |
+| person | /per.son/ |  | person (any gender) | ← neutral, English root; plural person-en; collective = pipel | grot-person, grot-person-taim | Un person kom. |
 | perspektiva | /per.spek.ti.va/ | noun | perspective | adapted loan (+/a/) |  | Evri man hav un difren perspektiva. |
 | pesimista | /pe.si.mis.ta/ | adj | pessimistic |  |  | loan |
 | petala | /pe.ta.la/ | noun | petal | loan |  | La flauor los wan petala. |
@@ -2656,7 +2657,7 @@
 | taida | /tai.da/ | noun | tide |  |  | loan |
 | taidi | /tai.di/ | adj | tidy / neat |  |  | loan |
 | taigar | /tai.gar/ |  | tiger |  |  | La taigar es fast |
-| taim | /taim/ |  | time |  | bifor-taim, child-taim, dis-taim, drai-taim, eat-taim, end-taim, grot-man-taim, midela-taim, mos-taim, ol-taim, old-taim, ran-taim, selebra-taim, sem-taim, sing-taim, start-taim, taim-plan, tok-taim, tri-taim, tu-taim, wan-taim, wet-taim | `ran-taim`, `somtaim`, `nau-taim` |
+| taim | /taim/ |  | time |  | bifor-taim, child-taim, dis-taim, drai-taim, eat-taim, end-taim, grot-person-taim, midela-taim, mos-taim, ol-taim, old-taim, ran-taim, selebra-taim, sem-taim, sing-taim, start-taim, taim-plan, tok-taim, tri-taim, tu-taim, wan-taim, wet-taim | `ran-taim`, `somtaim`, `nau-taim` |
 | taim-plan | /taim.plan/ | noun | schedule | taim (time) + plan (to plan) |  | time + plan |
 | taipa | /tai.pa/ | verb | to type |  |  | loan |
 | taira | /tai.ra/ | noun | tire |  |  | loan |
@@ -2990,7 +2991,7 @@
 | wud-mak-po | /wud.mak.po/ | noun | carpenter | wud + mak + po |  | wood + make + person |
 | wuda | /wu.da/ |  | wood |  |  | La tri es mad from wud. |
 | wul | /wul/ |  | wool |  |  | La kot es wul. |
-| wuman | /wuman/ |  | woman |  | wuman-en, wuman-fren | La wuman es nais. |
+| wuman | /wuman/ |  | woman (adult female) |  | wuman-en, wuman-fren | La wuman es nais. |
 | wuman-en | /wu.ma.nen/ |  | women | plural (wuman + -en) |  | Dese wuman-en es nais. |
 | wuman-fren | /wu.man.fren/ | noun | female friend | woman + friend |  | Mi wuman-fren kom tudei. |
 | wunda | /wun.da/ |  | wonder / awe | adapted loan (+/a/) | wunda-fel | awe at beauty or magnitude |

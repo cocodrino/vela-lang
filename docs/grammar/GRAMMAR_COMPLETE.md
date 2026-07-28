@@ -232,7 +232,7 @@ All nouns end in a vowel in VELA. This is a consequence of the (C)V syllable rul
 The plural suffix is **-n** after vowel-final roots, **-en** after consonant-final roots:
 
 ```
-man     → man-en       (men/people)
+man     → man-en       (men)
 siti    → siti-n       (cities)
 famili  → famili-n     (families)
 hous    → hous-en      (houses)
@@ -699,15 +699,15 @@ A relative clause is introduced by the **question word that matches the shared n
 | place | **wer** | la ples **wer** wi werka | the place where we work |
 | time | **wen** | la dei **wen** li kom-ed | the day when he came |
 
-**Position disambiguates from a question:** a question word at the **start** of a clause asks a question (`Hu liv hier?` — Who lives here?); the same word **after a noun** builds a relative (`la man hu liv hier`). `dat` is **not** a relativizer — it stays a demonstrative (`dat hous`) and the complementizer after mind-verbs (`Mi tinka dat…`).
+**Position disambiguates from a question:** a question word at the **start** of a clause asks a question (`Hu liv hier?` — Who lives here?); the same word **after a noun** builds a relative (`la person hu liv hier`). `dat` is **not** a relativizer — it stays a demonstrative (`dat hous`) and the complementizer after mind-verbs (`Mi tinka dat…`).
 
 ### 11.5 No Passive Voice
 
-VELA has no dedicated passive. Use the generic subject **man-en** (people) with a normal active verb for an impersonal/passive sense:
+VELA has no dedicated passive. Use the generic subject **pipel** (people) with a normal active verb for an impersonal/passive sense:
 
 ```
-Man-en mak la kar in Jerman.   → The car is made in Germany. (lit. people make…)
-Man-en tok VELA hier.          → VELA is spoken here.
+Pipel mak la kar in Jerman.    → The car is made in Germany. (lit. people make…)
+Pipel toka VELA hier.          → VELA is spoken here.
 ```
 
 ---

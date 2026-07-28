@@ -41,8 +41,8 @@
 | actor | rol-play-po | /rol.plei.po/ |
 | adapt | adapta | /a.dap.ta/ |
 | address | adresa | /a.dre.sa/ |
-| adult | grot-man | /grot.man/ |
-| adulthood | grot-man-taim | /grot.man.taim/ |
+| adult | grot-person | /grot.per.son/ |
+| adulthood | grot-person-taim | /grot.per.son.taim/ |
 | advertisement | advertais | /advertais/ |
 | affection | warm-fel | /warm.fel/ |
 | afraid | afreda | /af.re.da/ |
@@ -1202,7 +1202,7 @@
 | majority | majoria | /ma.jo.ri.a/ |
 | maker / producer | mak-po | /mak.po/ |
 | male friend | man-fren | /man.fren/ |
-| man / person | man | /man/ |
+| man (adult male) | man | /man/ |
 | manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
 | many | meni | /me.ni/ |
@@ -1239,7 +1239,7 @@
 | member | grup-po | /grup.po/ |
 | membership | membersha | /mem.ber.sha/ |
 | memory | memori | /me.mo.ri/ |
-| men / people | man-en | /ma.nen/ |
+| men | man-en | /ma.nen/ |
 | mental health | mental-helta | /men.tal.hel.ta/ |
 | mercy | mersi | /mer.si/ |
 | message | mesaja | /me.sa.ja/ |
@@ -1475,6 +1475,7 @@
 | period | perioda | /pe.rio.da/ |
 | periodic table | perioda-tebla | /pe.rio.da.teb.la/ |
 | permanent / constant | ol-taim | /ol.taim/ |
+| person (any gender) | person | /per.son/ |
 | perspective | perspektiva | /per.spek.ti.va/ |
 | pessimistic | pesimista | /pe.si.mis.ta/ |
 | pet | hous-animal | /haus.a.ni.mal/ |
@@ -2871,7 +2872,7 @@
 | witness | si-po | /si.po/ |
 | witty | wita | /wi.ta/ |
 | wolf | wail-dog | /wail.dog/ |
-| woman | wuman | /wuman/ |
+| woman (adult female) | wuman | /wuman/ |
 | women | wuman-en | /wu.ma.nen/ |
 | wonder / awe | wunda | /wun.da/ |
 | wonderful | wonderful | /wanderful/ |
