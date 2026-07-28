@@ -4,6 +4,23 @@
 
 ---
 
+## 📚 Read the books
+
+Learn VELA online — the books are self-contained web pages (no download needed):
+
+| Resource | What it is | Read |
+|----------|-----------|------|
+| 📘 **Learning VELA — Level 1** | Friendly 12-lesson course: from your first greeting to a basic conversation | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level1.html) · [source](books/Learning-VELA-Level1.html) |
+| 📗 **Learning VELA — Level 2** | Advanced 12-lesson course: aspect, modals, comparison, storytelling | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level2.html) · [source](books/Learning-VELA-Level2.html) |
+| 📖 **VELA Dictionary (PDF)** | ~2,900 entries, both directions, printable | [Open](https://cocodrino.github.io/vela-lang/books/VELA-Dictionary.pdf) · [source](books/VELA-Dictionary.pdf) |
+| 📜 **The Universal Conlang** | Reference & manifesto — philosophy, sounds, grammar | [Open](https://cocodrino.github.io/vela-lang/books/VELA-The-Universal-Conlang.html) · [PDF](books/VELA-The-Universal-Conlang.pdf) |
+
+🌐 **Start here:** **https://cocodrino.github.io/vela-lang/**
+
+> The `https://cocodrino.github.io/...` links work once GitHub Pages is enabled (Settings → Pages → *Deploy from a branch* → `main` / `/root`). Until then, open the `source` files locally.
+
+---
+
 ## 🏛️ The Three Pillars of VELA
 
 **Every design decision in VELA is evaluated against these three pillars:**
