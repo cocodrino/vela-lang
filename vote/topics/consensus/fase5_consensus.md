@@ -216,3 +216,23 @@ Descubierto al escribir Learning-VELA: `woka` = to WALK (única entrada), pero "
 Voto 2-1: **werka** /wer.ka/ (morfólogo + fonólogo) sobre `labora` (semantista, más internacional pero 3 sílabas y cercana a woka). El fonólogo refutó el temor de confusión: /e/ vs /o/ se distinguen sin esfuerzo; `werka` (2 sílabas) es eficiente.
 
 Aplicado: `werka` añadido a LEXICON_BASE (`werk-a/werk-ed/werk-wil`). Compuestos de WORK realineados `wok-→werk-`: `werk-po` (worker), `hom-werk` (homework), `werk-moni` (salary), `werk-grup` (union), `werk-fren` (colleague), `werk-end` (retirement), `werk-tebul` (desk). Se mantienen intactos `woka` (walk) y `wok-rod` (sidewalk, walk+road). Learning-VELA L1 corregido (`werka lern-hous-to`, `werk-ed ol la dei`).
+
+---
+
+## R12 — Cláusulas relativas + política de pasiva (ratificada 2026-07-28, para Level 3 B1)
+
+**Cláusulas relativas (unánime):** el relativizador es la **palabra-pregunta** que corresponde al rol del sustantivo compartido, colocada **justo después del sustantivo-núcleo**; la cláusula relativa va en SVO con un hueco donde iría el sustantivo compartido.
+
+| Rol | Relativizador | Ejemplo | English |
+|-----|---------------|---------|---------|
+| persona | **hu** | la man **hu** liv hier | the man who lives here |
+| persona (objeto) | **hu** | la fren **hu** mi si-ed | the friend (whom) I saw |
+| cosa | **wat** | la buka **wat** mi rida | the book that I read |
+| lugar | **wer** | la ples **wer** wi werka | the place where we work |
+| tiempo | **wen** | la dei **wen** li kom-ed | the day when he came |
+
+**Desambiguación pregunta vs. relativa = POSICIÓN.** Palabra-pregunta al inicio de cláusula = pregunta (`Hu liv hier?`); tras un sustantivo = relativa (`la man hu liv hier`). Riesgo de ambigüedad nulo (unánime).
+
+**`dat` NO es relativizador.** El fonólogo mostró que `la man dat kom` colisiona con el demostrativo (`dat`=that/eso) → lectura "el hombre, eso viene". `dat` queda reservado a: demostrativo (`dat hous`) y **complementante** tras verbos de mente (`Mi tinka dat li es guda`, L2). Los relativizadores son las palabras-pregunta.
+
+**Voz pasiva: NO dedicada (B2+).** VELA no tiene pasiva morfológica. La función impersonal se expresa con sujeto genérico `man-en` (gente) + activa: `Man-en mak la kar in Jerman` = "El coche se hace en Alemania". Añadir pasiva en B1 es carga innecesaria (semantista; chino/criollos tampoco la tienen).

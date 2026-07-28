@@ -684,7 +684,30 @@ The conditional is formed with **if + clause + den + consequence**:
 ```
 If yu kom,     den  mi es hapi.     → If you come, then I am happy.
 If yu no kom,  den  mi go.          → If you don't come, then I go.
-If li wok-ed,  den  li her-ed.      → If she had worked, then she would have heard.
+If li werk-ed, den  li her-ed.      → If she had worked, then she would have heard.
+```
+
+### 11.4 Relative Clauses (R12)
+
+A relative clause is introduced by the **question word that matches the shared noun's role**, placed **immediately after the head noun**. The clause itself is normal SVO, with a gap where the shared noun would sit.
+
+| Role | Relativizer | Example | English |
+|------|-------------|---------|---------|
+| person | **hu** | la man **hu** liv hier | the man who lives here |
+| person (object) | **hu** | la fren **hu** mi si-ed | the friend (whom) I saw |
+| thing | **wat** | la buka **wat** mi rida | the book that I read |
+| place | **wer** | la ples **wer** wi werka | the place where we work |
+| time | **wen** | la dei **wen** li kom-ed | the day when he came |
+
+**Position disambiguates from a question:** a question word at the **start** of a clause asks a question (`Hu liv hier?` — Who lives here?); the same word **after a noun** builds a relative (`la man hu liv hier`). `dat` is **not** a relativizer — it stays a demonstrative (`dat hous`) and the complementizer after mind-verbs (`Mi tinka dat…`).
+
+### 11.5 No Passive Voice
+
+VELA has no dedicated passive. Use the generic subject **man-en** (people) with a normal active verb for an impersonal/passive sense:
+
+```
+Man-en mak la kar in Jerman.   → The car is made in Germany. (lit. people make…)
+Man-en tok VELA hier.          → VELA is spoken here.
 ```
 
 ---
