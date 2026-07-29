@@ -88,6 +88,7 @@
 | animal | animal | /animal/ |
 | ankle | ankel | /an.kel/ |
 | anniversary | jir-dei | /jir.dei/ |
+| another / each other | wan-otra | /wan.o.tra/ |
 | ant | anta | /an.ta/ |
 | antibiotic | antibiotika | /an.ti.bi.o.ti.ka/ |
 | antibody | anti-bodika | /an.ti.bo.di.ka/ |
@@ -95,6 +96,7 @@
 | anticipation | waita-hapi | /wei.ta.ha.pi/ |
 | anxiety | futur-afreda | /fu.tur.a.fre.da/ |
 | anxious | ankusa | /an.ku.sa/ |
+| any | eni | /e.ni/ |
 | apartment building | hai-hous | /hai.haus/ |
 | API | apli-brija | /ap.li.bri.ja/ |
 | appeal (legal) | apila | /a.pi.la/ |
@@ -235,6 +237,7 @@
 | bored | boreda | /bo.re.da/ |
 | boring | boring | /boring/ |
 | boss / leader | hed-po | /hed.po/ |
+| both | ol-tu | /ol.tu/ |
 | bottle | botel | /botel/ |
 | bottom | botoma | /bo.to.ma/ |
 | bowl | boli | /bo.li/ |
@@ -691,6 +694,10 @@
 | euphoria | topa-hapi | /to.pa.ha.pi/ |
 | even | ivna | /iv.na/ |
 | evening | eveing | /iveing/ |
+| every | evri | /ev.ri/ |
+| everyone | ol-person | /ol.per.son/ |
+| everything | ol-tin | /ol.tin/ |
+| everywhere | ol-ples | /ol.ples/ |
 | evidence | sain-tin | /sain.tin/ |
 | evil | evila | /e.vi.la/ |
 | evolution | evolushon | /e.vo.lu.shon/ |
@@ -1349,6 +1356,7 @@
 | niece / nephew | broter-child | /bro.ter.child/ |
 | night | noita | /noi.ta/ |
 | no | no | /no/ |
+| no one / nobody | no-person | /no.per.son/ |
 | noise | nois | /nois/ |
 | non-fiction | non-fikshon | /non.fik.shon/ |
 | noodle | nudel | /nu.del/ |
@@ -1358,6 +1366,7 @@
 | nose | nos | /nos/ |
 | nostalgia | pasta-luva-pain | /pas.ta.lu.va.pein/ |
 | note | nota | /no.ta/ |
+| nothing | no-tin | /no.tin/ |
 | notice | notis | /notis/ |
 | notification | notisa | /no.ti.sa/ |
 | novel | long-stor | /lon.stor/ |
@@ -1365,6 +1374,7 @@
 | November | Novembra | /no.vem.bra/ |
 | now | nau | /nau/ |
 | nowadays | dis-taim | /dis.taim/ |
+| nowhere | no-ples | /no.ples/ |
 | numb | no-fel | /no.fel/ |
 | number | nomber | /nomber/ |
 | nurse | sik-help-po | /sik.help.po/ |
@@ -1409,6 +1419,7 @@
 | organization | organizashon | /or.ga.ni.za.shon/ |
 | origin | start-ples | /start.ples/ |
 | orphan | no-paran-child | /no.pa.ran.child/ |
+| other | otra | /o.tra/ |
 | otter | otar | /o.tar/ |
 | ouch | aucha | /au.cha/ |
 | our / of us | wi-se | /wi.se/ |
@@ -1866,7 +1877,10 @@
 | solution | solushon | /solushon/ |
 | some | som | /som/ |
 | someday / future day | futur-dei | /fu.tur.dei/ |
+| someone | som-person | /som.per.son/ |
+| something | som-tin | /som.tin/ |
 | sometimes | somtaim | /somtaim/ |
+| somewhere | som-ples | /som.ples/ |
 | son | son | /son/ |
 | song | sonja | /son.ja/ |
 | soon | sun | /sun/ |

@@ -95,6 +95,27 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **veri** | /ve.ri/ | very | La dei es veri hota. | The day is very hot. |
 | **alo** | /a.lo/ | too / also | Mi es hapi alo. | I am happy too. |
 | **mebi** | /me.bi/ | maybe / perhaps | Mebi li kom tomoro. | Maybe he comes tomorrow. |
+| **eni** | /e.ni/ | any | Eni person kan lern VELA. | Anyone can learn VELA. |
+| **otra** | /o.tra/ | other | La otra buka es mor guda. | The other book is better. |
+| **evri** | /ev.ri/ | every | Evri dei mi drinka kofi. | Every day I drink coffee. |
+
+### Indefinite Pronouns (R16 — systematic pattern)
+
+Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = thing (same root as tru-tin, mak-tin). Reciprocal = reduplicate the pronoun (`wi-wi`, `de-de` = each other).
+
+| Word | AFI | English | Example | English |
+|------|-----|---------|---------|---------|
+| **som-person** | /som.per.son/ | someone | Som-person kom. | Someone comes. |
+| **ol-person** | /ol.per.son/ | everyone | Ol-person es hier. | Everyone is here. |
+| **no-person** | /no.per.son/ | no one / nobody | No-person nof. | Nobody knows. |
+| **som-tin** | /som.tin/ | something | Mi si som-tin. | I see something. |
+| **ol-tin** | /ol.tin/ | everything | Li nof ol-tin. | She knows everything. |
+| **no-tin** | /no.tin/ | nothing | Mi hava no-tin. | I have nothing. |
+| **som-ples** | /som.ples/ | somewhere | Li es som-ples. | She is somewhere. |
+| **ol-ples** | /ol.ples/ | everywhere | Pipol toka li ol-ples. | People speak it everywhere. |
+| **no-ples** | /no.ples/ | nowhere | Li go no-ples. | He goes nowhere. |
+| **ol-tu** | /ol.tu/ | both | Ol-tu es guda. | Both are good. |
+| **wan-otra** | /wan.o.tra/ | another / each other | Wi help wan-otra. | We help each other. |
 
 ### Question Words
 

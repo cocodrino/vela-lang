@@ -214,6 +214,34 @@ Mi her self.      → I hear myself.
 Li si self.       → She sees herself.
 ```
 
+### 3.7 Indefinite Pronouns (R16) — a regular grid
+
+There is nothing to memorize: pick a quantifier and a base and join them.
+
+**{som | ol | no | eni} + {person | tin | ples}**
+
+| | person | tin *(thing)* | ples *(place)* |
+|---|---|---|---|
+| **som** (some) | som-person | som-tin | som-ples |
+| **ol** (every) | ol-person | ol-tin | ol-ples |
+| **no** | no-person | no-tin | no-ples |
+| **eni** (any) | eni-person | eni-tin | eni-ples |
+
+```
+Som-person kom.        → Someone comes.
+Mi hava no-tin.        → I have nothing.
+Pipol toka VELA ol-ples.  → People speak VELA everywhere.
+```
+
+**Reciprocal ("each other") = reduplicate the pronoun:**
+
+```
+Wi help wi-wi.        → We help each other.
+De luv de-de.         → They love each other.
+```
+
+Related: **otra** (other), **wan-otra** (another / each other), **ol-tu** (both), **evri** (every, as a determiner: *evri dei* = every day).
+
 ---
 
 ## 4. Nouns and Cases

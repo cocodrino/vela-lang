@@ -291,3 +291,25 @@ El fonólogo auditó el léxico buscando palabras feas/incómodas para hablantes
 | `September` /septembr/ | **`Septembra`** /sep.tem.bra/ | coda cluster ilegal |
 
 **Completado (pase column-aware, 2026-07-28):** `fooda`→`fuda` (food) y `deepa`→`dipa` + todos los compuestos `dep-`→`dip-` (dip-wei, dip-luva, dip-nof, dip-tink, dip-fren, dip-mak, dipa-sad/afreda/luva). Se editó SOLO el lado VELA (headword/AFI/ejemplo-VELA); glosas inglesas, etimologías ("deep + X", "food-make-person") y traducciones (tras →) quedaron intactas. Propagado a los 4 cursos.
+
+---
+
+## R16 — Sistema de pronombres indefinidos + palabras C1 (ratificada 2026-07-28)
+
+Acuñado para Level 5 (C1) y para cerrar el hueco de indefinidos. Comité unánime en el patrón.
+
+**Sistema regular de indefinidos:** `{som | ol | no | eni}` + `{person | tin | ples}`:
+| | person | tin (thing) | ples (place) |
+|---|---|---|---|
+| **som** (some) | som-person (someone) | som-tin (something) | som-ples (somewhere) |
+| **ol** (every/all) | ol-person / ol-pipol (everyone) | ol-tin (everything) | ol-ples (everywhere) |
+| **no** | no-person (nobody) | no-tin (nothing) | no-ples (nowhere) |
+| **eni** (any) | eni-person (anyone) | eni-tin (anything) | eni-ples (anywhere) |
+
+`tin` = thing (mismo morfema que tru-tin, mak-tin; homónimo tolerado con thin=adj, distinguido por contexto). `ting`/`tinga` rechazados (consistencia con compuestos gana; el /ŋ/ de "ting" además incómodo para hispanohablantes).
+
+**Átomos nuevos:** `eni` /e.ni/ (any), `otra` /o.tra/ (other), `evri` /ev.ri/ (every, determinante; distinto de `ol`=all).
+**Compuestos:** `wan-otra` (another / each-other), `ol-tu` (both = all-two).
+**Recíproco (each other):** reduplicar el pronombre — `wi-wi`, `de-de` ("Wi help wi-wi" = we help each other), paralelo a la reduplicación existente (mor-mor, tru-tru).
+
+Descartados: `bof` (coda /f/ ilegal → si se usara sería `bofa`, pero se prefirió `ol-tu` compound-first).
