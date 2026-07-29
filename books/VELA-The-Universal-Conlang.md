@@ -67,7 +67,11 @@ order. When two principles conflict, the earlier one wins.
 
 2. **Transparency** — a speaker should be able to *decompose* what they hear.
    `sik-hous` is *sick-house* (hospital). `no-nof-po` is *not-know-person*
-   (stranger). Meaning is visible in the parts.
+   (stranger). Meaning is visible in the parts. The ending `-po` means
+   *"the person who does X"*, and it is perfectly regular: `hunt-po` is a
+   *hunter*, `wud-mak-po` is a *wood-make-person* — a **carpenter**,
+   `lern-po` is a *teacher*. Learn one ending, and a whole family of words
+   opens up. That regularity is the whole point.
 
 3. **Beauty** — the language should be pleasant to hear and to read. Open
    syllables, a gentle pitch accent, and sound-symbolic roots give VELA its
@@ -97,6 +101,25 @@ languages lack. What remains is a recognizable skeleton — `mama`, `watre`, `gu
 > speaker on Earth can produce. Recognizability is a means, not the master;
 > universality wins.
 
+## 1.4 What VELA borrows — four worlds, four strengths
+
+VELA is not built from nothing. It deliberately takes the single best idea from
+each of four traditions and leaves the rest behind:
+
+| Source | What VELA takes |
+|--------|-----------------|
+| **English** | its recognisable, globally-studied **root vocabulary** — the head start of familiar words |
+| **Japanese** | its transparent **word-compounding** — building new meaning by joining small roots (`far-tok-box` = *far-talk-box* = telephone), the way Japanese builds words from smaller parts |
+| **Esperanto** | its complete **grammatical regularity** — one rule, no exceptions, no irregular verbs |
+| **Phonetic science** | a **minimal, universal sound system** — only the vowels and consonants shared by the vast majority of the world's languages |
+
+The **Japanese principle** is the heart of VELA. Instead of memorising thousands
+of unrelated words, you learn a compact set of roots and *combine* them. If you
+know `sik` (sick) and `hous` (house), you already know `sik-hous` (hospital); if
+you know `wud` (wood), `mak` (make) and `-po` (person-who), you already know
+`wud-mak-po` (carpenter). Meaning is built, not memorised — exactly as a Japanese
+speaker reads a two-*kanji* compound and sees its parts.
+
 \newpage
 
 # Part II — Sounds and Spelling
@@ -114,7 +137,7 @@ you can pronounce every word in the language forever.
 | b | /b/ | **b**all | `bel` (bell) |
 | d | /d/ | **d**og | `dog` (dog) |
 | g | /g/ | **g**o | `gud` (good) |
-| m | /m/ | **m**an | `man` (person) |
+| m | /m/ | **m**an | `man` (man) |
 | n | /n/ | **n**ice | `nais` (nice) |
 | f | /f/ | **f**ish | `fair` (fire) |
 | v | /v/ | **v**an | `visa` (visa) |
@@ -355,9 +378,13 @@ in other languages, so almost nothing needs a suffix.
 
 ## 4.2 Articles
 
-- **la** — the (definite): `la man` = *the person*
-- **un** — a/an (indefinite): `un man` = *a person*
-- **no article** — general/plural sense: `man` = *people / man in general*
+- **la** — the (definite): `la person` = *the person*
+- **un** — a/an (indefinite): `un person` = *a person*
+- **no article** — general/plural sense: `pipol` = *people in general*
+
+> Note: `person` is the neutral word for *a person* (any gender); `pipol` is
+> *people*. `man` means specifically *an adult male* and `wuman` *an adult
+> female* — VELA never uses the word for "male" to mean "person".
 
 ## 4.3 Pronouns
 
@@ -385,12 +412,12 @@ Possession uses **-se** (see §4.5) or the short possessive `mi-se` (my), `yu-se
 
 | Case | Marker | Example | Meaning |
 |------|--------|---------|---------|
-| Nominative (subject) | — none — | `man` | the person (does) |
-| Accusative (object) | — none — | `man` | the person (is acted on) |
-| Genitive (of/'s) | **-se** | `man-se` | the person's / of the person |
+| Nominative (subject) | — none — | `person` | the person (does) |
+| Accusative (object) | — none — | `person` | the person (is acted on) |
+| Genitive (of/'s) | **-se** | `person-se` | the person's / of the person |
 | Locative (at/in/on) | **-to** | `siti-to` | in the city |
 
-> **La man-se hous es big.** — *The person's house is big.*
+> **La person-se hous es big.** — *The person's house is big.*
 > **Mi liv la siti-to.** — *I live in the city.*
 
 ## 4.5 Adjectives
@@ -398,7 +425,11 @@ Possession uses **-se** (see §4.5) or the short possessive `mi-se` (my), `yu-se
 Adjectives come **before** the noun and never change form or take case:
 
 > **un big hous** — *a big house*
-> **la gud man** — *the good person*
+> **la gud person** — *the good person*
+
+Right before a noun the adjective is bare, as above. Standing alone after
+`es`, it takes its full dictionary form: **La hous es biga.** — *The house is
+big.* (attributive `big`, predicative `biga`).
 
 **Comparison** uses `mor` (more) and `mos` (most):
 
@@ -409,19 +440,29 @@ Adjectives come **before** the noun and never change form or take case:
 ## 4.6 Verbs — three tenses, zero irregulars
 
 This is VELA's proudest simplicity. **Every** verb, without exception, forms its
-tenses the same way:
+tenses the same way — two endings and an **unmarked present**:
 
-| Tense | Ending | `liv` (to live) |
-|-------|--------|-----------------|
-| Present | **-a** | `liv-a` (live / lives) |
-| Past | **-ed** | `liv-ed` (lived) |
-| Future | **-wil** | `liv-wil` (will live) |
+| Tense | Marker | Form | Example |
+|-------|--------|------|---------|
+| Present | *(none)* | the **dictionary word** itself | `maka` (make / makes) |
+| Past | **-ed** | bare root + `-ed` | `mak-ed` (made) |
+| Future | **-wil** | bare root + `-wil` | `mak-wil` (will make) |
 
-The ending never depends on the subject: `mi liv-a`, `yu liv-a`, `li liv-a`, `wi
-liv-a`, `de liv-a`. There are **no irregular verbs and no spelling changes** —
-ever.
+The **present is simply the word as the dictionary lists it** — there is no
+present ending to add. Past and future attach to the short root (the same short
+form used inside compounds):
 
-The verb **"to be"** is `bi` (present `es`):
+> `si` (see) · `si-ed` (saw) · `si-wil` (will see)
+> `maka` (make) · `mak-ed` (made) · `mak-wil` (will make)
+
+The ending never depends on the subject: `mi maka`, `yu maka`, `li maka`,
+`wi maka`, `de maka`. There are **no irregular verbs and no spelling changes** —
+ever. *(Why no present `-a`? Because a content root's citation form already
+carries a helper vowel where the sound needs it — `maka` — so adding a present
+`-a` would clash with it. The dictionary form does double duty as the present.)*
+
+The verb **"to be"** is the one exception: `bi` has the present form `es`
+(past `es-ed`, future `wil es`):
 
 > **Mi es hapi.** — *I am happy.*
 > **La kat es big.** — *The cat is big.*
@@ -540,9 +581,9 @@ weeks.
 - **Articles:** `la` (the), `un` (a).
 - **Plural:** `-n` after vowel, `-en` after consonant.
 - **Genitive:** `-se`. **Locative:** `-to`.
-- **Adjective:** before the noun, invariable.
+- **Adjective:** bare before the noun; full (citation) form when alone after `es`.
 - **Comparison:** `mor` (more), `mos` (most).
-- **Verb tenses:** present `-a`, past `-ed`, future `-wil`. No irregulars.
+- **Verb tenses:** present = the dictionary word, past `-ed`, future `-wil`. No irregulars.
 - **"To be":** `bi` (present `es`).
 - **Negation:** `no` before the word.
 - **Compound:** roots joined by `-`, max three, transparent.
