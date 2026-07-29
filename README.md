@@ -4,6 +4,26 @@
 
 ---
 
+## 📚 Read the books
+
+Learn VELA online — the books are self-contained web pages (no download needed):
+
+| Resource | What it is | Read |
+|----------|-----------|------|
+| 📘 **Learning VELA — Level 1** | Friendly 12-lesson course: from your first greeting to a basic conversation | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level1.html) · [source](books/Learning-VELA-Level1.html) |
+| 📗 **Learning VELA — Level 2** | Advanced 12-lesson course: aspect, modals, comparison, storytelling | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level2.html) · [source](books/Learning-VELA-Level2.html) |
+| 📙 **Learning VELA — Level 3** | Fluency 12-lesson course: relative clauses, causatives, word-building, poems &amp; stories | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level3.html) · [source](books/Learning-VELA-Level3.html) |
+| 📓 **Learning VELA — Level 4** | Mastery 12-lesson course: passive, reported speech, modality, contrast, argument &amp; debate | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level4.html) · [source](books/Learning-VELA-Level4.html) |
+| 🎓 **Learning VELA — Level 5** | C1/mastery 12-lesson course: word-craft, register, style, metaphor, verse &amp; translation | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level5.html) · [source](books/Learning-VELA-Level5.html) |
+| 📖 **VELA Dictionary (PDF)** | ~2,900 entries, both directions, printable | [Open](https://cocodrino.github.io/vela-lang/books/VELA-Dictionary.pdf) · [source](books/VELA-Dictionary.pdf) |
+| 📜 **The Universal Conlang** | Reference & manifesto — philosophy, sounds, grammar | [Open](https://cocodrino.github.io/vela-lang/books/VELA-The-Universal-Conlang.html) · [PDF](books/VELA-The-Universal-Conlang.pdf) |
+
+🌐 **Start here:** **https://cocodrino.github.io/vela-lang/**
+
+> The `https://cocodrino.github.io/...` links work once GitHub Pages is enabled (Settings → Pages → *Deploy from a branch* → `main` / `/root`). Until then, open the `source` files locally.
+
+---
+
 ## 🏛️ The Three Pillars of VELA
 
 **Every design decision in VELA is evaluated against these three pillars:**

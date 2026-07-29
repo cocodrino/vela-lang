@@ -5,8 +5,11 @@
 | English | VELA | IPA |
 |---------|------|-----|
 | 0 | zero | /zero/ |
+| 1 | wan | /wan/ |
 | 10 | ten | /ten/ |
+| 11 | ten-wan | /ten.wan/ |
 | 12 | ten-tu | /ten.tu/ |
+| 13 | ten-tri | /ten.tri/ |
 | 14 | ten-kwatro | /ten.kwa.tro/ |
 | 15 | ten-faiv | /ten.faiv/ |
 | 16 | ten-siks | /ten.siks/ |
@@ -14,6 +17,7 @@
 | 18 | ten-eit | /ten.eit/ |
 | 19 | ten-nain | /ten.nain/ |
 | 2 | tu | /tu/ |
+| 3 | tri | /tri/ |
 | 4 | kwatro | /kwa.tro/ |
 | 5 | faiva | /fai.va/ |
 | 6 | siksa | /sik.sa/ |
@@ -37,8 +41,8 @@
 | actor | rol-play-po | /rol.plei.po/ |
 | adapt | adapta | /a.dap.ta/ |
 | address | adresa | /a.dre.sa/ |
-| adult | grot-man | /grot.man/ |
-| adulthood | grot-man-taim | /grot.man.taim/ |
+| adult | grot-person | /grot.per.son/ |
+| adulthood | grot-person-taim | /grot.per.son.taim/ |
 | advertisement | advertais | /advertais/ |
 | affection | warm-fel | /warm.fel/ |
 | afraid | afreda | /af.re.da/ |
@@ -62,7 +66,7 @@
 | all | ol | /ol/ |
 | allergy | alerji | /alerji/ |
 | ally | help-fren | /help.fren/ |
-| almost | neer-ol | /neer.ol/ |
+| almost | ner-ol | /ner.ol/ |
 | along | alonga | /a.lon.ga/ |
 | alphabet | alfabeta | /al.fa.be.ta/ |
 | already | olredi | /ol.re.di/ |
@@ -83,7 +87,8 @@
 | angry | angri | /angri/ |
 | animal | animal | /animal/ |
 | ankle | ankel | /an.kel/ |
-| anniversary | yeer-dei | /yeer.dei/ |
+| anniversary | jir-dei | /jir.dei/ |
+| another / each other | wan-otra | /wan.o.tra/ |
 | ant | anta | /an.ta/ |
 | antibiotic | antibiotika | /an.ti.bi.o.ti.ka/ |
 | antibody | anti-bodika | /an.ti.bo.di.ka/ |
@@ -91,6 +96,7 @@
 | anticipation | waita-hapi | /wei.ta.ha.pi/ |
 | anxiety | futur-afreda | /fu.tur.a.fre.da/ |
 | anxious | ankusa | /an.ku.sa/ |
+| any | eni | /e.ni/ |
 | apartment building | hai-hous | /hai.haus/ |
 | API | apli-brija | /ap.li.bri.ja/ |
 | appeal (legal) | apila | /a.pi.la/ |
@@ -120,7 +126,7 @@
 | at least | lesti | /les.ti/ |
 | athletics | atletika | /at.le.ti.ka/ |
 | atom | atom | /a.tom/ |
-| August | Agost | /agost/ |
+| August | Agosta | /a.gos.ta/ |
 | aunt | aunta | /aun.ta/ |
 | author / publisher | buk-mak-po | /buk.mak.po/ |
 | average | midela-nomber | /mi.de.la.nom.ber/ |
@@ -190,7 +196,7 @@
 | bent | benta | /ben.ta/ |
 | berry | beri | /beri/ |
 | besides / moreover | besaida | /be.sai.da/ |
-| best friend | dep-fren | /dep.fren/ |
+| best friend | dip-fren | /dip.fren/ |
 | between | bitwin | /bi.twin/ |
 | beyond | far-saida | /far.sai.da/ |
 | bicycle | baikel | /baikel/ |
@@ -231,6 +237,7 @@
 | bored | boreda | /bo.re.da/ |
 | boring | boring | /boring/ |
 | boss / leader | hed-po | /hed.po/ |
+| both | ol-tu | /ol.tu/ |
 | bottle | botel | /botel/ |
 | bottom | botoma | /bo.to.ma/ |
 | bowl | boli | /bo.li/ |
@@ -351,7 +358,7 @@
 | cheek | babi-fas | /babi.fas/ |
 | cheerful | hapi-ful | /ha.pi.ful/ |
 | cheese | ces | /tes/ |
-| chef / cook | food-mak-po | /fud.mak.po/ |
+| chef / cook | fud-mak-po | /fud.mak.po/ |
 | chemical bond | kima-bonda | /ki.ma.bon.da/ |
 | chemical reaction | reakshon | /re.ak.shon/ |
 | chemistry | kimistri | /kimistri/ |
@@ -417,8 +424,9 @@
 | cold light | kol-lait | /kol.lait/ |
 | collage | kolaja | /ko.la.ja/ |
 | collar | kolar | /ko.lar/ |
-| colleague | wok-fren | /wok.fren/ |
+| colleague | werk-fren | /werk.fren/ |
 | college | koleja | /ko.le.ja/ |
+| colour | kolor | /ko.lor/ |
 | column | kolum | /ko.lum/ |
 | comb | komba | /kom.ba/ |
 | comedy | fani-play | /fa.ni.play/ |
@@ -508,7 +516,7 @@
 | cube | kuba | /ku.ba/ |
 | cuff | kafa | /ka.fa/ |
 | culture | kultur | /kul.tur/ |
-| culture (way of a people) | pipel-wei | /pi.pel.wei/ |
+| culture (way of a people) | pipol-wei | /pi.pol.wei/ |
 | cup | kupa | /ku.pa/ |
 | cupboard | kap-boksi | /kap.bok.si/ |
 | cure | kur | /kur/ |
@@ -543,12 +551,12 @@
 | debt | deti | /de.ti/ |
 | debug | folta-fiksa | /fol.ta.fik.sa/ |
 | decade | dekada | /de.ka.da/ |
-| December | Desember | /decembr/ |
+| December | Desembra | /de.sem.bra/ |
 | decimal | desima | /de.si.ma/ |
 | deck | boot-flor | /but.flor/ |
 | decline | daun-way | /daun.wei/ |
-| deep | deepa | /dee.pa/ |
-| deeply | dep-wei | /dep.wei/ |
+| deep | dipa | /di.pa/ |
+| deeply | dip-wei | /dip.wei/ |
 | deer | dir | /dir/ |
 | degree | degri | /de.gri/ |
 | delay | delay | /de.lai/ |
@@ -561,7 +569,7 @@
 | depth | depa | /de.pa/ |
 | desert | drai-lond | /drai.lond/ |
 | design | dizain | /di.zain/ |
-| desk | wok-tebul | /wok.te.bul/ |
+| desk | werk-tebul | /werk.te.bul/ |
 | despair | no-hop | /no.hop/ |
 | desperate | no-hop-fel | /no.hop.fel/ |
 | despite | dispaita | /dis.pai.ta/ |
@@ -569,7 +577,7 @@
 | destination | far-ples | /far.ples/ |
 | destiny | destini | /des.ti.ni/ |
 | determined | strong-maind | /strong.maind/ |
-| devotion | depa-luva | /de.pa.lu.va/ |
+| devotion | dipa-luva | /di.pa.lu.va/ |
 | dew | moring-watre | /mo.ring.wa.tre/ |
 | diabetes | diabeta | /di.a.be.ta/ |
 | diagnosis / diagnose | diagnoze | /di.ag.no.ze/ |
@@ -612,7 +620,7 @@
 | drama | drama | /dra.ma/ |
 | drawer | pul-boksi | /pul.bok.si/ |
 | drawing | rava-tin | /ra.va.tin/ |
-| dread | depa-afreda | /de.pa.a.fre.da/ |
+| dread | dipa-afreda | /di.pa.a.fre.da/ |
 | dream | drim | /drim/ |
 | dress | dresa | /dre.sa/ |
 | drill | dril | /dril/ |
@@ -686,6 +694,10 @@
 | euphoria | topa-hapi | /to.pa.ha.pi/ |
 | even | ivna | /iv.na/ |
 | evening | eveing | /iveing/ |
+| every | evri | /ev.ri/ |
+| everyone | ol-person | /ol.per.son/ |
+| everything | ol-tin | /ol.tin/ |
+| everywhere | ol-ples | /ol.ples/ |
 | evidence | sain-tin | /sain.tin/ |
 | evil | evila | /e.vi.la/ |
 | evolution | evolushon | /e.vo.lu.shon/ |
@@ -772,7 +784,7 @@
 | foggy | fogi | /fo.gi/ |
 | folder | foldera | /fol.de.ra/ |
 | follower | folo-po | /fo.lo.po/ |
-| food | fooda | /foo.da/ |
+| food | fuda | /fu.da/ |
 | foolish | no-wais | /no.wais/ |
 | foot/feet | futa | /fu.ta/ |
 | for | for | /for/ |
@@ -957,6 +969,7 @@
 | helper / support | help-hand | /help.hand/ |
 | hem | hema | /he.ma/ |
 | herb | kuk-plant | /kuk.plant/ |
+| here | hier | /hi.er/ |
 | high pitch | hai-sonj | /hai.sonj/ |
 | high voice / treble | hai-vois | /hai.vois/ |
 | highway | big-rod | /big.rod/ |
@@ -972,7 +985,7 @@
 | hollow | holo | /ho.lo/ |
 | home | hom | /hom/ |
 | homeland | hom-ples | /hom.ples/ |
-| homework | hom-wok | /hom.wok/ |
+| homework | hom-werk | /hom.werk/ |
 | honest | tru-tok | /tru.tok/ |
 | honesty | onesti | /o.nes.ti/ |
 | honey | honi | /ho.ni/ |
@@ -1169,7 +1182,7 @@
 | loose | lusa | /lu.sa/ |
 | loosely | lusa-wei | /lu.sa.wei/ |
 | loss | los | /los/ |
-| loud | louuda | /louu.da/ |
+| loud | louda | /lou.da/ |
 | love | luva | /lu.va/ |
 | love (bond) | luva-nes | /lu.va.nes/ |
 | lover | luva-po | /lu.va.po/ |
@@ -1196,9 +1209,10 @@
 | majority | majoria | /ma.jo.ri.a/ |
 | maker / producer | mak-po | /mak.po/ |
 | male friend | man-fren | /man.fren/ |
-| man / person | man | /man/ |
+| man (adult male) | man | /man/ |
 | manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
+| many | meni | /me.ni/ |
 | map | mapa | /ma.pa/ |
 | maple | meipla | /mei.pla/ |
 | marathon | long-ran | /long.ran/ |
@@ -1215,6 +1229,7 @@
 | mattress | matres | /ma.tres/ |
 | may | ma | /ma/ |
 | May | Maji | /maji/ |
+| maybe / perhaps | mebi | /me.bi/ |
 | meadow / prairie | gras-lond | /gras.lond/ |
 | mealtime | eat-taim | /eat.taim/ |
 | meaning | min-nes | /min.nes/ |
@@ -1226,12 +1241,12 @@
 | medicine / drug | medisin | /medisin/ |
 | meditation | meditashon | /me.di.ta.shon/ |
 | meeting | miting | /miting/ |
-| melancholy | depa-sad | /de.pa.sad/ |
+| melancholy | dipa-sad | /di.pa.sad/ |
 | melody | melodi | /me.lo.di/ |
 | member | grup-po | /grup.po/ |
 | membership | membersha | /mem.ber.sha/ |
 | memory | memori | /me.mo.ri/ |
-| men / people | man-en | /ma.nen/ |
+| men | man-en | /ma.nen/ |
 | mental health | mental-helta | /men.tal.hel.ta/ |
 | mercy | mersi | /mer.si/ |
 | message | mesaja | /me.sa.ja/ |
@@ -1274,12 +1289,13 @@
 | moon | moon | /mun/ |
 | mop | mopa | /mo.pa/ |
 | morality / moral | rait-rong-sistam | /rait.rong.sis.tam/ |
-| more | mor | /mor/ |
+| more (comparative) | mor | /mor/ |
 | more and more | mor-mor | /mor.mor/ |
 | morning | moring | /moring/ |
 | mosque | moslem-hous | /moz.lem.haus/ |
 | mosquito | moskito | /mos.ki.to/ |
 | moss | musa | /mu.sa/ |
+| most (superlative) | mos | /mos/ |
 | moth | mota | /mo.ta/ |
 | mother | moter | /moter/ |
 | motherhood | moter-nes | /mo.ter.nes/ |
@@ -1312,7 +1328,7 @@
 | natural | natural | /natural/ |
 | nature | naitur | /naitur/ |
 | navy | navy | /nevi/ |
-| near | neer | /neer/ |
+| near | nera | /ne.ra/ |
 | necessary | mas-hav | /mas.hav/ |
 | necessary | nesesar | /nesesar/ |
 | necklace | neklai | /neklai/ |
@@ -1340,6 +1356,7 @@
 | niece / nephew | broter-child | /bro.ter.child/ |
 | night | noita | /noi.ta/ |
 | no | no | /no/ |
+| no one / nobody | no-person | /no.per.son/ |
 | noise | nois | /nois/ |
 | non-fiction | non-fikshon | /non.fik.shon/ |
 | noodle | nudel | /nu.del/ |
@@ -1349,13 +1366,15 @@
 | nose | nos | /nos/ |
 | nostalgia | pasta-luva-pain | /pas.ta.lu.va.pein/ |
 | note | nota | /no.ta/ |
+| nothing | no-tin | /no.tin/ |
 | notice | notis | /notis/ |
 | notification | notisa | /no.ti.sa/ |
 | novel | long-stor | /lon.stor/ |
 | novel / storybook | stor-buk | /stor.buk/ |
-| November | November | /novembr/ |
+| November | Novembra | /no.vem.bra/ |
 | now | nau | /nau/ |
 | nowadays | dis-taim | /dis.taim/ |
+| nowhere | no-ples | /no.ples/ |
 | numb | no-fel | /no.fel/ |
 | number | nomber | /nomber/ |
 | nurse | sik-help-po | /sik.help.po/ |
@@ -1364,7 +1383,7 @@
 | oak (tree) | oka | /o.ka/ |
 | occasional | okasa | /o.ka.sa/ |
 | octave | okatava | /o.ka.ta.va/ |
-| October | Oktober | /oktobr/ |
+| October | Oktobra | /ok.to.bra/ |
 | octopus | oktopa | /ok.to.pa/ |
 | odd / uneven | oda | /o.da/ |
 | odorless | no-smel | /no.smel/ |
@@ -1400,6 +1419,7 @@
 | organization | organizashon | /or.ga.ni.za.shon/ |
 | origin | start-ples | /start.ples/ |
 | orphan | no-paran-child | /no.pa.ran.child/ |
+| other | otra | /o.tra/ |
 | otter | otar | /o.tar/ |
 | ouch | aucha | /au.cha/ |
 | our / of us | wi-se | /wi.se/ |
@@ -1452,13 +1472,13 @@
 | pattern | paterna | /pa.ter.na/ |
 | paw | animal-fut | /a.ni.mal.fut/ |
 | pea | pia | /pi.a/ |
-| peace | pis | /pis/ |
+| peace | pisi | /pisi/ |
 | peak / summit | pika | /pi.ka/ |
 | pen | pen | /pen/ |
 | pencil | pensil | /pensil/ |
 | penguin | pengwin | /pen.gwin/ |
 | peninsula | lond-arm | /lond.arm/ |
-| people | pipel | /pi.pi.el/ |
+| people | pipol | /pi.pol/ |
 | people / population | popul | /popiul/ |
 | pepper | peper | /pe.per/ |
 | pepper | pepper | /peper/ |
@@ -1466,6 +1486,7 @@
 | period | perioda | /pe.rio.da/ |
 | periodic table | perioda-tebla | /pe.rio.da.teb.la/ |
 | permanent / constant | ol-taim | /ol.taim/ |
+| person (any gender) | person | /per.son/ |
 | perspective | perspektiva | /per.spek.ti.va/ |
 | pessimistic | pesimista | /pe.si.mis.ta/ |
 | pet | hous-animal | /haus.a.ni.mal/ |
@@ -1649,7 +1670,7 @@
 | restaurant | eat-hous | /it.haus/ |
 | result | risolta | /ri.sol.ta/ |
 | result | risolti | /ri.sol.ti/ |
-| retirement | wok-end | /wok.end/ |
+| retirement | werk-end | /werk.end/ |
 | reunion | agen-gada | /a.gen.ga.da/ |
 | reward | gud-giv | /gud.giv/ |
 | rhinoceros | raino | /rai.no/ |
@@ -1756,7 +1777,7 @@
 | sensor | fel-tin | /fel.tin/ |
 | sentence | wod-lain | /wod.lain/ |
 | sentence (punishment) | sentensa | /sen.ten.sa/ |
-| September | September | /septembr/ |
+| September | Septembra | /sep.tem.bra/ |
 | sequence | sekwensa | /se.kwen.sa/ |
 | serene | kwaiat-hert | /kwai.at.hert/ |
 | serenity | kwaiat-hapi | /kwai.at.ha.pi/ |
@@ -1799,7 +1820,7 @@
 | silo | silo | /si.lo/ |
 | silver | silva | /sil.va/ |
 | silver | silvi | /sil.vi/ |
-| similar | neer-sem | /neer.sem/ |
+| similar | ner-sem | /ner.sem/ |
 | simple | simpli | /simpli/ |
 | sin | sina | /si.na/ |
 | sincere | tru-hert | /tru.hert/ |
@@ -1854,8 +1875,12 @@
 | solid | solida | /so.li.da/ |
 | solo | solo | /so.lo/ |
 | solution | solushon | /solushon/ |
+| some | som | /som/ |
 | someday / future day | futur-dei | /fu.tur.dei/ |
+| someone | som-person | /som.per.son/ |
+| something | som-tin | /som.tin/ |
 | sometimes | somtaim | /somtaim/ |
+| somewhere | som-ples | /som.ples/ |
 | son | son | /son/ |
 | song | sonja | /son.ja/ |
 | soon | sun | /sun/ |
@@ -2017,6 +2042,7 @@
 | then | den | /den/ |
 | theory | teori | /te.o.ri/ |
 | therapy | terapia | /te.ra.pia/ |
+| there | dar | /dar/ |
 | thermal | termal | /ter.mal/ |
 | these | dese | /de.se/ |
 | they | de | /de/ |
@@ -2047,7 +2073,6 @@
 | tiny | smol-smol | /smol.smol/ |
 | tire | taira | /tai.ra/ |
 | tired | tireda | /ti.re.da/ |
-| tired (short) | tri | /tri/ |
 | tissue | tisua | /ti.su.a/ |
 | title | taitel | /tai.tel/ |
 | to / at | a | /a/ |
@@ -2066,7 +2091,7 @@
 | to answer | ansra | /an.sra/ |
 | to apologize | sori-tal | /so.ri.tal/ |
 | to appoint | apointa | /a.poin.ta/ |
-| to approach | neer-kom | /neer.kom/ |
+| to approach | ner-kom | /ner.kom/ |
 | to argue | argua | /ar.gu.a/ |
 | to arrange | arenja | /a.ren.ja/ |
 | to arrest | aresta | /a.res.ta/ |
@@ -2081,6 +2106,7 @@
 | to be | bi | /bi/ |
 | to be (stative) | es | /es/ |
 | to be born | borna | /bor.na/ |
+| to become | bikom | /bi.kom/ |
 | to beep | bipa | /bi.pa/ |
 | to beg | bega | /be.ga/ |
 | to begin | begin | /begin/ |
@@ -2127,7 +2153,7 @@
 | to chase | cheisa | /chei.sa/ |
 | to cheat | chita | /chi.ta/ |
 | to check | cheka | /che.ka/ |
-| to cherish | dep-luva | /dep.lu.va/ |
+| to cherish | dip-luva | /dip.lu.va/ |
 | to chew | chua | /chu.a/ |
 | to chill | kol-mak | /kol.mak/ |
 | to chime | chaima | /chai.ma/ |
@@ -2180,7 +2206,7 @@
 | to decide | desida | /de.si.da/ |
 | to declare | deklara | /de.kla.ra/ |
 | to decrease / reduce | les-mak | /les.mak/ |
-| to deepen | dep-mak | /dep.mak/ |
+| to deepen | dip-mak | /dip.mak/ |
 | to defend | defenda | /de.fen.da/ |
 | to define | difaina | /di.fai.na/ |
 | to delete | delita | /de.li.ta/ |
@@ -2304,6 +2330,7 @@
 | to gulp | big-drink | /big.drink/ |
 | to gush | gasha | /ga.sha/ |
 | to hang | hanga | /han.ga/ |
+| to happen | hapen | /ha.pen/ |
 | to harden | hard-mak | /hard.mak/ |
 | to harvest / harvest | harvesta | /har.ves.ta/ |
 | to have | hava | /ha.va/ |
@@ -2459,7 +2486,7 @@
 | to recommend | rekomenda | /re.ko.men.da/ |
 | to recover | rikova | /ri.ko.va/ |
 | to recycle | yus-agen | /jus.a.gen/ |
-| to reflect / ponder | dep-tink | /dep.tink/ |
+| to reflect / ponder | dip-tink | /dip.tink/ |
 | to refuse | refusa | /re.fu.sa/ |
 | to regret / regret | rigreta | /ri.gre.ta/ |
 | to rehearse | rehesa | /re.he.sa/ |
@@ -2507,6 +2534,7 @@
 | to season | sezona | /se.zo.na/ |
 | to see | si | /si/ |
 | to seek | luk-for | /luk.for/ |
+| to seem | sima | /si.ma/ |
 | to sell | sel | /sel/ |
 | to send | senda | /sen.da/ |
 | to separate | separa | /se.pa.ra/ |
@@ -2651,6 +2679,7 @@
 | to wither | widera | /wi.de.ra/ |
 | to wobble | wobla | /wo.bla/ |
 | to wonder | wanda | /wan.da/ |
+| to work | werka | /wer.ka/ |
 | to worry / worry | worria | /wo.ri.a/ |
 | to worsen | bad-mak | /bad.mak/ |
 | to wrap | rapa | /ra.pa/ |
@@ -2662,7 +2691,8 @@
 | tomato | tomata | /to.ma.ta/ |
 | tomorrow | tomoro | /tomoro/ |
 | tone / shade | tona | /to.na/ |
-| tongue | tung | /tun/ |
+| tongue | tun | /tun/ |
+| too / also | alo | /a.lo/ |
 | tool | tool | /tul/ |
 | tooth/teeth | te | /te/ |
 | toothache | te-eika | /te.ei.ka/ |
@@ -2724,7 +2754,7 @@
 | under / below | under | /un.der/ |
 | underwear | in-klota | /in.klo.ta/ |
 | uniform | uniforma | /u.ni.for.ma/ |
-| union (labor) | wok-grup | /wok.grup/ |
+| union (labor) | werk-grup | /werk.grup/ |
 | unit test | testa-koda | /tes.ta.ko.da/ |
 | universe | universa | /u.ni.ver.sa/ |
 | unless | if-no | /if.no/ |
@@ -2755,6 +2785,7 @@
 | verdict | verdita | /ver.di.ta/ |
 | verse | poem-lain | /po.em.lain/ |
 | version | edi-shon | /e.di.shon/ |
+| very | veri | /ve.ri/ |
 | vest | vesta | /ves.ta/ |
 | vibrate / vibration | vibra | /vi.bra/ |
 | victim | vikima | /vi.ki.ma/ |
@@ -2782,7 +2813,7 @@
 | vote | vote | /vot/ |
 | voter | vota-po | /vo.ta.po/ |
 | voyage | voiaja | /voi.a.ja/ |
-| wage / salary | wok-moni | /wok.mo.ni/ |
+| wage / salary | werk-moni | /werk.mo.ni/ |
 | wagon / cart | wagon | /wa.gon/ |
 | waist | waista | /wais.ta/ |
 | wall | wal | /wal/ |
@@ -2849,20 +2880,20 @@
 | winter | winter | /winter/ |
 | wire | metal-stringa | /me.tal.strin.ga/ |
 | wire | wair | /wair/ |
-| wisdom | dep-nof | /dep.nof/ |
+| wisdom | dip-nof | /dip.nof/ |
 | wise | wais | /wais/ |
 | with | wit | /wit/ |
 | witness | si-po | /si.po/ |
 | witty | wita | /wi.ta/ |
 | wolf | wail-dog | /wail.dog/ |
-| woman | wuman | /wuman/ |
+| woman (adult female) | wuman | /wuman/ |
 | women | wuman-en | /wu.ma.nen/ |
 | wonder / awe | wunda | /wun.da/ |
 | wonderful | wonderful | /wanderful/ |
 | wood | wuda | /wu.da/ |
 | wool | wul | /wul/ |
 | word | woda | /wo.da/ |
-| worker | wok-po | /wok.po/ |
+| worker | werk-po | /werk.po/ |
 | world | wailda | /wail.da/ |
 | worm | worma | /wor.ma/ |
 | worry | tota-afreda | /to.ta.a.fre.da/ |
@@ -2876,8 +2907,8 @@
 | writer | word-mak-po | /word.mak.po/ |
 | writing | riten | /riten/ |
 | wrong | rong | /rong/ |
-| year | yeer | /jir/ |
-| yearly | evri-yeer | /ev.ri.yeer/ |
+| year | jir | /jir/ |
+| yearly | evri-jir | /ev.ri.jir/ |
 | yellow | yelo | /jelo/ |
 | yes | ye | /je/ |
 | yesterday | yestdei | /jestdei/ |

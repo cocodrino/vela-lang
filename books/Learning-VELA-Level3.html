@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning VELA — Level 3</title>
+</head>
+<body>
+<style>
+  :root{
+    --ink:#17331f; --muted:#5c7364; --line:#d9e7dc;
+    --brand:#2f8f5b; --brand-deep:#1f6e43; --brand-soft:#e7f4ec;
+    --sun:#c98a1f; --sun-soft:#f8eed3; --coral:#d76a52; --coral-soft:#f7e6df;
+    --good:#3f9a6a; --good-soft:#e6f2ec;
+    --sand:#f7faf6; --card:#ffffff; --shadow:0 1px 2px rgba(23,51,31,.06),0 8px 24px rgba(23,51,31,.09);
+    --display:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif;
+    --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:"SF Mono",ui-monospace,"Menlo",monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --ink:#e7f2ea; --muted:#93b0a0; --line:#26402f;
+      --brand:#5cc48c; --brand-deep:#3fa870; --brand-soft:#12331f;
+      --sun:#e6b558; --sun-soft:#33281a; --coral:#e89478; --coral-soft:#331f1a;
+      --good:#5cc48c; --good-soft:#16302a;
+      --sand:#0c1f14; --card:#10281a; --shadow:0 1px 2px rgba(0,0,0,.35),0 10px 28px rgba(0,0,0,.4); }
+  }
+  :root[data-theme="light"]{ --ink:#17331f; --muted:#5c7364; --line:#d9e7dc; --brand:#2f8f5b; --brand-deep:#1f6e43; --brand-soft:#e7f4ec; --sun:#c98a1f; --sun-soft:#f8eed3; --coral:#d76a52; --coral-soft:#f7e6df; --good:#3f9a6a; --good-soft:#e6f2ec; --sand:#f7faf6; --card:#fff; --shadow:0 1px 2px rgba(23,51,31,.06),0 8px 24px rgba(23,51,31,.09); }
+  :root[data-theme="dark"]{ --ink:#e7f2ea; --muted:#93b0a0; --line:#26402f; --brand:#5cc48c; --brand-deep:#3fa870; --brand-soft:#12331f; --sun:#e6b558; --sun-soft:#33281a; --coral:#e89478; --coral-soft:#331f1a; --good:#5cc48c; --good-soft:#16302a; --sand:#0c1f14; --card:#10281a; --shadow:0 1px 2px rgba(0,0,0,.35),0 10px 28px rgba(0,0,0,.4); }
+
+  *{box-sizing:border-box}
+  body{margin:0;max-width:100%;overflow-x:clip;background:var(--sand);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
+  h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+  img,canvas,table{max-width:100%}
+  a{color:var(--brand-deep)}
+  .vela{font-weight:700;color:var(--brand-deep);overflow-wrap:break-word}
+  :root[data-theme="dark"] .vela{color:var(--brand)}
+  @media (prefers-color-scheme:dark){.vela{color:var(--brand)}}
+  .say{font-family:var(--mono);font-size:.82em;color:var(--muted)}
+
+  /* ---- cover ---- */
+  .cover{position:relative;overflow:hidden;background:linear-gradient(160deg,var(--brand-deep),var(--brand) 55%,#4fb884);color:#fff}
+  .cover canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:.5}
+  .cover .wrap{position:relative;padding:4.5rem 1.25rem 4rem;text-align:center}
+  .badge{display:inline-flex;align-items:center;gap:.5ch;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);color:#fff;font-family:var(--display);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .8rem;border-radius:999px}
+  .cover h1{font-size:clamp(2.6rem,7vw,4.2rem);margin:.7rem 0 .3rem;letter-spacing:-.01em}
+  .cover .sub{font-size:clamp(1.05rem,2.4vw,1.3rem);opacity:.95;max-width:34rem;margin:.3rem auto 0}
+  .sail{display:inline-block;color:var(--sun)}
+
+  /* ---- how it works ---- */
+  .legend{margin:-2.2rem auto 0;position:relative;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:1.4rem 1.5rem;display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem 1.6rem}
+  @media (min-width:620px){ .legend{grid-template-columns:repeat(4,1fr)} }
+  @media (max-width:400px){ .legend{grid-template-columns:1fr} }
+  .legend .li{display:flex;flex-direction:column;gap:.45rem}
+  .legend .head{display:flex;align-items:center;gap:.55rem;font-family:var(--display);font-weight:800;font-size:1.02rem;color:var(--ink)}
+  .legend .li p{margin:0;font-size:.88rem;color:var(--muted);line-height:1.5}
+  .dot{flex:0 0 auto;width:1.7rem;height:1.7rem;border-radius:8px;display:grid;place-items:center;font-family:var(--display);font-weight:800;color:#fff;font-size:.95rem}
+
+  /* ---- lesson ---- */
+  .lesson{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:2rem clamp(1.1rem,3vw,2.2rem);margin:2rem 0}
+  .eyebrow{font-family:var(--display);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:var(--brand);display:flex;align-items:center;gap:.6rem}
+  .eyebrow .n{background:var(--brand);color:#fff;width:1.9rem;height:1.9rem;border-radius:9px;display:grid;place-items:center;font-size:.95rem}
+  .lesson h2{font-size:clamp(1.7rem,4vw,2.3rem);margin:.5rem 0 .2rem}
+  .goals{display:flex;flex-wrap:wrap;gap:.5rem;margin:.9rem 0 0}
+  .goals span{background:var(--sun-soft);color:var(--ink);border:1px solid color-mix(in srgb,var(--sun) 40%,transparent);font-size:.82rem;font-weight:600;padding:.3rem .7rem;border-radius:999px}
+  .sec-t{font-family:var(--display);font-weight:800;font-size:1.15rem;margin:2rem 0 .8rem;display:flex;align-items:center;gap:.55rem;color:var(--ink)}
+  .sec-t::before{content:"";width:.55rem;height:1.15rem;border-radius:3px;background:var(--sun)}
+
+  /* vocab cards */
+  .vocab{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.8rem}
+  .word{background:var(--sand);border:1px solid var(--line);border-radius:14px;padding:.85rem .95rem;transition:transform .15s ease,box-shadow .15s ease}
+  .word:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+  .word .w{font-family:var(--display);font-weight:800;font-size:1.25rem;color:var(--brand-deep)}
+  :root[data-theme="dark"] .word .w{color:var(--brand)}
+  @media (prefers-color-scheme:dark){.word .w{color:var(--brand)}}
+  .word .p{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin:.05rem 0 .35rem}
+  .word .m{font-size:.95rem;font-weight:600}
+  .word .ex{font-size:.82rem;color:var(--muted);margin-top:.3rem}
+
+  /* grammar callout */
+  .gram{background:var(--brand-soft);border:1px solid color-mix(in srgb,var(--brand) 30%,transparent);border-left:5px solid var(--brand);border-radius:12px;padding:1.1rem 1.2rem;margin:.4rem 0}
+  .gram h4{font-family:var(--display);margin:0 0 .4rem;font-size:1.02rem;color:var(--brand-deep)}
+  :root[data-theme="dark"] .gram h4{color:var(--brand)}
+  @media (prefers-color-scheme:dark){.gram h4{color:var(--brand)}}
+  .gram table{border-collapse:collapse;width:100%;margin:.6rem 0 .2rem;font-size:.92rem}
+  .gram td,.gram th{border:1px solid var(--line);padding:.4rem .6rem;text-align:left;background:var(--card)}
+  .gram th{background:var(--brand);color:#fff;font-family:var(--display)}
+
+  /* dialogue */
+  .chat{display:flex;flex-direction:column;gap:.7rem;margin:.4rem 0}
+  .turn{display:flex;gap:.6rem;align-items:flex-end;max-width:85%}
+  .turn.b{align-self:flex-end;flex-direction:row-reverse}
+  .av{flex:0 0 auto;width:2.1rem;height:2.1rem;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:800;color:#fff;font-size:.9rem}
+  .bub{background:var(--sand);border:1px solid var(--line);border-radius:16px 16px 16px 4px;padding:.6rem .85rem}
+  .turn.b .bub{border-radius:16px 16px 4px 16px;background:var(--brand-soft)}
+  .bub .l{font-family:var(--display);font-weight:700;font-size:1.05rem}
+  .bub .t{font-size:.83rem;color:var(--muted);margin-top:.15rem}
+
+  /* exercises */
+  .ex-block{background:var(--coral-soft);border:1px solid color-mix(in srgb,var(--coral) 35%,transparent);border-radius:14px;padding:1.2rem 1.3rem;margin:.5rem 0}
+  .ex-block .tag{display:inline-flex;align-items:center;gap:.4ch;font-family:var(--display);font-weight:800;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--coral);background:var(--card);border:1px solid color-mix(in srgb,var(--coral) 30%,transparent);padding:.25rem .6rem;border-radius:999px}
+  .q{margin:1rem 0 0}
+  .q p{margin:0 0 .5rem;font-weight:600}
+  .q .prompt{font-size:.85rem;color:var(--muted);font-weight:400;margin-left:.4rem}
+  .ans{margin-top:.5rem}
+  .ans button{font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--brand-deep);background:var(--card);border:1.5px solid var(--brand);border-radius:999px;padding:.35rem .9rem;cursor:pointer;transition:background .15s,color .15s}
+  .ans button:hover{background:var(--brand);color:#fff}
+  .ans button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+  .ans .reveal{display:none;margin-top:.55rem;padding:.6rem .8rem;background:var(--good-soft);border:1px solid color-mix(in srgb,var(--good) 35%,transparent);border-radius:10px;font-weight:600}
+  .ans.open .reveal{display:block}
+  .ans.open button{display:none}
+  .options{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0}
+  .options span{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.25rem .6rem;font-family:var(--display);font-weight:700;font-size:.9rem;color:var(--brand-deep)}
+
+  .foot{text-align:center;color:var(--muted);padding:2.5rem 1.25rem 3.5rem;font-size:.92rem}
+  .foot .next{display:inline-block;margin-top:.5rem;font-family:var(--display);font-weight:800;color:var(--brand-deep);font-size:1.05rem}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+  /* ---- lesson nav (native popover) ---- */
+  .nav-fab{position:fixed;right:1.05rem;bottom:1.05rem;z-index:60;display:inline-flex;align-items:center;gap:.45ch;
+    font-family:var(--display);font-weight:800;font-size:.92rem;color:#fff;background:var(--brand-deep);
+    border:none;border-radius:999px;padding:.68rem 1.05rem;box-shadow:var(--shadow);cursor:pointer;
+    transition:transform .15s ease,background .15s ease}
+  .nav-fab:hover{transform:translateY(-2px);background:var(--brand)}
+  .nav-fab:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+  .nav-fab .car{font-size:.7em;opacity:.85}
+  #lesson-menu{position:fixed;inset:auto;right:1.05rem;bottom:3.95rem;margin:0;
+    width:min(20rem,calc(100vw - 2.1rem));max-height:min(68vh,34rem);overflow-y:auto;
+    background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;
+    box-shadow:var(--shadow);padding:.6rem}
+  #lesson-menu::backdrop{background:rgba(0,0,0,.14)}
+  .nav-head{font-family:var(--display);font-weight:800;font-size:.74rem;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--muted);padding:.35rem .55rem .5rem}
+  #lesson-menu a{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--ink);
+    font-size:.92rem;padding:.48rem .55rem;border-radius:10px;transition:background .12s ease}
+  #lesson-menu a:hover,#lesson-menu a:focus-visible{background:var(--brand-soft);outline:none}
+  #lesson-menu a .nn{flex:0 0 auto;width:1.55rem;height:1.55rem;border-radius:7px;display:grid;place-items:center;
+    font-family:var(--display);font-weight:800;font-size:.8rem;color:#fff;background:var(--brand)}
+  #lesson-menu a b{font-weight:700}
+  #lesson-menu a .lbl{color:var(--muted);font-size:.82rem}
+  .lesson{scroll-margin-top:1rem}
+  @media (prefers-reduced-motion:reduce){.nav-fab{transition:none}}
+</style>
+<button class="nav-fab" popovertarget="lesson-menu" aria-label="Jump to a lesson">Leson-en <span class="car">▾</span></button>
+<div id="lesson-menu" popover>
+  <div class="nav-head">Leson-en · Jump to a lesson</div>
+  <a href="#leson-1"><span class="nn">1</span><span><b>La man hu</b> <span class="lbl">Relative clauses</span></span></a>
+  <a href="#leson-2"><span class="nn">2</span><span><b>If… den</b> <span class="lbl">Conditionals</span></span></a>
+  <a href="#leson-3"><span class="nn">3</span><span><b>-mak</b> <span class="lbl">Causative</span></span></a>
+  <a href="#leson-4"><span class="nn">4</span><span><b>-wei</b> <span class="lbl">Manner adverbs</span></span></a>
+  <a href="#leson-5"><span class="nn">5</span><span><b>Say it twice</b> <span class="lbl">Reduplication</span></span></a>
+  <a href="#leson-6"><span class="nn">6</span><span><b>Word order</b> <span class="lbl">Cases</span></span></a>
+  <a href="#leson-7"><span class="nn">7</span><span><b>Big words</b> <span class="lbl">Compounds</span></span></a>
+  <a href="#leson-8"><span class="nn">8</span><span><b>Nomber</b> <span class="lbl">Numbers & time</span></span></a>
+  <a href="#leson-9"><span class="nn">9</span><span><b>Plise</b> <span class="lbl">Politeness</span></span></a>
+  <a href="#leson-10"><span class="nn">10</span><span><b>Idioms</b> <span class="lbl">Set phrases</span></span></a>
+  <a href="#leson-11"><span class="nn">11</span><span><b>Poema</b> <span class="lbl">Read a poem</span></span></a>
+  <a href="#leson-12"><span class="nn">12</span><span><b>Stori</b> <span class="lbl">Story & review</span></span></a>
+</div>
+<header class="cover">
+  <canvas id="waves" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <span class="badge">Level 3 · Fluency &amp; word-craft</span>
+    <h1>Learning <span class="sail">VELA</span></h1>
+    <p class="sub">You can hold a conversation — now speak with real range. Relative clauses, causatives, word-building, and reading whole poems and stories.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="legend" aria-label="How this course works">
+    <div class="li"><div class="head"><span class="dot" style="background:var(--brand)">A</span>Vocabulary</div><p>New words, with how to say them.</p></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--sun)">B</span>One rule</div><p>A single grammar idea per lesson.</p></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--brand-deep)">C</span>Dialogue</div><p>Hear the words in real use.</p></div>
+    <div class="li"><div class="head"><span class="dot" style="background:var(--coral)">D</span>Your turn</div><p>Small exercises — answers included.</p></div>
+  </section>
+
+  <!-- ================= LESSON 1 ================= -->
+  <section class="lesson" id="leson-1">
+    <p class="eyebrow"><span class="n">1</span> Leson wan</p>
+    <h2>La man hu… — Relative clauses</h2>
+    <div class="goals"><span>join two ideas into one</span><span>use <span class="vela">hu / wat / wer</span></span><span>describe with a whole clause</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">hu</div><div class="p">/hu/</div><div class="m">who</div></div>
+      <div class="word"><div class="w">wat</div><div class="p">/wat/</div><div class="m">that / which</div></div>
+      <div class="word"><div class="w">wer</div><div class="p">/wer/</div><div class="m">where</div></div>
+      <div class="word"><div class="w">wen</div><div class="p">/wen/</div><div class="m">when</div></div>
+      <div class="word"><div class="w">liv</div><div class="p">/liv/</div><div class="m">live</div></div>
+      <div class="word"><div class="w">nof</div><div class="p">/nof/</div><div class="m">know</div></div>
+    </div>
+
+    <h3 class="sec-t">The one rule: the question word does double duty</h3>
+    <div class="gram">
+      <h4>Put the matching question word right after the noun</h4>
+      <p>To glue a whole sentence onto a noun, use the question word that fits: <span class="vela">hu</span> for people, <span class="vela">wat</span> for things, <span class="vela">wer</span> for places. The clause stays in normal order.</p>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">la person hu liv hier</span></td><td>the man who lives here</td></tr>
+        <tr><td><span class="vela">la buka wat mi rida</span></td><td>the book that I read</td></tr>
+        <tr><td><span class="vela">la ples wer wi werka</span></td><td>the place where we work</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">Position tells you it’s not a question: <span class="vela">Hu liv hier?</span> (a question) vs. <span class="vela">la person hu liv hier</span> (a description).</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — La fren hu mi luva</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Hu es la person wat yu si-ed?</div><div class="t">Who is the man that you saw?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Li es la fren hu liv nera la river.</div><div class="t">He’s the friend who lives near the river.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Ah, la person hu werka in la lern-hous?</div><div class="t">Ah, the man who works at the school?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Ye! Li es la fren hu mi luva mos.</div><div class="t">Yes! He’s the friend whom I love the most.</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · join into one sentence</span>
+      <div class="q"><p>“The dog is big.” + “The dog lives here.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">La doga hu liv hier es biga.</span></div></div></div>
+      <div class="q"><p>“I want the book.” + “You read the book.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Mi wan la buka wat yu rida.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · describe a place</span>
+      <div class="q"><p>Describe your home starting <span class="vela">La hous wer mi liv…</span></p><div class="ans"><button>Show a model</button><div class="reveal">e.g. <span class="vela">La hous wer mi liv es smol bot veri nais.</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 2 ================= -->
+  <section class="lesson" id="leson-2">
+    <p class="eyebrow"><span class="n">2</span> Leson tu</p>
+    <h2>If… den… — Conditions &amp; “what if”</h2>
+    <div class="goals"><span>talk about possibilities</span><span>imagine the unreal</span><span>chain if → then</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">if</div><div class="p">/if/</div><div class="m">if</div></div>
+      <div class="word"><div class="w">den</div><div class="p">/den/</div><div class="m">then</div></div>
+      <div class="word"><div class="w">richa</div><div class="p">/ˈri.cha/</div><div class="m">rich</div></div>
+      <div class="word"><div class="w">grota</div><div class="p">/ˈgro.ta/</div><div class="m">grow</div></div>
+      <div class="word"><div class="w">rein</div><div class="p">/rein/</div><div class="m">rain</div></div>
+      <div class="word"><div class="w">helpa</div><div class="p">/ˈhel.pa/</div><div class="m">help</div></div>
+    </div>
+
+    <h3 class="sec-t">The one rule: <span class="vela">if</span> opens, <span class="vela">den</span> answers</h3>
+    <div class="gram">
+      <h4>Real condition = present · unreal = past in both halves</h4>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">If yu werka, den yu hava moni.</span></td><td>If you work, then you have money.</td></tr>
+        <tr><td><span class="vela">If la rein kom, den la plant-en grota.</span></td><td>If the rain comes, the plants grow.</td></tr>
+        <tr><td><span class="vela">If mi es-ed richa, den mi bai-ed un big hous.</span></td><td>If I were rich, I would buy a big house.</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">For the imagined “would”, VELA just uses the <strong>past</strong> in both halves — the <span class="vela">if</span> makes it clear it isn’t real.</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — If mi es-ed richa…</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">If yu es-ed richa, wat yu bai-ed?</div><div class="t">If you were rich, what would you buy?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Mi bai-ed un hous nera la si. And yu?</div><div class="t">I’d buy a house near the sea. And you?</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">If mi hava-ed moni, den mi helpa-ed meni pipol.</div><div class="t">If I had money, I’d help many people.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Dat es un nais drim!</div><div class="t">That’s a beautiful dream!</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · real conditions</span>
+      <div class="q"><p>“If you come, then we eat.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">If yu kom, den wi eata.</span></div></div></div>
+      <div class="q"><p>“If it is cold, I stay home.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">If li es kol, den mi stei hom.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · your “what if”</span>
+      <div class="q"><p>Finish: <span class="vela">If mi es-ed un bird…</span></p><div class="ans"><button>Show a model</button><div class="reveal">e.g. <span class="vela">…den mi flai-ed ovar la mautin-en.</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 3 ================= -->
+  <section class="lesson" id="leson-3">
+    <p class="eyebrow"><span class="n">3</span> Leson tri</p>
+    <h2>Making it happen — the causative <span class="vela">-mak</span></h2>
+    <div class="goals"><span>turn adjectives into verbs</span><span>“make it bigger / stronger”</span><span>build with <span class="vela">-mak</span></span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">strong-mak</div><div class="p">/ˈstroŋ.mak/</div><div class="m">strengthen</div></div>
+      <div class="word"><div class="w">big-mak</div><div class="p">/ˈbig.mak/</div><div class="m">expand / enlarge</div></div>
+      <div class="word"><div class="w">bad-mak</div><div class="p">/ˈbad.mak/</div><div class="m">worsen</div></div>
+      <div class="word"><div class="w">strong</div><div class="p">/stroŋ/</div><div class="m">strong</div></div>
+      <div class="word"><div class="w">plant</div><div class="p">/plant/</div><div class="m">plant</div></div>
+      <div class="word"><div class="w">son</div><div class="p">/son/</div><div class="m">sun</div></div>
+    </div>
+
+    <h3 class="sec-t">The big idea: <span class="vela">-mak</span> = “to make (something) ___”</h3>
+    <div class="gram">
+      <h4>Adjective + <span class="vela">-mak</span> becomes a verb of causing</h4>
+      <p>You already know <span class="vela">maka</span> = to make. As a small ending, <span class="vela">-mak</span> turns a quality into an action.</p>
+      <table>
+        <tr><th>Adjective</th><th>+ -mak</th><th>Meaning</th></tr>
+        <tr><td><span class="vela">strong</span></td><td><span class="vela">strong-mak</span></td><td>to strengthen</td></tr>
+        <tr><td><span class="vela">big</span></td><td><span class="vela">big-mak</span></td><td>to enlarge</td></tr>
+        <tr><td><span class="vela">bad</span></td><td><span class="vela">bad-mak</span></td><td>to worsen / harm</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0"><span class="vela">La son big-mak la plant-en.</span> — <em>The sun makes the plants grow.</em> Tenses work normally: <span class="vela">strong-mak-ed</span> (strengthened).</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Strong-mak la bodi</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Mi wan strong-mak mi-se bodi.</div><div class="t">I want to strengthen my body.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Den ran ol la dei-n! Li strong-mak la herta.</div><div class="t">Then run every day! It strengthens the heart.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">And no bad-mak li wit bada fuda.</div><div class="t">And don’t harm it with bad food.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Tru-tru! Gud fuda big-mak la strong-nes.</div><div class="t">Truly! Good food grows your strength.</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · build the causative verb</span>
+      <div class="q"><p>1. “to make warm” <span class="prompt">(warm = warma → root warm)</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">warm-mak</span> (to warm)</div></div></div>
+      <div class="q"><p>2. “to make clean” <span class="prompt">(clean = clean)</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">clean-mak</span> (to clean)</div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · use it in a sentence</span>
+      <div class="q"><p>Say “The sun strengthens the tree.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">La son strong-mak la tre.</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 4 ================= -->
+  <section class="lesson" id="leson-4">
+    <p class="eyebrow"><span class="n">4</span> Leson kwatro</p>
+    <h2>How you do it — manner with <span class="vela">-wei</span></h2>
+    <div class="goals"><span>say gently, deeply, upward</span><span>build adverbs</span><span>use <span class="vela">-wei</span></span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">soft-wei</div><div class="p">/ˈsoft.wei/</div><div class="m">gently</div></div>
+      <div class="word"><div class="w">dip-wei</div><div class="p">/ˈdep.wei/</div><div class="m">deeply</div></div>
+      <div class="word"><div class="w">ap-wei</div><div class="p">/ˈap.wei/</div><div class="m">upward</div></div>
+      <div class="word"><div class="w">bak-wei</div><div class="p">/ˈbak.wei/</div><div class="m">backward</div></div>
+      <div class="word"><div class="w">big-wei</div><div class="p">/ˈbig.wei/</div><div class="m">greatly</div></div>
+      <div class="word"><div class="w">do-wei</div><div class="p">/ˈdo.wei/</div><div class="m">way / method</div></div>
+    </div>
+
+    <h3 class="sec-t">The big idea: <span class="vela">-wei</span> = “in a ___ way”</h3>
+    <div class="gram">
+      <h4>Root + <span class="vela">-wei</span> builds an adverb (a “how” word)</h4>
+      <p><span class="vela">wei</span> means way/path. Add it to a quality or direction and you say <em>how</em> something happens.</p>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">Li tok soft-wei.</span></td><td>She speaks gently.</td></tr>
+        <tr><td><span class="vela">La bird flai ap-wei.</span></td><td>The bird flies upward.</td></tr>
+        <tr><td><span class="vela">Mi tinka dip-wei.</span></td><td>I think deeply.</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">The adverb sits after the verb, like in English.</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Tok soft-wei</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">La child slipa. Plise tok soft-wei.</div><div class="t">The child is sleeping. Please speak gently.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Sori! Mi luva la wei li slipa.</div><div class="t">Sorry! I love the way she sleeps.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Ye. Li grota big-wei dis jir.</div><div class="t">Yes. She has grown a lot this year.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Taim go fasta, no?</div><div class="t">Time goes fast, doesn’t it?</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · build the adverb</span>
+      <div class="q"><p>1. “slowly” <span class="prompt">(slow = slo)</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">slo-wei</span></div></div></div>
+      <div class="q"><p>2. “strongly”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">strong-wei</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · how do you do it?</span>
+      <div class="q"><p>Say “I speak VELA gently and slowly.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Mi tok VELA soft-wei and slo-wei.</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 5 ================= -->
+  <section class="lesson" id="leson-5">
+    <p class="eyebrow"><span class="n">5</span> Leson faiv</p>
+    <h2>Say it twice — reduplication</h2>
+    <div class="goals"><span>make a word stronger</span><span>show “more and more”</span><span>double for effect</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">big-big</div><div class="p">/ˈbig.big/</div><div class="m">vast, huge</div></div>
+      <div class="word"><div class="w">smol-smol</div><div class="p">/ˈsmol.smol/</div><div class="m">tiny</div></div>
+      <div class="word"><div class="w">slo-slo</div><div class="p">/ˈslo.slo/</div><div class="m">gradually</div></div>
+      <div class="word"><div class="w">tru-tru</div><div class="p">/ˈtru.tru/</div><div class="m">truly, indeed</div></div>
+      <div class="word"><div class="w">old-old</div><div class="p">/ˈold.old/</div><div class="m">ancient</div></div>
+      <div class="word"><div class="w">mor-mor</div><div class="p">/ˈmor.mor/</div><div class="m">more and more</div></div>
+    </div>
+
+    <h3 class="sec-t">The big idea: doubling turns up the volume</h3>
+    <div class="gram">
+      <h4>Repeat a word to intensify it or show growth</h4>
+      <p>Where Level 1 used <span class="vela">veri</span> for “very”, doubling goes further — to the extreme, or to a rising change.</p>
+      <table>
+        <tr><th>Base</th><th>Doubled</th><th>Meaning</th></tr>
+        <tr><td><span class="vela">big</span> (big)</td><td><span class="vela">big-big</span></td><td>vast / huge</td></tr>
+        <tr><td><span class="vela">smol</span> (small)</td><td><span class="vela">smol-smol</span></td><td>tiny</td></tr>
+        <tr><td><span class="vela">mor</span> (more)</td><td><span class="vela">mor-mor</span></td><td>more and more</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0"><span class="vela">La siti grota mor-mor.</span> — <em>The city grows more and more.</em> · <span class="vela">Tru-tru, li es un gud fren.</span> — <em>Truly, he is a good friend.</em></p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — La big-big siti</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Dis siti es big-big! Mi es smol-smol hier.</div><div class="t">This city is huge! I feel tiny here.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Ha! Li grota mor-mor, jir aft jir.</div><div class="t">Ha! It grows more and more, year after year.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Slo-slo mi lern la strita-n.</div><div class="t">Gradually I’m learning the streets.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Tru-tru! Sun yu es un siti-person.</div><div class="t">Indeed! Soon you’ll be a city person.</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · double it</span>
+      <div class="q"><p>1. “ancient” from <span class="vela">old</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">old-old</span></div></div></div>
+      <div class="q"><p>2. “gradually” from <span class="vela">slo</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">slo-slo</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 6 ================= -->
+  <section class="lesson" id="leson-6">
+    <p class="eyebrow"><span class="n">6</span> Leson siks</p>
+    <h2>Word order &amp; the case markers</h2>
+    <div class="goals"><span>keep S-V-O clear</span><span>front for emphasis with <span class="vela">-a</span></span><span>chain <span class="vela">-se</span> and <span class="vela">-to</span></span></div>
+
+    <h3 class="sec-t">The idea: VELA marks a word only when order isn’t enough</h3>
+    <div class="gram">
+      <h4>Normally the position does the work</h4>
+      <p>In <span class="vela">Mi si la doga</span>, <span class="vela">mi</span> is the doer (before the verb) and <span class="vela">la doga</span> is the target (after). No endings needed — that is the whole point of SVO.</p>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">La person si la kata.</span></td><td>The man sees the cat.</td></tr>
+        <tr><td><span class="vela">La kata-a, la person si.</span></td><td><em>The cat</em>, the man sees. (object moved to front → mark it with <span class="vela">-a</span>)</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">Only when you move the object to the front do you add <span class="vela">-a</span>, so the listener still knows who does what.</p>
+    </div>
+    <div class="gram">
+      <h4>Chaining owners (<span class="vela">-se</span>) and places (<span class="vela">-to</span>)</h4>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">la person-se doga-se neim</span></td><td>the man’s dog’s name</td></tr>
+        <tr><td><span class="vela">Mi liv la big siti-to.</span></td><td>I live in the big city.</td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Hu-se buka?</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Dis buka — hu-se es li?</div><div class="t">This book — whose is it?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Li es mi-se broter-se fren-se buka!</div><div class="t">It’s my brother’s friend’s book!</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Ha! And la buka-a, hu rida?</div><div class="t">Ha! And the book — who reads it?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Ol wi rida li, in la hous-to.</div><div class="t">All of us read it, at home.</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · chain the owners</span>
+      <div class="q"><p>“my mother’s house”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">mi-se moter-se hous</span></div></div></div>
+      <div class="q"><p>“the child’s dog’s name”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">la childa-se doga-se neim</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 7 ================= -->
+  <section class="lesson" id="leson-7">
+    <p class="eyebrow"><span class="n">7</span> Leson seven</p>
+    <h2>Big words from small — 3-root compounds</h2>
+    <div class="goals"><span>decode long words</span><span>build your own</span><span>the “max 3 roots” rule</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">far-tok-box</div><div class="p">/ˈfar.tok.boks/</div><div class="m">telephone</div></div>
+      <div class="word"><div class="w">bred-mak-hous</div><div class="p">/ˈbred.mak.haus/</div><div class="m">bakery</div></div>
+      <div class="word"><div class="w">art-mak-po</div><div class="p">/ˈart.mak.po/</div><div class="m">artist</div></div>
+      <div class="word"><div class="w">lern-hous</div><div class="p">/ˈlern.haus/</div><div class="m">school</div></div>
+      <div class="word"><div class="w">son-lait</div><div class="p">/ˈson.lait/</div><div class="m">sunshine</div></div>
+      <div class="word"><div class="w">rein-arka</div><div class="p">/ˈrein.ar.ka/</div><div class="m">rainbow</div></div>
+    </div>
+
+    <h3 class="sec-t">The big idea: read a compound left to right</h3>
+    <div class="gram">
+      <h4>Chain roots with a hyphen — up to three</h4>
+      <p>VELA builds most “new” things from old roots. Read each piece and the meaning appears.</p>
+      <table>
+        <tr><th>Compound</th><th>Pieces</th><th>Meaning</th></tr>
+        <tr><td><span class="vela">far-tok-box</span></td><td>far + talk + box</td><td>telephone</td></tr>
+        <tr><td><span class="vela">bred-mak-hous</span></td><td>bread + make + house</td><td>bakery</td></tr>
+        <tr><td><span class="vela">art-mak-po</span></td><td>art + make + person</td><td>artist</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">The rule: at most <strong>three roots</strong>. If you need more, break it into two words.</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — La far-tok-box</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Wer es mi-se far-tok-box?</div><div class="t">Where is my telephone?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">On la werk-tebul, nera la buka-n.</div><div class="t">On the desk, near the books.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Tanki! Mi mas tok wit la bred-mak-hous.</div><div class="t">Thanks! I must call the bakery.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Ha, yu luva la new breda dar!</div><div class="t">Ha, you love the fresh bread there!</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · decode the compound</span>
+      <div class="q"><p>What is <span class="vela">son-lait</span>? <span class="prompt">(son + lait)</span></p><div class="ans"><button>Show answer</button><div class="reveal">sun + light = <b>sunshine</b>.</div></div></div>
+      <div class="q"><p>Build “book-make-person” (author).</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">buk-mak-po</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 8 ================= -->
+  <section class="lesson" id="leson-8">
+    <p class="eyebrow"><span class="n">8</span> Leson eit</p>
+    <h2>Numbers, dates &amp; time</h2>
+    <div class="goals"><span>count past twenty</span><span>use first, second, third</span><span>say the date &amp; time</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">firsta</div><div class="p">/ˈfir.sta/</div><div class="m">first</div></div>
+      <div class="word"><div class="w">sekonda</div><div class="p">/se.ˈkon.da/</div><div class="m">second</div></div>
+      <div class="word"><div class="w">terda</div><div class="p">/ˈter.da/</div><div class="m">third</div></div>
+      <div class="word"><div class="w">monta</div><div class="p">/ˈmon.ta/</div><div class="m">month</div></div>
+      <div class="word"><div class="w">our</div><div class="p">/our/</div><div class="m">hour</div></div>
+      <div class="word"><div class="w">minuta</div><div class="p">/mi.ˈnu.ta/</div><div class="m">minute</div></div>
+    </div>
+
+    <h3 class="sec-t">The one rule: numbers stack, ordinals end in a vowel</h3>
+    <div class="gram">
+      <h4>Bigger numbers &amp; “the ___th”</h4>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">ten-wan · ten-tu · tu-ten</span></td><td>11 · 12 · 20</td></tr>
+        <tr><td><span class="vela">tu-ten-faiv</span></td><td>25</td></tr>
+        <tr><td><span class="vela">la firsta dei · la terda monta</span></td><td>the first day · the third month</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">Time: <span class="vela">tu our-en and ten minuta-n</span> — two hours and ten minutes. A week is <span class="vela">seven-dei</span>.</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Wat our es li?</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Wat our es li nau?</div><div class="t">What time is it now?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Eit our-en and faiva minuta-n.</div><div class="t">Eight oh five (eight hours and five minutes).</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Mi-se firsta lern-taim es at nain.</div><div class="t">My first class is at nine.</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Den go nau! Yu hava ten minuta-n.</div><div class="t">Then go now! You have ten minutes.</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · say the number</span>
+      <div class="q"><p>1. 22</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">tu-ten-tu</span></div></div></div>
+      <div class="q"><p>2. the second book</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">la sekonda buka</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 9 ================= -->
+  <section class="lesson" id="leson-9">
+    <p class="eyebrow"><span class="n">9</span> Leson nain</p>
+    <h2>Being polite — requests &amp; register</h2>
+    <div class="goals"><span>ask politely</span><span>soften with modals</span><span>apologise &amp; thank</span></div>
+
+    <h3 class="sec-t">Vocabulary</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">plise</div><div class="p">/ˈpli.se/</div><div class="m">please</div></div>
+      <div class="word"><div class="w">tanki</div><div class="p">/ˈtan.ki/</div><div class="m">thank</div></div>
+      <div class="word"><div class="w">sori</div><div class="p">/ˈso.ri/</div><div class="m">sorry</div></div>
+      <div class="word"><div class="w">kan</div><div class="p">/kan/</div><div class="m">can</div></div>
+      <div class="word"><div class="w">giva</div><div class="p">/ˈgi.va/</div><div class="m">give</div></div>
+      <div class="word"><div class="w">helpa</div><div class="p">/ˈhel.pa/</div><div class="m">help</div></div>
+    </div>
+
+    <h3 class="sec-t">The one rule: a question + <span class="vela">plise</span> = a polite request</h3>
+    <div class="gram">
+      <h4>Turn an order into a request with <span class="vela">kan</span> and <span class="vela">plise</span></h4>
+      <table>
+        <tr><th>Direct</th><th>Polite</th></tr>
+        <tr><td><span class="vela">Giva mi la watre.</span> (Give me the water.)</td><td><span class="vela">Yu kan giva mi la watre, plise?</span> (Could you give me the water, please?)</td></tr>
+        <tr><td><span class="vela">Helpa mi.</span> (Help me.)</td><td><span class="vela">Yu kan helpa mi, plise?</span> (Could you help me, please?)</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">Say sorry with <span class="vela">Mi es sori</span>, thank with <span class="vela">Mi tanki yu</span> (or just <span class="vela">Tanki!</span>).</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — In la shop</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Helo! Yu kan giva mi tu breda, plise?</div><div class="t">Hello! Could you give me two loaves, please?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Sori, wi hava wan breda nau.</div><div class="t">Sorry, we have one loaf now.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">No problem. Wan es gud. Tanki yu!</div><div class="t">No problem. One is fine. Thank you!</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Tanki yu! Gud dei!</div><div class="t">Thank you! Good day!</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · make it polite</span>
+      <div class="q"><p>Turn <span class="vela">Giva mi la buka.</span> into a polite request.</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Yu kan giva mi la buka, plise?</span></div></div></div>
+      <div class="q"><p>Say “I’m sorry, I can’t come.”</p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Mi es sori, mi no kan kom.</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 10 ================= -->
+  <section class="lesson" id="leson-10">
+    <p class="eyebrow"><span class="n">10</span> Leson ten</p>
+    <h2>Set phrases &amp; everyday idioms</h2>
+    <div class="goals"><span>sound natural</span><span>learn ready-made phrases</span><span>read compound idioms</span></div>
+
+    <h3 class="sec-t">Handy set phrases</h3>
+    <div class="gram">
+      <h4>Keep these ready to use</h4>
+      <table>
+        <tr><th>VELA</th><th>English</th></tr>
+        <tr><td><span class="vela">Mi nof no.</span></td><td>I don’t know.</td></tr>
+        <tr><td><span class="vela">No problem.</span></td><td>No problem.</td></tr>
+        <tr><td><span class="vela">Gud-luki!</span></td><td>Good luck!</td></tr>
+        <tr><td><span class="vela">Hai yu es?</span></td><td>How are you?</td></tr>
+        <tr><td><span class="vela">Wi si agen!</span></td><td>See you again!</td></tr>
+      </table>
+    </div>
+    <div class="gram">
+      <h4>Idioms built from roots</h4>
+      <table>
+        <tr><th>Compound</th><th>Pieces</th><th>Meaning</th></tr>
+        <tr><td><span class="vela">dip-luva</span></td><td>deep + love</td><td>to cherish</td></tr>
+        <tr><td><span class="vela">bak-tok</span></td><td>back + talk</td><td>to gossip</td></tr>
+        <tr><td><span class="vela">no-fren</span></td><td>not + friend</td><td>enemy</td></tr>
+      </table>
+      <p style="margin:.6rem 0 0">Notice how a feeling or idea hides inside two small roots — that is VELA thinking.</p>
+    </div>
+
+    <h3 class="sec-t">Dialogue — Hai yu es?</h3>
+    <div class="chat">
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Helo! Hai yu es?</div><div class="t">Hello! How are you?</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Veri gud! Mi hava un new werka.</div><div class="t">Very good! I have a new job.</div></div></div>
+      <div class="turn"><span class="av" style="background:var(--brand)">A</span><div class="bub"><div class="l">Nais! Gud-luki wit li!</div><div class="t">Nice! Good luck with it!</div></div></div>
+      <div class="turn b"><span class="av" style="background:var(--sun)">B</span><div class="bub"><div class="l">Tanki! Wi si agen sun.</div><div class="t">Thanks! See you again soon.</div></div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · read the idiom</span>
+      <div class="q"><p>What does <span class="vela">no-fren</span> mean, and why?</p><div class="ans"><button>Show answer</button><div class="reveal"><b>Enemy</b> — literally “not-friend”.</div></div></div>
+      <div class="q"><p>Reply to <span class="vela">Hai yu es?</span></p><div class="ans"><button>Show a model</button><div class="reveal">e.g. <span class="vela">Mi es veri gud, tanki! And yu?</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 11 ================= -->
+  <section class="lesson" id="leson-11">
+    <p class="eyebrow"><span class="n">11</span> Leson ten-wan</p>
+    <h2>Read a poem — <span class="vela">Son and Moon</span></h2>
+    <div class="goals"><span>read real VELA verse</span><span>feel the rhythm</span><span>meet new words in context</span></div>
+
+    <h3 class="sec-t">La poema</h3>
+    <div class="gram">
+      <h4>Son and Moon</h4>
+      <p style="font-size:1.05rem;line-height:2"><span class="vela">La son shin ovar la mautin,<br>
+      la river ran slo-slo daun.<br>
+      La flauor-en open a la lait,<br>
+      and ol la lond es warma and brite.</span></p>
+      <p style="font-size:1.05rem;line-height:2"><span class="vela">Wen la noita kom, la moon rais,<br>
+      la star-en shin, smol-smol and hai.<br>
+      La wind tok soft-wei tru la tre-n,<br>
+      and ol la wailda slipa tru-tru.</span></p>
+      <p style="margin:.7rem 0 0;color:var(--muted)">Line by line: <em>The sun shines over the mountain, / the river runs slowly down. / The flowers open to the light, / and all the land is warm and bright. // When the night comes, the moon rises, / the stars shine, tiny and high. / The wind speaks gently through the trees, / and all the world sleeps, truly.</em></p>
+    </div>
+
+    <h3 class="sec-t">New words from the poem</h3>
+    <div class="vocab">
+      <div class="word"><div class="w">shin</div><div class="p">/ʃin/</div><div class="m">shine</div></div>
+      <div class="word"><div class="w">moon</div><div class="p">/mun/</div><div class="m">moon</div></div>
+      <div class="word"><div class="w">star</div><div class="p">/star/</div><div class="m">star</div></div>
+      <div class="word"><div class="w">flauor</div><div class="p">/ˈflau.or/</div><div class="m">flower</div></div>
+      <div class="word"><div class="w">wind</div><div class="p">/ˈwin.da/</div><div class="m">wind (winda)</div></div>
+      <div class="word"><div class="w">tru</div><div class="p">/tru/</div><div class="m">through / true</div></div>
+    </div>
+
+    <h3 class="sec-t">Your turn</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · read &amp; answer</span>
+      <div class="q"><p>1. <span class="vela">Wat shin in la noita?</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">La moon and la star-en shin in la noita.</span></div></div></div>
+      <div class="q"><p>2. <span class="vela">Hai la wind tok?</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">La wind tok soft-wei.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · write one line</span>
+      <div class="q"><p>Write your own line about the sky, using <span class="vela">shin</span> or <span class="vela">warma</span>.</p><div class="ans"><button>Show a model</button><div class="reveal">e.g. <span class="vela">La son shin warma-wei ovar la si.</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- ================= LESSON 12 ================= -->
+  <section class="lesson" id="leson-12">
+    <p class="eyebrow"><span class="n">12</span> Leson ten-tu</p>
+    <h2>Read a story — <span class="vela">La tri child-en</span></h2>
+    <div class="goals"><span>read a whole folktale</span><span>use everything</span><span>tell your own</span></div>
+
+    <h3 class="sec-t">La stori</h3>
+    <div class="gram">
+      <h4>La tri child-en and la old hous</h4>
+      <p><span class="vela">Wan taim, tri child-en hu liv-ed nera un big fores luz-ed la wei hom. La noita kom-ed slo-slo, and la wind tok-ed strong-wei tru la tre-n. La child-en es-ed afreda.</span></p>
+      <p><span class="vela">"If wi si un hous," tok-ed la firsta child, "den wi es safi." So de woka-ed mor-mor, and sun de si-ed un smol lait. Li es-ed un old hous wer un warm-hert wuman liv-ed.</span></p>
+      <p><span class="vela">La wuman hu open-ed la dor giva-ed de warma supa and un ples to slipa. "No person luza la wei foreva," li tok-ed soft-wei. "La moring big-mak la hop."</span></p>
+      <p><span class="vela">In la moring, la son shin-ed brite, and la child-en si-ed la wei hom. De no forget-ed la wuman hu helpa-ed de — de dip-luva-ed li for ol la jir-en.</span></p>
+      <p style="margin:.7rem 0 0;color:var(--muted)"><em>Once, three children who lived near a big forest lost the way home. Night came slowly, and the wind spoke strongly through the trees. The children were afraid. “If we find a house,” said the first child, “then we are safe.” So they walked more and more, and soon they saw a small light. It was an old house where a kind woman lived. The woman who opened the door gave them warm soup and a place to sleep. “No one loses the way forever,” she said gently. “The morning grows hope.” In the morning, the sun shone bright, and the children found the way home. They did not forget the woman who helped them — they cherished her for all the years.</em></p>
+    </div>
+
+    <h3 class="sec-t">Your Level-3 cheat-sheet</h3>
+    <div class="gram">
+      <h4>Everything Level 3 in one box</h4>
+      <table>
+        <tr><th>Idea</th><th>VELA</th></tr>
+        <tr><td>relative clause</td><td>noun + <span class="vela">hu / wat / wer</span> + clause</td></tr>
+        <tr><td>if / unreal if</td><td><span class="vela">if… den…</span> (past in both halves = “would”)</td></tr>
+        <tr><td>make it ___</td><td>adjective + <span class="vela">-mak</span> (<span class="vela">strong-mak</span>)</td></tr>
+        <tr><td>in a ___ way</td><td>root + <span class="vela">-wei</span> (<span class="vela">soft-wei</span>)</td></tr>
+        <tr><td>intensify</td><td>double it (<span class="vela">big-big</span>, <span class="vela">slo-slo</span>)</td></tr>
+        <tr><td>front the object</td><td>object + <span class="vela">-a</span> at the start</td></tr>
+        <tr><td>build a thing</td><td>up to 3 roots (<span class="vela">far-tok-box</span>)</td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec-t">Your turn — the big one</h3>
+    <div class="ex-block">
+      <span class="tag">Exercise 1 · answer about the story</span>
+      <div class="q"><p>1. <span class="vela">Hu open-ed la dor?</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Un warm-hert wuman hu liv-ed in la old hous open-ed la dor.</span></div></div></div>
+      <div class="q"><p>2. <span class="vela">Wai la child-en no forget-ed la wuman?</span></p><div class="ans"><button>Show answer</button><div class="reveal"><span class="vela">Bikos li helpa-ed de wen de es-ed afreda.</span></div></div></div>
+    </div>
+    <div class="ex-block">
+      <span class="tag">Exercise 2 · write your own tale</span>
+      <div class="q"><p>Write five sentences telling a small story. Use at least one relative clause (<span class="vela">hu/wat/wer</span>), one <span class="vela">if… den…</span>, and one doubled word.</p><div class="ans"><button>Show a full model</button><div class="reveal"><span class="vela">Wan taim, un smol kata hu liv-ed in la siti luz-ed li-se wei. Li es-ed afreda, and la noita kom-ed slo-slo. "If mi si un fren," tinka-ed la kata, "den mi es safi." Den un child hu luva animal-en si-ed li and giva-ed li fuda. La kata dip-luva-ed la child for ol la jir-en.</span></div></div></div>
+    </div>
+  </section>
+</div>
+
+<footer class="foot">
+  <div>Yu finish-ed Level 3! You can now connect ideas, build your own words, and read VELA verse and stories. Dat es fluency.</div>
+  <div class="next">Ol tri leson-buka-n don. Kongratula! ⛵</div>
+</footer>
+
+<script>
+  // exercise reveals
+  document.querySelectorAll('.ans button').forEach(function(b){
+    b.addEventListener('click',function(){ b.parentElement.classList.add('open'); });
+  });
+  // gentle sail-wave canvas
+  (function(){
+    var c=document.getElementById('waves'); if(!c) return;
+    var x=c.getContext('2d'), W,H,t=0,
+        reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    function size(){ W=c.width=c.offsetWidth*devicePixelRatio; H=c.height=c.offsetHeight*devicePixelRatio; }
+    size(); window.addEventListener('resize',size);
+    function wave(off,amp,col){ x.beginPath(); x.moveTo(0,H);
+      for(var i=0;i<=W;i+=8){ x.lineTo(i, H*0.55 + Math.sin(i*0.006+off)*amp + Math.cos(i*0.003+off*1.3)*amp*0.6); }
+      x.lineTo(W,H); x.closePath(); x.fillStyle=col; x.fill(); }
+    function frame(){ x.clearRect(0,0,W,H);
+      wave(t*0.6, 26*devicePixelRatio,'rgba(255,255,255,.10)');
+      wave(t*0.9+2, 20*devicePixelRatio,'rgba(255,255,255,.13)');
+      wave(t*1.2+4, 14*devicePixelRatio,'rgba(255,255,255,.10)');
+      if(!reduce){ t+=0.01; requestAnimationFrame(frame); } }
+    frame();
+  })();
+
+  // close the lesson menu after picking a lesson
+  (function(){ var m=document.getElementById('lesson-menu'); if(!m) return;
+    m.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){
+      if(m.hidePopover) m.hidePopover(); }); });
+  })();
+</script>
+</body>
+</html>

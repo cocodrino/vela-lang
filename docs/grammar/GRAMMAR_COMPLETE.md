@@ -214,6 +214,34 @@ Mi her self.      → I hear myself.
 Li si self.       → She sees herself.
 ```
 
+### 3.7 Indefinite Pronouns (R16) — a regular grid
+
+There is nothing to memorize: pick a quantifier and a base and join them.
+
+**{som | ol | no | eni} + {person | tin | ples}**
+
+| | person | tin *(thing)* | ples *(place)* |
+|---|---|---|---|
+| **som** (some) | som-person | som-tin | som-ples |
+| **ol** (every) | ol-person | ol-tin | ol-ples |
+| **no** | no-person | no-tin | no-ples |
+| **eni** (any) | eni-person | eni-tin | eni-ples |
+
+```
+Som-person kom.        → Someone comes.
+Mi hava no-tin.        → I have nothing.
+Pipol toka VELA ol-ples.  → People speak VELA everywhere.
+```
+
+**Reciprocal ("each other") = reduplicate the pronoun:**
+
+```
+Wi help wi-wi.        → We help each other.
+De luv de-de.         → They love each other.
+```
+
+Related: **otra** (other), **wan-otra** (another / each other), **ol-tu** (both), **evri** (every, as a determiner: *evri dei* = every day).
+
 ---
 
 ## 4. Nouns and Cases
@@ -232,7 +260,7 @@ All nouns end in a vowel in VELA. This is a consequence of the (C)V syllable rul
 The plural suffix is **-n** after vowel-final roots, **-en** after consonant-final roots:
 
 ```
-man     → man-en       (men/people)
+man     → man-en       (men)
 siti    → siti-n       (cities)
 famili  → famili-n     (families)
 hous    → hous-en      (houses)
@@ -334,17 +362,25 @@ Li kom la lern-hous-to.     → She comes from the school.    (-to alone)
 
 ## 5. Adjectives
 
-### 5.1 Adjective Form
+### 5.1 Adjective Form — attributive vs. predicative (R10)
 
-Adjectives are used as bare roots, placed before the noun:
+An adjective has two shapes, chosen by position — the same *bound = bare / free = citation* logic as verbs (R8) and compounds (R7):
 
-| Base | Adjective | English |
-|------|-----------|---------|
-| big | big | big |
-| strong | strong | strong |
-| happi | hapi | happy |
-| nais | nais | nice |
-| simpli | simpli | simple |
+- **Attributive** (directly **before the noun**) → **bare root**: the coda is shielded by the following noun.
+- **Predicative** (standing alone **after `es`**) → **citation form** (root + citation vowel): a phrase-final hard coda needs the vowel to stay (C)V-legal.
+
+Adjectives that are vowel-final or end in a soft coda {n m l r s ŋ} never change.
+
+| English | Attributive (before noun) | Predicative (after es) |
+|---------|---------------------------|------------------------|
+| big | **big** man | La man es **biga** |
+| good | **gud** fren | La fren es **guda** |
+| old | **old** hous | La hous es **olda** |
+| hot | **hot** dei | La dei es **hota** |
+| small *(soft coda)* | **smol** child | La child es **smol** |
+| happy *(vowel-final)* | **hapi** child | La child es **hapi** |
+
+**Rule of thumb:** the dictionary lists the citation form (`biga`, `guda`, `hota`); drop the final vowel when the adjective sits right before its noun.
 
 ### 5.2 Adjective Position
 
@@ -398,35 +434,44 @@ Some comparisons are more common as phrases:
 
 ### 6.1 The Three Tenses — Zero Irregular Verbs
 
-This is VELA's most important grammatical feature. **Every verb follows the same three rules:**
+VELA's flagship feature: tense is marked by two suffixes and an **unmarked present**. There are **no irregular verbs, no person endings, no spelling changes.**
 
-| Tense | Suffix | Structure | Example | English |
-|-------|--------|-----------|---------|---------|
-| **Present** | **-a** | root + -a | liv-**a** | I live |
-| **Past** | **-ed** | root + -ed | liv-**ed** | I lived |
-| **Future** | **-wil** | root + -wil | liv-**wil** | I will live |
+| Tense | Marker | Form | Example | English |
+|-------|--------|------|---------|---------|
+| **Present** | *(none)* | the **citation form** — the word exactly as the dictionary lists it | **hava** | I have |
+| **Past** | **-ed** | bare root + -ed | **hav-ed** | I had |
+| **Future** | **-wil** | bare root + -wil | **hav-wil** | I will have |
 
-### 6.2 Full Paradigm of a Regular Verb: liv (to live)
+**The present is unmarked: it is simply the dictionary word.** Past and future attach to the **bare root** — the same short form used inside compounds (see R7).
+
+Why no present `-a`? A dedicated present suffix would collide with the citation vowel of R7: `maka` (*to make*) would also be *makes*. Ratified by unanimous committee vote (**R8**, `vote/topics/consensus/fase5_consensus.md`): the **citation form *is* the present**, so `maka` / `hava` / `luva` mean both *to make/have/love* and *makes/has/loves*. This is identity, not ambiguity — SVO word order and the `-ed` / `-wil` contrast keep tenses distinct (cf. Spanish *hablo*, German *mache = ich mache*).
+
+The citation vowel only appears where phonotactics demand it (a hard coda). Roots already legal standalone keep their bare shape in the present too:
+
+| Root type | Present (= citation) | Past | Future |
+|-----------|----------------------|------|--------|
+| Vowel-final / soft coda {n m l r s ŋ} | `si`, `go`, `wan`, `her`, `lern` | `si-ed` | `si-wil` |
+| Hard coda (k v t p g b d f z …) | `maka`, `hava`, `luva`, `toka` | `mak-ed`, `hav-ed` | `mak-wil` |
+
+### 6.2 Full Paradigm of a Regular Verb: hava (to have)
+
+The verb never changes for person — only tense changes.
 
 | Person | Present | Past | Future |
 |--------|---------|------|--------|
-| mi | liv-**a** | liv-**ed** | liv-**wil** |
-| yu | liv-**a** | liv-**ed** | liv-**wil** |
-| li | liv-**a** | liv-**ed** | liv-**wil** |
-| wi | liv-**a** | liv-**ed** | liv-**wil** |
-| de | liv-**a** | liv-**ed** | liv-**wil** |
+| mi / yu / li / wi / de | **hava** | **hav-ed** | **hav-wil** |
 
-**There are no exceptions. No irregular verbs. No spelling changes.**
+**No exceptions. No irregular verbs. No spelling changes.**
 
 ```
-liv     liv-a     liv-ed     liv-wil
-to live  I live   I lived    I will live
+hava     hav-ed     hav-wil
+I have   I had      I will have
 
-si      si-a      si-ed      si-wil
-to see   I see     I saw      I will see
+si       si-ed      si-wil        (si is legal standalone → bare present)
+I see    I saw      I will see
 
-tok     tok-a     tok-ed     tok-wil
-to speak I speak  I spoke    I will speak
+maka     mak-ed     mak-wil       (hard coda → citation form takes -a)
+I make   I made     I will make
 ```
 
 ### 6.3 The Verb "To Be" — bi
@@ -435,9 +480,11 @@ The verb **bi** (to be) is regular — unlike in English:
 
 | Person | Present | Past | Future |
 |--------|---------|------|--------|
-| mi | bi-**a** | bi-**ed** | bi-**wil** |
-| yu | bi-**a** | bi-**ed** | bi-**wil** |
-| li | bi-**a** | bi-**ed** | bi-**wil** |
+| mi | **es** | es-**ed** | wil es |
+| yu | **es** | es-**ed** | wil es |
+| li | **es** | es-**ed** | wil es |
+
+`bi` is the one verb whose present is not its citation form: the present is **es**. (Past `es-ed`, future `wil es`.)
 
 ```
 Mi es hapi.          → I am happy.           (present)
@@ -451,23 +498,25 @@ YES: Mi es-ed hapi.   ✅ VELA regular form
 
 ### 6.4 Core Verb List
 
-| VELA | English | Present | Past | Future |
+The **Present** column is the citation form (the dictionary word). Past/future use the bare root.
+
+| VELA (root) | English | Present (= citation) | Past | Future |
 |------|---------|---------|------|--------|
-| bi | to be | bi-a | bi-ed | bi-wil |
-| si | to see | si-a | si-ed | si-wil |
-| go | to go | go-a | go-ed | go-wil |
-| kom | to come | kom-a | kom-ed | kom-wil |
-| tok | to speak | tok-a | tok-ed | tok-wil |
-| liv | to live | liv-a | liv-ed | liv-wil |
-| wok | to work | wok-a | wok-ed | wok-wil |
-| her | to hear | her-a | her-ed | her-wil |
-| fel | to feel | fel-a | fel-ed | fel-wil |
-| luk | to look | luk-a | luk-ed | luk-wil |
-| lik | to like | lik-a | lik-ed | lik-wil |
-| lern | to learn | lern-a | lern-ed | lern-wil |
-| hav | to have | hav-a | hav-ed | hav-wil |
-| don | to do | don-a | don-ed | don-wil |
-| nof | to know | nof-a | nof-ed | nof-wil |
+| bi | to be | es | es-ed | wil es |
+| si | to see | si | si-ed | si-wil |
+| go | to go | go | go-ed | go-wil |
+| kom | to come | kom | kom-ed | kom-wil |
+| tok | to speak | toka | tok-ed | tok-wil |
+| liv | to live | livi | liv-ed | liv-wil |
+| wok | to work | woka | wok-ed | wok-wil |
+| her | to hear | her | her-ed | her-wil |
+| fel | to feel | fel | fel-ed | fel-wil |
+| luk | to look | luka | luk-ed | luk-wil |
+| lik | to like | liki | lik-ed | lik-wil |
+| lern | to learn | lerna | lern-ed | lern-wil |
+| hav | to have | hava | hav-ed | hav-wil |
+| don | to do | don | don-ed | don-wil |
+| nof | to know | nof | nof-ed | nof-wil |
 
 ---
 
@@ -663,7 +712,30 @@ The conditional is formed with **if + clause + den + consequence**:
 ```
 If yu kom,     den  mi es hapi.     → If you come, then I am happy.
 If yu no kom,  den  mi go.          → If you don't come, then I go.
-If li wok-ed,  den  li her-ed.      → If she had worked, then she would have heard.
+If li werk-ed, den  li her-ed.      → If she had worked, then she would have heard.
+```
+
+### 11.4 Relative Clauses (R12)
+
+A relative clause is introduced by the **question word that matches the shared noun's role**, placed **immediately after the head noun**. The clause itself is normal SVO, with a gap where the shared noun would sit.
+
+| Role | Relativizer | Example | English |
+|------|-------------|---------|---------|
+| person | **hu** | la man **hu** liv hier | the man who lives here |
+| person (object) | **hu** | la fren **hu** mi si-ed | the friend (whom) I saw |
+| thing | **wat** | la buka **wat** mi rida | the book that I read |
+| place | **wer** | la ples **wer** wi werka | the place where we work |
+| time | **wen** | la dei **wen** li kom-ed | the day when he came |
+
+**Position disambiguates from a question:** a question word at the **start** of a clause asks a question (`Hu liv hier?` — Who lives here?); the same word **after a noun** builds a relative (`la person hu liv hier`). `dat` is **not** a relativizer — it stays a demonstrative (`dat hous`) and the complementizer after mind-verbs (`Mi tinka dat…`).
+
+### 11.5 No Passive Voice
+
+VELA has no dedicated passive. Use the generic subject **pipol** (people) with a normal active verb for an impersonal/passive sense:
+
+```
+Pipol mak la kar in Jerman.    → The car is made in Germany. (lit. people make…)
+Pipol toka VELA hier.          → VELA is spoken here.
 ```
 
 ---

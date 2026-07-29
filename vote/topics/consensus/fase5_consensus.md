@@ -140,3 +140,176 @@ Toda raíz de CONTENIDO con coda dura word-final (consonante fuera de {n,m,l,r,s
 Precedentes naturales de la alternancia: español (e-epéntesis: estado), latín (rex/reg-), japonés (人 jin/nin), turco (ev/ev-e), portugués (água/agua-).
 
 Aplicado 2026-07-26: 273 raíces de contenido normalizadas a forma de cita; compuestos intactos; validador actualizado para reconocer las formas de composición bare.
+
+---
+
+## R8 — El presente = la forma de cita (ratificada unánime 2026-07-26)
+
+**Conflicto detectado:** GRAMMAR_COMPLETE.md §6.1 declaraba presente = raíz + `-a` sin excepción (`liv-a`, `si-a`), pero TODO el corpus (PHRASES_100, poemas, cuentos, ejemplos del diccionario) usa la raíz pelada en presente (`Mi wan la dis`, `Mi luv mi-se mat`, `Mi hav a child`, `Wi si la starz`). El pasado sí es consistente (raíz+`-ed`).
+
+**Voto:** ronda 1 → B, B, A (2-1). El fonólogo (A) detectó que bajo B puro `mak` /k/, `hav` /v/, `luv` /v/ son **codas ilegales** como palabra suelta — justo lo que R7 resolvió. Ronda 2 → síntesis **Opción C**, ratificada **C-sí unánime** (pi-29881 morfólogo, pi-26905 fonólogo, pi-34067 semantista).
+
+**Regla:** el presente **no lleva marca gramatical propia**. El presente ES la forma de cita (R7). La `-a` de `maka`/`hava` no es marca de presente: es la vocal de cita que solo aparece donde la fonotáctica la exige.
+
+| Tipo de raíz | Cita = Presente | Pasado | Futuro |
+|---|---|---|---|
+| Legal suelta (vocal-final o coda ∈ {n,m,l,r,s,ng}) | `si`, `go`, `wan`, `tok`, `liv`, `lern` | `si-ed` | `si-wil` |
+| Coda dura (k,v,t,p,g,b,d,f,z,…) | `maka`, `hava`, `luva` | `mak-ed`, `hav-ed` (/ha.ved/) | `mak-wil` |
+
+**Consecuencias:**
+- `bi` (to be) mantiene su presente irregular `es` (única excepción, ya canónica).
+- Pasado/futuro se unen a la raíz **pelada**; la coda dura queda en onset de la sílaba siguiente (`hav-ed` → /ha.ved/, legal).
+- "maka = to make = makes" NO es homonimia: es identidad cita↔presente, como esp. "hablo", alemán "mache=ich mache".
+- **Migración de corpus pendiente:** ejemplos con presente de coda dura pelado (`Mi mak…`, `Mi luv…`, `Mi hav…`) → forma de cita (`Mi maka…`, `Mi luva…`, `Mi hava…`). Raíces legales (`si/go/wan/tok`) quedan intactas. Afecta ~200 ejemplos + el generador de ejemplos del diccionario.
+
+**Argumentos clave:** presente no marcado = default translingüístico (inglés/mandarín/criollos) y SVO ya desambigua (semantista); R7 y presente pasan a ser UN sistema en vez de dos reglas (morfólogo); todo presente queda (C)V-legal sin reintroducir codas duras (fonólogo).
+
+---
+
+## R9 — Acuñación de 6 palabras-función + fix de números (ratificada 2026-07-28)
+
+El curso Learning-VELA nivel-1 reveló huecos en vocabulario-función básico. El comité (pi-29881, pi-26905, pi-34067) acuñó 6 palabras tras dos rondas de voto:
+
+| English | VELA | AFI | Voto | Nota |
+|---|---|---|---|---|
+| here | **hier** | /hi.er/ | unánime | ya atestiguada en corpus ("Mi wok hier", "far from hier") — formalizada |
+| there | **dar** | /dar/ | 2-1 | átomo corto para deíctico; "der" rechazado (colisión auditiva con `de`=they); "dat-ples" rechazado por longitud |
+| many | **meni** | /me.ni/ | unánime | vocal-final, sin coda dura |
+| some | **som** | /som/ | 2-1 | partitivo, función propia no cubierta por un+plural |
+| very | **veri** | /ve.ri/ | 2-1 | intensificador moderado; distinto de reduplicación (big-big = extremo/scorching) |
+| too/also | **alo** | /a.lo/ | unánime | "olso" rechazado (coda /l/ interna ilegal); "tu" rechazado (homonimia triple con 2/you) |
+
+**Fix de datos en LEXICON_BASE:**
+- `tri` estaba glosado como "tired (short)" en la sección de emociones — ERROR. `tired` = `tireda`. `tri` = **three** (número), como ya lo usaban los compuestos `tri-ten`=30, `tri-taim`, `tri-korner`.
+- Números **1 (`wan`)** y **3 (`tri`)** faltaban como entrada suelta en la tabla (solo existían dentro de compuestos). Añadidos, más `ten-wan`=11, `ten-tri`=13.
+- Homonimia resultante `wan` (1 / to want) es tolerada por R8 (contexto desambigua, cf. inglés two/too/to). El generador la reporta como duplicado esperado.
+
+Validación: 0 errores fonotácticos, 2896 entradas.
+
+---
+
+## R10 — Alomorfía del adjetivo: atributivo pelado / predicativo cita (ratificada unánime 2026-07-28)
+
+Extensión natural de R7 (compuestos) y R8 (verbos) a los ADJETIVOS con coda dura. Votada R10-sí por unanimidad (pi-29881, pi-26905, pi-34067).
+
+**Regla:**
+- **Atributivo** (antes del sustantivo, posición prosódica NO-final, ligada como compuesto) → raíz **pelada**: `big famili`, `gud man`, `smol childa`, `old man`.
+- **Predicativo** (tras `es`, palabra libre prosódicamente final) → forma de **cita** (raíz+vocal): `Li es biga`, `La man es guda`, `La fater es olda`, `La dei es veri hota`, `Mi es tireda`.
+- **Vocal-final o coda blanda {n m l r s ŋ}**: invariable en toda posición (`hapi`, `smol`, `angri`, `yong`, `kol`, `new`).
+
+**Fundamento:** la posición sintáctica determina la saliencia prosódica (fonólogo). Atributivo = no-final, la coda queda protegida por el sustantivo siguiente. Predicativo = final, la coda dura exige la vocal de cita para ser (C)V-legal — el mismo mecanismo de R7/R8. Precedentes: alemán (groß/großer), ruso (forma corta/larga).
+
+**Sustantivos** siguen R7 directamente: forma de cita (= entrada de diccionario) cuando van solos como sujeto/objeto (`Mi si la buka`, `un smol childa`); forma pelada dentro de compuestos (`buk-…`, `child-taim`). Esto garantiza que ninguna palabra de contenido standalone quede con coda dura ilegal.
+
+**Regla única del aprendiz (unifica R7+R8+R10):** *libre → con la vocal de cita; ligado (atributivo, compuesto, o base de pasado/futuro) → pelado.*
+
+Ejemplos migrados del corpus pre-R7: `es sik`→`es sika`, `es afred`→`es afreda`, `La fater es old`→`La fater es olda`.
+
+### R9 addendum — `kolor` (colour) formalizado (2026-07-28)
+
+Voto 2-1: **kolor** /ko.lor/ (morfólogo + semantista) sobre `kala` (fonólogo, temía confusión con `kolar`=collar). Decisivo: `kolor` YA se usaba en decenas de ejemplos del léxico ("Wat kolor es la kar?", "La flaga hav tri kolor", "Sorta la klota bai kolor", "vivida kolor") sin entrada propia — igual que `hier`, solo faltaba formalizarlo (R8: corpus manda). Coda /r/ blanda → sin alternancia cita/composición. Compuestos: `kolor-ful`, `no-kolor`. Añadido a LEXICON_BASE §Nature.
+
+## R11 — `werka` (to work), resolviendo la colisión walk/work (ratificada 2-1, 2026-07-28)
+
+Descubierto al escribir Learning-VELA: `woka` = to WALK (única entrada), pero "to work" no tenía palabra propia — el corpus usaba `wok` para AMBOS (`Mi wok la parke-to`=walk; `De wok la ofis-to`=work) y compuestos `wok-po`/`hom-wok`=worker/homework. Homónimo inaceptable para dos verbos de la misma clase (morfólogo).
+
+Voto 2-1: **werka** /wer.ka/ (morfólogo + fonólogo) sobre `labora` (semantista, más internacional pero 3 sílabas y cercana a woka). El fonólogo refutó el temor de confusión: /e/ vs /o/ se distinguen sin esfuerzo; `werka` (2 sílabas) es eficiente.
+
+Aplicado: `werka` añadido a LEXICON_BASE (`werk-a/werk-ed/werk-wil`). Compuestos de WORK realineados `wok-→werk-`: `werk-po` (worker), `hom-werk` (homework), `werk-moni` (salary), `werk-grup` (union), `werk-fren` (colleague), `werk-end` (retirement), `werk-tebul` (desk). Se mantienen intactos `woka` (walk) y `wok-rod` (sidewalk, walk+road). Learning-VELA L1 corregido (`werka lern-hous-to`, `werk-ed ol la dei`).
+
+---
+
+## R12 — Cláusulas relativas + política de pasiva (ratificada 2026-07-28, para Level 3 B1)
+
+**Cláusulas relativas (unánime):** el relativizador es la **palabra-pregunta** que corresponde al rol del sustantivo compartido, colocada **justo después del sustantivo-núcleo**; la cláusula relativa va en SVO con un hueco donde iría el sustantivo compartido.
+
+| Rol | Relativizador | Ejemplo | English |
+|-----|---------------|---------|---------|
+| persona | **hu** | la man **hu** liv hier | the man who lives here |
+| persona (objeto) | **hu** | la fren **hu** mi si-ed | the friend (whom) I saw |
+| cosa | **wat** | la buka **wat** mi rida | the book that I read |
+| lugar | **wer** | la ples **wer** wi werka | the place where we work |
+| tiempo | **wen** | la dei **wen** li kom-ed | the day when he came |
+
+**Desambiguación pregunta vs. relativa = POSICIÓN.** Palabra-pregunta al inicio de cláusula = pregunta (`Hu liv hier?`); tras un sustantivo = relativa (`la man hu liv hier`). Riesgo de ambigüedad nulo (unánime).
+
+**`dat` NO es relativizador.** El fonólogo mostró que `la man dat kom` colisiona con el demostrativo (`dat`=that/eso) → lectura "el hombre, eso viene". `dat` queda reservado a: demostrativo (`dat hous`) y **complementante** tras verbos de mente (`Mi tinka dat li es guda`, L2). Los relativizadores son las palabras-pregunta.
+
+**Voz pasiva: NO dedicada (B2+).** VELA no tiene pasiva morfológica. La función impersonal se expresa con sujeto genérico `man-en` (gente) + activa: `Man-en mak la kar in Jerman` = "El coche se hace en Alemania". Añadir pasiva en B1 es carga innecesaria (semantista; chino/criollos tampoco la tienen).
+
+---
+
+## R13 — Batch de vocabulario B2 (Level 4) + política de estilo indirecto (ratificada 2026-07-28)
+
+Coinado para Learning-VELA Level 4 (B2). El comité (pi-29881, pi-26905, pi-34067) votó:
+
+| English | VELA | AFI | Voto | Nota |
+|---|---|---|---|---|
+| become | **bikom** | /bi.kom/ | unánime | compuesto transparente `bi`(be)+`kom`(come) = "become"; misma etimología que el inglés |
+| happen | **hapen** | /ha.pen/ | unánime | átomo, coda /n/ legal |
+| maybe / perhaps | **mebi** | /me.bi/ | unánime | átomo, sin colisión con `meni`(many) |
+| seem | **sima** | /si.ma/ | 2-1 | átomo (vs compuesto `luk-laik` del semantista); más corto para verbo frecuente |
+| **probably** | **`mos-laikli`** | — | (no acuñado) | `laikli`(likely) YA existe → "probably" = `mos-laikli` (most-likely), compuesto transparente. Se prefirió sobre el préstamo `probabli` por el principio compound-first de VELA (la existencia de `laikli` lo confirma). |
+
+**Ya existían para B2 (no coinar):** should=`shoda`, however=`haueva`, although=`tuo`, whether=`weda`, instead=`insteda`, possible=`posibel`, suggest=`sugesta`, advise=`help-tal`, change=`chang`, example=`eksampel` ("for eksampel"), fact=`tru-tin`, already=`olredi`, likely=`laikli`, agree=`agria`.
+
+**Estilo indirecto (reported speech):** sin construcción nueva — se usan piezas existentes: verbo-de-mente/habla + `dat` para afirmaciones (`Li tok-ed dat li kom-wil` = dijo que vendría), `weda`/`if` para preguntas sí/no (`Li ask-ed weda mi kom` = preguntó si venía), palabras-pregunta para preguntas-wh (`Li ask-ed wat mi wan`). **Voz pasiva:** impersonal con `man-en` (R12) — VELA no tiene pasiva morfológica. **Aspecto perfecto:** VELA no lo tiene; el pasado `-ed` cubre "I ate / I have eaten".
+
+---
+
+## R14 — Neutralidad de género: `person` / `pipol` reemplazan a `man`=persona (ratificada 2026-07-28)
+
+**Problema (planteado por el usuario):** `man` estaba glosado "man / person" — lo masculino como default de lo humano (el sesgo inglés `mankind`/`manpower`). Un idioma nuevo pensado para todos no debe arrastrarlo.
+
+**Decisión:**
+- **`person`** /per.son/ = persona (cualquier género), plural **`person-en`**. Raíz inglesa (base de VELA), coda /n/ legal (precedentes `prison`, `reason`), neutro, reconocible para hispanohablantes. *(El comité votó `persona` unánime, pero el usuario propuso `person` a secas — más fiel a la filosofía English-root y más corto; adoptado.)* Rechazado `peson` (suena a "pezón" en español) y `human` (termina en `-man`, y = especie, no individuo).
+- **`pipol`** = gente (colectivo) + **sujeto impersonal/genérico** (reemplaza `man-en` en la voz pasiva, §11.5): `Pipel toka VELA hier`. everyone = `ol pipol`.
+- **`man`** re-glosado a **varón adulto** (ya no "person"). **`wuman`** = mujer adulta.
+- **Compuestos migrados:** `grot-man`→`grot-person` (adult), `grot-man-taim`→`grot-person-taim` (adulthood). **Se mantienen** (ya correctos con man=varón): `man-fren` (boyfriend/male friend), `wuman-fren`, `wuman-en`. **Sin tocar** (loans, "man" coincidental): `dimanda`, `dismantla`, `komanda`, `mang`, `manija`, `simanta`.
+- Los 4 cursos Learning-VELA migrados: `man-en`→`pipol`, `man`(genérico=persona)→`person`, tarjetas de vocab re-enseñan `person`.
+
+Nota pendiente: `wuman` (wu+man) todavía embebe `man` etimológicamente — decisión futura si se busca neutralidad total ahí.
+
+---
+
+## R15 — Batch de embellecimiento fonoestético (auditoría del fonólogo, 2026-07-28)
+
+El fonólogo auditó el léxico buscando palabras feas/incómodas para hablantes (homófonos cross-lingüísticos, violaciones de write-as-you-speak, codas ilegales). El usuario aprobó la lista. Aplicado:
+
+| Antes | Después | Motivo |
+|---|---|---|
+| `pipel` /pi.pi.el/ | **`pipol`** /pi.pol/ | hiato /i.el/ incómodo; 2 síl vs 3 (people/impersonal, R14) — `pipol-wei` también |
+| `louuda` /louu.da/ | **`louda`** /lou.da/ | triple vocal /ouu/, imposible leer-como-suena |
+| `neer` /neer/ | **`nera`** /ne.ra/ | hiato /ee/; compuestos `ner-sem/ner-ol/ner-kom` |
+| `yeer` /jir/ | **`jir`** /jir/ | ortografía no coincidía con AFI; `jir-dei`, `evri-jir` |
+| `tung` | **`tun`** /tun/ | ortografía seguía a AFI |
+| `pis` /pis/ (peace) | **`pisi`** /pi.si/ | sonaba a "pis/piss" (pipí) en español/inglés |
+| `Agost` /agost/ | **`Agosta`** /a.gos.ta/ | coda cluster ilegal |
+| `Oktober` /oktobr/ | **`Oktobra`** /ok.to.bra/ | coda cluster ilegal |
+| `November` /novembr/ | **`Novembra`** /no.vem.bra/ | coda cluster ilegal |
+| `Desember` /decembr/ | **`Desembra`** /de.sem.bra/ | coda cluster ilegal |
+| `September` /septembr/ | **`Septembra`** /sep.tem.bra/ | coda cluster ilegal |
+
+**Completado (pase column-aware, 2026-07-28):** `fooda`→`fuda` (food) y `deepa`→`dipa` + todos los compuestos `dep-`→`dip-` (dip-wei, dip-luva, dip-nof, dip-tink, dip-fren, dip-mak, dipa-sad/afreda/luva). Se editó SOLO el lado VELA (headword/AFI/ejemplo-VELA); glosas inglesas, etimologías ("deep + X", "food-make-person") y traducciones (tras →) quedaron intactas. Propagado a los 4 cursos.
+
+---
+
+## R16 — Sistema de pronombres indefinidos + palabras C1 (ratificada 2026-07-28)
+
+Acuñado para Level 5 (C1) y para cerrar el hueco de indefinidos. Comité unánime en el patrón.
+
+**Sistema regular de indefinidos:** `{som | ol | no | eni}` + `{person | tin | ples}`:
+| | person | tin (thing) | ples (place) |
+|---|---|---|---|
+| **som** (some) | som-person (someone) | som-tin (something) | som-ples (somewhere) |
+| **ol** (every/all) | ol-person / ol-pipol (everyone) | ol-tin (everything) | ol-ples (everywhere) |
+| **no** | no-person (nobody) | no-tin (nothing) | no-ples (nowhere) |
+| **eni** (any) | eni-person (anyone) | eni-tin (anything) | eni-ples (anywhere) |
+
+`tin` = thing (mismo morfema que tru-tin, mak-tin; homónimo tolerado con thin=adj, distinguido por contexto). `ting`/`tinga` rechazados (consistencia con compuestos gana; el /ŋ/ de "ting" además incómodo para hispanohablantes).
+
+**Átomos nuevos:** `eni` /e.ni/ (any), `otra` /o.tra/ (other), `evri` /ev.ri/ (every, determinante; distinto de `ol`=all).
+**Compuestos:** `wan-otra` (another / each-other), `ol-tu` (both = all-two).
+**Recíproco (each other):** reduplicar el pronombre — `wi-wi`, `de-de` ("Wi help wi-wi" = we help each other), paralelo a la reduplicación existente (mor-mor, tru-tru).
+
+Descartados: `bof` (coda /f/ ilegal → si se usara sería `bofa`, pero se prefirió `ol-tu` compound-first).
