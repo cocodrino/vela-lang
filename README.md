@@ -1,12 +1,16 @@
-# 🌊 VELA — The Language of Connection
+# 🌊 VELA — a language for everyone, designed by AI
 
-> *Un idioma construido para ser bello, simple y hablado por todos.*
+> *Logical, simple, and beautiful — read exactly as it's written, learnable in weeks, and owned by no nation.*
+
+**VELA** is an international auxiliary language: a shared *second* language meant to be easy for **anyone** — a Spanish, English, Mandarin, Arabic or Hindi speaker alike — to read, say, and learn fast. Five vowels, one sound per letter, **zero irregular verbs**, and words built from small transparent roots (the Japanese idea). You read it exactly as you write it.
+
+What makes it unusual: **VELA is designed by a committee of AIs.** A *phonologist*, a *morphologist* and a *semanticist* — each an autonomous agent running on a **different** AI model — debate every rule, argue their case, and vote. A human steers and has the final word, but the reasoning happens in the open, between AIs. → **[How VELA is built](#how-vela-is-built--a-committee-of-ais)**
 
 ---
 
-## 📚 Read the books
+## 📚 Start here — read the books
 
-Learn VELA online — the books are self-contained web pages (no download needed):
+Everything below is a self-contained web page: **no install, works on your phone.**
 
 | Resource | What it is | Read |
 |----------|-----------|------|
@@ -137,8 +141,8 @@ RULE 5: VELA's identity is NOT "Esperanto reborn"
 When a concept can be expressed with two short, simple roots → USE THE COMPOUND.
 
 ```
-GOOD:   wotc-man   (you understand it instantly: "man who watches")
-GOOD:   sun-lait   (you understand it instantly: "light from the sun")
+GOOD:   sik-hous   (you understand it instantly: "sick-house" = hospital)
+GOOD:   son-lait   (you understand it instantly: "sun-light" = sunshine)
 BAD:    polise     (opaque — requires memorization)
 ```
 
@@ -174,14 +178,14 @@ V.   Everything you can deduce, you don't need to memorise.
 
 ## Core Design Features
 
-### Phonology — 5 Vowels, 17 Consonants
+### Phonology — 5 Vowels, 20 Consonants
 
 | Vowels | a | e | i | o | u |
 |--------|---|---|---|---|---|
 
 No schwa. No reduced vowels. Every vowel is clear and distinct.
 
-| Consonants | p | t | k | b | d | g | m | n | f | v | s | z | sh | h | l | r | w | y |
+| Consonants | p | t | k | b | d | g | m | n | f | v | s | z | sh | ch | j | h | l | r | w | y |
 |------------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 **No th, no schwa, no zh, no difficult clusters.** Every sound is easy for Spanish, English, Mandarin, Arabic, and Hindi speakers simultaneously.
@@ -199,9 +203,9 @@ No schwa. No reduced vowels. Every vowel is clear and distinct.
 | Transparent compounds | Partial | Partial | Yes | **Yes** |
 
 All verbs follow the same three rules:
-- **Present:** root + **-a** → *tok-a* (I speak)
-- **Past:** root + **-ed** → *liv-ed* (I lived)
-- **Future:** root + **-wil** → *si-wil* (I will see)
+- **Present:** the dictionary word itself → *maka* (make / makes)
+- **Past:** short root + **-ed** → *mak-ed* (made)
+- **Future:** short root + **-wil** → *mak-wil* (will make)
 
 Every verb. Every time. Zero exceptions.
 
@@ -210,15 +214,12 @@ Every verb. Every time. Zero exceptions.
 VELA uses an **agglutinative** system where each morpheme has a unique, transparent meaning.
 
 ```
-wotc + man  = wotcman    (watcher / guard)
-wotc + fan  = wotcfan    (watch enthusiast / obsessive)
-wotc + towa = wotctowa   (watch tower)
-
-haus + kel  = hauskel    (closet / box-room)
-sun  + lait = sunlait    (sunlight / sunshine)
-
-fai  + figt = faifigt   (to fight fire / extinguish)
-fai  + man  = faiman    (fireman / firefighter)
+sik  + hous       = sik-hous      (hospital)      — "sick-house"
+son  + lait       = son-lait      (sunshine)      — "sun-light"
+far + tok + box   = far-tok-box   (telephone)     — "far-talk-box"
+wud + mak + po    = wud-mak-po    (carpenter)     — "wood-make-person"
+bred + mak + po   = bred-mak-po   (baker)         — "bread-make-person"
+strong + mak      = strong-mak    (to strengthen) — "strong-make"
 ```
 
 **The principle: if you know the roots, you can understand any compound word in VELA.**
@@ -237,15 +238,13 @@ Phonetic research (phonaesthetics) guides every sound choice:
 ## Example Phrases
 
 ```
-Halo! Sai yu?                    → Hello! How are you?
-Mi es fin, danki.               → I'm fine, thank you.
-La sonj es veri nais.           → The song is very nice.
+Helo! Hai yu es?                         → Hello! How are you?
+Mi es guda, tanki.                       → I'm good, thanks.
+La sonja es veri nais.                   → The song is very nice.
 
-La laif es short bat biutifl.   → Life is short but beautiful.
-Mi hop ke evri man kin liv in pis. → I hope every person can live in peace.
-
-Li bi-ed a lern-po for thirty yer.  → She was a teacher for thirty years.
-Mi no wan a go, bat mi mas.        → I don't want to go, but I must.
+Mi hopa dat ol-person liv in pisi.       → I hope everyone can live in peace.
+Li es-ed un lern-po for tri-ten jir-en.  → She was a teacher for thirty years.
+Mi no wan go, bot mi mas.                → I don't want to go, but I must.
 ```
 
 ---
@@ -279,7 +278,7 @@ VELA is a **moderately agglutinative, minimal-case language**:
 
 | Case | Suffix | Example | Meaning |
 |------|--------|---------|---------|
-| Genitive | **-se** | la man-**se** sun | the man's house |
+| Genitive | **-se** | la person-**se** hous | the person's house |
 | Locative | **-to** | Mi liv la siti-**to** | I live in the city |
 
 VELA uses the **minimal case system**: only mark what cannot be inferred from word order. Nominative and Accusative are determined by SVO position — no suffix needed. Genitive (-se) and Locative (-to) are the two cases that carry information word order alone cannot provide.
@@ -313,11 +312,13 @@ vela-lang/
 
 ---
 
-## The Consensus Engine — How Design Decisions Are Made
+## How VELA is built — a committee of AIs
 
-**VELA is built by deliberation, not by one person.**
+**This is the part that makes VELA different: no single person invents it.**
 
-Every major design decision (phonology, grammar, lexicon) is evaluated by a **panel of autonomous specialist agents** — each with a different role, each running on a different AI model. The agents debate, argue, and **vote automatically**. The final decision follows their collective consensus, produced entirely by AI without manual intervention.
+Every real decision — a new sound, a grammar rule, a word — is argued out by a **panel of AI specialists**, each playing a distinct role and each running on a **different AI model** (so they genuinely disagree, instead of one model agreeing with itself). They read the same brief, each writes a proposal, and they **vote**. A human — the language's architect — steers the questions and has the final say, but the linguistic reasoning is done in the open, by AIs, and every argument is saved.
+
+Think of it as a tiny standing committee of linguists that never sleeps, leaves a written record of every debate, and can be overruled by you at any time.
 
 ### The Specialist Panel
 
