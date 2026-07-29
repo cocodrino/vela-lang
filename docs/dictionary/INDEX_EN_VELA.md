@@ -194,7 +194,7 @@
 | bent | benta | /ben.ta/ |
 | berry | beri | /beri/ |
 | besides / moreover | besaida | /be.sai.da/ |
-| best friend | dep-fren | /dep.fren/ |
+| best friend | dip-fren | /dip.fren/ |
 | between | bitwin | /bi.twin/ |
 | beyond | far-saida | /far.sai.da/ |
 | bicycle | baikel | /baikel/ |
@@ -355,7 +355,7 @@
 | cheek | babi-fas | /babi.fas/ |
 | cheerful | hapi-ful | /ha.pi.ful/ |
 | cheese | ces | /tes/ |
-| chef / cook | food-mak-po | /food.mak.po/ |
+| chef / cook | fud-mak-po | /fud.mak.po/ |
 | chemical bond | kima-bonda | /ki.ma.bon.da/ |
 | chemical reaction | reakshon | /re.ak.shon/ |
 | chemistry | kimistri | /kimistri/ |
@@ -552,8 +552,8 @@
 | decimal | desima | /de.si.ma/ |
 | deck | boot-flor | /but.flor/ |
 | decline | daun-way | /daun.wei/ |
-| deep | deepa | /dee.pa/ |
-| deeply | dep-wei | /dep.wei/ |
+| deep | dipa | /di.pa/ |
+| deeply | dip-wei | /dip.wei/ |
 | deer | dir | /dir/ |
 | degree | degri | /de.gri/ |
 | delay | delay | /de.lai/ |
@@ -574,7 +574,7 @@
 | destination | far-ples | /far.ples/ |
 | destiny | destini | /des.ti.ni/ |
 | determined | strong-maind | /strong.maind/ |
-| devotion | depa-luva | /de.pa.lu.va/ |
+| devotion | dipa-luva | /di.pa.lu.va/ |
 | dew | moring-watre | /mo.ring.wa.tre/ |
 | diabetes | diabeta | /di.a.be.ta/ |
 | diagnosis / diagnose | diagnoze | /di.ag.no.ze/ |
@@ -617,7 +617,7 @@
 | drama | drama | /dra.ma/ |
 | drawer | pul-boksi | /pul.bok.si/ |
 | drawing | rava-tin | /ra.va.tin/ |
-| dread | depa-afreda | /de.pa.a.fre.da/ |
+| dread | dipa-afreda | /di.pa.a.fre.da/ |
 | dream | drim | /drim/ |
 | dress | dresa | /dre.sa/ |
 | drill | dril | /dril/ |
@@ -777,7 +777,7 @@
 | foggy | fogi | /fo.gi/ |
 | folder | foldera | /fol.de.ra/ |
 | follower | folo-po | /fo.lo.po/ |
-| food | fooda | /foo.da/ |
+| food | fuda | /fu.da/ |
 | foolish | no-wais | /no.wais/ |
 | foot/feet | futa | /fu.ta/ |
 | for | for | /for/ |
@@ -1234,7 +1234,7 @@
 | medicine / drug | medisin | /medisin/ |
 | meditation | meditashon | /me.di.ta.shon/ |
 | meeting | miting | /miting/ |
-| melancholy | depa-sad | /de.pa.sad/ |
+| melancholy | dipa-sad | /di.pa.sad/ |
 | melody | melodi | /me.lo.di/ |
 | member | grup-po | /grup.po/ |
 | membership | membersha | /mem.ber.sha/ |
@@ -2139,7 +2139,7 @@
 | to chase | cheisa | /chei.sa/ |
 | to cheat | chita | /chi.ta/ |
 | to check | cheka | /che.ka/ |
-| to cherish | dep-luva | /dep.lu.va/ |
+| to cherish | dip-luva | /dip.lu.va/ |
 | to chew | chua | /chu.a/ |
 | to chill | kol-mak | /kol.mak/ |
 | to chime | chaima | /chai.ma/ |
@@ -2192,7 +2192,7 @@
 | to decide | desida | /de.si.da/ |
 | to declare | deklara | /de.kla.ra/ |
 | to decrease / reduce | les-mak | /les.mak/ |
-| to deepen | dep-mak | /dep.mak/ |
+| to deepen | dip-mak | /dip.mak/ |
 | to defend | defenda | /de.fen.da/ |
 | to define | difaina | /di.fai.na/ |
 | to delete | delita | /de.li.ta/ |
@@ -2472,7 +2472,7 @@
 | to recommend | rekomenda | /re.ko.men.da/ |
 | to recover | rikova | /ri.ko.va/ |
 | to recycle | yus-agen | /jus.a.gen/ |
-| to reflect / ponder | dep-tink | /dep.tink/ |
+| to reflect / ponder | dip-tink | /dip.tink/ |
 | to refuse | refusa | /re.fu.sa/ |
 | to regret / regret | rigreta | /ri.gre.ta/ |
 | to rehearse | rehesa | /re.he.sa/ |
@@ -2866,7 +2866,7 @@
 | winter | winter | /winter/ |
 | wire | metal-stringa | /me.tal.strin.ga/ |
 | wire | wair | /wair/ |
-| wisdom | dep-nof | /dep.nof/ |
+| wisdom | dip-nof | /dip.nof/ |
 | wise | wais | /wais/ |
 | with | wit | /wit/ |
 | witness | si-po | /si.po/ |

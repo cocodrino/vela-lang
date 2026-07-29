@@ -290,4 +290,4 @@ El fonólogo auditó el léxico buscando palabras feas/incómodas para hablantes
 | `Desember` /decembr/ | **`Desembra`** /de.sem.bra/ | coda cluster ilegal |
 | `September` /septembr/ | **`Septembra`** /sep.tem.bra/ | coda cluster ilegal |
 
-**Pendientes (no aplicados):** `fooda`→`fuda` (food) y `deepa`→`dipa` (deep) NO se tocaron porque su ortografía VELA coincide con la palabra inglesa homógrafa → un replace automático corrompe las glosas/traducciones del léxico bilingüe. Requieren un pase column-aware (col1/col2/ejemplo-VELA solamente). Marcados para el futuro.
+**Completado (pase column-aware, 2026-07-28):** `fooda`→`fuda` (food) y `deepa`→`dipa` + todos los compuestos `dep-`→`dip-` (dip-wei, dip-luva, dip-nof, dip-tink, dip-fren, dip-mak, dipa-sad/afreda/luva). Se editó SOLO el lado VELA (headword/AFI/ejemplo-VELA); glosas inglesas, etimologías ("deep + X", "food-make-person") y traducciones (tras →) quedaron intactas. Propagado a los 4 cursos.

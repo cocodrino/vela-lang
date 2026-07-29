@@ -303,7 +303,7 @@ These rules govern every word proposed in this document:
 | **fri-chuza** | /fri.chu.za/ | noun | free will | free + choose (+/a/) | La diskushon of la fri-chuza es old. |
 | **tru-nes** | /tru.nes/ | noun | truth (abstract) | true + -nes | La tru-nes es hard to find. |
 | **nof-nes** | /nof.nes/ | noun | knowledge | know + -nes | La nof-nes kom from lern and eksperyens. |
-| **dep-nof** | /dep.nof/ | noun | wisdom | deep + know | La old man hav dep-nof. |
+| **dip-nof** | /dip.nof/ | noun | wisdom | deep + know | La old man hav dip-nof. |
 | **eksistensa** | /eks.is.ten.sa/ | noun | existence | adapted loan (+/a/) | La eksistensa of la universa es misteri. |
 | **realiti** | /re.a.li.ti/ | noun | reality | adapted loan | Wat es la realiti? |
 | **logika** | /lo.gi.ka/ | noun | logic | adapted loan (+/a/) | La logika es la base of argument. |
@@ -368,7 +368,7 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | English | Formation | Semantic note |
 |------|-----|---------|-----------|---------------|
-| **depa-sad** | /de.pa.sad/ | melancholy | deep + sad | sustained sadness without clear cause |
+| **dipa-sad** | /di.pa.sad/ | melancholy | deep + sad | sustained sadness without clear cause |
 | **losa-pain** | /lo.sa.pein/ | grief | loss + pain | acute sadness from specific loss |
 | **bloka-angri** | /blo.ka.an.gri/ | frustration | blocked + angry | anger from being prevented |
 | **pasta-luva-pain** | /pas.ta.lu.va.pein/ | nostalgia | past + love + pain | bittersweet longing for what was |
@@ -390,7 +390,7 @@ These rules govern every word proposed in this document:
 | **futur-afreda** | /fu.tur.a.fre.da/ | anxiety | future + afraid | fear of what might come |
 | **tota-afreda** | /to.ta.a.fre.da/ | worry | thought + afraid | low-level fear-driven rumination |
 | **biga-afreda** | /bi.ga.a.fre.da/ | panic | big + afraid | acute, overwhelming fear |
-| **depa-afreda** | /de.pa.a.fre.da/ | dread | deep + afraid | dark, persistent background fear |
+| **dipa-afreda** | /di.pa.a.fre.da/ | dread | deep + afraid | dark, persistent background fear |
 
 ### Love Cluster
 
@@ -401,7 +401,7 @@ These rules govern every word proposed in this document:
 | **luva** | /lu.va/ | love | atomic — cross-ref Phase 4 (+/a/) | the base emotion, all forms below derive from it |
 | **warm-fel** | /warm.fel/ | affection | warm + feel | gentle care for another |
 | **strong-luva** | /stron.lu.va/ | passion | strong + love | intense, consuming feeling |
-| **depa-luva** | /de.pa.lu.va/ | devotion | deep + love | committed, long-term love |
+| **dipa-luva** | /di.pa.lu.va/ | devotion | deep + love | committed, long-term love |
 | **kea** | /ke.a/ | care (casual) | adapted loan | everyday concern for another |
 
 ### Wonder and Curiosity
@@ -470,13 +470,13 @@ Proper nouns and highly culture-specific terms keep their original form:
 | `La long rod start wit wan stap` | The long road starts with one step | Begin — don't wait for perfection |
 | `La son no nof li shin on hu` | The sun doesn't know who it shines on | Give without expecting recognition |
 | `To brak es no to end` | To break is not to end | Failure is not final |
-| `Kwaiat watre es dep` | Quiet water is deep | Those who speak little often know the most |
+| `Kwaiat watre es dip` | Quiet water is deep | Those who speak little often know the most |
 | `La map es no la rod` | The map is not the road | Theory and practice differ |
 | `No wosh la blak kat to mak li wite` | Don't wash the black cat to make it white | Don't try to change someone's nature |
 | `La big tri grot from un smol sid` | The big tree grows from a small seed | Great things start small |
 | `No sel la skin bifor la hunt` | Don't sell the skin before the hunt | Don't count on outcomes before achieving them |
 | `La eit-nour man es no la eit-nour wok` | The eight-hour man is not the eight-hour work | Presence ≠ productivity |
-| `Yu no kan nof la dep of la mar from la bech` | You can't know the depth of the sea from the beach | You must engage deeply to truly understand |
+| `Yu no kan nof la dip of la mar from la bech` | You can't know the depth of the sea from the beach | You must engage deeply to truly understand |
 
 ---
 

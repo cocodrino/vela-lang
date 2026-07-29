@@ -278,7 +278,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **teka** | /te.ka/ | to take | tek-a | tek-ed | tek-wil | Yu tek la buk from mi. → You take the book from me. |
 | **senda** | /sen.da/ | to send | send-a | send-ed | send-wil | Mi send la leter. → I send the letter. |
 | **resiva** | /re.si.va/ | to receive | resiv-a | resiv-ed | resiv-wil | Mi resiv la paket. → I receive the package. |
-| **share** | /sher/ | to share | share-a | share-ed | share-wil | Wi share la food. → We share the food. |
+| **share** | /sher/ | to share | share-a | share-ed | share-wil | Wi share la fud. → We share the food. |
 | **trida** | /tri.da/ | to trade | trad-a | trad-ed | trad-wil | De trad wit es otfr. → They trade with each other. |
 | **sel** | /sel/ | to sell | sel-a | sel-ed | sel-wil | Mi sel la kar. → I sell the car. |
 | **bai** | /bai/ | to buy | bai-a | bai-ed | bai-wil | Mi bai un hous. → I buy a house. |
@@ -360,7 +360,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 | **talla** | /tal.la/ | tall | un tall man | a tall man |
 | **wida** | /wi.da/ | wide | la wid strit | the wide street |
 | **naro** | /na.ro/ | narrow | la naro rod | the narrow road |
-| **deepa** | /dee.pa/ | deep | la deep wel | the deep well |
+| **dipa** | /di.pa/ | deep | la dip wel | the deep well |
 | **shalo** | /sa.lo/ | shallow | la shalo river | the shallow river |
 | **tika** | /ti.ka/ | thick | un tik buk | a thick book |
 | **tin** | /tin/ | thin | un tin paper | a thin paper |
@@ -579,7 +579,7 @@ Social and legal entities (not professions):
 | **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lern child-en. |
 | **stodi-po** | /stodi.po/ | student / learner | study-person | La stodi-po stodi evri dei. |
 | **sik-fix-po** | /sik.fik.po/ | doctor | fix-sick-person | La sik-fix-po fix la sik-nes. |
-| **food-mak-po** | /food.mak.po/ | chef / cook | food-make-person | La food-mak-po mak gud food. |
+| **fud-mak-po** | /fud.mak.po/ | chef / cook | food-make-person | La fud-mak-po mak gud fud. |
 | **plant-grow-po** | /plant.grou.po/ | farmer | plant-grow-person | La plant-grow-po grow crop-en. |
 | **word-mak-po** | /word.mak.po/ | writer | word-make-person | La word-mak-po rit la buk. |
 | **biju-mak-po** | /biju.mak.po/ | artist | beauty-make-person | La biju-mak-po maki beautiful art. |
@@ -766,7 +766,7 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **fooda** | /foo.da/ | food | | La food es gud. |
+| **fuda** | /fu.da/ | food | | La fud es gud. |
 | **apel** | /apel/ | apple | | Mi eat un apel. |
 | **banan** | /banan/ | banana | | 
 | **oranji** | /o.ran.ji/ | orange | | 
@@ -965,7 +965,7 @@ Social and legal entities (not professions):
 | **fan** | /fan/ | fan | | La fan es cool. |
 | **hitar** | /hi.tar/ | heater | | La hitar es warm. |
 | **kondishonár** | /kon.di.sho.nar/ | air conditioner | | La kondishonár es cool. |
-| **refrijerator** | /re.fri.je.ra.tor/ | refrigerator | | La food in refrijerator. |
+| **refrijerator** | /re.fri.je.ra.tor/ | refrigerator | | La fud in refrijerator. |
 | **oven** | /o.ven/ | oven | | Mi kuk in oven. |
 | **maikroweva** | /maik.ro.we.va/ | microwave | | Mi heit in maikrowev. |
 | **dishwoshar** | /dish.wo.shar/ | dishwasher | masin | La dishwoshar klin. |
@@ -1037,7 +1037,7 @@ Social and legal entities (not professions):
 | **biznes** | /biznes/ | business | | Mi hav un biznes. |
 | **kompani** | /kompani/ | company | | La kompani es big. |
 | **mak-hous** | /mak.haus/ | factory | | La mak-hous maki product-en. |
-| **shopa** | /sho.pa/ | shop | | Mi bai food from shop. |
+| **shopa** | /sho.pa/ | shop | | Mi bai fud from shop. |
 | **marketa** | /mar.ke.ta/ | market | | La market es bizi. |
 | **eat-hous** | /it.haus/ | restaurant | | Wi it in la eat-hous. |
 | **moni** | /moni/ | money | | Mi need mor moni. |
@@ -1230,7 +1230,7 @@ This section shows complete example sentences demonstrating all grammar structur
 | **luza** | /lu.za/ | to lose | | Mi luz la kei. → I lose the key. |
 | **pei** | /pei/ | to pay | | Mi pei la bil. → I pay the bill. |
 | **chuza** | /chu.za/ | to choose | | Yu chuz wan. → You choose one. |
-| **pripar** | /pripar/ | to prepare | | Mi pripar la food. → I prepare the food. |
+| **pripar** | /pripar/ | to prepare | | Mi pripar la fud. → I prepare the food. |
 | **hari** | /hari/ | to hurry | | Mi hari up. → I hurry up. |
 | **stei** | /stei/ | to stay | | Mi stei hier. → I stay here. |
 | **entar** | /entar/ | to enter | | Mi entar la hous. → I enter the house. |

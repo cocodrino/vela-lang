@@ -34,7 +34,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **lo-lond** | /lo.lond/ | noun | valley | low + land | La lo-lond es grin. |
 | **flat-lond** | /flat.lond/ | noun | plain | flat + land | La flat-lond es big and open. |
 | **drai-lond** | /drai.lond/ | noun | desert | dry + land | La drai-lond hav no watre. |
-| **wet-lond** | /wet.lond/ | noun | swamp | wet + land | La wet-lond es deep and dark. |
+| **wet-lond** | /wet.lond/ | noun | swamp | wet + land | La wet-lond es dip and dark. |
 | **ston-hol** | /ston.hol/ | noun | cave | stone + hole | La ston-hol es dark and kold. |
 | **son-lait** | /son.lait/ | noun | sunshine | sun + light | La son-lait es warm. |
 | **son-rais** | /son.rais/ | noun | sunrise / dawn | sun + rise | Mi wek at son-rais. |
@@ -142,7 +142,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **blud-lain** | /blud.lain/ | noun | vein | blood + line | La blud-lain es blu. |
 | **hot-sik** | /hot.sik/ | noun | fever | hot + sick | La child hav hot-sik. |
 | **hed-pain** | /hed.pein/ | noun | headache | head + pain | Mi hav un hed-pain. |
-| **stomok-pain** | /sto.mok.pein/ | noun | stomachache | stomach + pain | La bad food giv stomok-pain. |
+| **stomok-pain** | /sto.mok.pein/ | noun | stomachache | stomach + pain | La bad fud giv stomok-pain. |
 | **brusa** | /bru.sa/ | noun | bruise | loan | La fol mak un brusa. |
 | **skin-red** | /skin.red/ | noun | rash | skin + red | La skin-red itc. |
 | **wond-kover** | /wond.ko.ver/ | noun | bandage | wound + cover | Put un wond-kover on la kut. |
@@ -298,7 +298,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **memori** | /me.mo.ri/ | noun | memory | loan | Mi hav gud memori of dat dei. |
 | **maind-piktur** | /maind.pik.tur/ | noun | imagination | mind + picture | La child hav strong maind-piktur. |
 | **fri-fel** | /fri.fel/ | noun | relief / freedom-feeling | free + feel | Aftr la test, un big fri-fel. |
-| **dep-tink** | /dep.tink/ | verb | to reflect / ponder | deep + think | Li dep-tink about lif. |
+| **dip-tink** | /dip.tink/ | verb | to reflect / ponder | deep + think | Li dip-tink about lif. |
 | **fast-angri** | /fast.an.gri/ | adj | irritable | fast + angry | La tird man es fast-angri. |
 | **kwaiat-hert** | /kwai.at.hert/ | adj | serene | quiet + heart | La wais man hav kwaiat-hert. |
 
@@ -507,7 +507,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **wail-dog** | /wail.dog/ | noun | wolf | wild + dog | La wail-dog hunt in nait. |
 | **big-fisha** | /big.fis.ha/ | noun | whale | big + fish | La big-fish es la most big animal. |
 | **bad-plant** | /bad.plant/ | noun | weed | bad + plant | Pul la bad-plant from la garden. |
-| **plant-fut** | /plant.fut/ | noun | root | plant + foot | La plant-fut go deep in erd. |
+| **plant-fut** | /plant.fut/ | noun | root | plant + foot | La plant-fut go dip in erd. |
 | **plant-bodi** | /plant.bo.di/ | noun | stem / stalk | plant + body | La flauor plant-bodi es grin. |
 | **smol-dog** | /smol.dog/ | noun | puppy | small + dog | La smol-dog play ol dei. |
 | **smol-kat** | /smol.kat/ | noun | kitten | small + cat | La smol-kat es soft. |
@@ -565,7 +565,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **blud-famili** | /blud.fa.mi.li/ | noun | blood relatives | blood + family | Mi blud-famili liv far. |
 | **old-fren** | /old.fren/ | noun | old friend | old + friend | Mi si un old-fren tudei. |
 | **new-fren** | /nu.fren/ | noun | new friend | new + friend | Mi mak un new-fren at skol. |
-| **dep-fren** | /dep.fren/ | noun | best friend | deep + friend | Li es mi dep-fren. |
+| **dip-fren** | /dip.fren/ | noun | best friend | deep + friend | Li es mi dip-fren. |
 | **kea-po** | /ke.a.po/ | noun | caregiver / guardian | care + -po | La tak-kea-po wocha la child. |
 | **fren-grup** | /fren.grup/ | noun | group of friends | friend + group | Mi fren-grup go tu la mar. |
 | **luva-tai-po** | /lu.va.tai.po/ | noun | partner (romantic) | love + tie + -po | Li and his luva-tai-po liv tugeter. |
@@ -763,7 +763,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **slo-slo** | /slo.slo/ | adj/adv | gradual / gradually | slow + slow | La ais melt slo-slo. |
 | **dis-taim** | /dis.taim/ | adv | nowadays | this + time | Dis-taim, ol yus fon. |
 | **futur-dei** | /fu.tur.dei/ | noun | someday / future day | future + day | Som futur-dei, wi meet agen. |
-| **bifor-taim** | /bi.for.taim/ | adv | beforehand | before + time | Prepara la food bifor-taim. |
+| **bifor-taim** | /bi.for.taim/ | adv | beforehand | before + time | Prepara la fud bifor-taim. |
 | **frekwenta** | /fre.kwen.ta/ | adj | frequent | loan | Frekwenta rein mak la lond grin. |
 | **okasa** | /o.ka.sa/ | adj | occasional | loan | La okasa visit tu la mar es nais. |
 | **tru-sain** | /tru.sain/ | noun | proof | true + sign | Giv mi tru-sain of dis. |
@@ -813,7 +813,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **blinka** | /blin.ka/ | verb | to blink | loan | La lait blinka in la dark. |
 | **yona** | /jo.na/ | verb | to yawn | loan | La taird child yona. |
 | **swola** | /swo.la/ | verb | to swallow | loan | Swola la watre slo. |
-| **chua** | /chu.a/ | verb | to chew | loan | Chua la food wel. |
+| **chua** | /chu.a/ | verb | to chew | loan | Chua la fud wel. |
 | **lika** | /li.ka/ | verb | to lick | loan | La dog lika mi hand. |
 | **noda** | /no.da/ | verb | to nod | loan | Li noda tu sei yes. |
 | **nila** | /ni.la/ | verb | to kneel | loan | Nila daun tu pray. |
@@ -889,7 +889,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **old-old** | /old.old/ | adj | ancient | old + old | La old-old templ stil stand. |
 | **no-fresha** | /no.fre.sha/ | adj | stale | not + fresh | La no-fresha bred es hard. |
 | **matia** | /ma.ti.a/ | noun | matter / substance | loan | Ol matia hav mas. |
-| **presha** | /pre.sha/ | noun | pressure | loan | La deep mar hav hai presha. |
+| **presha** | /pre.sha/ | noun | pressure | loan | La dip mar hav hai presha. |
 | **volu** | /vo.lu/ | noun | volume | loan | Wat es la volu of la boksi? |
 | **angla** | /an.gla/ | noun | angle | loan | Kut it at un rait angla. |
 | **surfa** | /sur.fa/ | noun | surface | loan | La mar surfa es kalma. |
@@ -976,7 +976,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **owa** | /o.wa/ | verb | to owe | loan | Mi owa yu ten muni. |
 | **forbida** | /for.bi.da/ | verb | to forbid | loan | La rul forbida run in la hous. |
 | **rekwesta** | /re.kwes.ta/ | verb/noun | to request | loan | Mi rekwesta yu help. |
-| **bega** | /be.ga/ | verb | to beg | loan | La por-po bega for food. |
+| **bega** | /be.ga/ | verb | to beg | loan | La por-po bega for fud. |
 | **dimanda** | /di.man.da/ | verb | to demand | loan | La werk-grup dimanda fera wej. |
 | **ofa** | /o.fa/ | verb/noun | to offer / offer | loan | Li ofa mi un kap of ti. |
 | **rejeta** | /re.je.ta/ | verb | to reject | loan | La hed-po rejeta la plan. |
@@ -1001,7 +1001,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **inserta** | /in.ser.ta/ | verb | to insert | loan | Inserta la ki in la loka. |
 | **asepta** | /a.sep.ta/ | verb | to accept | loan | Mi asepta yu ofa. |
 | **riveala** | /ri.ve.a.la/ | verb | to reveal | loan | La map riveala la haid rod. |
-| **dep-wei** | /dep.wei/ | adv | deeply | deep + way | Mi dep-wei kea for yu. |
+| **dip-wei** | /dip.wei/ | adv | deeply | deep + way | Mi dip-wei kea for yu. |
 | **wid-wei** | /wid.wei/ | adv | widely | wide + way | Dis buk es wid-wei rid. |
 | **soft-wei** | /soft.wei/ | adv | gently | soft + way | Hold la beba soft-wei. |
 | **strong-wei** | /strong.wei/ | adv | firmly | strong + way | Stand strong-wei on yu wod. |
@@ -1065,12 +1065,12 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **hard-mak** | /hard.mak/ | verb | to harden | hard + make | Kold hard-mak la watre in ais. |
 | **soft-mak** | /soft.mak/ | verb | to soften | soft + make | Warm watre soft-mak la bred. |
 | **wid-mak** | /wid.mak/ | verb | to widen | wide + make | Wi wid-mak la rod. |
-| **dep-mak** | /dep.mak/ | verb | to deepen | deep + make | Dig tu dep-mak la hol. |
+| **dip-mak** | /dip.mak/ | verb | to deepen | deep + make | Dig tu dip-mak la hol. |
 | **brite-mak** | /bri.te.mak/ | verb | to brighten | bright + make | La son brite-mak la ruma. |
 | **dark-mak** | /dark.mak/ | verb | to darken | dark + make | Klaud dark-mak la skai. |
 | **big-mak** | /big.mak/ | verb | to expand / enlarge | big + make | Wi big-mak la hous. |
 | **mor-mak** | /mor.mak/ | verb | to increase | more + make | La stor mor-mak la prais. |
-| **les-mak** | /les.mak/ | verb | to decrease / reduce | less + make | Les-mak la salt in la food. |
+| **les-mak** | /les.mak/ | verb | to decrease / reduce | less + make | Les-mak la salt in la fud. |
 | **gud-mak** | /gud.mak/ | verb | to improve | good + make | Praktis gud-mak yu skila. |
 | **bad-mak** | /bad.mak/ | verb | to worsen | bad + make | La rein bad-mak la rod. |
 | **raipa-mak** | /rai.pa.mak/ | verb | to ripen | ripe + make | La son raipa-mak la fruit. |
@@ -1259,7 +1259,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **ripleisa** | /ri.plei.sa/ | verb | to replace | loan | Ripleisa la old bateri. |
 | **new-mak** | /nu.mak/ | verb | to renew | new + make | New-mak yu visa evri jir. |
 | **yus-agen** | /jus.a.gen/ | verb | to recycle | use + again | Yus-agen la plastik boksi. |
-| **weista** | /weis.ta/ | verb/noun | to waste / waste | loan | No weista food. |
+| **weista** | /weis.ta/ | verb/noun | to waste / waste | loan | No weista fud. |
 | **far-trou** | /far.trou/ | verb | to dispose / throw away | far + throw | Far-trou la old tin. |
 | **erd-kover** | /erd.ko.ver/ | verb | to bury | earth + cover | De erd-kover la deda animal. |
 | **apointa** | /a.poin.ta/ | verb | to appoint | loan | La king apointa un niu lida. |
@@ -1292,11 +1292,11 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 
 | **posesa** | /po.se.sa/ | verb | to possess | loan | Li posesa much lond. |
 | **belonga** | /be.lon.ga/ | verb | to belong | loan | Dis buk belonga tu mi. |
-| **bringa** | /brin.ga/ | verb | to bring | loan | Bringa la food tu la tabl. |
+| **bringa** | /brin.ga/ | verb | to bring | loan | Bringa la fud tu la tabl. |
 | **go-tek** | /go.tek/ | verb | to fetch | go + take | Go-tek la niuspaper. |
 | **delivera** | /de.li.ve.ra/ | verb | to deliver | loan | Li delivera la leta. |
 | **tugeter-tek** | /tu.ge.ter.tek/ | verb | to collect | together + take | Mi tugeter-tek old koin-en. |
-| **ol-giv** | /ol.giv/ | verb | to distribute | all + give | La help-po ol-giv la food. |
+| **ol-giv** | /ol.giv/ | verb | to distribute | all + give | La help-po ol-giv la fud. |
 | **fri-giv** | /fri.giv/ | verb | to donate | free + give | De fri-giv muni tu la por. |
 | **inherita** | /in.he.ri.ta/ | verb | to inherit | loan | Li inherita la hous. |
 | **erna** | /er.na/ | verb | to earn | loan | Li erna gud muni. |
@@ -1364,7 +1364,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **soro** | /so.ro/ | noun | sorrow | loan | La lif-end bring soro. |
 | **anga** | /an.ga/ | noun | anger | loan | Kontrola yu anga. |
 | **fira** | /fi.ra/ | noun | fear | loan | La dark bring fira tu child. |
-| **disgusta** | /dis.gus.ta/ | noun | disgust | loan | La rotna food giv disgusta. |
+| **disgusta** | /dis.gus.ta/ | noun | disgust | loan | La rotna fud giv disgusta. |
 | **wunda-fel** | /wun.da.fel/ | noun | awe | wonder + feel | La big mautin giv wunda-fel. |
 | **longa-fel** | /lon.ga.fel/ | noun | longing | long + feel | Far from hom, longa-fel. |
 | **ekasaita** | /e.ka.sai.ta/ | noun | excitement | loan | La gem bring ekasaita. |
@@ -1374,7 +1374,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **skruba** | /skru.ba/ | verb | to scrub | loan | Skruba la dirti flor. |
 | **wakosa** | /wa.ko.sa/ | verb | to wax | loan | Wakosa la wud tabl. |
 | **wosh-klota** | /wosh.klo.ta/ | verb | to launder | wash + cloth | Mi wosh-klota on Sandei. |
-| **stora** | /sto.ra/ | verb | to store | loan | Stora la food for wintr. |
+| **stora** | /sto.ra/ | verb | to store | loan | Stora la fud for wintr. |
 | **hous-plan-po** | /haus.plan.po/ | noun | architect | house + plan + person | La hous-plan-po drau la hous. |
 | **ofis-po** | /o.fis.po/ | noun | clerk | office + person | La ofis-po fail la paper-en. |
 | **pei-tek-po** | /pei.tek.po/ | noun | cashier | pay + take + person | La pei-tek-po kaunt la muni. |
@@ -1443,7 +1443,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **spun-ful** | /spun.ful/ | noun | spoonful | spoon + full | Un spun-ful of medisin. |
 | **mous-ful** | /maus.ful/ | noun | mouthful | mouth + full | Un mous-ful of watre. |
 | **karga** | /kar.ga/ | noun | cargo / load | loan | La ship karri hevi karga. |
-| **stoka** | /sto.ka/ | noun | stock / supply | loan | La stor hav big stoka of food. |
+| **stoka** | /sto.ka/ | noun | stock / supply | loan | La stor hav big stoka of fud. |
 
 ## Mega Batch 2 — Academic, Arts, Sports, Agriculture, Adjectives, Verbs, Feelings, Household, Time
 
@@ -1599,7 +1599,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **mar-plant** | /mar.plant/ | noun | seaweed | sea + plant | La mar-plant gro under watre. |
 | **alji** | /al.ji/ | noun | algae | loan | Grin alji kover la pond. |
 | **fonga** | /fon.ga/ | noun | fungus | loan | La fonga gro on old wud. |
-| **dep-luva** | /dep.lu.va/ | verb | to cherish | deep + love | Mi dep-luva mi famili. |
+| **dip-luva** | /dip.lu.va/ | verb | to cherish | deep + love | Mi dip-luva mi famili. |
 | **morna** | /mor.na/ | verb | to mourn | loan | Wi morna la deda fren. |
 | **tiza** | /ti.za/ | verb | to tease | loan | No tiza yu broter. |
 | **swita-tok** | /swi.ta.tok/ | verb | to flatter | sweet + talk | Li swita-tok la boss. |
