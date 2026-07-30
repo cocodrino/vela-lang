@@ -396,7 +396,20 @@ in other languages, so almost nothing needs a suffix.
 | `wi` | we |
 | `de` | they |
 
-There is **no grammatical gender**: `li` covers *he*, *she*, and *it*.
+There is **no grammatical gender**: `li` covers *he*, *she*, and *it* alike, and
+`de` covers *they* for any group.
+
+> **"One word for he, she, and it — isn't that confusing?"** It is one of the
+> most widespread patterns in the world's languages, not an oddity. Spoken
+> **Mandarin Chinese** uses a single third-person pronoun `tā` for *he*, *she*
+> and *it* — the written distinction (他 / 她) is a 20th-century borrowing from
+> European languages, and roughly a billion speakers manage without it every day.
+> **Turkish** (`o`), **Persian** (`u`), **Indonesian** (`dia`), **Tagalog**
+> (`siya`), **Finnish** (`hän`) and **Hungarian** (`ő`) do the same. In practice
+> there is no confusion: you name the person first (*Ana kom. Li es hapi.* — Ana
+> comes. She is happy.), and context does the rest — exactly as Spanish routinely
+> drops the subject entirely. VELA makes `li` genderless **on purpose**: it is
+> simpler to learn, and it never forces a speaker to assign a gender to anyone.
 
 Possession uses **-se** (see §4.5) or the short possessive `mi-se` (my), `yu-se`
 (your), etc.

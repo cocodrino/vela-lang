@@ -268,11 +268,18 @@ Mi no wan go, bot mi mas.                → I don't want to go, but I must.
 VELA is a **moderately agglutinative, minimal-case language**:
 - **SVO word order** (universal and intuitive)
 - **Pitch accent** on the penultimate syllable
-- **No grammatical gender** — "li" = he/she/it
+- **No grammatical gender** — one pronoun `li` = he / she / it (and `de` = they)
 - **One article** (la = the)
 - **Agglutinative morphology** — prefixes and suffixes are clearly separable
 - **2-Case system** — Genitive (-se), Locative (-to). Nominative and Accusative: determined by word order.
 - **No tones** — pitch accent only, never lexical tone
+
+> **"One pronoun for he/she/it — isn't that confusing?"** Not at all — it's one of
+> the most common patterns on Earth. Spoken **Mandarin** (`tā`, ~1 billion
+> speakers), **Turkish** (`o`), **Persian** (`u`), **Indonesian** (`dia`),
+> **Tagalog** (`siya`) and **Finnish** (`hän`) all use a single gender-free
+> third-person pronoun. Context and the name you just said make it clear — and it
+> means you never have to gender anyone to speak. `li` is genderless *on purpose*.
 
 ### The 2 Cases in Action
 
