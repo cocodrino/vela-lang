@@ -435,14 +435,17 @@ Possession uses **-se** (see §4.5) or the short possessive `mi-se` (my), `yu-se
 
 ## 4.5 Adjectives
 
-Adjectives come **before** the noun and never change form or take case:
+Adjectives come **before** the noun and **never change form** — you always use
+the word exactly as the dictionary lists it, whether it sits before a noun or
+alone after `es`:
 
-> **un big hous** — *a big house*
-> **la gud person** — *the good person*
+> **un biga hous** — *a big house*  ·  **La hous es biga.** — *The house is big.*
+> **la guda person** — *the good person*  ·  **La person es guda.** — *The person is good.*
 
-Right before a noun the adjective is bare, as above. Standing alone after
-`es`, it takes its full dictionary form: **La hous es biga.** — *The house is
-big.* (attributive `big`, predicative `biga`).
+The only time an adjective's root loses its final vowel is inside a **compound**
+(joined by a hyphen): `red-hous` (a redhouse), `big-fish` (a whale). The simple
+rule across the whole language: **a hyphen takes the bare root; a space takes the
+full dictionary word.**
 
 **Comparison** uses `mor` (more) and `mos` (most):
 
@@ -594,7 +597,7 @@ weeks.
 - **Articles:** `la` (the), `un` (a).
 - **Plural:** `-n` after vowel, `-en` after consonant.
 - **Genitive:** `-se`. **Locative:** `-to`.
-- **Adjective:** bare before the noun; full (citation) form when alone after `es`.
+- **Adjective:** invariable — always the dictionary form (a hyphen takes the bare root, a space the full word).
 - **Comparison:** `mor` (more), `mos` (most).
 - **Verb tenses:** present = the dictionary word, past `-ed`, future `-wil`. No irregulars.
 - **"To be":** `bi` (present `es`).

@@ -362,25 +362,28 @@ Li kom la lern-hous-to.     → She comes from the school.    (-to alone)
 
 ## 5. Adjectives
 
-### 5.1 Adjective Form — attributive vs. predicative (R10)
+### 5.1 Adjective Form — always the dictionary word (R17)
 
-An adjective has two shapes, chosen by position — the same *bound = bare / free = citation* logic as verbs (R8) and compounds (R7):
+Adjectives are **invariable**: use the citation form (the word exactly as the
+dictionary lists it) in every position — before the noun and after `es` alike.
+There is nothing to change.
 
-- **Attributive** (directly **before the noun**) → **bare root**: the coda is shielded by the following noun.
-- **Predicative** (standing alone **after `es`**) → **citation form** (root + citation vowel): a phrase-final hard coda needs the vowel to stay (C)V-legal.
+| English | Before the noun | After `es` |
+|---------|-----------------|-----------|
+| big | un **biga** hous | La hous es **biga** |
+| good | un **guda** fren | La fren es **guda** |
+| old | la **olda** person | La person es **olda** |
+| red | un **reda** bol | La bol es **reda** |
+| small | un **smol** child | La child es **smol** |
+| happy | un **hapi** child | La child es **hapi** |
 
-Adjectives that are vowel-final or end in a soft coda {n m l r s ŋ} never change.
-
-| English | Attributive (before noun) | Predicative (after es) |
-|---------|---------------------------|------------------------|
-| big | **big** man | La man es **biga** |
-| good | **gud** fren | La fren es **guda** |
-| old | **old** hous | La hous es **olda** |
-| hot | **hot** dei | La dei es **hota** |
-| small *(soft coda)* | **smol** child | La child es **smol** |
-| happy *(vowel-final)* | **hapi** child | La child es **hapi** |
-
-**Rule of thumb:** the dictionary lists the citation form (`biga`, `guda`, `hota`); drop the final vowel when the adjective sits right before its noun.
+> **Why invariable, not R10?** An earlier rule (R10) dropped the citation vowel
+> before a noun (`big hous`). It was retired: `un biga hous` is perfectly legal
+> and pronounceable, and an adjective before its noun is two separate words, not
+> a compound. The system keeps one clean visual rule instead — **a hyphen means
+> the bare form, a space means the citation form**: `red-hous` (compound, bare)
+> vs. `un reda hous` (phrase, citation). Adjectives, standing between spaces,
+> are therefore always citation.
 
 ### 5.2 Adjective Position
 

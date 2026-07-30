@@ -313,3 +313,24 @@ Acuñado para Level 5 (C1) y para cerrar el hueco de indefinidos. Comité unáni
 **Recíproco (each other):** reduplicar el pronombre — `wi-wi`, `de-de` ("Wi help wi-wi" = we help each other), paralelo a la reduplicación existente (mor-mor, tru-tru).
 
 Descartados: `bof` (coda /f/ ilegal → si se usara sería `bofa`, pero se prefirió `ol-tu` compound-first).
+
+---
+
+## R17 — Adjetivos invariables (deroga la alomorfía de R10) — ratificada unánime 2026-07-29
+
+**Planteado por el usuario (arquitecto):** la forma pelada del adjetivo atributivo (`un red bol`) NO es obligatoria fonotácticamente — `un reda bol` es igual de legal (termina en vocal). Entonces R10 añadía una regla evitable.
+
+**Decisión (unánime B):** el adjetivo es **INVARIABLE** — siempre la forma de cita (la del diccionario), tanto atributivo como predicativo:
+- `un reda bol` (a red ball) **y** `La bol es reda` (the ball is red).
+- `un biga famili`, `La famili es biga`. `un guda fren`, `Li es guda`. `un olda hous`, `La hous es olda`.
+- Los de vocal/coda blanda ya eran invariables (smol, blu, nais, hapi, yong): sin cambio.
+
+**Principio unificado (más simple que R10):** la alternancia cita↔bare depende de **guion vs. espacio**, no de la categoría gramatical:
+- **guion → forma pelada** (compuestos: `mak-tin`, `red-hous`, `big-fish`).
+- **espacio → forma de cita** (frases: `un reda bol`, `La bol es reda`).
+
+R10 era la única excepción a este principio (una palabra libre —sin guion— usando forma pelada); al derogarla, el sistema queda con **una sola regla visual**. Verbos y sustantivos siguen participando en compuestos (guion=bare); adjetivos en frases son palabras libres (espacio=cita). El paralelismo se mantiene en el PRINCIPIO, no en la categoría.
+
+El fonólogo (autor de R10) retiró su argumento de saliencia prosódica como sobreanálisis: `un reda bol` no suena entrecortado, y adjetivo+sustantivo son dos palabras separadas, no un compuesto prosódico. Cross-lingüísticamente el adjetivo invariable es el default (inglés, chino, criollos).
+
+**Aplicado:** gramática §5, Libro 1 §4.5, y los 5 cursos (callouts que enseñaban R10 reescritos + atributivos pelados → forma de cita). El léxico NO cambia (las formas de cita ya eran los headwords).
