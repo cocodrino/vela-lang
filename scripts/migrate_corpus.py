@@ -1,0 +1,340 @@
+#!/usr/bin/env python3
+"""Rewrite off-canon VELA words in the corpus to their canonical lexicon forms.
+
+`validate_phonology.py --corpus` reports VELA words in `docs/texts/` and
+`books/` that break phonotactics. Almost all of them are not missing vocabulary:
+they are pre-reform spellings, or English words that were never translated. The
+Fase 8 corpus was written in May 2026, before the July reforms (R2 thematic
+vowel, R7 citation/composition, R15 beautification), so it drifted out of canon
+while the lexicon moved on.
+
+This script applies the corrections whose target already exists in the lexicon.
+It does NOT invent words: every replacement is checked against the lexicon at
+startup, and coining a new word is a committee decision (`vote/docs/PROCESS.md`),
+not something a migration script may do. Words with no canonical form are listed
+in NEEDS_COMMITTEE and deliberately left untouched.
+
+Only VELA regions are rewritten. The bilingual texts put the English translation
+right next to the VELA, and many drifted words ARE English words (`world`,
+`third`, `light`), so a blind search-and-replace would corrupt the translations.
+Region boundaries come from `validate_phonology.vela_spans_md`, the same walker
+the validator uses, so the two can never disagree about what counts as VELA.
+
+Usage:
+    python3 scripts/migrate_corpus.py --dry-run     # show every change
+    python3 scripts/migrate_corpus.py               # apply
+"""
+
+import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+
+from validate_phonology import (  # noqa: E402
+    LETTER,
+    SUFFIXES,
+    corpus_files,
+    element_defect,
+    fold,
+    load_grandfathered,
+    LEXICON_FILES,
+    r7_bare_forms,
+    vela_spans_md,
+)
+
+# Off-canon form  ->  canonical lexicon form.
+# Every value was looked up in docs/dictionary/INDEX_EN_VELA.md and is asserted
+# to exist in the lexicon before anything is written.
+REPLACEMENTS = {
+    # --- /θ/ violations: 'th' is not a VELA phoneme, no grandfathering ---
+    "throt": "trota",        # throat
+    "erth": "erda",          # earth
+    "path": "wei",           # way / path (abstract)
+    "third": "terda",        # third (1/3)
+
+    # --- English left untranslated ---
+    "world": "wailda",
+    "light": "laita",
+    "bright": "brite",
+    "glass": "glasi",
+    "leaf": "folia",
+    "deep": "dipa",
+    "full": "ful",
+    "step": "stap",
+    "week": "seven-dei",
+    "high": "hai",
+    "down": "daun",
+    "break": "braka",
+    "trust": "trasta",
+    "owl": "aul",
+    "try": "trai",
+    "laugh": "lafa",
+    "second": "sekonda",
+    "closed": "klos",
+    "it": "li",
+
+    # --- pre-reform spellings (R2 / R7 / R15 drift) ---
+    "werld": "wailda",
+    "nait": "noita",
+    "hart": "herta",
+    "voys": "vois",
+    "brid": "birda",
+    "kwaiet": "kwaiata",
+    "trut": "tru-nes",       # truth (abstract)
+    "nid": "needa",
+    "bag": "bagi",
+    "tern": "turna",
+    "tiket": "bileta",
+    "brek": "braka",
+    "opn": "open",
+    "kold": "kol",
+    "ondastand": "understanda",
+    "korekt": "righta",      # right (correct)
+    "lunch": "dei-eat",      # lunch / midday meal
+    "solt": "salta",
+    "frut": "frukta",
+    "laik": "liki",
+    "musik": "muzika",
+    "intanet": "interneta",
+    "took": "teka",
+    "tuk": "teka",
+    "wach": "wotcha",
+    "roof": "rofa",
+    "fraid": "afreda",
+    "raiz": "raisa",
+    "esy": "eas",
+    "laud": "louda",
+    "seif": "safi",
+    "sef": "safi",
+    "yest": "yestdei",
+    "neks": "folo-wan",
+    "wulf": "wail-dog",
+    "starz": "star-en",      # plural of star: consonant-final root takes -en (R6)
+}
+
+# No canonical form exists, so fixing these means coining a word — a committee
+# decision under vote/docs/PROCESS.md. Left in place on purpose.
+NEEDS_COMMITTEE = {
+    "mush": "much",
+    "lost": "lost",
+    "ahed": "ahead",
+    "brekfast": "breakfast",
+    "still": "still",
+    "about": "about",
+    "laif": "life",
+    "solitud": "solitude",
+    "breth": "breath",
+    "bihaind": "behind",
+    "just": "just",
+    "aut": "out",
+    "stik": "stick",
+}
+
+TOKEN_RE = re.compile(f"[{LETTER}][{LETTER}-]*")
+
+
+def match_case(source, target):
+    """Carry the source word's capitalization onto the replacement."""
+    if source[:1].isupper():
+        return target[:1].upper() + target[1:]
+    return target
+
+
+VOWELS = set("aeiou")
+TOLERATED_CODA = {"n", "m", "l", "r", "s"}
+
+
+def bare_form(citation):
+    """Combining form of a citation root: R17's hyphen→bare rule.
+
+    Only an R7 citation form has a bare variant, and R7's condition is precise:
+    the `-a` exists to cover a coda that would otherwise be illegal. So `braka`
+    → `brak` (bare coda 'k' is illegal alone, hence the citation vowel), while
+    `folia` stays `folia` — `foli` ends in a vowel, so that final `-a` is part
+    of the word, not epenthesis. The test is `element_defect`, the same
+    predicate `validate_phonology.r7_bare_forms` uses to decide which bare forms
+    it will accept; sharing it is what keeps the two scripts from disagreeing.
+    """
+    if len(citation) > 2 and citation.endswith("a") and "-" not in citation:
+        stem = citation[:-1]
+        if element_defect(stem):
+            return stem
+    return citation
+
+
+def bare_form_if_legal_finally(citation):
+    """Bare form, but only when it is still legal as the end of a word.
+
+    R17 wants the bare form for every element of a hyphenated compound, yet the
+    LAST element is also the end of the word, so its coda still has to be
+    tolerated. `sun-raisa` → `sun-rais` (coda 's', fine); a root whose bare coda
+    would be illegal keeps its citation vowel instead.
+    """
+    bare = bare_form(citation)
+    if bare == citation:
+        return citation
+    idx = max((i for i, ch in enumerate(bare) if ch in VOWELS), default=-1)
+    tail = bare[idx + 1:]
+    if tail == "" or tail in TOLERATED_CODA:
+        return bare
+    return citation
+
+
+def plural_for(stem):
+    """R6: '-n' after a vowel-final stem, '-en' after a consonant-final one."""
+    return "n" if stem and stem[-1] in VOWELS else "en"
+
+
+def refit_suffixes(stem, suffixes):
+    """Re-derive suffix allomorphs for a stem whose shape just changed.
+
+    Replacing `leaf` with `folia` turns a consonant-final stem into a
+    vowel-final one, so its plural moves from `-en` to `-n` (R6). Without this
+    the migration would write `folia-en`.
+    """
+    out = []
+    current = stem
+    for suffix in suffixes:
+        low = suffix.lower()
+        if low in ("n", "en"):
+            fixed = plural_for(current)
+            out.append(fixed.upper() if suffix.isupper() else fixed)
+            current = current + fixed
+        else:
+            out.append(suffix)
+            current = current + low
+    return out
+
+
+def rewrite_token(token):
+    """Return the canonical form of one token, or None if nothing changes."""
+    parts = token.split("-")
+    if not parts:
+        return None
+
+    # Trailing inflection is preserved as-is; only content elements are mapped.
+    n = len(parts)
+    while n > 1 and parts[n - 1].lower() in SUFFIXES:
+        n -= 1
+    content, suffix = parts[:n], parts[n:]
+
+    changed = False
+    out = []
+    for i, part in enumerate(content):
+        key = fold(part).lower()
+        target = REPLACEMENTS.get(key)
+        if target is None:
+            out.append(part)
+            continue
+        is_last = i == len(content) - 1
+        if not is_last:
+            # Non-final element of a compound: bare form (R17, hyphen→bare).
+            target = bare_form(target)
+        elif suffix:
+            # Inflection attaches to the bare root (R8: `mak-ed`, not `maka-ed`).
+            target = bare_form(target)
+        elif len(content) > 1:
+            # Final element of a compound: bare, unless that leaves an illegal coda.
+            target = bare_form_if_legal_finally(target)
+        out.append(match_case(part, target))
+        changed = True
+
+    if not changed:
+        return None
+
+    # The stem may have changed shape, so suffix allomorphs are re-derived (R6).
+    stem = "".join(out)
+    return "-".join(out + refit_suffixes(stem, suffix))
+
+
+def migrate_line(line, spans):
+    """Rewrite only the given character spans of `line`. Returns (line, changes)."""
+    changes = []
+    # Right to left, so earlier offsets stay valid as the text length shifts.
+    for start, end, _ in sorted(spans, reverse=True):
+        segment = line[start:end]
+        pieces = []
+        cursor = 0
+        for m in TOKEN_RE.finditer(segment):
+            new = rewrite_token(m.group(0))
+            if new is None:
+                continue
+            pieces.append(segment[cursor:m.start()])
+            pieces.append(new)
+            cursor = m.end()
+            changes.append((m.group(0), new))
+        if not changes:
+            continue
+        pieces.append(segment[cursor:])
+        line = line[:start] + "".join(pieces) + line[end:]
+    return line, changes
+
+
+def migrate_file(path, dry_run):
+    spans_by_line = {}
+    for line_no, _, spans in vela_spans_md(path):
+        spans_by_line.setdefault(line_no, []).extend(spans)
+
+    original = Path(path).read_text(encoding="utf-8")
+    lines = original.split("\n")
+
+    total = []
+    for line_no, spans in spans_by_line.items():
+        idx = line_no - 1
+        if idx >= len(lines):
+            continue
+        new_line, changes = migrate_line(lines[idx], spans)
+        if changes:
+            lines[idx] = new_line
+            for old, new in changes:
+                total.append((line_no, old, new))
+
+    if total and not dry_run:
+        Path(path).write_text("\n".join(lines), encoding="utf-8")
+
+    return total
+
+
+def main(argv):
+    dry_run = "--dry-run" in argv[1:]
+
+    roots = load_grandfathered(LEXICON_FILES)
+    known = roots | r7_bare_forms(roots)
+
+    # Refuse to run if any replacement target is not actually in the lexicon.
+    missing = []
+    for src, target in REPLACEMENTS.items():
+        for element in target.split("-"):
+            if element.lower() not in known:
+                missing.append((src, target, element))
+    if missing:
+        print("ABORT — replacement targets absent from the lexicon:")
+        for src, target, element in missing:
+            print(f"  {src} -> {target}   ('{element}' not a lexicon root)")
+        return 2
+
+    print(f"{len(REPLACEMENTS)} replacements verified against the lexicon.")
+    print(f"{len(NEEDS_COMMITTEE)} words left untouched (need a coinage — committee).\n")
+
+    grand_total = 0
+    for path in corpus_files():
+        if path.endswith(".html"):
+            continue  # the five courses are already canon-clean
+        changes = migrate_file(path, dry_run)
+        if not changes:
+            continue
+        print(f"{path} — {len(changes)} change(s)")
+        for line_no, old, new in changes:
+            print(f"    {line_no:>5}  {old:<18} -> {new}")
+        grand_total += len(changes)
+
+    verb = "would change" if dry_run else "changed"
+    print(f"\n{verb} {grand_total} token(s).")
+    if dry_run:
+        print("Dry run — nothing written. Re-run without --dry-run to apply.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

@@ -36,7 +36,7 @@
 | 17 | I'll have the fish. | Mi wud la fish. |
 | 18 | It's too expensive. | La prais es tu hai. |
 | 19 | Do you accept cards? | Yu asept kart? |
-| 20 | I need a bag. | Mi nid a bag. |
+| 20 | I need a bag. | Mi needa a bagi. |
 
 ---
 
@@ -52,7 +52,7 @@
 | 26 | I'm lost. | Mi es lost. |
 | 27 | Fire! | Fai! |
 | 28 | It's an emergency. | La es emerjensi. |
-| 29 | I need medicine. | Mi nid medisin. |
+| 29 | I need medicine. | Mi needa medisin. |
 | 30 | Don't worry. | No weri. |
 
 ---
@@ -63,11 +63,11 @@
 |---|---------|------|
 | 31 | Where is the station? | Wer es la steshon? |
 | 32 | How do I get to the city? | Hau mi go a la siti? |
-| 33 | Turn left. | Tern lefa. |
-| 34 | Turn right. | Tern raia. |
+| 33 | Turn left. | Turna lefa. |
+| 34 | Turn right. | Turna raia. |
 | 35 | Go straight ahead. | Go stret ahed. |
 | 36 | Stop here. | Topi hier. |
-| 37 | I want a ticket. | Mi wan a tiket. |
+| 37 | I want a ticket. | Mi wan a bileta. |
 | 38 | Is it far? | La es far? |
 | 39 | Near / Far | Nir / Far |
 | 40 | What time does it leave? | Wat taim la liv? |
@@ -87,7 +87,7 @@
 | 47 | I am a teacher. | Mi es a lern-po. |
 | 48 | The computer is broken. | La komputa es brok. |
 | 49 | Can you help me? | Kan yu help mi? |
-| 50 | I need a break. | Mi nid a brek. |
+| 50 | I need a break. | Mi needa a braka. |
 
 ---
 
@@ -101,10 +101,10 @@
 | 54 | I have a child. | Mi hav a child. |
 | 55 | This is my house. | Dis es mi-se hous. |
 | 56 | The room is clean. | La rum es klin. |
-| 57 | Turn on the light. | Tern on la lait. |
+| 57 | Turn on the light. | Turna on la lait. |
 | 58 | Close the door. | Klos la dor. |
-| 59 | Open the window. | Opn la windo. |
-| 60 | It's cold outside. | La es kold autsid. |
+| 59 | Open the window. | Open la windo. |
+| 60 | It's cold outside. | La es kol autsid. |
 
 ---
 
@@ -119,7 +119,7 @@
 | 65 | It's raining. | La es ren-a. |
 | 66 | The wind is strong. | La wind es strong. |
 | 67 | Summer is hot. | Soma es hot. |
-| 68 | Winter is cold. | Winta es kold. |
+| 68 | Winter is cold. | Winta es kol. |
 | 69 | Spring brings flowers. | Sprin bring flaur. |
 | 70 | Autumn leaves fall. | Otom lif fal. |
 
@@ -132,12 +132,12 @@
 | 71 | I study VELA. | Mi stodi Vela. |
 | 72 | What is this word? | Wat es dis word? |
 | 73 | Write it, please. | Rit la, plise. |
-| 74 | I understand. | Mi ondastand. |
-| 75 | I don't understand. | Mi no ondastand. |
+| 74 | I understand. | Mi understanda. |
+| 75 | I don't understand. | Mi no understanda. |
 | 76 | Read this book. | Rid dis buk. |
 | 77 | The teacher explains. | La lern-po eksplen. |
 | 78 | The student asks. | La stodi-po ask. |
-| 79 | Is this correct? | La dis es korekt? |
+| 79 | Is this correct? | La dis es righta? |
 | 80 | I have a question. | Mi hav a kwestion. |
 
 ---
@@ -149,12 +149,12 @@
 | 81 | I'm hungry. | Mi es hungri. |
 | 82 | I'm thirsty. | Mi es tirsti. |
 | 83 | Breakfast is ready. | Brekfast es redi. |
-| 84 | Lunch was good. | Lunch es gud. |
+| 84 | Lunch was good. | Dei-eat es gud. |
 | 85 | Dinner is at seven. | Dina es at seven. |
-| 86 | Pass the salt. | Pas la solt. |
+| 86 | Pass the salt. | Pas la salta. |
 | 87 | This is delicious. | Dis es delishus. |
 | 88 | I don't eat meat. | Mi no eat mit. |
-| 89 | Do you have fruit? | Yu hav frut? |
+| 89 | Do you have fruit? | Yu hav frukta? |
 | 90 | Coffee or tea? | Kofi or ti? |
 
 ---
@@ -163,15 +163,15 @@
 
 | # | English | VELA |
 |---|---------|------|
-| 91 | I like music. | Mi laik musik. |
+| 91 | I like music. | Mi liki muzika. |
 | 92 | Let's play football. | Wi ple futbol. |
 | 93 | I run every morning. | Mi ran evri morne. |
 | 94 | Swimming is fun. | Swim es fun. |
-| 95 | Turn on the music. | Tern on la musik. |
+| 95 | Turn on the music. | Turna on la muzika. |
 | 96 | What's your phone number? | Wat es yu-se fon number? |
-| 97 | The internet is fast. | La intanet es fast. |
-| 98 | I took a photo. | Mi took a foto. |
-| 99 | Let's watch a movie. | Wi wach a film. |
+| 97 | The internet is fast. | La interneta es fast. |
+| 98 | I took a photo. | Mi teka a foto. |
+| 99 | Let's watch a movie. | Wi wotcha a film. |
 | 100 | Life is beautiful. | Laif es beautiful. |
 
 ---

@@ -9,14 +9,14 @@
 ## Poem 1: La Rein and La Longin (Rain and Longing)
 
 **VELA:**
-Rein-a on mi roof in nait gray,
+Rein-a on mi rofa in noita gray,
 mi hier-a watre tok in dark skai.
 Mi ai si-a yu memori in wind,
-mi hart fiel-a longin and sad.
+mi herta fiel-a longin and sad.
 Wind go-a arond mi smol rum slow,
 star wait-a bifor kraud autsid.
 Mi tink-a yu kom-wil from far lond,
-bot dor stay-a closed in kold.
+bot dor stay-a klos in kol.
 Wen morne start-a wit pale sun,
 mi still wait-a, and rein sing-a.
 
@@ -39,14 +39,14 @@ I still wait, and rain sings.
 ## Poem 2: La Child and La Dream (A Child's Dream)
 
 **VELA:**
-Child sleep-a in bed at morne light,
+Child sleep-a in bed at morne laita,
 li hand hold-a smol wud hors.
 Li dream-a skai blu and star near,
 bird dansi-a arond li hed.
 Li go-a ap mautin wit hapi leg,
-sun smile-a on li ai bright.
+sun smile-a on li ai brite.
 Li tok-a wit moon about fri laif,
-and moon tok-a trut in soft wind.
+and moon tok-a tru-nes in soft wind.
 Wen mat kom-a and tok-a "start,"
 child wake-a, bot dream stay-a warm.
 
@@ -69,16 +69,16 @@ the child wakes, but the dream stays warm.
 ## Poem 3: La Mar and La Solitud (The Sea and Solitude)
 
 **VELA:**
-Mi go-a tu mar at evning kold,
+Mi go-a tu mar at evning kol,
 wave tok-a and tok-a wit no end.
 Skai turn-a from orange tu gray,
 and wind touch-a mi skin slow.
 No fren kom-a, no bird sing-a near,
-onli watre and mi step on sand.
+onli watre and mi stap on sand.
 Mi tink-a about laif, about deth,
-about trut, about hop, about mi self.
+about tru-nes, about hop, about mi self.
 Mar stay-a big, mi stay-a smol,
-bot in solitud mi hart lern-a peis.
+bot in solitud mi herta lern-a peis.
 
 **English:**
 I go to the sea in a cold evening,
@@ -100,12 +100,12 @@ but in solitude my heart learns peace.
 
 **VELA:**
 Yu si-a mi wen day start-a low,
-yu tok-a gud wen world feel-a hevi.
+yu tok-a gud wen wailda feel-a hevi.
 Mi hand hold-a yu hand in storm,
-and fraid go-a daun from mi hart.
-Wi wok-a long river at nait,
+and afreda go-a daun from mi herta.
+Wi wok-a long river at noita,
 star and moon stay-a wit wi.
-Yu laugh-a, mi laugh-a, wind dansi-a,
+Yu laf-a, mi laf-a, wind dansi-a,
 wi share-a bred, wi drink-a watre.
 If war kom-a, wi stand-a strong,
 bikos tu luv giv-a wi fri laif.

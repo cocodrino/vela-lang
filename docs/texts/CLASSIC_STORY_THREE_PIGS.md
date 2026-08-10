@@ -18,14 +18,14 @@ The pigs stayed safe, and the wolf ran away.
 ## VELA (working translation)
 Tri smol pig-en go-ed from hom tu maki de-se own hous-en.
 La first pig maki-ed un hous of stra.
-La second pig maki-ed un hous of stik-en.
-La third pig maki-ed un hous of brik-en.
-Un wulf kom-ed and tok-ed: “Smol pig, smol pig, let mi kom in.”
+La sekonda pig maki-ed un hous of stik-en.
+La terda pig maki-ed un hous of brik-en.
+Un wail-dog kom-ed and tok-ed: “Smol pig, smol pig, let mi kom in.”
 La pig-en tok-ed: “No, no, no.”
-La wulf tok-ed: “Den mi wil blow daun yu-se hous.”
+La wail-dog tok-ed: “Den mi wil blow daun yu-se hous.”
 Li blow-ed daun la stra hous and la stik hous.
 Bat li no kin blow daun la brik hous.
-La pig-en stay-ed sef, and la wulf ran away.
+La pig-en stay-ed safi, and la wail-dog ran away.
 
 ## Notes
 - This is a **Phase 8 narrative artifact**.

@@ -13,17 +13,17 @@
 
 ```
 La sun go up in la blu skai,
-La mòn slip daun in la nait.
-Wi si la starz, wi si la lait,
-La erth tuen sutili, sutili.
+La mòn slip daun in la noita.
+Wi si la star-en, wi si la lait,
+La erda tuen sutili, sutili.
 
 La wind sing in la green tri,
-La brid flai tu la morne.
+La birda flai tu la morne.
 Water run, snow mel, flaur open,
-La werld liv in pasi.
+La wailda liv in pasi.
 
 Mi fiel la warm sun on mi skin,
-Mi hier la sòft rán on la glass.
+Mi hier la sòft rán on la glasi.
 Yu es mi lait, yu es mi dai,
 Wi go forti, tugeter.
 ```
