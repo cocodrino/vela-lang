@@ -35,8 +35,10 @@ from validate_phonology import (  # noqa: E402
     LETTER,
     SUFFIXES,
     corpus_files,
+    corpus_vocabulary,
     element_defect,
     fold,
+    is_vela_segment,
     load_grandfathered,
     LEXICON_FILES,
     r7_bare_forms,
@@ -111,25 +113,46 @@ REPLACEMENTS = {
     "neks": "folo-wan",
     "wulf": "wail-dog",
     "starz": "star-en",      # plural of star: consonant-final root takes -en (R6)
+
+    # --- found once STORIES_SET_01.md was scanned (inline **VELA:** marker) ---
+    "with": "wit",
+    "act": "akta",
+    "nex": "folo-wan",
+    "cold": "kol",
+    "quick": "kwikli",
+    "always": "oldei",
+    "wall": "wal",
+    "tird": "tireda",
+    "kough": "kofa",
+    "less": "les",
+    "kindness": "kainda",
+    "maut": "mous",          # mouth
+    "only": "onli",
+    "granmat": "granmoter",
+    "dry": "drai",
+    "kloth": "klota",
+    "road": "rodi",
+
+    # --- R18 (2026-10-22): the 13 words the committee settled ---
+    "mush": "meni",          # much = many (R18 #4)
+    "ahed": "fronta-wei",
+    "brekfast": "moring-fud",
+    "still": "yeta",
+    "about": "abau",
+    "laif": "lifa",
+    "solitud": "alon-nes",
+    "breth": "brita",
+    "bihaind": "baki-wei",
+    "just": "onli",          # "merely" sense only
+    "aut": "auta",
+    "stik": "stika",
 }
 
 # No canonical form exists, so fixing these means coining a word — a committee
 # decision under vote/docs/PROCESS.md. Left in place on purpose.
-NEEDS_COMMITTEE = {
-    "mush": "much",
-    "lost": "lost",
-    "ahed": "ahead",
-    "brekfast": "breakfast",
-    "still": "still",
-    "about": "about",
-    "laif": "life",
-    "solitud": "solitude",
-    "breth": "breath",
-    "bihaind": "behind",
-    "just": "just",
-    "aut": "out",
-    "stik": "stick",
-}
+# Empty since R18. "lost" was settled as a paraphrase ("Mi no nou la wei"),
+# which is a sentence rewrite, not a word swap — fix it by hand.
+NEEDS_COMMITTEE = {}
 
 TOKEN_RE = re.compile(f"[{LETTER}][{LETTER}-]*")
 
@@ -258,7 +281,7 @@ def migrate_line(line, spans):
         cursor = 0
         for m in TOKEN_RE.finditer(segment):
             new = rewrite_token(m.group(0))
-            if new is None:
+            if new is None or new == m.group(0):
                 continue
             pieces.append(segment[cursor:m.start()])
             pieces.append(new)
@@ -271,10 +294,14 @@ def migrate_line(line, spans):
     return line, changes
 
 
-def migrate_file(path, dry_run):
+def migrate_file(path, dry_run, recognized):
     spans_by_line = {}
-    for line_no, _, spans in vela_spans_md(path):
-        spans_by_line.setdefault(line_no, []).extend(spans)
+    for line_no, line, spans in vela_spans_md(path):
+        # Same skip rule as the validator: a bare paragraph that reads as English
+        # (BENCHMARK's "Or in standard VELA orthography with ...") is left alone.
+        kept = [s for s in spans if is_vela_segment(line[s[0]:s[1]], s[2], recognized)]
+        if kept:
+            spans_by_line.setdefault(line_no, []).extend(kept)
 
     original = Path(path).read_text(encoding="utf-8")
     lines = original.split("\n")
@@ -321,7 +348,7 @@ def main(argv):
     for path in corpus_files():
         if path.endswith(".html"):
             continue  # the five courses are already canon-clean
-        changes = migrate_file(path, dry_run)
+        changes = migrate_file(path, dry_run, corpus_vocabulary(roots))
         if not changes:
             continue
         print(f"{path} — {len(changes)} change(s)")

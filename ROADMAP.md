@@ -339,7 +339,7 @@ Arreglados con formas que ya existían en el léxico: `throt`→`trota`, `erth`�
 | 3 | **Los poemas necesitan pasada del esteticista** — la migración cambió sílabas (`nait`→`noita`, `hart`→`herta`), así que métrica y rima de `POEMS_COLLECTION.md` y `POEM_01_SUN_AND_MOON.md` quedaron sin revisar | diff de 2026-08-07 | Medio: es criterio de belleza, competencia del esteticista (precedente R4/R15) |
 | 4 | ✅ **RESUELTA en `bc9d87b`** — Era: **La landing anunciaba "the passive" en Level 4** — R12 ratificó que VELA no tiene pasiva, y el libro correctamente no la enseña | `index.html`, tarjeta de Level 4 | Medio: contradice el canon en la cara pública |
 | 5 | **Los textos de `web-sample` son pre-R8/R17** y ya tienen audio generado | `web-sample/public/texts/` | Medio: bloquea ampliar Fase 9 con calidad |
-| 6 | **160 gap words** — palabras usadas en textos y cursos que no están en el léxico, todas legales fonotácticamente (`hau`, `morne`, `tanke`, `ten`, `an`…) | `validate_phonology.py --corpus`, sección NOTES | Medio: el diccionario no cubre lo que los cursos enseñan |
+| 6 | **205 gap words** (eran 157 tras R18; +48 al escanear `STORIES_SET_01.md`) — palabras usadas en textos y cursos que no están en el léxico, todas legales fonotácticamente (`hau`, `morne`, `tanke`, `ten`, `an`…) | `validate_phonology.py --corpus`, sección NOTES | Medio: el diccionario no cubre lo que los cursos enseñan |
 | 7 | 85 headwords duplicados detectados por el generador de diccionario | salida de `scripts/generate_dictionary.py` | Bajo: limpieza de léxico |
 | 8 | Idiomatismos de Fase 5 (20 expresiones propias) sin empezar | — | Bajo: no bloquea nada |
 
@@ -347,7 +347,7 @@ Arreglados con formas que ya existían en el léxico: `throt`→`trota`, `erth`�
 
 ## Próximos pasos recomendados
 
-1. ~~Comité para las 13 palabras faltantes (deuda #1)~~ — hecho (R18, 2026-10-22). **Nuevo:** `docs/texts/STORIES_SET_01.md` no lo lee el validador (0 tokens escaneados) y tiene formas pre-reforma (`kloth`, `path`, `hart`, `leaf`). Arreglar el lector antes de dar el corpus por limpio.
+1. ~~Comité para las 13 palabras faltantes (deuda #1)~~ — hecho (R18, 2026-10-22). El lector del validador ahora entiende `**VELA:** texto` en la misma línea, así que `STORIES_SET_01.md` se escanea (508 tokens; antes 0) y quedó migrado: 48 correcciones, 0 errores.
 2. **Migración R8 del corpus (deuda #2)** — mecánica y guionizable con el mismo `migrate_corpus.py`: presente de coda dura pelado → forma de cita. Debe pasar antes de generar más audio.
 3. **Pasada del esteticista sobre los poemas (deuda #3)** — la migración priorizó canon sobre métrica; alguien tiene que recuperar el ritmo.
 4. **Terminar Fase 9** — fonemas + audio de lecciones + botones ▶ en los 5 cursos. VELA tiene pitch accent; un curso que no se puede oír enseña la mitad de la lengua.

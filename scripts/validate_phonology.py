@@ -274,6 +274,7 @@ def fold(text):
 
 # The five shapes VELA prose takes in docs/texts/*.md.
 VELA_BLOCK = re.compile(r"^\*\*VELA[:.]?\*\*\s*$", re.I)          # **VELA:** … **English:**
+VELA_INLINE = re.compile(r"^\*\*VELA[:.]?\*\*\s+(?=\S)", re.I)     # **VELA:** text on the same line
 VELA_HEADING = re.compile(r"^#{2,3}\s+.*\bVELA\b.*$", re.I)        # ## VELA (working translation)
 EN_BLOCK = re.compile(r"^\*\*(English|Español|Spanish)[:.]?\*\*", re.I)
 EN_HEADING = re.compile(r"^#{2,3}\s+.*\b(English|Español|Spanish|Analysis|Gap|Notes?)\b.*$", re.I)
@@ -310,6 +311,7 @@ def vela_spans_md(path):
 
     Only explicitly-marked VELA regions are produced:
       · a `**VELA:**` block, up to `**English:**` / `---` / next heading
+        (the text may start on the marker's own line)
       · a `## …VELA…` heading section, up to the next heading
       · a fenced code block inside such a section
       · the `VELA` column of a markdown table
@@ -336,6 +338,14 @@ def vela_spans_md(path):
             if not in_fence:
                 if VELA_BLOCK.match(stripped) or VELA_HEADING.match(stripped):
                     in_vela, table_col = True, None
+                    continue
+                # The text follows the marker on the same line. Checked before
+                # META_LINE, which would otherwise swallow it as a **Label:** line.
+                inline = VELA_INLINE.match(line.lstrip())
+                if inline:
+                    in_vela, table_col = True, None
+                    start = len(line) - len(line.lstrip()) + inline.end()
+                    yield line_no, line, [(start, len(line), "marked")]
                     continue
                 if EN_BLOCK.match(stripped) or EN_HEADING.match(stripped):
                     in_vela, table_col = False, None
@@ -403,6 +413,24 @@ def extract_html_spans(path):
 # for the ratio to mean anything.
 GATE_RATIO = 0.5
 GATE_MIN_TOKENS = 4
+
+
+def corpus_vocabulary(lexicon_roots):
+    """What a corpus token may legally be: a lexicon root, the R7 bare form of a
+    citation root, an inflectional suffix, or a whitelisted proper noun."""
+    return lexicon_roots | r7_bare_forms(lexicon_roots) | SUFFIXES | PROPER_NOUNS
+
+
+def is_vela_segment(segment, shape, recognized):
+    """False for a bare paragraph that reads as English (see language_gate).
+
+    Marked shapes have an unambiguous boundary and are always VELA. The validator
+    and the corpus migrator both call this, so they agree on what they skip.
+    """
+    if shape != "plain":
+        return True
+    tokens = [fold(t) for t in TOKEN.findall(segment)]
+    return language_gate(tokens, recognized)
 
 
 def language_gate(tokens, recognized):
@@ -505,9 +533,7 @@ def main(argv):
         files = list(LEXICON_FILES) + corpus_files()
 
     lexicon_roots = load_grandfathered(LEXICON_FILES)
-    # What a corpus token may legally be: a lexicon root, the R7 bare form of a
-    # citation root, an inflectional suffix, or a whitelisted proper noun.
-    recognized = lexicon_roots | r7_bare_forms(lexicon_roots) | SUFFIXES | PROPER_NOUNS
+    recognized = corpus_vocabulary(lexicon_roots)
 
     findings = []  # (severity, rule, path, line_no, word, detail)
     lex_total = corpus_total = skipped_total = 0
@@ -534,7 +560,7 @@ def main(argv):
                 tokens = [fold(t) for t in TOKEN.findall(segment)]
                 if not tokens:
                     continue
-                if shape == "plain" and not language_gate(tokens, recognized):
+                if not is_vela_segment(segment, shape, recognized):
                     skipped += 1
                     continue
                 for word in tokens:
