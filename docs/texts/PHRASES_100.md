@@ -19,7 +19,7 @@
 | 7 | Please. | Plise. |
 | 8 | Excuse me. | Ekskus mi. |
 | 9 | I'm sorry. | Mi es sori. |
-| 10 | Yes / No | Ok / No |
+| 10 | Yes / No | Ye / No |
 
 ---
 
@@ -32,10 +32,10 @@
 | 13 | The bill, please. | La bil, plise. |
 | 14 | Water, please. | Water, plise. |
 | 15 | Where is the bathroom? | Wer es la batrum? |
-| 16 | What do you recommend? | Wat yu rekomend? |
-| 17 | I'll have the fish. | Mi wud la fish. |
+| 16 | What do you recommend? | Wat yu rekomenda? |
+| 17 | I'll have the fish. | Mi wud la fisha. |
 | 18 | It's too expensive. | La prais es tu hai. |
-| 19 | Do you accept cards? | Yu asept kart? |
+| 19 | Do you accept cards? | Yu asepta kart? |
 | 20 | I need a bag. | Mi needa a bagi. |
 
 ---
@@ -65,7 +65,7 @@
 | 32 | How do I get to the city? | Hau mi go a la siti? |
 | 33 | Turn left. | Turna lefa. |
 | 34 | Turn right. | Turna raia. |
-| 35 | Go straight ahead. | Go stret fronta-wei. |
+| 35 | Go straight ahead. | Go streta fronta-wei. |
 | 36 | Stop here. | Topi hier. |
 | 37 | I want a ticket. | Mi wan a bileta. |
 | 38 | Is it far? | La es far? |
@@ -85,7 +85,7 @@
 | 45 | I will send an email. | Mi wil send a email. |
 | 46 | What is your job? | Wat es yu-se wok? |
 | 47 | I am a teacher. | Mi es a lern-po. |
-| 48 | The computer is broken. | La komputa es brok. |
+| 48 | The computer is broken. | La komputa es broka. |
 | 49 | Can you help me? | Kan yu help mi? |
 | 50 | I need a break. | Mi needa a braka. |
 
@@ -96,15 +96,15 @@
 | # | English | VELA |
 |---|---------|------|
 | 51 | My family is big. | Mi-se famili es big. |
-| 52 | I love my mother. | Mi luv mi-se mat. |
-| 53 | Where is my father? | Wer es mi-se fat? |
+| 52 | I love my mother. | Mi luva mi-se moter. |
+| 53 | Where is my father? | Wer es mi-se fater? |
 | 54 | I have a child. | Mi hav a child. |
 | 55 | This is my house. | Dis es mi-se hous. |
 | 56 | The room is clean. | La rum es klin. |
 | 57 | Turn on the light. | Turna on la lait. |
 | 58 | Close the door. | Klos la dor. |
 | 59 | Open the window. | Open la windo. |
-| 60 | It's cold outside. | La es kol autsid. |
+| 60 | It's cold outside. | La es kol autsida. |
 
 ---
 
@@ -113,15 +113,15 @@
 | # | English | VELA |
 |---|---------|------|
 | 61 | What time is it? | Wat taim es? |
-| 62 | It's nine o'clock. | La es nain klok. |
+| 62 | It's nine o'clock. | La es nain kloka. |
 | 63 | Today is Monday. | Tudei es Mondei. |
 | 64 | Tomorrow will be warm. | Tumoro wil es warm. |
-| 65 | It's raining. | La es ren-a. |
+| 65 | It's raining. | La rein fal. |
 | 66 | The wind is strong. | La wind es strong. |
 | 67 | Summer is hot. | Soma es hot. |
 | 68 | Winter is cold. | Winta es kol. |
-| 69 | Spring brings flowers. | Sprin bring flaur. |
-| 70 | Autumn leaves fall. | Otom lif fal. |
+| 69 | Spring brings flowers. | Sprin bringa flaur. |
+| 70 | Autumn leaves fall. | Otom folia-n fal. |
 
 ---
 
@@ -131,7 +131,7 @@
 |---|---------|------|
 | 71 | I study VELA. | Mi stodi Vela. |
 | 72 | What is this word? | Wat es dis word? |
-| 73 | Write it, please. | Rit la, plise. |
+| 73 | Write it, please. | Rita la, plise. |
 | 74 | I understand. | Mi understanda. |
 | 75 | I don't understand. | Mi no understanda. |
 | 76 | Read this book. | Rid dis buk. |
@@ -153,7 +153,7 @@
 | 85 | Dinner is at seven. | Dina es at seven. |
 | 86 | Pass the salt. | Pas la salta. |
 | 87 | This is delicious. | Dis es delishus. |
-| 88 | I don't eat meat. | Mi no eat mit. |
+| 88 | I don't eat meat. | Mi no eat mita. |
 | 89 | Do you have fruit? | Yu hav frukta? |
 | 90 | Coffee or tea? | Kofi or ti? |
 

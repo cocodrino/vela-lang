@@ -9,16 +9,16 @@
 ## Poem 1: La Rein and La Longin (Rain and Longing)
 
 **VELA:**
-Rein-a on mi rofa in noita gray,
-mi hier-a watre tok in dark skai.
-Mi ai si-a yu memori in wind,
-mi herta fiel-a longin and sad.
-Wind go-a arond mi smol rum slow,
-star wait-a bifor kraud autsid.
-Mi tink-a yu kom-wil from far lond,
-bot dor stay-a klos in kol.
-Wen morne start-a wit pale sun,
-mi yeta wait-a, and rein sing-a.
+Rein on mi rofa in noita gray,
+mi her watre toka in dark skai.
+Mi ai si yu memori in wind,
+mi herta fel longin and sad.
+Wind go aronda mi smol rum slow,
+star waita bifor kraud autsida.
+Mi tinka yu kom-wil from far lond,
+bot dor stei klos in kol.
+Wen morne starta wit pale sun,
+mi yeta waita, and rein sing.
 
 **English:**
 Rain falls on my roof in a gray night,
@@ -39,16 +39,16 @@ I still wait, and rain sings.
 ## Poem 2: La Child and La Dream (A Child's Dream)
 
 **VELA:**
-Child sleep-a in bed at morne laita,
-li hand hold-a smol wud hors.
-Li dream-a skai blu and star near,
-bird dansi-a arond li hed.
-Li go-a ap mautin wit hapi leg,
-sun smile-a on li ai brite.
-Li tok-a wit moon abau fri lifa,
-and moon tok-a tru-nes in soft wind.
-Wen mat kom-a and tok-a "start,"
-child wake-a, bot dream stay-a warm.
+Child slipa in beda at morne laita,
+li hand holda smol wud horsa.
+Li drim skai blu and star near,
+bird dansi aronda li hed.
+Li go ap mautin wit hapi leg,
+sun smile on li ai brite.
+Li toka wit moon abau fri lifa,
+and moon toka tru-nes in soft wind.
+Wen moter kom and toka "start,"
+child weika, bot drim stei warm.
 
 **English:**
 A child sleeps in bed in morning light,
@@ -69,16 +69,16 @@ the child wakes, but the dream stays warm.
 ## Poem 3: La Mar and La Alon-nes (The Sea and Solitude)
 
 **VELA:**
-Mi go-a tu mar at evning kol,
-wave tok-a and tok-a wit no end.
-Skai turn-a from orange tu gray,
-and wind touch-a mi skin slow.
-No fren kom-a, no bird sing-a near,
-onli watre and mi stap on sand.
-Mi tink-a abau lifa, abau deta,
+Mi go tu mar at evning kol,
+wave toka and toka wit no end.
+Skai turna from orange tu gray,
+and wind tucha mi skin slow.
+No fren kom, no bird sing near,
+onli watre and mi stap on sanda.
+Mi tinka abau lifa, abau deta,
 abau tru-nes, abau hop, abau mi self.
-Mar stay-a big, mi stay-a smol,
-bot in alon-nes mi herta lern-a peis.
+Mar stei big, mi stei smol,
+bot in alon-nes mi herta lern peis.
 
 **English:**
 I go to the sea in a cold evening,
@@ -99,16 +99,16 @@ but in solitude my heart learns peace.
 ## Poem 4: Tu Luv (Love)
 
 **VELA:**
-Yu si-a mi wen day start-a low,
-yu tok-a gud wen wailda feel-a hevi.
-Mi hand hold-a yu hand in storm,
-and afreda go-a daun from mi herta.
-Wi wok-a long river at noita,
-star and moon stay-a wit wi.
-Yu laf-a, mi laf-a, wind dansi-a,
-wi share-a bred, wi drink-a watre.
-If war kom-a, wi stand-a strong,
-bikos tu luv giv-a wi fri lifa.
+Yu si mi wen day starta low,
+yu toka gud wen wailda fel hevi.
+Mi hand holda yu hand in storm,
+and afreda go daun from mi herta.
+Wi woka long river at noita,
+star and moon stei wit wi.
+Yu lafa, mi lafa, wind dansi,
+wi share bred, wi drinka watre.
+If war kom, wi standa strong,
+bikos tu luva giva wi fri lifa.
 
 **English:**
 You see me when the day begins low,

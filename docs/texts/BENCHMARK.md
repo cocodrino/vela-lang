@@ -12,10 +12,10 @@
 > "Go forth in peace to love and serve the Lord."
 
 ### VELA Translation
-> **"Go forti in pasi tu luv and servi la Lord."**
+> **"Go forti in pasi tu luva and servi la Lord."**
 
 Or in standard VELA orthography with pitch accent marking:
-> **Go fórti in pasi tu luv and servi la Lòrd.**
+> **Go fórti in pasi tu luva and servi la Lòrd.**
 
 ---
 
@@ -134,7 +134,7 @@ So simpler version requires only 1 new word: `forti`.
 | 7 | Please. | **Plise.** | `plise` = please. New. |
 | 8 | Excuse me. | **Ekskus mi.** | `ekskus` = excuse. New. |
 | 9 | I'm sorry. | **Mi es sori.** | `sori` = sorry. New. |
-| 10 | Yes / No | **Ok / No** | ✅ Already in lexicon |
+| 10 | Yes / No | **Ye / No** | ✅ Already in lexicon |
 
 ### Compras y Restaurante
 

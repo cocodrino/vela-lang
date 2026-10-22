@@ -1,33 +1,33 @@
 # Tri Smol Pigi
 
 **VELA:**
-Wan taim, tri smol pig-en liv-ed wit de-se mat in big fores. Wan dei mat tok-ed, "Yu ar old enuf. Go maki yu on haus."
+Wan taim, tri smol pig-en liv-ed wit de-se moter in big fores. Wan dei moter tok-ed, "Yu ar old enuf. Go maki yu on haus."
 
-Pig 1 tok-ed,"Mi wil maki wan kwik haus." Li maki-ed gras-haus. "Dis kwik and eas," li tok-ed.
+Piga 1 tok-ed,"Mi wil maki wan kwik haus." Li maki-ed gras-haus. "Dis kwik and eas," li tok-ed.
 
-Pig 2 tok-ed,"Mi haus wil be strong." Li maki-ed wud-haus. "Dis strong," li tok-ed.
+Piga 2 tok-ed,"Mi haus wil be strong." Li maki-ed wud-haus. "Dis strong," li tok-ed.
 
-Pig 3 tok-ed,"Mi wil maki la strong-moa haus." Li maki-ed ston-haus. Li teka long taim, bot li smile-ed. "Now wulfi no kan kom insaid," li tok-ed.
+Piga 3 tok-ed,"Mi wil maki la strong-moa haus." Li maki-ed ston-haus. Li teka long taim, bot li smile-ed. "Now wulfi no kan kom insaida," li tok-ed.
 
-Big wulfi kom-ed on wan dei. Li si-ed gras-haus and tok-ed louda,"Smol pig, smol pig, let mi in!"
+Big wulfi kom-ed on wan dei. Li si-ed gras-haus and tok-ed louda,"Smol piga, smol piga, let mi in!"
 
-"No, no, not bai la hair on mi hed," Pig 1 tok-ed.
+"No, no, no bai la hair on mi hed," Piga 1 tok-ed.
 
-"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. And li blo-ed, and li blo-ed, and gras-haus flai-ed awe. Pig 1 ran to wud-haus.
+"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. And li blo-ed, and li blo-ed, and gras-haus flai-ed awe. Piga 1 ran to wud-haus.
 
-Wulfi kom-ed to wud-haus."Smol pig, smol pig, let mi in!"
+Wulfi kom-ed to wud-haus."Smol piga, smol piga, let mi in!"
 
-"No, no, not bai la hair on mi hed," Pig 2 tok-ed.
+"No, no, no bai la hair on mi hed," Piga 2 tok-ed.
 
-"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. And li blo-ed, and wud-haus brak-ed. Pig 1 and Pig 2 ran to ston-haus.
+"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. And li blo-ed, and wud-haus brak-ed. Piga 1 and Piga 2 ran to ston-haus.
 
-"Smol pig, smol pig, let mi in!" wulfi sey-ed.
+"Smol piga, smol piga, let mi in!" wulfi sey-ed.
 
-"No, no, not bai la hair on mi hed," Pig 3 tok-ed.
+"No, no, no bai la hair on mi hed," Piga 3 tok-ed.
 
 "Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. Li blo-ed and blo-ed, bot ston-haus no brak-ed. Wulfi taird-ed and sit-ed.
 
-Den li haf wan ide. Li klaim-ed on la ston-haus rofa and go-ed daun la chimni. Bot Pig 3 put-ed hot watre under la chimni. Wulfi faul-ed daun in la hot watre.
+Den li hav-ed wan ide. Li klaim-ed on la ston-haus rofa and go-ed daun la chimni. Bot Piga 3 put-ed hot watre under la chimni. Wulfi faul-ed daun in la hot watre.
 
 "Owowow!" Wulfi jump-ed auta and ran awe in tu la fores. Tri smol pig-en dans-ed in la rum and luk-ed la sun. "Wi ar safi," de tok-ed. And de liv-ed hapi evri dei.
 

@@ -146,6 +146,52 @@ REPLACEMENTS = {
     "just": "onli",          # "merely" sense only
     "aut": "auta",
     "stik": "stika",
+
+    # --- R7/R17: a free word takes the citation form (space -> citation) ---
+    # The bare form is legal only inside a compound or before a suffix; the
+    # rewriter keeps `pig-en` / `brik-hous` bare and only fixes the free word.
+    "luv": "luva",
+    "pig": "piga",
+    "brik": "brika",
+    "first": "firsta",
+    "kalm": "kalma",
+    "insaid": "insaida",
+    "asept": "asepta",
+    "autsid": "autsida",
+    "brok": "broka",
+    "fish": "fisha",
+    "klok": "kloka",
+    "mit": "mita",
+    "rekomend": "rekomenda",
+    "rit": "rita",
+    "stret": "streta",
+    "arond": "aronda",
+    "bed": "beda",
+    "hors": "horsa",
+    "sand": "sanda",
+    "branch": "brancha",
+    "not": "nota",           # note (music); negation "not" was fixed by hand to "no"
+    "shak": "shaka",
+    "bank": "banka",
+    "importent": "importenta",
+    "last": "lasta",
+    "market": "marketa",
+    "strit": "strita",
+    "sup": "supa",
+    # Homographs: the corpus word is NOT the lexicon word its bare form matches.
+    "mat": "moter",          # mother — not `mata` (matte)
+    "fat": "fater",          # father — not `fata` (fat)
+
+    # --- R8: English verbs the May corpus left untranslated ---
+    "touch": "tucha",
+    "stay": "stei",
+    "feel": "fel",
+    "fiel": "fel",
+    "dream": "drim",
+    "wake": "weika",
+    "sleep": "slipa",
+    "grow": "grota",
+    "bring": "bringa",
 }
 
 # No canonical form exists, so fixing these means coining a word — a committee
@@ -230,8 +276,36 @@ def refit_suffixes(stem, suffixes):
     return out
 
 
+def present_form(token):
+    """R8: rewrite the pre-reform present `X-a` to the citation form, or None.
+
+    The May corpus marked the present with a hyphenated `-a` (`sing-a`, `tok-a`).
+    R8 abolished that marker: the present IS the citation form, and the `-a` only
+    appears where the bare root would end in an illegal coda. So `sing-a` → `sing`,
+    `go-a` → `go`, but `tok-a` → `toka`, `wait-a` → `waita`.
+
+    Only bilingual texts are rewritten (the migrator skips the HTML courses),
+    which matters: the courses use a canonical topic marker `X-a`
+    (`Dis buka-a, ol-person rida.`) that this rule must never touch.
+    """
+    parts = token.split("-")
+    if len(parts) != 2 or parts[1].lower() != "a":
+        return None
+    root = parts[0]
+    key = fold(root).lower()
+    mapped = REPLACEMENTS.get(key)
+    if mapped is not None:
+        return match_case(root, mapped)
+    citation = key + "a" if element_defect(key) else key
+    return match_case(root, citation)
+
+
 def rewrite_token(token):
     """Return the canonical form of one token, or None if nothing changes."""
+    present = present_form(token)
+    if present is not None:
+        return present
+
     parts = token.split("-")
     if not parts:
         return None
