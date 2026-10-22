@@ -66,3 +66,45 @@ El usuario eligió B. La recomendación era A, porque la premisa de los votos po
 
 ### Reason
 El usuario eligió A, que era la recomendación: es la más votada y no gasta raíces nuevas.
+
+## Motor del comité para R19 (formas peladas sueltas)
+- date: 2026-10-22
+- decided_by: user
+- chosen: A
+- files: vote/topics/dossier_r19_bare_forms.md, vote/topics/current_topic.md
+
+### Context
+La migración R8 se detuvo en 308 tokens porque el canon se contradice (tabla de R8 vs R7/léxico). El usuario pidió llevarlo al comité; `PROCESS.md` exige preguntar el motor antes de cada ronda.
+
+### Options
+#### A — Subagentes Claude
+Igual que R18: 5 especialistas en segundo plano, solo lectura.
+- Pro: arranca ya, sin preparación.
+- Con: misma familia de modelos, menos desacuerdo real.
+#### B — Pi por bridge
+- Pro: modelos distintos, como R1–R17.
+- Con: requiere abrir los paneles Pi en cmux.
+
+### Reason
+El usuario eligió A, que era la recomendación esta vez: R18 funcionó con ese motor y no hay que preparar nada.
+
+## Aplicar R19 en dos tandas
+- date: 2026-10-22
+- decided_by: user
+- chosen: A
+- files: scripts/migrate_corpus.py, books/Learning-VELA-Level1.html, docs/texts/STORIES_SET_01.md, docs/grammar/GRAMMAR_COMPLETE.md
+
+### Context
+R19 resultó más grande de lo previsto: además de los 308 tokens de corpus y cursos, los ejemplos del propio léxico usan formas peladas (~1.500-1.900 tokens estimados), y el migrador no lee bien las tablas del léxico (13 formatos, celdas en inglés, homógrafos como `not`, `mat`).
+
+### Options
+#### A — Dos tandas
+Ahora corpus, cursos y gramática con el migrador actual; los ejemplos del léxico después, tras enseñarle al migrador a leer esas tablas.
+- Pro: entrega rápida de lo que ya es seguro; el léxico se hace con la herramienta adecuada.
+- Con: el diccionario sigue mostrando ejemplos pelados un tiempo.
+#### B — Todo de una vez
+- Pro: el canon queda coherente en un solo paso.
+- Con: riesgo alto de reescribir celdas en inglés u homógrafos en ~1.400 filas sin una herramienta que distinga columnas.
+
+### Reason
+El usuario eligió A, que era la recomendación.

@@ -1,255 +1,118 @@
-# VELA Committee Deliberation — THE 13 UNCOINED CORPUS WORDS
+# VELA Committee Deliberation — R19: BARE FORMS AS FREE WORDS
 
-**Date:** 2026-08-09
+**Date:** 2026-10-22
 **Status:** OPEN — pending specialist review
 **Proposed by:** Claude (corpus migration team)
-**Scope:** 13 English concepts used in `docs/texts/` that have no canonical VELA form
-**Blocks:** the last 17 validator errors, including the project's final `th` violation
-**Method:** word-by-word verdict (the set is small and each case differs)
+**Scope:** whether a consonant-final content root may stand alone in a sentence without its citation `-a`
+**Blocks:** 308 corpus tokens (59 distinct words), 113 of them in the 5 HTML courses
 **Process:** `vote/docs/PROCESS.md` · voting rules §"Voting Rules"
 
 ---
 
 ## 1. Why this topic exists
 
-`scripts/validate_phonology.py --corpus` currently reports **FAIL — 17 errors**. Every
-one of them traces back to 13 English concepts the corpus needed and the lexicon never
-supplied. A script cannot resolve them: choosing a word's shape is a canon decision
-(R1–R17), which `PROCESS.md` reserves for the committee.
+The R8 corpus migration (commit `c6d0cfb`) fixed the pre-reform present `X-a` and ~30
+unambiguous bare free words. It stopped at 308 tokens because **the canon contradicts
+itself** on whether forms like `liv`, `lern`, `old`, `big` may stand alone. A script
+cannot pick between two ratified texts; the committee must.
 
-Reaching **0 errors** requires exactly these 13 decisions. Nothing else is outstanding.
+## 2. The contradiction — verified in the files
 
-## 2. Phase 0 — graphify context: STALE, DO NOT RELY ON IT
-
-`PROCESS.md` makes reading `graphify-out/GRAPH_REPORT.md` mandatory. That file is dated
-**2026-05-14**, before the entire July reform (R7 allomorphy, R8 present=citation, R14
-person/pipol, R15 beautification, R17 invariable adjectives). Its community structure
-describes a lexicon that no longer exists.
-
-**Recommendation:** run `graphify update .` before treating any graph claim as evidence,
-or decide this topic without graph context. The evidence in §4 is drawn directly from the
-current lexicons and corpus, not from the graph.
-
-## 3. Constraints every proposal must satisfy
-
-| Rule | Constraint |
+| Source | What it says |
 |---|---|
-| R2 | No illegal final clusters. A root with an illegal coda takes thematic `-a`. |
-| R2 | Codas tolerated word-finally: only `{n, m, l, r, s}`. |
-| — | `th` (/θ ð/) is not in the inventory. Not negotiable, no grandfathering. |
-| R3 | A transparent compound of ≤3 roots beats a loan. Where both work, the compound is preferred and the loan becomes a register synonym. |
-| R7 | A root with a hard coda has two forms: citation `root+a` (standalone, dictionary headword) and bare `root-` (inside compounds). |
-| R1 | Core stays near ~200 atoms. These 13 are everyday vocabulary, so they count against core — prefer compounds over new atoms. |
-| R4 | Tag POETIC / PROSE where the word lands in verse. |
+| **R7** (`fase5_consensus.md` §R7) | Every CONTENT root with a hard final coda (outside {n,m,l,r,s,ng}) has two forms: **citation** `root+a` for standalone use, **bare** only inside compounds. Only FUNCTION words (at, of, and, if, wit, but, self) are grandfathered with a single form. |
+| **R8 table** (`fase5_consensus.md` §R8) | Header: "Legal suelta (vocal-final o coda ∈ {n,m,l,r,s,ng})". Rows listed under it: `si`, `go`, `wan`, **`tok`**, **`liv`**, **`lern`**. `tok` ends in /k/ and `liv` in /v/ — both hard codas by R8's own header. `lern` ends in a two-consonant cluster. |
+| **GRAMMAR_COMPLETE.md §6.1** | Reconciled later: moves `tok` to the hard-coda row as **`toka`**, but keeps **`lern`** as a legal standalone present. `liv` is not listed. |
+| **R2** (`fase5_consensus.md` §R2) | "Banned final clusters": `-tm -mnt -sm -ʃn -bl -ks -st -rd -rs -tr -ns -nt -nd -kl -dl -lt -lf -nr -dr -kt -sk -pt -nkr`. |
+| **PHONOLOGY_FINAL.md §4** | "Los clusters (dos o más consonantes seguidas) **solo están permitidos al inicio** de una sílaba." — a general ban, broader than R2's list. |
+| **R2 Amendment (2026-07-24)** | Native consonant-final roots (`lern`, `mak`, `sad`, `nof`) stay grandfathered **inside compounds**. Says nothing about standalone use; R7 two days later answered that (citation form). |
+| **R17** | Adjectives are invariable, always citation form: `un olda hous`, `un biga famili`, `La famili es biga`. |
+| **Lexicon** | Headwords are the citation forms: `lerna`, `toka`, `maka`, `olda`, `biga`, `guda`, `birda`, `childa`… ⚠️ "to live" is **`livi`** (`LEXICON_BASE.md:247`), not `liva` — `liva` is the adjective "alive" (`LEXICON_EXPANSION.md:554`). So under A, `Mi liv` → `Mi livi`. |
+| **Validator** (`element_defect`) | Treats any single consonant outside {n,m,l,r,s} as a deprecated coda, and **any** 2+ consonant tail as an illegal cluster — i.e. it follows PHONOLOGY_FINAL §4, not R2's narrower list. |
 
-## 4. The evidence, word by word
+So the courses (written after the reform) follow the R8 table (`Mi liv…`, `Mi lern…`,
+`Mi mak…`), while the lexicon, R7 and R17 say `liva`, `lerna`, `maka`.
 
-Each entry gives: where it breaks, the sentence it lives in, what the validator says, and
-**what already exists in the lexicon** — checked two ways (headword form and English gloss).
+## 3. The 308 tokens, by word ending
 
-### TIER A — already solved by existing lexicon material (committee: confirm, don't coin)
+Format: `word(total: texts t / courses c)`. Texts = `docs/texts/*.md`; courses = `books/Learning-VELA-Level{1..5}.html`.
 
-**1. breath** — `docs/texts/SHORT_STORY_BIRD.md:45`
-> `…stand-ed on ston, and breth-ed dipa.`
+**Single hard coda** (R7 applies directly — no cluster question):
 
-Validator: *illegal coda `-t` even after resyllabification (from `-th`)* **+ the only
-remaining `th` violation in the project.**
+| Coda | Words |
+|---|---|
+| `-v` | liv(18: 2t/16c) hav(4: 4t/0c) giv(1: 0t/1c) |
+| `-k` | mak(9: 0t/9c) tok(8: 1t/7c) sik(2) wok(2) kwik(2) kuk(2: 0t/2c) buk(1) blak(1) bak(1: 0t/1c) |
+| `-d` | gud(10: 8t/2c) kraud(5) bred(5) wud(3) sad(3) loud(2: 1t/1c) red(2) rid(1) bad(1: 0t/1c) |
+| `-t` | lait(8: 6t/2c) hot(4) wait(3: 0t/3c) kwaiat(3: 0t/3c) eat(2: 1t/1c) |
+| `-g` | big(11: 9t/2c) dog(7) leg(2) |
+| `-p` | hop(4: 3t/1c) slip(2: 1t/1c) shop(2: 0t/2c) |
 
-**`brita` /ˈbri.ta/ "to breathe" already exists** — `LEXICON_BASE.md`, with a full
-paradigm: `brit-a` / `brit-ed` / `brit-wil`. Moreover `LEXICON_EXPANSION.md` records that
-a previous committee **already rejected `breta` as a duplicate of `brit`**.
+**Final cluster** (R2 bans some explicitly; PHONOLOGY_FINAL §4 bans all):
 
-→ Proposed verdict: this is a migration miss, not a coining. `breth-ed` → `brit-ed`.
-Kills the last `th` violation with no new word.
+| Cluster | In R2's banned list? | Words |
+|---|---|---|
+| `-nd` | yes | wind(16: 12t/4c) end(10: 1t/9c) lond(7: 3t/4c) hand(7) send(1) |
+| `-rd` | yes | bird(22: 19t/3c) hard(5: 1t/4c) erd(1) |
+| `-st` | yes | rest(2: 0t/2c) fast(1) |
+| `-sk` | yes | ask(1) |
+| `-ld` | no | child(17: 12t/5c) old(17: 16t/1c) |
+| `-rn` | no | **lern(15: 1t/14c)** |
+| `-rm` | no | warm(7) storm(5) |
+| `-rk` | no | dark(5) werk(3: 0t/3c) |
+| `-rt` | no | start(2: 1t/1c) kart(1) hert(1: 0t/1c) |
+| `-nj` | no | sonj(11) |
+| `-ft` | no | soft(7) |
+| `-nk` | no | tink(6: 0t/6c) |
+| `-lp` | no | help(5: 4t/1c) |
+| `-lm` | no | film(1) |
+| `-wn` | no (diphthong + n?) | own(1) |
 
-**2. life** — `PHRASES_100.md:175`, `POEMS_COLLECTION.md:48`
-> `Laif es beautiful.` · `Li tok-a wit moon about fri laif,`
+**Total: 308 tokens, 59 distinct words, 113 in the courses.** The biggest course items:
+`liv` 16, `lern` 14, `mak` 9, `end` 9, `tok` 7, `tink` 6.
 
-Validator: *deprecated coda `-f`*.
+**No lexicon form at all** (separate question): `enuf` (enough), `kart` (cards — `karta` means "constitution"), `own` (adjective — `owna` is the verb "to own").
 
-**`lifa` already exists as a bound form** in `LEXICON_EXTENDED.md`: `lifa-koda` (genetic
-code), `lifa-tipa` (species), `lifa-lerna` (biology). It has no standalone headword.
+## 4. Options
 
-→ Proposed verdict: promote `lifa` /ˈli.fa/ to a headword. Corpus `laif` → `lifa`. This
-also removes a live inconsistency: the lexicon says `lifa`, the corpus says `laif`.
-Note: `lifta` (to lift) exists — check the committee is comfortable with `lifa`/`lifta`.
+| | Rule | Effect |
+|---|---|---|
+| **A** | **Literal R7.** Every consonant-final content root takes `-a` when free (`Mi livi`, `Mi lerna`, `un olda hous`). The R8 table rows `tok`/`liv`/`lern` and GRAMMAR's `lern` are errata. | Migrate all 308 tokens, including 113 in the courses. One rule, no exceptions. |
+| **B** | **R2's list is exhaustive.** Single hard codas take `-a` (A), but clusters NOT on R2's list are legal standalone (`lern`, `old`, `child`, `warm`, `dark`…). | Migrates the single-coda words + R2-listed clusters; keeps `lern`, `old`, `warm`. Validator and PHONOLOGY_FINAL §4 must be amended. |
+| **C** | **Grandfather a closed list of high-frequency native roots** with a single form, like the function words (`liv`, `lern`, `mak`, `tok`, `gud`, `big`, `old`…). | Fewer changes to the courses, but a new exception class next to R7, and the lexicon headwords for those roots must change. |
 
-### TIER B — a transparent compound is available (R3 applies)
+## 5. Focus questions
 
-**3. breakfast** — `PHRASES_100.md:151`
-> `Brekfast es redi.`
+1. **Errata or rule?** Are the R8 table's `tok`/`liv`/`lern` rows an error (its own header defines "legal" as one soft coda), or did R8 intend to grandfather them?
+2. **Clusters:** is R2's banned-cluster list exhaustive (B) or illustrative of PHONOLOGY_FINAL §4's general ban (A)?
+3. **Grandfathering:** should any high-frequency content roots join the function-word exception (C)? If yes, name the closed list and the test for entering it.
+4. **Courses:** the 5 courses teach `Mi liv`, `Mi lern`, `Mi mak` from Level 1. Is the pedagogical cost of changing them acceptable, and does your option need them changed?
+5. **Gaps:** `enuf`, `kart` (cards), `own` (adjective) — coin, compound or paraphrase?
 
-Validator: *illegal final cluster `-st`*.
-
-Available parts: **`moring`** (morning, `LEXICON_BASE.md`) + **`fuda`/`fud-`** (food,
-`LEXICON_BASE.md`). Precedent for this exact shape: `moring-watre` (dew).
-
-→ Proposed: `moring-fud` /ˈmo.riŋ.fud/. R3 prefers this over adapting the loan.
-⚠️ Separately: the corpus writes `morne` for "morning" everywhere, but the lexicon says
-`moring`. That inconsistency is outside this topic but the committee should be aware.
-
-### TIER C — genuine coining required (no existing material)
-
-Verified absent from all three lexicons, by headword and by gloss.
-
-**4. much** — `BENCHMARK.md:143`, `PHRASES_100.md:30`
-> `Hau mush?` ("How much?")
-
-Validator: *deprecated coda `-sh`*.
-
-Nearby: **`hou`** = "how much" already exists (`Hou big es la hous?`), and **`meni`** =
-many, **`veri`** = very. Options: (a) coin `musha`; (b) reuse `Hou meni?` and let `hou`
-carry degree; (c) decide VELA does not split much/many and `meni` covers both.
-**Semantic question, not just phonotactic.**
-
-**5. still** (adverb, "todavía") — `POEMS_COLLECTION.md:21`
-> `mi still wait-a, and rein sing-a.`
-
-Validator: *illegal final cluster `-ll`*.
-
-⚠️ **Collision:** `stila` /ˈsti.la/ already means **"to steal"**. The obvious thematic-vowel
-form is taken. Precedent for this adverb class: `olredi` (already, loan). POETIC context
-(R4) — the aestheticist's call matters here.
-
-**6. about** — `POEMS_COLLECTION.md:48`, `SHORT_STORY_BIRD.md:45`
-> `Li tok-a wit moon about fri laif,` · `Li tink-ed about wind, about mat-en warm wing…`
-
-Validator: *deprecated coda `-t`*. High frequency: 4 uses in one sentence. Whatever is
-chosen will be heard constantly, so cadence matters.
-
-**7. lost** — `PHRASES_100.md:52`
-> `Mi es lost.` ("I'm lost.")
-
-Validator: *illegal final cluster `-st`*.
-
-**`luza` /ˈlu.za/ "to lose"** exists (bare `luz-`). But R12 bans the passive, so `Mi es
-luz-ed` is not available as a passive. Is "lost" here a state (adjective) or a verb?
-The committee must decide the construction, not only the word — e.g. `Mi no nou la wei`
-("I don't know the way") avoids the problem entirely.
-
-**8. ahead** — `PHRASES_100.md:68`
-> `Go stret ahed.`
-
-Validator: *deprecated coda `-d`*. **`fronta`** (front) exists → a compound is plausible.
-
-**9. behind** — `SHORT_STORY_BIRD.md:65`
-
-Validator: *illegal final cluster `-nd`*. **`baki`** (back) exists → compound plausible.
-Symmetry with #8: whatever shape "ahead" takes, "behind" should mirror it.
-
-**10. just** (merely) — `SHORT_STORY_BIRD.md:55`
-> `Li just fiel-ed herta ful and open, so li sing-ed.`
-
-Validator: *illegal final cluster `-st`*.
-
-⚠️ Near-collision: **`justis`** (justice) and **`fera`** (fair / just) both exist. The
-"merely" sense and the "fair" sense must not converge on one form. "only" has no entry.
-
-**11. out** — `SHORT_STORY_THREE_PIGS.md:32`
-> `Wulfi jump-ed aut and ran awe in tu la fores.`
-
-Validator: *deprecated coda `-t`*.
-
-⚠️ **Orthographic inconsistency to settle:** the lexicon has **`autsida`** (outside, /aut.si.da/)
-AND **`outputa`** (output, /out.pu.ta/) — `aut-` and `out-` for the same diphthong. The
-committee should pick one spelling while it is here.
-
-**12. solitude** — `POEMS_COLLECTION.md:81`
-> `bot in solitud mi herta lern-a peis.`
-
-Validator: *deprecated coda `-d`*. "alone" has no entry either, so no compound base
-exists yet. POETIC context (R4). Coining "alone" first may be the cleaner path.
-
-**13. stick** (noun) — `CLASSIC_STORY_THREE_PIGS.md:26`
-> `Li blow-ed daun la stra hous and la stik hous.`
-
-Validator: *deprecated coda `-k`*. **`wuda`** (wood) exists → compound plausible.
-Note it appears in a compound slot (`stik hous`), so R7 needs both forms: citation for
-standalone, bare for `…-hous`.
-
-## 5. Summary table
-
-| # | Concept | Breaks | Existing material | Path |
-|---|---|---|---|---|
-| 1 | breath | `th` + coda `-t` | **`brita`/`brit-`** | confirm, no coining |
-| 2 | life | coda `-f` | **`lifa-`** (bound) | promote to headword |
-| 3 | breakfast | cluster `-st` | `moring` + `fud-` | compound (R3) |
-| 4 | much | coda `-sh` | `hou`, `meni`, `veri` | semantic decision |
-| 5 | still | cluster `-ll` | ⚠️ `stila` = steal | coin, avoid collision |
-| 6 | about | coda `-t` | — | coin (high frequency) |
-| 7 | lost | cluster `-st` | `luza`, but R12 no passive | construction decision |
-| 8 | ahead | coda `-d` | `fronta` | compound or coin |
-| 9 | behind | cluster `-nd` | `baki` | mirror #8 |
-| 10 | just (merely) | cluster `-st` | ⚠️ `justis`, `fera` | coin, avoid collision |
-| 11 | out | coda `-t` | ⚠️ `autsida` vs `outputa` | coin + settle spelling |
-| 12 | solitude | coda `-d` | — | coin "alone" first? |
-| 13 | stick | coda `-k` | `wuda` | compound or coin |
-
-## 6. Focus questions for the specialists
-
-1. **Tier A (breath, life):** do you confirm these need no new coining, only that the
-   corpus be corrected to `brit-` and `lifa`? If you dissent, say why the existing entry
-   is unsuitable.
-2. **`still`:** `stila` is taken by "to steal". Propose a form that does not collide, and
-   say whether VELA needs a distinct "still/yet" at all or can paraphrase.
-3. **`much`:** does VELA distinguish much from many? `meni` and `hou` already exist. One
-   word or two?
-4. **`lost`:** is this an adjective or a verb phrase? R12 forbids the passive — give the
-   construction, not only the word.
-5. **`ahead` / `behind`:** must they be symmetric? Compound from `fronta`/`baki`, or two
-   new atoms?
-6. **`out`:** settle `aut-` vs `out-` orthography, since the lexicon currently has both.
-7. **`about`, `solitude`, `just`, `stick`, `breakfast`:** propose a form with IPA, an
-   etymology note, and one example sentence, respecting R2/R3/R7.
-8. **R1 budget:** how many of these 13 should become new core atoms versus compounds?
-
-## 7. Required response format
-
-For each word you rule on:
+## 6. Required response format
 
 ```
-WORD: <english>
-FORM: <vela> /IPA/            (citation form; give the bare form too if it has a hard coda)
-TYPE: atom | compound | existing-entry | paraphrase
-WHY:  <one or two sentences — the canon rule that drives it>
-EXAMPLE: <one VELA sentence> → <english>
-RISK: <collision or objection you can foresee, or "none">
-VOTE: approve | approve-with-amendment | reject
+QUESTION: <1-5>
+POSITION: <A | B | C | specific answer>
+WHY: <the canon rule that drives it — cite file and section>
+CONSEQUENCE: <what changes in lexicon, grammar, courses, validator>
+RISK: <what could go wrong, or "none">
+VOTE: approve | approve-with-amendment | reject   (on your chosen option)
 ```
 
-If you have no competence on a word, write `ABSTAIN` — `PROCESS.md` records abstentions
-without counting them.
+Close with one line: **FINAL VOTE: A | B | C** (or a named variant).
 
-## 8. Voting rules in force (`PROCESS.md`)
+## 7. Voting rules in force (`PROCESS.md`)
 
-- One vote per specialist per discussion point.
-- Majority wins. **Tie → the aestheticist breaks it** (beauty principle prevails).
-- Abstentions recorded, not counted.
-- Minimum 3 voices for a valid round.
+One vote per specialist; majority wins; tie → aestheticist; abstentions recorded, not counted; minimum 3 voices.
 
-⚠️ **Quorum warning for this round:** `PROCESS.md` specifies a 5-specialist committee
-(phonologist, morphologist, lexicographer, semanticist, aestheticist). If this round runs
-with fewer voices, the tiebreak rule has no aestheticist to invoke and the 3-voice minimum
-may not be met. Record the actual roster in the consensus file.
-
-## 9. Source files
+## 8. Source files
 
 | File | Why |
 |---|---|
-| `docs/grammar/GRAMMAR_COMPLETE.md` | current grammar canon |
-| `vote/topics/consensus/fase5_consensus.md` | R1–R17, single source of canon |
-| `docs/lexicon/LEXICON_BASE.md` | `brita`, `lifa`-compounds, `moring`, `fuda`, `luza`, `baki`, `autsida`, `meni`, `veri`, `hou`, `wuda` |
-| `docs/lexicon/LEXICON_EXTENDED.md` | `lifa-koda`, `lifa-tipa`, `lifa-lerna` |
-| `docs/lexicon/LEXICON_EXPANSION.md` | `stila`, `fronta`, `olredi`, `fera`, `lifta`, the `breta`→`brit` rejection |
-| `docs/texts/*.md` | the 16 occurrences quoted in §4 |
-| `scripts/validate_phonology.py` | run `--corpus` to reproduce the 17 errors |
-
-## 10. Deliverables after the round
-
-Per `PROCESS.md` Phase 3, the orchestrator (not the specialists) writes:
-
-- `vote/topics/proposals/*.md` — one archival copy per specialist
-- `vote/topics/discussion_plan.md` — synthesized conflicts
-- `vote/topics/consensus/consensus.md` — final decisions, as **R18**
-- `vote/docs/CHANGE_LOG.md` — appended entry
-- then: lexicon entries, corpus migration, re-run the validator, target **0 errors**
+| `vote/topics/consensus/fase5_consensus.md` | R2, R2 Amendment, R7, R8, R17 |
+| `docs/grammar/GRAMMAR_COMPLETE.md` §6.1 | present-tense table |
+| `docs/phonology/PHONOLOGY_FINAL.md` §4 | general cluster ban |
+| `docs/lexicon/LEXICON_BASE.md` | citation headwords (`livi`, `lerna`, `toka`, `maka`…) |
+| `books/Learning-VELA-Level1.html` … `Level5.html` | the 113 course tokens (`<span class="vela">`) |
+| `scripts/validate_phonology.py` | `element_defect` — how legality is computed today |

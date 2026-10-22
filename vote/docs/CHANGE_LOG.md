@@ -528,3 +528,24 @@ Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocab
 - vote/topics/proposals/r18_13words_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
 - vote/topics/discussion_plan.md
 - vote/topics/consensus/fase5_consensus.md — §R18 appended
+
+---
+
+## 2026-10-22 — R19: bare forms as free words (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only (user's choice)
+**Status:** ✅ RATIFIED 5-0 (option A) — pending application
+
+### Decision
+- Every consonant-final content root (single hard coda or cluster) takes the citation form when free; bare only in compounds and before suffixes. No grandfathered content roots.
+- R8 table rows `tok`/`liv` declared errata; `lern` resolved the same way (no canon text licenses a final cluster).
+- `enuf` → `enufa`. `kart` (cards) and `own` (adjective) blocked pending coinage.
+
+### Scope found during the round
+- Lexicon example sentences and the generated dictionary also use bare forms — included in the application.
+
+### Files Created
+- vote/topics/dossier_r19_bare_forms.md (→ current_topic.md)
+- vote/topics/proposals/r19_bare_forms_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
+- vote/topics/discussion_plan.md
+- vote/topics/consensus/fase5_consensus.md — §R19 appended

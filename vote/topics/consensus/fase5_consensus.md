@@ -370,3 +370,27 @@ El fonólogo (autor de R10) retiró su argumento de saliencia prosódica como so
 - **`stik-hous`** lleva guion: forma pelada dentro de compuesto (R17).
 
 **Pendientes registrados (fuera de alcance):** `outputa` → `autputa`; `lifa-koda`/`lifa-tipa`/`lifa-lerna` → `lif-` (R7, `/f/` es coda dura); `moring` (léxico) vs `morne` (corpus).
+
+---
+
+## R19 — Formas peladas como palabras libres: siempre forma de cita (ratificada unánime 2026-10-22)
+
+**Origen:** la migración R8 del corpus (`c6d0cfb`) se detuvo en 308 tokens (59 palabras, 113 en los cursos) porque el canon se contradecía: la tabla de R8 listaba `tok`, `liv`, `lern` como "legales sueltas", mientras R7, R17 y el léxico (`toka`, `livi`, `lerna`) decían forma de cita. Dossier: `vote/topics/dossier_r19_bare_forms.md`.
+**Comité:** 5 especialistas, subagentes Claude, solo lectura (motor elegido por el usuario). Votos en `vote/topics/proposals/r19_bare_forms_*.md`; síntesis en `vote/topics/discussion_plan.md`.
+
+**Decisión (A, 5-0):** toda raíz de contenido que termine en consonante dura **o en grupo de consonantes** usa la **forma de cita** cuando va libre (espacio). La forma pelada solo existe dentro de compuestos (guion) y ante sufijo (`-ed`, `-wil`, `-en`, `-se`, `-to`). Sin excepciones para raíces frecuentes.
+
+- `Mi liv siti-to` → `Mi livi siti-to` · `Mi mak` → `Mi maka` · `Yu lern VELA` → `Yu lerna VELA`
+- `La bird sing` → `La birda sing` · `wan old dog` → `wan olda doga` (esto último ya lo exigía R17)
+- Intactos: `liv-ed`, `bird-en`, `lern-hous`, `mak-tin`.
+
+**Fe de erratas de R8:** las filas `tok` y `liv` de la tabla "Legal suelta" contradicen su propio encabezado ({n,m,l,r,s,ng}); son restos de un borrador anterior a R7. `lern` es otro caso (su consonante final /n/ es blanda, el problema es el grupo `-rn`) pero se resuelve igual: ningún texto del canon autoriza un grupo final — `PHONOLOGY_FINAL.md` §3.2 solo admite codas de UNA consonante y §4 limita los grupos al inicio de sílaba. La lista de grupos prohibidos de R2 era un inventario de los casos rotos en su momento, no una lista cerrada.
+
+**Opción C rechazada (5-0):** exentar raíces frecuentes (`liv`, `mak`, `old`…) como a las palabras-función reintroduciría la excepción por palabra que R17 eliminó para los adjetivos. Las palabras-función de R7 están exentas porque son átonas; `liv` o `mak` son palabras con acento, a menudo al final de la frase, donde la coda se oye más.
+
+**Alcance de la aplicación:**
+1. Corpus `docs/texts/` y los 5 cursos: los 308 tokens.
+2. Ejemplos del propio léxico que usan forma pelada (`LEXICON_BASE.md`: `Mi tok wit yu`, `Wi liv la siti-to`, `Mi mak la disf`, `Yu lern VELA`, `la old hous`, `La bird sing`, …) y regenerar el diccionario.
+3. `GRAMMAR_COMPLETE.md` §6.1: sacar `lern` de la fila de coda blanda.
+
+**Huecos (Q5):** `enuf` → headword `enufa` (ya implícito en `enufa-hapi`). `kart` (cartas) y `own` (adjetivo) quedan **bloqueados**: `karta` = constitución y `owna` = poseer; necesitan acuñación aparte.
