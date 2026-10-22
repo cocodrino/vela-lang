@@ -10,12 +10,12 @@
 
 **VELA:**
 Rein on mi rofa in noita gray,
-mi her watre toka in dark skai.
-Mi ai si yu memori in wind,
-mi herta fel longin and sad.
-Wind go aronda mi smol rum slow,
-star waita bifor kraud autsida.
-Mi tinka yu kom-wil from far lond,
+mi her watre toka in darka skai.
+Mi ai si yu memori in winda,
+mi herta fel longin and sada.
+Winda go aronda mi smol rum slow,
+star waita bifor krauda autsida.
+Mi tinka yu kom-wil from far londa,
 bot dor stei klos in kol.
 Wen morne starta wit pale sun,
 mi yeta waita, and rein sing.
@@ -39,16 +39,16 @@ I still wait, and rain sings.
 ## Poem 2: La Child and La Dream (A Child's Dream)
 
 **VELA:**
-Child slipa in beda at morne laita,
-li hand holda smol wud horsa.
+Childa slipa in beda at morne laita,
+li handa holda smol wuda horsa.
 Li drim skai blu and star near,
-bird dansi aronda li hed.
-Li go ap mautin wit hapi leg,
+birda dansi aronda li hed.
+Li go ap mautin wit hapi lega,
 sun smile on li ai brite.
 Li toka wit moon abau fri lifa,
-and moon toka tru-nes in soft wind.
-Wen moter kom and toka "start,"
-child weika, bot drim stei warm.
+and moon toka tru-nes in softa winda.
+Wen moter kom and toka "starta,"
+childa weika, bot drim stei warma.
 
 **English:**
 A child sleeps in bed in morning light,
@@ -70,15 +70,15 @@ the child wakes, but the dream stays warm.
 
 **VELA:**
 Mi go tu mar at evning kol,
-wave toka and toka wit no end.
+wave toka and toka wit no enda.
 Skai turna from orange tu gray,
-and wind tucha mi skin slow.
-No fren kom, no bird sing near,
+and winda tucha mi skin slow.
+No fren kom, no birda sing near,
 onli watre and mi stap on sanda.
 Mi tinka abau lifa, abau deta,
-abau tru-nes, abau hop, abau mi self.
-Mar stei big, mi stei smol,
-bot in alon-nes mi herta lern peis.
+abau tru-nes, abau hopa, abau mi self.
+Mar stei biga, mi stei smol,
+bot in alon-nes mi herta lerna peis.
 
 **English:**
 I go to the sea in a cold evening,
@@ -100,13 +100,13 @@ but in solitude my heart learns peace.
 
 **VELA:**
 Yu si mi wen day starta low,
-yu toka gud wen wailda fel hevi.
-Mi hand holda yu hand in storm,
+yu toka guda wen wailda fel hevi.
+Mi handa holda yu handa in storma,
 and afreda go daun from mi herta.
 Wi woka long river at noita,
 star and moon stei wit wi.
-Yu lafa, mi lafa, wind dansi,
-wi share bred, wi drinka watre.
+Yu lafa, mi lafa, winda dansi,
+wi share breda, wi drinka watre.
 If war kom, wi standa strong,
 bikos tu luva giva wi fri lifa.
 

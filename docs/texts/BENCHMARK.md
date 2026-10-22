@@ -107,7 +107,7 @@ Or in standard VELA orthography with pitch accent marking:
 If the liturgical tone is too elevated, a simpler secular version:
 
 **"Go forward in calmness to help and work for people."**
-> **"Go forti in kalm tu help and wok for de."**
+> **"Go forti in kalm tu help and werka for de."**
 
 New gaps: `kalm` (calmness), `for` (for/benefactive preposition)
 - `kalm` = English "calm" + vowel? /kal.mi/? Actually `kalm` ends in /m/ which IS a sonorant — permitted!
@@ -126,8 +126,8 @@ So simpler version requires only 1 new word: `forti`.
 | # | English | VELA | Notes |
 |---|---------|------|-------|
 | 1 | Hello! | **Helo!** | New word needed? Or use `gud dei`? |
-| 2 | Good morning. | **Gud morne.** | `morne` = morning. New. |
-| 3 | How are you? | **Yu es gud?** | Or: `Hau yu?` — `hau` = how. New. |
+| 2 | Good morning. | **Guda morne.** | `morne` = morning. New. |
+| 3 | How are you? | **Yu es guda?** | Or: `Hau yu?` — `hau` = how. New. |
 | 4 | Thank you. | **Tanke yu.** | `tanke` = thanks. New. |
 | 5 | You're welcome. | **Yu welkom.** | `welkom` = welcome. New. |
 | 6 | Goodbye. | **Gudbai.** | `gudbai` = goodbye. New. |
@@ -150,9 +150,9 @@ So simpler version requires only 1 new word: `forti`.
 
 | # | English | VELA | Notes |
 |---|---------|------|-------|
-| 16 | Help! | **Help!** | ✅ Already in lexicon |
+| 16 | Help! | **Helpa!** | ✅ Already in lexicon |
 | 17 | Call a doctor! | **Kol a dokter!** | `kol` = call. New. `dokter` = doctor. New? Wait, `dokter` — ends in /r/. Sonorant. Valid. But is it in lexicon? Check... |
-| 18 | I'm sick. | **Mi es sik.** | `sik` = sick. New. |
+| 18 | I'm sick. | **Mi es sika.** | `sik` = sick. New. |
 | 19 | Where is the hospital? | **Wer es la sik-hous?** | `sik-hous` = compound (house for sick). Valid per Quality Gate! |
 | 20 | Police! | **Polis!** | `polis` = police. New. Ends in /s/ → needs amendment: `polisi`. |
 

@@ -41,6 +41,7 @@ from validate_phonology import (  # noqa: E402
     is_vela_segment,
     load_grandfathered,
     LEXICON_FILES,
+    SPAN,
     r7_bare_forms,
     vela_spans_md,
 )
@@ -191,7 +192,75 @@ REPLACEMENTS = {
     "wake": "weika",
     "sleep": "slipa",
     "grow": "grota",
-    "bring": "bringa",
+    # Not "bring": its headword `bringa` keeps the -a after a legal coda, so
+    # bare_form() would write `bringa-ed`. The corpus already has `bring-ed`.
+
+    # --- R19: a free consonant-final content root takes the citation form ---
+    # Each target was checked against the corpus sense, not just the shape:
+    #   liv -> livi (to live), NOT liva (alive)
+    #   kwik -> kwikli (quick), NOT kwika (to hurry)
+    #   bak -> baki (back), NOT baka (to bake)
+    #   hard -> harda (difficult); "hard erd" (material) was fixed by hand to hardi
+    #   wok -> woka (to walk); "work" uses were fixed by hand to werka (R11)
+    # Left out on purpose: `lait` (light, illumination) — its only headword
+    # `laita` means light in weight; `kart`, `own` — blocked by R19 (no form).
+    "wind": "winda",
+    "end": "enda",
+    "lond": "londa",
+    "hand": "handa",
+    "send": "senda",
+    "bird": "birda",
+    "hard": "harda",
+    "erd": "erda",
+    "start": "starta",
+    "hert": "herta",
+    "child": "childa",
+    "old": "olda",
+    "warm": "warma",
+    "storm": "storma",
+    "dark": "darka",
+    "werk": "werka",
+    "rest": "resta",
+    "fast": "fasta",
+    "lern": "lerna",
+    "sonj": "sonja",
+    "soft": "softa",
+    "tink": "tinka",
+    "help": "helpa",
+    "ask": "aska",
+    "film": "filma",
+    "gud": "guda",
+    "kraud": "krauda",
+    "bred": "breda",
+    "wud": "wuda",
+    "sad": "sada",
+    "loud": "louda",
+    "red": "reda",
+    "rid": "rida",
+    "bad": "bada",
+    "mak": "maka",
+    "tok": "toka",
+    "sik": "sika",
+    "wok": "woka",
+    "kwik": "kwikli",
+    "kuk": "kuka",
+    "buk": "buka",
+    "blak": "blaka",
+    "bak": "baki",
+    "hot": "hota",
+    "wait": "waita",
+    "kwaiat": "kwaiata",
+    "eat": "eata",
+    "liv": "livi",
+    "hav": "hava",
+    "giv": "giva",
+    "big": "biga",
+    "dog": "doga",
+    "leg": "lega",
+    "hop": "hopa",
+    "slip": "slipa",
+    "shop": "shopa",
+    "enuf": "enufa",
 }
 
 # No canonical form exists, so fixing these means coining a word — a committee
@@ -300,9 +369,13 @@ def present_form(token):
     return match_case(root, citation)
 
 
-def rewrite_token(token):
-    """Return the canonical form of one token, or None if nothing changes."""
-    present = present_form(token)
+def rewrite_token(token, allow_present=True):
+    """Return the canonical form of one token, or None if nothing changes.
+
+    `allow_present=False` for the HTML courses, where `X-a` is the canonical
+    topic marker, not the pre-reform present (see present_form).
+    """
+    present = present_form(token) if allow_present else None
     if present is not None:
         return present
 
@@ -325,6 +398,14 @@ def rewrite_token(token):
             out.append(part)
             continue
         is_last = i == len(content) - 1
+        bound = not is_last or suffix or len(content) > 1
+        if bound and target.lower().startswith(key):
+            # Already the bare form of its citation (`liv-ed`, `bak-tok`,
+            # `bird-en`): correct inside a compound or before a suffix (R7/R19).
+            # Re-deriving it from the citation would break roots whose citation
+            # vowel is not `-a` (`livi`, `baki`) — `livi-ed`, `baki-tok`.
+            out.append(part)
+            continue
         if not is_last:
             # Non-final element of a compound: bare form (R17, hyphen→bare).
             target = bare_form(target)
@@ -397,6 +478,49 @@ def migrate_file(path, dry_run, recognized):
     return total
 
 
+MARKUP = re.compile(r"(<[^>]+>|&[a-z]+;)")
+
+
+def migrate_html(path, dry_run):
+    """Rewrite VELA inside `<span class="vela">` in a course page.
+
+    The span is the same boundary the validator reads (`SPAN`), so English
+    around it is never touched. Inside the span, tags and entities are passed
+    through and only the text between them is rewritten. The pre-reform-present
+    rule is off here: the courses use `X-a` as the topic marker.
+    """
+    text = Path(path).read_text(encoding="utf-8")
+    total = []
+
+    def fix_span(m):
+        pieces = []
+        for chunk in MARKUP.split(m.group(1)):
+            if MARKUP.fullmatch(chunk):
+                pieces.append(chunk)
+                continue
+
+            def fix_token(t, chunk=chunk):
+                if t.start() > 0 and chunk[t.start() - 1] == "-":
+                    # A cited bound morpheme (`-mak`, `-tok`): bare by definition.
+                    return t.group(0)
+                new = rewrite_token(t.group(0), allow_present=False)
+                if new is None or new == t.group(0):
+                    return t.group(0)
+                line_no = text.count("\n", 0, m.start()) + 1
+                total.append((line_no, t.group(0), new))
+                return new
+
+            pieces.append(TOKEN_RE.sub(fix_token, chunk))
+        inner_start = m.start(1) - m.start()
+        whole = m.group(0)
+        return whole[:inner_start] + "".join(pieces) + whole[inner_start + len(m.group(1)):]
+
+    new_text = SPAN.sub(fix_span, text)
+    if total and not dry_run:
+        Path(path).write_text(new_text, encoding="utf-8")
+    return total
+
+
 def main(argv):
     dry_run = "--dry-run" in argv[1:]
 
@@ -421,8 +545,9 @@ def main(argv):
     grand_total = 0
     for path in corpus_files():
         if path.endswith(".html"):
-            continue  # the five courses are already canon-clean
-        changes = migrate_file(path, dry_run, corpus_vocabulary(roots))
+            changes = migrate_html(path, dry_run)
+        else:
+            changes = migrate_file(path, dry_run, corpus_vocabulary(roots))
         if not changes:
             continue
         print(f"{path} — {len(changes)} change(s)")
