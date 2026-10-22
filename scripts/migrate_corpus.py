@@ -37,11 +37,13 @@ from validate_phonology import (  # noqa: E402
     corpus_files,
     corpus_vocabulary,
     element_defect,
+    extract_lexicon,
     fold,
     is_vela_segment,
     load_grandfathered,
     LEXICON_FILES,
     SPAN,
+    _vela_cell_span,
     r7_bare_forms,
     vela_spans_md,
 )
@@ -345,7 +347,44 @@ def refit_suffixes(stem, suffixes):
     return out
 
 
-def present_form(token):
+# The one irregular present in VELA (R8): `bi` (to be) → `es`.
+IRREGULAR_PRESENT = {"bi": "es"}
+
+# Homographs whose sense depends on the sentence. Used where an English
+# translation sits on the same line (the lexicon rows): the first cue that
+# matches the line picks the target, otherwise the default applies.
+#   wok — R11 split walk/work: `woka` = to walk, `werka` = to work. The pre-R11
+#         lexicon examples use `wok` for "work" almost everywhere.
+#   hard — `harda` = difficult, `hardi` = hard as a material.
+SENSE_CUES = {
+    "wok": ([(re.compile(r"\b(walk|sidewalk|park|foot|feet|crab)\b", re.I), "woka")], "werka"),
+    "hard": ([(re.compile(r"\b(metal|bark|heel|hail|stone|wood)\b", re.I), "hardi")], "harda"),
+    #   rid — `rida` = to read, `raida` = to ride.
+    "rid": ([(re.compile(r"\b(ride|horse|hors|bicycle|baikel)\b", re.I), "raida")], "rida"),
+    #   kwik — `kwikli` = quick, `kwika` = to hurry.
+    "kwik": ([(re.compile(r"\bhurry\b", re.I), "kwika")], "kwikli"),
+    #   it — untranslated English "it" → `li`, but the pre-reform spelling of
+    #        "eat" was also `it` (`eat-hous` /it.haus/).
+    "it": ([(re.compile(r"\beat\b", re.I), "eata")], "li"),
+}
+
+
+def sense_overrides(line):
+    """Pick a target for each SENSE_CUES homograph from the cues on `line`."""
+    chosen = {}
+    for key, (cues, default) in SENSE_CUES.items():
+        chosen[key] = next((target for cue, target in cues if cue.search(line)), default)
+    return chosen
+
+
+def lookup(key, overrides=None):
+    """Replacement target for `key`, preferring a sense-checked override."""
+    if overrides and key in overrides:
+        return overrides[key]
+    return REPLACEMENTS.get(key)
+
+
+def present_form(token, overrides=None, headwords=frozenset()):
     """R8: rewrite the pre-reform present `X-a` to the citation form, or None.
 
     The May corpus marked the present with a hyphenated `-a` (`sing-a`, `tok-a`).
@@ -362,20 +401,27 @@ def present_form(token):
         return None
     root = parts[0]
     key = fold(root).lower()
-    mapped = REPLACEMENTS.get(key)
+    if key in IRREGULAR_PRESENT:
+        return match_case(root, IRREGULAR_PRESENT[key])
+    mapped = lookup(key, overrides)
     if mapped is not None:
         return match_case(root, mapped)
+    if key in headwords and key + "a" not in headwords:
+        # A legacy headword with a hard coda (`nof`): its present is the
+        # headword as listed. Renaming the headword itself is a lexicon change.
+        return match_case(root, key)
     citation = key + "a" if element_defect(key) else key
     return match_case(root, citation)
 
 
-def rewrite_token(token, allow_present=True):
+def rewrite_token(token, allow_present=True, overrides=None, headwords=frozenset()):
     """Return the canonical form of one token, or None if nothing changes.
 
     `allow_present=False` for the HTML courses, where `X-a` is the canonical
-    topic marker, not the pre-reform present (see present_form).
+    topic marker, not the pre-reform present (see present_form). `overrides`
+    are sense-checked targets for homographs (see sense_overrides).
     """
-    present = present_form(token) if allow_present else None
+    present = present_form(token, overrides, headwords) if allow_present else None
     if present is not None:
         return present
 
@@ -393,7 +439,7 @@ def rewrite_token(token, allow_present=True):
     out = []
     for i, part in enumerate(content):
         key = fold(part).lower()
-        target = REPLACEMENTS.get(key)
+        target = lookup(key, overrides)
         if target is None:
             out.append(part)
             continue
@@ -426,7 +472,7 @@ def rewrite_token(token, allow_present=True):
     return "-".join(out + refit_suffixes(stem, suffix))
 
 
-def migrate_line(line, spans):
+def migrate_line(line, spans, overrides=None, keep=frozenset()):
     """Rewrite only the given character spans of `line`. Returns (line, changes)."""
     changes = []
     # Right to left, so earlier offsets stay valid as the text length shifts.
@@ -435,7 +481,9 @@ def migrate_line(line, spans):
         pieces = []
         cursor = 0
         for m in TOKEN_RE.finditer(segment):
-            new = rewrite_token(m.group(0))
+            if "-" in m.group(0) and fold(m.group(0)).lower() in keep:
+                continue  # a compound that is itself a headword
+            new = rewrite_token(m.group(0), overrides=overrides, headwords=keep)
             if new is None or new == m.group(0):
                 continue
             pieces.append(segment[cursor:m.start()])
@@ -475,6 +523,76 @@ def migrate_file(path, dry_run, recognized):
     if total and not dry_run:
         Path(path).write_text("\n".join(lines), encoding="utf-8")
 
+    return total
+
+
+# Lexicon columns that hold VELA, by header name. `Present` is the pre-R8
+# paradigm column (`tok-a`); the example columns hold a VELA sentence, which in
+# the paradigm tables is followed by `→ English`.
+LEXICON_VELA_COLUMNS = {"present", "example", "vela example"}
+ARROW = "→"
+
+
+def lexicon_spans(path):
+    """Yield (line_no, line, spans) for the VELA cells of a lexicon file.
+
+    Tables use a dozen layouts, so each header row decides which columns are
+    VELA. Inside an example cell only the text before `→` is VELA; the English
+    translation after it, and the `English` columns, are never touched.
+    """
+    columns = []
+    with open(path, encoding="utf-8") as f:
+        for line_no, raw in enumerate(f, 1):
+            line = raw.rstrip("\n")
+            stripped = line.strip()
+            if not stripped.startswith("|"):
+                columns = []
+                continue
+            cells = [c.strip().lower() for c in stripped.strip("|").split("|")]
+            if cells and cells[0] == "word":
+                columns = [i for i, c in enumerate(cells) if c in LEXICON_VELA_COLUMNS]
+                continue
+            if not columns or not stripped.startswith("| **"):
+                continue
+            spans = []
+            for idx in columns:
+                span = _vela_cell_span(line, idx)
+                if not span:
+                    continue
+                start, end = span
+                arrow = line.find(ARROW, start, end)
+                if arrow != -1:
+                    end = arrow
+                spans.append((start, end, "marked"))
+            if spans:
+                yield line_no, line, spans
+
+
+def lexicon_headwords():
+    """Every headword in the three lexicons, lowercased and diacritic-folded."""
+    return {fold(word).lower()
+            for path in LEXICON_FILES
+            for word, _, _ in extract_lexicon(path)}
+
+
+def migrate_lexicon(path, dry_run, headwords):
+    """Migrate the VELA cells of one lexicon file (see lexicon_spans).
+
+    A token that is itself a headword is left alone: renaming a headword
+    (`bodi-wok`, `nait-dei`) is a lexicon decision, and rewriting it only in
+    the example would make the example disagree with its own entry.
+    """
+    lines = Path(path).read_text(encoding="utf-8").split("\n")
+    total = []
+    for line_no, line, spans in lexicon_spans(path):
+        # The English on the same row tells which sense a homograph has.
+        overrides = sense_overrides(line)
+        new_line, changes = migrate_line(line, spans, overrides, keep=headwords)
+        if changes:
+            lines[line_no - 1] = new_line
+            total.extend((line_no, old, new) for old, new in changes)
+    if total and not dry_run:
+        Path(path).write_text("\n".join(lines), encoding="utf-8")
     return total
 
 
@@ -543,8 +661,13 @@ def main(argv):
     print(f"{len(NEEDS_COMMITTEE)} words left untouched (need a coinage — committee).\n")
 
     grand_total = 0
-    for path in corpus_files():
-        if path.endswith(".html"):
+    # --lexicon: migrate the VELA example cells of the lexicons instead of the corpus.
+    targets = list(LEXICON_FILES) if "--lexicon" in argv[1:] else corpus_files()
+    headwords = lexicon_headwords()
+    for path in targets:
+        if path in LEXICON_FILES:
+            changes = migrate_lexicon(path, dry_run, headwords)
+        elif path.endswith(".html"):
             changes = migrate_html(path, dry_run)
         else:
             changes = migrate_file(path, dry_run, corpus_vocabulary(roots))
