@@ -26,6 +26,7 @@
 | 9 | nain | /nain/ |
 | a/an (indefinite) | un | /un/ |
 | ability | abilliti | /abiliti/ |
+| about (concerning) | abau | /a.bau/ |
 | above | abava | /a.ba.va/ |
 | abstract | abstraka | /abs.tra.ka/ |
 | accident | akcidenta | /ak.ci.den.ta/ |
@@ -67,6 +68,7 @@
 | allergy | alerji | /alerji/ |
 | ally | help-fren | /help.fren/ |
 | almost | ner-ol | /ner.ol/ |
+| alone | alon | /a.lon/ |
 | along | alonga | /a.lon.ga/ |
 | alphabet | alfabeta | /al.fa.be.ta/ |
 | already | olredi | /ol.re.di/ |
@@ -188,6 +190,7 @@
 | before | bifor | /bifor/ |
 | beforehand | bifor-taim | /bi.for.taim/ |
 | beginning | start-taim | /start.taim/ |
+| behind | baki-wei | /ba.ki.wei/ |
 | beige | beija | /bei.ja/ |
 | belief | biliva | /bi.li.va/ |
 | below | bilau | /bi.lau/ |
@@ -252,6 +255,7 @@
 | brand | branda | /bran.da/ |
 | brave | no-afred | /no.a.fred/ |
 | bread | breda | /bre.da/ |
+| breakfast | moring-fud | /mo.ring.fud/ |
 | breeze | soft-wind | /soft.wind/ |
 | brick | brika | /bri.ka/ |
 | bridge | bridja | /brid.ja/ |
@@ -796,7 +800,7 @@
 | forever | foreva | /fo.re.va/ |
 | fork | forki | /for.ki/ |
 | formula | formul | /formul/ |
-| forward | fronta-wei | /fron.ta.wei/ |
+| forward / ahead | fronta-wei | /fron.ta.wei/ |
 | fox | foki | /fo.ki/ |
 | fraction | broka-nomber | /bro.ka.nom.ber/ |
 | fracture | fraktur | /fraktur/ |
@@ -1150,6 +1154,7 @@
 | library | buk-hous | /buk.haus/ |
 | lid | poti-kover | /po.ti.ko.ver/ |
 | lie (statement) | fols-wod | /fols.wod/ |
+| life | lifa | /li.fa/ |
 | light (weight) | laita | /lai.ta/ |
 | lightning | fai-flasha | /fai.fla.sha/ |
 | lightning | letning | /letning/ |
@@ -1212,7 +1217,7 @@
 | man (adult male) | man | /man/ |
 | manager | lida-po | /li.da.po/ |
 | mango | mang | /mang/ |
-| many | meni | /me.ni/ |
+| many / much | meni | /me.ni/ |
 | map | mapa | /ma.pa/ |
 | maple | meipla | /mei.pla/ |
 | marathon | long-ran | /long.ran/ |
@@ -1399,6 +1404,7 @@
 | on | on | /on/ |
 | once | wan-taim | /wan.taim/ |
 | onion | onyon | /on.yon/ |
+| only / just / merely | onli | /on.li/ |
 | oops | upasa | /u.pa.sa/ |
 | opaque | opeika | /o.pei.ka/ |
 | opera | opera | /o.pe.ra/ |
@@ -1423,6 +1429,7 @@
 | otter | otar | /o.tar/ |
 | ouch | aucha | /au.cha/ |
 | our / of us | wi-se | /wi.se/ |
+| out | auta | /au.ta/ |
 | output | outputa | /out.pu.ta/ |
 | outside | autsida | /aut.si.da/ |
 | oven | hot-boksi | /hot.bok.si/ |
@@ -1873,6 +1880,7 @@
 | solar system | son-sistam | /son.sis.tam/ |
 | soldier | war-fajt-po | /war.fait.po/ |
 | solid | solida | /so.li.da/ |
+| solitude | alon-nes | /a.lon.nes/ |
 | solo | solo | /so.lo/ |
 | solution | solushon | /solushon/ |
 | some | som | /som/ |
@@ -1937,8 +1945,10 @@
 | stem / stalk | plant-bodi | /plant.bo.di/ |
 | step | stap | /stap/ |
 | stew | stu | /stu/ |
+| stick | stika | /sti.ka/ |
 | sticky | stiki | /sti.ki/ |
 | stiff | stifa | /sti.fa/ |
+| still / yet | yeta | /je.ta/ |
 | stinky / smelly | bad-smel | /bad.smel/ |
 | stitch | sticha | /sti.cha/ |
 | stock / supply | stoka | /sto.ka/ |

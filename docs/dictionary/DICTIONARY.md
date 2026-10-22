@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2918. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2928. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -9,6 +9,7 @@
 | VELA | IPA | Cat. | Definition | Etymology | Compounds | Example |
 |------|-----|------|-----------|-----------|-----------|---------|
 | a | /a/ |  | to / at |  |  | Mi go a la ofis. |
+| abau | /a.bau/ |  | about (concerning) |  |  | Wi toka abau la buka. |
 | abava | /a.ba.va/ | noun | above |  |  | — |
 | abilliti | /abiliti/ |  | ability |  |  | Mi abilliti es big. |
 | abstraka | /abs.tra.ka/ | adj | abstract | adapted loan (+/a/) |  | La filosofi stodi abstraka idea-n. |
@@ -64,6 +65,8 @@
 | alji | /al.ji/ | noun | algae |  |  | loan |
 | alkalin | /al.ka.lin/ | noun/adj | base / alkaline | adapted loan |  | La alkalin neutraliz la asida. |
 | alo | /a.lo/ |  | too / also |  |  | Mi es hapi alo. |
+| alon | /a.lon/ |  | alone |  | alon-nes | Li liv alon. |
+| alon-nes | /a.lon.nes/ |  | solitude | alon (alone) + nes |  | In alon-nes mi herta lern peis. |
 | alonga | /a.lon.ga/ | prep | along |  |  | loan |
 | ambisa | /am.bi.sa/ | adj | ambitious |  |  | loan |
 | ameiza | /a.mei.za/ | adj | amazed |  |  | loan |
@@ -139,6 +142,7 @@
 | aucha | /au.cha/ | interj | ouch |  |  | loan |
 | aul | /aul/ |  | owl |  |  | La aul flai at nait. |
 | aunta | /aun.ta/ |  | aunt |  |  |  |
+| auta | /au.ta/ |  | out |  |  | La kat go auta. |
 | auto-lern | /au.to.lern/ | noun | self-supervised learning | self + learn |  | La auto-lern no need label-en. |
 | autsida | /aut.si.da/ |  | outside |  |  | Li liv autsid la siti. |
 
@@ -177,7 +181,8 @@
 | baka | /ba.ka/ | verb | to bake | loan | baka-upa | Baka la bred in la hot-boksi. |
 | baka-upa | /ba.ka.u.pa/ | noun/verb | backup | back + up (+/a/) |  | Mi mak baka-upa evri dei. |
 | baketa | /ba.ke.ta/ |  | bucket |  |  | La baket hav watre. |
-| baki | /ba.ki/ |  | back |  |  | Mi-se bak es sik. |
+| baki | /ba.ki/ |  | back |  | baki-wei | Mi-se bak es sik. |
+| baki-wei | /ba.ki.wei/ |  | behind | baki (back) + wei (way / path (abstract)) |  | La dog es baki-wei la hous. |
 | bakola | /ba.ko.la/ | noun | buckle |  |  | loan |
 | bakpaka | /bak.pa.ka/ | noun | backpack |  |  | — |
 | bakteri | /bak.te.ri/ | noun | bacteria | adapted loan |  | Som bakteri es gud for bodi. |
@@ -813,7 +818,7 @@
 | froga | /fro.ga/ |  | frog |  |  | La frog liv in la pond. |
 | from | /from/ |  | from |  |  | Wi kom from la lern-hous. |
 | fronta | /fron.ta/ | noun | front |  | fronta-wei | loan |
-| fronta-wei | /fron.ta.wei/ | adv | forward | fronta (front) + wei (way / path (abstract)) |  | front + way |
+| fronta-wei | /fron.ta.wei/ | adv | forward / ahead | fronta (front) + wei (way / path (abstract)) |  | front + way |
 | frosta | /fros.ta/ | noun | frost |  | frosta-ful | loan |
 | frosta-ful | /fros.ta.ful/ | adj | frosty | frosta (frost) + ful (full) |  | frost + full |
 | frukta | /fruk.ta/ |  | fruit |  |  | Frukt es nais and helti. |
@@ -1496,6 +1501,7 @@
 | lida | /li.da/ | verb | to lead | loan | lida-po | Lida la grup. |
 | lida-po | /li.da.po/ | noun | manager | lead + -po |  | La lida-po rul la team. |
 | lidasha | /li.da.sha/ | noun | leadership |  |  | loan |
+| lifa | /li.fa/ |  | life |  | lifa-koda, lifa-lerna, lifa-tipa | Lifa es guda. |
 | lifa-koda | /li.fa.ko.da/ | noun | genetic code | life + code |  | La lifa-koda mak evri lifa-tipa. |
 | lifa-lerna | /li.fa.ler.na/ | noun | biology (alt) | life + learn |  | La lifa-lerna stodi all lifa-tipa-n. |
 | lifa-tipa | /li.fa.ti.pa/ | noun | species | life + type |  | La Erd hav milyon lifa-tipa-n. |
@@ -1653,7 +1659,7 @@
 | membersha | /mem.ber.sha/ | noun | membership |  |  | loan |
 | memori | /me.mo.ri/ | noun | memory | loan |  | Mi hav gud memori of dat dei. |
 | memoriza | /me.mo.ri.za/ | verb | to memorize |  |  | Mi memoriz la wod-en. → I memorize the words. |
-| meni | /me.ni/ |  | many |  |  | Mi hava meni fren-en. |
+| meni | /me.ni/ |  | many / much |  |  | Mi hava meni fren-en. Hou meni? |
 | mental-helta | /men.tal.hel.ta/ | noun | mental health | mental + health |  | Mental-helta es importent as bodi-healt. |
 | mersi | /mer.si/ | noun | mercy |  |  | loan |
 | mesa | /me.sa/ | adj | messy |  | mesa-luk | loan |
@@ -1713,7 +1719,8 @@
 | mor | /mor/ |  | more (comparative) |  | mor-mak, mor-mor | La kar es mor fasta. |
 | mor-mak | /mor.mak/ | verb | to increase | mor (more (comparative)) + mak |  | more + make |
 | mor-mor | /mor.mor/ | adv | more and more | more + more |  | La siti gro mor-mor. |
-| moring | /moring/ |  | morning |  | moring-watre | Mi wok evri moring. |
+| moring | /moring/ |  | morning |  | moring-fud, moring-watre | Mi wok evri moring. |
+| moring-fud | /mo.ring.fud/ |  | breakfast | moring (morning) + fud |  | Moring-fud es redi. |
 | moring-watre | /mo.ring.wa.tre/ | noun | dew | morning + water |  | La moring-watre es on la gras. |
 | morna | /mor.na/ | verb | to mourn |  |  | loan |
 | mos | /mos/ |  | most (superlative) |  | mos-taim | Dis kar es mos fasta. |
@@ -1815,7 +1822,7 @@
 | no-kuk | /no.kuk/ | adj | raw | no (no) + kuk |  | not + cook |
 | no-loka | /no.lo.ka/ | verb | to unlock | no (no) + loka (lock) |  | not + lock |
 | no-lowda | /no.low.da/ | verb | to unload | no (no) + lowda |  | not + load |
-| no-marri | /no.ma.ri/ | adj | single / unmarried | not + married |  | Li es stil no-marri. |
+| no-marri | /no.ma.ri/ | adj | single / unmarried | not + married |  | Li es yeta no-marri. |
 | no-nais | /no.nais/ | adj | rude | not + nice |  | No bi no-nais tu othr-en. |
 | no-nof-po | /no.nof.po/ | noun | stranger | not + know + person |  | Un no-nof-po nok on la dor. |
 | no-paran-child | /no.pa.ran.child/ | noun | orphan | no + parent + child |  | La war mak meni no-paran-child. |
@@ -1898,6 +1905,7 @@
 | olredi | /ol.re.di/ | adv | already |  |  | loan |
 | on | /on/ |  | on |  |  | La buk es on la tebul. |
 | onesti | /o.nes.ti/ | noun | honesty |  |  | loan |
+| onli | /on.li/ |  | only / just / merely |  |  | Mi hava onli wan buka. |
 | onora | /o.no.ra/ | verb/noun | to honor / honor |  |  | loan |
 | onyon | /on.yon/ | noun | onion | loan |  | La onyon mak mi krei. |
 | opeika | /o.pei.ka/ | adj | opaque |  |  | loan |
@@ -2586,6 +2594,7 @@
 | steta | /ste.ta/ | noun | state / condition | loan |  | La steta of la hous es bad. |
 | sticha | /sti.cha/ | noun | stitch |  |  | loan |
 | stifa | /sti.fa/ | adj | stiff |  |  | loan |
+| stika | /sti.ka/ |  | stick |  |  | La child hava un stika. |
 | stiki | /sti.ki/ | adj | sticky |  |  | loan |
 | stila | /sti.la/ | verb | to steal |  | stila-po | loan |
 | stila-po | /sti.la.po/ | noun | thief | stila (to steal) + po |  | steal + person |
@@ -2925,7 +2934,7 @@
 | wava | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) |  | Lait es un elektromagnetek wava. |
 | webseita | /web.sei.ta/ |  | website |  |  |  |
 | weda | /we.da/ | conj | whether |  |  | loan |
-| wei | /wei/ |  | way / path (abstract) |  | ap-wei, bad-wei, bak-wei, big-wei, dip-wei, do-wei, fronta-wei, god-wei, hafa-wei, in-wei, kuk-wei, lusa-wei, nof-wei, old-wei, pipol-wei, ruf-wei, slo-wei, smud-wei, soft-wei, stap-wei, strong-wei, taita-wei, tink-wei, tru-wei, tu-wei, watre-wei, wid-wei, yusa-wei | `motorwei`, directional idioms |
+| wei | /wei/ |  | way / path (abstract) |  | ap-wei, bad-wei, bak-wei, baki-wei, big-wei, dip-wei, do-wei, fronta-wei, god-wei, hafa-wei, in-wei, kuk-wei, lusa-wei, nof-wei, old-wei, pipol-wei, ruf-wei, slo-wei, smud-wei, soft-wei, stap-wei, strong-wei, taita-wei, tink-wei, tru-wei, tu-wei, watre-wei, wid-wei, yusa-wei | `motorwei`, directional idioms |
 | weika | /wei.ka/ |  | to wake |  |  | Mi weik erli. → I wake early. |
 | weil | /weil/ |  | whale |  |  | La weil es big. |
 | weista | /weis.ta/ | verb/noun | to waste / waste |  |  | loan |
@@ -3020,6 +3029,7 @@
 | ye | /je/ |  | yes |  |  | affirmative |
 | yelo | /jelo/ |  | yellow |  |  | la yelo sun |
 | yestdei | /jestdei/ |  | yesterday |  |  | Yestdei mi go a la siti. |
+| yeta | /je.ta/ |  | still / yet |  |  | Mi yeta lern VELA. |
 | yogurta | /jo.gur.ta/ | noun | yogurt |  |  | loan |
 | yona | /jo.na/ | verb | to yawn |  |  | loan |
 | yong | /jon/ |  | young |  | yong-luk, yong-po | un yong gerl |
