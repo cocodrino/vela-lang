@@ -23,7 +23,7 @@ La terda pig maki-ed un hous of brik-en.
 Un wail-dog kom-ed and tok-ed: “Smol pig, smol pig, let mi kom in.”
 La pig-en tok-ed: “No, no, no.”
 La wail-dog tok-ed: “Den mi wil blow daun yu-se hous.”
-Li blow-ed daun la stra hous and la stik hous.
+Li blow-ed daun la stra hous and la stik-hous.
 Bat li no kin blow daun la brik hous.
 La pig-en stay-ed safi, and la wail-dog ran away.
 

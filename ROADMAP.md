@@ -2,9 +2,9 @@
 
 > Documento base: `INITIAL_RESEARCH.md`
 > Principios: **Simplicidad → Transparencia → Belleza → Universalidad**
-> Canon vigente: `docs/grammar/GRAMMAR_COMPLETE.md` + `vote/topics/consensus/fase5_consensus.md` (reglas R1–R17)
+> Canon vigente: `docs/grammar/GRAMMAR_COMPLETE.md` + `vote/topics/consensus/fase5_consensus.md` (reglas R1–R18)
 
-**Última actualización: 2026-08-07** — sincronizado con el repo (último commit: R17, 2026-07-29).
+**Última actualización: 2026-10-22** — R18 ratificada y aplicada; validador en 0 errores.
 
 ---
 
@@ -89,7 +89,7 @@ VOCABULARIO:
 
 ---
 
-## Registro de Reglas Ratificadas (R1–R17)
+## Registro de Reglas Ratificadas (R1–R18)
 
 Fuente única: `vote/topics/consensus/fase5_consensus.md`. Una regla ratificada es canon y gana sobre cualquier documento más viejo.
 
@@ -112,6 +112,7 @@ Fuente única: `vote/topics/consensus/fase5_consensus.md`. Una regla ratificada 
 | R15 | Embellecimiento fonoestético (pipol, nera, jir, louda, tun, pisi) | 2026-07-28 | auditoría del fonólogo |
 | R16 | Sistema de pronombres indefinidos (eni/otra/evri) + palabras C1 | 2026-07-28 | aprobada |
 | R17 | **Adjetivos invariables** — una sola regla visual: guion=pelado, espacio=cita | 2026-07-29 | unánime |
+| R18 | Las 13 palabras sin acuñar del corpus (`yeta`, `abau`, `auta`, `stika` + 9 existentes/compuestos) · `aut-` única ortografía de /au/ | 2026-10-22 | 5 especialistas; 2 desempates del esteticista, 2 decisiones del usuario |
 
 ---
 
@@ -333,10 +334,10 @@ Arreglados con formas que ya existían en el léxico: `throt`→`trota`, `erth`�
 
 | # | Deuda | Evidencia | Impacto |
 |---|-------|-----------|---------|
-| 1 | **13 palabras sin forma canónica** — bloquean los 17 errores restantes. Acuñarlas es decisión de comité (`vote/docs/PROCESS.md`), no de un script: `breath`, `much`, `life`, `still`, `about`, `lost`, `ahead`, `breakfast`, `solitude`, `behind`, `just` (sentido "meramente"), `out`, `stick` | `validate_phonology.py --corpus` | Alto: incluye la última violación de `th` (`breth-ed`) |
+| 1 | ✅ **RESUELTA 2026-10-22 (R18)** — validador en 0 errores. Era: **13 palabras sin forma canónica** — bloqueaban los 17 errores restantes. Acuñarlas es decisión de comité (`vote/docs/PROCESS.md`), no de un script: `breath`, `much`, `life`, `still`, `about`, `lost`, `ahead`, `breakfast`, `solitude`, `behind`, `just` (sentido "meramente"), `out`, `stick` | `validate_phonology.py --corpus` | Alto: incluye la última violación de `th` (`breth-ed`) |
 | 2 | **Corpus sin migrar a R8** — presente con coda dura sigue pelado (`Mi hav`, `Mi luv` en vez de `Mi hava`, `Mi luva`); R8 estimó ~200 ejemplos | `docs/texts/PHRASES_100.md` líneas 83, 99, 101, 141, 157 | Alto: los textos enseñan canon derogado |
 | 3 | **Los poemas necesitan pasada del esteticista** — la migración cambió sílabas (`nait`→`noita`, `hart`→`herta`), así que métrica y rima de `POEMS_COLLECTION.md` y `POEM_01_SUN_AND_MOON.md` quedaron sin revisar | diff de 2026-08-07 | Medio: es criterio de belleza, competencia del esteticista (precedente R4/R15) |
-| 4 | **La landing anuncia "the passive" en Level 4** — R12 ratificó que VELA no tiene pasiva, y el libro correctamente no la enseña | `index.html`, tarjeta de Level 4 | Medio: contradice el canon en la cara pública |
+| 4 | ✅ **RESUELTA en `bc9d87b`** — Era: **La landing anunciaba "the passive" en Level 4** — R12 ratificó que VELA no tiene pasiva, y el libro correctamente no la enseña | `index.html`, tarjeta de Level 4 | Medio: contradice el canon en la cara pública |
 | 5 | **Los textos de `web-sample` son pre-R8/R17** y ya tienen audio generado | `web-sample/public/texts/` | Medio: bloquea ampliar Fase 9 con calidad |
 | 6 | **160 gap words** — palabras usadas en textos y cursos que no están en el léxico, todas legales fonotácticamente (`hau`, `morne`, `tanke`, `ten`, `an`…) | `validate_phonology.py --corpus`, sección NOTES | Medio: el diccionario no cubre lo que los cursos enseñan |
 | 7 | 85 headwords duplicados detectados por el generador de diccionario | salida de `scripts/generate_dictionary.py` | Bajo: limpieza de léxico |
@@ -346,11 +347,11 @@ Arreglados con formas que ya existían en el léxico: `throt`→`trota`, `erth`�
 
 ## Próximos pasos recomendados
 
-1. **Comité para las 13 palabras faltantes (deuda #1)** — es lo único que bloquea llegar a 0 errores, e incluye la última violación de `th`. Requiere deliberación; `vote/docs/PROCESS.md` pide preguntar al usuario antes de lanzarla.
+1. ~~Comité para las 13 palabras faltantes (deuda #1)~~ — hecho (R18, 2026-10-22). **Nuevo:** `docs/texts/STORIES_SET_01.md` no lo lee el validador (0 tokens escaneados) y tiene formas pre-reforma (`kloth`, `path`, `hart`, `leaf`). Arreglar el lector antes de dar el corpus por limpio.
 2. **Migración R8 del corpus (deuda #2)** — mecánica y guionizable con el mismo `migrate_corpus.py`: presente de coda dura pelado → forma de cita. Debe pasar antes de generar más audio.
 3. **Pasada del esteticista sobre los poemas (deuda #3)** — la migración priorizó canon sobre métrica; alguien tiene que recuperar el ritmo.
 4. **Terminar Fase 9** — fonemas + audio de lecciones + botones ▶ en los 5 cursos. VELA tiene pitch accent; un curso que no se puede oír enseña la mitad de la lengua.
-5. Deuda #4: un texto de una línea en la landing.
+5. ~~Deuda #4~~ — hecho en `bc9d87b`.
 
 Poner `python3 scripts/validate_phonology.py` en CI ahora tiene sentido: falla solo con ERRORs, así que las 160 gap words y los warnings de legado no bloquean.
 

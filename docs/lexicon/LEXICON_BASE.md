@@ -90,7 +90,7 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 |------|-----|---------|---------|---------|
 | **hier** | /hi.er/ | here | Mi wok hier. | I work here. |
 | **dar** | /dar/ | there | La kar es dar. | The car is there. |
-| **meni** | /me.ni/ | many | Mi hava meni fren-en. | I have many friends. |
+| **meni** | /me.ni/ | many / much | Mi hava meni fren-en. Hou meni? | I have many friends. How much? |
 | **som** | /som/ | some | Mi wan som watre. | I want some water. |
 | **veri** | /ve.ri/ | very | La dei es veri hota. | The day is very hot. |
 | **alo** | /a.lo/ | too / also | Mi es hapi alo. | I am happy too. |
@@ -116,6 +116,23 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 | **no-ples** | /no.ples/ | nowhere | Li go no-ples. | He goes nowhere. |
 | **ol-tu** | /ol.tu/ | both | Ol-tu es guda. | Both are good. |
 | **wan-otra** | /wan.o.tra/ | another / each other | Wi help wan-otra. | We help each other. |
+
+### Corpus Words (R18)
+
+Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a canonical form for the 13 words it used without one. `lifa`, `onli` and `alon` were already in use; R18 makes them headwords.
+
+| Word | AFI | English | Example | English |
+|------|-----|---------|---------|---------|
+| **yeta** | /je.ta/ | still / yet | Mi yeta lern VELA. | I am still learning VELA. |
+| **abau** | /a.bau/ | about (concerning) | Wi toka abau la buka. | We talk about the book. |
+| **auta** | /au.ta/ | out | La kat go auta. | The cat goes out. |
+| **stika** | /sti.ka/ | stick | La child hava un stika. | The child has a stick. |
+| **lifa** | /li.fa/ | life | Lifa es guda. | Life is good. |
+| **onli** | /on.li/ | only / just / merely | Mi hava onli wan buka. | I have only one book. |
+| **alon** | /a.lon/ | alone | Li liv alon. | She lives alone. |
+| **alon-nes** | /a.lon.nes/ | solitude | In alon-nes mi herta lern peis. | In solitude my heart learns peace. |
+| **moring-fud** | /mo.ring.fud/ | breakfast | Moring-fud es redi. | Breakfast is ready. |
+| **baki-wei** | /ba.ki.wei/ | behind | La dog es baki-wei la hous. | The dog is behind the house. |
 
 ### Question Words
 

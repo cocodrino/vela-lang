@@ -27,7 +27,7 @@
 
 | # | English | VELA |
 |---|---------|------|
-| 11 | How much? | Hau mush? |
+| 11 | How much? | Hou meni? |
 | 12 | I want this. | Mi wan la dis. |
 | 13 | The bill, please. | La bil, plise. |
 | 14 | Water, please. | Water, plise. |
@@ -49,7 +49,7 @@
 | 23 | I'm sick. | Mi es sik. |
 | 24 | Where is the hospital? | Wer es la sik-hous? |
 | 25 | Police! | Polis! |
-| 26 | I'm lost. | Mi es lost. |
+| 26 | I'm lost. | Mi no nou la wei. |
 | 27 | Fire! | Fai! |
 | 28 | It's an emergency. | La es emerjensi. |
 | 29 | I need medicine. | Mi needa medisin. |
@@ -65,7 +65,7 @@
 | 32 | How do I get to the city? | Hau mi go a la siti? |
 | 33 | Turn left. | Turna lefa. |
 | 34 | Turn right. | Turna raia. |
-| 35 | Go straight ahead. | Go stret ahed. |
+| 35 | Go straight ahead. | Go stret fronta-wei. |
 | 36 | Stop here. | Topi hier. |
 | 37 | I want a ticket. | Mi wan a bileta. |
 | 38 | Is it far? | La es far? |
@@ -148,7 +148,7 @@
 |---|---------|------|
 | 81 | I'm hungry. | Mi es hungri. |
 | 82 | I'm thirsty. | Mi es tirsti. |
-| 83 | Breakfast is ready. | Brekfast es redi. |
+| 83 | Breakfast is ready. | Moring-fud es redi. |
 | 84 | Lunch was good. | Dei-eat es gud. |
 | 85 | Dinner is at seven. | Dina es at seven. |
 | 86 | Pass the salt. | Pas la salta. |
@@ -172,7 +172,7 @@
 | 97 | The internet is fast. | La interneta es fast. |
 | 98 | I took a photo. | Mi teka a foto. |
 | 99 | Let's watch a movie. | Wi wotcha a film. |
-| 100 | Life is beautiful. | Laif es beautiful. |
+| 100 | Life is beautiful. | Lifa es beautiful. |
 
 ---
 
@@ -189,20 +189,20 @@
 | plise | please | Politeness | HIGH |
 | ekskus | excuse | Politeness | MEDIUM |
 | sori | sorry | Apology | HIGH |
-| mush | much / many | Quantity | MEDIUM |
+| meni | much / many | Quantity | MEDIUM |
 | dis | this | Demonstrative | HIGH |
 | wer | where | Question word | HIGH |
 | batrum | bathroom | Compound: bat+rum? | MEDIUM |
 | kol | call | Verb | HIGH |
 | sik | sick | Health | HIGH |
 | polis | police | Authority | MEDIUM |
-| lost | lost | Direction | MEDIUM |
+| no nou la wei | lost (R18: paraphrase) | Direction | MEDIUM |
 | emerjensi | emergency | Health | MEDIUM |
 | medisin | medicine | Health | MEDIUM |
 | weri | worry | Emotion | MEDIUM |
 | steshon | station | Transport | HIGH |
 | stret | straight | Direction | MEDIUM |
-| ahed | ahead | Direction | MEDIUM |
+| fronta-wei | ahead | Direction | MEDIUM |
 | tiket | ticket | Transport | MEDIUM |
 | wud | would / want (polite) | Modal | MEDIUM |
 | dedlain | deadline | Work | MEDIUM |
@@ -227,7 +227,7 @@
 | kwestion | question | Cognition | MEDIUM |
 | hungr | hungry | Physical state | MEDIUM |
 | tirsti | thirsty | Physical state | MEDIUM |
-| brekfast | breakfast | Meal | MEDIUM |
+| moring-fud | breakfast | Meal | MEDIUM |
 | lunch | lunch | Meal | MEDIUM |
 | dina | dinner | Meal | MEDIUM |
 | solt | salt | Food | LOW |
@@ -241,7 +241,7 @@
 | fon | phone | Tech | HIGH |
 | intanet | internet | Tech | HIGH |
 | film | film / movie | Entertainment | MEDIUM |
-| laif | life | Abstract | MEDIUM |
+| lifa | life | Abstract | MEDIUM |
 
 **Total new words needed for 100 frases: ~55 words**
 

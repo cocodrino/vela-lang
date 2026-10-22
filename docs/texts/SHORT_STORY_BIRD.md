@@ -42,7 +42,7 @@ The owl said, “Little bird, why do you cry inside?” The bird said, “I did 
 ### Paragraph 4 — The Practice
 
 **VELA:**
-From den, evri morne bifor kraud bird-en awaik-ed, smol bird wake-ed wit sun first lait. Li go-ed tu river side, stand-ed on ston, and breth-ed dipa. Li tink-ed about wind, about mat-en warm wing, about moon on watre, about pain and hop tugeter. Den li sing-ed wan not. Folo-wan morne, tu not-en. Folo-wan seven-dei, long sonj line. Sam day vois brok-ed agen, and li krei-ed. Bot li kontinyu-ed bikos aul tok-ed, "Pasi bring-a flauor from hard erd."
+From den, evri morne bifor kraud bird-en awaik-ed, smol bird wake-ed wit sun first lait. Li go-ed tu river side, stand-ed on ston, and brit-ed dipa. Li tink-ed abau wind, abau mat-en warm wing, abau moon on watre, abau pain and hop tugeter. Den li sing-ed wan not. Folo-wan morne, tu not-en. Folo-wan seven-dei, long sonj line. Sam day vois brok-ed agen, and li krei-ed. Bot li kontinyu-ed bikos aul tok-ed, "Pasi bring-a flauor from hard erd."
 
 **English:**
 From then on, every morning before the crowd of birds awoke, the little bird woke with the first sunlight. It went to the riverside, stood on a stone, and breathed deeply. It thought about the wind, about its mother’s warm wing, about moonlight on water, about pain and hope together. Then it sang one note. The next morning, two notes. The next week, a longer line of song. Some days the voice broke again, and it cried. But it continued because the owl had said, “Patience brings a flower from hard earth.”
@@ -52,7 +52,7 @@ From then on, every morning before the crowd of birds awoke, the little bird wok
 ### Paragraph 5 — The Singing
 
 **VELA:**
-Wan kol morne storm pas-ed and skai turn-ed klin blu. Smol bird stand-ed on hai branch. Li no plan-ed show. Li just fiel-ed herta ful and open, so li sing-ed. Sonj kom-ed klia and warm, liki sun aft long noita. Not-en flai-ed ova fores, pas-ed river, and touch-ed folia-n, ston-en, and watre. Bird-en stop-ed flai, stop-ed tok, and hier-ed. Even wind wait-ed. Even old tre seem-ed smile-ed in lait.
+Wan kol morne storm pas-ed and skai turn-ed klin blu. Smol bird stand-ed on hai branch. Li no plan-ed show. Li onli fiel-ed herta ful and open, so li sing-ed. Sonj kom-ed klia and warm, liki sun aft long noita. Not-en flai-ed ova fores, pas-ed river, and touch-ed folia-n, ston-en, and watre. Bird-en stop-ed flai, stop-ed tok, and hier-ed. Even wind wait-ed. Even old tre seem-ed smile-ed in lait.
 
 **English:**
 One cold morning, after a storm passed and the sky turned clear blue, the little bird stood on a high branch. It had not planned to perform. It simply felt its heart full and open, so it sang. The song came out clear and warm, like sunlight after a long night. The notes flew over the forest, passed the river, and touched leaves, stones, and water. Birds stopped flying, stopped talking, and listened. Even the wind waited. Even the old tree seemed to smile in the light.
@@ -62,7 +62,7 @@ One cold morning, after a storm passed and the sky turned clear blue, the little
 ### Paragraph 6 — The Recognition
 
 **VELA:**
-Bird-en from evri side kom-ed neer. De si-ed dis smol bird and no biliv-ed first. Wan bird hu bifor laf-ed tok-ed low, "Dis sonj beautiful. Hu teach-ed yu?" Smol bird no proud-ed, no angri-ed. Li tok-ed, "Wan old aul help-ed mi. Li lern-ed mi dat herta sing-a first." Den old aul flai-ed daun from dark branch and stand-ed bihaind smol bird. Kraud bird-en bow-ed hed-en. Sam ai-n wet-ed wit hapi teer.
+Bird-en from evri side kom-ed neer. De si-ed dis smol bird and no biliv-ed first. Wan bird hu bifor laf-ed tok-ed low, "Dis sonj beautiful. Hu teach-ed yu?" Smol bird no proud-ed, no angri-ed. Li tok-ed, "Wan old aul help-ed mi. Li lern-ed mi dat herta sing-a first." Den old aul flai-ed daun from dark branch and stand-ed baki-wei smol bird. Kraud bird-en bow-ed hed-en. Sam ai-n wet-ed wit hapi teer.
 
 **English:**
 Birds from every side came near. They saw this little bird and did not believe it at first. One bird who had laughed before spoke quietly, “This song is beautiful. Who taught you?” The little bird was not proud and not angry. It said, “An old owl helped me. It taught me that the heart sings first.” Then the old owl flew down from a dark branch and stood behind the little bird. The crowd of birds bowed their heads. Some eyes became wet with happy tears.

@@ -29,7 +29,7 @@ Wulfi kom-ed to wud-haus."Smol pig, smol pig, let mi in!"
 
 Den li haf wan ide. Li klaim-ed on la ston-haus rofa and go-ed daun la chimni. Bot Pig 3 put-ed hot watre under la chimni. Wulfi faul-ed daun in la hot watre.
 
-"Owowow!" Wulfi jump-ed aut and ran awe in tu la fores. Tri smol pig-en dans-ed in la rum and luk-ed la sun. "Wi ar safi," de tok-ed. And de liv-ed hapi evri dei.
+"Owowow!" Wulfi jump-ed auta and ran awe in tu la fores. Tri smol pig-en dans-ed in la rum and luk-ed la sun. "Wi ar safi," de tok-ed. And de liv-ed hapi evri dei.
 
 ---
 

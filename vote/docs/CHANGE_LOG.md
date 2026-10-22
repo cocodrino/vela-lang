@@ -502,3 +502,29 @@ Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocab
 | teer | tear (eye) | English |
 | raiz | rise | English |
 
+
+---
+
+## 2026-10-22 — R18: the 13 uncoined corpus words (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only; orchestrator wrote all files (user's choice over Pi/bridge)
+**Status:** ✅ RATIFIED — pending application to lexicons and corpus
+
+### Decisions
+- Existing material, no coining: `brita`, `lifa` (promoted), `onli` (formalized), `fronta-wei` (ahead), `meni` (much + many)
+- Compounds: `moring-fud` (breakfast), `baki-wei` (behind), `alon-nes` (solitude, with `alon` formalized)
+- New atoms (4): `yeta` (still), `abau` (about), `auta` (out), `stika` (stick)
+- Construction: "I'm lost" → `Mi no nou la wei`
+- Orthography: `aut-` is the only spelling of /au/
+
+### Tiebreaks and user calls
+- still: 2-2 → aestheticist → `yeta`; user confirmed against the orchestrator's recommendation (`stil`)
+- lost: 2-2 → aestheticist → paraphrase
+- about: 4-way split → aestheticist → `abau`
+- solitude: plurality `alon-nes` (2 votes) → chosen by user
+
+### Files Created
+- vote/topics/current_topic.md (from dossier_13_words.md)
+- vote/topics/proposals/r18_13words_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
+- vote/topics/discussion_plan.md
+- vote/topics/consensus/fase5_consensus.md — §R18 appended

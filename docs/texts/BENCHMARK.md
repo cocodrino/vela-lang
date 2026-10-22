@@ -140,7 +140,7 @@ So simpler version requires only 1 new word: `forti`.
 
 | # | English | VELA | Notes |
 |---|---------|------|-------|
-| 11 | How much? | **Hau mush?** | `mush` = much. New. |
+| 11 | How much? | **Hou meni?** | `meni` = much / many (R18). |
 | 12 | I want this. | **Mi wan la dis.** | `dis` = this. New. |
 | 13 | The bill, please. | **La bil, plise.** | `bil` ✅ exists |
 | 14 | Water, please. | **Water, plise.** | `water` ✅ |
@@ -180,7 +180,7 @@ So simpler version requires only 1 new word: `forti`.
 | plise | please | English | /pli.se/ | HIGH |
 | ekskus | excuse | English | /ek.sku.si/? | MEDIUM |
 | sori | sorry | English | /so.ri/ | HIGH |
-| mush | much | English | /mu.shi/? | MEDIUM |
+| meni | much / many | R18 (existing) | /me.ni/ | RESOLVED |
 | dis | this | English | /dis/ → /di.si/? | HIGH |
 | wer | where | English | /wer/ → /we.ru/? | HIGH |
 | batrum | bathroom | English compound | /ba.trum/ → /ba.tru.mu/? | MEDIUM |

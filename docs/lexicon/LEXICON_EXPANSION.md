@@ -549,7 +549,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **yong-po** | /jon.po/ | noun | youngster / youth | young + -po | La yong-po lern from la old-po. |
 | **gesta** | /ges.ta/ | noun | guest | loan | Wi welkom la gesta. |
 | **twin** | /twin/ | noun | twin | loan | La tu twin luk sem. |
-| **no-marri** | /no.ma.ri/ | adj | single / unmarried | not + married | Li es stil no-marri. |
+| **no-marri** | /no.ma.ri/ | adj | single / unmarried | not + married | Li es yeta no-marri. |
 | **deda** | /de.da/ | adj | dead | loan | La old tre es deda. |
 | **liva** | /li.va/ | adj | alive / living | live (participle) | La liv-ing tin need watre. |
 | **rula-famili** | /ru.la.fa.mi.li/ | noun | royal family | rule + family | La rula-famili liv in la king-hous. |
@@ -886,7 +886,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **fera** | /fe.ra/ | adj | fair / just | loan | La juj mek un fera desishon. |
 | **yusa** | /ju.sa/ | adj | usual | loan | Dis es la yusa wei. |
 | **ordina** | /or.di.na/ | adj | ordinary | loan | It es un ordina dei. |
-| **old-old** | /old.old/ | adj | ancient | old + old | La old-old templ stil stand. |
+| **old-old** | /old.old/ | adj | ancient | old + old | La old-old templ yeta stand. |
 | **no-fresha** | /no.fre.sha/ | adj | stale | not + fresh | La no-fresha bred es hard. |
 | **matia** | /ma.ti.a/ | noun | matter / substance | loan | Ol matia hav mas. |
 | **presha** | /pre.sha/ | noun | pressure | loan | La dip mar hav hai presha. |
@@ -1213,7 +1213,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **big-hot** | /big.hot/ | adj | scorching | big + hot | La desert son es big-hot. |
 | **dark-skai** | /dark.skai/ | noun | overcast sky | dark + sky | Un dark-skai kom bifor rein. |
 | **storm-ful** | /storm.ful/ | adj | stormy | storm + full | La storm-ful nait es loud. |
-| **fronta-wei** | /fron.ta.wei/ | adv | forward | front + way | Muv fronta-wei, no bak. |
+| **fronta-wei** | /fron.ta.wei/ | adv | forward / ahead | front + way | Muv fronta-wei, no bak. |
 | **bak-wei** | /bak.wei/ | adv | backward | back + way | La kar go bak-wei slo. |
 | **ap-wei** | /ap.wei/ | adv | upward | up + way | La smok go ap-wei. |
 | **in-wei** | /in.wei/ | adv | inward | in + way | La dor open in-wei. |
