@@ -9,16 +9,16 @@
 ## Poem 1: La Rein and La Longin (Rain and Longing)
 
 **VELA:**
-Rein-a on mi roof in nait gray,
-mi hier-a watre tok in dark skai.
-Mi ai si-a yu memori in wind,
-mi hart fiel-a longin and sad.
-Wind go-a arond mi smol rum slow,
-star wait-a bifor kraud autsid.
-Mi tink-a yu kom-wil from far lond,
-bot dor stay-a closed in kold.
-Wen morne start-a wit pale sun,
-mi still wait-a, and rein sing-a.
+Rein on mi rofa in noita gray,
+mi her watre toka in darka skai.
+Mi ai si yu memori in winda,
+mi herta fel longin and sada.
+Winda go aronda mi smol rum slow,
+star waita bifor krauda autsida.
+Mi tinka yu kom-wil from far londa,
+bot dor stei klos in kol.
+Wen morne starta wit pale sun,
+mi yeta waita, and rein sing.
 
 **English:**
 Rain falls on my roof in a gray night,
@@ -39,16 +39,16 @@ I still wait, and rain sings.
 ## Poem 2: La Child and La Dream (A Child's Dream)
 
 **VELA:**
-Child sleep-a in bed at morne light,
-li hand hold-a smol wud hors.
-Li dream-a skai blu and star near,
-bird dansi-a arond li hed.
-Li go-a ap mautin wit hapi leg,
-sun smile-a on li ai bright.
-Li tok-a wit moon about fri laif,
-and moon tok-a trut in soft wind.
-Wen mat kom-a and tok-a "start,"
-child wake-a, bot dream stay-a warm.
+Childa slipa in beda at morne laita,
+li handa holda smol wuda horsa.
+Li drim skai blu and star near,
+birda dansi aronda li hed.
+Li go ap mautin wit hapi lega,
+sun smile on li ai brite.
+Li toka wit moon abau fri lifa,
+and moon toka tru-nes in softa winda.
+Wen moter kom and toka "starta,"
+childa weika, bot drim stei warma.
 
 **English:**
 A child sleeps in bed in morning light,
@@ -66,19 +66,19 @@ the child wakes, but the dream stays warm.
 
 ---
 
-## Poem 3: La Mar and La Solitud (The Sea and Solitude)
+## Poem 3: La Mar and La Alon-nes (The Sea and Solitude)
 
 **VELA:**
-Mi go-a tu mar at evning kold,
-wave tok-a and tok-a wit no end.
-Skai turn-a from orange tu gray,
-and wind touch-a mi skin slow.
-No fren kom-a, no bird sing-a near,
-onli watre and mi step on sand.
-Mi tink-a about laif, about deth,
-about trut, about hop, about mi self.
-Mar stay-a big, mi stay-a smol,
-bot in solitud mi hart lern-a peis.
+Mi go tu mar at evning kol,
+wave toka and toka wit no enda.
+Skai turna from orange tu gray,
+and winda tucha mi skin slow.
+No fren kom, no birda sing near,
+onli watre and mi stap on sanda.
+Mi tinka abau lifa, abau deta,
+abau tru-nes, abau hopa, abau mi self.
+Mar stei biga, mi stei smol,
+bot in alon-nes mi herta lerna peis.
 
 **English:**
 I go to the sea in a cold evening,
@@ -92,23 +92,23 @@ about truth, about hope, about myself.
 The sea stays vast, I stay small,
 but in solitude my heart learns peace.
 
-**New word:** `solitud` (solitude) — Latin root, (C)V.(C)V.(C)V, vowel-final.
+**New word:** `alon-nes` (solitude) — `alon` (alone) + `-nes`, ratified in R18. (Originally `solitud`, which ended in an illegal `-d` coda.)
 
 ---
 
 ## Poem 4: Tu Luv (Love)
 
 **VELA:**
-Yu si-a mi wen day start-a low,
-yu tok-a gud wen world feel-a hevi.
-Mi hand hold-a yu hand in storm,
-and fraid go-a daun from mi hart.
-Wi wok-a long river at nait,
-star and moon stay-a wit wi.
-Yu laugh-a, mi laugh-a, wind dansi-a,
-wi share-a bred, wi drink-a watre.
-If war kom-a, wi stand-a strong,
-bikos tu luv giv-a wi fri laif.
+Yu si mi wen day starta low,
+yu toka guda wen wailda fel hevi.
+Mi handa holda yu handa in storma,
+and afreda go daun from mi herta.
+Wi woka long river at noita,
+star and moon stei wit wi.
+Yu lafa, mi lafa, winda dansi,
+wi share breda, wi drinka watre.
+If war kom, wi standa strong,
+bikos tu luva giva wi fri lifa.
 
 **English:**
 You see me when the day begins low,
@@ -131,15 +131,15 @@ because your love gives us a free life.
 1. **Tense consistency:** All poems use present (`-a`) for current actions, future (`-wil`) for anticipated actions.
 2. **Word order:** Strict SVO maintained even in poetic register.
 3. **Pitch accent:** Penultimate syllable naturally falls on content words (e.g., `rein-a` = [REI.na], `memori` = [me.MO.ri]).
-4. **Emotional vocabulary:** `longin`, `solitud`, `fri` (free), `peis` (peace) work well in poetic context.
-5. **Compounds:** `wud hors` (wood horse = wooden horse), `fri laif` (free life) used descriptively, not as atomic compounds.
+4. **Emotional vocabulary:** `longin`, `alon-nes`, `fri` (free), `peis` (peace) work well in poetic context.
+5. **Compounds:** `wud hors` (wood horse = wooden horse), `fri lifa` (free life) used descriptively, not as atomic compounds.
 
 ## New Words Proposed (for committee review)
 
 | Word | English | Source | AFI | Justification |
 |------|---------|--------|-----|---------------|
 | **longin** | longing | English | /lon.gin/ | Emotional core concept, no VELA equivalent |
-| **solitud** | solitude | Latin | /so.li.tud/ | Abstract state, poetic register necessity |
+| **alon-nes** | solitude | alone + -nes (R18) | /a.lon.nes/ | Abstract state, poetic register necessity |
 
 ---
 

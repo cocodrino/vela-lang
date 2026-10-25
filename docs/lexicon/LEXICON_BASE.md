@@ -18,8 +18,8 @@
 | **mi** | /mi/ | pronoun | I | Mi go a la siti. | I go to the city. |
 | **yu** | /ju/ | pronoun | you (singular) | Yu si la man. | You see the man. |
 | **li** | /li/ | pronoun | he/she/it | Li es hapi. | She is happy. |
-| **wi** | /wi/ | pronoun | we | Wi liv la siti-to. | We live in the city. |
-| **de** | /de/ | pronoun | they | De wok la ofis-to. | They work at the office. |
+| **wi** | /wi/ | pronoun | we | Wi livi la siti-to. | We live in the city. |
+| **de** | /de/ | pronoun | they | De werka la ofis-to. | They work at the office. |
 | **self** | /self/ | reflexive | self | Mi si self. | I see myself. |
 
 ### Possessive Short Form (pronoun + **-f**)
@@ -27,16 +27,16 @@
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
 | **mi-se** | /mi.se/ | my / of me | Mi si mi-se fren. | I see my friend. |
-| **yu-se** | /ju.se/ | your / of you | Yu si yu-se buk. | You see your book. |
+| **yu-se** | /ju.se/ | your / of you | Yu si yu-se buka. | You see your book. |
 | **li-se** | /li.se/ | his/her/its / of him/her | Li her li-se vois. | She hears her voice. |
-| **wi-se** | /wi.se/ | our / of us | Wi liv wi-se hous. | We live in our house. |
-| **de-se** | /de.se/ | their / of them | De liv de-se siti. | They live in their city. |
+| **wi-se** | /wi.se/ | our / of us | Wi livi wi-se hous. | We live in our house. |
+| **de-se** | /de.se/ | their / of them | De livi de-se siti. | They live in their city. |
 
 ### Demonstratives
 
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
-| **dis** | /dis/ | this | Dis man es big. | This man is big. |
+| **dis** | /dis/ | this | Dis man es biga. | This man is big. |
 | **dat** | /dat/ | that | Dat hous es nais. | That house is nice. |
 | **dese** | /de.se/ | these | Dese man-en es strong. | These men are strong. |
 | **dose** | /do.se/ | those | Dose buk-en es mi-se. | Those books are mine. |
@@ -45,7 +45,7 @@
 
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
-| **la** | /la/ | the (definite) | La man si la film. | The man sees the film. |
+| **la** | /la/ | the (definite) | La man si la filma. | The man sees the film. |
 | **un** | /un/ | a/an (indefinite) | Un man kom. | A man comes. |
 
 ### Essential Prepositions
@@ -53,18 +53,18 @@
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
 | **a** | /a/ | to / at | Mi go a la ofis. | I go to the office. |
-| **in** | /in/ | in | Mi liv in la siti. | I live in the city. |
-| **on** | /on/ | on | La buk es on la tebul. | The book is on the table. |
+| **in** | /in/ | in | Mi livi in la siti. | I live in the city. |
+| **on** | /on/ | on | La buka es on la tebul. | The book is on the table. |
 | **from** | /from/ | from | Wi kom from la lern-hous. | We come from the school. |
 | **for** | /for/ | for | Dis es for yu. | This is for you. |
-| **wit** | /wit/ | with | Mi wok wit yu. | I work with you. |
-| **at** | /at/ | at | Wi wok at la sentr. | We work at the center. |
+| **wit** | /wit/ | with | Mi werka wit yu. | I work with you. |
+| **at** | /at/ | at | Wi werka at la sentr. | We work at the center. |
 | **of** | /of/ | of | La ofis of la siti. | The office of the city. |
-| **bifor** | /bifor/ | before | Mi wok bifor yu kom. | I work before you come. |
-| **aft** | /aft/ | after | Wi kom aft la wok. | We come after the work. |
-| **aronda** | /a.ron.da/ | around | Wi wok arond la siti. | We work around the city. |
-| **insaida** | /in.sai.da/ | inside | La buk es insaid la box. | The book is inside the box. |
-| **autsida** | /aut.si.da/ | outside | Li liv autsid la siti. | She lives outside the city. |
+| **bifor** | /bifor/ | before | Mi werka bifor yu kom. | I work before you come. |
+| **aft** | /aft/ | after | Wi kom aft la werka. | We come after the work. |
+| **aronda** | /a.ron.da/ | around | Wi werka aronda la siti. | We work around the city. |
+| **insaida** | /in.sai.da/ | inside | La buka es insaida la box. | The book is inside the box. |
+| **autsida** | /aut.si.da/ | outside | Li livi autsida la siti. | She lives outside the city. |
 | **nera** | /ne.ra/ | near | La lern-hous es nera la park. | The school is near the park. |
 | **far** | /far/ | far | La siti es far from hier. | The city is far from here. |
 
@@ -74,13 +74,13 @@
 |------|-----|---------|---------|---------|
 | **and** | /and/ | and | Mi si la man and la wuman. | I see the man and the woman. |
 | **or** | /or/ | or | Yu wan kom or no? | Do you want to come or not? |
-| **bot** | /bot/ | but | Mi wok, bot mi es hapi. | I work, but I am happy. |
-| **bikos** | /bikos/ | because | Mi wok bikos mi wan moni. | I work because I want money. |
+| **bot** | /bot/ | but | Mi werka, bot mi es hapi. | I work, but I am happy. |
+| **bikos** | /bikos/ | because | Mi werka bikos mi wan moni. | I work because I want money. |
 | **if** | /if/ | if | If yu kom, den mi es hapi. | If you come, I am happy. |
 | **wen** | /wen/ | when | Wen yu kom, mi si yu. | When you come, I see you. |
 | **den** | /den/ | then | If yu no kom, den mi go. | If you don't come, then I go. |
-| **so** | /so/ | so / therefore | Mi es hapi, so mi tok. | I am happy, so I speak. |
-| **tuo** | /tuo/ | although | Mi wok tuo mi es tireda. | I work although I am tired. |
+| **so** | /so/ | so / therefore | Mi es hapi, so mi toka. | I am happy, so I speak. |
+| **tuo** | /tuo/ | although | Mi werka tuo mi es tireda. | I work although I am tired. |
 
 ### Adverbs and Quantifiers
 
@@ -88,14 +88,14 @@ Coined by committee (fase5_consensus R9, 2026-07-28) to fill Level-1 gaps.
 
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
-| **hier** | /hi.er/ | here | Mi wok hier. | I work here. |
+| **hier** | /hi.er/ | here | Mi werka hier. | I work here. |
 | **dar** | /dar/ | there | La kar es dar. | The car is there. |
-| **meni** | /me.ni/ | many | Mi hava meni fren-en. | I have many friends. |
+| **meni** | /me.ni/ | many / much | Mi hava meni fren-en. Hou meni? | I have many friends. How much? |
 | **som** | /som/ | some | Mi wan som watre. | I want some water. |
 | **veri** | /ve.ri/ | very | La dei es veri hota. | The day is very hot. |
 | **alo** | /a.lo/ | too / also | Mi es hapi alo. | I am happy too. |
 | **mebi** | /me.bi/ | maybe / perhaps | Mebi li kom tomoro. | Maybe he comes tomorrow. |
-| **eni** | /e.ni/ | any | Eni person kan lern VELA. | Anyone can learn VELA. |
+| **eni** | /e.ni/ | any | Eni person kan lerna VELA. | Anyone can learn VELA. |
 | **otra** | /o.tra/ | other | La otra buka es mor guda. | The other book is better. |
 | **evri** | /ev.ri/ | every | Evri dei mi drinka kofi. | Every day I drink coffee. |
 
@@ -115,7 +115,24 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 | **ol-ples** | /ol.ples/ | everywhere | Pipol toka li ol-ples. | People speak it everywhere. |
 | **no-ples** | /no.ples/ | nowhere | Li go no-ples. | He goes nowhere. |
 | **ol-tu** | /ol.tu/ | both | Ol-tu es guda. | Both are good. |
-| **wan-otra** | /wan.o.tra/ | another / each other | Wi help wan-otra. | We help each other. |
+| **wan-otra** | /wan.o.tra/ | another / each other | Wi helpa wan-otra. | We help each other. |
+
+### Corpus Words (R18)
+
+Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a canonical form for the 13 words it used without one. `lifa`, `onli` and `alon` were already in use; R18 makes them headwords.
+
+| Word | AFI | English | Example | English |
+|------|-----|---------|---------|---------|
+| **yeta** | /je.ta/ | still / yet | Mi yeta lerna VELA. | I am still learning VELA. |
+| **abau** | /a.bau/ | about (concerning) | Wi toka abau la buka. | We talk about the book. |
+| **auta** | /au.ta/ | out | La kat go auta. | The cat goes out. |
+| **stika** | /sti.ka/ | stick | La childa hava un stika. | The child has a stick. |
+| **lifa** | /li.fa/ | life | Lifa es guda. | Life is good. |
+| **onli** | /on.li/ | only / just / merely | Mi hava onli wan buka. | I have only one book. |
+| **alon** | /a.lon/ | alone | Li livi alon. | She lives alone. |
+| **alon-nes** | /a.lon.nes/ | solitude | In alon-nes mi herta lerna peis. | In solitude my heart learns peace. |
+| **moring-fud** | /mo.ring.fud/ | breakfast | Moring-fud es redi. | Breakfast is ready. |
+| **baki-wei** | /ba.ki.wei/ | behind | La doga es baki-wei la hous. | The dog is behind the house. |
 
 ### Question Words
 
@@ -123,10 +140,10 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 |------|-----|---------|---------|---------|
 | **hu** | /hu/ | who | Hu yu si? | Who do you see? |
 | **wat** | /wat/ | what | Wat yu lik? | What do you like? |
-| **wer** | /wer/ | where | Wer wi wok? | Where do we work? |
+| **wer** | /wer/ | where | Wer wi werka? | Where do we work? |
 | **hai** | /hai/ | how | Hai yu fel? | How do you feel? |
-| **wai** | /wai/ | why | Wai yu wok? | Why do you work? |
-| **hou** | /hou/ | how much | Hou big es la hous? | How big is the house? |
+| **wai** | /wai/ | why | Wai yu werka? | Why do you work? |
+| **hou** | /hou/ | how much | Hou biga es la hous? | How big is the house? |
 | **wot** | /wot/ | which | Wot kolor es la kar? | Which color is the car? |
 
 ### Answers
@@ -141,21 +158,21 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
-| **nau** | /nau/ | now | Mi wok nau. | I work now. |
-| **nau-dei** | /nau.dei/ | today | Nau-dei mi wok. | Today I work. |
+| **nau** | /nau/ | now | Mi werka nau. | I work now. |
+| **nau-dei** | /nau.dei/ | today | Nau-dei mi werka. | Today I work. |
 | **tomoro** | /tomoro/ | tomorrow | Tomoro wi kom. | Tomorrow we come. |
 | **yestdei** | /jestdei/ | yesterday | Yestdei mi go a la siti. | Yesterday I went to the city. |
 | **oldei** | /oldei/ | always | Mi es hapi oldei. | I am always happy. |
 | **never** | /never/ | never | Li never kom. | She never comes. |
-| **ofen** | /ofen/ | often | Mi wok ofen. | I work often. |
+| **ofen** | /ofen/ | often | Mi werka ofen. | I work often. |
 | **somtaim** | /somtaim/ | sometimes | Wi kom somtaim. | We come sometimes. |
-| **rarli** | /rar.li/ | rarely | Li wok rarli. | She rarely works. |
+| **rarli** | /rar.li/ | rarely | Li werka rarli. | She rarely works. |
 | **sun** | /sun/ | soon | Wi kom sun. | We come soon. |
 | **let** | /let/ | late | Mi kom let. | I come late. |
-| **erli** | /er.li/ | early | Mi wok erli. | I work early. |
+| **erli** | /er.li/ | early | Mi werka erli. | I work early. |
 | **mor** | /mor/ | more (comparative) | La kar es mor fasta. | The car is faster. |
 | **mos** | /mos/ | most (superlative) | Dis kar es mos fasta. | This car is the fastest. |
-| **les** | /les/ | less | Mi hav les. | I have less. |
+| **les** | /les/ | less | Mi hava les. | I have less. |
 | **lesti** | /les.ti/ | at least | Lest wan dei. | At least one day. |
 | **agen** | /agen/ | again | Mi kom agen. | I come again. |
 
@@ -198,159 +215,159 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **bi** | /bi/ | to be | bi-a | bi-ed | bi-wil | Mi bi-a hapi. → I am happy. |
-| **es** | /es/ | to be (stative) | es-a | es-ed | es-wil | La man es-a big. → The man is big. |
-| **nof** | /nof/ | to know | nof-a | nof-ed | nof-wil | Mi nof wat yu wan. → I know what you want. |
+| **bi** | /bi/ | to be | es | bi-ed | bi-wil | Mi es hapi. → I am happy. |
+| **es** | /es/ | to be (stative) | es | es-ed | es-wil | La man es biga. → The man is big. |
+| **nof** | /nof/ | to know | nof | nof-ed | nof-wil | Mi nof wat yu wan. → I know what you want. |
 | **nof-hu** | /nof.hu/ | to know someone | nof-hu-a | nof-hu-ed | nof-hu-wil | Mi nof-hu yu. → I know you. |
 
 ### Perception and Communication
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **si** | /si/ | to see | si-a | si-ed | si-wil | Mi si la film. → I see the film. |
-| **her** | /her/ | to hear | her-a | her-ed | her-wil | Mi her la sonj. → I hear the song. |
-| **smel** | /smel/ | to smell | smel-a | smel-ed | smel-wil | Mi smel la flauor. → I smell the flower. |
-| **tas** | /tas/ | to taste | tas-a | tas-ed | tas-wil | La supa tas-a gud. → The soup tastes good. |
-| **fel** | /fel/ | to feel | fel-a | fel-ed | fel-wil | Mi fel hapi. → I feel happy. |
-| **luka** | /lu.ka/ | to look | luk-a | luk-ed | luk-wil | Mi luk at la sinti. → I look at the scene. |
-| **lisen** | /lisen/ | to listen | lisen-a | lisen-ed | lisen-wil | Wi lisen a la muzik. → We listen to the music. |
-| **toka** | /to.ka/ | to speak | tok-a | tok-ed | tok-wil | Mi tok wit yu. → I speak with you. |
-| **tal** | /tal/ | to tell | tal-a | tal-ed | tal-wil | Yu tal mi wat yunof. → You tell me what you know. |
-| **sey** | /sei/ | to say | sey-a | sey-ed | sey-wil | Mi sey "helo". → I say "hello". |
-| **aska** | /as.ka/ | to ask | ask-a | ask-ed | ask-wil | Mi ask yu wan ting. → I ask you one thing. |
-| **ansra** | /an.sra/ | to answer | ansr-a | ansr-ed | ansr-wil | Li ansr mi-se kwestion. → She answers my question. |
+| **si** | /si/ | to see | si | si-ed | si-wil | Mi si la filma. → I see the film. |
+| **her** | /her/ | to hear | her | her-ed | her-wil | Mi her la sonja. → I hear the song. |
+| **smel** | /smel/ | to smell | smel | smel-ed | smel-wil | Mi smel la flauor. → I smell the flower. |
+| **tas** | /tas/ | to taste | tas | tas-ed | tas-wil | La supa tas guda. → The soup tastes good. |
+| **fel** | /fel/ | to feel | fel | fel-ed | fel-wil | Mi fel hapi. → I feel happy. |
+| **luka** | /lu.ka/ | to look | luka | luk-ed | luk-wil | Mi luk at la sinti. → I look at the scene. |
+| **lisen** | /lisen/ | to listen | lisen | lisen-ed | lisen-wil | Wi lisen a la muzik. → We listen to the music. |
+| **toka** | /to.ka/ | to speak | toka | tok-ed | tok-wil | Mi toka wit yu. → I speak with you. |
+| **tal** | /tal/ | to tell | tal | tal-ed | tal-wil | Yu tal mi wat yunof. → You tell me what you know. |
+| **sey** | /sei/ | to say | sey | sey-ed | sey-wil | Mi sey "helo". → I say "hello". |
+| **aska** | /as.ka/ | to ask | aska | ask-ed | ask-wil | Mi aska yu wan ting. → I ask you one thing. |
+| **ansra** | /an.sra/ | to answer | ansra | ansr-ed | ansr-wil | Li ansr mi-se kwestion. → She answers my question. |
 
 ### Movement
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **go** | /go/ | to go | go-a | go-ed | go-wil | Mi go a la park. → I go to the park. |
-| **kom** | /kom/ | to come | kom-a | kom-ed | kom-wil | Yu kom a mi. → You come to me. |
+| **go** | /go/ | to go | go | go-ed | go-wil | Mi go a la park. → I go to the park. |
+| **kom** | /kom/ | to come | kom | kom-ed | kom-wil | Yu kom a mi. → You come to me. |
 | **kom-hom** | /kom.hom/ | to return home | kom-hom-a | kom-hom-ed | kom-hom-wil | Mi kom-hom nau. → I come home now. |
-| **livi** | /li.vi/ | to live | liv-a | liv-ed | liv-wil | Wi liv la siti-to. → We live in the city. |
-| **woka** | /wo.ka/ | to walk | wok-a | wok-ed | wok-wil | Mi wok la parke-to. → I walk in the park. |
-| **werka** | /wer.ka/ | to work | werk-a | werk-ed | werk-wil | Mi werk la ofis-to. → I work at the office. |
+| **livi** | /li.vi/ | to live | livi | liv-ed | liv-wil | Wi livi la siti-to. → We live in the city. |
+| **woka** | /wo.ka/ | to walk | woka | wok-ed | wok-wil | Mi woka la parke-to. → I walk in the park. |
+| **werka** | /wer.ka/ | to work | werka | werk-ed | werk-wil | Mi werka la ofis-to. → I work at the office. |
 | **bikom** | /bi.kom/ | to become | bikom | bikom-ed | bikom-wil | Li bikom un dokter. → He becomes a doctor. |
 | **sima** | /si.ma/ | to seem | sima | sim-ed | sim-wil | Li sima tireda. → She seems tired. |
 | **hapen** | /ha.pen/ | to happen | hapen | hapen-ed | hapen-wil | Wat hapen hier? → What happens here? |
-| **rul** | /rul/ | to travel | rul-a | rul-ed | rul-wil | Wi rul tu la naid. → We travel to the nation. |
-| **ran** | /ran/ | to run | ran-a | ran-ed | ran-wil | La man ran. → The man runs. |
-| **jumpa** | /jum.pa/ | to jump | jamp-a | jamp-ed | jamp-wil | Li jamp over la bond. → She jumps over the bond. |
-| **swim** | /swim/ | to swim | swim-a | swim-ed | swim-wil | Wi swim in la river. → We swim in the river. |
-| **frai** | /frai/ | to flai | frai-a | frai-ed | frai-wil | La berd frai. → The bird flies. |
-| **folo** | /folo/ | to follow | folo-a | folo-ed | folo-wil | Mi folo yu. → I follow you. |
-| **bow** | /bou/ | to bend down | bow-a | bow-ed | bow-wil | Li bow tu pik la ting. → She bends to pick the thing. |
-| **ariva** | /a.ri.va/ | to arrive | ariv-a | ariv-ed | ariv-wil | Wi ariv at seven. → We arrive at seven. |
+| **rul** | /rul/ | to travel | rul | rul-ed | rul-wil | Wi rul tu la naid. → We travel to the nation. |
+| **ran** | /ran/ | to run | ran | ran-ed | ran-wil | La man ran. → The man runs. |
+| **jumpa** | /jum.pa/ | to jump | jampa | jamp-ed | jamp-wil | Li jamp over la bond. → She jumps over the bond. |
+| **swim** | /swim/ | to swim | swim | swim-ed | swim-wil | Wi swim in la river. → We swim in the river. |
+| **frai** | /frai/ | to flai | frai | frai-ed | frai-wil | La berd frai. → The bird flies. |
+| **folo** | /folo/ | to follow | folo | folo-ed | folo-wil | Mi folo yu. → I follow you. |
+| **bow** | /bou/ | to bend down | bow | bow-ed | bow-wil | Li bow tu pik la ting. → She bends to pick the thing. |
+| **ariva** | /a.ri.va/ | to arrive | ariva | ariv-ed | ariv-wil | Wi ariv at seven. → We arrive at seven. |
 
 ### Actions and Work
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **don** | /don/ | to do | don-a | don-ed | don-wil | Mi don la wok. → I do the work. |
-| **maka** | /ma.ka/ | to make | mak-a | mak-ed | mak-wil | Mi mak la disf. → I make the dinner. |
-| **lerna** | /ler.na/ | to learn | lern-a | lern-ed | lern-wil | Yu lern VELA. → You learn VELA. |
-| **teacha** | /teac.ha/ | to teach | teach-a | teach-ed | teach-wil | Mi teach yu. → I teach you. |
-| **stodi** | /stodi/ | to study | stodi-a | stodi-ed | stodi-wil | Mi stodi evri dei. → I study every day. |
-| **resercha** | /re.ser.cha/ | to research | reserch-a | reserch-ed | reserch-wil | Li reserch la sindei. → She researches the subject. |
-| **plan** | /plan/ | to plan | plan-a | plan-ed | plan-wil | Wi plan tu kom. → We plan to come. |
-| **maki** | /ma.ki/ | to build | maki-a | maki-ed | maki-wil | De maki un hous. → They build a house. |
-| **repai** | /re.pa.i/ | to fix | repai-a | repai-ed | repai-wil | Mi repai la masin. → I fix the machine. |
-| **braka** | /bra.ka/ | to break | brak-a | brak-ed | brak-wil | Li brak la glas. → She breaks the glass. |
-| **open** | /open/ | to open | open-a | open-ed | open-wil | Mi open la dor. → I open the door. |
-| **klian** | /klian/ | to clean | klian-a | klian-ed | klian-wil | Wi klian la hous. → We clean the house. |
-| **kuka** | /ku.ka/ | to cook | kuk-a | kuk-ed | kuk-wil | Mi kuk evriSandEI. → I cook every Sunday. |
-| **woshi** | /wos.hi/ | to wash | wosh-a | wosh-ed | wosh-wil | Mi wosh mi-se masin. → I wash my car. |
-| **drai** | /drai/ | to dry | drai-a | drai-ed | drai-wil | Mi drai la plet. → I dry the plate. |
-| **siva** | /si.va/ | to sieve / to filter | siv-a | siv-ed | siv-wil | Sift flour from solit-partikl-en. → Sieve flour from solid particles. |
+| **don** | /don/ | to do | don | don-ed | don-wil | Mi don la werka. → I do the work. |
+| **maka** | /ma.ka/ | to make | maka | mak-ed | mak-wil | Mi maka la disf. → I make the dinner. |
+| **lerna** | /ler.na/ | to learn | lerna | lern-ed | lern-wil | Yu lerna VELA. → You learn VELA. |
+| **teacha** | /teac.ha/ | to teach | teacha | teach-ed | teach-wil | Mi teach yu. → I teach you. |
+| **stodi** | /stodi/ | to study | stodi | stodi-ed | stodi-wil | Mi stodi evri dei. → I study every day. |
+| **resercha** | /re.ser.cha/ | to research | resercha | reserch-ed | reserch-wil | Li reserch la sindei. → She researches the subject. |
+| **plan** | /plan/ | to plan | plan | plan-ed | plan-wil | Wi plan tu kom. → We plan to come. |
+| **maki** | /ma.ki/ | to build | maki | maki-ed | maki-wil | De maki un hous. → They build a house. |
+| **repai** | /re.pa.i/ | to fix | repai | repai-ed | repai-wil | Mi repai la masin. → I fix the machine. |
+| **braka** | /bra.ka/ | to break | braka | brak-ed | brak-wil | Li brak la glas. → She breaks the glass. |
+| **open** | /open/ | to open | open | open-ed | open-wil | Mi open la dor. → I open the door. |
+| **klian** | /klian/ | to clean | klian | klian-ed | klian-wil | Wi klian la hous. → We clean the house. |
+| **kuka** | /ku.ka/ | to cook | kuka | kuk-ed | kuk-wil | Mi kuka evriSandEI. → I cook every Sunday. |
+| **woshi** | /wos.hi/ | to wash | wosha | wosh-ed | wosh-wil | Mi wosh mi-se masin. → I wash my car. |
+| **drai** | /drai/ | to dry | drai | drai-ed | drai-wil | Mi drai la plet. → I dry the plate. |
+| **siva** | /si.va/ | to sieve / to filter | siva | siv-ed | siv-wil | Sift flour from solit-partikl-en. → Sieve flour from solid particles. |
 
 ### Wants, Needs, and Preferences
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **wan** | /wan/ | to want | wan-a | wan-ed | wan-wil | Mi wan kom. → I want to come. |
-| **needa** | /nee.da/ | to need | need-a | need-ed | need-wil | Mi need hel. → I need help. |
-| **liki** | /li.ki/ | to like | lik-a | lik-ed | lik-wil | Mi lik la sonj. → I like the song. |
-| **dislika** | /dis.li.ka/ | to dislike | dislik-a | dislik-ed | dislik-wil | Mi dislik la test. → I dislike the taste. |
-| **prefer** | /prefer/ | to prefer | prefer-a | prefer-ed | prefer-wil | Mi prefer te rather than kofi. → I prefer tea rather than coffee. |
-| **hopa** | /ho.pa/ | to hope | hop-a | hop-ed | hop-wil | Mi hop yu kom. → I hope you come. |
-| **min** | /min/ | to mean | min-a | min-ed | min-wil | Wat yu min? → What do you mean? |
+| **wan** | /wan/ | to want | wan | wan-ed | wan-wil | Mi wan kom. → I want to come. |
+| **needa** | /nee.da/ | to need | needa | need-ed | need-wil | Mi need hel. → I need help. |
+| **liki** | /li.ki/ | to like | lika | lik-ed | lik-wil | Mi lik la sonja. → I like the song. |
+| **dislika** | /dis.li.ka/ | to dislike | dislika | dislik-ed | dislik-wil | Mi dislik la test. → I dislike the taste. |
+| **prefer** | /prefer/ | to prefer | prefer | prefer-ed | prefer-wil | Mi prefer te rather than kofi. → I prefer tea rather than coffee. |
+| **hopa** | /ho.pa/ | to hope | hopa | hop-ed | hop-wil | Mi hopa yu kom. → I hope you come. |
+| **min** | /min/ | to mean | min | min-ed | min-wil | Wat yu min? → What do you mean? |
 
 ### Mental and Cognitive
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **bilever** | /biliver/ | to believe | biliver-a | biliver-ed | biliver-wil | Mi biliver in yu. → I believe in you. |
-| **tinka** | /tin.ka/ | to think | tink-a | tink-ed | tink-wil | Mi tink so. → I think so. |
-| **remember** | /remember/ | to remember | remember-a | remember-ed | remember-wil | Mi remember wat yu tal. → I remember what you said. |
-| **forgeta** | /for.ge.ta/ | to forget | forget-a | forget-ed | forget-wil | Mi forget evriwei. → I forget everywhere. |
-| **understanda** | /un.der.stan.da/ | to understand | understand-a | understand-ed | understand-wil | Mi understand VELA. → I understand VELA. |
-| **memoriza** | /me.mo.ri.za/ | to memorize | memoriz-a | memoriz-ed | memoriz-wil | Mi memoriz la wod-en. → I memorize the words. |
-| **imajin** | /imajin/ | to imagine | imajin-a | imajin-ed | imajin-wil | Mi imajin la siti. → I imagine the city. |
-| **desida** | /de.si.da/ | to decide | desid-a | desid-ed | desid-wil | Mi desid tu kom. → I decide to come. |
-| **sugesta** | /su.ges.ta/ | to suggest | sugest-a | sugest-ed | sugest-wil | Mi sugest wat yu don. → I suggest what you do. |
-| **explen** | /eksplen/ | to explain | explen-a | explen-ed | explen-wil | Mi explen la rule. → I explain the rule. |
+| **bilever** | /biliver/ | to believe | biliver | biliver-ed | biliver-wil | Mi biliver in yu. → I believe in you. |
+| **tinka** | /tin.ka/ | to think | tinka | tink-ed | tink-wil | Mi tinka so. → I think so. |
+| **remember** | /remember/ | to remember | remember | remember-ed | remember-wil | Mi remember wat yu tal. → I remember what you said. |
+| **forgeta** | /for.ge.ta/ | to forget | forgeta | forget-ed | forget-wil | Mi forget evriwei. → I forget everywhere. |
+| **understanda** | /un.der.stan.da/ | to understand | understanda | understand-ed | understand-wil | Mi understand VELA. → I understand VELA. |
+| **memoriza** | /me.mo.ri.za/ | to memorize | memoriza | memoriz-ed | memoriz-wil | Mi memoriz la wod-en. → I memorize the words. |
+| **imajin** | /imajin/ | to imagine | imajin | imajin-ed | imajin-wil | Mi imajin la siti. → I imagine the city. |
+| **desida** | /de.si.da/ | to decide | desida | desid-ed | desid-wil | Mi desid tu kom. → I decide to come. |
+| **sugesta** | /su.ges.ta/ | to suggest | sugesta | sugest-ed | sugest-wil | Mi sugest wat yu don. → I suggest what you do. |
+| **explen** | /eksplen/ | to explain | explen | explen-ed | explen-wil | Mi explen la rule. → I explain the rule. |
 
 ### Possession and Exchange
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **hava** | /ha.va/ | to have | hav-a | hav-ed | hav-wil | Mi hav un kar. → I have a car. |
-| **giva** | /gi.va/ | to give | giv-a | giv-ed | giv-wil | Mi giv yu la buk. → I give you the book. |
-| **teka** | /te.ka/ | to take | tek-a | tek-ed | tek-wil | Yu tek la buk from mi. → You take the book from me. |
-| **senda** | /sen.da/ | to send | send-a | send-ed | send-wil | Mi send la leter. → I send the letter. |
-| **resiva** | /re.si.va/ | to receive | resiv-a | resiv-ed | resiv-wil | Mi resiv la paket. → I receive the package. |
-| **share** | /sher/ | to share | share-a | share-ed | share-wil | Wi share la fud. → We share the food. |
-| **trida** | /tri.da/ | to trade | trad-a | trad-ed | trad-wil | De trad wit es otfr. → They trade with each other. |
-| **sel** | /sel/ | to sell | sel-a | sel-ed | sel-wil | Mi sel la kar. → I sell the car. |
-| **bai** | /bai/ | to buy | bai-a | bai-ed | bai-wil | Mi bai un hous. → I buy a house. |
-| **kosta** | /kos.ta/ | to cost | kost-a | kost-ed | kost-wil | La hous kost milyon. → The house costs a million. |
-| **lenta** | /len.ta/ | to lend | lent-a | lent-ed | lent-wil | Mi lent yu moni. → I lend you money. |
-| **boro** | /boro/ | to borrow | boro-a | boro-ed | boro-wil | Mi boro moni from mi-fren. → I borrow money from my friend. |
+| **hava** | /ha.va/ | to have | hava | hav-ed | hav-wil | Mi hava un kar. → I have a car. |
+| **giva** | /gi.va/ | to give | giva | giv-ed | giv-wil | Mi giva yu la buka. → I give you the book. |
+| **teka** | /te.ka/ | to take | teka | tek-ed | tek-wil | Yu tek la buka from mi. → You take the book from me. |
+| **senda** | /sen.da/ | to send | senda | send-ed | send-wil | Mi senda la leter. → I send the letter. |
+| **resiva** | /re.si.va/ | to receive | resiva | resiv-ed | resiv-wil | Mi resiv la paket. → I receive the package. |
+| **share** | /sher/ | to share | share | share-ed | share-wil | Wi share la fud. → We share the food. |
+| **trida** | /tri.da/ | to trade | trada | trad-ed | trad-wil | De trad wit es otfr. → They trade with each other. |
+| **sel** | /sel/ | to sell | sel | sel-ed | sel-wil | Mi sel la kar. → I sell the car. |
+| **bai** | /bai/ | to buy | bai | bai-ed | bai-wil | Mi bai un hous. → I buy a house. |
+| **kosta** | /kos.ta/ | to cost | kosta | kost-ed | kost-wil | La hous kost milyon. → The house costs a million. |
+| **lenta** | /len.ta/ | to lend | lenta | lent-ed | lent-wil | Mi lent yu moni. → I lend you money. |
+| **boro** | /boro/ | to borrow | boro | boro-ed | boro-wil | Mi boro moni from mi-fren. → I borrow money from my friend. |
 
 ### Social and Abstract Actions
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **helpa** | /hel.pa/ | to help | help-a | help-ed | help-wil | Mi help yu. → I help you. |
-| **serva** | /ser.va/ | to serve | serv-a | serv-ed | serv-wil | Li serv la kofi. → She serves the coffee. |
-| **joi** | /joi/ | to join | joi-a | joi-ed | joi-wil | Mi joi la klas. → I join the class. |
-| **lafa** | /la.fa/ | to laugh | laf-a | laf-ed | laf-wil | Wi laf at la stor. → We laugh at the story. |
-| **kai** | /kai/ | to cry | kai-a | kai-ed | kai-wil | Baby kai. → Baby cries. |
-| **sing** | /sing/ | to sing | sing-a | sing-ed | sing-wil | Mi sing la sonj. → I sing the song. |
-| **dansi** | /dan.si/ | to dance | dansi-a | dansi-ed | dansi-wil | Wi dansi evri noite. → We dance every night. |
-| **ple** | /ple/ | to play | ple-a | ple-ed | ple-wil | La child ple in la garden. → The child plays in the garden. |
-| **rita** | /ri.ta/ | to write | rit-a | rit-ed | rit-wil | Mi rit la leter. → I write the letter. |
-| **rida** | /ri.da/ | to read | rid-a | rid-ed | rid-wil | Mi rid la buk. → I read the book. |
-| **rava** | /ra.va/ | to draw | rava-a | rava-ed | rava-wil | La child rava la man. → The child draws the man. |
-| **kolori** | /ko.lo.ri/ | to paint | kolori-a | kolori-ed | kolori-wil | Mi kolori la wall. → I paint the wall. |
-| **meis** | /meis/ | to measure | meis-a | meis-ed | meis-wil | Mi meis la rum. → I measure the room. |
-| **kounta** | /koun.ta/ | to count | kount-a | kount-ed | kount-wil | Mi kount tu ten. → I count to ten. |
-| **waita** | /wai.ta/ | to wait | wait-a | wait-ed | wait-wil | Mi wait for yu. → I wait for you. |
-| **kwika** | /kwi.ka/ | to hurry | kwik-a | kwik-ed | kwik-wil | Mi kwik! | Hurry up! |
-| **topi** | /to.pi/ | to stop | topi-a | topi-ed | topi-wil | Wi topi hier. → We stop here. |
-| **starta** | /star.ta/ | to start | start-a | start-ed | start-wil | Wi start nau. → We start now. |
-| **kontinyu** | /kontinyu/ | to continue | kontinyu-a | kontinyu-ed | kontinyu-wil | Wi kontinyu wok. → We continue working. |
-| **cheka** | /che.ka/ | to check | chek-a | chek-ed | chek-wil | Mi chek la risolt. → I check the result. |
+| **helpa** | /hel.pa/ | to help | helpa | help-ed | help-wil | Mi helpa yu. → I help you. |
+| **serva** | /ser.va/ | to serve | serva | serv-ed | serv-wil | Li serv la kofi. → She serves the coffee. |
+| **joi** | /joi/ | to join | joi | joi-ed | joi-wil | Mi joi la klas. → I join the class. |
+| **lafa** | /la.fa/ | to laugh | lafa | laf-ed | laf-wil | Wi laf at la stor. → We laugh at the story. |
+| **kai** | /kai/ | to cry | kai | kai-ed | kai-wil | Baby kai. → Baby cries. |
+| **sing** | /sing/ | to sing | sing | sing-ed | sing-wil | Mi sing la sonja. → I sing the song. |
+| **dansi** | /dan.si/ | to dance | dansi | dansi-ed | dansi-wil | Wi dansi evri noite. → We dance every night. |
+| **ple** | /ple/ | to play | ple | ple-ed | ple-wil | La childa ple in la garden. → The child plays in the garden. |
+| **rita** | /ri.ta/ | to write | rita | rit-ed | rit-wil | Mi rita la leter. → I write the letter. |
+| **rida** | /ri.da/ | to read | rida | rid-ed | rid-wil | Mi rida la buka. → I read the book. |
+| **rava** | /ra.va/ | to draw | rava | rava-ed | rava-wil | La childa rava la man. → The child draws the man. |
+| **kolori** | /ko.lo.ri/ | to paint | kolori | kolori-ed | kolori-wil | Mi kolori la wal. → I paint the wall. |
+| **meis** | /meis/ | to measure | meis | meis-ed | meis-wil | Mi meis la rum. → I measure the room. |
+| **kounta** | /koun.ta/ | to count | kounta | kount-ed | kount-wil | Mi kount tu ten. → I count to ten. |
+| **waita** | /wai.ta/ | to wait | waita | wait-ed | wait-wil | Mi waita for yu. → I wait for you. |
+| **kwika** | /kwi.ka/ | to hurry | kwika | kwik-ed | kwik-wil | Mi kwika! | Hurry up! |
+| **topi** | /to.pi/ | to stop | topi | topi-ed | topi-wil | Wi topi hier. → We stop here. |
+| **starta** | /star.ta/ | to start | starta | start-ed | start-wil | Wi starta nau. → We start now. |
+| **kontinyu** | /kontinyu/ | to continue | kontinyu | kontinyu-ed | kontinyu-wil | Wi kontinyu werka. → We continue working. |
+| **cheka** | /che.ka/ | to check | cheka | chek-ed | chek-wil | Mi chek la risolt. → I check the result. |
 
 ### Physical States and Change
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **grota** | /gro.ta/ | to grow | grot-a | grot-ed | grot-wil | La plant grot. → The plant grows. |
-| **borna** | /bor.na/ | to be born | born-a | born-ed | born-wil | Mi born in 1990. → I was born in 1990. |
-| **heal** | /hial/ | to heal | heal-a | heal-ed | heal-wil | La wound heal. → The wound heals. |
-| **slipa** | /sli.pa/ | to sleep | slip-a | slip-ed | slip-wil | Baby slip. → Baby sleeps. |
-| **weka** | /we.ka/ | to wake up | wek-a | wek-ed | wek-wil | Mi wek at six. → I wake at six. |
-| **blo** | /blo/ | to blow | blo-a | blo-ed | blo-wil | La win blo. → The wind blows. |
-| **resta** | /res.ta/ | to rest | rest-a | rest-ed | rest-wil | Mi rest nau. → I rest now. |
-| **eata** | /ea.ta/ | to eat | eat-a | eat-ed | eat-wil | Mi eat laappl. → I eat the apple. |
-| **drinka** | /drin.ka/ | to drink | drink-a | drink-ed | drink-wil | Mi drink watre. → I drink water. |
-| **brita** | /bri.ta/ | to breathe | brit-a | brit-ed | brit-wil | Mi brit evri dei. → I breathe every day. |
-| **sweti** | /swe.ti/ | to sweat | swet-a | swet-ed | swet-wil | Mi swet aft la wok. → I sweat after the work. |
-| **shin** | /sin/ | to shine | shin-a | shin-ed | shin-wil | La son shin. → The sun shines. |
-| **rain** | /rein/ | to rain | rain-a | rain-ed | rain-wil | La rein fal. → The rain falls. |
-| **snow** | /sno/ | to snow | snow-a | snow-ed | snow-wil | La snow fal. → The snow falls. |
-| **smile** | /smi.le/ | to smile | smile-a | smile-ed | smile-wil | La baby smile at mi. → The baby smiles at me. |
+| **grota** | /gro.ta/ | to grow | grota | grot-ed | grot-wil | La plant grot. → The plant grows. |
+| **borna** | /bor.na/ | to be born | borna | born-ed | born-wil | Mi born in 1990. → I was born in 1990. |
+| **heal** | /hial/ | to heal | heal | heal-ed | heal-wil | La wound heal. → The wound heals. |
+| **slipa** | /sli.pa/ | to sleep | slipa | slip-ed | slip-wil | Baby slipa. → Baby sleeps. |
+| **weka** | /we.ka/ | to wake up | weka | wek-ed | wek-wil | Mi wek at six. → I wake at six. |
+| **blo** | /blo/ | to blow | blo | blo-ed | blo-wil | La win blo. → The wind blows. |
+| **resta** | /res.ta/ | to rest | resta | rest-ed | rest-wil | Mi resta nau. → I rest now. |
+| **eata** | /ea.ta/ | to eat | eata | eat-ed | eat-wil | Mi eata laappl. → I eat the apple. |
+| **drinka** | /drin.ka/ | to drink | drinka | drink-ed | drink-wil | Mi drink watre. → I drink water. |
+| **brita** | /bri.ta/ | to breathe | brita | brit-ed | brit-wil | Mi brit evri dei. → I breathe every day. |
+| **sweti** | /swe.ti/ | to sweat | sweta | swet-ed | swet-wil | Mi swet aft la werka. → I sweat after the work. |
+| **shin** | /sin/ | to shine | shin | shin-ed | shin-wil | La son shin. → The sun shines. |
+| **rain** | /rein/ | to rain | rain | rain-ed | rain-wil | La rein fal. → The rain falls. |
+| **snow** | /sno/ | to snow | snow | snow-ed | snow-wil | La snow fal. → The snow falls. |
+| **smile** | /smi.le/ | to smile | smile | smile-ed | smile-wil | La baby smile at mi. → The baby smiles at me. |
 
 ### Modal Verbs
 
@@ -358,7 +375,7 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 |------|-----|---------|-----------|---------|
 | **kan** | /kan/ | can | kan + bare root | Mi kan si. → I can see. |
 | **kan-ed** | /kan.ed/ | could | kan-ed + bare root | Mi kan-ed kom. → I could come. |
-| **mas** | /mas/ | must | mas + bare root | Wi mas wok. → We must work. |
+| **mas** | /mas/ | must | mas + bare root | Wi mas werka. → We must work. |
 | **mas no** | /mas no/ | must not | mas no + bare root | De mas no kom. → They must not come. |
 | **shoda** | /sho.da/ | should | shod + bare root | Yu shod kom. → You should come. |
 | **ma** | /ma/ | may | ma + bare root | Mi ma kom. → I may come. |
@@ -374,36 +391,36 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
-| **biga** | /bi.ga/ | big | un big hous | a big house |
+| **biga** | /bi.ga/ | big | un biga hous | a big house |
 | **smol** | /smol/ | small | un smol siti | a small city |
 | **long** | /lon/ | long | un long rod | a long road |
 | **shorta** | /shor.ta/ | short | un short taim | a short time |
 | **talla** | /tal.la/ | tall | un tall man | a tall man |
-| **wida** | /wi.da/ | wide | la wid strit | the wide street |
+| **wida** | /wi.da/ | wide | la wid strita | the wide street |
 | **naro** | /na.ro/ | narrow | la naro rod | the narrow road |
 | **dipa** | /di.pa/ | deep | la dip wel | the deep well |
 | **shalo** | /sa.lo/ | shallow | la shalo river | the shallow river |
-| **tika** | /ti.ka/ | thick | un tik buk | a thick book |
+| **tika** | /ti.ka/ | thick | un tik buka | a thick book |
 | **tin** | /tin/ | thin | un tin paper | a thin paper |
 | **hevi** | /hevi/ | heavy | la hevi box | the heavy box |
 | **laita** | /lai.ta/ | light (weight) | la laimt box | the light box |
-| **fasta** | /fas.ta/ | fast | la fast kar | the fast car |
+| **fasta** | /fas.ta/ | fast | la fasta kar | the fast car |
 | **slo** | /slo/ | slow | la slo-man | the slow man |
 
 ### Quality and Value
 
 | Word | AFI | English | Example | English |
 |------|-----|---------|---------|---------|
-| **guda** | /gu.da/ | good | la gud man | the good man |
-| **bada** | /ba.da/ | bad | la bad noz | the bad news |
+| **guda** | /gu.da/ | good | la guda man | the good man |
+| **bada** | /ba.da/ | bad | la bada noz | the bad news |
 | **new** | /nu/ | new | un new kar | a new car |
-| **olda** | /ol.da/ | old | la old hous | the old house |
+| **olda** | /ol.da/ | old | la olda hous | the old house |
 | **yong** | /jon/ | young | un yong gerl | a young girl |
-| **nais** | /nais/ | nice / beautiful | la nais sonj | the nice song |
+| **nais** | /nais/ | nice / beautiful | la nais sonja | the nice song |
 | **hapi** | /hapi/ | happy | la hapi famili | the happy family |
-| **sada** | /sa.da/ | sad | Mi es sad. | I am sad. |
+| **sada** | /sa.da/ | sad | Mi es sada. | I am sad. |
 | **strong** | /stron/ | strong | la strong man | the strong man |
-| **wika** | /wi.ka/ | weak | la wik child | the weak child |
+| **wika** | /wi.ka/ | weak | la wik childa | the weak child |
 | **richa** | /ric.ha/ | rich | un rich man | a rich man |
 | **poor** | /pur/ | poor | la poor famili | the poor family |
 | **bizi** | /bizi/ | busy | Mi es bizi. | I am busy. |
@@ -414,26 +431,26 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 | **clean** | /klian/ | clean | la clean rum | the clean room |
 | **diti** | /diti/ | dirty | la diti masin | the dirty machine |
 | **hardi** | /hardi/ | hard (material) | la hardi metal | the hard metal |
-| **softa** | /sof.ta/ | soft | la soft kusion | the soft cushion |
+| **softa** | /sof.ta/ | soft | la softa kusion | the soft cushion |
 | **brite** | /bri.te/ | bright | la brite son | the bright sun |
 | **smuda** | /smu.da/ | smooth | la smud surfes | the smooth surface |
 | **rufa** | /ru.fa/ | rough | la ruf wol | the rough wool |
 | **weta** | /we.ta/ | wet | la wet grund | the wet ground |
-| **warma** | /war.ma/ | warm | la warm son | the warm sun |
-| **hota** | /ho.ta/ | hot | la hot sup | the hot soup |
+| **warma** | /war.ma/ | warm | la warma son | the warm sun |
+| **hota** | /ho.ta/ | hot | la hota supa | the hot soup |
 | **kol** | /kol/ | cold | la kol win | the cold wind |
 | **kwikli** | /kwikli/ | quick | la kwikli man | the quick man |
-| **louda** | /lou.da/ | loud | la loud nois | the loud noise |
-| **kwaiata** | /kwaia.ta/ | quiet | la kwaiat siti | the quiet city |
-| **darka** | /dar.ka/ | dark | la dark noite | the dark night |
+| **louda** | /lou.da/ | loud | la louda nois | the loud noise |
+| **kwaiata** | /kwaia.ta/ | quiet | la kwaiata siti | the quiet city |
+| **darka** | /dar.ka/ | dark | la darka noite | the dark night |
 | **simpli** | /simpli/ | simple | la simpli sistem | the simple system |
 | **kompleksi** | /kom.plek.si/ | complex | la kompleksi sistem | the complex system |
-| **eas** | /iz/ | easy | la eas wok | the easy work |
-| **harda** | /har.da/ | hard (difficult) | la hard kwestion | the hard question |
-| **importenta** | /im.por.ten.ta/ | important | la importent man | the important man |
+| **eas** | /iz/ | easy | la eas werka | the easy work |
+| **harda** | /har.da/ | hard (difficult) | la harda kwestion | the hard question |
+| **importenta** | /im.por.ten.ta/ | important | la importenta man | the important man |
 | **useful** | /usful/ | useful | la useful tool | the useful tool |
 | **useles** | /usles/ | useless | la useles ting | the useless thing |
-| **interesting** | /interisting/ | interesting | la interesting buk | the interesting book |
+| **interesting** | /interisting/ | interesting | la interesting buka | the interesting book |
 | **boring** | /boring/ | boring | la boring class | the boring class |
 | **eksiting** | /eksaiting/ | exciting | la eksiting filem | the exciting film |
 | **expensive** | /ekspensiv/ | expensive | la expensive kar | the expensive car |
@@ -450,8 +467,8 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 
 | Word | AFI | English | Example |
 |------|-----|---------|---------|
-| **blaka** | /bla.ka/ | black | la blak kat |
-| **reda** | /re.da/ | red | la red rozs |
+| **blaka** | /bla.ka/ | black | la blaka kat |
+| **reda** | /re.da/ | red | la reda rozs |
 | **blu** | /blu/ | blue | la blu skai |
 | **gren** | /gren/ | green | la gren tri |
 | **yelo** | /jelo/ | yellow | la yelo sun |
@@ -486,7 +503,7 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 | **tireda** | /ti.re.da/ | tired | Mi es tireda. |
 | **hagri** | /hagri/ | hungry | Mi es hagri. |
 | **torsti** | /torsti/ | thirsty | Mi es torsti. |
-| **sika** | /si.ka/ | sick | La man es sik. |
+| **sika** | /si.ka/ | sick | La man es sika. |
 | **helti** | /hel.ti/ | healthy | La famili es helti. |
 | **slepi** | /slepi/ | sleepy | Mi es slepi. |
 | **boreda** | /bo.re.da/ | bored | Mi es bored. |
@@ -515,64 +532,64 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 |------|-----|---------|---------------|---------|
 | **bodi** | /bodi/ | body | | Mi-se bodi es strong. |
 | **heada** | /hea.da/ | head | | La head es top of bodi. |
-| **futa** | /fu.ta/ | foot/feet | | La man wok on fut. |
-| **handa** | /han.da/ | hand | | Mi-se hand es big. |
-| **fingar** | /fingar/ | finger | | Wan hand hav five fingars. |
-| **lega** | /le.ga/ | leg | | La leg es strong. |
+| **futa** | /fu.ta/ | foot/feet | | La man woka on fut. |
+| **handa** | /han.da/ | hand | | Mi-se handa es biga. |
+| **fingar** | /fingar/ | finger | | Wan handa hava five fingars. |
+| **lega** | /le.ga/ | leg | | La lega es strong. |
 | **arma** | /ar.ma/ | arm | | La arm es strong. |
-| **baki** | /ba.ki/ | back | | Mi-se bak es sik. |
+| **baki** | /ba.ki/ | back | | Mi-se baki es sika. |
 | **fas** | /fas/ | face | | La fas es nais. |
 | **ai** | /ai/ | eye | | Mi hai tu ais. |
-| **nos** | /nos/ | nose | | Mi nos es big. |
+| **nos** | /nos/ | nose | | Mi nos es biga. |
 | **mous** | /maus/ | mouth | | La mous es smol. |
 | **ear** | /ir/ | ear | | La ear her la sound. |
 | **hair** | /her/ | hair | | La hair es long. |
-| **skin** | /skin/ | skin | | La skin es soft. |
+| **skin** | /skin/ | skin | | La skin es softa. |
 | **bluda** | /blu.da/ | blood | | La blud flo in bodi. |
 | **bon** | /bon/ | bone | | La bon es hardi. |
 | **muskul** | /miskl/ | muscle | | La muskul es strong. |
-| **brain** | /brein/ | brain | | La brain tink. |
-| **herta** | /her.ta/ | heart | | La hert bit. |
+| **brain** | /brein/ | brain | | La brain tinka. |
+| **herta** | /her.ta/ | heart | | La herta bit. |
 | **stomoka** | /sto.mo.ka/ | stomach | | Mi-se stomok es hagri. |
 | **liver** | /liver/ | liver | | | 
 | **kidni** | /kidni/ | kidney | | 
 | **tun** | /tun/ | tongue | | La tun tas. |
-| **te** | /te/ | tooth/teeth | | Mi hav thirty-te. |
-| **berda** | /ber.da/ | beard | | La man hav berd. |
+| **te** | /te/ | tooth/teeth | | Mi hava thirty-te. |
+| **berda** | /ber.da/ | beard | | La man hava berd. |
 | **babi-fas** | /babi.fas/ | cheek | baby-face | |
 
 ### Family and Relationships
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **famili** | /famili/ | family | ← Latin, recogn. all | La famili es big. |
+| **famili** | /famili/ | family | ← Latin, recogn. all | La famili es biga. |
 | **person** | /per.son/ | person (any gender) | ← neutral, English root; plural person-en; collective = pipol | Un person kom. |
 | **man** | /man/ | man (adult male) | | Un man kom. |
 | **wuman** | /wuman/ | woman (adult female) | | La wuman es nais. |
-| **childa** | /chil.da/ | child | | Un child ple. |
+| **childa** | /chil.da/ | child | | Un childa ple. |
 | **gerla** | /ger.la/ | girl | | Un gerl sing. |
 | **boy** | /boi/ | boy | | Un boy luk. |
-| **baby** | /beibi/ | baby | | Un baby slip. |
+| **baby** | /beibi/ | baby | | Un baby slipa. |
 | **fren** | /fren/ | friend | | Mi-se fren es hapi. |
-| **paran** | /paran/ | parent | | Mi-se paran es old. |
+| **paran** | /paran/ | parent | | Mi-se paran es olda. |
 | **fater** | /fater/ | father | | Mi-se fater es strong. |
 | **moter** | /moter/ | mother | | Mi-se moter es kwin. |
-| **son** | /son/ | son | | La son wok. |
-| **dafter** | /dofter/ | daughter | | La dafter lern. |
+| **son** | /son/ | son | | La son werka. |
+| **dafter** | /dofter/ | daughter | | La dafter lerna. |
 | **broter** | /broter/ | brother | | Mi-se broter es tall. |
 | **sisra** | /sis.ra/ | sister | | Mi-se sisr es smol. |
-| **granparan** | /granparan/ | grandparent | | La granparan es old. |
-| **granfater** | /granfater/ | grandfather | | Mi-se granfater liv hier. |
-| **granmoter** | /granmoter/ | grandmother | | La granmoter kuk wel. |
+| **granparan** | /granparan/ | grandparent | | La granparan es olda. |
+| **granfater** | /granfater/ | grandfather | | Mi-se granfater livi hier. |
+| **granmoter** | /granmoter/ | grandmother | | La granmoter kuka wel. |
 | **unkel** | /unkel/ | uncle | | 
 | **aunta** | /aun.ta/ | aunt | | 
 | **kuzen** | /kuzen/ | cousin | | 
 | **nifaw** | /nifaw/ | nephew/niece | | 
 | **wifa** | /wi.fa/ | wife | | Mi-se wif es nais. |
-| **hasbanda** | /has.ban.da/ | husband | | Mi-se hasband wok. |
+| **hasbanda** | /has.ban.da/ | husband | | Mi-se hasband werka. |
 | **neiber** | /neiber/ | neighbor | | Mi-se neiber es fri. |
-| **pipol** | /pi.pol/ | people | pp-le = many persons | La pipol es big. |
-| **man-en** | /ma.nen/ | men | plural (man + -en) | De man-en wok. |
+| **pipol** | /pi.pol/ | people | pp-le = many persons | La pipol es biga. |
+| **man-en** | /ma.nen/ | men | plural (man + -en) | De man-en werka. |
 | **wuman-en** | /wu.ma.nen/ | women | plural (wuman + -en) | Dese wuman-en es nais. |
 | **child-en** | /tchild.en/ | children | plural (child + -en) | Dese child-en ple. |
 
@@ -582,12 +599,12 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **popul** | /popiul/ | people / population | | La popul es big. |
-| **siti** | /siti/ | city | ← Latin (urbs), recogn. | Wi liv la siti-to. |
+| **popul** | /popiul/ | people / population | | La popul es biga. |
+| **siti** | /siti/ | city | ← Latin (urbs), recogn. | Wi livi la siti-to. |
 | **vilaja** | /vi.la.ja/ | village | | La vilaj es smol. |
-| **naishon** | /naishon/ | nation | | La naishon es big. |
-| **govermenta** | /go.ver.men.ta/ | government | | La goverment mak lex-en. |
-| **lexa** | /le.xa/ | law | | La lex es importent. |
+| **naishon** | /naishon/ | nation | | La naishon es biga. |
+| **govermenta** | /go.ver.men.ta/ | government | | La goverment maka lex-en. |
+| **lexa** | /le.xa/ | law | | La lex es importenta. |
 | **king** | /king/ | king | title (hereditary) | La king es rich. |
 | **kwain** | /kwain/ | queen | title (hereditary) | La kwain es beautiful. |
 | **sitizen** | /sitizn/ | citizen | legal status | Mi es sitizn of la naishon. |
@@ -597,25 +614,25 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound | Example |
 |------|-----|---------|----------|---------|
 | **dokter** | /doktor/ | doctor | *(atomic — Latin, universal)* | Mi go tu dokter. |
-| **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lern child-en. |
+| **lern-po** | /lern.po/ | teacher | learn-person | La lern-po lerna child-en. |
 | **stodi-po** | /stodi.po/ | student / learner | study-person | La stodi-po stodi evri dei. |
 | **sik-fix-po** | /sik.fik.po/ | doctor | fix-sick-person | La sik-fix-po fix la sik-nes. |
-| **fud-mak-po** | /fud.mak.po/ | chef / cook | food-make-person | La fud-mak-po mak gud fud. |
-| **plant-grow-po** | /plant.grou.po/ | farmer | plant-grow-person | La plant-grow-po grow crop-en. |
-| **word-mak-po** | /word.mak.po/ | writer | word-make-person | La word-mak-po rit la buk. |
+| **fud-mak-po** | /fud.mak.po/ | chef / cook | food-make-person | La fud-mak-po maka guda fud. |
+| **plant-grow-po** | /plant.grou.po/ | farmer | plant-grow-person | La plant-grow-po grota crop-en. |
+| **word-mak-po** | /word.mak.po/ | writer | word-make-person | La word-mak-po rita la buka. |
 | **biju-mak-po** | /biju.mak.po/ | artist | beauty-make-person | La biju-mak-po maki beautiful art. |
 | **masin-fix-po** | /ma.sin.fik.po/ | engineer | machine-fix-person | La masin-fix-po maki bridj. |
 | **law-keep-po** | /lo.kip.po/ | police officer | law-keep-person | La law-keep-po keep la lex. |
 | **war-fajt-po** | /war.fait.po/ | soldier | war-fight-person | La war-fajt-po protec la kantri. |
-| **sik-help-po** | /sik.help.po/ | nurse | sick-help-person | La sik-help-po help la sik. |
+| **sik-help-po** | /sik.help.po/ | nurse | sick-help-person | La sik-help-po helpa la sika. |
 | **law-speak-po** | /lo.speak.po/ | lawyer | law-speak-person | La law-speak-po speak la lex. |
 | **news-tak-po** | /nuz.tak.po/ | journalist | news-take-person | La news-tak-po tak la news. |
 | **rol-play-po** | /rol.plei.po/ | actor | role-play-person | La rol-play-po plei la rol. |
-| **song-mak-po** | /son.mak.po/ | singer | song-make-person | La song-mak-po maki gud sonj. |
+| **song-mak-po** | /son.mak.po/ | singer | song-make-person | La song-mak-po maki guda sonja. |
 | **muzik-po** | /muzik.po/ | musician | music-person | La muzik-po plei la muzik. |
 | **kar-po** | /kar.po/ | driver | car-person | La kar-po driv la kar. |
-| **hed-po** | /hed.po/ | boss / leader | head-person | La hed-po manaj la wok. |
-| **werk-po** | /werk.po/ | worker | work-person | La werk-po wok hard. |
+| **hed-po** | /hed.po/ | boss / leader | head-person | La hed-po manaj la werka. |
+| **werk-po** | /werk.po/ | worker | work-person | La werk-po werka harda. |
 | **fis-kat-po** | /fis.kat.po/ | fisherman | fish-catch-person | La fis-kat-po kat fisi. |
 | **naid-rul-po** | /nait.rul.po/ | president | nation-rule-person | La naid-rul-po rul la naishon. |
 | **moni-keep-po** | /moni.kip.po/ | treasurer / accountant | money-keep-person | La moni-keep-po keep la moni. |
@@ -646,42 +663,42 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **hous** | /haus/ | house | | La hous es big. |
-| **houskel** | /haus.kel/ | household | hous + kel (people of house) | La houskel hav five man-en. |
+| **hous** | /haus/ | house | | La hous es biga. |
+| **houskel** | /haus.kel/ | household | hous + kel (people of house) | La houskel hava five man-en. |
 | **hom** | /hom/ | home | | Mi go hom. |
-| **rum** | /rum/ | room | | La rum es big. |
-| **bedrum** | /bedrum/ | bedroom | bed + rum | Mi slip in la bedrum. |
-| **kitcen** | /kitcen/ | kitchen | | Mi kuk in la kitcen. |
+| **rum** | /rum/ | room | | La rum es biga. |
+| **bedrum** | /bedrum/ | bedroom | bed + rum | Mi slipa in la bedrum. |
+| **kitcen** | /kitcen/ | kitchen | | Mi kuka in la kitcen. |
 | **baterom** | /baterom/ | bathroom | | Mi wosh in la baterom. |
-| **livrum** | /livrum/ | living room | | Wi tok in la livrum. |
-| **garden** | /garden/ | garden | | La child ple in la garden. |
+| **livrum** | /livrum/ | living room | | Wi toka in la livrum. |
+| **garden** | /garden/ | garden | | La childa ple in la garden. |
 | **dor** | /dor/ | door | | Mi open la dor. |
 | **windo** | /windo/ | window | | La windo es open. |
 | **wal** | /wal/ | wall | | La wal es wit. |
 | **flor** | /flor/ | floor | | La flor es klean. |
-| **seiling** | /seiling/ | ceiling | | La seiling es high. |
+| **seiling** | /seiling/ | ceiling | | La seiling es hai. |
 | **rofa** | /ro.fa/ | roof | | La rof es new. |
 | **stair** | /stair/ | stairs | | Mi gol up la stair. |
 | **chimni** | /cimni/ | chimney | | La smok kom from la chimni. |
-| **tebul** | /tebul/ | table | | La buk es on la tebul. |
+| **tebul** | /tebul/ | table | | La buka es on la tebul. |
 | **ceir** | /seir/ | chair | | Mi sit on la ceir. |
-| **sofa** | /so.fa/ | sofa | | Wi liv on la sof. |
-| **beda** | /be.da/ | bed | | Baby slip in la bed. |
+| **sofa** | /so.fa/ | sofa | | Wi livi on la sof. |
+| **beda** | /be.da/ | bed | | Baby slipa in la beda. |
 | **lampi** | /lam.pi/ | lamp | | La lamp shin. |
 | **far-si** | /far.si/ | television | | Mi si la far-si. |
 | **swicha** | /swic.ha/ | switch | | Mi push la swic. |
 | **loki** | /lo.ki/ | lock | | Mi lok la dor. |
-| **key** | /ki/ | key | | Mi hav la key. |
+| **key** | /ki/ | key | | Mi hava la key. |
 | **maki-hous** | /ma.ki.haus/ | building | | La maki-hous es tall. |
 | **lern-hous** | /lern.haus/ | school | | Child-en go tu lern-hous. |
-| **ofis** | /ofis/ | office | | Mi wok in la ofis. |
+| **ofis** | /ofis/ | office | | Mi werka in la ofis. |
 | **sik-hous** | /sik.haus/ | hospital | | Mi go tu sik-hous. |
-| **hotel** | /hotel/ | hotel | | Wi liv in la hotel. |
+| **hotel** | /hotel/ | hotel | | Wi livi in la hotel. |
 | **god-hous** | /god.haus/ | church | | Wi go tu la god-hous. |
 | **holi-hous** | /ho.li.haus/ | temple | | 
 | **moslem-hous** | /moz.lem.haus/ | mosque | | 
-| **parka** | /par.ka/ | park | | Wi wok in la park. |
-| **strita** | /stri.ta/ | street | | La strit es wide. |
+| **parka** | /par.ka/ | park | | Wi woka in la park. |
+| **strita** | /stri.ta/ | street | | La strita es wide. |
 | **rodi** | /ro.di/ | road | | La rod es long. |
 | **bridja** | /brid.ja/ | bridge | | Wi kros la bridj. |
 | **tunnel** | /tunnel/ | tunnel | | Wi go tru la tunnel. |
@@ -696,43 +713,43 @@ Social and legal entities (not professions):
 | **kolor** | /ko.lor/ | colour | kolor-ful, no-kolor | Wat kolor es la kar? |
 | **watre** | /watre/ | water | ← international | Mi drink watre. |
 | **fai** | /fai/ | fire | | La fai burin. |
-| **erda** | /er.da/ | earth | | La erd es round. |
-| **londa** | /lon.da/ | land | | La lond es big. |
+| **erda** | /er.da/ | earth | | La erda es round. |
+| **londa** | /lon.da/ | land | | La londa es biga. |
 | **mar** | /mar/ | sea / ocean | | Wi swim in la mar. |
 | **river** | /river/ | river | | La river flo. |
 | **leki** | /le.ki/ | lake | | Wi swim in la lek. |
-| **mautin** | /mautin/ | mountain | | La mautin es high. |
+| **mautin** | /mautin/ | mountain | | La mautin es hai. |
 | **hil** | /hil/ | hill | | Wi climb la hil. |
-| **fores** | /fores/ | forest | | La fores es big. |
+| **fores** | /fores/ | forest | | La fores es biga. |
 | **gras** | /gras/ | grass | | La gras es green. |
 | **flauor** | /flauor/ | flower | | La flauor es nais. |
-| **planta** | /plan.ta/ | plant | | Mi grow plant-en. |
-| **wuda** | /wu.da/ | wood | | La tri es mad from wud. |
-| **sanda** | /san.da/ | sand | | La sand es yelo. |
+| **planta** | /plan.ta/ | plant | | Mi grota plant-en. |
+| **wuda** | /wu.da/ | wood | | La tri es mad from wuda. |
+| **sanda** | /san.da/ | sand | | La sanda es yelo. |
 | **ston** | /ston/ | stone | | La ston es hardi. |
-| **wailda** | /wail.da/ | world | ← Latin: mundus, recogn. | La waild es big. |
+| **wailda** | /wail.da/ | world | ← Latin: mundus, recogn. | La waild es biga. |
 | **kantin** | /kantin/ | continent | | 
 | **ilanda** | /i.lan.da/ | island | | 
 | **becha** | /bec.ha/ | beach | | Wi relaks on la bech. |
 | **wo** | /wo/ | wave | | La wo kom and go. |
 | **rein** | /rein/ | rain | | La rein fal. |
-| **winda** | /win.da/ | wind | | La wind blow. |
+| **winda** | /win.da/ | wind | | La winda blow. |
 | **krauda** | /krau.da/ | cloud | | La kraud-en es wit. |
 | **sarkis** | /sarkis/ | thunder | | La sarkis kom aft la rein. |
 | **letning** | /letning/ | lightning | | La letning shain. |
-| **storma** | /stor.ma/ | storm | | La storm es dangerus. |
-| **temperaturu** | /tem.pe.ra.tu.ru/ | temperature | | La temperaturu es hot. |
-| **climata** | /cli.ma.ta/ | climate | | La klimait es warm. |
-| **natur** | /na.tur/ | environment | | La natur es importent. |
+| **storma** | /stor.ma/ | storm | | La storma es dangerus. |
+| **temperaturu** | /tem.pe.ra.tu.ru/ | temperature | | La temperaturu es hota. |
+| **climata** | /cli.ma.ta/ | climate | | La klimait es warma. |
+| **natur** | /na.tur/ | environment | | La natur es importenta. |
 | **naitur** | /naitur/ | nature | | Naitur es beautiful. |
 | **animal** | /animal/ | animal | | 
-| **birda** | /bir.da/ | bird | | La bird sing. |
-| **fisha** | /fis.ha/ | fish | | Wi katch fish. |
-| **doga** | /do.ga/ | dog | | Mi dog es big. |
-| **kata** | /ka.ta/ | cat | | La kat sleep. |
-| **horsa** | /hor.sa/ | horse | | Wi rid la hors. |
-| **cau** | /kau/ | cow | | La cau giv milk. |
-| **shepa** | /she.pa/ | sheep | | La shep es soft. |
+| **birda** | /bir.da/ | bird | | La birda sing. |
+| **fisha** | /fis.ha/ | fish | | Wi katch fisha. |
+| **doga** | /do.ga/ | dog | | Mi doga es biga. |
+| **kata** | /ka.ta/ | cat | | La kat slipa. |
+| **horsa** | /hor.sa/ | horse | | Wi raida la horsa. |
+| **cau** | /kau/ | cow | | La cau giva milk. |
+| **shepa** | /she.pa/ | sheep | | La shep es softa. |
 | **piga** | /pi.ga/ | pig | | 
 | **baeta** | /bae.ta/ | bat | | 
 | **snaka** | /sna.ka/ | snake | | La snak es dangerus. |
@@ -787,8 +804,8 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **fuda** | /fu.da/ | food | | La fud es gud. |
-| **apel** | /apel/ | apple | | Mi eat un apel. |
+| **fuda** | /fu.da/ | food | | La fud es guda. |
+| **apel** | /apel/ | apple | | Mi eata un apel. |
 | **banan** | /banan/ | banana | | 
 | **oranji** | /o.ran.ji/ | orange | | 
 | **grapa** | /gra.pa/ | grape | | 
@@ -802,8 +819,8 @@ Social and legal entities (not professions):
 | **vegi** | /veji/ | vegetable | | 
 | **korna** | /kor.na/ | corn | | 
 | **ris** | /ris/ | rice | | 
-| **breda** | /bre.da/ | bread | | Mi eat bred. |
-| **miten** | /miten/ | meat | | Mi eat miten. |
+| **breda** | /bre.da/ | bread | | Mi eata breda. |
+| **miten** | /miten/ | meat | | Mi eata miten. |
 | **sisna** | /sis.na/ | chicken | | 
 | **befa** | /be.fa/ | beef | | 
 | **porki** | /por.ki/ | pork | | 
@@ -812,8 +829,8 @@ Social and legal entities (not professions):
 | **ces** | /tes/ | cheese | | 
 | **buter** | /buter/ | butter | | 
 | **cream** | /kriam/ | cream | | 
-| **supa** | /su.pa/ | soup | | La sup es hot. |
-| **dina** | /di.na/ | dinner | | Wi eat dina at nait. → We eat dinner at night. |
+| **supa** | /su.pa/ | soup | | La supa es hota. |
+| **dina** | /di.na/ | dinner | | Wi eata dina at noita. → We eat dinner at night. |
 | **salada** | /sa.la.da/ | salad | | 
 | **salta** | /sal.ta/ | salt | | 
 | **sugar** | /sukr/ | sugar | | 
@@ -861,19 +878,19 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Example |
 |------|-----|---------|---------|
-| **jir** | /jir/ | year | Wan jir hav ten-tu mont-en. |
+| **jir** | /jir/ | year | Wan jir hava ten-tu mont-en. |
 | **monta** | /mon.ta/ | month | Wot mont es nau? |
-| **dei** | /dei/ | day | Nau-dei mi wok. |
+| **dei** | /dei/ | day | Nau-dei mi werka. |
 | **sekonda** | /se.kon.da/ | second | 
-| **moring** | /moring/ | morning | Mi wok evri moring. |
+| **moring** | /moring/ | morning | Mi werka evri moring. |
 | **noon** | /nun/ | noon | La sun es at top at noon. |
 | **aftnaun** | /aftnaun/ | afternoon | 
 | **eveing** | /iveing/ | evening | 
 | **noita** | /noi.ta/ | night | La star-en shine at noit. |
-| **midnaighta** | /mid.naig.hta/ | midnight | La midnaight es very kwaiat. |
+| **midnaighta** | /mid.naig.hta/ | midnight | La midnaight es very kwaiata. |
 | **spring** | /spring/ | spring | Plant-en gro in spring. |
 | **samra** | /sam.ra/ | summer | La sun es strong in samr. |
-| **fol** | /fol/ | fall / autumn | La leaf-en fal in fol. |
+| **fol** | /fol/ | fall / autumn | La folia-n fal in fol. |
 | **winter** | /winter/ | winter | La snow fal in winter. |
 | **centuri** | /senturi/ | century | Wan centuri es hundred jir-en. |
 
@@ -881,44 +898,44 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **woda** | /wo.da/ | word | | Mi lern nu wod-en. |
+| **woda** | /wo.da/ | word | | Mi lerna nu wod-en. |
 | **langwija** | /lan.gwi.ja/ | language | | VELA es nu langwij. |
-| **buka** | /bu.ka/ | book | ← Latin: liber, recogn. | Mi rid la buk. |
-| **paper** | /peiper/ | paper | | Mi rit on la paper. |
-| **pen** | /pen/ | pen | | Mi rit wit pen. |
+| **buka** | /bu.ka/ | book | ← Latin: liber, recogn. | Mi rida la buka. |
+| **paper** | /peiper/ | paper | | Mi rita on la paper. |
+| **pen** | /pen/ | pen | | Mi rita wit pen. |
 | **pensil** | /pensil/ | pencil | | 
 | **inka** | /in.ka/ | ink | | 
 | **poster** | /poster/ | poster | | 
 | **notis** | /notis/ | notice | | 
-| **sain** | /sain/ | sign | | La sain es big. |
+| **sain** | /sain/ | sign | | La sain es biga. |
 | **mapa** | /ma.pa/ | map | | Mi luk at la map. |
 | **piktur** | /piktur/ | picture | | La piktur es nais. |
 | **foto** | /foto/ | photo | | Mi tak un foto. |
-| **filma** | /fil.ma/ | film / movie | | Wi si la film. |
-| **sonja** | /son.ja/ | song | | Wi sing la sonj. |
+| **filma** | /fil.ma/ | film / movie | | Wi si la filma. |
+| **sonja** | /son.ja/ | song | | Wi sing la sonja. |
 | **muzika** | /mu.zi.ka/ | music | | Mi lik la muzik. |
 | **riten** | /riten/ | writing | | 
 | **stor** | /stor/ | story | | La stor es interesting. |
-| **nius** | /nius/ | news | | La nius es sad. |
+| **nius** | /nius/ | news | | La nius es sada. |
 | **kanal** | /kanal/ | channel | | La kanal brodkast la program. |
 | **radia** | /radia/ | radio | | Mi lisn tu la radia. |
 | **interneta** | /in.ter.ne.ta/ | internet | | Wi komunikat via internet. |
 | **meil** | /meil/ | mail | | Mi resiv meil. |
-| **leter** | /leter/ | letter | | Mi rit un leter. |
+| **leter** | /leter/ | letter | | Mi rita un leter. |
 | **paketa** | /pa.ke.ta/ | package | | Mi resiv un paket. |
 | **far-tok-box** | /far.tok.boks/ | telephone | | Mi kal on la far-tok-box. |
 | **kom-tok** | /kom.tok/ | conversation | | La kom-tok es interesting. |
-| **newspaper** | /nuspeiper/ | newspaper | | Mi rid la newspaper evri moring. |
+| **newspaper** | /nuspeiper/ | newspaper | | Mi rida la newspaper evri moring. |
 | **komiksa** | /ko.mik.sa/ | comics | | 
 | **diksbri** | /diksbri/ | dictionary | | Mi luku in la diksbri. |
 | **gramra** | /gram.ra/ | grammar | | VELA gramr es simpli. |
-| **vokabulari** | /vokabulari/ | vocabulary | | Mi lern nu vokabulari. |
+| **vokabulari** | /vokabulari/ | vocabulary | | Mi lerna nu vokabulari. |
 
 ### Technology and Tools
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **kalkulato** | /kal.ku.la.to/ | computer | | Mi wok on la kalkulato. |
+| **kalkulato** | /kal.ku.la.to/ | computer | | Mi werka on la kalkulato. |
 | **fon** | /fon/ | phone | | Mi her mi fon. |
 | **mobil** | /mobil/ | mobile | | Mi fon es mobil. |
 |
@@ -939,20 +956,20 @@ Social and legal entities (not professions):
 | **program** | /program/ | program | | La program es useful. |
 | **webseita** | /web.sei.ta/ | website | | |
 | **server** | /server/ | server | | |
-| **data** | /data/ | data | | La data es importent. |
+| **data** | /data/ | data | | La data es importenta. |
 | **klouda** | /klou.da/ | cloud | | La data es in la kloud. |
 | **sityu** | /situ/ | city (modern) | | |
-| **wifi** | /wifi/ | Wi-Fi | | La wifi es fast. |
+| **wifi** | /wifi/ | Wi-Fi | | La wifi es fasta. |
 | **paswrda** | /pas.wrda/ | password | | Mi Paswrd es sekri. |
 | **profil** | /profil/ | profile | | |
 | **nettwerka** | /net.twer.ka/ | network | | |
 | **virus** | /virus/ | virus | | La virus es dangerus. |
 | **passporta** | /pas.spor.ta/ | passport | | |
 | **bileta** | /bi.le.ta/ | ticket | | Mi bai un bilet. |
-| **masin** | /masin/ | machine | | La masin wok wel. |
+| **masin** | /masin/ | machine | | La masin werka wel. |
 | **engin** | /engin/ | engine | | La engin of la kar. |
 | **traktor** | /traktor/ | tractor | | |
-| **robota** | /ro.bo.ta/ | robot | | La robot wok fast. |
+| **robota** | /ro.bo.ta/ | robot | | La robot werka fasta. |
 | **tool** | /tul/ | tool | | Mi masin gav la tool-en. |
 | **nail** | /neil/ | nail | | |
 | **skru** | /skru/ | screw | | |
@@ -1030,17 +1047,17 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **kar** | /kar/ | car | | La kar es fast. |
+| **kar** | /kar/ | car | | La kar es fasta. |
 | **truka** | /tru.ka/ | truck | | |
 | **bis** | /bis/ | bus | | Wi go wit la bis. |
 | **trein** | /trein/ | train | | Wi travel by trein. |
-| **baikel** | /baikel/ | bicycle | | Mi rid la baikel. |
+| **baikel** | /baikel/ | bicycle | | Mi raida la baikel. |
 | **motorbaika** | /mo.tor.bai.ka/ | motorcycle | | |
 | **aereplan** | /aereplan/ | airplane | | Wi flai by aereplan. |
 | **shipa** | /shi.pa/ | ship | | Wi travl by ship. |
 | **boota** | /boo.ta/ | boat | | |
 | **taxi** | /taksi/ | taxi | | Mi teik la taxi. |
-| **sik-fast-kar** | /sik.fast.kar/ | ambulance | | La sik-fast-kar kom fast. |
+| **sik-fast-kar** | /sik.fast.kar/ | ambulance | | La sik-fast-kar kom fasta. |
 | **polis-kar** | /polis.kar/ | police car | | |
 | **trein-stashon** | /trein.stashon/ | train station | | Wi asiv at la trein-stashon. |
 | **flai-ground** | /flai.graund/ | airport | | |
@@ -1055,26 +1072,26 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **biznes** | /biznes/ | business | | Mi hav un biznes. |
-| **kompani** | /kompani/ | company | | La kompani es big. |
+| **biznes** | /biznes/ | business | | Mi hava un biznes. |
+| **kompani** | /kompani/ | company | | La kompani es biga. |
 | **mak-hous** | /mak.haus/ | factory | | La mak-hous maki product-en. |
-| **shopa** | /sho.pa/ | shop | | Mi bai fud from shop. |
-| **marketa** | /mar.ke.ta/ | market | | La market es bizi. |
-| **eat-hous** | /it.haus/ | restaurant | | Wi it in la eat-hous. |
+| **shopa** | /sho.pa/ | shop | | Mi bai fud from shopa. |
+| **marketa** | /mar.ke.ta/ | market | | La marketa es bizi. |
+| **eat-hous** | /it.haus/ | restaurant | | Wi eata in la eat-hous. |
 | **moni** | /moni/ | money | | Mi need mor moni. |
 | **sallery** | /saleri/ | salary | | Mi resiv sallery evri mont. |
-| **prize** | /praiz/ | prize / price | | La prize es high. |
+| **prize** | /praiz/ | prize / price | | La prize es hai. |
 | **gain** | /gain/ | profit / gain | La biznes mak gain. |
 | **kosla** | /kos.la/ | cost | | La kost es low. |
 | **shopping** | /soping/ | shopping | | Mi du shopping evri wik. |
 | **kontracta** | /kon.trac.ta/ | contract | | Mi sign la kontract. |
-| **miting** | /miting/ | meeting | | Wi hav miting at three. |
-| **klienti** | /klien.ti/ | client | | Mi klient es importent. |
+| **miting** | /miting/ | meeting | | Wi hava miting at three. |
+| **klienti** | /klien.ti/ | client | | Mi klient es importenta. |
 | **konsumer** | /konsumer/ | consumer | | |
-| **producta** | /pro.duc.ta/ | product | | La product es gud. |
+| **producta** | /pro.duc.ta/ | product | | La product es guda. |
 | **branda** | /bran.da/ | brand | | |
 | **advertais** | /advertais/ | advertisement | | |
-| **kastomer** | /kastomer/ | customer | | La kastomer es importent. |
+| **kastomer** | /kastomer/ | customer | | La kastomer es importenta. |
 | **big-biznes** | /big.biz.nes/ | corporation | | |
 
 ### Government and Law
@@ -1090,8 +1107,8 @@ Social and legal entities (not professions):
 | **korta** | /kor.ta/ | court | | La lafyer go tu kort. |
 | **juri** | /juri/ | jury | | La juri desid. |
 | **juis** | /juis/ | judge | | La juis diksid la kas. |
-| **kriminal** | /kriminal/ | criminal | | La kriminal es kold. |
-| **krime** | /kraim/ | crime | | La krime es bad. |
+| **kriminal** | /kriminal/ | criminal | | La kriminal es kol. |
+| **krime** | /kraim/ | crime | | La krime es bada. |
 | **prison** | /prison/ | prison | | La kriminal go tu prison. |
 | **army** | /armi/ | army | | |
 | **navy** | /nevi/ | navy | | |
@@ -1103,14 +1120,14 @@ Social and legal entities (not professions):
 
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
-| **syensa** | /syen.sa/ | science | | Syens es importent. |
+| **syensa** | /syen.sa/ | science | | Syens es importenta. |
 | **sientista** | /sien.tis.ta/ | scientist | | La sientist reserch. |
 | **medisin** | /medisin/ | medicine / drug | | La medisin kure la siknes. |
-| **siknes** | /siknes/ | sickness / disease | | La siknes es bad. |
+| **siknes** | /siknes/ | sickness / disease | | La siknes es bada. |
 | **healta** | /heal.ta/ | health | | Healt es welth. |
 | **in-bodi** | /in.bo.di/ | body modification | | |
 | **injuri** | /injuri/ | injury | | La injuri es serius. |
-| **akcidenta** | /ak.ci.den.ta/ | accident | | La akcident es sad. |
+| **akcidenta** | /ak.ci.den.ta/ | accident | | La akcident es sada. |
 | **kur** | /kur/ | cure | | La medisin kur la siknes. |
 | **priventa** | /pri.ven.ta/ | prevention | | |
 | **bitamin** | /bitamin/ | vitamin | | |
@@ -1126,12 +1143,12 @@ Social and legal entities (not professions):
 | **bioloji** | /bioloji/ | biology | | |
 | **kimistri** | /kimistri/ | chemistry | | |
 | **fiziksa** | /fi.zik.sa/ | physics | | |
-| **matamatiksa** | /ma.ta.ma.tik.sa/ | mathematics | | Mi lern matamatiks. |
+| **matamatiksa** | /ma.ta.ma.tik.sa/ | mathematics | | Mi lerna matamatiks. |
 | **nomber** | /nomber/ | number | | Wan nomber es twenty. |
 | **formul** | /formul/ | formula | | |
 | **eksperimnta** | /ek.spe.rim.nta/ | experiment | | La sientist don eksperimnt. |
 | **teori** | /te.o.ri/ | theory | | |
-| **diskover** | /diskover/ | discovery | | La diskover es importent. |
+| **diskover** | /diskover/ | discovery | | La diskover es importenta. |
 | **technoloji** | /teknoloji/ | technology | | Technoloji es modern. |
 | **invenshon** | /invenshon/ | invention | | La invenshon change la waild. |
 | **intilijensa** | /in.ti.li.jen.sa/ | intelligence | | Artficial intelijens es powerful. |
@@ -1142,24 +1159,24 @@ Social and legal entities (not professions):
 | Word | AFI | English | Compound notes | Example |
 |------|-----|---------|---------------|---------|
 | **idea** | /aidea/ | idea | | La idea es simpli. |
-| **problem** | /problem/ | problem | | La problem es big. |
+| **problem** | /problem/ | problem | | La problem es biga. |
 | **solushon** | /solushon/ | solution | | La solushon es esi. |
-| **risolti** | /ri.sol.ti/ | result | | La risolt es gud. |
+| **risolti** | /ri.sol.ti/ | result | | La risolt es guda. |
 | **reason** | /rizon/ | reason | | Wat es la reason? |
-| **efecta** | /e.fec.ta/ | effect | | La efect es big. |
+| **efecta** | /e.fec.ta/ | effect | | La efect es biga. |
 | **caus** | /kauz/ | cause | | La caus es unkown. |
 | **chansa** | /chan.sa/ | chance | | La chans es smol. |
-| **riska** | /ris.ka/ | risk | | La risk es big. |
-| **sukses** | /sukses/ | success | | Sukses es gud. |
+| **riska** | /ris.ka/ | risk | | La risk es biga. |
+| **sukses** | /sukses/ | success | | Sukses es guda. |
 | **faiolra** | /faiol.ra/ | failure | | Faiolr es part of lerning. |
-| **progressa** | /prog.res.sa/ | progress | | Wi mak progress. |
+| **progressa** | /prog.res.sa/ | progress | | Wi maka progress. |
 | **chang** | /tcainj/ | change | | La chang es rapid. |
-| **difikulti** | /difikulti/ | difficulty | | La difikulti es big. |
-| **oportuniti** | /oportiuniti/ | opportunity | | La oportuniti es big. |
-| **abilliti** | /abiliti/ | ability | | Mi abilliti es big. |
+| **difikulti** | /difikulti/ | difficulty | | La difikulti es biga. |
+| **oportuniti** | /oportiuniti/ | opportunity | | La oportuniti es biga. |
+| **abilliti** | /abiliti/ | ability | | Mi abilliti es biga. |
 | **power** | /pauer/ | power | | La power es strong. |
 | **respekta** | /res.pek.ta/ | respect | | Mi respet yu. |
-| **responsa** | /res.pon.sa/ | responsibility | | La respons es big. |
+| **responsa** | /res.pon.sa/ | responsibility | | La respons es biga. |
 | **righta** | /rig.hta/ | right (correct) | | Yu es rait. |
 | **rong** | /rong/ | wrong | | La anser es rong. |
 | **tru** | /tru/ | true | | La stori es tru. |
@@ -1170,7 +1187,7 @@ Social and legal entities (not professions):
 | **rar** | /rar/ | rare | | La oportuniti es rar. |
 | **imposibel** | /imposibel/ | impossible | | La task es imposible. |
 | **posibel** | /posibel/ | possible | | La plan es posibel. |
-| **nesesar** | /nesesar/ | necessary | | La wok es nesesari. |
+| **nesesar** | /nesesar/ | necessary | | La werka es nesesari. |
 | **sufisenta** | /su.fi.sen.ta/ | sufficient | | La moni es suficent. |
 | **exakta** | /e.xak.ta/ | exact | | La ansr es exakt. |
 | **aproximta** | /ap.ro.xim.ta/ | approximate | | La kalkulashon es aproximt. |
@@ -1389,7 +1406,7 @@ If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
 | **mini** | /mi.ni/ | noun | mind | — | — |
-| **luki** | /lu.ki/ | noun | luck | loan (was lai — homonym with "to lie down") | Yu hav gud luki. |
+| **luki** | /lu.ki/ | noun | luck | loan (was lai — homonym wit "to lie daun") | Yu hav gud luki. |
 | **habita** | /ha.bi.ta/ | noun | habit | — | — |
 | **profita** | /pro.fi.ta/ | noun | profit | — | — |
 | **deti** | /de.ti/ | noun | debt | — | — |

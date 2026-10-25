@@ -334,3 +334,85 @@ R10 era la única excepción a este principio (una palabra libre —sin guion—
 El fonólogo (autor de R10) retiró su argumento de saliencia prosódica como sobreanálisis: `un reda bol` no suena entrecortado, y adjetivo+sustantivo son dos palabras separadas, no un compuesto prosódico. Cross-lingüísticamente el adjetivo invariable es el default (inglés, chino, criollos).
 
 **Aplicado:** gramática §5, Libro 1 §4.5, y los 5 cursos (callouts que enseñaban R10 reescritos + atributivos pelados → forma de cita). El léxico NO cambia (las formas de cita ya eran los headwords).
+
+---
+
+## R18 — Las 13 palabras sin acuñar del corpus (ratificada 2026-10-22)
+
+**Origen:** `scripts/validate_phonology.py --corpus` daba 17 errores y todos venían de 13 conceptos ingleses que el corpus usaba sin forma VELA. Dossier: `vote/topics/dossier_13_words.md`.
+**Comité:** 5 especialistas (fonólogo, morfólogo, lexicógrafo, semantista, esteticista) como subagentes Claude, solo lectura — motor elegido por el usuario. Votos individuales en `vote/topics/proposals/r18_13words_*.md`; conteo en `vote/topics/discussion_plan.md`.
+
+**Hallazgo que cambió la ronda:** 4 de las 13 no necesitaban acuñarse — ya existían en el léxico o en el corpus sin headword (mismo patrón que `hier`/`kolor` en R9): `brita`, `lifa-`, `onli`, `alon`.
+
+| # | Inglés | Forma VELA | Tipo | Voto |
+|---|--------|-----------|------|------|
+| 1 | breath | `brita` / `brit-` | existente | 5-0 |
+| 2 | life | `lifa` /ˈli.fa/ — el ligado `lifa-` pasa a headword | existente | 5-0 |
+| 3 | breakfast | `moring-fud` | compuesto (R3) | 4-0 |
+| 4 | much | `meni` cubre much y many; "How much?" = `Hou meni?` | existente, re-glosado | 3-0 |
+| 5 | still (todavía) | `yeta` /ˈje.ta/ | átomo | 2-2, desempate del esteticista; confirmado por el usuario |
+| 6 | about (sobre, acerca de) | `abau` /aˈbau/ | átomo | sin mayoría (4 formas), desempate del esteticista |
+| 7 | lost | paráfrasis `Mi no nou la wei` | construcción | 2-2, desempate del esteticista |
+| 8 | ahead | `fronta-wei` (= forward) | existente | 4-1 |
+| 9 | behind | `baki-wei` | compuesto, espejo de #8 | 3-2 |
+| 10 | just (meramente) | `onli` (= only) | existente sin headword | 5-0 |
+| 11 | out | `auta` / `aut-`; **`aut-` es la única ortografía de /au/** | átomo + ortografía | 4-1 |
+| 12 | solitude | `alon-nes`; `alon` (alone) pasa a headword | compuesto | pluralidad 2; elegido por el usuario |
+| 13 | stick (palo) | `stika` / `stik-` (`stik-hous`) | átomo (R7) | 3-2 |
+
+**Átomos nuevos: 4** (`yeta`, `abau`, `auta`, `stika`). Headwords formalizados: `lifa`, `onli`, `alon`. Dentro del presupuesto de R1.
+
+**Notas de canon:**
+- **`abau`** termina en diptongo, que R2 cuenta como final en vocal (sección de la vocal temática, arriba): no lleva `-a`. Se eligió por cadencia — aparece 4 veces seguidas en `SHORT_STORY_BIRD.md`. Solo el sentido "acerca de"; "aproximadamente" necesitará su propia forma.
+- **`yeta`** es el par aspectual de `olredi` (ya / todavía). Desplaza el `stil` informal que usaban dos ejemplos del léxico (`LEXICON_EXPANSION.md:552`, `:889`); esos ejemplos pasan a `yeta`. Disidencia registrada (fonólogo, morfólogo): `/l/` es coda blanda, así que `stil` no chocaba con `stila` (robar) y no hacía falta acuñar.
+- **`meni`** pierde el matiz contable: VELA no distingue much/many en el cuantificador; lo contable lo dice el sustantivo.
+- **lost:** no hay adjetivo `losta` por ahora. Si hace falta "objeto perdido", se decide en otra ronda — sin derivarlo de `luza` como participio (R12).
+- **`stik-hous`** lleva guion: forma pelada dentro de compuesto (R17).
+
+**Pendientes registrados (fuera de alcance):** `outputa` → `autputa`; `lifa-koda`/`lifa-tipa`/`lifa-lerna` → `lif-` (R7, `/f/` es coda dura); `moring` (léxico) vs `morne` (corpus).
+
+---
+
+## R19 — Formas peladas como palabras libres: siempre forma de cita (ratificada unánime 2026-10-22)
+
+**Origen:** la migración R8 del corpus (`c6d0cfb`) se detuvo en 308 tokens (59 palabras, 113 en los cursos) porque el canon se contradecía: la tabla de R8 listaba `tok`, `liv`, `lern` como "legales sueltas", mientras R7, R17 y el léxico (`toka`, `livi`, `lerna`) decían forma de cita. Dossier: `vote/topics/dossier_r19_bare_forms.md`.
+**Comité:** 5 especialistas, subagentes Claude, solo lectura (motor elegido por el usuario). Votos en `vote/topics/proposals/r19_bare_forms_*.md`; síntesis en `vote/topics/discussion_plan.md`.
+
+**Decisión (A, 5-0):** toda raíz de contenido que termine en consonante dura **o en grupo de consonantes** usa la **forma de cita** cuando va libre (espacio). La forma pelada solo existe dentro de compuestos (guion) y ante sufijo (`-ed`, `-wil`, `-en`, `-se`, `-to`). Sin excepciones para raíces frecuentes.
+
+- `Mi liv siti-to` → `Mi livi siti-to` · `Mi mak` → `Mi maka` · `Yu lern VELA` → `Yu lerna VELA`
+- `La bird sing` → `La birda sing` · `wan old dog` → `wan olda doga` (esto último ya lo exigía R17)
+- Intactos: `liv-ed`, `bird-en`, `lern-hous`, `mak-tin`.
+
+**Fe de erratas de R8:** las filas `tok` y `liv` de la tabla "Legal suelta" contradicen su propio encabezado ({n,m,l,r,s,ng}); son restos de un borrador anterior a R7. `lern` es otro caso (su consonante final /n/ es blanda, el problema es el grupo `-rn`) pero se resuelve igual: ningún texto del canon autoriza un grupo final — `PHONOLOGY_FINAL.md` §3.2 solo admite codas de UNA consonante y §4 limita los grupos al inicio de sílaba. La lista de grupos prohibidos de R2 era un inventario de los casos rotos en su momento, no una lista cerrada.
+
+**Opción C rechazada (5-0):** exentar raíces frecuentes (`liv`, `mak`, `old`…) como a las palabras-función reintroduciría la excepción por palabra que R17 eliminó para los adjetivos. Las palabras-función de R7 están exentas porque son átonas; `liv` o `mak` son palabras con acento, a menudo al final de la frase, donde la coda se oye más.
+
+**Alcance de la aplicación:**
+1. Corpus `docs/texts/` y los 5 cursos: los 308 tokens.
+2. Ejemplos del propio léxico que usan forma pelada (`LEXICON_BASE.md`: `Mi tok wit yu`, `Wi liv la siti-to`, `Mi mak la disf`, `Yu lern VELA`, `la old hous`, `La bird sing`, …) y regenerar el diccionario.
+3. `GRAMMAR_COMPLETE.md` §6.1: sacar `lern` de la fila de coda blanda.
+
+**Huecos (Q5):** `enuf` → headword `enufa` (ya implícito en `enufa-hapi`). `kart` (cartas) y `own` (adjetivo) quedan **bloqueados**: `karta` = constitución y `owna` = poseer; necesitan acuñación aparte.
+
+---
+
+## R20 — Tres palabras faltantes + headwords heredados con coda dura (ratificada 2026-10-22)
+
+**Origen:** lo que R19 dejó abierto. Dossier: `vote/topics/dossier_r20_coinage_and_legacy.md`. Comité: 5 especialistas, subagentes Claude, solo lectura (motor elegido por el usuario). Votos en `vote/topics/proposals/r20_*.md`; conteo en `vote/topics/discussion_plan.md`.
+
+**A — palabras faltantes**
+- **"light" (luz) = `laita`** (3-1). El sentido de iluminación es el dominante: 8 usos libres en el corpus y ~9 en ejemplos del léxico, contra 0 usos correctos de "liviano". La forma ligada `lait-` (`soft-lait`, `son-lait`, `lait-red`…) queda tal cual: es exactamente la forma pelada de `laita` (R7). **"light" (peso) = `no-hevi`** (no + `hevi` heavy). Disidencia: el lexicógrafo prefería acuñar `luma`.
+- **"card(s)" = `karda`** (2-0). Del latín *charta* (fr. carte, es./it. carta, en. card, al. Karte). `karta` sigue siendo "constitución".
+- **"own" (adjetivo): no se acuña** (4-0). El genitivo `-se` ya es el posesivo enfático: "their own houses" = `de-se hous-en`.
+
+**B — headwords heredados** (R19 aplicado a las entradas)
+- Renombrados a forma de cita: `nof` → **`nofa`**, `art` → **`arta`**, `grup` → **`grupa`**, `tip` → **`tipa`**, `stap` → **`stapa`**, `let` → **`leta`**, `ap` → **`apa`**. Ningún compuesto cambia: todos ya usaban la raíz pelada.
+- `leta` = "late" obliga a corregir los 3 ejemplos que usaban `leta` por "letter" → `leter` (headword real, `LEXICON_BASE.md:924`).
+- **`wot`** (which) es palabra-función, exenta como `wat` (3-0).
+- **`sav`** se fusiona en **`sava`** (5-0): eran la misma palabra.
+- **`net`** (network) **no** se fusiona con `neta` = red de pesca (3-2). **`bit`** (computación) **no** se fusiona con `bita` = amargo (5-0). **Forma para ambos: ABIERTA** — ninguna propuesta llegó a votación. `brain-neta` sigue la decisión de "network".
+
+**C — modales:** después de un modal el verbo va libre, así que lleva forma de cita: "shod + bare root" → "+ forma de cita", `Yu shod kom` → `Yu shoda kom`. Lo mismo en `GRAMMAR_COMPLETE.md` ("Main verb is bare root") y su ejemplo `Wi mas wok` → `Wi mas werka` (R11).
+
+**Errata de paso:** `la laimt box` → `la no-hevi box` (`LEXICON_BASE.md:406`, el ejemplo de "liviano"); las 2 migraciones erróneas `light` → `laita` del corpus quedan correctas ahora que `laita` es "luz".

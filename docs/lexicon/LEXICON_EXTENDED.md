@@ -53,11 +53,11 @@ These rules govern every word proposed in this document:
 | **koda** | /ko.da/ | noun | code (source) | loan — international (+/a/) | La koda es long. |
 | **buga** | /bu.ga/ | noun | software bug | loan — phonetically valid (+/a/) | La buga stop la program. |
 | **folta-fiksa** | /fol.ta.fik.sa/ | verb | debug | fault + fix | Mi folta-fiksa la koda. |
-| **algoritmo** | /a.lo.rit.mo/ | noun | algorithm | loan — international scientific | La algoritmo es fast. |
+| **algoritmo** | /a.lo.rit.mo/ | noun | algorithm | loan — international scientific | La algoritmo es fasta. |
 | **kompail** | /kom.pail/ | verb | compile | adapted loan | Mi kompail la koda. |
 | **ran-taim** | /ran.taim/ | noun | runtime | run + time | La buga aper in ran-taim. |
 | **instruka** | /in.stru.ka/ | noun | instruction / prompt | adapted loan (+/a/) | La instruka es klar. |
-| **funkshon** | /funk.shon/ | noun | function | adapted loan | La funkshon mak la kalkulashon. |
+| **funkshon** | /funk.shon/ | noun | function | adapted loan | La funkshon maka la kalkulashon. |
 | **lupa** | /lu.pa/ | noun/verb | loop | loan (+/a/) | La lupa run ten taim. |
 | **chanja-tip** | /chan.ja.tip/ | noun | variable | change (loan +/a/) + type | La chanja-tip kip la data. |
 | **edi-shon** | /e.di.shon/ | noun | version | edit + -shon | La edi-shon 2 es new. |
@@ -65,20 +65,20 @@ These rules govern every word proposed in this document:
 | **testa-koda** | /tes.ta.ko.da/ | noun | unit test | test + code | La testa-koda chek la funkshon. |
 | **repositori** | /re.po.si.to.ri/ | noun | repository | adapted loan | La koda es in la repositori. |
 | **komita** | /ko.mi.ta/ | noun/verb | commit (git) | adapted loan (+/a/) | Mi komita la chang. |
-| **brancha** | /bran.cha/ | noun | branch (git) | loan (+/a/) | Mi mak un brancha. |
+| **brancha** | /bran.cha/ | noun | branch (git) | loan (+/a/) | Mi maka un brancha. |
 | **deploy** | /de.ploi/ | verb | deploy | adapted loan | Wi deploy la aplik. |
 
 ### Hardware
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **brain-chipa** | /brein.chi.pa/ | noun | CPU / processor | brain + chip (+/a/) | La brain-chipa es fast. |
+| **brain-chipa** | /brein.chi.pa/ | noun | CPU / processor | brain + chip (+/a/) | La brain-chipa es fasta. |
 | **piktur-chipa** | /pik.tur.chi.pa/ | noun | GPU | picture + chip (+/a/) | La piktur-chipa ren la grafik. |
 | **woka-mem** | /wo.ka.mem/ | noun | RAM | working + memory | La woka-mem es 16 giga. |
 | **data-diska** | /da.ta.dis.ka/ | noun | hard drive / SSD | data + disk (+/a/) | La data-diska kip la file-n. |
 | **chipa** | /chi.pa/ | noun | chip (silicon) | loan (+/a/) | La chipa es smol and powerful. |
 | **porta-konekta** | /por.ta.ko.nek.ta/ | noun | port (USB etc.) | port + connect | Mi plog in la porta-konekta. |
-| **skrin-tocha** | /skrin.to.cha/ | noun | touchscreen | screen + touch (+/a/) | La skrin-tocha respond fast. |
+| **skrin-tocha** | /skrin.to.cha/ | noun | touchscreen | screen + touch (+/a/) | La skrin-tocha respond fasta. |
 | **inputa** | /in.pu.ta/ | noun | input | loan (+/a/) | La kibod es inputa. |
 | **outputa** | /out.pu.ta/ | noun | output | loan (+/a/) | La skrin es outputa. |
 
@@ -86,16 +86,16 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **lowda-in** | /low.da.in/ | verb | download | load + in | Mi lowda-in la film. |
+| **lowda-in** | /low.da.in/ | verb | download | load + in | Mi lowda-in la filma. |
 | **lowda-upa** | /low.da.u.pa/ | verb | upload | load + up (+/a/) | Mi lowda-upa la foto. |
 | **strim** | /strim/ | verb/noun | stream | adapted loan | Wi strim la muzik. |
 | **klauda-sava** | /klau.da.sa.va/ | noun | cloud storage | cloud + save (+/a/) | La data es in la klauda-sava. |
 | **protokol** | /pro.to.kol/ | noun | protocol | adapted loan | La protokol es sekri. |
-| **konekshon** | /ko.nek.shon/ | noun | connection | adapted loan | La konekshon es fast. |
+| **konekshon** | /ko.nek.shon/ | noun | connection | adapted loan | La konekshon es fasta. |
 | **IP-adresa** | /ip.a.dre.sa/ | noun | IP address | IP + address (+/a/) | La IP-adresa es unik. |
 | **domain** | /do.main/ | noun | domain | adapted loan | La domain es nais. |
 | **apli-brija** | /ap.li.bri.ja/ | noun | API | application + bridge | La apli-brija konekt la sistem-en. |
-| **mikro-servis** | /mi.kro.ser.vis/ | noun | microservice | micro + service (modifier-head) | La mikro-servis es smol and fast. |
+| **mikro-servis** | /mi.kro.ser.vis/ | noun | microservice | micro + service (modifier-head) | La mikro-servis es smol and fasta. |
 | **loda-balansa** | /lo.da.ba.lan.sa/ | noun | load balancer | load + balance (+/a/) | La loda-balansa distribut la trafik. |
 
 ### Artificial Intelligence
@@ -103,10 +103,10 @@ These rules govern every word proposed in this document:
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **masin-lern** | /ma.sin.lern/ | noun | machine learning | machine + learn | `masin-lern` chang la waild. |
-| **brain-neta** | /brein.ne.ta/ | noun | neural network | brain + network (+/a/) | La brain-neta lern from data. |
-| **lerna-modla** | /ler.na.mod.la/ | noun | AI model | learn + model | La lerna-modla es big. |
+| **brain-neta** | /brein.ne.ta/ | noun | neural network | brain + network (+/a/) | La brain-neta lerna from data. |
+| **lerna-modla** | /ler.na.mod.la/ | noun | AI model | learn + model | La lerna-modla es biga. |
 | **lern-data** | /lern.da.ta/ | noun | training data | learn + data | Wi pripar la lern-data. |
-| **ai-instruka** | /ai.in.stru.ka/ | noun | prompt (AI) | AI + instruction | Mi rit un ai-instruka. |
+| **ai-instruka** | /ai.in.stru.ka/ | noun | prompt (AI) | AI + instruction | Mi rita un ai-instruka. |
 | **auto-lern** | /au.to.lern/ | noun | self-supervised learning | self + learn | La auto-lern no need label-en. |
 | **predika** | /pre.di.ka/ | verb | predict | adapted loan (+/a/) | La modl predika la risolt. |
 | **predikshon** | /pre.dik.shon/ | noun | prediction | adapted loan | La predikshon es rait. |
@@ -120,11 +120,11 @@ These rules govern every word proposed in this document:
 | **data-beis** | /da.ta.beis/ | noun | database | data + base | La data-beis kip milyon rekorda-n. |
 | **data-aska** | /da.ta.as.ka/ | noun/verb | query | data + ask (+/a/) | Mi run la data-aska. |
 | **kripta** | /krip.ta/ | verb/noun | encrypt / encryption | adapted loan (+/a/) | Mi kripta la data. |
-| **baka-upa** | /ba.ka.u.pa/ | noun/verb | backup | back + up (+/a/) | Mi mak baka-upa evri dei. |
+| **baka-upa** | /ba.ka.u.pa/ | noun/verb | backup | back + up (+/a/) | Mi maka baka-upa evri dei. |
 | **sinkra** | /sin.kra/ | verb | sync | adapted loan (+/a/) | La data sinkra in klaud. |
-| **rekorda** | /re.kor.da/ | noun | record (DB row) | adapted loan (+/a/) | La data-beis hav milyon rekorda-n. |
-| **kolum** | /ko.lum/ | noun | column | adapted loan | La tebul hav five kolum-en. |
-| **indeksa** | /in.dek.sa/ | noun | index | adapted loan (+/a/) | La indeksa mak la data-aska fast. |
+| **rekorda** | /re.kor.da/ | noun | record (DB row) | adapted loan (+/a/) | La data-beis hava milyon rekorda-n. |
+| **kolum** | /ko.lum/ | noun | column | adapted loan | La tebul hava five kolum-en. |
+| **indeksa** | /in.dek.sa/ | noun | index | adapted loan (+/a/) | La indeksa maka la data-aska fasta. |
 | **kasha** | /ka.sha/ | noun/verb | cache | adapted loan (+/a/) | La browser kasha la webseit. |
 
 ---
@@ -135,20 +135,20 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **selu** | /se.lu/ | noun | cell | Latin *cella* — universal | La bodi hav milyon selu-n. |
+| **selu** | /se.lu/ | noun | cell | Latin *cella* — universal | La bodi hava milyon selu-n. |
 | **jen** | /jen/ | noun | gene | adapted loan | La jen kontrol la selu. |
 | **DNA** | /de.en.a/ | noun | DNA | acronym — international | La DNA es la lifa-koda. |
-| **lifa-koda** | /li.fa.ko.da/ | noun | genetic code | life + code | La lifa-koda mak evri lifa-tipa. |
+| **lifa-koda** | /li.fa.ko.da/ | noun | genetic code | life + code | La lifa-koda maka evri lifa-tipa. |
 | **evolushon** | /e.vo.lu.shon/ | noun | evolution | adapted loan | Evolushon chang la lifa-tipa-n slo. |
-| **lifa-tipa** | /li.fa.ti.pa/ | noun | species | life + type | La Erd hav milyon lifa-tipa-n. |
+| **lifa-tipa** | /li.fa.ti.pa/ | noun | species | life + type | La Erda hava milyon lifa-tipa-n. |
 | **eko-sistam** | /e.ko.sis.tam/ | noun | ecosystem | eco + system | La fores es un eko-sistam. |
 | **adapta** | /a.dap.ta/ | verb | adapt | adapted loan (+/a/) | Lifa-tipa-n adapta to la natur. |
 | **fotosintesis** | /fo.to.sin.te.sis/ | noun | photosynthesis | adapted loan | Plant-en don fotosintesis. |
-| **protein** | /pro.tein/ | noun | protein | adapted loan | Mitn hav much protein. |
+| **protein** | /pro.tein/ | noun | protein | adapted loan | Mitn hava much protein. |
 | **hormon** | /hor.mon/ | noun | hormone | adapted loan | La hormon kontrol la bodi. |
 | **klon** | /klon/ | noun/verb | clone | adapted loan | Sientist-en klon la selu-n. |
 | **mikruba** | /mik.ru.ba/ | noun | microbe | adapted loan (+/a/) | La mikruba es smol. |
-| **bakteri** | /bak.te.ri/ | noun | bacteria | adapted loan | Som bakteri es gud for bodi. |
+| **bakteri** | /bak.te.ri/ | noun | bacteria | adapted loan | Som bakteri es guda for bodi. |
 | **lifa-lerna** | /li.fa.ler.na/ | noun | biology (alt) | life + learn | La lifa-lerna stodi all lifa-tipa-n. |
 
 ### Chemistry
@@ -156,29 +156,29 @@ These rules govern every word proposed in this document:
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **atom** | /a.tom/ | noun | atom | international — universal | La atom es la smolest partikula of elementa. |
-| **molkul** | /mol.kul/ | noun | molecule | adapted loan | Tu atom-en bon to mak un molkul. |
-| **elementa** | /e.le.men.ta/ | noun | element | adapted loan | La period-tebla hav 118 elementa-n. |
+| **molkul** | /mol.kul/ | noun | molecule | adapted loan | Tu atom-en bon to maka un molkul. |
+| **elementa** | /e.le.men.ta/ | noun | element | adapted loan | La period-tebla hava 118 elementa-n. |
 | **reakshon** | /re.ak.shon/ | noun | chemical reaction | adapted loan | La reakshon produk heit. |
 | **asida** | /a.si.da/ | noun | acid | adapted loan (+/a/) | La asida es dangerus. |
 | **alkalin** | /al.ka.lin/ | noun/adj | base / alkaline | adapted loan | La alkalin neutraliz la asida. |
 | **kima-bonda** | /ki.ma.bon.da/ | noun | chemical bond | chemistry + bond | La kima-bonda kip la molkul together. |
 | **kompounda** | /kom.poun.da/ | noun | compound | adapted loan (+/a/) | Watre (H₂O) es un kompounda. |
 | **perioda-tebla** | /pe.rio.da.teb.la/ | noun | periodic table | period + table | La period-tebla shou all elementa-n. |
-| **laboratori** | /la.bo.ra.to.ri/ | noun | laboratory | adapted loan | La sientist wok in la laboratori. |
+| **laboratori** | /la.bo.ra.to.ri/ | noun | laboratory | adapted loan | La sientist werka in la laboratori. |
 
 ### Physics
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **forsa** | /for.sa/ | noun | force | adapted loan (+/a/) | La forsa push la objekt. |
-| **enrji** | /en.rji/ | noun | energy | adapted loan | La son giv enrji to la planite. |
-| **fol-forsa** | /fol.for.sa/ | noun | gravity | fall + force | `fol-forsa` kip wi on la Erd. |
+| **enrji** | /en.rji/ | noun | energy | adapted loan | La son giva enrji to la planite. |
+| **fol-forsa** | /fol.for.sa/ | noun | gravity | fall + force | `fol-forsa` kip wi on la Erda. |
 | **kwantuma** | /kwan.tu.ma/ | noun/adj | quantum | adapted loan | La kwantuma fiziks es kompleks. |
-| **partikula** | /par.ti.ku.la/ | noun | particle | adapted loan | La atom hav smol partikula-n. |
+| **partikula** | /par.ti.ku.la/ | noun | particle | adapted loan | La atom hava smol partikula-n. |
 | **spida** | /spi.da/ | noun | speed | adapted loan (+/a/) | La lait-spida es la fastest in universa. |
-| **masa** | /ma.sa/ | noun | mass (physics) | adapted loan | La masa of la Erd es big. |
+| **masa** | /ma.sa/ | noun | mass (physics) | adapted loan | La masa of la Erda es biga. |
 | **momenta** | /mo.men.ta/ | noun | momentum | adapted loan | La momenta es masa × spida. |
-| **vibra** | /vi.bra/ | verb/noun | vibrate / vibration | adapted loan (+/a/) | La string vibra and mak sonj. |
+| **vibra** | /vi.bra/ | verb/noun | vibrate / vibration | adapted loan (+/a/) | La string vibra and maka sonja. |
 | **wava** | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) | Lait es un elektromagnetek wava. |
 | **magneta** | /mag.ne.ta/ | noun | magnet | international (+/a/) | La magneta atrak metal. |
 | **elektrika** | /e.lek.tri.ka/ | noun/adj | electricity / electric | adapted loan (+/a/) | La elektrika run la lamp. |
@@ -190,17 +190,17 @@ These rules govern every word proposed in this document:
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **universa** | /u.ni.ver.sa/ | noun | universe | adapted loan (+/a/) | La universa es infinit. |
-| **planite** | /pla.ni.te/ | noun | planet | adapted loan | La Erd es un planite. |
+| **planite** | /pla.ni.te/ | noun | planet | adapted loan | La Erda es un planite. |
 | **galaksi** | /ga.lak.si/ | noun | galaxy | adapted loan | La Milki-Wei es un galaksi. |
 | **orbita** | /or.bi.ta/ | noun | orbit (noun) | adapted loan | La planite folo un orbita. |
 | **kometa** | /ko.me.ta/ | noun | comet | adapted loan (+/a/) | La kometa frai tru la skai. |
-| **asteroida** | /as.te.roi.da/ | noun | asteroid | adapted loan (+/a/) | Un asteroida hit la Erd. |
+| **asteroida** | /as.te.roi.da/ | noun | asteroid | adapted loan (+/a/) | Un asteroida hit la Erda. |
 | **blak-hol** | /blak.hol/ | noun | black hole | black + hole | La blak-hol absorb all lait. |
 | **far-si-tool** | /far.si.tul/ | noun | telescope | far + see + tool | Mi luk tru la far-si-tool. |
 | **star-grupa** | /star.gru.pa/ | noun | constellation | star + group (+/a/) | La star-grupa form un patarn. |
-| **son-sistam** | /son.sis.tam/ | noun | solar system | sun + system | Wi liv in la son-sistam. |
+| **son-sistam** | /son.sis.tam/ | noun | solar system | sun + system | Wi livi in la son-sistam. |
 | **astronauta** | /as.tro.nau.ta/ | noun | astronaut | adapted loan (+/a/) | La astronauta go to la skai. |
-| **rokete** | /ro.ke.te/ | noun | rocket | adapted loan | La rokete go fast to skai. |
+| **rokete** | /ro.ke.te/ | noun | rocket | adapted loan | La rokete go fasta to skai. |
 | **supernova** | /su.per.no.va/ | noun | supernova | adapted loan | La supernova es un star-deth eksploshon. |
 
 ### Medicine — Extended
@@ -208,14 +208,14 @@ These rules govern every word proposed in this document:
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **diagnoze** | /di.ag.no.ze/ | noun/verb | diagnosis / diagnose | adapted loan | La dokter diagnoze la siknes. |
-| **simtom** | /sim.tom/ | noun | symptom | adapted loan | Wat simtom yu hav? |
+| **simtom** | /sim.tom/ | noun | symptom | adapted loan | Wat simtom yu hava? |
 | **kura** | /ku.ra/ | noun | treatment | adapted loan | La kura es long. |
 | **imuniiti** | /i.mu.nii.ti/ | noun | immunity | adapted loan | La vaksin bild imuniiti. |
-| **infekshon** | /in.fek.shon/ | noun | infection | adapted loan | La infekshon sprid fast. |
+| **infekshon** | /in.fek.shon/ | noun | infection | adapted loan | La infekshon sprid fasta. |
 | **anti-bodika** | /an.ti.bo.di.ka/ | noun | antibody | anti + body (+/a/) | La anti-bodika fajt la infekshon. |
 | **kron-sika** | /kron.si.ka/ | adj | chronic | chronic + sick (+/a/) | La kron-sika kondishon no go. |
-| **mental-helta** | /men.tal.hel.ta/ | noun | mental health | mental + health | Mental-helta es importent as bodi-healt. |
-| **anestezi** | /a.nes.te.zi/ | noun | anesthesia | adapted loan | La dokter giv anestezi bifor la sergeri. |
+| **mental-helta** | /men.tal.hel.ta/ | noun | mental health | mental + health | Mental-helta es importenta as bodi-healt. |
+| **anestezi** | /a.nes.te.zi/ | noun | anesthesia | adapted loan | La dokter giva anestezi bifor la sergeri. |
 | **sikoloji** | /si.ko.lo.ji/ | noun | psychology | adapted loan | La sikoloji stodi la maind. |
 | **terapia** | /te.ra.pia/ | noun | therapy | adapted loan | Mi go tu terapia evri wik. |
 | **doza** | /do.za/ | noun | dose | adapted loan (+/a/) | Tak tu doza evri dei. |
@@ -228,35 +228,35 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **muzika-tool** | /mu.zi.ka.tul/ | noun | instrument | music + tool | La muzika-tool mak biju sonj. |
-| **muzika-grupa** | /mu.zi.ka.gru.pa/ | noun | orchestra | music + group (+/a/) | La big muzika-grupa plei Betoven. |
+| **muzika-tool** | /mu.zi.ka.tul/ | noun | instrument | music + tool | La muzika-tool maka biju sonja. |
+| **muzika-grupa** | /mu.zi.ka.gru.pa/ | noun | orchestra | music + group (+/a/) | La biga muzika-grupa plei Betoven. |
 | **melodi** | /me.lo.di/ | noun | melody | adapted loan | La melodi es biju. |
-| **ritmo** | /rit.mo/ | noun | rhythm | adapted loan | La ritmo of la sonj mak mi dansi. |
-| **muzika-maka-po** | /mu.zi.ka.ma.ka.po/ | noun | composer | music + make + -po | La muzika-maka-po rit la sonj. |
-| **konser** | /kon.ser/ | noun | concert | adapted loan | Wi go tu la konser nait-dei. |
+| **ritmo** | /rit.mo/ | noun | rhythm | adapted loan | La ritmo of la sonja maka mi dansi. |
+| **muzika-maka-po** | /mu.zi.ka.ma.ka.po/ | noun | composer | music + make + -po | La muzika-maka-po rita la sonja. |
+| **konser** | /kon.ser/ | noun | concert | adapted loan | Wi go tu la konser noit-dei. |
 | **korda** | /kor.da/ | noun | chord | adapted loan (+/a/) | La gitar plei tri korda-n. |
 | **muzika-bita** | /mu.zi.ka.bi.ta/ | noun | beat (music unit) | music + bit (+/a/) | La drum plei la muzika-bita. |
-| **tempa** | /tem.pa/ | noun | tempo | adapted loan | La tempa of la sonj es fast. |
+| **tempa** | /tem.pa/ | noun | tempo | adapted loan | La tempa of la sonja es fasta. |
 | **harmoni** | /har.mo.ni/ | noun | harmony | adapted loan | La kor sing in harmoni. |
 | **gitar** | /gi.tar/ | noun | guitar | adapted loan | Mi plei gitar. |
-| **piano** | /pi.a.no/ | noun | piano | adapted loan — universal | La piano es big and hevi. |
-| **drum** | /drum/ | noun | drum | adapted loan | La drum mak big ritmo. |
-| **viulin** | /vi.u.lin/ | noun | violin | adapted loan | La viulin sonj es biju. |
+| **piano** | /pi.a.no/ | noun | piano | adapted loan — universal | La piano es biga and hevi. |
+| **drum** | /drum/ | noun | drum | adapted loan | La drum maka biga ritmo. |
+| **viulin** | /vi.u.lin/ | noun | violin | adapted loan | La viulin sonja es biju. |
 | **kor** | /kor/ | noun | choir | adapted loan | La kor sing at la god-hous. |
-| **nota-muzika** | /no.ta.mu.zi.ka/ | noun | musical note | note + music | La muzik hav seven nota-muzika-n. |
+| **nota-muzika** | /no.ta.mu.zi.ka/ | noun | musical note | note + music | La muzik hava seven nota-muzika-n. |
 
 ### Visual Arts
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **skulptur** | /skul.pur/ | noun | sculpture | adapted loan | La skulptur es in la arta-hous. |
-| **fotografi** | /fo.to.gra.fi/ | noun | photography | adapted loan | Mi lern fotografi. |
+| **fotografi** | /fo.to.gra.fi/ | noun | photography | adapted loan | Mi lerna fotografi. |
 | **arta-hous** | /ar.ta.haus/ | noun | gallery | art + house | Wi go tu la arta-hous tumoro. |
-| **shou-hous** | /shou.haus/ | noun | exhibition | show + house | La shou-hous start tumoro. |
+| **shou-hous** | /shou.haus/ | noun | exhibition | show + house | La shou-hous starta tumoro. |
 | **kanvasa** | /kan.va.sa/ | noun | canvas | adapted loan (+/a/) | Mi kolori on la kanvasa. |
 | **portreta** | /por.tre.ta/ | noun | portrait | adapted loan (+/a/) | La portreta es of la king. |
-| **mural** | /mu.ral/ | noun | mural | adapted loan | La mural kover la big wal. |
-| **kolaja** | /ko.la.ja/ | noun | collage | adapted loan (+/a/) | La child mak kolaja from paper-en. |
+| **mural** | /mu.ral/ | noun | mural | adapted loan | La mural kover la biga wal. |
+| **kolaja** | /ko.la.ja/ | noun | collage | adapted loan (+/a/) | La childa maka kolaja from paper-en. |
 | **dizain** | /di.zain/ | noun/verb | design | adapted loan | La dizain of la siti es nais. |
 | **stail** | /stail/ | noun | style | adapted loan | Dis es la stail of la artes. |
 
@@ -264,19 +264,19 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **long-stor** | /lon.stor/ | noun | novel | long + story | Mi rid un long-stor. |
-| **poem** | /po.em/ | noun | poem | adapted loan | Mi rit un poem for yu. |
+| **long-stor** | /lon.stor/ | noun | novel | long + story | Mi rida un long-stor. |
+| **poem** | /po.em/ | noun | poem | adapted loan | Mi rita un poem for yu. |
 | **poetri** | /po.et.ri/ | noun | poetry | adapted loan | La poetri es art of wod-en. |
-| **buka-parta** | /bu.ka.par.ta/ | noun | chapter | book + part (+/a/) | La buk hav tu-ten buka-parta-n. |
-| **poem-lain** | /po.em.lain/ | noun | verse | poem + line | La poem hav five poem-lain-en. |
+| **buka-parta** | /bu.ka.par.ta/ | noun | chapter | book + part (+/a/) | La buka hava tu-ten buka-parta-n. |
+| **poem-lain** | /po.em.lain/ | noun | verse | poem + line | La poem hava five poem-lain-en. |
 | **metafor** | /me.ta.for/ | noun | metaphor | adapted loan | La wod es un metafor for luva. |
 | **fikshon** | /fik.shon/ | noun | fiction | adapted loan | Mi lik fikshon more zan non-fikshon. |
 | **non-fikshon** | /non.fik.shon/ | noun | non-fiction | non + fiction | La non-fikshon stor es tru. |
 | **jenra** | /jen.ra/ | noun | genre | adapted loan (+/a/) | Wot jenra yu lik most? |
 | **plota** | /plo.ta/ | noun | plot | adapted loan (+/a/) | La plota of la stor es kompleks. |
-| **karakter** | /ka.rak.ter/ | noun | character (story) | adapted loan | La karakter grow tru la stor. |
+| **karakter** | /ka.rak.ter/ | noun | character (story) | adapted loan | La karakter grota tru la stor. |
 | **narator** | /na.ra.tor/ | noun | narrator | adapted loan | La narator tal la stor. |
-| **simbolisma** | /sim.bo.lis.ma/ | noun | symbolism | adapted loan (+/a/) | La poem hav dep simbolisma. |
+| **simbolisma** | /sim.bo.lis.ma/ | noun | symbolism | adapted loan (+/a/) | La poem hava dep simbolisma. |
 
 ### Film and Theater
 
@@ -284,12 +284,12 @@ These rules govern every word proposed in this document:
 |------|-----|------|---------|-----------|---------|
 | **film-rul-po** | /film.rul.po/ | noun | director | film + rule + -po | La film-rul-po manaj la team. |
 | **film-rita** | /film.ri.ta/ | noun | screenplay | film + write (+/a/) | La film-rita es klar. |
-| **sini** | /si.ni/ | noun | scene | adapted loan | La sini hav tu aktor-en. |
-| **editar** | /e.di.tar/ | noun | editor | adapted loan | La editar kut la film. |
+| **sini** | /si.ni/ | noun | scene | adapted loan | La sini hava tu aktor-en. |
+| **editar** | /e.di.tar/ | noun | editor | adapted loan | La editar kut la filma. |
 | **vizal-efekta** | /vi.zal.e.fek.ta/ | noun | visual effects | visual + effect (+/a/) | La vizal-efekta es amazing. |
 | **teatra** | /te.a.tra/ | noun | theater | adapted loan | Wi go tu la teatra. |
-| **skrinina** | /skri.ni.na/ | noun | screening | adapted loan | La skrinina of la film es tumoro. |
-| **produkshon** | /pro.duk.shon/ | noun | production | adapted loan | La produkshon of la film tek wan jir. |
+| **skrinina** | /skri.ni.na/ | noun | screening | adapted loan | La skrinina of la filma es tumoro. |
+| **produkshon** | /pro.duk.shon/ | noun | production | adapted loan | La produkshon of la filma tek wan jir. |
 
 ---
 
@@ -299,31 +299,31 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **sela-nofa** | /se.la.no.fa/ | noun | consciousness | self + know (+/a/) | La sela-nofa es wat mak wi man. |
-| **fri-chuza** | /fri.chu.za/ | noun | free will | free + choose (+/a/) | La diskushon of la fri-chuza es old. |
-| **tru-nes** | /tru.nes/ | noun | truth (abstract) | true + -nes | La tru-nes es hard to find. |
-| **nof-nes** | /nof.nes/ | noun | knowledge | know + -nes | La nof-nes kom from lern and eksperyens. |
-| **dip-nof** | /dip.nof/ | noun | wisdom | deep + know | La old man hav dip-nof. |
+| **sela-nofa** | /se.la.no.fa/ | noun | consciousness | self + know (+/a/) | La sela-nofa es wat maka wi man. |
+| **fri-chuza** | /fri.chu.za/ | noun | free will | free + choose (+/a/) | La diskushon of la fri-chuza es olda. |
+| **tru-nes** | /tru.nes/ | noun | truth (abstract) | true + -nes | La tru-nes es harda to find. |
+| **nof-nes** | /nof.nes/ | noun | knowledge | know + -nes | La nof-nes kom from lerna and eksperyens. |
+| **dip-nof** | /dip.nof/ | noun | wisdom | deep + know | La olda man hava dip-nof. |
 | **eksistensa** | /eks.is.ten.sa/ | noun | existence | adapted loan (+/a/) | La eksistensa of la universa es misteri. |
 | **realiti** | /re.a.li.ti/ | noun | reality | adapted loan | Wat es la realiti? |
 | **logika** | /lo.gi.ka/ | noun | logic | adapted loan (+/a/) | La logika es la base of argument. |
 | **paradoksa** | /pa.ra.dok.sa/ | noun | paradox | adapted loan (+/a/) | Dis statement es un paradoksa. |
 | **abstraka** | /abs.tra.ka/ | adj | abstract | adapted loan (+/a/) | La filosofi stodi abstraka idea-n. |
 | **konkreta** | /kon.kre.ta/ | adj | concrete / tangible | adapted loan (+/a/) | Mi need un konkreta eksampel. |
-| **perspektiva** | /per.spek.ti.va/ | noun | perspective | adapted loan (+/a/) | Evri man hav un difren perspektiva. |
+| **perspektiva** | /per.spek.ti.va/ | noun | perspective | adapted loan (+/a/) | Evri man hava un difren perspektiva. |
 
 ### Ethics and Morality
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
 | **rait-rong-sistam** | /rait.rong.sis.tam/ | noun/adj | morality / moral | right + wrong + system (`moral` = domain-register synonym) | Dat es un moral kwestion. |
-| **rait-rong-lern** | /rait.rong.lern/ | noun | ethics | right + wrong + study (`etik` = domain-register synonym) | La etik of la ai-lern es importent. |
+| **rait-rong-lern** | /rait.rong.lern/ | noun | ethics | right + wrong + study (`etik` = domain-register synonym) | La etik of la ai-lern es importenta. |
 | **duti** | /du.ti/ | noun | duty | adapted loan | La duti of la govrnmnt es protekt. |
 | **virtu** | /vir.tu/ | noun | virtue | adapted loan — Latin | Patiens es un virtu. |
 | **bada-mak** | /ba.da.mak/ | noun/verb | harm | bad + make (+/a/) | No bada-mak othr man-en. |
-| **konsenta** | /kon.sen.ta/ | noun | consent | adapted loan (+/a/) | Yu mas hav konsenta. |
-| **du-noba** | /du.no.ba/ | adj | responsible | duty-bound (+/a/) | Wi es du-noba for la erd. |
-| **integriti** | /in.te.gri.ti/ | noun | integrity | adapted loan | La integriti mak trust. |
+| **konsenta** | /kon.sen.ta/ | noun | consent | adapted loan (+/a/) | Yu mas hava konsenta. |
+| **du-noba** | /du.no.ba/ | adj | responsible | duty-bound (+/a/) | Wi es du-noba for la erda. |
+| **integriti** | /in.te.gri.ti/ | noun | integrity | adapted loan | La integriti maka trasta. |
 | **empatia** | /em.pa.tia/ | noun | empathy | adapted loan | La empatia konekt man-en. |
 | **justifai** | /jus.ti.fai/ | verb | justify | adapted loan | Mi kan no justifai la akshon. |
 
@@ -331,14 +331,14 @@ These rules govern every word proposed in this document:
 
 | Word | AFI | Type | English | Formation | Example |
 |------|-----|------|---------|-----------|---------|
-| **rul-mak-hous** | /rul.mak.haus/ | noun | parliament | rule + make + house | La rul-mak-hous mak la lex-en. |
+| **rul-mak-hous** | /rul.mak.haus/ | noun | parliament | rule + make + house | La rul-mak-hous maka la lex-en. |
 | **konstitushon** | /kon.sti.tu.shon/ | noun | constitution | adapted loan | La konstitushon protekt la rait-en. |
 | **diplomata** | /di.plo.ma.ta/ | noun | diplomat | adapted loan (+/a/) | La diplomata negosiata for pisi. |
 | **vota-po** | /vo.ta.po/ | noun | voter | vote + -po | La vota-po chuz la rul-po. |
 | **rul-po** | /rul.po/ | noun | governor | rule + -po | La rul-po of la rejon. |
 | **refom** | /re.fom/ | noun/verb | reform | adapted loan | La goverment refom la sistem. |
 | **korpshon** | /kor.pshon/ | noun | corruption | adapted loan | La korpshon stop progress. |
-| **transparensa** | /trans.pa.ren.sa/ | noun | transparency | adapted loan (+/a/) | La transparensa bild trust. |
+| **transparensa** | /trans.pa.ren.sa/ | noun | transparency | adapted loan (+/a/) | La transparensa bild trasta. |
 | **negosiata** | /ne.go.si.a.ta/ | verb | negotiate | adapted loan (+/a/) | Wi negosiata un solushon. |
 | **aktivista** | /ak.ti.vis.ta/ | noun | activist | adapted loan (+/a/) | La aktivista fajt for rait-en. |
 | **refyuji** | /re.fyu.ji/ | noun | refugee | adapted loan | La refyuji need hel. |
@@ -352,9 +352,9 @@ These rules govern every word proposed in this document:
 | **ritual** | /ri.tu.al/ | noun | ritual | adapted loan | La ritual don evri jir. |
 | **mirakla** | /mi.rak.la/ | noun | miracle | adapted loan (+/a/) | La mirakla happen somtaim. |
 | **paraiza** | /pa.rai.za/ | noun | paradise | adapted loan (+/a/) | La paraiza es biju ples. |
-| **profeta** | /pro.fe.ta/ | noun | prophet | adapted loan (+/a/) | La profeta tok god-wod. |
+| **profeta** | /pro.fe.ta/ | noun | prophet | adapted loan (+/a/) | La profeta toka god-wod. |
 | **meditashon** | /me.di.ta.shon/ | noun/verb | meditation | adapted loan | Mi don meditashon evri moring. |
-| **spiritu** | /spi.ri.tu/ | adj | spiritual | spirit + -u suffix | La spiritu path es long. |
+| **spiritu** | /spi.ri.tu/ | adj | spiritual | spirit + -u suffix | La spiritu wei es long. |
 | **blesina** | /ble.si.na/ | noun | blessing | adapted loan | La blesina kom from god. |
 | **pilgrimeja** | /pil.gri.me.ja/ | noun | pilgrimage | adapted loan (+/a/) | De don pilgrimeja to la holi ples. |
 

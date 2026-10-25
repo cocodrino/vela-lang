@@ -449,12 +449,12 @@ VELA's flagship feature: tense is marked by two suffixes and an **unmarked prese
 
 Why no present `-a`? A dedicated present suffix would collide with the citation vowel of R7: `maka` (*to make*) would also be *makes*. Ratified by unanimous committee vote (**R8**, `vote/topics/consensus/fase5_consensus.md`): the **citation form *is* the present**, so `maka` / `hava` / `luva` mean both *to make/have/love* and *makes/has/loves*. This is identity, not ambiguity — SVO word order and the `-ed` / `-wil` contrast keep tenses distinct (cf. Spanish *hablo*, German *mache = ich mache*).
 
-The citation vowel only appears where phonotactics demand it (a hard coda). Roots already legal standalone keep their bare shape in the present too:
+The citation vowel only appears where phonotactics demand it: a hard coda, or a final consonant cluster (R19 — `lern` ends in `-rn`, so its citation is `lerna`). Roots already legal standalone keep their bare shape in the present too:
 
 | Root type | Present (= citation) | Past | Future |
 |-----------|----------------------|------|--------|
-| Vowel-final / soft coda {n m l r s ŋ} | `si`, `go`, `wan`, `her`, `lern` | `si-ed` | `si-wil` |
-| Hard coda (k v t p g b d f z …) | `maka`, `hava`, `luva`, `toka` | `mak-ed`, `hav-ed` | `mak-wil` |
+| Vowel-final / single soft coda {n m l r s ŋ} | `si`, `go`, `wan`, `her`, `kom` | `si-ed` | `si-wil` |
+| Hard coda (k v t p g b d f z …) or final cluster | `maka`, `hava`, `luva`, `toka`, `livi`, `lerna` | `mak-ed`, `hav-ed`, `liv-ed`, `lern-ed` | `mak-wil` |
 
 ### 6.2 Full Paradigm of a Regular Verb: hava (to have)
 

@@ -502,3 +502,69 @@ Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocab
 | teer | tear (eye) | English |
 | raiz | rise | English |
 
+
+---
+
+## 2026-10-22 — R18: the 13 uncoined corpus words (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only; orchestrator wrote all files (user's choice over Pi/bridge)
+**Status:** ✅ RATIFIED — pending application to lexicons and corpus
+
+### Decisions
+- Existing material, no coining: `brita`, `lifa` (promoted), `onli` (formalized), `fronta-wei` (ahead), `meni` (much + many)
+- Compounds: `moring-fud` (breakfast), `baki-wei` (behind), `alon-nes` (solitude, with `alon` formalized)
+- New atoms (4): `yeta` (still), `abau` (about), `auta` (out), `stika` (stick)
+- Construction: "I'm lost" → `Mi no nou la wei`
+- Orthography: `aut-` is the only spelling of /au/
+
+### Tiebreaks and user calls
+- still: 2-2 → aestheticist → `yeta`; user confirmed against the orchestrator's recommendation (`stil`)
+- lost: 2-2 → aestheticist → paraphrase
+- about: 4-way split → aestheticist → `abau`
+- solitude: plurality `alon-nes` (2 votes) → chosen by user
+
+### Files Created
+- vote/topics/current_topic.md (from dossier_13_words.md)
+- vote/topics/proposals/r18_13words_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
+- vote/topics/discussion_plan.md
+- vote/topics/consensus/fase5_consensus.md — §R18 appended
+
+---
+
+## 2026-10-22 — R19: bare forms as free words (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only (user's choice)
+**Status:** ✅ RATIFIED 5-0 (option A) — pending application
+
+### Decision
+- Every consonant-final content root (single hard coda or cluster) takes the citation form when free; bare only in compounds and before suffixes. No grandfathered content roots.
+- R8 table rows `tok`/`liv` declared errata; `lern` resolved the same way (no canon text licenses a final cluster).
+- `enuf` → `enufa`. `kart` (cards) and `own` (adjective) blocked pending coinage.
+
+### Scope found during the round
+- Lexicon example sentences and the generated dictionary also use bare forms — included in the application.
+
+### Files Created
+- vote/topics/dossier_r19_bare_forms.md (→ current_topic.md)
+- vote/topics/proposals/r19_bare_forms_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
+- vote/topics/discussion_plan.md
+- vote/topics/consensus/fase5_consensus.md — §R19 appended
+
+---
+
+## 2026-10-22 — R20: three missing words + legacy hard-coda headwords (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only (user's choice)
+**Status:** ✅ RATIFIED — "network" and computing "bit" forms still open
+
+### Decisions
+- light (illumination) = `laita` (3-1); light (weight) = `no-hevi`; card = `karda`; "own" = paraphrase with `-se`
+- headwords renamed: nofa, arta, grupa, tipa, stapa, leta, apa; `wot` exempt; `sav` merged into `sava`
+- `net`/`neta` and `bit`/`bita` kept apart; forms open
+- modal rows: verb after a modal takes the citation form (`Yu shoda kom`)
+
+### Files Created
+- vote/topics/dossier_r20_coinage_and_legacy.md (→ current_topic.md)
+- vote/topics/proposals/r20_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
+- vote/topics/discussion_plan.md
+- vote/topics/consensus/fase5_consensus.md — §R20 appended

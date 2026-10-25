@@ -12,10 +12,10 @@
 > "Go forth in peace to love and serve the Lord."
 
 ### VELA Translation
-> **"Go forti in pasi tu luv and servi la Lord."**
+> **"Go forti in pasi tu luva and servi la Lord."**
 
 Or in standard VELA orthography with pitch accent marking:
-> **Go fórti in pasi tu luv and servi la Lòrd.**
+> **Go fórti in pasi tu luva and servi la Lòrd.**
 
 ---
 
@@ -107,7 +107,7 @@ Or in standard VELA orthography with pitch accent marking:
 If the liturgical tone is too elevated, a simpler secular version:
 
 **"Go forward in calmness to help and work for people."**
-> **"Go forti in kalm tu help and wok for de."**
+> **"Go forti in kalm tu help and werka for de."**
 
 New gaps: `kalm` (calmness), `for` (for/benefactive preposition)
 - `kalm` = English "calm" + vowel? /kal.mi/? Actually `kalm` ends in /m/ which IS a sonorant — permitted!
@@ -126,21 +126,21 @@ So simpler version requires only 1 new word: `forti`.
 | # | English | VELA | Notes |
 |---|---------|------|-------|
 | 1 | Hello! | **Helo!** | New word needed? Or use `gud dei`? |
-| 2 | Good morning. | **Gud morne.** | `morne` = morning. New. |
-| 3 | How are you? | **Yu es gud?** | Or: `Hau yu?` — `hau` = how. New. |
+| 2 | Good morning. | **Guda morne.** | `morne` = morning. New. |
+| 3 | How are you? | **Yu es guda?** | Or: `Hau yu?` — `hau` = how. New. |
 | 4 | Thank you. | **Tanke yu.** | `tanke` = thanks. New. |
 | 5 | You're welcome. | **Yu welkom.** | `welkom` = welcome. New. |
 | 6 | Goodbye. | **Gudbai.** | `gudbai` = goodbye. New. |
 | 7 | Please. | **Plise.** | `plise` = please. New. |
 | 8 | Excuse me. | **Ekskus mi.** | `ekskus` = excuse. New. |
 | 9 | I'm sorry. | **Mi es sori.** | `sori` = sorry. New. |
-| 10 | Yes / No | **Ok / No** | ✅ Already in lexicon |
+| 10 | Yes / No | **Ye / No** | ✅ Already in lexicon |
 
 ### Compras y Restaurante
 
 | # | English | VELA | Notes |
 |---|---------|------|-------|
-| 11 | How much? | **Hau mush?** | `mush` = much. New. |
+| 11 | How much? | **Hou meni?** | `meni` = much / many (R18). |
 | 12 | I want this. | **Mi wan la dis.** | `dis` = this. New. |
 | 13 | The bill, please. | **La bil, plise.** | `bil` ✅ exists |
 | 14 | Water, please. | **Water, plise.** | `water` ✅ |
@@ -150,9 +150,9 @@ So simpler version requires only 1 new word: `forti`.
 
 | # | English | VELA | Notes |
 |---|---------|------|-------|
-| 16 | Help! | **Help!** | ✅ Already in lexicon |
+| 16 | Help! | **Helpa!** | ✅ Already in lexicon |
 | 17 | Call a doctor! | **Kol a dokter!** | `kol` = call. New. `dokter` = doctor. New? Wait, `dokter` — ends in /r/. Sonorant. Valid. But is it in lexicon? Check... |
-| 18 | I'm sick. | **Mi es sik.** | `sik` = sick. New. |
+| 18 | I'm sick. | **Mi es sika.** | `sik` = sick. New. |
 | 19 | Where is the hospital? | **Wer es la sik-hous?** | `sik-hous` = compound (house for sick). Valid per Quality Gate! |
 | 20 | Police! | **Polis!** | `polis` = police. New. Ends in /s/ → needs amendment: `polisi`. |
 
@@ -180,7 +180,7 @@ So simpler version requires only 1 new word: `forti`.
 | plise | please | English | /pli.se/ | HIGH |
 | ekskus | excuse | English | /ek.sku.si/? | MEDIUM |
 | sori | sorry | English | /so.ri/ | HIGH |
-| mush | much | English | /mu.shi/? | MEDIUM |
+| meni | much / many | R18 (existing) | /me.ni/ | RESOLVED |
 | dis | this | English | /dis/ → /di.si/? | HIGH |
 | wer | where | English | /wer/ → /we.ru/? | HIGH |
 | batrum | bathroom | English compound | /ba.trum/ → /ba.tru.mu/? | MEDIUM |
