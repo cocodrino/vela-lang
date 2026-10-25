@@ -108,3 +108,45 @@ Ahora corpus, cursos y gramática con el migrador actual; los ejemplos del léxi
 
 ### Reason
 El usuario eligió A, que era la recomendación.
+
+## Motor del comité para R20 (palabras faltantes + headwords heredados)
+- date: 2026-10-22
+- decided_by: user
+- chosen: A
+- files: vote/topics/dossier_r20_coinage_and_legacy.md, vote/topics/current_topic.md
+
+### Context
+Tras aplicar R19 quedaron tres conceptos sin forma (`lait` luz, `kart` cartas, `own` adjetivo) y headwords heredados con coda dura (`nof`, `art`, `bit`…) que R19 pide renombrar. `PROCESS.md` exige confirmar el motor antes de cada ronda.
+
+### Options
+#### A — Subagentes Claude
+- Pro: arranca ya; mismo motor que R18 y R19.
+- Con: misma familia de modelos.
+#### B — Pi por bridge
+- Pro: modelos distintos.
+- Con: requiere abrir los paneles Pi en cmux.
+
+### Reason
+El usuario eligió A, que era la recomendación.
+
+## Landing page design for GitHub Pages
+- date: 2026-10-24
+- decided_by: user
+- chosen: B
+- files: index.html
+
+### Context
+Se exploraron 14 estilos de landing en 3 rondas: una primera ronda general (editorial, suizo, bloques, melodía, muestra tipográfica, raíces), y una segunda enfocada en belleza/arte/orden después de que el usuario rechazó un estilo brutalista por contradecir el principio de belleza de VELA (su propio canon describe el acento tonal como "melodía, no percusión"). La segunda ronda dio proporción áurea, Ma japonés, Art Deco, teselados y galería de museo; luego se pidió una mezcla de proporción áurea + Art Deco con animación de fondo.
+
+### Options
+#### A — un estilo puro de la ronda 2
+Cualquiera de proporción áurea, Ma, Art Deco, teselados o galería, sin mezclar.
+- Pro: más simple de mantener.
+- Con: ninguno capturaba a la vez la estética pedida y la organización simétrica que gustó de Art Deco.
+#### B — Proportion × Deco (estilo 14)
+Estética de Divine Proportion (Cormorant Garamond/EB Garamond, papel pergamino, azul lapislázuli, geometría de proporción áurea) con la organización simétrica de Art Deco (comparaciones inglés/VELA en espejo, raíz en abanico, frontón en la portada), más una espiral áurea animada de fondo.
+- Pro: combina lo que más le gustó de ambos; cumple belleza + orden.
+- Con: la pieza más compleja de las 14 técnicamente (animaciones de fondo, SVG de construcción).
+
+### Reason
+El usuario eligió B. Antes rechazó el brutalismo porque contradecía la identidad del propio proyecto; B expresa belleza (proporción) y orden (simetría) a la vez. Ajuste final pedido por el usuario: en las comparaciones, el VELA va primero y más grande, con el inglés debajo como su glosa — aplicado antes de publicar.

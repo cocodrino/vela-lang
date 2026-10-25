@@ -1,157 +1,1205 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<script>document.documentElement.classList.add('has-js');</script>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VELA — The Universal Conlang</title>
+<meta name="description" content="A constructed language you can learn in weeks: one sound per letter, no irregular verbs, no grammatical gender, and words you can take apart like Lego.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
 <style>
+/* ================================================================
+   TOKENS — ivory-vellum, iron-gall ink, lapis accent (style-9 palette)
+   ================================================================ */
+:root{
+  --paper:      oklch(95.5% 0.016 82);
+  --paper-2:    oklch(92% 0.02 78);
+  --paper-3:    oklch(88% 0.024 74);
+  --vellum:     oklch(93.5% 0.018 80);
+  --ink:        oklch(24% 0.025 55);
+  --ink-soft:   oklch(42% 0.028 55);
+  --ink-faint:  oklch(57% 0.024 58);
+  --line:       oklch(74% 0.03 68);
+  --line-2:     oklch(66% 0.035 66);
+  --lapis:      oklch(42% 0.11 258);
+  --lapis-deep: oklch(32% 0.1 258);
+  --lapis-tint: oklch(90% 0.03 258);
+
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-text:    "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --font-caps:    "Cinzel", "Cormorant Garamond", Georgia, serif;
+
+  --sp-1:  0.3125rem;
+  --sp-2:  0.5rem;
+  --sp-3:  0.8125rem;
+  --sp-5:  1.3125rem;
+  --sp-8:  2.125rem;
+  --sp-13: 3.4375rem;
+  --sp-21: 5.5625rem;
+  --sp-34: 9rem;
+  --sp-55: 14.5625rem;
+
+  --text-xs:   0.8125rem;
+  --text-sm:   0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg:   clamp(1.25rem, 1.1rem + 0.5vw, 1.45rem);
+  --text-xl:   clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem);
+  --text-2xl:  clamp(2.4rem, 1.6rem + 3vw, 3.9rem);
+  --text-3xl:  clamp(3.3rem, 1.8rem + 6.5vw, 6.4rem);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --measure: 32ch;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark){
   :root{
-    --ink:#12303c; --muted:#5b7683; --line:#dce7e6;
-    --brand:#1c93a6; --brand-deep:#0f6e7e; --brand-soft:#eaf5f6;
-    --sun:#f4a93b; --coral:#e2705a; --plum:#9a3b78;
-    --sand:#fbf7ef; --card:#ffffff;
-    --shadow:0 1px 2px rgba(18,48,60,.05),0 10px 30px rgba(18,48,60,.08);
-    --display:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif;
-    --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --paper:      oklch(20% 0.02 55);
+    --paper-2:    oklch(24.5% 0.022 55);
+    --paper-3:    oklch(29% 0.024 55);
+    --vellum:     oklch(22.5% 0.02 55);
+    --ink:        oklch(91% 0.018 75);
+    --ink-soft:   oklch(76% 0.02 72);
+    --ink-faint:  oklch(60% 0.018 68);
+    --line:       oklch(36% 0.022 58);
+    --line-2:     oklch(42% 0.026 58);
+    --lapis:      oklch(72% 0.1 255);
+    --lapis-deep: oklch(80% 0.08 255);
+    --lapis-tint: oklch(30% 0.06 258);
   }
-  @media (prefers-color-scheme:dark){
-    :root{ --ink:#e9f2f2; --muted:#93aeb6; --line:#22414a; --brand:#4fc3d4; --brand-deep:#2a9aac;
-      --brand-soft:#12333a; --sun:#f7bb57; --coral:#f08a76; --plum:#d97fb4;
-      --sand:#0c1f26; --card:#102a32; --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 30px rgba(0,0,0,.4); }
-  }
-  :root[data-theme="light"]{ --ink:#12303c; --muted:#5b7683; --line:#dce7e6; --brand:#1c93a6; --brand-deep:#0f6e7e; --brand-soft:#eaf5f6; --sun:#f4a93b; --coral:#e2705a; --plum:#9a3b78; --sand:#fbf7ef; --card:#fff; }
-  :root[data-theme="dark"]{ --ink:#e9f2f2; --muted:#93aeb6; --line:#22414a; --brand:#4fc3d4; --brand-deep:#2a9aac; --brand-soft:#12333a; --sun:#f7bb57; --coral:#f08a76; --plum:#d97fb4; --sand:#0c1f26; --card:#102a32; }
+}
 
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--sand);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;max-width:100%;overflow-x:clip}
-  .wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
-  h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
-  a{color:var(--brand-deep)}
-  :root[data-theme="dark"] a,@media (prefers-color-scheme:dark){a{color:var(--brand)}}
+/* ================================================================
+   RESET & BASE
+   ================================================================ */
+*,*::before,*::after{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce){ html{ scroll-behavior: auto; } }
 
-  /* hero */
-  .hero{position:relative;overflow:hidden;background:linear-gradient(160deg,var(--brand-deep),var(--brand) 55%,#2fb0c2);color:#fff}
-  .hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:.45}
-  .hero .wrap{position:relative;padding:4rem 1.25rem 3.4rem;text-align:center}
-  .badge{display:inline-flex;align-items:center;gap:.5ch;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);color:#fff;font-family:var(--display);font-weight:700;font-size:.76rem;letter-spacing:.13em;text-transform:uppercase;padding:.38rem .8rem;border-radius:999px}
-  .hero h1{font-size:clamp(3rem,9vw,5rem);letter-spacing:-.01em;margin:.6rem 0 .2rem}
-  .hero .sail{color:var(--sun)}
-  .hero p{font-size:clamp(1.05rem,2.4vw,1.28rem);opacity:.95;max-width:34rem;margin:.2rem auto 0}
-  .hero .say{font-family:ui-monospace,monospace;font-size:.9rem;opacity:.8;margin-top:.7rem}
+body{
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--text-base);
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  overflow-x: hidden;
+}
 
-  /* resource cards */
-  .sec-t{font-family:var(--display);font-weight:800;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 1rem}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem}
-  @media (max-width:640px){ .grid{grid-template-columns:1fr} }
-  .card{display:flex;flex-direction:column;gap:.5rem;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:1.5rem 1.5rem 1.35rem;text-decoration:none;color:var(--ink);transition:transform .16s ease,box-shadow .16s ease}
-  .card:hover{transform:translateY(-3px);box-shadow:0 6px 14px rgba(18,48,60,.08),0 18px 40px rgba(18,48,60,.12)}
-  .card .ic{font-size:1.9rem;line-height:1}
-  .card h3{font-size:1.35rem}
-  .card p{margin:0;color:var(--muted);font-size:.95rem}
-  .card .go{margin-top:.4rem;font-family:var(--display);font-weight:800;color:var(--accent,var(--brand-deep))}
-  :root[data-theme="dark"] .card .go,@media (prefers-color-scheme:dark){.card .go{color:var(--accent,var(--brand))}}
-  .card.feat{border-top:4px solid var(--accent,var(--brand))}
-  .pill{align-self:flex-start;font-family:var(--display);font-weight:700;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--accent,var(--brand));border-radius:999px;padding:.2rem .6rem}
-  .c1{--accent:var(--brand)} .c2{--accent:var(--plum)} .c3{--accent:var(--sun)} .c4{--accent:var(--coral)} .c5{--accent:#2f8f5b} .c6{--accent:#4f57c4} .c7{--accent:#c0512e}
-  :root[data-theme="dark"] .c5,@media (prefers-color-scheme:dark){.c5{--accent:#5cc48c}}
-  :root[data-theme="dark"] .c6,@media (prefers-color-scheme:dark){.c6{--accent:#8b93ec}}
-  :root[data-theme="dark"] .c7,@media (prefers-color-scheme:dark){.c7{--accent:#e08159}}
+h1,h2,h3{ font-family: var(--font-display); font-weight: 600; color: var(--ink); line-height: 1.08; margin: 0; }
+p{ margin: 0; }
+a{ color: var(--lapis); text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
+a:focus-visible, button:focus-visible{ outline: 2px solid var(--lapis); outline-offset: 3px; border-radius: 1px; }
+img, svg{ display:block; max-width: 100%; }
 
-  .foot{text-align:center;color:var(--muted);padding:3rem 1.25rem 3.5rem;font-size:.9rem}
-  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.vela{ font-family: var(--font-display); font-style: italic; font-weight: 600; color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .vela{ color: var(--lapis); } }
+
+.kicker{
+  display: inline-flex; align-items: center; gap: var(--sp-2);
+  font-family: var(--font-caps); font-weight: 600; font-size: var(--text-xs);
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--lapis-deep);
+}
+@media (prefers-color-scheme: dark){ .kicker{ color: var(--lapis); } }
+.kicker::before, .kicker::after{ content:""; width: 5px; height: 5px; border-radius: 50%; border: 1px solid currentColor; }
+
+.wrap{ position: relative; z-index: 1; max-width: 68rem; margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 4rem); }
+.note{ font-size: var(--text-sm); color: var(--ink-soft); line-height: 1.5; }
+
+.sr-only{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+.skip-link{ position: absolute; left: -9999px; top: 0; background: var(--lapis); color: var(--vellum); padding: var(--sp-2) var(--sp-5); z-index: 100; }
+.skip-link:focus{ left: var(--sp-5); top: var(--sp-5); }
+
+/* ================================================================
+   REVEAL / DRAW SYSTEM — no-JS: everything visible. With JS: hidden
+   until IntersectionObserver reveals; reduced-motion: always visible.
+   ================================================================ */
+.reveal{ opacity: 1; transform: none; }
+.draw{ stroke-dashoffset: 0; }
+
+.has-js .reveal{
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 760ms var(--ease-out), transform 760ms var(--ease-out);
+}
+.has-js .reveal.is-visible{ opacity: 1; transform: none; }
+
+.has-js .draw{
+  stroke-dashoffset: var(--len, 400);
+  transition: stroke-dashoffset 1500ms var(--ease-out);
+}
+.has-js .draw.is-visible{ stroke-dashoffset: 0; }
+
+@media (prefers-reduced-motion: reduce){
+  .has-js .reveal{ opacity: 1 !important; transform: none !important; transition: none !important; }
+  .has-js .draw{ stroke-dashoffset: 0 !important; transition: none !important; }
+}
+
+/* ================================================================
+   GLOBAL BACKGROUND GEOMETRY — fixed, very low contrast, behind all
+   content. Golden spiral draws once on load; compass circles breathe
+   and rotate on 60–120s loops; phi annotations fade in and out.
+   ================================================================ */
+.bg-geometry{
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.16;
+  will-change: transform;
+}
+@media (prefers-color-scheme: dark){ .bg-geometry{ opacity: 0.2; } }
+.bg-geometry svg{ width: min(145vmax, 1600px); height: auto; max-width: none; }
+.bg-geometry .bg-line{ stroke: var(--line-2); stroke-width: 1; fill: none; }
+.bg-geometry .bg-spiral{ stroke: var(--lapis-deep); stroke-width: 1.3; fill: none; }
+@media (prefers-color-scheme: dark){ .bg-geometry .bg-spiral{ stroke: var(--lapis); } }
+.bg-geometry .bg-tick{ stroke: var(--line-2); stroke-width: 1; }
+.bg-geometry .bg-label{ font-family: var(--font-display); font-style: italic; fill: var(--ink-faint); }
+
+.has-js .bg-spiral{ stroke-dasharray: 1050; stroke-dashoffset: 1050; animation: spiral-draw 7s var(--ease-out) 240ms 1 both; }
+@keyframes spiral-draw{ to{ stroke-dashoffset: 0; } }
+
+@media (prefers-reduced-motion: no-preference){
+  .compass-a{ animation: breathe 95s ease-in-out infinite; transform-origin: 300px 120px; }
+  .compass-b{ animation: slow-rotate 130s linear infinite; transform-origin: 1180px 520px; }
+  .bg-phi-1{ animation: fade-cycle 38s ease-in-out infinite; }
+  .bg-phi-2{ animation: fade-cycle 44s ease-in-out 6s infinite; }
+  .bg-phi-3{ animation: fade-cycle 50s ease-in-out 12s infinite; }
+}
+@keyframes breathe{ 0%,100%{ transform: scale(1); } 50%{ transform: scale(1.045); } }
+@keyframes slow-rotate{ from{ transform: rotate(0deg); } to{ transform: rotate(360deg); } }
+@keyframes fade-cycle{ 0%,100%{ opacity: 0.15; } 50%{ opacity: 0.85; } }
+
+body.tab-hidden .bg-geometry *{ animation-play-state: paused !important; }
+
+@media (prefers-reduced-motion: reduce){
+  .bg-geometry .bg-spiral{ animation: none !important; stroke-dasharray: none !important; stroke-dashoffset: 0 !important; }
+  .compass-a, .compass-b, .bg-phi-1, .bg-phi-2, .bg-phi-3{ animation: none !important; opacity: 0.55 !important; }
+}
+
+/* ================================================================
+   DIVIDER — compass rosette, golden-rectangle tick
+   ================================================================ */
+.divider{ display:flex; align-items:center; justify-content:center; gap: var(--sp-5); padding-block: var(--sp-13); color: var(--line-2); }
+.divider .ln{ flex:1; max-width: 14rem; height:1px; background: var(--line); }
+.divider svg{ width:26px; height:26px; color: var(--lapis-deep); flex-shrink:0; }
+@media (prefers-color-scheme: dark){ .divider svg{ color: var(--lapis); } }
+
+/* ================================================================
+   HEADER — symmetric axis
+   ================================================================ */
+header.site{ padding-block: var(--sp-8) var(--sp-5); border-bottom: 1px solid var(--line); }
+header.site .wrap{ display:grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: var(--sp-5); }
+.wordmark{ font-family: var(--font-caps); font-weight: 600; font-size: 1.05rem; letter-spacing: 0.1em; text-align: center; color: var(--ink); }
+nav.site-nav{ display:flex; justify-content: flex-end; }
+nav.site-nav ul{ display:flex; gap: var(--sp-8); list-style:none; margin:0; padding:0; flex-wrap: wrap; }
+nav.site-nav a{ font-family: var(--font-caps); font-size: var(--text-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+nav.site-nav a:hover{ color: var(--lapis-deep); border-color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ nav.site-nav a:hover{ color: var(--lapis); border-color: var(--lapis); } }
+.header-left{ }
+@media (max-width: 640px){ header.site .wrap{ grid-template-columns: 1fr; text-align:center; } nav.site-nav{ justify-content:center; } .header-left{ display:none; } }
+
+/* ================================================================
+   HERO — symmetric axis, golden-rectangle + compass pediment
+   ================================================================ */
+.hero{ position: relative; padding-block: clamp(3.5rem, 9vw, var(--sp-55)) clamp(3rem, 7vw, var(--sp-34)); text-align: center; overflow: hidden; }
+.hero-geometry{ position: absolute; inset: 0; z-index: 0; display: flex; align-items: center; justify-content: center; opacity: 0.55; pointer-events: none; }
+.hero-geometry svg{ width: min(78rem, 128vw); height: auto; max-width: none; }
+.hero-geometry .construction-line{ stroke: var(--line-2); stroke-width: 1; fill: none; }
+.hero-geometry .construction-arc{ stroke: var(--lapis-deep); stroke-width: 1; fill: none; opacity: 0.45; }
+.hero-geometry .construction-dot{ fill: var(--lapis-deep); opacity: 0.55; }
+@media (prefers-color-scheme: dark){ .hero-geometry{ opacity: 0.4; } .hero-geometry .construction-arc{ stroke: var(--lapis); } .hero-geometry .construction-dot{ fill: var(--lapis); } }
+
+.hero-inner{ position: relative; z-index: 1; max-width: 42rem; margin-inline: auto; }
+.hero .kicker{ justify-content: center; margin-bottom: var(--sp-5); }
+.hero h1{ font-size: var(--text-3xl); letter-spacing: 0.01em; }
+.hero-rule{ width: 1px; height: var(--sp-8); background: var(--line-2); margin: var(--sp-5) auto; }
+.hero-pitch{ font-size: var(--text-lg); color: var(--ink-soft); line-height: 1.55; max-width: 38ch; margin-inline: auto; }
+.hero-principles{ margin-top: var(--sp-13); display:flex; justify-content: center; flex-wrap: wrap; gap: var(--sp-3) var(--sp-8); font-family: var(--font-caps); font-size: var(--text-xs); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); }
+.hero-principles span:not(:last-child)::after{ content: "·"; margin-left: var(--sp-3); color: var(--line-2); }
+.hero-links{ margin-top: var(--sp-13); display:flex; justify-content:center; flex-wrap:wrap; gap: var(--sp-3) var(--sp-5); }
+.btn{ font-family: var(--font-caps); font-size: var(--text-xs); letter-spacing: 0.08em; text-transform: uppercase; padding: 0.8rem 1.5rem; border: 1px solid var(--lapis-deep); color: var(--ink); text-decoration: none; background: transparent; transition: background 220ms var(--ease-out), color 220ms var(--ease-out); }
+@media (prefers-color-scheme: dark){ .btn{ border-color: var(--lapis); } }
+.btn:hover{ background: var(--lapis-deep); color: var(--vellum); }
+@media (prefers-color-scheme: dark){ .btn:hover{ background: var(--lapis); color: var(--paper); } }
+.btn.primary{ background: var(--lapis-deep); color: var(--vellum); }
+@media (prefers-color-scheme: dark){ .btn.primary{ background: var(--lapis); color: var(--paper); } }
+
+.has-js .hero .kicker{ transition-delay: 60ms; }
+.has-js .hero h1{ transition-delay: 140ms; }
+.has-js .hero-rule{ transition-delay: 300ms; transform: scaleY(0); transform-origin: top; }
+.has-js .hero-rule.is-visible{ transform: scaleY(1); }
+.has-js .hero-pitch{ transition-delay: 260ms; }
+.has-js .hero-principles{ transition-delay: 380ms; }
+.has-js .hero-links{ transition-delay: 480ms; }
+
+/* ================================================================
+   CHAPTER SHELL
+   ================================================================ */
+.chapter{ padding-block: var(--sp-21) 0; }
+.chapter-open{ max-width: 46rem; margin-inline: auto; text-align: center; margin-bottom: var(--sp-13); }
+.chapter-open h2{ font-size: var(--text-xl); margin-top: var(--sp-2); }
+.chapter-open .dek{ margin-top: var(--sp-3); color: var(--ink-soft); font-size: var(--text-lg); font-style: italic; max-width: 38ch; margin-inline: auto; }
+.chapter-axis{ width: 2px; height: 1.6rem; background: var(--line-2); margin: 0 auto var(--sp-3); }
+.has-js .chapter-axis{ transform: scaleY(0); transition: transform 600ms var(--ease-out); }
+.has-js .chapter-axis.is-visible{ transform: scaleY(1); }
+@media (prefers-reduced-motion: reduce){ .has-js .chapter-axis{ transform: scaleY(1) !important; } }
+
+.golden-split{ display: grid; grid-template-columns: minmax(0,1fr); gap: var(--sp-8); }
+@media (min-width: 900px){ .golden-split{ grid-template-columns: 0.618fr 1fr; align-items: start; } .golden-split.reverse{ grid-template-columns: 1fr 0.618fr; } .golden-split.reverse > :first-child{ order: 2; } }
+
+/* ================================================================
+   CHAPTER I — PRINCIPLES
+   ================================================================ */
+.principles-lede{ font-size: var(--text-lg); max-width: 34ch; color: var(--ink); }
+.principles-aside{ font-size: var(--text-sm); color: var(--ink-soft); border-left: 1px solid var(--line); padding-left: var(--sp-5); max-width: 34ch; font-style: italic; }
+.principles-list{ list-style: none; margin: var(--sp-13) 0 0; padding: 0; display: grid; gap: 0; }
+.principles-list li{ display: grid; grid-template-columns: 3.4rem 1fr; gap: var(--sp-5); padding-block: var(--sp-5); border-top: 1px solid var(--line); align-items: baseline; }
+.principles-list li:last-child{ border-bottom: 1px solid var(--line); }
+.principles-list .roman{ font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.5rem; color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .principles-list .roman{ color: var(--lapis); } }
+.principles-list h3{ font-size: 1.2rem; margin-bottom: 0.2em; }
+.principles-list p{ color: var(--ink-soft); max-width: 46ch; }
+
+/* ================================================================
+   CHAPTER II — FEATURES
+   ================================================================ */
+.features-list{ list-style: none; margin: 0; padding: 0; }
+.feature-entry{ display: grid; grid-template-columns: 2.6rem 1fr; gap: var(--sp-5); padding-block: var(--sp-8); border-top: 1px solid var(--line); }
+.features-list .feature-entry:last-child{ border-bottom: 1px solid var(--line); }
+.feature-num{ font-family: var(--font-display); font-style: italic; font-weight: 600; color: var(--ink-faint); font-size: 1.1rem; padding-top: 0.1em; }
+.feature-body h3{ font-size: 1.25rem; max-width: 36ch; margin-bottom: var(--sp-2); }
+.feature-body > p.desc{ color: var(--ink-soft); max-width: 48ch; margin-bottom: var(--sp-3); }
+.feature-proof{ display: grid; grid-template-columns: minmax(0,1fr); gap: var(--sp-1) var(--sp-5); background: var(--paper-2); border-left: 2px solid var(--lapis-deep); padding: var(--sp-3) var(--sp-5); max-width: 46ch; }
+@media (prefers-color-scheme: dark){ .feature-proof{ border-left-color: var(--lapis); } }
+.feature-body{ container-type: inline-size; }
+.feature-proof .proof-label{ grid-column: 1 / -1; font-family: var(--font-caps); font-size: var(--text-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 2px; }
+/* VELA leads: it is the subject of the page, so it sits first and larger;
+   the English translation follows as its gloss. */
+.feature-proof .vela{ font-size: var(--text-xl); line-height: 1.15; }
+.feature-proof .en{ color: var(--ink-soft); font-size: var(--text-base); }
+.feature-proof + .feature-proof{ margin-top: var(--sp-2); }
+
+/* ================================================================
+   CHAPTER III — COMPARISONS: symmetric pairs around a central axis
+   ================================================================ */
+.subchapter{ margin-top: var(--sp-21); }
+.subchapter:first-child{ margin-top: 0; }
+.subchapter-open{ display: flex; align-items: baseline; justify-content: center; gap: var(--sp-3); margin-bottom: var(--sp-8); text-align: center; }
+.subchapter-num{ font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.3rem; color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .subchapter-num{ color: var(--lapis); } }
+.subchapter-title{ font-size: 1.05rem; font-family: var(--font-caps); letter-spacing: 0.04em; font-weight: 500; }
+
+.pair{ display: grid; grid-template-columns: minmax(0,1fr) 1.4rem minmax(0,1fr); align-items: center; gap: var(--sp-5); padding-block: var(--sp-5); border-top: 1px solid var(--line); container-type: inline-size; }
+.pair:last-child{ border-bottom: 1px solid var(--line); }
+.pair .axis{ display:flex; justify-content:center; color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .pair .axis{ color: var(--lapis); } }
+.pair .axis svg{ width: 1.4rem; height: 1.4rem; }
+@media (max-width: 480px){ .pair{ grid-template-columns: 1fr; gap: var(--sp-2); text-align: center; } .pair .axis{ transform: rotate(90deg); margin-block: 0.1rem; } }
+/* Same hierarchy as the feature proofs: VELA larger, English as the gloss. */
+.pair .en{ text-align: right; font-size: var(--text-base); color: var(--ink-soft); }
+.pair .ve{ text-align: left; font-size: var(--text-xl); line-height: 1.15; }
+@media (max-width: 480px){
+  .pair .en, .pair .ve{ text-align: center; }
+  /* Stacked: VELA first, then the axis, then the English. */
+  .pair .ve{ order: -2; }
+  .pair .axis{ order: -1; }
+}
+.pair-note{ grid-column: 1 / -1; margin-top: var(--sp-1); text-align: center; font-size: var(--text-sm); color: var(--ink-soft); font-style: italic; }
+
+/* ================================================================
+   CHAPTER IV — ONE ROOT, FOUR BRANCHES — compass fan
+   ================================================================ */
+.plate-frame{ margin-top: var(--sp-8); background: var(--vellum); border: 1px solid var(--line-2); padding: clamp(1.25rem, 4vw, var(--sp-13)); position: relative; }
+.plate-frame::before{ content: ""; position: absolute; inset: 8px; border: 1px solid var(--line); pointer-events: none; }
+.plate-frame svg{ width: 100%; height: auto; }
+.plate-frame .plate-vertical{ display: none; }
+@media (max-width: 680px){ .plate-frame .plate-horizontal{ display: none; } .plate-frame .plate-vertical{ display: block; } }
+.root-line{ stroke: var(--ink-soft); stroke-width: 1.4; fill: none; }
+.root-arc{ stroke: var(--line-2); stroke-width: 1; fill: none; stroke-dasharray: 2 3; }
+.root-fan-arc{ stroke: var(--lapis-deep); stroke-width: 1; fill: none; opacity: 0.5; }
+@media (prefers-color-scheme: dark){ .root-fan-arc{ stroke: var(--lapis); } }
+.root-node{ fill: var(--vellum); stroke: var(--ink); stroke-width: 1.4; }
+.root-node.main{ stroke-width: 1.8; }
+.root-text{ font-family: var(--font-display); font-weight: 600; fill: var(--ink); }
+.root-suffix{ font-family: var(--font-display); font-weight: 700; font-style: italic; fill: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .root-suffix{ fill: var(--lapis); } }
+.root-gloss{ font-family: var(--font-text); font-style: italic; fill: var(--ink-faint); font-size: 12px; }
+.plate-caption{ margin-top: var(--sp-5); font-size: var(--text-sm); color: var(--ink-soft); max-width: 54ch; margin-inline: auto; text-align: center; }
+.plate-caption strong{ color: var(--ink); font-weight: 600; }
+
+.root-ray{ stroke-dasharray: 260; stroke-dashoffset: 260; }
+.has-js .root-ray{ transition: stroke-dashoffset 900ms var(--ease-out); }
+.has-js .root-ray.is-visible{ stroke-dashoffset: 0; }
+.root-leaf{ opacity: 0; transform: scale(0.92); transform-box: fill-box; transform-origin: center; }
+.has-js .root-leaf{ transition: opacity 560ms var(--ease-out), transform 560ms var(--ease-out); }
+.has-js .root-leaf.is-visible{ opacity: 1; transform: scale(1); }
+@media (prefers-reduced-motion: reduce){
+  .has-js .root-ray{ stroke-dashoffset: 0 !important; transition: none !important; }
+  .has-js .root-leaf{ opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+
+/* ================================================================
+   CHAPTER V — SPLIT INTERACTION (with a compass arc tracing the joint)
+   ================================================================ */
+.split-grid{ display: grid; gap: var(--sp-5); max-width: 44rem; margin-inline: auto; }
+.etymon{ width: 100%; text-align: center; background: var(--vellum); border: 1px solid var(--line); padding: var(--sp-5) var(--sp-5); cursor: pointer; font-family: inherit; color: inherit; transition: border-color 220ms var(--ease-out), background 220ms var(--ease-out); position: relative; }
+.etymon:hover{ border-color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .etymon:hover{ border-color: var(--lapis); } }
+.etymon-display{ display: flex; align-items: baseline; justify-content: center; flex-wrap: wrap; font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 1.2rem + 1.4vw, 2.1rem); position: relative; }
+.etymon-part{ display: inline-block; transition: transform 420ms var(--ease-out); }
+.etymon-joint{ display: inline-block; position: relative; width: 0.55em; height: 1em; vertical-align: -0.1em; }
+.etymon-joint svg{ position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.etymon-hyphen{ color: var(--lapis-deep); transition: opacity 420ms var(--ease-out); }
+@media (prefers-color-scheme: dark){ .etymon-hyphen{ color: var(--lapis); } }
+.etymon-joint-arc{ stroke: var(--lapis-deep); stroke-width: 1.2; fill: none; stroke-dasharray: 26; stroke-dashoffset: 26; opacity: 0; transition: stroke-dashoffset 480ms var(--ease-out) 120ms, opacity 200ms linear 120ms; }
+@media (prefers-color-scheme: dark){ .etymon-joint-arc{ stroke: var(--lapis); } }
+.etymon[aria-expanded="true"] .etymon-part:nth-of-type(1){ transform: translateX(-0.16em); }
+.etymon[aria-expanded="true"] .etymon-part:nth-of-type(3){ transform: translateX(0.16em); }
+.etymon[aria-expanded="true"] .etymon-part:nth-of-type(5){ transform: translateX(0.28em); }
+.etymon[aria-expanded="true"] .etymon-hyphen{ opacity: 0.3; }
+.etymon[aria-expanded="true"] .etymon-joint-arc{ stroke-dashoffset: 0; opacity: 1; }
+@media (prefers-reduced-motion: reduce){
+  .etymon-part, .etymon-hyphen, .etymon-joint-arc{ transition: opacity 150ms linear !important; }
+  .etymon[aria-expanded="true"] .etymon-part{ transform: none !important; }
+  .etymon[aria-expanded="true"] .etymon-joint-arc{ stroke-dashoffset: 0; }
+}
+.etymon-gloss{ display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows 380ms var(--ease-out), opacity 300ms var(--ease-out); margin-top: var(--sp-3); }
+.etymon[aria-expanded="true"] .etymon-gloss{ grid-template-rows: 1fr; opacity: 1; }
+.etymon-gloss-inner{ overflow: hidden; }
+.etymon-gloss-row{ display: flex; justify-content: center; gap: var(--sp-8); flex-wrap: wrap; padding-top: var(--sp-3); border-top: 1px dashed var(--line-2); }
+.etymon-gloss-item{ font-size: var(--text-sm); color: var(--ink-soft); }
+.etymon-gloss-item b{ font-family: var(--font-display); font-style: italic; color: var(--lapis-deep); font-weight: 600; margin-right: 0.4em; }
+@media (prefers-color-scheme: dark){ .etymon-gloss-item b{ color: var(--lapis); } }
+.etymon-hint{ margin-top: var(--sp-2); font-size: var(--text-xs); font-family: var(--font-caps); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); }
+
+/* ================================================================
+   CHAPTER VI — SOUNDS
+   ================================================================ */
+.sound-grid{ display:grid; grid-template-columns: minmax(0,1fr); gap: var(--sp-13); }
+@media (min-width: 820px){ .sound-grid{ grid-template-columns: 0.618fr 1fr; } }
+.sound-block h3{ font-family: var(--font-caps); font-size: var(--text-xs); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; margin-bottom: var(--sp-3); }
+.phones{ display:flex; flex-wrap:wrap; gap: var(--sp-3) var(--sp-5); margin-bottom: var(--sp-8); font-family: var(--font-display); font-size: 1.15rem; }
+.phones span{ display:inline-flex; align-items: baseline; gap: 0.3em; }
+.phones .grapheme{ font-weight: 600; }
+.phones .ipa{ font-style: italic; color: var(--ink-faint); font-size: 0.85em; }
+.sound-notes{ list-style: none; margin:0; padding:0; display:grid; gap: var(--sp-3); }
+.sound-notes li{ padding-left: var(--sp-5); border-left: 1px solid var(--line); color: var(--ink-soft); max-width: 48ch; }
+.sound-notes strong{ color: var(--ink); }
+
+.frieze{ margin-top: var(--sp-8); display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.frieze-item{ padding: var(--sp-8) var(--sp-5); text-align: center; border-left: 1px solid var(--line); }
+.frieze-item:first-child{ border-left: none; }
+.frieze-num{ display:block; font-family: var(--font-display); font-weight: 600; font-size: var(--text-xl); color: var(--lapis-deep); font-variant-numeric: oldstyle-nums; }
+@media (prefers-color-scheme: dark){ .frieze-num{ color: var(--lapis); } }
+.frieze-label{ display:block; margin-top: var(--sp-2); font-size: var(--text-sm); color: var(--ink-soft); }
+
+/* ================================================================
+   FOOTER / COLOPHON — mirrors the hero's pediment, upside down
+   ================================================================ */
+footer.colophon{ background: var(--paper-2); border-top: 1px solid var(--line); padding-block: var(--sp-21) var(--sp-13); margin-top: var(--sp-21); position: relative; }
+.colophon-pediment{ display:flex; justify-content:center; margin-bottom: var(--sp-8); opacity: 0.55; color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .colophon-pediment{ color: var(--lapis); } }
+.colophon-pediment svg{ width: clamp(10rem, 24vw, 16rem); height: auto; transform: scaleY(-1); }
+.colophon-grid{ display:grid; grid-template-columns: minmax(0,1fr); gap: var(--sp-13); text-align: center; }
+@media (min-width: 900px){ .colophon-grid{ grid-template-columns: 1fr 1px 1fr; align-items: start; text-align: left; } }
+.colophon-gutter{ background: var(--line); }
+@media (max-width: 899px){ .colophon-gutter{ display:none; } }
+.colophon h2{ font-size: var(--text-xl); margin-bottom: var(--sp-3); }
+.colophon-lede{ color: var(--ink-soft); max-width: 36ch; margin-inline: auto; }
+@media (min-width: 900px){ .colophon-lede{ margin-inline: 0; } }
+.governance{ margin-top: var(--sp-8); font-size: var(--text-sm); color: var(--ink-faint); max-width: 36ch; margin-inline: auto; padding-left: var(--sp-5); border-left: 1px solid var(--line); font-style: italic; text-align: left; }
+@media (max-width: 899px){ .governance{ margin-inline: auto; } }
+@media (min-width: 900px){ .governance{ margin-inline: 0; } }
+
+.editions-group{ margin-bottom: var(--sp-8); }
+.editions-group:last-child{ margin-bottom: 0; }
+.editions-group h3{ font-family: var(--font-caps); letter-spacing: 0.08em; font-size: var(--text-xs); text-transform: uppercase; color: var(--ink-faint); font-weight: 600; margin-bottom: var(--sp-3); }
+.editions-list{ list-style: none; margin:0; padding:0; display:grid; gap: var(--sp-2); }
+.editions-list a{ display:flex; justify-content: space-between; gap: var(--sp-5); padding-block: var(--sp-2); text-decoration: none; color: var(--ink); border-bottom: 1px dotted var(--line); font-family: var(--font-display); font-size: 1.05rem; }
+.editions-list a:hover{ color: var(--lapis-deep); border-color: var(--lapis-deep); }
+@media (prefers-color-scheme: dark){ .editions-list a:hover{ color: var(--lapis); border-color: var(--lapis); } }
+.editions-list .tag{ font-family: var(--font-text); font-style: italic; color: var(--ink-faint); font-size: var(--text-sm); white-space: nowrap; }
+
+.colophon-foot{ margin-top: var(--sp-13); padding-top: var(--sp-5); border-top: 1px solid var(--line); display:flex; justify-content: space-between; gap: var(--sp-5); flex-wrap: wrap; font-size: var(--text-sm); color: var(--ink-faint); text-align: left; }
+.colophon-foot a{ color: var(--ink-faint); }
 </style>
 </head>
 <body>
-<header class="hero">
-  <canvas id="waves" aria-hidden="true"></canvas>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ===================== GLOBAL BACKGROUND GEOMETRY (fixed, decorative) ===================== -->
+<div class="bg-geometry" id="bg-geometry" aria-hidden="true">
+  <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid meet" id="bg-geometry-svg">
+    <!-- nested golden rectangles that frame the spiral's squares -->
+    <g transform="translate(520,310)">
+      <rect class="bg-line" x="20" y="20" width="500" height="309"></rect>
+      <rect class="bg-line" x="20" y="20" width="309" height="309"></rect>
+      <rect class="bg-line" x="329" y="20" width="191" height="191"></rect>
+      <rect class="bg-line" x="402" y="211" width="118" height="118"></rect>
+      <rect class="bg-line" x="329" y="256" width="73" height="73"></rect>
+      <!-- the golden spiral: five quarter-circle arcs, one per square, drawn on load -->
+      <path class="bg-spiral" d="M20,329 A309,309 0 0 1 329,20 A191,191 0 0 1 520,211 A118,118 0 0 1 402,329 A73,73 0 0 1 329,256 A45,45 0 0 1 374,211"></path>
+    </g>
+
+    <!-- compass circle, breathing slowly -->
+    <g class="compass-a">
+      <circle class="bg-line" cx="300" cy="120" r="150"></circle>
+      <circle class="bg-line" cx="300" cy="120" r="2.4" fill="var(--line-2)" stroke="none"></circle>
+      <line class="bg-tick" x1="300" y1="-30" x2="300" y2="-6"></line>
+      <line class="bg-tick" x1="300" y1="246" x2="300" y2="270"></line>
+      <line class="bg-tick" x1="126" y1="120" x2="150" y2="120"></line>
+      <line class="bg-tick" x1="450" y1="120" x2="474" y2="120"></line>
+    </g>
+
+    <!-- compass rosette, rotating very slowly -->
+    <g class="compass-b">
+      <circle class="bg-line" cx="1180" cy="520" r="120"></circle>
+      <circle class="bg-line" cx="1180" cy="520" r="76"></circle>
+      <line class="bg-tick" x1="1060" y1="520" x2="1300" y2="520"></line>
+      <line class="bg-tick" x1="1180" y1="400" x2="1180" y2="640"></line>
+    </g>
+
+    <!-- proportion annotations, fading in and out -->
+    <text class="bg-label bg-phi-1" x="880" y="260" font-size="52">&#981;</text>
+    <text class="bg-label bg-phi-2" x="300" y="760" font-size="22">1 : 1.618</text>
+    <text class="bg-label bg-phi-3" x="1180" y="700" font-size="20">a : b = φ</text>
+  </svg>
+</div>
+
+<header class="site">
   <div class="wrap">
-    <span class="badge">A minimalist conlang · open resource</span>
-    <h1>Learn <span class="sail">VELA</span></h1>
-    <p>The universal constructed language built from English roots — regular, gentle to say, and made to be read exactly as it is written.</p>
-    <div class="say">Read it as you see it · say it as you read it</div>
+    <span class="header-left" aria-hidden="true"></span>
+    <p class="wordmark">VELA</p>
+    <nav class="site-nav" aria-label="Section navigation">
+      <ul>
+        <li><a href="#principles">Principles</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#compare">Compare</a></li>
+        <li><a href="#editions">Learn</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<main class="wrap">
-  <h2 class="sec-t">Learn to speak it</h2>
-  <div class="grid">
-    <a class="card feat c1" href="books/Learning-VELA-Level1.html">
-      <span class="ic">📘</span>
-      <span class="pill">Course · Level 1</span>
-      <h3>Learning VELA — Level 1</h3>
-      <p>Twelve friendly lessons from your first “Helo!” to holding a real basic conversation. Vocabulary, one rule at a time, dialogues and exercises with answers.</p>
-      <span class="go">Start Level 1 →</span>
-    </a>
-    <a class="card feat c2" href="books/Learning-VELA-Level2.html">
-      <span class="ic">📗</span>
-      <span class="pill">Course · Level 2</span>
-      <h3>Learning VELA — Level 2</h3>
-      <p>Twelve more lessons: aspect, modals, comparison, joining ideas, word-building, and a whole story to read. Go from the basics to real speaking.</p>
-      <span class="go">Continue to Level 2 →</span>
-    </a>
-    <a class="card feat c5" href="books/Learning-VELA-Level3.html">
-      <span class="ic">📙</span>
-      <span class="pill">Course · Level 3</span>
-      <h3>Learning VELA — Level 3</h3>
-      <p>Twelve lessons toward fluency: relative clauses, conditionals, causatives, the deep word-building system, and reading whole poems and folktales.</p>
-      <span class="go">Reach for fluency →</span>
-    </a>
-    <a class="card feat c6" href="books/Learning-VELA-Level4.html">
-      <span class="ic">📓</span>
-      <span class="pill">Course · Level 4</span>
-      <h3>Learning VELA — Level 4</h3>
-      <p>Twelve lessons to mastery: the impersonal <em>pipol</em> (VELA has no passive), reported speech, fine modality, contrast and cause, figurative language, and building a real argument.</p>
-      <span class="go">Master the nuance →</span>
-    </a>
-    <a class="card feat c7" href="books/Learning-VELA-Level5.html">
-      <span class="ic">🎓</span>
-      <span class="pill">Course · Level 5</span>
-      <h3>Learning VELA — Level 5</h3>
-      <p>The final tier: word-craft, indefinite pronouns, register &amp; style, nuance, metaphor, poetry, translation and your own essay. Become a true speaker.</p>
-      <span class="go">Find your voice →</span>
-    </a>
+<main id="main">
+
+  <!-- ===================== HERO — symmetric axis, golden-rectangle construction ===================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-geometry" aria-hidden="true">
+      <svg viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid meet">
+        <rect class="construction-line" x="177" y="60" width="646" height="399"></rect>
+        <line class="construction-line" x1="422" y1="60" x2="422" y2="459"></line>
+        <path class="construction-arc" d="M 422 60 A 245 245 0 0 1 177 305"></path>
+        <path class="construction-arc" d="M 422 305 A 117 117 0 0 1 305 188"></path>
+        <line class="construction-line" x1="177" y1="60" x2="823" y2="459"></line>
+        <line class="construction-line" x1="823" y1="60" x2="177" y2="459"></line>
+        <circle class="construction-line" cx="500" cy="260" r="245"></circle>
+        <circle class="construction-dot" cx="500" cy="260" r="3"></circle>
+        <circle class="construction-dot" cx="177" cy="60" r="2.4"></circle>
+        <circle class="construction-dot" cx="823" cy="60" r="2.4"></circle>
+        <circle class="construction-dot" cx="177" cy="459" r="2.4"></circle>
+        <circle class="construction-dot" cx="823" cy="459" r="2.4"></circle>
+      </svg>
+    </div>
+    <div class="wrap hero-inner">
+      <p class="kicker reveal">The Universal Conlang</p>
+      <h1 id="hero-title" class="reveal">VELA</h1>
+      <span class="hero-rule reveal" aria-hidden="true"></span>
+      <p class="hero-pitch reveal">A constructed language you can learn in weeks: one sound per letter, no irregular verbs, no grammatical gender, and words you can take apart like Lego.</p>
+      <p class="hero-principles reveal" aria-label="Principles, in order">
+        <span>Simplicity</span><span>Transparency</span><span>Beauty</span><span>Universality</span>
+      </p>
+      <div class="hero-links reveal">
+        <a class="btn primary" href="books/Learning-VELA-Level1.html">Start Level 1</a>
+        <a class="btn" href="books/VELA-Dictionary.pdf">Dictionary (PDF)</a>
+        <a class="btn" href="https://github.com/cocodrino/vela-lang">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="divider" aria-hidden="true">
+      <span class="ln"></span>
+      <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="8" width="14" height="8.65" stroke="currentColor" stroke-width="1"></rect><line x1="13.65" y1="8" x2="13.65" y2="16.65" stroke="currentColor" stroke-width="1"></line><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle></svg>
+      <span class="ln"></span>
+    </div>
   </div>
 
-  <h2 class="sec-t">Reference</h2>
-  <div class="grid">
-    <a class="card c3" href="books/VELA-Dictionary.pdf">
-      <span class="ic">📖</span>
-      <h3>VELA Dictionary</h3>
-      <p>Every word, both ways — VELA → English and English → VELA. A printable two-column PDF, ~2,900 entries with pronunciation.</p>
-      <span class="go">Open the PDF →</span>
-    </a>
-    <a class="card c4" href="books/VELA-The-Universal-Conlang.html">
-      <span class="ic">📜</span>
-      <h3>The Universal Conlang</h3>
-      <p>The reference &amp; manifesto: the philosophy, the sounds, the grammar and how the language is built. Also available as a PDF.</p>
-      <span class="go">Read the reference →</span>
-    </a>
+  <!-- ===================== CHAPTER I — PRINCIPLES ===================== -->
+  <section class="chapter wrap" id="principles" aria-labelledby="ch1-title">
+    <div class="chapter-open">
+      <p class="kicker">Chapter I</p>
+      <span class="chapter-axis" aria-hidden="true"></span>
+      <h2 id="ch1-title" class="reveal">Four Principles, in Order</h2>
+      <p class="dek reveal">Simplicity, transparency, beauty, universality — voted into law, in that order.</p>
+    </div>
+
+    <div class="golden-split reveal">
+      <p class="principles-aside">
+        <em>Marginal note —</em> a committee of five AI specialists (phonologist, morphologist, lexicographer, semanticist, aestheticist) votes on every rule before it enters the corpus. Twenty rules ratified so far, R1 through R20.
+      </p>
+      <p class="principles-lede">
+        Most constructed languages ask you to memorise exceptions. VELA removes them. There is exactly one irregular verb — <span lang="x-vela" class="vela">bi</span>, &ldquo;to be&rdquo; — and everything else follows four principles, each weighed in order before the next is allowed to matter.
+      </p>
+    </div>
+
+    <ol class="principles-list reveal">
+      <li><span class="roman">I.</span><div><h3>Simplicity</h3><p>Rules you can count on two hands. One sound per letter, open syllables, a single irregular verb.</p></div></li>
+      <li><span class="roman">II.</span><div><h3>Transparency</h3><p>If you know the parts, you know the whole. Compounds, suffixes and tenses are read, never guessed.</p></div></li>
+      <li><span class="roman">III.</span><div><h3>Beauty</h3><p>Rules are necessary but not sufficient — the aestheticist's vote weighs how a word sounds and sits on the page.</p></div></li>
+      <li><span class="roman">IV.</span><div><h3>Universality</h3><p>No single source language is favoured. Roots are built to be learnable from any first language.</p></div></li>
+    </ol>
+  </section>
+
+  <div class="wrap">
+    <div class="divider" aria-hidden="true">
+      <span class="ln"></span>
+      <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="8" width="14" height="8.65" stroke="currentColor" stroke-width="1"></rect><line x1="13.65" y1="8" x2="13.65" y2="16.65" stroke="currentColor" stroke-width="1"></line><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle></svg>
+      <span class="ln"></span>
+    </div>
   </div>
 
-  <h2 class="sec-t">More</h2>
-  <p style="color:var(--muted)">Source, lexicon and design decisions live in the <a href="https://github.com/cocodrino/vela-lang">GitHub repository</a>. The dictionary and books are generated from the lexicon files, so they stay in sync with the language.</p>
+  <!-- ===================== CHAPTER II — FEATURES ===================== -->
+  <section class="chapter wrap" id="features" aria-labelledby="ch2-title">
+    <div class="chapter-open">
+      <p class="kicker">Chapter II</p>
+      <span class="chapter-axis" aria-hidden="true"></span>
+      <h2 id="ch2-title" class="reveal">What That Looks Like</h2>
+      <p class="dek reveal">Eight rules, each with its proof. No exceptions hiding underneath.</p>
+    </div>
+
+    <ol class="features-list reveal">
+      <li class="feature-entry">
+        <span class="feature-num">01</span>
+        <div class="feature-body">
+          <h3>Spelled as spoken.</h3>
+          <p class="desc">One letter, one sound. No silent letters, no <em>th</em>.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Proof</p>
+            <p lang="x-vela" class="vela">Helo!</p>
+            <p class="en">Hello!</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">02</span>
+        <div class="feature-body">
+          <h3>The dictionary form is the present tense.</h3>
+          <p class="desc"><span lang="x-vela" class="vela">maka</span> = to make / makes. Past adds <em>-ed</em>, future adds <em>-wil</em>, to the short root.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Present</p>
+            <p lang="x-vela" class="vela">Mi maka breda.</p>
+            <p class="en">I make bread.</p>
+          </div>
+          <div class="feature-proof">
+            <p class="proof-label">Past &amp; future</p>
+            <p lang="x-vela" class="vela">Mi mak-ed breda. / Mi mak-wil breda.</p>
+            <p class="en">I made bread. / I will make bread.</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">03</span>
+        <div class="feature-body">
+          <h3>One pronoun for he, she and it: <span lang="x-vela" class="vela">li</span>.</h3>
+          <p class="desc">No grammatical gender anywhere.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Proof</p>
+            <p lang="x-vela" class="vela">Li sing.</p>
+            <p class="en">He sings. / She sings. / It sings.</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">04</span>
+        <div class="feature-body">
+          <h3>Words you can read by parts.</h3>
+          <p class="desc">Compounds are transparent: <span lang="x-vela" class="vela">lern-hous</span> = learn-house = school.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Proof</p>
+            <p lang="x-vela" class="vela">lern-hous</p>
+            <p class="en">school</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">05</span>
+        <div class="feature-body">
+          <h3>One visual rule.</h3>
+          <p class="desc">A hyphen joins the short root; a space keeps the full word.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Root, joined</p>
+            <p lang="x-vela" class="vela">red-hous</p>
+            <p class="en">a red house</p>
+          </div>
+          <div class="feature-proof">
+            <p class="proof-label">Full word, spaced</p>
+            <p lang="x-vela" class="vela">un reda bol</p>
+            <p class="en">a red ball</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">06</span>
+        <div class="feature-body">
+          <h3>Adjectives never change.</h3>
+          <p class="desc"><span lang="x-vela" class="vela">un reda bol</span> / <span lang="x-vela" class="vela">La bol es reda.</span></p>
+          <div class="feature-proof">
+            <p class="proof-label">Proof</p>
+            <p lang="x-vela" class="vela">un reda bol / La bol es reda.</p>
+            <p class="en">a red ball / The ball is red.</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">07</span>
+        <div class="feature-body">
+          <h3>Grammar by suffix, not by exception.</h3>
+          <p class="desc">Plural <em>-n</em>/<em>-en</em>, possessive <em>-se</em>, location <em>-to</em>, professions <em>-po</em>.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Plural</p>
+            <p lang="x-vela" class="vela">tu dog-en · tri tre-n</p>
+            <p class="en">two dogs · three trees</p>
+          </div>
+          <div class="feature-proof">
+            <p class="proof-label">Possessive &amp; location</p>
+            <p lang="x-vela" class="vela">Li-se hous es biga. / Wi livi la siti-to.</p>
+            <p class="en">Her house is big. / We live in the city.</p>
+          </div>
+        </div>
+      </li>
+      <li class="feature-entry">
+        <span class="feature-num">08</span>
+        <div class="feature-body">
+          <h3>No passive voice.</h3>
+          <p class="desc">Say who did it.</p>
+          <div class="feature-proof">
+            <p class="proof-label">Proof</p>
+            <p lang="x-vela" class="vela">Pipol maki-ed la hous.</p>
+            <p class="en">People built the house.</p>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <div class="wrap">
+    <div class="divider" aria-hidden="true">
+      <span class="ln"></span>
+      <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="8" width="14" height="8.65" stroke="currentColor" stroke-width="1"></rect><line x1="13.65" y1="8" x2="13.65" y2="16.65" stroke="currentColor" stroke-width="1"></line><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle></svg>
+      <span class="ln"></span>
+    </div>
+  </div>
+
+  <!-- ===================== CHAPTER III — COMPARISONS (symmetric, central axis) ===================== -->
+  <section class="chapter wrap" id="compare" aria-labelledby="ch3-title">
+    <div class="chapter-open">
+      <p class="kicker">Chapter III</p>
+      <span class="chapter-axis" aria-hidden="true"></span>
+      <h2 id="ch3-title" class="reveal">A Bilingual Edition</h2>
+      <p class="dek reveal">English to the left of the axis, VELA to the right — twenty-eight pairs, in six short chapters.</p>
+    </div>
+
+    <!-- I. Hello & being -->
+    <div class="subchapter reveal" aria-labelledby="sub-i">
+      <div class="subchapter-open"><span class="subchapter-num">I.</span><h3 class="subchapter-title" id="sub-i">Hello &amp; Being</h3></div>
+
+      <div class="pair">
+        <p class="en">Hello!</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Helo!</span></p>
+        <p class="pair-note">greetings</p>
+      </div>
+      <div class="pair">
+        <p class="en">I am happy.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi es hapi.</span></p>
+        <p class="pair-note">the one irregular verb</p>
+      </div>
+      <div class="pair">
+        <p class="en">I love you.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi luva yu.</span></p>
+        <p class="pair-note">everyday phrase</p>
+      </div>
+      <div class="pair">
+        <p class="en">How much?</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Hou meni?</span></p>
+        <p class="pair-note">everyday phrase</p>
+      </div>
+      <div class="pair">
+        <p class="en">Life is good.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Lifa es guda.</span></p>
+        <p class="pair-note">everyday phrase</p>
+      </div>
+    </div>
+
+    <!-- II. Time without exceptions -->
+    <div class="subchapter reveal" aria-labelledby="sub-ii">
+      <div class="subchapter-open"><span class="subchapter-num">II.</span><h3 class="subchapter-title" id="sub-ii">Time Without Exceptions</h3></div>
+
+      <div class="pair">
+        <p class="en">I make bread.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi maka breda.</span></p>
+        <p class="pair-note">present = dictionary form</p>
+      </div>
+      <div class="pair">
+        <p class="en">I made bread.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi mak-ed breda.</span></p>
+        <p class="pair-note">past: root + -ed</p>
+      </div>
+      <div class="pair">
+        <p class="en">I will make bread.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi mak-wil breda.</span></p>
+        <p class="pair-note">future: root + -wil</p>
+      </div>
+      <div class="pair">
+        <p class="en">I am still learning VELA.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi yeta lerna VELA.</span></p>
+        <p class="pair-note">everyday phrase</p>
+      </div>
+      <div class="pair">
+        <p class="en">I can't drive.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi no kan draiva.</span></p>
+        <p class="pair-note">negation + modal</p>
+      </div>
+    </div>
+
+    <!-- III. Who, how many, whose, where -->
+    <div class="subchapter reveal" aria-labelledby="sub-iii">
+      <div class="subchapter-open"><span class="subchapter-num">III.</span><h3 class="subchapter-title" id="sub-iii">Who, How Many, Whose, Where</h3></div>
+
+      <div class="pair">
+        <p class="en">He sings. / She sings. / It sings.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Li sing.</span></p>
+        <p class="pair-note">one pronoun, no gender</p>
+      </div>
+      <div class="pair">
+        <p class="en">two dogs &middot; three trees</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">tu dog-en &middot; tri tre-n</span></p>
+        <p class="pair-note">plural -en after a consonant, -n after a vowel</p>
+      </div>
+      <div class="pair">
+        <p class="en">Her house is big.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Li-se hous es biga.</span></p>
+        <p class="pair-note">possessive -se</p>
+      </div>
+      <div class="pair">
+        <p class="en">We live in the city.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Wi livi la siti-to.</span></p>
+        <p class="pair-note">location -to</p>
+      </div>
+      <div class="pair">
+        <p class="en">Everyone is here.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Ol-person es hier.</span></p>
+        <p class="pair-note">built pronouns (all + person)</p>
+      </div>
+      <div class="pair">
+        <p class="en">We help each other.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Wi helpa wi-wi.</span></p>
+        <p class="pair-note">reciprocal by doubling</p>
+      </div>
+    </div>
+
+    <!-- IV. Words by parts -->
+    <div class="subchapter reveal" aria-labelledby="sub-iv">
+      <div class="subchapter-open"><span class="subchapter-num">IV.</span><h3 class="subchapter-title" id="sub-iv">Words by Parts</h3></div>
+
+      <div class="pair">
+        <p class="en">school</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">lern-hous</span></p>
+        <p class="pair-note">learn + house</p>
+      </div>
+      <div class="pair">
+        <p class="en">breakfast</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">moring-fud</span></p>
+        <p class="pair-note">morning + food</p>
+      </div>
+      <div class="pair">
+        <p class="en">restaurant</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">eat-hous</span></p>
+        <p class="pair-note">eat + house</p>
+      </div>
+      <div class="pair">
+        <p class="en">baker</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">bred-mak-po</span></p>
+        <p class="pair-note">bread + make + person</p>
+      </div>
+      <div class="pair">
+        <p class="en">worker</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">werk-po</span></p>
+        <p class="pair-note">work + person</p>
+      </div>
+    </div>
+
+    <!-- V. Describing -->
+    <div class="subchapter reveal" aria-labelledby="sub-v">
+      <div class="subchapter-open"><span class="subchapter-num">V.</span><h3 class="subchapter-title" id="sub-v">Describing</h3></div>
+
+      <div class="pair">
+        <p class="en">a red ball / The ball is red.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">un reda bol / La bol es reda.</span></p>
+        <p class="pair-note">adjectives never change</p>
+      </div>
+      <div class="pair">
+        <p class="en">bigger &middot; biggest</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">mor biga &middot; mos biga</span></p>
+        <p class="pair-note">comparison by word, not by ending</p>
+      </div>
+    </div>
+
+    <!-- VI. Sentences -->
+    <div class="subchapter reveal" aria-labelledby="sub-vi">
+      <div class="subchapter-open"><span class="subchapter-num">VI.</span><h3 class="subchapter-title" id="sub-vi">Sentences</h3></div>
+
+      <div class="pair">
+        <p class="en">Where do you live?</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Wer yu livi?</span></p>
+        <p class="pair-note">questions keep word order</p>
+      </div>
+      <div class="pair">
+        <p class="en">the person who sings</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">la person hu sing</span></p>
+        <p class="pair-note">relative clauses</p>
+      </div>
+      <div class="pair">
+        <p class="en">People built the house.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Pipol maki-ed la hous.</span></p>
+        <p class="pair-note">no passive voice</p>
+      </div>
+      <div class="pair">
+        <p class="en">I think that she is good.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">Mi tinka dat li es guda.</span></p>
+        <p class="pair-note">"that" clauses</p>
+      </div>
+      <div class="pair">
+        <p class="en">If you come, then I go.</p><span class="axis" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2"></line><circle cx="12" cy="12" r="2.2" fill="currentColor"></circle></svg></span><p class="ve" lang="x-vela"><span class="vela">If yu kom, den mi go.</span></p>
+        <p class="pair-note">conditionals</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="divider" aria-hidden="true">
+      <span class="ln"></span>
+      <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="8" width="14" height="8.65" stroke="currentColor" stroke-width="1"></rect><line x1="13.65" y1="8" x2="13.65" y2="16.65" stroke="currentColor" stroke-width="1"></line><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle></svg>
+      <span class="ln"></span>
+    </div>
+  </div>
+
+  <!-- ===================== CHAPTER IV — ONE ROOT, FOUR BRANCHES (compass fan) ===================== -->
+  <section class="chapter wrap" id="roots" aria-labelledby="ch4-title">
+    <div class="chapter-open">
+      <p class="kicker">Chapter IV</p>
+      <span class="chapter-axis" aria-hidden="true"></span>
+      <h2 id="ch4-title" class="reveal">One Root, Four Branches</h2>
+      <p class="dek reveal">A short root carries tense and trade alike, drawn here with compass and rule as a fan from a single hub.</p>
+    </div>
+
+    <div class="plate-frame reveal">
+      <!-- horizontal fan, desktop/tablet: hub at the base, four rays rising to symmetric plaques -->
+      <svg class="plate-horizontal" viewBox="0 0 920 460" role="img" aria-label="Diagram: the root mak fans into four branches — bred-mak-po (baker), mak-ed (made), maka (to make) and mak-wil (will make), each at the end of a ray from the hub.">
+        <path class="root-fan-arc" d="M 140 132 A 320 320 0 0 1 780 132"></path>
+        <line class="root-line root-ray" x1="460" y1="410" x2="140" y2="130" data-len="400"></line>
+        <line class="root-line root-ray" x1="460" y1="410" x2="360" y2="130" data-len="282"></line>
+        <line class="root-line root-ray" x1="460" y1="410" x2="560" y2="130" data-len="282"></line>
+        <line class="root-line root-ray" x1="460" y1="410" x2="780" y2="130" data-len="400"></line>
+
+        <circle class="root-node main" cx="460" cy="410" r="46"></circle>
+        <text class="root-text" x="460" y="420" font-size="26" text-anchor="middle">mak</text>
+
+        <g class="root-leaf">
+          <rect class="root-node" x="40" y="60" width="200" height="72" rx="2"></rect>
+          <text x="140" y="90" font-size="22" text-anchor="middle"><tspan class="root-text">bred-mak</tspan><tspan class="root-suffix">-po</tspan></text>
+          <text class="root-gloss" x="140" y="114" text-anchor="middle">baker</text>
+        </g>
+        <g class="root-leaf">
+          <rect class="root-node" x="260" y="60" width="200" height="72" rx="2"></rect>
+          <text x="360" y="90" font-size="22" text-anchor="middle"><tspan class="root-text">mak</tspan><tspan class="root-suffix">-ed</tspan></text>
+          <text class="root-gloss" x="360" y="114" text-anchor="middle">made</text>
+        </g>
+        <g class="root-leaf">
+          <rect class="root-node" x="460" y="60" width="200" height="72" rx="2"></rect>
+          <text x="560" y="90" font-size="22" text-anchor="middle"><tspan class="root-text">maka</tspan></text>
+          <text class="root-gloss" x="560" y="114" text-anchor="middle">to make</text>
+        </g>
+        <g class="root-leaf">
+          <rect class="root-node" x="680" y="60" width="200" height="72" rx="2"></rect>
+          <text x="780" y="90" font-size="22" text-anchor="middle"><tspan class="root-text">mak</tspan><tspan class="root-suffix">-wil</tspan></text>
+          <text class="root-gloss" x="780" y="114" text-anchor="middle">will make</text>
+        </g>
+      </svg>
+
+      <!-- vertical fan, narrow screens -->
+      <svg class="plate-vertical" viewBox="0 0 420 820" role="img" aria-label="Diagram: the root mak fans into four branches — bred-mak-po (baker), mak-ed (made), maka (to make) and mak-wil (will make), each at the end of a ray from the hub.">
+        <path class="root-fan-arc" d="M 60 230 A 280 280 0 0 1 60 590"></path>
+        <line class="root-line root-ray" x1="210" y1="410" x2="60" y2="230" data-len="282"></line>
+        <line class="root-line root-ray" x1="210" y1="410" x2="60" y2="330" data-len="200"></line>
+        <line class="root-line root-ray" x1="210" y1="410" x2="60" y2="490" data-len="200"></line>
+        <line class="root-line root-ray" x1="210" y1="410" x2="60" y2="590" data-len="282"></line>
+
+        <circle class="root-node main" cx="210" cy="410" r="40"></circle>
+        <text class="root-text" x="210" y="418" font-size="22" text-anchor="middle">mak</text>
+
+        <g class="root-leaf">
+          <rect class="root-node" x="60" y="196" width="200" height="68" rx="2"></rect>
+          <text x="160" y="226" font-size="19" text-anchor="middle"><tspan class="root-text">bred-mak</tspan><tspan class="root-suffix">-po</tspan></text>
+          <text class="root-gloss" x="160" y="249" text-anchor="middle">baker</text>
+        </g>
+        <g class="root-leaf">
+          <rect class="root-node" x="60" y="296" width="200" height="68" rx="2"></rect>
+          <text x="160" y="326" font-size="19" text-anchor="middle"><tspan class="root-text">mak</tspan><tspan class="root-suffix">-ed</tspan></text>
+          <text class="root-gloss" x="160" y="349" text-anchor="middle">made</text>
+        </g>
+        <g class="root-leaf">
+          <rect class="root-node" x="60" y="456" width="200" height="68" rx="2"></rect>
+          <text x="160" y="486" font-size="19" text-anchor="middle"><tspan class="root-text">maka</tspan></text>
+          <text class="root-gloss" x="160" y="509" text-anchor="middle">to make</text>
+        </g>
+        <g class="root-leaf">
+          <rect class="root-node" x="60" y="556" width="200" height="68" rx="2"></rect>
+          <text x="160" y="586" font-size="19" text-anchor="middle"><tspan class="root-text">mak</tspan><tspan class="root-suffix">-wil</tspan></text>
+          <text class="root-gloss" x="160" y="609" text-anchor="middle">will make</text>
+        </g>
+      </svg>
+    </div>
+    <p class="plate-caption reveal"><strong>mak</strong> — "make" — stays whole under every branch: a vowel for the present, <span class="vela" lang="x-vela">-ed</span> for the past, <span class="vela" lang="x-vela">-wil</span> for the future, <span class="vela" lang="x-vela">-po</span> for the person who does it.</p>
+  </section>
+
+  <div class="wrap">
+    <div class="divider" aria-hidden="true">
+      <span class="ln"></span>
+      <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="8" width="14" height="8.65" stroke="currentColor" stroke-width="1"></rect><line x1="13.65" y1="8" x2="13.65" y2="16.65" stroke="currentColor" stroke-width="1"></line><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle></svg>
+      <span class="ln"></span>
+    </div>
+  </div>
+
+  <!-- ===================== CHAPTER V — SPLIT INTERACTION ===================== -->
+  <section class="chapter wrap" id="split" aria-labelledby="ch5-title">
+    <div class="chapter-open">
+      <p class="kicker">Chapter V</p>
+      <span class="chapter-axis" aria-hidden="true"></span>
+      <h2 id="ch5-title" class="reveal">Click a Word to Split It Into Its Parts</h2>
+      <p class="dek reveal">Every compound is a sentence folded into one word. Open any one of these to see the fold undone, traced by a single compass arc.</p>
+    </div>
+
+    <div class="split-grid reveal">
+      <button type="button" class="etymon" aria-expanded="false" data-parts="learn|house" data-gloss-en="school">
+        <span class="etymon-display" lang="x-vela">
+          <span class="etymon-part">lern</span><span class="etymon-joint"><svg viewBox="0 0 22 40" aria-hidden="true"><path class="etymon-joint-arc" d="M4,6 A16,16 0 0 1 18,34"></path></svg><span class="etymon-hyphen">-</span></span><span class="etymon-part">hous</span>
+        </span>
+        <span class="etymon-gloss"><span class="etymon-gloss-inner"><span class="etymon-gloss-row">
+          <span class="etymon-gloss-item"><b>lern</b>learn</span>
+          <span class="etymon-gloss-item"><b>hous</b>house</span>
+          <span class="etymon-gloss-item"><b>=</b>school</span>
+        </span></span></span>
+        <span class="etymon-hint">Press Enter to split</span>
+      </button>
+
+      <button type="button" class="etymon" aria-expanded="false" data-parts="morning|food" data-gloss-en="breakfast">
+        <span class="etymon-display" lang="x-vela">
+          <span class="etymon-part">moring</span><span class="etymon-joint"><svg viewBox="0 0 22 40" aria-hidden="true"><path class="etymon-joint-arc" d="M4,6 A16,16 0 0 1 18,34"></path></svg><span class="etymon-hyphen">-</span></span><span class="etymon-part">fud</span>
+        </span>
+        <span class="etymon-gloss"><span class="etymon-gloss-inner"><span class="etymon-gloss-row">
+          <span class="etymon-gloss-item"><b>moring</b>morning</span>
+          <span class="etymon-gloss-item"><b>fud</b>food</span>
+          <span class="etymon-gloss-item"><b>=</b>breakfast</span>
+        </span></span></span>
+        <span class="etymon-hint">Press Enter to split</span>
+      </button>
+
+      <button type="button" class="etymon" aria-expanded="false" data-parts="eat|house" data-gloss-en="restaurant">
+        <span class="etymon-display" lang="x-vela">
+          <span class="etymon-part">eat</span><span class="etymon-joint"><svg viewBox="0 0 22 40" aria-hidden="true"><path class="etymon-joint-arc" d="M4,6 A16,16 0 0 1 18,34"></path></svg><span class="etymon-hyphen">-</span></span><span class="etymon-part">hous</span>
+        </span>
+        <span class="etymon-gloss"><span class="etymon-gloss-inner"><span class="etymon-gloss-row">
+          <span class="etymon-gloss-item"><b>eat</b>eat</span>
+          <span class="etymon-gloss-item"><b>hous</b>house</span>
+          <span class="etymon-gloss-item"><b>=</b>restaurant</span>
+        </span></span></span>
+        <span class="etymon-hint">Press Enter to split</span>
+      </button>
+
+      <button type="button" class="etymon" aria-expanded="false" data-parts="bread|make|person" data-gloss-en="baker">
+        <span class="etymon-display" lang="x-vela">
+          <span class="etymon-part">bred</span><span class="etymon-joint"><svg viewBox="0 0 22 40" aria-hidden="true"><path class="etymon-joint-arc" d="M4,6 A16,16 0 0 1 18,34"></path></svg><span class="etymon-hyphen">-</span></span><span class="etymon-part">mak</span><span class="etymon-joint"><svg viewBox="0 0 22 40" aria-hidden="true"><path class="etymon-joint-arc" d="M4,6 A16,16 0 0 1 18,34"></path></svg><span class="etymon-hyphen">-</span></span><span class="etymon-part">po</span>
+        </span>
+        <span class="etymon-gloss"><span class="etymon-gloss-inner"><span class="etymon-gloss-row">
+          <span class="etymon-gloss-item"><b>bred</b>bread</span>
+          <span class="etymon-gloss-item"><b>mak</b>make</span>
+          <span class="etymon-gloss-item"><b>po</b>person</span>
+          <span class="etymon-gloss-item"><b>=</b>baker</span>
+        </span></span></span>
+        <span class="etymon-hint">Press Enter to split</span>
+      </button>
+
+      <button type="button" class="etymon" aria-expanded="false" data-parts="work|person" data-gloss-en="worker">
+        <span class="etymon-display" lang="x-vela">
+          <span class="etymon-part">werk</span><span class="etymon-joint"><svg viewBox="0 0 22 40" aria-hidden="true"><path class="etymon-joint-arc" d="M4,6 A16,16 0 0 1 18,34"></path></svg><span class="etymon-hyphen">-</span></span><span class="etymon-part">po</span>
+        </span>
+        <span class="etymon-gloss"><span class="etymon-gloss-inner"><span class="etymon-gloss-row">
+          <span class="etymon-gloss-item"><b>werk</b>work</span>
+          <span class="etymon-gloss-item"><b>po</b>person</span>
+          <span class="etymon-gloss-item"><b>=</b>worker</span>
+        </span></span></span>
+        <span class="etymon-hint">Press Enter to split</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="divider" aria-hidden="true">
+      <span class="ln"></span>
+      <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="8" width="14" height="8.65" stroke="currentColor" stroke-width="1"></rect><line x1="13.65" y1="8" x2="13.65" y2="16.65" stroke="currentColor" stroke-width="1"></line><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle></svg>
+      <span class="ln"></span>
+    </div>
+  </div>
+
+  <!-- ===================== CHAPTER VI — SOUNDS & NUMBERS ===================== -->
+  <section class="chapter wrap" id="sounds" aria-labelledby="ch6-title">
+    <div class="chapter-open">
+      <p class="kicker">Chapter VI</p>
+      <span class="chapter-axis" aria-hidden="true"></span>
+      <h2 id="ch6-title" class="reveal">Sound and Measure</h2>
+      <p class="dek reveal">Five vowels, twenty consonants, and a stress that always falls in the same place.</p>
+    </div>
+
+    <div class="sound-grid reveal">
+      <div class="sound-block">
+        <h3>Vowels</h3>
+        <p class="phones">
+          <span><span class="grapheme">a</span><span class="ipa">/a/</span></span>
+          <span><span class="grapheme">e</span><span class="ipa">/e/</span></span>
+          <span><span class="grapheme">i</span><span class="ipa">/i/</span></span>
+          <span><span class="grapheme">o</span><span class="ipa">/o/</span></span>
+          <span><span class="grapheme">u</span><span class="ipa">/u/</span></span>
+        </p>
+        <h3>Consonants</h3>
+        <p class="phones">
+          <span><span class="grapheme">p t k b d g m n f v s z sh h l r w y ch j</span></span>
+        </p>
+      </div>
+      <div class="sound-block">
+        <h3>Rules of the ear</h3>
+        <ul class="sound-notes">
+          <li><strong>Always the same.</strong> Every vowel keeps its sound; none is ever reduced to a schwa.</li>
+          <li><strong>Never in VELA.</strong> No <em>th</em>, no <em>zh</em>, no "uh" schwa sound.</li>
+          <li><strong>Open syllables.</strong> A word may end only in a vowel, or in <em>n, m, l, r, s</em>.</li>
+          <li><strong>Pitch, not force.</strong> Stress falls on the second-to-last syllable, carried as melody rather than percussion.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="frieze reveal">
+      <div class="frieze-item"><span class="frieze-num">5</span><span class="frieze-label">vowels</span></div>
+      <div class="frieze-item"><span class="frieze-num">20</span><span class="frieze-label">consonants</span></div>
+      <div class="frieze-item"><span class="frieze-num">2,928</span><span class="frieze-label">dictionary entries</span></div>
+      <div class="frieze-item"><span class="frieze-num">60</span><span class="frieze-label">lessons, A1 → C1</span></div>
+      <div class="frieze-item"><span class="frieze-num">1</span><span class="frieze-label">irregular verb, total</span></div>
+    </div>
+  </section>
+
 </main>
 
-<footer class="foot">
-  VELA · built in the open · read it as you see it ⛵
+<!-- ===================== FOOTER / COLOPHON — mirrors the hero pediment ===================== -->
+<footer class="colophon" id="editions">
+  <div class="wrap">
+    <div class="colophon-pediment" aria-hidden="true">
+      <svg viewBox="0 0 220 90" fill="none">
+        <rect x="95" y="6" width="30" height="7" stroke="currentColor" stroke-width="2"></rect>
+        <rect x="75" y="17" width="70" height="7" stroke="currentColor" stroke-width="2"></rect>
+        <rect x="55" y="28" width="110" height="7" stroke="currentColor" stroke-width="2"></rect>
+        <path d="M 35 46 A 75 75 0 0 0 185 46" stroke="currentColor" stroke-width="1.5"></path>
+        <circle cx="110" cy="46" r="2" fill="currentColor"></circle>
+      </svg>
+    </div>
+  </div>
+  <div class="wrap colophon-grid reveal">
+    <div class="colophon">
+      <p class="kicker">Editions</p>
+      <h2>Learn VELA</h2>
+      <p class="colophon-lede">Five courses from first words to fluent conversation, a reference book, and a full dictionary — ready to open.</p>
+      <p class="governance">Governed by a standing committee of five AI specialists who vote on every rule before it is ratified. Twenty rules ratified so far.</p>
+    </div>
+    <div class="colophon-gutter" aria-hidden="true"></div>
+    <div class="colophon-editions">
+      <div class="editions-group">
+        <h3>Courses</h3>
+        <ul class="editions-list">
+          <li><a href="books/Learning-VELA-Level1.html">Learning VELA — Level 1 <span class="tag">A1</span></a></li>
+          <li><a href="books/Learning-VELA-Level2.html">Learning VELA — Level 2 <span class="tag">A2</span></a></li>
+          <li><a href="books/Learning-VELA-Level3.html">Learning VELA — Level 3 <span class="tag">B1</span></a></li>
+          <li><a href="books/Learning-VELA-Level4.html">Learning VELA — Level 4 <span class="tag">B2</span></a></li>
+          <li><a href="books/Learning-VELA-Level5.html">Learning VELA — Level 5 <span class="tag">C1</span></a></li>
+        </ul>
+      </div>
+      <div class="editions-group">
+        <h3>Reference</h3>
+        <ul class="editions-list">
+          <li><a href="books/VELA-Dictionary.pdf">VELA Dictionary <span class="tag">PDF</span></a></li>
+          <li><a href="books/VELA-The-Universal-Conlang.html">The Universal Conlang <span class="tag">reference book</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="wrap colophon-foot">
+    <p>VELA — built and governed in the open.</p>
+    <p><a href="https://github.com/cocodrino/vela-lang">Source on GitHub</a></p>
+  </div>
 </footer>
 
 <script>
-  (function(){
-    var c=document.getElementById('waves'); if(!c) return;
-    var x=c.getContext('2d'), W,H,t=0, reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-    function size(){ W=c.width=c.offsetWidth*devicePixelRatio; H=c.height=c.offsetHeight*devicePixelRatio; }
-    size(); window.addEventListener('resize',size);
-    function wave(off,amp,col){ x.beginPath(); x.moveTo(0,H);
-      for(var i=0;i<=W;i+=8){ x.lineTo(i, H*0.5 + Math.sin(i*0.006+off)*amp + Math.cos(i*0.003+off*1.3)*amp*0.6); }
-      x.lineTo(W,H); x.closePath(); x.fillStyle=col; x.fill(); }
-    function frame(){ x.clearRect(0,0,W,H);
-      wave(t*0.6, 26*devicePixelRatio,'rgba(255,255,255,.10)');
-      wave(t*0.9+2, 20*devicePixelRatio,'rgba(255,255,255,.13)');
-      wave(t*1.2+4, 14*devicePixelRatio,'rgba(255,255,255,.10)');
-      if(!reduce){ t+=0.01; requestAnimationFrame(frame); } }
-    frame();
-  })();
+(function(){
+  "use strict";
+
+  /* ---- split-word interaction ---- */
+  var buttons = document.querySelectorAll('.etymon');
+  buttons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+    });
+  });
+
+  var reduceMotion = false;
+  try{ reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
+
+  /* ---- section reveal: construction lines draw, then text rises ---- */
+  var revealEls = document.querySelectorAll('.reveal, .draw, .root-ray, .root-leaf, .chapter-axis, .hero-rule');
+  if (reduceMotion || !('IntersectionObserver' in window)){
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          var el = entry.target;
+          el.classList.add('is-visible');
+          io.unobserve(el);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    revealEls.forEach(function(el){ io.observe(el); });
+
+    /* root diagram: rays draw first, then the four forms appear */
+    document.querySelectorAll('.plate-frame').forEach(function(frame){
+      var rays = frame.querySelectorAll('.root-ray');
+      var leaves = frame.querySelectorAll('.root-leaf');
+      var plateIO = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if (!entry.isIntersecting) return;
+          rays.forEach(function(r){ r.classList.add('is-visible'); });
+          leaves.forEach(function(leaf, i){
+            setTimeout(function(){ leaf.classList.add('is-visible'); }, 650 + i * 110);
+          });
+          plateIO.unobserve(frame);
+        });
+      }, { threshold: 0.2 });
+      plateIO.observe(frame);
+    });
+  }
+
+  /* ---- pause background loops when the tab is hidden ---- */
+  document.addEventListener('visibilitychange', function(){
+    document.body.classList.toggle('tab-hidden', document.hidden);
+  });
+
+  /* ---- subtle scroll parallax on the fixed background geometry ---- */
+  if (!reduceMotion){
+    var bg = document.getElementById('bg-geometry');
+    var ticking = false;
+    function applyParallax(){
+      var y = window.scrollY || window.pageYOffset || 0;
+      bg.style.transform = 'translateY(' + (y * -0.035) + 'px)';
+      ticking = false;
+    }
+    window.addEventListener('scroll', function(){
+      if (!ticking){
+        ticking = true;
+        requestAnimationFrame(applyParallax);
+      }
+    }, { passive: true });
+  }
+})();
 </script>
 </body>
 </html>
