@@ -394,3 +394,25 @@ El fonólogo (autor de R10) retiró su argumento de saliencia prosódica como so
 3. `GRAMMAR_COMPLETE.md` §6.1: sacar `lern` de la fila de coda blanda.
 
 **Huecos (Q5):** `enuf` → headword `enufa` (ya implícito en `enufa-hapi`). `kart` (cartas) y `own` (adjetivo) quedan **bloqueados**: `karta` = constitución y `owna` = poseer; necesitan acuñación aparte.
+
+---
+
+## R20 — Tres palabras faltantes + headwords heredados con coda dura (ratificada 2026-10-22)
+
+**Origen:** lo que R19 dejó abierto. Dossier: `vote/topics/dossier_r20_coinage_and_legacy.md`. Comité: 5 especialistas, subagentes Claude, solo lectura (motor elegido por el usuario). Votos en `vote/topics/proposals/r20_*.md`; conteo en `vote/topics/discussion_plan.md`.
+
+**A — palabras faltantes**
+- **"light" (luz) = `laita`** (3-1). El sentido de iluminación es el dominante: 8 usos libres en el corpus y ~9 en ejemplos del léxico, contra 0 usos correctos de "liviano". La forma ligada `lait-` (`soft-lait`, `son-lait`, `lait-red`…) queda tal cual: es exactamente la forma pelada de `laita` (R7). **"light" (peso) = `no-hevi`** (no + `hevi` heavy). Disidencia: el lexicógrafo prefería acuñar `luma`.
+- **"card(s)" = `karda`** (2-0). Del latín *charta* (fr. carte, es./it. carta, en. card, al. Karte). `karta` sigue siendo "constitución".
+- **"own" (adjetivo): no se acuña** (4-0). El genitivo `-se` ya es el posesivo enfático: "their own houses" = `de-se hous-en`.
+
+**B — headwords heredados** (R19 aplicado a las entradas)
+- Renombrados a forma de cita: `nof` → **`nofa`**, `art` → **`arta`**, `grup` → **`grupa`**, `tip` → **`tipa`**, `stap` → **`stapa`**, `let` → **`leta`**, `ap` → **`apa`**. Ningún compuesto cambia: todos ya usaban la raíz pelada.
+- `leta` = "late" obliga a corregir los 3 ejemplos que usaban `leta` por "letter" → `leter` (headword real, `LEXICON_BASE.md:924`).
+- **`wot`** (which) es palabra-función, exenta como `wat` (3-0).
+- **`sav`** se fusiona en **`sava`** (5-0): eran la misma palabra.
+- **`net`** (network) **no** se fusiona con `neta` = red de pesca (3-2). **`bit`** (computación) **no** se fusiona con `bita` = amargo (5-0). **Forma para ambos: ABIERTA** — ninguna propuesta llegó a votación. `brain-neta` sigue la decisión de "network".
+
+**C — modales:** después de un modal el verbo va libre, así que lleva forma de cita: "shod + bare root" → "+ forma de cita", `Yu shod kom` → `Yu shoda kom`. Lo mismo en `GRAMMAR_COMPLETE.md` ("Main verb is bare root") y su ejemplo `Wi mas wok` → `Wi mas werka` (R11).
+
+**Errata de paso:** `la laimt box` → `la no-hevi box` (`LEXICON_BASE.md:406`, el ejemplo de "liviano"); las 2 migraciones erróneas `light` → `laita` del corpus quedan correctas ahora que `laita` es "luz".

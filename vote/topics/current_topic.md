@@ -1,118 +1,118 @@
-# VELA Committee Deliberation — R19: BARE FORMS AS FREE WORDS
+# VELA Committee Deliberation — R20: THREE MISSING WORDS + LEGACY HARD-CODA HEADWORDS
 
 **Date:** 2026-10-22
 **Status:** OPEN — pending specialist review
 **Proposed by:** Claude (corpus migration team)
-**Scope:** whether a consonant-final content root may stand alone in a sentence without its citation `-a`
-**Blocks:** 308 corpus tokens (59 distinct words), 113 of them in the 5 HTML courses
 **Process:** `vote/docs/PROCESS.md` · voting rules §"Voting Rules"
+**Prior rounds:** R18 (13 corpus words), R19 (free consonant-final roots take the citation form, 5-0)
 
 ---
 
 ## 1. Why this topic exists
 
-The R8 corpus migration (commit `c6d0cfb`) fixed the pre-reform present `X-a` and ~30
-unambiguous bare free words. It stopped at 308 tokens because **the canon contradicts
-itself** on whether forms like `liv`, `lern`, `old`, `big` may stand alone. A script
-cannot pick between two ratified texts; the committee must.
+Applying R19 left three things a migration script cannot decide:
 
-## 2. The contradiction — verified in the files
+- **Part A** — three concepts the corpus uses with **no usable VELA form**: "light" (illumination), "cards", "own" (adjective).
+- **Part B** — **legacy headwords** that end in a hard coda (`nof`, `art`, `grup`…). R19 says a free consonant-final content root takes the citation form, so these headwords look like errata — but renaming a headword is a canon decision, and several renames collide with existing words.
+- **Part C** — two lines of grammar text that contradict R19 (modal rows).
 
-| Source | What it says |
+## 2. Constraints
+
+| Rule | Constraint |
 |---|---|
-| **R7** (`fase5_consensus.md` §R7) | Every CONTENT root with a hard final coda (outside {n,m,l,r,s,ng}) has two forms: **citation** `root+a` for standalone use, **bare** only inside compounds. Only FUNCTION words (at, of, and, if, wit, but, self) are grandfathered with a single form. |
-| **R8 table** (`fase5_consensus.md` §R8) | Header: "Legal suelta (vocal-final o coda ∈ {n,m,l,r,s,ng})". Rows listed under it: `si`, `go`, `wan`, **`tok`**, **`liv`**, **`lern`**. `tok` ends in /k/ and `liv` in /v/ — both hard codas by R8's own header. `lern` ends in a two-consonant cluster. |
-| **GRAMMAR_COMPLETE.md §6.1** | Reconciled later: moves `tok` to the hard-coda row as **`toka`**, but keeps **`lern`** as a legal standalone present. `liv` is not listed. |
-| **R2** (`fase5_consensus.md` §R2) | "Banned final clusters": `-tm -mnt -sm -ʃn -bl -ks -st -rd -rs -tr -ns -nt -nd -kl -dl -lt -lf -nr -dr -kt -sk -pt -nkr`. |
-| **PHONOLOGY_FINAL.md §4** | "Los clusters (dos o más consonantes seguidas) **solo están permitidos al inicio** de una sílaba." — a general ban, broader than R2's list. |
-| **R2 Amendment (2026-07-24)** | Native consonant-final roots (`lern`, `mak`, `sad`, `nof`) stay grandfathered **inside compounds**. Says nothing about standalone use; R7 two days later answered that (citation form). |
-| **R17** | Adjectives are invariable, always citation form: `un olda hous`, `un biga famili`, `La famili es biga`. |
-| **Lexicon** | Headwords are the citation forms: `lerna`, `toka`, `maka`, `olda`, `biga`, `guda`, `birda`, `childa`… ⚠️ "to live" is **`livi`** (`LEXICON_BASE.md:247`), not `liva` — `liva` is the adjective "alive" (`LEXICON_EXPANSION.md:554`). So under A, `Mi liv` → `Mi livi`. |
-| **Validator** (`element_defect`) | Treats any single consonant outside {n,m,l,r,s} as a deprecated coda, and **any** 2+ consonant tail as an illegal cluster — i.e. it follows PHONOLOGY_FINAL §4, not R2's narrower list. |
+| R2 / PHONOLOGY_FINAL §3.2 | Word-final codas only {n,m,l,r,s}, one consonant. Diphthong endings count as vowel-final. |
+| R3 | A transparent compound of ≤3 roots beats a loan. |
+| R7 / R19 | Content roots: citation form (`root+a`) free, bare form in compounds/before suffixes. Function words (at, of, and, if, wit, but, self…) keep one form. |
+| R1 | Core stays near ~200 atoms; prefer compounds. |
+| Semantics | No new homonym: a coined form must not equal an existing headword. |
 
-So the courses (written after the reform) follow the R8 table (`Mi liv…`, `Mi lern…`,
-`Mi mak…`), while the lexicon, R7 and R17 say `liva`, `lerna`, `maka`.
+---
 
-## 3. The 308 tokens, by word ending
+## PART A — three missing words
 
-Format: `word(total: texts t / courses c)`. Texts = `docs/texts/*.md`; courses = `books/Learning-VELA-Level{1..5}.html`.
+### A1. "light" (illumination)
 
-**Single hard coda** (R7 applies directly — no cluster question):
+**The problem.** `lait` is used everywhere as "light" (illumination), but **only as a bound root** — the one free headword is **`laita` = light in WEIGHT** (`LEXICON_BASE.md:406`, example "la laimt box | the light box").
 
-| Coda | Words |
-|---|---|
-| `-v` | liv(18: 2t/16c) hav(4: 4t/0c) giv(1: 0t/1c) |
-| `-k` | mak(9: 0t/9c) tok(8: 1t/7c) sik(2) wok(2) kwik(2) kuk(2: 0t/2c) buk(1) blak(1) bak(1: 0t/1c) |
-| `-d` | gud(10: 8t/2c) kraud(5) bred(5) wud(3) sad(3) loud(2: 1t/1c) red(2) rid(1) bad(1: 0t/1c) |
-| `-t` | lait(8: 6t/2c) hot(4) wait(3: 0t/3c) kwaiat(3: 0t/3c) eat(2: 1t/1c) |
-| `-g` | big(11: 9t/2c) dog(7) leg(2) |
-| `-p` | hop(4: 3t/1c) slip(2: 1t/1c) shop(2: 0t/2c) |
+- Bound `lait` in lexicon compounds: `lo-lait` (`LEXICON_EXPANSION.md:637`), `soft-lait` (`:652`), `warm-lait` (`:658`), `kol-lait` (`:659`), `lait-red` "pink" (`:451`), `lait-spida` (`LEXICON_EXTENDED.md:178`).
+- Free `lait` in the corpus (8 uses): `POEM_01_SUN_AND_MOON.md:17,27,57,67` ("Yu es mi lait"), `SHORT_STORY_BIRD.md:45,55`, `STORIES_SET_01.md:20` ("windo lait"), `PHRASES_100.md:104`.
+- **Two wrong migrations already in the corpus:** an August mapping `light → laita` turned illumination into weight: `STORIES_SET_01.md:20` ("Yu hous laita save-ed wi herta") and `POEMS_COLLECTION.md:42` ("at morne laita").
+- Nearby existing words: `brite` (bright), `lampi` (lamp), `shain`/`shin` (shine), `fai-flasha` (lightning).
 
-**Final cluster** (R2 bans some explicitly; PHONOLOGY_FINAL §4 bans all):
+**Options to weigh:** (a) `laita` becomes "light (illumination)" — the far more frequent sense — and "light (weight)" gets a new form or a compound (e.g. `no-hevi`); (b) keep `laita` = weight and coin a separate free form for illumination (e.g. a pan-Romance `luma`/`lumi`), leaving the `lait-` compounds as they are or migrating them; (c) another proposal.
 
-| Cluster | In R2's banned list? | Words |
-|---|---|---|
-| `-nd` | yes | wind(16: 12t/4c) end(10: 1t/9c) lond(7: 3t/4c) hand(7) send(1) |
-| `-rd` | yes | bird(22: 19t/3c) hard(5: 1t/4c) erd(1) |
-| `-st` | yes | rest(2: 0t/2c) fast(1) |
-| `-sk` | yes | ask(1) |
-| `-ld` | no | child(17: 12t/5c) old(17: 16t/1c) |
-| `-rn` | no | **lern(15: 1t/14c)** |
-| `-rm` | no | warm(7) storm(5) |
-| `-rk` | no | dark(5) werk(3: 0t/3c) |
-| `-rt` | no | start(2: 1t/1c) kart(1) hert(1: 0t/1c) |
-| `-nj` | no | sonj(11) |
-| `-ft` | no | soft(7) |
-| `-nk` | no | tink(6: 0t/6c) |
-| `-lp` | no | help(5: 4t/1c) |
-| `-lm` | no | film(1) |
-| `-wn` | no (diphthong + n?) | own(1) |
+### A2. "cards" (payment / playing cards)
 
-**Total: 308 tokens, 59 distinct words, 113 in the courses.** The biggest course items:
-`liv` 16, `lern` 14, `mak` 9, `end` 9, `tok` 7, `tink` 6.
+**Corpus:** `PHRASES_100.md:38` — `Yu asepta kart?` ("Do you accept cards?").
+**Problem:** `kart` + `-a` = `karta`, which already means **"constitution"** (`LEXICON_BASE.md:1101`). No "card" headword exists. Related: `pei-tek-po` (cashier, `LEXICON_EXPANSION.md:1380`).
+Note: R19's semanticist proposed `plei-karta`, which still reuses `karta` (constitution) as its head.
 
-**No lexicon form at all** (separate question): `enuf` (enough), `kart` (cards — `karta` means "constitution"), `own` (adjective — `owna` is the verb "to own").
+### A3. "own" (adjective — "their own houses")
 
-## 4. Options
+**Corpus:** `CLASSIC_STORY_THREE_PIGS.md:19` — `Tri smol piga-en go-ed from hom tu maki de-se own hous-en.`
+**Problem:** `own` + `-a` = `owna`, which already means **"to own"** (verb, `LEXICON_EXPANSION.md:251`). The function word `self` exists (R7 single-form list), and so does the possessive `-se` (`de-se` = their).
+**Options:** paraphrase (`de-se hous-en`, the possessive already says it), `self`-based (`de-self hous-en`?), or coin.
 
-| | Rule | Effect |
-|---|---|---|
-| **A** | **Literal R7.** Every consonant-final content root takes `-a` when free (`Mi livi`, `Mi lerna`, `un olda hous`). The R8 table rows `tok`/`liv`/`lern` and GRAMMAR's `lern` are errata. | Migrate all 308 tokens, including 113 in the courses. One rule, no exceptions. |
-| **B** | **R2's list is exhaustive.** Single hard codas take `-a` (A), but clusters NOT on R2's list are legal standalone (`lern`, `old`, `child`, `warm`, `dark`…). | Migrates the single-coda words + R2-listed clusters; keeps `lern`, `old`, `warm`. Validator and PHONOLOGY_FINAL §4 must be amended. |
-| **C** | **Grandfather a closed list of high-frequency native roots** with a single form, like the function words (`liv`, `lern`, `mak`, `tok`, `gud`, `big`, `old`…). | Fewer changes to the courses, but a new exception class next to R7, and the lexicon headwords for those roots must change. |
+---
 
-## 5. Focus questions
+## PART B — legacy headwords ending in a hard coda
 
-1. **Errata or rule?** Are the R8 table's `tok`/`liv`/`lern` rows an error (its own header defines "legal" as one soft coda), or did R8 intend to grandfather them?
-2. **Clusters:** is R2's banned-cluster list exhaustive (B) or illustrative of PHONOLOGY_FINAL §4's general ban (A)?
-3. **Grandfathering:** should any high-frequency content roots join the function-word exception (C)? If yes, name the closed list and the test for entering it.
-4. **Courses:** the 5 courses teach `Mi liv`, `Mi lern`, `Mi mak` from Level 1. Is the pedagogical cost of changing them acceptable, and does your option need them changed?
-5. **Gaps:** `enuf`, `kart` (cards), `own` (adjective) — coin, compound or paraphrase?
+R19's rule, applied to the headwords themselves. Found by scanning every single-word headword whose ending `element_defect` flags (28 hits), then removing false positives (words ending in vowel-`y` such as `baby`, `navy`, `army`, `sallery`, `amnbasy`, `shy`) and R7's function words (`aft`, `and`, `at`, `bot`, `but`, `dat`, `if`, `of`, `self`, `wat`, `wit`).
 
-## 6. Required response format
+| Headword | Meaning | Where | `+a` form | Collision? |
+|---|---|---|---|---|
+| `nof` | to know | `LEXICON_BASE.md:220` | `nofa` | none found |
+| `let` | late | `LEXICON_BASE.md:171` | `leta` | none found |
+| `ap` | up | `LEXICON_BASE.md:1444` (tagged "noun") | `apa` | none found — **or is `ap` a function word?** |
+| `wot` | which | `LEXICON_BASE.md:147` | — | question word: function class? |
+| `art` | art | `LEXICON_EXTENDED.md:491` (errata root, R2 Amendment) | `arta` | none; `arta-hous` already in use |
+| `grup` | group | `LEXICON_EXTENDED.md:496` (errata root) | `grupa` | none; `star-grupa`, `muzika-grupa` in use |
+| `tip` | type | `LEXICON_EXTENDED.md:494` (errata root) | `tipa` | none; `lifa-tipa` in use |
+| `stap` | step | `LEXICON_EXTENDED.md:495` (errata root) | `stapa` | none found |
+| `sav` | save | `LEXICON_EXTENDED.md:493` (errata root) | `sava` | **`sava` = to save already exists** (`LEXICON_EXPANSION.md:203`) — a duplicate, merge |
+| `net` | network | `LEXICON_EXTENDED.md:492` (errata root) | `neta` | **`neta` = net (fishing)** (`LEXICON_EXPANSION.md:709`) — same concept or homonym? |
+| `bit` | bit (computing) | `LEXICON_EXTENDED.md:497` (errata root) | `bita` | **`bita` = bitter** (`LEXICON_EXPANSION.md:625`) — real homonym |
+
+Note: the R2 Amendment (`fase5_consensus.md` §Amendment 2026-07-24) listed `art, net, sav, tip, stap, grup, bit, kod, wei, taim` as legal **roots** so compounds could use them — written two days **before** R7 introduced citation forms. `kod`, `wei`, `taim` are not in this table: `kod` already has `koda`; `wei` and `taim` end in a diphthong or `-m` and are legal.
+
+---
+
+## PART C — grammar text that contradicts R19
+
+`LEXICON_BASE.md:376-380` (modal rows):
+- `kan` — "kan + bare root" · `mas` — "mas + bare root" · `shoda` — "shod + bare root", example `Yu shod kom.`
+
+After a modal the verb stands free (space), so under R19 it takes the citation form — the courses already write `Mi no kan draiva`. And `shod` in `Yu shod kom` is the bare form of the headword `shoda`, used free. Confirm: the wording becomes "+ citation form", the example `Yu shoda kom`.
+
+---
+
+## 3. Focus questions
+
+1. **A1:** which sense does `laita` keep? Give the free form for the other sense, and say what happens to the bound `lait-` compounds.
+2. **A2:** form for "card(s)", collision-free.
+3. **A3:** paraphrase or coinage for "own" (adjective)?
+4. **B:** for each headword in the table — rename to `+a`, merge with an existing entry, or classify as a function word (exempt)? Resolve `bit`/`bita` and `net`/`neta`.
+5. **C:** confirm the modal-row correction.
+
+## 4. Required response format
 
 ```
-QUESTION: <1-5>
-POSITION: <A | B | C | specific answer>
-WHY: <the canon rule that drives it — cite file and section>
-CONSEQUENCE: <what changes in lexicon, grammar, courses, validator>
-RISK: <what could go wrong, or "none">
-VOTE: approve | approve-with-amendment | reject   (on your chosen option)
+ITEM: <A1 | A2 | A3 | B:<headword> | C>
+FORM: <vela> /IPA/  (or "rename", "merge with X", "function word", "paraphrase: …")
+WHY: <the rule — cite file and section>
+RISK: <collision or objection, or "none">
+VOTE: approve | approve-with-amendment | reject
 ```
 
-Close with one line: **FINAL VOTE: A | B | C** (or a named variant).
+## 5. Voting rules (`PROCESS.md`)
 
-## 7. Voting rules in force (`PROCESS.md`)
+One vote per specialist per item; majority wins; tie → aestheticist; abstentions recorded, not counted; minimum 3 voices.
 
-One vote per specialist; majority wins; tie → aestheticist; abstentions recorded, not counted; minimum 3 voices.
-
-## 8. Source files
+## 6. Source files
 
 | File | Why |
 |---|---|
-| `vote/topics/consensus/fase5_consensus.md` | R2, R2 Amendment, R7, R8, R17 |
-| `docs/grammar/GRAMMAR_COMPLETE.md` §6.1 | present-tense table |
-| `docs/phonology/PHONOLOGY_FINAL.md` §4 | general cluster ban |
-| `docs/lexicon/LEXICON_BASE.md` | citation headwords (`livi`, `lerna`, `toka`, `maka`…) |
-| `books/Learning-VELA-Level1.html` … `Level5.html` | the 113 course tokens (`<span class="vela">`) |
-| `scripts/validate_phonology.py` | `element_defect` — how legality is computed today |
+| `vote/topics/consensus/fase5_consensus.md` | R2 + Amendment, R3, R7, R19 |
+| `docs/phonology/PHONOLOGY_FINAL.md` §3.2, §4 | legal codas |
+| `docs/lexicon/LEXICON_BASE.md`, `LEXICON_EXTENDED.md`, `LEXICON_EXPANSION.md` | headwords and collisions cited above |
+| `docs/texts/*.md` | the corpus lines cited above |

@@ -1,39 +1,35 @@
-# Discussion Plan — R19 round: bare forms as free words
+# Discussion Plan — R20 round: three missing words + legacy hard-coda headwords
 
-**Date:** 2026-10-22 · **Topic:** `vote/topics/current_topic.md` (= `dossier_r19_bare_forms.md`)
-**Roster:** 5 specialists, Claude subagents via Agent tool (user's choice), read-only. Proposals in `vote/topics/proposals/r19_bare_forms_*.md`.
+**Date:** 2026-10-22 · **Topic:** `vote/topics/current_topic.md` (= `dossier_r20_coinage_and_legacy.md`)
+**Roster:** 5 specialists, Claude subagents (user's choice), read-only. Proposals in `vote/topics/proposals/r20_*.md`.
+Legend: P phonologist · M morphologist · L lexicographer · S semanticist · A aestheticist. "—" = abstained / out of scope.
 
-## Final vote
+## Tally
 
-| Specialist | Vote |
-|---|---|
-| Phonologist | A |
-| Morphologist | A |
-| Lexicographer | A |
-| Semanticist | A |
-| Aestheticist | A |
+| Item | P | M | L | S | A | Result |
+|---|---|---|---|---|---|---|
+| A1 light | laita | — | **luma** | laita | laita | **`laita` = light (illumination); weight → `no-hevi`** (3-1) |
+| A2 cards | karda | — | karda | — | defer | **`karda`** (2-0) |
+| A3 own | paraphrase | — | paraphrase | paraphrase | paraphrase | **paraphrase `de-se …`** (4-0) |
+| B nof | nofa | nofa | — | — | nofa | **`nofa`** (3-0) |
+| B art/grup/tip/stap | +a | +a | — | — | +a | **`arta`/`grupa`/`tipa`/`stapa`** (3-0) |
+| B let | leta + fix | **reject** | — | — | leta | **`leta`** (2-1), with the "letter" examples fixed to `leter` — which removes M's objection |
+| B ap | apa | **function word** | — | — | apa | **`apa`** (2-1) |
+| B wot | function | function | — | — | function | **function word, exempt** (3-0) |
+| B sav | merge | merge | merge | merge | merge | **merge into `sava`** (5-0) |
+| B net | separate | separate | **merge** | separate | **merge** | **do NOT merge with `neta`** (3-2) — form for "network" **open** |
+| B bit | separate | separate | separate | separate | separate | **do NOT merge with `bita`** (5-0) — form **open** |
+| C modals | approve | approve | — | — | approve | **"+ citation form", `Yu shoda kom`** (3-0) |
 
-**A — 5-0, unanimous.** No tiebreak needed.
+## Open after the round
 
-## Points of agreement
+- No form reached a vote for **"network"** (L fallback / S `net-werka` from the old `nettwerk`) or computing **"bit"** (L `digit-bita` or invariant loan `bit`). Both stay blocked; `brain-neta` must follow the "network" decision (S).
 
-1. R8's `tok`/`liv` rows are errata: R8's own header defines legal as one soft coda {n,m,l,r,s,ng}.
-2. `lern` is a different case (final /n/ is soft; the problem is the `-rn` cluster), but resolves the same way: no canon text licenses a final cluster. PHONOLOGY_FINAL §3.2 licenses only single codas; §4 restricts clusters to onsets.
-3. No grandfathering of content roots (C rejected 5-0): it would reintroduce the per-word exception class R17 removed.
-4. The courses must change (113 tokens). The cost is mechanical, not aesthetic: the aestheticist judged `Sonja no starta in trota` better than the bare version.
-5. Suffixed forms (`liv-ed`, `bird-en`) and compounds (`lern-hous`) are untouched.
+## Findings verified by the orchestrator
 
-## Disagreement resolved by the orchestrator
-
-- Morphologist: "PHONOLOGY_FINAL §4 is onset-only, not a general ban." Checked: §4 line 160 says clusters are allowed **only** at the start of a syllable, and §3.2 lists only single codas. The point does not change any vote.
-
-## Scope found during the round (beyond the 308 corpus tokens)
-
-- Lexicon example sentences use bare forms (`Mi tok wit yu`, `Wi liv la siti-to`, `Mi mak la disf`, `Yu lern VELA`, `la old hous`, `La bird sing`) — lexicographer, phonologist, morphologist.
-- The generated dictionary copies those examples (`DICTIONARY.md:251` `un big hous`).
-- R8 table and GRAMMAR §6.1 soft row must drop `tok`/`liv`/`lern`.
-
-## Q5 — gaps
-
-- `enuf` → headword `enufa` (already implied by `enufa-hapi`, `LEXICON_EXTENDED.md:383`). Lexicographer; no dissent.
-- `kart` (cards) and `own` (adjective) are **blocked**: `karta` = constitution, `owna` = to own. Need a separate coinage; kept out of the mechanical migration. (Semanticist's `plei-karta` reuses `karta` and does not avoid the collision.)
+- Free `lait` is also used in the lexicon's own examples (~9, illumination), and once for weight: `LEXICON_EXPANSION.md:74` "La gas es lait." (L, partly).
+- `leta` = "letter" in `LEXICON_EXPANSION.md:1122,1287,1297` (P, M).
+- `brain-neta` (`LEXICON_EXTENDED.md:106`) already uses `-neta` for "network" (S).
+- L's `luma` + bound `lait-` would be suppletion: R7 derives the bound form by dropping `-a` (`luma` → `lum-`). Moot: A1 went to `laita`, whose bound form `lait-` is exactly what every compound already uses.
+- `GRAMMAR_COMPLETE.md:551` modal rule and example `Wi mas wok` need the C fix too.
+- `imaj-nofa`, `sela-nofa` keep the citation form inside a compound (P) — outside R20.

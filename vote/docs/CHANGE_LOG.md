@@ -549,3 +549,22 @@ Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocab
 - vote/topics/proposals/r19_bare_forms_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
 - vote/topics/discussion_plan.md
 - vote/topics/consensus/fase5_consensus.md — §R19 appended
+
+---
+
+## 2026-10-22 — R20: three missing words + legacy hard-coda headwords (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only (user's choice)
+**Status:** ✅ RATIFIED — "network" and computing "bit" forms still open
+
+### Decisions
+- light (illumination) = `laita` (3-1); light (weight) = `no-hevi`; card = `karda`; "own" = paraphrase with `-se`
+- headwords renamed: nofa, arta, grupa, tipa, stapa, leta, apa; `wot` exempt; `sav` merged into `sava`
+- `net`/`neta` and `bit`/`bita` kept apart; forms open
+- modal rows: verb after a modal takes the citation form (`Yu shoda kom`)
+
+### Files Created
+- vote/topics/dossier_r20_coinage_and_legacy.md (→ current_topic.md)
+- vote/topics/proposals/r20_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
+- vote/topics/discussion_plan.md
+- vote/topics/consensus/fase5_consensus.md — §R20 appended
