@@ -146,7 +146,7 @@ GOOD:   son-lait   (you understand it instantly: "sun-light" = sunshine)
 BAD:    polise     (opaque — requires memorization)
 ```
 
-**Exceptions:** The 30 most frequent words (mi, yu, li, wi, de, la, un, bi, si, go...) are short and memorized naturally. No need to compound them.
+**Exceptions:** The 30 most frequent words (mi, yu, li, wi, de, la, un, es, si, go...) are short and memorized naturally. No need to compound them.
 
 ---
 
@@ -155,7 +155,7 @@ BAD:    polise     (opaque — requires memorization)
 ```
 I.   Only 5 vowels. Every sound has one letter. Every letter has one sound.
 
-II.  Zero irregular verbs. Root + -ed = past. Root + -wil = future.
+II.  Zero irregular verbs. Root + -edo = past. Root + -wil = future.
 
 III. Complex words are built from transparent roots.
      If you know the roots, you understand any compound word.
@@ -204,7 +204,7 @@ No schwa. No reduced vowels. Every vowel is clear and distinct.
 
 All verbs follow the same three rules:
 - **Present:** the dictionary word itself → *maka* (make / makes)
-- **Past:** short root + **-ed** → *mak-ed* (made)
+- **Past:** short root + **-edo** → *mak-edo* (made)
 - **Future:** short root + **-wil** → *mak-wil* (will make)
 
 Every verb. Every time. Zero exceptions.
@@ -243,7 +243,7 @@ Mi es guda, tanki.                       → I'm good, thanks.
 La sonja es veri nais.                   → The song is very nice.
 
 Mi hopa dat ol-person liv in pisi.       → I hope everyone can live in peace.
-Li es-ed un lern-po for tri-ten jir-en.  → She was a teacher for thirty years.
+Li es-edo un lern-po for tri-ten jir-en.  → She was a teacher for thirty years.
 Mi no wan go, bot mi mas.                → I don't want to go, but I must.
 ```
 

@@ -442,19 +442,19 @@ VELA's flagship feature: tense is marked by two suffixes and an **unmarked prese
 | Tense | Marker | Form | Example | English |
 |-------|--------|------|---------|---------|
 | **Present** | *(none)* | the **citation form** — the word exactly as the dictionary lists it | **hava** | I have |
-| **Past** | **-ed** | bare root + -ed | **hav-ed** | I had |
+| **Past** | **-edo** | bare root + -edo | **hav-edo** | I had |
 | **Future** | **-wil** | bare root + -wil | **hav-wil** | I will have |
 
 **The present is unmarked: it is simply the dictionary word.** Past and future attach to the **bare root** — the same short form used inside compounds (see R7).
 
-Why no present `-a`? A dedicated present suffix would collide with the citation vowel of R7: `maka` (*to make*) would also be *makes*. Ratified by unanimous committee vote (**R8**, `vote/topics/consensus/fase5_consensus.md`): the **citation form *is* the present**, so `maka` / `hava` / `luva` mean both *to make/have/love* and *makes/has/loves*. This is identity, not ambiguity — SVO word order and the `-ed` / `-wil` contrast keep tenses distinct (cf. Spanish *hablo*, German *mache = ich mache*).
+Why no present `-a`? A dedicated present suffix would collide with the citation vowel of R7: `maka` (*to make*) would also be *makes*. Ratified by unanimous committee vote (**R8**, `vote/topics/consensus/fase5_consensus.md`): the **citation form *is* the present**, so `maka` / `hava` / `luva` mean both *to make/have/love* and *makes/has/loves*. This is identity, not ambiguity — SVO word order and the `-edo` / `-wil` contrast keep tenses distinct (cf. Spanish *hablo*, German *mache = ich mache*).
 
 The citation vowel only appears where phonotactics demand it: a hard coda, or a final consonant cluster (R19 — `lern` ends in `-rn`, so its citation is `lerna`). Roots already legal standalone keep their bare shape in the present too:
 
 | Root type | Present (= citation) | Past | Future |
 |-----------|----------------------|------|--------|
-| Vowel-final / single soft coda {n m l r s ŋ} | `si`, `go`, `wan`, `her`, `kom` | `si-ed` | `si-wil` |
-| Hard coda (k v t p g b d f z …) or final cluster | `maka`, `hava`, `luva`, `toka`, `livi`, `lerna` | `mak-ed`, `hav-ed`, `liv-ed`, `lern-ed` | `mak-wil` |
+| Vowel-final / single soft coda {n m l r s ŋ} | `si`, `go`, `wan`, `her`, `kom` | `si-edo` | `si-wil` |
+| Hard coda (k v t p g b d f z …) or final cluster | `maka`, `hava`, `luva`, `toka`, `livi`, `lerna` | `mak-edo`, `hav-edo`, `liv-edo`, `lern-edo` | `mak-wil` |
 
 ### 6.2 Full Paradigm of a Regular Verb: hava (to have)
 
@@ -462,41 +462,38 @@ The verb never changes for person — only tense changes.
 
 | Person | Present | Past | Future |
 |--------|---------|------|--------|
-| mi / yu / li / wi / de | **hava** | **hav-ed** | **hav-wil** |
+| mi / yu / li / wi / de | **hava** | **hav-edo** | **hav-wil** |
 
 **No exceptions. No irregular verbs. No spelling changes.**
 
 ```
-hava     hav-ed     hav-wil
+hava     hav-edo     hav-wil
 I have   I had      I will have
 
-si       si-ed      si-wil        (si is legal standalone → bare present)
+si       si-edo      si-wil        (si is legal standalone → bare present)
 I see    I saw      I will see
 
-maka     mak-ed     mak-wil       (hard coda → citation form takes -a)
+maka     mak-edo     mak-wil       (hard coda → citation form takes -a)
 I make   I made     I will make
 ```
 
-### 6.3 The Verb "To Be" — bi
+### 6.3 The Verb "To Be" — es
 
-The verb **bi** (to be) is regular — unlike in English:
+The verb **es** (to be) is fully regular, like every other verb. There are no irregular verbs in VELA (R21; the old irregular `bi`, whose present was `es`, was retired).
 
 | Person | Present | Past | Future |
 |--------|---------|------|--------|
-| mi | **es** | es-**ed** | wil es |
-| yu | **es** | es-**ed** | wil es |
-| li | **es** | es-**ed** | wil es |
-
-`bi` is the one verb whose present is not its citation form: the present is **es**. (Past `es-ed`, future `wil es`.)
+| mi | **es** | es-**edo** | es-**wil** |
+| yu | **es** | es-**edo** | es-**wil** |
+| li | **es** | es-**edo** | es-**wil** |
 
 ```
 Mi es hapi.          → I am happy.           (present)
-Mi es-ed hapi.       → I was happy.          (past — NOT "was")
-Mi wil es hapi.      → I will be happy.      (future — NOT "will be" as separate)
+Mi es-edo hapi.      → I was happy.          (past)
+Mi es-wil hapi.      → I will be happy.      (future)
 
 NOT: Mi was hapi.     ❌ English irregular form
-NOT: Mi es-wil hapi.  ❌ English hybrid form
-YES: Mi es-ed hapi.   ✅ VELA regular form
+NOT: Mi wil es hapi.  ❌ the future is a suffix, not a separate word
 ```
 
 ### 6.4 Core Verb List
@@ -505,21 +502,21 @@ The **Present** column is the citation form (the dictionary word). Past/future u
 
 | VELA (root) | English | Present (= citation) | Past | Future |
 |------|---------|---------|------|--------|
-| bi | to be | es | es-ed | wil es |
-| si | to see | si | si-ed | si-wil |
-| go | to go | go | go-ed | go-wil |
-| kom | to come | kom | kom-ed | kom-wil |
-| tok | to speak | toka | tok-ed | tok-wil |
-| liv | to live | livi | liv-ed | liv-wil |
-| wok | to work | woka | wok-ed | wok-wil |
-| her | to hear | her | her-ed | her-wil |
-| fel | to feel | fel | fel-ed | fel-wil |
-| luk | to look | luka | luk-ed | luk-wil |
-| lik | to like | liki | lik-ed | lik-wil |
-| lern | to learn | lerna | lern-ed | lern-wil |
-| hav | to have | hava | hav-ed | hav-wil |
-| don | to do | don | don-ed | don-wil |
-| nof | to know | nof | nof-ed | nof-wil |
+| es | to be | es | es-edo | es-wil |
+| si | to see | si | si-edo | si-wil |
+| go | to go | go | go-edo | go-wil |
+| kom | to come | kom | kom-edo | kom-wil |
+| tok | to speak | toka | tok-edo | tok-wil |
+| liv | to live | livi | liv-edo | liv-wil |
+| wok | to work | woka | wok-edo | wok-wil |
+| her | to hear | her | her-edo | her-wil |
+| fel | to feel | fel | fel-edo | fel-wil |
+| luk | to look | luka | luk-edo | luk-wil |
+| lik | to like | liki | lik-edo | lik-wil |
+| lern | to learn | lerna | lern-edo | lern-wil |
+| hav | to have | hava | hav-edo | hav-wil |
+| don | to do | don | don-edo | don-wil |
+| nof | to know | nof | nof-edo | nof-wil |
 
 ---
 
@@ -532,11 +529,11 @@ The suffix **-an** marks ongoing action. It combines with tense:
 | Aspect | Structure | Example |
 |--------|-----------|---------|
 | Present Progressive | root-**an** | liv-**an** — am living |
-| Past Progressive | root-**ed** + **an** | liv-ed-**an** — was living |
+| Past Progressive | root-**ed** + **an** | liv-edo-**an** — was living |
 
 ```
 Mi liv-an.        → I am living.           (present + progressive)
-Mi liv-ed-an.     → I was living.          (past + progressive)
+Mi liv-edo-an.     → I was living.          (past + progressive)
 Li wok-an.        → She is working.         (present + progressive)
 ```
 
@@ -552,7 +549,7 @@ Li wok-an.        → She is working.         (present + progressive)
 
 ```
 Mi kan si la film.     → I can see the film.       (kan takes -a)
-Mi kan-ed si la film.  → I could see the film.    (kan takes -ed)
+Mi kan-edo si la film.  → I could see the film.    (kan takes -edo)
 Li wan kom.            → She wants to come.        (wan takes -a)
 De mas wok.            → They must work.            (mas takes -a)
 ```
@@ -591,12 +588,12 @@ Li nevr kom.          → She never comes.       (absolute: not ever)
 Mi no fel nevr.      → I never feel this.     (strong: absolutely never)
 ```
 
-### 8.4 Negation of "bi" (to be)
+### 8.4 Negation of "es" (to be)
 
 ```
 Mi no es hapi.       → I am not happy.
-Li no es-ed hapi.    → She was not happy.
-Wi no wil es big.    → We will not be big.
+Li no es-edo hapi.    → She was not happy.
+Wi no es-wil biga.   → We will not be big.
 ```
 
 ---
@@ -611,8 +608,8 @@ Form a yes/no question by adding **q** at the end of the sentence:
 Yu si la film.       → You see the film.     (statement)
 Yu si la film q?    → Do you see the film?  (question)
 
-Li kom-ed.          → She came.              (statement)
-Li kom-ed q?        → Did she come?          (question)
+Li kom-edo.          → She came.              (statement)
+Li kom-edo q?        → Did she come?          (question)
 
 Wi wok.             → We work.              (statement)
 Wi wok q?           → Do we work?           (question)
@@ -624,7 +621,7 @@ Use **or** for alternative questions:
 
 ```
 Yu wan kom or no?      → Do you want to come or not?
-Li es-ed hapi or sad? → Was she happy or sad?
+Li es-edo hapi or sad? → Was she happy or sad?
 ```
 
 ### 9.3 Wh-Questions
@@ -715,7 +712,7 @@ The conditional is formed with **if + clause + den + consequence**:
 ```
 If yu kom,     den  mi es hapi.     → If you come, then I am happy.
 If yu no kom,  den  mi go.          → If you don't come, then I go.
-If li werk-ed, den  li her-ed.      → If she had worked, then she would have heard.
+If li werk-edo, den  li her-edo.      → If she had worked, then she would have heard.
 ```
 
 ### 11.4 Relative Clauses (R12)
@@ -725,10 +722,10 @@ A relative clause is introduced by the **question word that matches the shared n
 | Role | Relativizer | Example | English |
 |------|-------------|---------|---------|
 | person | **hu** | la man **hu** liv hier | the man who lives here |
-| person (object) | **hu** | la fren **hu** mi si-ed | the friend (whom) I saw |
+| person (object) | **hu** | la fren **hu** mi si-edo | the friend (whom) I saw |
 | thing | **wat** | la buka **wat** mi rida | the book that I read |
 | place | **wer** | la ples **wer** wi werka | the place where we work |
-| time | **wen** | la dei **wen** li kom-ed | the day when he came |
+| time | **wen** | la dei **wen** li kom-edo | the day when he came |
 
 **Position disambiguates from a question:** a question word at the **start** of a clause asks a question (`Hu liv hier?` — Who lives here?); the same word **after a noun** builds a relative (`la person hu liv hier`). `dat` is **not** a relativizer — it stays a demonstrative (`dat hous`) and the complementizer after mind-verbs (`Mi tinka dat…`).
 
@@ -901,9 +898,9 @@ Adverbs are formed with the suffix **-um** added to the adjective:
 |--------|---------|---------|--------|
 | **-er** | agent | wok-er | worker |
 | **-ing** | action/continuous | wok-ing | working |
-| **-ed** | past tense | wok-ed | worked |
-| **-wil** | future tense | wok-wil | will work |
-| **-a** | present tense | wok-a | works |
+| **-edo** | past tense | werk-edo | worked |
+| **-wil** | future tense | werk-wil | will work |
+| *(none)* | present tense = the dictionary form (R8) | werka | works |
 | *(none)* | adjective | nais | nice |
 | **-um** | adverb | nais-um | nicely |
 | **-nes** | abstract noun | happi-nes | happiness |
@@ -986,7 +983,7 @@ Wi              liv      la siti-to.       → We live in the city.
 ```
 Mi no si la man.          → I don't see the man.
 Yu no wan kom.            → You don't want to come.
-Li no es-ed hapi.        → She wasn't happy.
+Li no es-edo hapi.        → She wasn't happy.
 Wi no kan wok.            → We can't work.
 De nevr kom.              → They never come.
 ```
@@ -999,7 +996,7 @@ Hu yu si?                 → Who do you see?
 Wat yu lik?               → What do you like?
 Wen wi kom?               → When do we come?
 Yu wan kom or no?         → Do you want to come or not?
-Li her-ed q?              → Did she hear?
+Li her-edo q?              → Did she hear?
 ```
 
 ### 16.4 Imperative Sentences
@@ -1022,7 +1019,7 @@ Wi mas wok!                → We MUST work!
 ```
 If yu kom, den mi es hapi.       → If you come, then I am happy.
 If yu no kom, den mi go.         → If you don't come, then I go.
-If li wok-ed, den li her-ed.     → If she had worked, then she would have heard.
+If li wok-edo, den li her-edo.     → If she had worked, then she would have heard.
 ```
 
 ### 16.6 Sentences with Cases
@@ -1069,7 +1066,7 @@ Order is always root → number → case: `man-en-se` = "of the men" (§4.9).
 Only when a preposition already marks the location: `Mi liv in la siti`. With no preposition, `-to` is required: `Mi liv la siti-to` (§4.10).
 
 **Are there any irregular verbs?**
-None. Every verb takes `-a` / `-ed` / `-wil`, including `bi` (to be): `bi-a, bi-ed, bi-wil`. There are no irregular forms anywhere in the verb system (§6).
+None. Every verb works the same way: present = the dictionary form, past = short root + `-edo`, future = short root + `-wil`, including `es` (to be): `es, es-edo, es-wil`. There are no irregular forms anywhere in the verb system (§6).
 
 **Do adjectives change for number or case?**
 No. Adjectives are invariable and come before the noun (§5.3).
@@ -1081,7 +1078,7 @@ No. Adjectives are invariable and come before the noun (§5.3).
 Add `-um`: `nais → nais-um` ("nicely") (§13.1).
 
 **How are compounds and affixes written?**
-With a hyphen between every morpheme: `sik-hous`, `man-se`, `liv-ed`. One rule for all morpheme boundaries (§15.1; `ORTHOGRAPHY.md` §6.3).
+With a hyphen between every morpheme: `sik-hous`, `man-se`, `liv-edo`. One rule for all morpheme boundaries (§15.1; `ORTHOGRAPHY.md` §6.3).
 
 **What is the plural suffix?**
 `-n` after a vowel-final word, `-en` after a consonant-final word: `siti-n`, `man-en` (§4.2).
@@ -1137,7 +1134,7 @@ PLURAL:          -n (after vowel) / -en (after consonant)
 ADJECTIVES:      base (before noun)
 ADVERBS:         base-um
 PRESENT TENSE:   root + -a
-PAST TENSE:      root + -ed
+PAST TENSE:      root + -edo
 FUTURE TENSE:    root + -wil
 PROGRESSIVE:     root + -an
 MODALS:          kan, mas, wan (followed by bare root)
@@ -1166,7 +1163,7 @@ DAYS:             Mondei Tiuzdei Wenzdei Terzdei Fraidei Satrdei Sandei
 | Noun case = NOM/ACC by order | 2025-04-13 | VELA Decision Framework |
 | Adjective bare root before noun | 2025-04-13 | Simplified, word order disambiguates |
 | Zero irregular verbs | 2025-04-13 | Core VELA feature |
-| bi/bi-a/bi-ed/bi-wil for "to be" | 2025-04-13 | Regularity over English irregularity |
+| es / es-edo / es-wil for "to be"; irregular bi retired (R21) | 2026-10-26 | Regularity over English irregularity |
 | Adverb -um suffix | 2025-04-13 | Systematic morphology |
 | Wh-question words from English | 2025-04-13 | English as primary vocabulary source |
 | Conditional: if... den... | 2025-04-13 | Clarity + simplicity |

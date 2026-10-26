@@ -115,7 +115,7 @@
 | 61 | What time is it? | Wat taim es? |
 | 62 | It's nine o'clock. | La es nain kloka. |
 | 63 | Today is Monday. | Tudei es Mondei. |
-| 64 | Tomorrow will be warm. | Tumoro wil es warma. |
+| 64 | Tomorrow will be warm. | Tumoro es-wil warma. |
 | 65 | It's raining. | La rein fal. |
 | 66 | The wind is strong. | La winda es strong. |
 | 67 | Summer is hot. | Soma es hota. |

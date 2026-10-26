@@ -2,9 +2,9 @@
 
 > Documento base: `INITIAL_RESEARCH.md`
 > Principios: **Simplicidad → Transparencia → Belleza → Universalidad**
-> Canon vigente: `docs/grammar/GRAMMAR_COMPLETE.md` + `vote/topics/consensus/fase5_consensus.md` (reglas R1–R18)
+> Canon vigente: `docs/grammar/GRAMMAR_COMPLETE.md` + `vote/topics/consensus/fase5_consensus.md` (reglas R1–R21)
 
-**Última actualización: 2026-10-22** — R18 ratificada y aplicada; validador en 0 errores.
+**Última actualización: 2026-10-26** — R19 y R21 aplicadas (R21 nace de una crítica pública en Reddit); R20 ratificada, pendiente de aplicar; validador en 0 errores.
 
 ---
 
@@ -55,10 +55,10 @@ MORFOLOGÍA — la regla visual única (R17):
      Palabras-función (at, of, and, if, wit, but, self) grandfathered: forma única.
 
 GRAMÁTICA:
-  ✅ Orden SVO · cero verbos irregulares (única excepción: bi → presente es)
+  ✅ Orden SVO · cero verbos irregulares (R21 retiró bi; "ser" = es / es-edo / es-wil)
   ✅ Presente = LA FORMA DE CITA, sin marca gramatical (R8)  ← ya NO es "raíz + -a"
      si, go, wan, tok, liv, lern  |  maka, hava, luva
-  ✅ Pasado: raíz pelada + -ed   (si-ed, mak-ed → /ha.ved/)
+  ✅ Pasado: raíz pelada + -edo   (si-edo, mak-edo /ma.ˈke.do/) — R21; antes -ed, que dejaba /d/ final
   ✅ Futuro: raíz pelada + -wil
   ✅ Adjetivo INVARIABLE, siempre forma de cita (R17, deroga R10)
      un reda bol  ·  La bol es reda
@@ -89,7 +89,7 @@ VOCABULARIO:
 
 ---
 
-## Registro de Reglas Ratificadas (R1–R18)
+## Registro de Reglas Ratificadas (R1–R21)
 
 Fuente única: `vote/topics/consensus/fase5_consensus.md`. Una regla ratificada es canon y gana sobre cualquier documento más viejo.
 
@@ -113,6 +113,9 @@ Fuente única: `vote/topics/consensus/fase5_consensus.md`. Una regla ratificada 
 | R16 | Sistema de pronombres indefinidos (eni/otra/evri) + palabras C1 | 2026-07-28 | aprobada |
 | R17 | **Adjetivos invariables** — una sola regla visual: guion=pelado, espacio=cita | 2026-07-29 | unánime |
 | R18 | Las 13 palabras sin acuñar del corpus (`yeta`, `abau`, `auta`, `stika` + 9 existentes/compuestos) · `aut-` única ortografía de /au/ | 2026-10-22 | 5 especialistas; 2 desempates del esteticista, 2 decisiones del usuario |
+| R19 | Palabras libres de contenido terminadas en consonante dura o grupo: siempre forma de cita (`livi`, `lerna`, `birda`) | 2026-10-22 | 5-0 |
+| R20 | "luz" = `laita`, "carta" = `karda`, headwords heredados renombrados (`nofa`, `arta`…); `net`/`bit` abiertos · **pendiente de aplicar** | 2026-10-22 | 5 especialistas |
+| R21 | **Pasado `-edo`** (antes `-ed`, que dejaba /d/ final) · **`bi` retirado**: "ser" = `es`, cero verbos irregulares | 2026-10-26 | Q1 4-1 + ronda 2 4-1; Q2 5-0 · nace de una crítica en Reddit |
 
 ---
 

@@ -31,10 +31,11 @@ bilingual, so only the regions explicitly marked as VELA are read (see
 tokenized. Each token is then decomposed:
 
   1. Grammatical suffixes are stripped, not treated as compound elements.
-     `liv-ed`, `bird-en`, `mi-se`, `siti-to` inflect a root; the suffix's
-     own coda is canonical and lands in the next syllable's onset
-     (R8: `hav-ed` → /ha.ved/). Without this every past tense would be a
-     false positive.
+     `liv-edo`, `bird-en`, `mi-se`, `siti-to` inflect a root; the root's
+     coda moves into the suffix's onset (`hav-edo` → /ha.ve.do/). The
+     suffixes themselves are checked once, at import time: each must end in
+     a vowel or a tolerated coda (see SUFFIXES). Stripping them used to hide
+     that the old past `-ed` ended every past tense in /d/ (fixed in R21).
   2. Each remaining element is looked up in the lexicon root inventory.
      An element that IS in the lexicon was already checked by the lexicon
      pass — re-reporting it here would just duplicate findings.
@@ -85,11 +86,12 @@ DIGRAPH_CONSONANTS = {"sh", "ch"}                 # single phonemes, illegal as 
 # in compounds, so they count as legal roots.
 ERRATA_ROOTS = {"art", "net", "sav", "tip", "stap", "grup", "bit", "kod", "wei", "taim"}
 
-# Grammatical suffixes (GRAMMAR_COMPLETE.md; R6 plural, R8 tense).
-# In `root-SUFFIX` the suffix is inflection, not a compound element: its coda is
-# canonical and resyllabifies into the following onset. Stripped before checking.
+# Grammatical suffixes (GRAMMAR_COMPLETE.md; R6 plural, R8/R21 tense).
+# In `root-SUFFIX` the suffix is inflection, not a compound element, so tokens
+# are checked with the suffix stripped. A suffix usually ends the word, so its
+# own ending must be legal: _check_suffixes() enforces that below.
 SUFFIXES = {
-    "ed",    # past           (R8)
+    "edo",   # past           (R21; was -ed, which ended every past tense in /d/)
     "wil",   # future         (R8)
     "n",     # plural after vowel      (R6)
     "en",    # plural after consonant  (R6)
@@ -131,6 +133,21 @@ def element_defect(element):
     if tail in DIGRAPH_CONSONANTS or len(tail) == 1:
         return ("coda", f"deprecated coda '-{tail}' (prefer vowel-final, e.g. -{tail}a)")
     return ("cluster", f"illegal final cluster '-{tail}'")
+
+
+def _check_suffixes():
+    """Fail fast if a grammatical suffix would end a word in an illegal coda.
+
+    Tokens are validated with their suffix stripped, so a bad suffix would make
+    every inflected word illegal while the scan still reports 0 errors. That is
+    exactly how the old past `-ed` went unnoticed until R21.
+    """
+    bad = {s: element_defect(s) for s in SUFFIXES if element_defect(s)}
+    if bad:
+        raise SystemExit(f"illegal grammatical suffix ending(s): {bad}")
+
+
+_check_suffixes()
 
 
 def phoneme_findings(word, afi=""):

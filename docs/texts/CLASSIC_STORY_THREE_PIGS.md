@@ -16,16 +16,16 @@ But he could not blow down the brick house.
 The pigs stayed safe, and the wolf ran away.
 
 ## VELA (working translation)
-Tri smol pig-en go-ed from hom tu maki de-se own hous-en.
-La firsta piga maki-ed un hous of stra.
-La sekonda piga maki-ed un hous of stik-en.
-La terda piga maki-ed un hous of brik-en.
-Un wail-dog kom-ed and tok-ed: “Smol piga, smol piga, let mi kom in.”
-La pig-en tok-ed: “No, no, no.”
-La wail-dog tok-ed: “Den mi wil blow daun yu-se hous.”
-Li blow-ed daun la stra hous and la stik-hous.
+Tri smol pig-en go-edo from hom tu maki de-se own hous-en.
+La firsta piga maki-edo un hous of stra.
+La sekonda piga maki-edo un hous of stik-en.
+La terda piga maki-edo un hous of brik-en.
+Un wail-dog kom-edo and tok-edo: “Smol piga, smol piga, let mi kom in.”
+La pig-en tok-edo: “No, no, no.”
+La wail-dog tok-edo: “Den mi wil blow daun yu-se hous.”
+Li blow-edo daun la stra hous and la stik-hous.
 Bot li no kin blow daun la brika hous.
-La pig-en stei-ed safi, and la wail-dog ran away.
+La pig-en stei-edo safi, and la wail-dog ran away.
 
 ## Notes
 - This is a **Phase 8 narrative artifact**.

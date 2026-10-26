@@ -274,7 +274,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **open-hand** | /open.hand/ | adj | generous | open + hand | La open-hand man giva much. |
 | **self-luva** | /self.lu.va/ | adj/noun | selfish / self-love | self + love | La self-luva man tinka onli of self. |
 | **strong-maind** | /strong.maind/ | adj | determined | strong + mind | La strong-maind wuman no stop. |
-| **no-nais** | /no.nais/ | adj | rude | not + nice | No bi no-nais tu othr-en. |
+| **no-nais** | /no.nais/ | adj | rude | not + nice | No es no-nais tu othr-en. |
 | **maind-mak** | /maind.mak/ | verb | to imagine | mind + make | Maind-mak un beter waild. |
 | **no-hop** | /no.hop/ | noun | despair | no + hope | La war bring no-hop. |
 | **strong-hert** | /strong.hert/ | noun | courage | strong + heart | La soldia hava strong-hert. |
@@ -282,7 +282,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **nervus** | /ner.vus/ | adj | nervous | loan | Bifor la test mi es nervus. |
 | **lazi** | /la.zi/ | adj | lazy | loan | La lazi doga slipa ol dei. |
 | **jentel** | /jen.tel/ | adj | gentle | loan | Tuch la babi jentel. |
-| **polaita** | /po.lai.ta/ | adj | polite | loan | Bi polaita tu la old-en. |
+| **polaita** | /po.lai.ta/ | adj | polite | loan | Es polaita tu la old-en. |
 | **wais** | /wais/ | adj | wise | loan | La wais olda man nof much. |
 | **kalma** | /kal.ma/ | adj | calm | loan | Stei kalma in la storma. |
 | **douta** | /dau.ta/ | verb | to doubt | loan | Mi douta his stori. |
@@ -735,7 +735,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **hop-ful** | /hop.ful/ | adj | hopeful | hope + full | Wi es hop-ful for tumoro. |
 | **big-angri** | /big.an.gri/ | adj | furious | big + angry | La bad niu mak li big-angri. |
 | **no-wais** | /no.wais/ | adj | foolish | not + wise | It es no-wais tu rush. |
-| **kea-ful** | /ke.a.ful/ | adj | careful | care + full | Bi kea-ful wit la sharpa naif. |
+| **kea-ful** | /ke.a.ful/ | adj | careful | care + full | Es kea-ful wit la sharpa naif. |
 | **no-kea** | /no.ke.a/ | adj | careless | not + care | La no-kea drive brek la kar. |
 | **lonli-fel** | /lon.li.fel/ | noun | loneliness | lonely + feel | Far from hom, li hav lonli-fel. |
 | **if-no** | /if.no/ | conj | unless | if + not | Wi go, if-no it rein. |
@@ -1081,7 +1081,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **stupida** | /stu.pi.da/ | adj | stupid | loan | It es un stupida ide. |
 | **ativa** | /a.ti.va/ | adj | active | loan | La child es ativa ol dei. |
 | **hard-rul** | /hard.rul/ | adj | strict | hard + rule | La ticha es hard-rul. |
-| **pashenta** | /pa.shen.ta/ | adj | patient | loan | Bi pashenta wit la lern-po. |
+| **pashenta** | /pa.shen.ta/ | adj | patient | loan | Es pashenta wit la lern-po. |
 | **seria** | /se.ri.a/ | adj | serious | loan | Dis es un seria problem. |
 | **hapi-ful** | /ha.pi.ful/ | adj | cheerful | happy + full | La hapi-ful child sing. |
 | **grumpa** | /grum.pa/ | adj | grumpy | loan | La grumpa old man no smail. |
@@ -1725,7 +1725,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **klipa** | /kli.pa/ | noun | clip | loan | Hold la paper wit un klipa. |
 | **fyusa** | /fju.sa/ | noun | fuse | loan | La fyusa stop tu much elektrik. |
 | **ambisa** | /am.bi.sa/ | adj | ambitious | loan | La ambisa yong-po want mor. |
-| **kosha** | /ko.sha/ | adj | cautious | loan | Bi kosha on la ais rod. |
+| **kosha** | /ko.sha/ | adj | cautious | loan | Es kosha on la ais rod. |
 | **glumi** | /glu.mi/ | adj | gloomy | loan | La rein-dei fil glumi. |
 | **optimista** | /op.ti.mis.ta/ | adj | optimistic | loan | She es optimista about la futur. |
 | **pesimista** | /pe.si.mis.ta/ | adj | pessimistic | loan | La pesimista si onli bad. |

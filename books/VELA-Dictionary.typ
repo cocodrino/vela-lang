@@ -29,7 +29,7 @@
   #v(2em)
   #text(size: 11pt)[VELA #sym.arrow English  ·  English #sym.arrow VELA]
   #v(0.3em)
-  #text(size: 10pt, fill: muted)[2,928 entries · Level: reference]
+  #text(size: 10pt, fill: muted)[2,927 entries · Level: reference]
 ]
 #pagebreak()
 #text(size: 22pt, weight: 800, fill: brand)[VELA → English]
@@ -250,7 +250,6 @@
 #e("berli", "/ber.li/", [barely #text(fill: muted, size: 8pt, style: "italic")[adv]])
 #e("berna", "/ber.na/", [to burn #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("besaida", "/be.sai.da/", [besides / moreover #text(fill: muted, size: 8pt, style: "italic")[adv]])
-#e("bi", "/bi/", [to be #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("bifor", "/bifor/", [before])
 #e("bifor-eat", "/bi.for.eat/", [appetizer #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("bifor-taim", "/bi.for.taim/", [beforehand #text(fill: muted, size: 8pt, style: "italic")[adv]])
@@ -647,7 +646,7 @@
 #e("erkweika", "/er.kwei.ka/", [earthquake])
 #e("erli", "/er.li/", [early])
 #e("erna", "/er.na/", [to earn #text(fill: muted, size: 8pt, style: "italic")[verb]])
-#e("es", "/es/", [to be (stative) #text(fill: muted, size: 8pt, style: "italic")[verb]])
+#e("es", "/es/", [to be #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("esamina", "/e.sa.mi.na/", [to examine #text(fill: muted, size: 8pt, style: "italic")[verb]])
 #e("eseia", "/e.se.a/", [essay #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("esfera", "/es.fe.ra/", [sphere #text(fill: muted, size: 8pt, style: "italic")[noun]])
@@ -1191,7 +1190,7 @@
 #e("kamal", "/ka.mal/", [camel])
 #e("kamera", "/kamera/", [camera])
 #e("kan", "/kan/", [can])
-#e("kan-ed", "/kan.ed/", [could])
+#e("kan-edo", "/ka.ˈne.do/", [could])
 #e("kanal", "/kanal/", [channel])
 #e("kandel", "/kan.del/", [candle #text(fill: muted, size: 8pt, style: "italic")[noun]])
 #e("kangaru", "/kan.ga.ru/", [kangaroo])
@@ -3464,7 +3463,7 @@
 #e("costume", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[kostum] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/kos.tum/]])
 #e("cotton", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[koton] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ko.ton/]])
 #e("cough", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[kofa] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ko.fa/]])
-#e("could", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[kan-ed] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/kan.ed/]])
+#e("could", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[kan-edo] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ka.ˈne.do/]])
 #e("country", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[kontri] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/kontri/]])
 #e("courage", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[strong-hert] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/strong.hert/]])
 #e("court", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[korta] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/kor.ta/]])
@@ -5106,8 +5105,7 @@
 #e("to attack", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[ataka] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/a.ta.ka/]])
 #e("to bake", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[baka] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ba.ka/]])
 #e("to bang", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[banga] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/ban.ga/]])
-#e("to be", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bi] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bi/]])
-#e("to be (stative)", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[es] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/es/]])
+#e("to be", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[es] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/es/]])
 #e("to be born", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[borna] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bor.na/]])
 #e("to become", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bikom] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bi.kom/]])
 #e("to beep", "", [#sym.arrow.r #text(weight: "bold", fill: brand)[bipa] #text(size: 8pt, fill: muted, font: "DejaVu Sans Mono")[/bi.pa/]])
