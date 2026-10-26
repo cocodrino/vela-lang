@@ -219,7 +219,7 @@ En VELA, **y = /j/** (consonante, como "y" en "yo").
 | Forma | Escritura | Pronunciación | Ejemplo |
 |-------|-----------|--------------|---------|
 | Presente | raíz-**a** | /ra.ís/ + /a/ | si-**a** → /si.a/ |
-| Pasado | raíz-**ed** | /ra.ís/ + /ɛd/ | liv-**ed** → /liv.ɛd/ |
+| Pasado | raíz-**edo** | /ra.ís/ + /e.do/ | liv-**edo** → /li.ˈve.do/ |
 | Futuro | raíz-**wil** | /ra.ís/ + /wil/ | si-**wil** → /si.wil/ |
 | Agente | raíz-**er** | /ra.ís/ + /er/ | wok-**er** → /wok.er/ |
 | Continuo | raíz-**ing** | /ra.ís/ + /iŋ/ | sleep-**ing** → /slip.iŋ/ |
@@ -262,7 +262,7 @@ The big man's houses → La big man-se hous-en
 The men's houses     → La man-se-n    hous-en
 
 Liv-ing      → li-ving (vivir, presente continuo)
-Liv-ed       → li-ved (vivió)
+Liv-edo       → li-ve-do (vivió)
 Si-wil       → si-wil (verá)
 
 La man se liv en la siti-to → La man liv en la siti-to
@@ -296,7 +296,7 @@ La man se liv en la siti-to → La man liv en la siti-to
 
 | Símbolo | Uso | Ejemplo |
 |---------|-----|---------|
-| **-** (guion) | Entre morfemas | man-se, liv-ed, big |
+| **-** (guion) | Entre morfemas | man-se, liv-edo, big |
 | **—** (raya) | Pausa dramatic | La man kom home — la woman es not dar. |
 | **'** (apóstrofo) | Elisión informal | y'd = you would, i'm = i am |
 
@@ -447,7 +447,7 @@ som       → /som/      (some)
 ### 10.2 Verbos常用
 
 ```
-bi        → /bi/       (to be)
+es        → /es/       (to be)
 si        → /si/       (to see)
 hav       → /hav/      (to have)
 don       → /don/      (to do)
@@ -468,7 +468,7 @@ nof       → /nof/      (to know)
 
 | Escrito | Pronunciado | Razón |
 |---------|-------------|--------|
-| liv-ed | /liv.ɛd/ | -ed = morpheme separado |
+| liv-edo | /li.ˈve.do/ | -edo = morpheme separado |
 | wok-er | /wok.er/ | -er = morpheme separado |
 | man-se | /man.se/ | -se = morpheme separado |
 | man-en | /mans/ | -s = plural |
@@ -492,7 +492,7 @@ UN SONIDO = UNA LETRA
 
 ORTOGRAFÍA MORFOLÓGICA:
   Verbo presente: raíz-a
-  Verbo pasado:   raíz-ed
+  Verbo pasado:   raíz-edo
   Verbo futuro:   raíz-wil
   Sustantivo:     raíz (nada)
   Adjetivo:       raíz (bare root, no suffix)
@@ -508,7 +508,7 @@ PUNTUACIÓN: . , ? ! : ; "..."
 DIRECCIÓN: LTR
 MAYÚSCULAS: Solo primera letra de oración + nombres propios
 ESPACIOS: Entre palabras siempre
-GUIONES: Entre morfemas (liv-ed, man-se, kantri-to)
+GUIONES: Entre morfemas (liv-edo, man-se, kantri-to)
 ```
 
 ---

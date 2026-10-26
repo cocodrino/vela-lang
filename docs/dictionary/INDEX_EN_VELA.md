@@ -488,7 +488,7 @@
 | costume | kostum | /kos.tum/ |
 | cotton | koton | /ko.ton/ |
 | cough | kofa | /ko.fa/ |
-| could | kan-ed | /kan.ed/ |
+| could | kan-edo | /ka.ˈne.do/ |
 | country | kontri | /kontri/ |
 | courage | strong-hert | /strong.hert/ |
 | court | korta | /kor.ta/ |
@@ -2113,8 +2113,7 @@
 | to attack | ataka | /a.ta.ka/ |
 | to bake | baka | /ba.ka/ |
 | to bang | banga | /ban.ga/ |
-| to be | bi | /bi/ |
-| to be (stative) | es | /es/ |
+| to be | es | /es/ |
 | to be born | borna | /bor.na/ |
 | to become | bikom | /bi.kom/ |
 | to beep | bipa | /bi.pa/ |

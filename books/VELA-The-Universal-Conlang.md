@@ -461,15 +461,15 @@ tenses the same way — two endings and an **unmarked present**:
 | Tense | Marker | Form | Example |
 |-------|--------|------|---------|
 | Present | *(none)* | the **dictionary word** itself | `maka` (make / makes) |
-| Past | **-ed** | bare root + `-ed` | `mak-ed` (made) |
+| Past | **-edo** | bare root + `-edo` | `mak-edo` (made) |
 | Future | **-wil** | bare root + `-wil` | `mak-wil` (will make) |
 
 The **present is simply the word as the dictionary lists it** — there is no
 present ending to add. Past and future attach to the short root (the same short
 form used inside compounds):
 
-> `si` (see) · `si-ed` (saw) · `si-wil` (will see)
-> `maka` (make) · `mak-ed` (made) · `mak-wil` (will make)
+> `si` (see) · `si-edo` (saw) · `si-wil` (will see)
+> `maka` (make) · `mak-edo` (made) · `mak-wil` (will make)
 
 The ending never depends on the subject: `mi maka`, `yu maka`, `li maka`,
 `wi maka`, `de maka`. There are **no irregular verbs and no spelling changes** —
@@ -477,20 +477,20 @@ ever. *(Why no present `-a`? Because a content root's citation form already
 carries a helper vowel where the sound needs it — `maka` — so adding a present
 `-a` would clash with it. The dictionary form does double duty as the present.)*
 
-The verb **"to be"** is the one exception: `bi` has the present form `es`
-(past `es-ed`, future `wil es`):
+The verb **"to be"** follows the same rule: `es` (present), `es-edo` (past),
+`es-wil` (future):
 
 > **Mi es hapi.** — *I am happy.*
 > **La kat es big.** — *The cat is big.*
 
 ## 4.7 A worked example
 
-> **La smol child-en play-ed in la garden, and de es hapi.**
+> **La smol child-en play-edo in la garden, and de es hapi.**
 >
 > *The small children played in the garden, and they are happy.*
 
 Breaking it down: `la` (the) · `smol` (small) · `child-en` (child + plural) ·
-`play-ed` (play + past) · `in` (in) · `la garden` (the garden) · `and` (and) ·
+`play-edo` (play + past) · `in` (in) · `la garden` (the garden) · `and` (and) ·
 `de` (they) · `es` (are) · `hapi` (happy). No irregular forms, no memorized
 exceptions.
 
@@ -599,8 +599,8 @@ weeks.
 - **Genitive:** `-se`. **Locative:** `-to`.
 - **Adjective:** invariable — always the dictionary form (a hyphen takes the bare root, a space the full word).
 - **Comparison:** `mor` (more), `mos` (most).
-- **Verb tenses:** present = the dictionary word, past `-ed`, future `-wil`. No irregulars.
-- **"To be":** `bi` (present `es`).
+- **Verb tenses:** present = the dictionary word, past `-edo`, future `-wil`. No irregulars.
+- **"To be":** `es` · `es-edo` · `es-wil`, fully regular.
 - **Negation:** `no` before the word.
 - **Compound:** roots joined by `-`, max three, transparent.
 

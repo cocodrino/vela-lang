@@ -209,172 +209,171 @@ Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a can
 
 ## Section 2: Core Verbs — Zero Irregular
 
-*Every verb follows the same 3-suffix rule. Present -a | Past -ed | Future -wil*
+*Every verb follows the same rule: present = the dictionary form | past = short root + -edo | future = short root + -wil (R8, R21). No exceptions.*
 
 ### To Be and Essential States
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **bi** | /bi/ | to be | es | bi-ed | bi-wil | Mi es hapi. → I am happy. |
-| **es** | /es/ | to be (stative) | es | es-ed | es-wil | La man es biga. → The man is big. |
-| **nof** | /nof/ | to know | nof | nof-ed | nof-wil | Mi nof wat yu wan. → I know what you want. |
-| **nof-hu** | /nof.hu/ | to know someone | nof-hu-a | nof-hu-ed | nof-hu-wil | Mi nof-hu yu. → I know you. |
+| **es** | /es/ | to be | es | es-edo | es-wil | Mi es hapi. → I am happy. |
+| **nof** | /nof/ | to know | nof | nof-edo | nof-wil | Mi nof wat yu wan. → I know what you want. |
+| **nof-hu** | /nof.hu/ | to know someone | nof-hu-a | nof-hu-edo | nof-hu-wil | Mi nof-hu yu. → I know you. |
 
 ### Perception and Communication
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **si** | /si/ | to see | si | si-ed | si-wil | Mi si la filma. → I see the film. |
-| **her** | /her/ | to hear | her | her-ed | her-wil | Mi her la sonja. → I hear the song. |
-| **smel** | /smel/ | to smell | smel | smel-ed | smel-wil | Mi smel la flauor. → I smell the flower. |
-| **tas** | /tas/ | to taste | tas | tas-ed | tas-wil | La supa tas guda. → The soup tastes good. |
-| **fel** | /fel/ | to feel | fel | fel-ed | fel-wil | Mi fel hapi. → I feel happy. |
-| **luka** | /lu.ka/ | to look | luka | luk-ed | luk-wil | Mi luk at la sinti. → I look at the scene. |
-| **lisen** | /lisen/ | to listen | lisen | lisen-ed | lisen-wil | Wi lisen a la muzik. → We listen to the music. |
-| **toka** | /to.ka/ | to speak | toka | tok-ed | tok-wil | Mi toka wit yu. → I speak with you. |
-| **tal** | /tal/ | to tell | tal | tal-ed | tal-wil | Yu tal mi wat yunof. → You tell me what you know. |
-| **sey** | /sei/ | to say | sey | sey-ed | sey-wil | Mi sey "helo". → I say "hello". |
-| **aska** | /as.ka/ | to ask | aska | ask-ed | ask-wil | Mi aska yu wan ting. → I ask you one thing. |
-| **ansra** | /an.sra/ | to answer | ansra | ansr-ed | ansr-wil | Li ansr mi-se kwestion. → She answers my question. |
+| **si** | /si/ | to see | si | si-edo | si-wil | Mi si la filma. → I see the film. |
+| **her** | /her/ | to hear | her | her-edo | her-wil | Mi her la sonja. → I hear the song. |
+| **smel** | /smel/ | to smell | smel | smel-edo | smel-wil | Mi smel la flauor. → I smell the flower. |
+| **tas** | /tas/ | to taste | tas | tas-edo | tas-wil | La supa tas guda. → The soup tastes good. |
+| **fel** | /fel/ | to feel | fel | fel-edo | fel-wil | Mi fel hapi. → I feel happy. |
+| **luka** | /lu.ka/ | to look | luka | luk-edo | luk-wil | Mi luk at la sinti. → I look at the scene. |
+| **lisen** | /lisen/ | to listen | lisen | lisen-edo | lisen-wil | Wi lisen a la muzik. → We listen to the music. |
+| **toka** | /to.ka/ | to speak | toka | tok-edo | tok-wil | Mi toka wit yu. → I speak with you. |
+| **tal** | /tal/ | to tell | tal | tal-edo | tal-wil | Yu tal mi wat yunof. → You tell me what you know. |
+| **sey** | /sei/ | to say | sey | sey-edo | sey-wil | Mi sey "helo". → I say "hello". |
+| **aska** | /as.ka/ | to ask | aska | ask-edo | ask-wil | Mi aska yu wan ting. → I ask you one thing. |
+| **ansra** | /an.sra/ | to answer | ansra | ansr-edo | ansr-wil | Li ansr mi-se kwestion. → She answers my question. |
 
 ### Movement
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **go** | /go/ | to go | go | go-ed | go-wil | Mi go a la park. → I go to the park. |
-| **kom** | /kom/ | to come | kom | kom-ed | kom-wil | Yu kom a mi. → You come to me. |
-| **kom-hom** | /kom.hom/ | to return home | kom-hom-a | kom-hom-ed | kom-hom-wil | Mi kom-hom nau. → I come home now. |
-| **livi** | /li.vi/ | to live | livi | liv-ed | liv-wil | Wi livi la siti-to. → We live in the city. |
-| **woka** | /wo.ka/ | to walk | woka | wok-ed | wok-wil | Mi woka la parke-to. → I walk in the park. |
-| **werka** | /wer.ka/ | to work | werka | werk-ed | werk-wil | Mi werka la ofis-to. → I work at the office. |
-| **bikom** | /bi.kom/ | to become | bikom | bikom-ed | bikom-wil | Li bikom un dokter. → He becomes a doctor. |
-| **sima** | /si.ma/ | to seem | sima | sim-ed | sim-wil | Li sima tireda. → She seems tired. |
-| **hapen** | /ha.pen/ | to happen | hapen | hapen-ed | hapen-wil | Wat hapen hier? → What happens here? |
-| **rul** | /rul/ | to travel | rul | rul-ed | rul-wil | Wi rul tu la naid. → We travel to the nation. |
-| **ran** | /ran/ | to run | ran | ran-ed | ran-wil | La man ran. → The man runs. |
-| **jumpa** | /jum.pa/ | to jump | jampa | jamp-ed | jamp-wil | Li jamp over la bond. → She jumps over the bond. |
-| **swim** | /swim/ | to swim | swim | swim-ed | swim-wil | Wi swim in la river. → We swim in the river. |
-| **frai** | /frai/ | to flai | frai | frai-ed | frai-wil | La berd frai. → The bird flies. |
-| **folo** | /folo/ | to follow | folo | folo-ed | folo-wil | Mi folo yu. → I follow you. |
-| **bow** | /bou/ | to bend down | bow | bow-ed | bow-wil | Li bow tu pik la ting. → She bends to pick the thing. |
-| **ariva** | /a.ri.va/ | to arrive | ariva | ariv-ed | ariv-wil | Wi ariv at seven. → We arrive at seven. |
+| **go** | /go/ | to go | go | go-edo | go-wil | Mi go a la park. → I go to the park. |
+| **kom** | /kom/ | to come | kom | kom-edo | kom-wil | Yu kom a mi. → You come to me. |
+| **kom-hom** | /kom.hom/ | to return home | kom-hom-a | kom-hom-edo | kom-hom-wil | Mi kom-hom nau. → I come home now. |
+| **livi** | /li.vi/ | to live | livi | liv-edo | liv-wil | Wi livi la siti-to. → We live in the city. |
+| **woka** | /wo.ka/ | to walk | woka | wok-edo | wok-wil | Mi woka la parke-to. → I walk in the park. |
+| **werka** | /wer.ka/ | to work | werka | werk-edo | werk-wil | Mi werka la ofis-to. → I work at the office. |
+| **bikom** | /bi.kom/ | to become | bikom | bikom-edo | bikom-wil | Li bikom un dokter. → He becomes a doctor. |
+| **sima** | /si.ma/ | to seem | sima | sim-edo | sim-wil | Li sima tireda. → She seems tired. |
+| **hapen** | /ha.pen/ | to happen | hapen | hapen-edo | hapen-wil | Wat hapen hier? → What happens here? |
+| **rul** | /rul/ | to travel | rul | rul-edo | rul-wil | Wi rul tu la naid. → We travel to the nation. |
+| **ran** | /ran/ | to run | ran | ran-edo | ran-wil | La man ran. → The man runs. |
+| **jumpa** | /jum.pa/ | to jump | jampa | jamp-edo | jamp-wil | Li jamp over la bond. → She jumps over the bond. |
+| **swim** | /swim/ | to swim | swim | swim-edo | swim-wil | Wi swim in la river. → We swim in the river. |
+| **frai** | /frai/ | to flai | frai | frai-edo | frai-wil | La berd frai. → The bird flies. |
+| **folo** | /folo/ | to follow | folo | folo-edo | folo-wil | Mi folo yu. → I follow you. |
+| **bow** | /bou/ | to bend down | bow | bow-edo | bow-wil | Li bow tu pik la ting. → She bends to pick the thing. |
+| **ariva** | /a.ri.va/ | to arrive | ariva | ariv-edo | ariv-wil | Wi ariv at seven. → We arrive at seven. |
 
 ### Actions and Work
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **don** | /don/ | to do | don | don-ed | don-wil | Mi don la werka. → I do the work. |
-| **maka** | /ma.ka/ | to make | maka | mak-ed | mak-wil | Mi maka la disf. → I make the dinner. |
-| **lerna** | /ler.na/ | to learn | lerna | lern-ed | lern-wil | Yu lerna VELA. → You learn VELA. |
-| **teacha** | /teac.ha/ | to teach | teacha | teach-ed | teach-wil | Mi teach yu. → I teach you. |
-| **stodi** | /stodi/ | to study | stodi | stodi-ed | stodi-wil | Mi stodi evri dei. → I study every day. |
-| **resercha** | /re.ser.cha/ | to research | resercha | reserch-ed | reserch-wil | Li reserch la sindei. → She researches the subject. |
-| **plan** | /plan/ | to plan | plan | plan-ed | plan-wil | Wi plan tu kom. → We plan to come. |
-| **maki** | /ma.ki/ | to build | maki | maki-ed | maki-wil | De maki un hous. → They build a house. |
-| **repai** | /re.pa.i/ | to fix | repai | repai-ed | repai-wil | Mi repai la masin. → I fix the machine. |
-| **braka** | /bra.ka/ | to break | braka | brak-ed | brak-wil | Li brak la glas. → She breaks the glass. |
-| **open** | /open/ | to open | open | open-ed | open-wil | Mi open la dor. → I open the door. |
-| **klian** | /klian/ | to clean | klian | klian-ed | klian-wil | Wi klian la hous. → We clean the house. |
-| **kuka** | /ku.ka/ | to cook | kuka | kuk-ed | kuk-wil | Mi kuka evriSandEI. → I cook every Sunday. |
-| **woshi** | /wos.hi/ | to wash | wosha | wosh-ed | wosh-wil | Mi wosh mi-se masin. → I wash my car. |
-| **drai** | /drai/ | to dry | drai | drai-ed | drai-wil | Mi drai la plet. → I dry the plate. |
-| **siva** | /si.va/ | to sieve / to filter | siva | siv-ed | siv-wil | Sift flour from solit-partikl-en. → Sieve flour from solid particles. |
+| **don** | /don/ | to do | don | don-edo | don-wil | Mi don la werka. → I do the work. |
+| **maka** | /ma.ka/ | to make | maka | mak-edo | mak-wil | Mi maka la disf. → I make the dinner. |
+| **lerna** | /ler.na/ | to learn | lerna | lern-edo | lern-wil | Yu lerna VELA. → You learn VELA. |
+| **teacha** | /teac.ha/ | to teach | teacha | teach-edo | teach-wil | Mi teach yu. → I teach you. |
+| **stodi** | /stodi/ | to study | stodi | stodi-edo | stodi-wil | Mi stodi evri dei. → I study every day. |
+| **resercha** | /re.ser.cha/ | to research | resercha | reserch-edo | reserch-wil | Li reserch la sindei. → She researches the subject. |
+| **plan** | /plan/ | to plan | plan | plan-edo | plan-wil | Wi plan tu kom. → We plan to come. |
+| **maki** | /ma.ki/ | to build | maki | maki-edo | maki-wil | De maki un hous. → They build a house. |
+| **repai** | /re.pa.i/ | to fix | repai | repai-edo | repai-wil | Mi repai la masin. → I fix the machine. |
+| **braka** | /bra.ka/ | to break | braka | brak-edo | brak-wil | Li brak la glas. → She breaks the glass. |
+| **open** | /open/ | to open | open | open-edo | open-wil | Mi open la dor. → I open the door. |
+| **klian** | /klian/ | to clean | klian | klian-edo | klian-wil | Wi klian la hous. → We clean the house. |
+| **kuka** | /ku.ka/ | to cook | kuka | kuk-edo | kuk-wil | Mi kuka evriSandEI. → I cook every Sunday. |
+| **woshi** | /wos.hi/ | to wash | wosha | wosh-edo | wosh-wil | Mi wosh mi-se masin. → I wash my car. |
+| **drai** | /drai/ | to dry | drai | drai-edo | drai-wil | Mi drai la plet. → I dry the plate. |
+| **siva** | /si.va/ | to sieve / to filter | siva | siv-edo | siv-wil | Sift flour from solit-partikl-en. → Sieve flour from solid particles. |
 
 ### Wants, Needs, and Preferences
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **wan** | /wan/ | to want | wan | wan-ed | wan-wil | Mi wan kom. → I want to come. |
-| **needa** | /nee.da/ | to need | needa | need-ed | need-wil | Mi need hel. → I need help. |
-| **liki** | /li.ki/ | to like | lika | lik-ed | lik-wil | Mi lik la sonja. → I like the song. |
-| **dislika** | /dis.li.ka/ | to dislike | dislika | dislik-ed | dislik-wil | Mi dislik la test. → I dislike the taste. |
-| **prefer** | /prefer/ | to prefer | prefer | prefer-ed | prefer-wil | Mi prefer te rather than kofi. → I prefer tea rather than coffee. |
-| **hopa** | /ho.pa/ | to hope | hopa | hop-ed | hop-wil | Mi hopa yu kom. → I hope you come. |
-| **min** | /min/ | to mean | min | min-ed | min-wil | Wat yu min? → What do you mean? |
+| **wan** | /wan/ | to want | wan | wan-edo | wan-wil | Mi wan kom. → I want to come. |
+| **needa** | /nee.da/ | to need | needa | need-edo | need-wil | Mi need hel. → I need help. |
+| **liki** | /li.ki/ | to like | lika | lik-edo | lik-wil | Mi lik la sonja. → I like the song. |
+| **dislika** | /dis.li.ka/ | to dislike | dislika | dislik-edo | dislik-wil | Mi dislik la test. → I dislike the taste. |
+| **prefer** | /prefer/ | to prefer | prefer | prefer-edo | prefer-wil | Mi prefer te rather than kofi. → I prefer tea rather than coffee. |
+| **hopa** | /ho.pa/ | to hope | hopa | hop-edo | hop-wil | Mi hopa yu kom. → I hope you come. |
+| **min** | /min/ | to mean | min | min-edo | min-wil | Wat yu min? → What do you mean? |
 
 ### Mental and Cognitive
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **bilever** | /biliver/ | to believe | biliver | biliver-ed | biliver-wil | Mi biliver in yu. → I believe in you. |
-| **tinka** | /tin.ka/ | to think | tinka | tink-ed | tink-wil | Mi tinka so. → I think so. |
-| **remember** | /remember/ | to remember | remember | remember-ed | remember-wil | Mi remember wat yu tal. → I remember what you said. |
-| **forgeta** | /for.ge.ta/ | to forget | forgeta | forget-ed | forget-wil | Mi forget evriwei. → I forget everywhere. |
-| **understanda** | /un.der.stan.da/ | to understand | understanda | understand-ed | understand-wil | Mi understand VELA. → I understand VELA. |
-| **memoriza** | /me.mo.ri.za/ | to memorize | memoriza | memoriz-ed | memoriz-wil | Mi memoriz la wod-en. → I memorize the words. |
-| **imajin** | /imajin/ | to imagine | imajin | imajin-ed | imajin-wil | Mi imajin la siti. → I imagine the city. |
-| **desida** | /de.si.da/ | to decide | desida | desid-ed | desid-wil | Mi desid tu kom. → I decide to come. |
-| **sugesta** | /su.ges.ta/ | to suggest | sugesta | sugest-ed | sugest-wil | Mi sugest wat yu don. → I suggest what you do. |
-| **explen** | /eksplen/ | to explain | explen | explen-ed | explen-wil | Mi explen la rule. → I explain the rule. |
+| **bilever** | /biliver/ | to believe | biliver | biliver-edo | biliver-wil | Mi biliver in yu. → I believe in you. |
+| **tinka** | /tin.ka/ | to think | tinka | tink-edo | tink-wil | Mi tinka so. → I think so. |
+| **remember** | /remember/ | to remember | remember | remember-edo | remember-wil | Mi remember wat yu tal. → I remember what you said. |
+| **forgeta** | /for.ge.ta/ | to forget | forgeta | forget-edo | forget-wil | Mi forget evriwei. → I forget everywhere. |
+| **understanda** | /un.der.stan.da/ | to understand | understanda | understand-edo | understand-wil | Mi understand VELA. → I understand VELA. |
+| **memoriza** | /me.mo.ri.za/ | to memorize | memoriza | memoriz-edo | memoriz-wil | Mi memoriz la wod-en. → I memorize the words. |
+| **imajin** | /imajin/ | to imagine | imajin | imajin-edo | imajin-wil | Mi imajin la siti. → I imagine the city. |
+| **desida** | /de.si.da/ | to decide | desida | desid-edo | desid-wil | Mi desid tu kom. → I decide to come. |
+| **sugesta** | /su.ges.ta/ | to suggest | sugesta | sugest-edo | sugest-wil | Mi sugest wat yu don. → I suggest what you do. |
+| **explen** | /eksplen/ | to explain | explen | explen-edo | explen-wil | Mi explen la rule. → I explain the rule. |
 
 ### Possession and Exchange
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **hava** | /ha.va/ | to have | hava | hav-ed | hav-wil | Mi hava un kar. → I have a car. |
-| **giva** | /gi.va/ | to give | giva | giv-ed | giv-wil | Mi giva yu la buka. → I give you the book. |
-| **teka** | /te.ka/ | to take | teka | tek-ed | tek-wil | Yu tek la buka from mi. → You take the book from me. |
-| **senda** | /sen.da/ | to send | senda | send-ed | send-wil | Mi senda la leter. → I send the letter. |
-| **resiva** | /re.si.va/ | to receive | resiva | resiv-ed | resiv-wil | Mi resiv la paket. → I receive the package. |
-| **share** | /sher/ | to share | share | share-ed | share-wil | Wi share la fud. → We share the food. |
-| **trida** | /tri.da/ | to trade | trada | trad-ed | trad-wil | De trad wit es otfr. → They trade with each other. |
-| **sel** | /sel/ | to sell | sel | sel-ed | sel-wil | Mi sel la kar. → I sell the car. |
-| **bai** | /bai/ | to buy | bai | bai-ed | bai-wil | Mi bai un hous. → I buy a house. |
-| **kosta** | /kos.ta/ | to cost | kosta | kost-ed | kost-wil | La hous kost milyon. → The house costs a million. |
-| **lenta** | /len.ta/ | to lend | lenta | lent-ed | lent-wil | Mi lent yu moni. → I lend you money. |
-| **boro** | /boro/ | to borrow | boro | boro-ed | boro-wil | Mi boro moni from mi-fren. → I borrow money from my friend. |
+| **hava** | /ha.va/ | to have | hava | hav-edo | hav-wil | Mi hava un kar. → I have a car. |
+| **giva** | /gi.va/ | to give | giva | giv-edo | giv-wil | Mi giva yu la buka. → I give you the book. |
+| **teka** | /te.ka/ | to take | teka | tek-edo | tek-wil | Yu tek la buka from mi. → You take the book from me. |
+| **senda** | /sen.da/ | to send | senda | send-edo | send-wil | Mi senda la leter. → I send the letter. |
+| **resiva** | /re.si.va/ | to receive | resiva | resiv-edo | resiv-wil | Mi resiv la paket. → I receive the package. |
+| **share** | /sher/ | to share | share | share-edo | share-wil | Wi share la fud. → We share the food. |
+| **trida** | /tri.da/ | to trade | trada | trad-edo | trad-wil | De trad wit es otfr. → They trade with each other. |
+| **sel** | /sel/ | to sell | sel | sel-edo | sel-wil | Mi sel la kar. → I sell the car. |
+| **bai** | /bai/ | to buy | bai | bai-edo | bai-wil | Mi bai un hous. → I buy a house. |
+| **kosta** | /kos.ta/ | to cost | kosta | kost-edo | kost-wil | La hous kost milyon. → The house costs a million. |
+| **lenta** | /len.ta/ | to lend | lenta | lent-edo | lent-wil | Mi lent yu moni. → I lend you money. |
+| **boro** | /boro/ | to borrow | boro | boro-edo | boro-wil | Mi boro moni from mi-fren. → I borrow money from my friend. |
 
 ### Social and Abstract Actions
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **helpa** | /hel.pa/ | to help | helpa | help-ed | help-wil | Mi helpa yu. → I help you. |
-| **serva** | /ser.va/ | to serve | serva | serv-ed | serv-wil | Li serv la kofi. → She serves the coffee. |
-| **joi** | /joi/ | to join | joi | joi-ed | joi-wil | Mi joi la klas. → I join the class. |
-| **lafa** | /la.fa/ | to laugh | lafa | laf-ed | laf-wil | Wi laf at la stor. → We laugh at the story. |
-| **kai** | /kai/ | to cry | kai | kai-ed | kai-wil | Baby kai. → Baby cries. |
-| **sing** | /sing/ | to sing | sing | sing-ed | sing-wil | Mi sing la sonja. → I sing the song. |
-| **dansi** | /dan.si/ | to dance | dansi | dansi-ed | dansi-wil | Wi dansi evri noite. → We dance every night. |
-| **ple** | /ple/ | to play | ple | ple-ed | ple-wil | La childa ple in la garden. → The child plays in the garden. |
-| **rita** | /ri.ta/ | to write | rita | rit-ed | rit-wil | Mi rita la leter. → I write the letter. |
-| **rida** | /ri.da/ | to read | rida | rid-ed | rid-wil | Mi rida la buka. → I read the book. |
-| **rava** | /ra.va/ | to draw | rava | rava-ed | rava-wil | La childa rava la man. → The child draws the man. |
-| **kolori** | /ko.lo.ri/ | to paint | kolori | kolori-ed | kolori-wil | Mi kolori la wal. → I paint the wall. |
-| **meis** | /meis/ | to measure | meis | meis-ed | meis-wil | Mi meis la rum. → I measure the room. |
-| **kounta** | /koun.ta/ | to count | kounta | kount-ed | kount-wil | Mi kount tu ten. → I count to ten. |
-| **waita** | /wai.ta/ | to wait | waita | wait-ed | wait-wil | Mi waita for yu. → I wait for you. |
-| **kwika** | /kwi.ka/ | to hurry | kwika | kwik-ed | kwik-wil | Mi kwika! | Hurry up! |
-| **topi** | /to.pi/ | to stop | topi | topi-ed | topi-wil | Wi topi hier. → We stop here. |
-| **starta** | /star.ta/ | to start | starta | start-ed | start-wil | Wi starta nau. → We start now. |
-| **kontinyu** | /kontinyu/ | to continue | kontinyu | kontinyu-ed | kontinyu-wil | Wi kontinyu werka. → We continue working. |
-| **cheka** | /che.ka/ | to check | cheka | chek-ed | chek-wil | Mi chek la risolt. → I check the result. |
+| **helpa** | /hel.pa/ | to help | helpa | help-edo | help-wil | Mi helpa yu. → I help you. |
+| **serva** | /ser.va/ | to serve | serva | serv-edo | serv-wil | Li serv la kofi. → She serves the coffee. |
+| **joi** | /joi/ | to join | joi | joi-edo | joi-wil | Mi joi la klas. → I join the class. |
+| **lafa** | /la.fa/ | to laugh | lafa | laf-edo | laf-wil | Wi laf at la stor. → We laugh at the story. |
+| **kai** | /kai/ | to cry | kai | kai-edo | kai-wil | Baby kai. → Baby cries. |
+| **sing** | /sing/ | to sing | sing | sing-edo | sing-wil | Mi sing la sonja. → I sing the song. |
+| **dansi** | /dan.si/ | to dance | dansi | dansi-edo | dansi-wil | Wi dansi evri noite. → We dance every night. |
+| **ple** | /ple/ | to play | ple | ple-edo | ple-wil | La childa ple in la garden. → The child plays in the garden. |
+| **rita** | /ri.ta/ | to write | rita | rit-edo | rit-wil | Mi rita la leter. → I write the letter. |
+| **rida** | /ri.da/ | to read | rida | rid-edo | rid-wil | Mi rida la buka. → I read the book. |
+| **rava** | /ra.va/ | to draw | rava | rava-edo | rava-wil | La childa rava la man. → The child draws the man. |
+| **kolori** | /ko.lo.ri/ | to paint | kolori | kolori-edo | kolori-wil | Mi kolori la wal. → I paint the wall. |
+| **meis** | /meis/ | to measure | meis | meis-edo | meis-wil | Mi meis la rum. → I measure the room. |
+| **kounta** | /koun.ta/ | to count | kounta | kount-edo | kount-wil | Mi kount tu ten. → I count to ten. |
+| **waita** | /wai.ta/ | to wait | waita | wait-edo | wait-wil | Mi waita for yu. → I wait for you. |
+| **kwika** | /kwi.ka/ | to hurry | kwika | kwik-edo | kwik-wil | Mi kwika! | Hurry up! |
+| **topi** | /to.pi/ | to stop | topi | topi-edo | topi-wil | Wi topi hier. → We stop here. |
+| **starta** | /star.ta/ | to start | starta | start-edo | start-wil | Wi starta nau. → We start now. |
+| **kontinyu** | /kontinyu/ | to continue | kontinyu | kontinyu-edo | kontinyu-wil | Wi kontinyu werka. → We continue working. |
+| **cheka** | /che.ka/ | to check | cheka | chek-edo | chek-wil | Mi chek la risolt. → I check the result. |
 
 ### Physical States and Change
 
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
-| **grota** | /gro.ta/ | to grow | grota | grot-ed | grot-wil | La plant grot. → The plant grows. |
-| **borna** | /bor.na/ | to be born | borna | born-ed | born-wil | Mi born in 1990. → I was born in 1990. |
-| **heal** | /hial/ | to heal | heal | heal-ed | heal-wil | La wound heal. → The wound heals. |
-| **slipa** | /sli.pa/ | to sleep | slipa | slip-ed | slip-wil | Baby slipa. → Baby sleeps. |
-| **weka** | /we.ka/ | to wake up | weka | wek-ed | wek-wil | Mi wek at six. → I wake at six. |
-| **blo** | /blo/ | to blow | blo | blo-ed | blo-wil | La win blo. → The wind blows. |
-| **resta** | /res.ta/ | to rest | resta | rest-ed | rest-wil | Mi resta nau. → I rest now. |
-| **eata** | /ea.ta/ | to eat | eata | eat-ed | eat-wil | Mi eata laappl. → I eat the apple. |
-| **drinka** | /drin.ka/ | to drink | drinka | drink-ed | drink-wil | Mi drink watre. → I drink water. |
-| **brita** | /bri.ta/ | to breathe | brita | brit-ed | brit-wil | Mi brit evri dei. → I breathe every day. |
-| **sweti** | /swe.ti/ | to sweat | sweta | swet-ed | swet-wil | Mi swet aft la werka. → I sweat after the work. |
-| **shin** | /sin/ | to shine | shin | shin-ed | shin-wil | La son shin. → The sun shines. |
-| **rain** | /rein/ | to rain | rain | rain-ed | rain-wil | La rein fal. → The rain falls. |
-| **snow** | /sno/ | to snow | snow | snow-ed | snow-wil | La snow fal. → The snow falls. |
-| **smile** | /smi.le/ | to smile | smile | smile-ed | smile-wil | La baby smile at mi. → The baby smiles at me. |
+| **grota** | /gro.ta/ | to grow | grota | grot-edo | grot-wil | La plant grot. → The plant grows. |
+| **borna** | /bor.na/ | to be born | borna | born-edo | born-wil | Mi born in 1990. → I was born in 1990. |
+| **heal** | /hial/ | to heal | heal | heal-edo | heal-wil | La wound heal. → The wound heals. |
+| **slipa** | /sli.pa/ | to sleep | slipa | slip-edo | slip-wil | Baby slipa. → Baby sleeps. |
+| **weka** | /we.ka/ | to wake up | weka | wek-edo | wek-wil | Mi wek at six. → I wake at six. |
+| **blo** | /blo/ | to blow | blo | blo-edo | blo-wil | La win blo. → The wind blows. |
+| **resta** | /res.ta/ | to rest | resta | rest-edo | rest-wil | Mi resta nau. → I rest now. |
+| **eata** | /ea.ta/ | to eat | eata | eat-edo | eat-wil | Mi eata laappl. → I eat the apple. |
+| **drinka** | /drin.ka/ | to drink | drinka | drink-edo | drink-wil | Mi drink watre. → I drink water. |
+| **brita** | /bri.ta/ | to breathe | brita | brit-edo | brit-wil | Mi brit evri dei. → I breathe every day. |
+| **sweti** | /swe.ti/ | to sweat | sweta | swet-edo | swet-wil | Mi swet aft la werka. → I sweat after the work. |
+| **shin** | /sin/ | to shine | shin | shin-edo | shin-wil | La son shin. → The sun shines. |
+| **rain** | /rein/ | to rain | rain | rain-edo | rain-wil | La rein fal. → The rain falls. |
+| **snow** | /sno/ | to snow | snow | snow-edo | snow-wil | La snow fal. → The snow falls. |
+| **smile** | /smi.le/ | to smile | smile | smile-edo | smile-wil | La baby smile at mi. → The baby smiles at me. |
 
 ### Modal Verbs
 
 | Word | AFI | English | Structure | Example |
 |------|-----|---------|-----------|---------|
 | **kan** | /kan/ | can | kan + bare root | Mi kan si. → I can see. |
-| **kan-ed** | /kan.ed/ | could | kan-ed + bare root | Mi kan-ed kom. → I could come. |
+| **kan-edo** | /ka.ˈne.do/ | could | kan-edo + citation form | Mi kan-edo kom. → I could come. |
 | **mas** | /mas/ | must | mas + bare root | Wi mas werka. → We must work. |
 | **mas no** | /mas no/ | must not | mas no + bare root | De mas no kom. → They must not come. |
 | **shoda** | /sho.da/ | should | shod + bare root | Yu shod kom. → You should come. |
@@ -1041,7 +1040,7 @@ Social and legal entities (not professions):
 | **leder** | /le.der/ | leather | La shu es leder. |
 | **seramika** | /se.ra.mi.ka/ | ceramic | La plait es seramik. |
 | **klei** | /klei/ | clay | La pot es klei. |
-| **honi** | /ho.ni/ | honey | La bi mak honi. |
+| **honi** | /ho.ni/ | honey | La honi-flai maka honi. |
 
 ### Transportation
 
@@ -1292,13 +1291,13 @@ Li giv mi la buk.       → She gives me the book.
 Wi teik la child a lern-hous. → We take the child to school.
 ```
 
-**Past tense (-ed):**
+**Past tense (-edo):**
 ```
-Mi wok-ed la wok.       → I worked.
-Yu kom-ed hier.          → You came here.
-Li si-ed la film.        → She saw the film.
-Wi liv-ed in la siti.    → We lived in the city.
-De go-ed a la park.      → They went to the park.
+Mi wok-edo la wok.       → I worked.
+Yu kom-edo hier.          → You came here.
+Li si-edo la film.        → She saw the film.
+Wi liv-edo in la siti.    → We lived in the city.
+De go-edo a la park.      → They went to the park.
 ```
 
 **Future tense (-wil):**
@@ -1373,7 +1372,7 @@ La bird flai la skai-te.       → The bird flies in the sky.
 ```
 If yu kom, den mi es hapi.    → If you come, I am happy.
 If yu no kom, den mi go.      → If you don't come, then I go.
-If li wok-ed, den li hav-ed moni. → If she had worked, then she would have had money.
+If li wok-edo, den li hav-edo moni. → If she had worked, then she would have had money.
 ```
 
 ### Clothing and Accessories

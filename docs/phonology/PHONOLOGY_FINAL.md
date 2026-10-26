@@ -121,10 +121,10 @@ Sílaba VELA = (C) + V
 
 | ✅ VÁLIDO | ❌ INVÁLIDO |
 |-----------|------------|
-| a, i, o | **an** (si /n/ queda al final) |
-| ta, ki, lo | **tak** (terminación en /k/) |
-| stu, pra, tre | **kat** (terminación en /t/) |
-| pant, send | **kalb** (terminación en /b/) |
+| a, i, o | **tak** (terminación en /k/) |
+| ta, ki, lo | **kat** (terminación en /t/) |
+| stu, pra, tre | **kalb** (terminación en /b/) |
+| man, sol, mar, bus (una sola /n m l r s/ al final, §3.2) | **pant, send** (grupo de consonantes al final) |
 
 ### 3.2 Excepciones: codas permitidas al final de palabra
 
@@ -382,7 +382,7 @@ lern      → /lern/  (to learn)
 wotc      → /wotʃ/  (to watch)
 tok       → /tok/   (to speak)
 si-a      → /si.a/  (see-PRES)
-si-ed     → /si.ed/ (see-PAST)
+si-edo     → /si.ˈe.do/ (see-PAST)
 si-wil    → /si.wil/ (see-FUT)
 ```
 
@@ -464,7 +464,7 @@ VELA incluye ejercicios de pronunciación en la guía de aprendizaje. No son imp
 | Sin /θ/ ni /ð/ → /z/ | 2025-04-13 | Accesibilidad universal |
 | Sin /ʒ/ → /jur/, /jon/ | 2025-04-13 | Accesibilidad |
 | Estructura (C)V | 2025-04-13 | INITIAL_RESEARCH.md |
-| Solo /n/, /m/, /l/, /r/ al final | 2025-04-13 | Simplicidad fonotáctica |
+| Solo /n/, /m/, /l/, /r/, /s/ al final (una sola consonante) | 2025-04-13, /s/ y R21 2026-10-26 | Simplicidad fonotáctica |
 | Clusters al inicio: st-, tr-, pr- etc. | 2025-04-13 | Inspiración inglesa/romance |
 | Pitch accent penúltima | 2025-04-13 | Belleza + accesibilidad |
 | Sin longitud vocálica | 2025-04-13 | Simplicidad |
@@ -491,7 +491,9 @@ VOCALES (5):
 
 ESTRUCTURA SILÁBICA:
   (C)V — toda sílaba termina en vocal
-  Solo /n/m/l/r/ al final de palabra
+  Solo /n/m/l/r/s/ al final de palabra (una sola consonante)
+  Las palabras gramaticales cortas (if, at, wit, of, and, but, self) son la única excepción (R7)
+  Los sufijos también terminan en vocal o en esas consonantes: pasado -edo, futuro -wil (R21)
 
 CLUSTERS:
   st- sp- tr- pr- bl- cl- gr- fl- fr- dr- cr- sk- sl- sm- sn- sw- tw- pl- gl- sc-

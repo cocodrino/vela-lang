@@ -416,3 +416,22 @@ El fonólogo (autor de R10) retiró su argumento de saliencia prosódica como so
 **C — modales:** después de un modal el verbo va libre, así que lleva forma de cita: "shod + bare root" → "+ forma de cita", `Yu shod kom` → `Yu shoda kom`. Lo mismo en `GRAMMAR_COMPLETE.md` ("Main verb is bare root") y su ejemplo `Wi mas wok` → `Wi mas werka` (R11).
 
 **Errata de paso:** `la laimt box` → `la no-hevi box` (`LEXICON_BASE.md:406`, el ejemplo de "liviano"); las 2 migraciones erróneas `light` → `laita` del corpus quedan correctas ahora que `laita` es "luz".
+
+---
+
+## R21 — Pasado `-edo` y "ser" regular (ratificada 2026-10-26)
+
+**Origen:** crítica pública en Reddit (r/conlangs), verificada en el repo antes de abrir la ronda. Dossier: `vote/topics/dossier_r21_past_suffix_and_be.md`. Comité: 5 especialistas, subagentes Claude, solo lectura. Votos en `vote/topics/proposals/r21_*.md`.
+
+**Q1 — el sufijo del pasado.** Todo pasado terminaba en `-ed`, o sea en /d/ final, contra la regla de codas (`PHONOLOGY_FINAL.md` §3.2) y contra R19. Nadie lo vio porque el validador quitaba el sufijo antes de revisar la coda, y la propia R8 afirmaba que `hav-ed` /ha.ved/ era "legal" (fe de erratas: no lo era, la /d/ queda final).
+- **Ronda 1:** 4-1 por un sufijo que termine en vocal (el lexicógrafo prefería conservar `-ed` como excepción documentada). La forma quedó dividida: `-eda` 2, `-edi` 2, `-edo` 1.
+- **Ronda 2** (`proposals/r21_round2_suffix_form.md`): el dossier de la ronda 1 solo listaba `-eda`/`-edi`/`-de`/`-di` como ejemplos, así que casi nadie había evaluado `-edo`. Se repitió la comparación con los mismos datos para las tres. **`-edo` gana 4-1.**
+- **Decisión: el pasado es raíz corta + `-edo`.** `mak-edo` /ma.ˈke.do/, `hav-edo`, `si-edo`, `es-edo`. Todas las sílabas quedan abiertas y el acento de la penúltima cae en la marca de tiempo. Sin choques: no existe raíz ni palabra `edo`; VELA no usa `-o` como marca gramatical.
+- **Rechazadas:** `-de` (= pronombre `de` "ellos"), `-di` (`taidi`, `tredi`; el japonés lo dice [dʑi]), `-eda` (termina en la `-a` de cita, así que `hav-eda` parece la forma de cita de una raíz *haved*; 17 palabras ya terminan en `-eda`), `-edi` (la `-i` suena a adjetivo y también es vocal de cita, como en `livi`).
+- **Disidencia registrada** (fonólogo, ronda 2): `-edo` contra el locativo `-to` es un contraste solo de sonoridad para oyentes de mandarín. El orquestador comprobó que el ejemplo propuesto no forma un par real (una raíz que termina en vocal la conserva: `share-edo`, no `shar-edo`). Queda como vigilancia para palabras nuevas.
+
+**Q2 — "ser".** **5-0: se retira `bi`.** `es` es el único verbo "ser", totalmente regular: `es` / `es-edo` / `es-wil`. VELA queda con **cero verbos irregulares**. Esto enmienda la línea de R8 que hacía de `bi`→`es` la "única excepción". El corpus ya usaba `es`; `bi` no aparecía como verbo en ningún texto ni curso. El futuro perifrástico `wil es` desaparece: el futuro es siempre sufijo.
+
+**Aplicado en la misma rama:** ~450 pasados `-ed` → `-edo` en textos, cursos, léxico, gramática, libro de referencia, README y landing; los imperativos `Bi …` del léxico → `Es …`; `bi` "abeja" en el corpus → `honi-flai`; tablas contradictorias de `PHONOLOGY_FINAL.md` (§3.1, §11, §12) corregidas; validador: sufijo `edo` y comprobación de que ningún sufijo termine en coda ilegal.
+
+**Fuera de alcance, registrado:** `web-sample/` y el diccionario de pronunciación del paquete TTS siguen con `-ed`; la tabla de sufijos de `GRAMMAR_COMPLETE.md` §14 tiene otras formas viejas (`-er`, `-bl`, `wok` = trabajar).

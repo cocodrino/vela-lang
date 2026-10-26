@@ -1,7 +1,7 @@
 # VELA Dictionary — Official
 
 > Generated from `LEXICON_BASE.md` + `LEXICON_EXTENDED.md` by `scripts/generate_dictionary.py`. Do not edit by hand — edit the lexicons and regenerate.
-> Entries: 2928. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
+> Entries: 2927. Format: VELA | IPA | Category | Definition | Etymology | Compounds | Example.
 
 
 ## A
@@ -224,7 +224,6 @@
 | berli | /ber.li/ | adv | barely |  |  | loan |
 | berna | /ber.na/ | verb | to burn | loan |  | La fai berna la wuda. |
 | besaida | /be.sai.da/ | adv | besides / moreover |  |  | loan |
-| bi | /bi/ | verb | to be |  |  | Mi es hapi. → I am happy. |
 | bifor | /bifor/ |  | before |  | bifor-eat, bifor-taim, bifor-tal, bifor-wan | Mi werka bifor yu kom. |
 | bifor-eat | /bi.for.eat/ | noun | appetizer | bifor (before) + eat |  | before + eat |
 | bifor-taim | /bi.for.taim/ | adv | beforehand | bifor (before) + taim (time) |  | before + time |
@@ -633,7 +632,7 @@
 | erkweika | /er.kwei.ka/ |  | earthquake |  |  | La erkweik shake la ground. |
 | erli | /er.li/ |  | early |  |  | Mi werka erli. |
 | erna | /er.na/ | verb | to earn |  |  | loan |
-| es | /es/ | verb | to be (stative) |  |  | La man es biga. → The man is big. |
+| es | /es/ | verb | to be |  |  | Mi es hapi. → I am happy. |
 | esamina | /e.sa.mi.na/ | verb | to examine |  |  | loan |
 | eseia | /e.se.a/ | noun | essay |  |  | loan |
 | esfera | /es.fe.ra/ | noun | sphere |  |  | loan |
@@ -1047,7 +1046,7 @@
 | hom-ples | /hom.ples/ | noun | homeland | home + place |  | Mi hom-ples es far from hia. |
 | hom-po | /hom.po/ | noun | household member | home + -po |  | Ol la home-po eata tugeter. |
 | hom-werk | /hom.werk/ | noun | homework | hom (home) + werk |  | home + work |
-| honi | /ho.ni/ |  | honey |  | honi-flai | La bi mak honi. |
+| honi | /ho.ni/ |  | honey |  | honi-flai | La honi-flai maka honi. |
 | honi-flai | /ho.ni.flai/ | noun | bee | honi (honey) + flai (flai (insect)) |  | honey + fly |
 | hop-daun | /hop.daun/ | noun | disappointment | hop + daun (down) |  | hope + down |
 | hop-ful | /hop.ful/ | adj | hopeful | hop + ful (full) |  | hope + full |
@@ -1200,8 +1199,8 @@
 | kalori | /ka.lo.ri/ | noun | calorie |  |  | loan |
 | kamal | /ka.mal/ |  | camel |  |  | La kamal liv in dese |
 | kamera | /kamera/ |  | camera |  |  | Mi tak foto wit kamera. |
-| kan | /kan/ |  | can | kan + bare root | kan-ed | Mi kan si. → I can see. |
-| kan-ed | /kan.ed/ |  | could | kan-ed + bare root |  | Mi kan-ed kom. → I could come. |
+| kan | /kan/ |  | can | kan + bare root | kan-edo | Mi kan si. → I can see. |
+| kan-edo | /ka.ˈne.do/ |  | could | kan-edo + citation form |  | Mi kan-edo kom. → I could come. |
 | kanal | /kanal/ |  | channel |  |  | La kanal brodkast la program. |
 | kandel | /kan.del/ | noun | candle | loan |  | La kandel born softa. |
 | kangaru | /kan.ga.ru/ |  | kangaroo |  |  | La kangaru jump |
@@ -1823,7 +1822,7 @@
 | no-loka | /no.lo.ka/ | verb | to unlock | no (no) + loka (lock) |  | not + lock |
 | no-lowda | /no.low.da/ | verb | to unload | no (no) + lowda |  | not + load |
 | no-marri | /no.ma.ri/ | adj | single / unmarried | not + married |  | Li es yeta no-marri. |
-| no-nais | /no.nais/ | adj | rude | not + nice |  | No bi no-nais tu othr-en. |
+| no-nais | /no.nais/ | adj | rude | not + nice |  | No es no-nais tu othr-en. |
 | no-nof-po | /no.nof.po/ | noun | stranger | not + know + person |  | Un no-nof-po nok on la dor. |
 | no-paran-child | /no.pa.ran.child/ | noun | orphan | no + parent + child |  | La war maka meni no-paran-child. |
 | no-pashenta | /no.pa.shen.ta/ | adj | impatient | no (no) + pashenta (patient) |  | not + patient |
@@ -2041,7 +2040,7 @@
 | pokera | /po.ke.ra/ | noun | poker |  |  | loan |
 | poketa | /po.ke.ta/ | noun | pocket | loan | poketa-lait | Mi kip la key in mi poketa. |
 | poketa-lait | /po.ke.ta.lait/ | noun | flashlight | poketa (pocket) + lait |  | pocket + light |
-| polaita | /po.lai.ta/ | adj | polite | loan |  | Bi polaita tu la old-en. |
+| polaita | /po.lai.ta/ | adj | polite | loan |  | Es polaita tu la old-en. |
 | polis-kar | /polis.kar/ |  | police car | polis + kar (car) |  |  |
 | polisha | /po.li.sha/ | verb | to polish |  |  | loan |
 | politika | /po.li.ti.ka/ | noun | politics |  |  | loan |

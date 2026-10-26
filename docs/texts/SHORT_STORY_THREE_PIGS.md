@@ -1,35 +1,35 @@
 # Tri Smol Pigi
 
 **VELA:**
-Wan taim, tri smol pig-en liv-ed wit de-se moter in biga fores. Wan dei moter tok-ed, "Yu ar olda enufa. Go maki yu on haus."
+Wan taim, tri smol pig-en liv-edo wit de-se moter in biga fores. Wan dei moter tok-edo, "Yu ar olda enufa. Go maki yu on haus."
 
-Piga 1 tok-ed,"Mi wil maki wan kwikli haus." Li maki-ed gras-haus. "Dis kwikli and eas," li tok-ed.
+Piga 1 tok-edo,"Mi wil maki wan kwikli haus." Li maki-edo gras-haus. "Dis kwikli and eas," li tok-edo.
 
-Piga 2 tok-ed,"Mi haus wil be strong." Li maki-ed wud-haus. "Dis strong," li tok-ed.
+Piga 2 tok-edo,"Mi haus wil be strong." Li maki-edo wud-haus. "Dis strong," li tok-edo.
 
-Piga 3 tok-ed,"Mi wil maki la strong-moa haus." Li maki-ed ston-haus. Li teka long taim, bot li smile-ed. "Now wulfi no kan kom insaida," li tok-ed.
+Piga 3 tok-edo,"Mi wil maki la strong-moa haus." Li maki-edo ston-haus. Li teka long taim, bot li smile-edo. "Now wulfi no kan kom insaida," li tok-edo.
 
-Biga wulfi kom-ed on wan dei. Li si-ed gras-haus and tok-ed louda,"Smol piga, smol piga, let mi in!"
+Biga wulfi kom-edo on wan dei. Li si-edo gras-haus and tok-edo louda,"Smol piga, smol piga, let mi in!"
 
-"No, no, no bai la hair on mi hed," Piga 1 tok-ed.
+"No, no, no bai la hair on mi hed," Piga 1 tok-edo.
 
-"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. And li blo-ed, and li blo-ed, and gras-haus flai-ed awe. Piga 1 ran to wud-haus.
+"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-edo. And li blo-edo, and li blo-edo, and gras-haus flai-edo awe. Piga 1 ran to wud-haus.
 
-Wulfi kom-ed to wud-haus."Smol piga, smol piga, let mi in!"
+Wulfi kom-edo to wud-haus."Smol piga, smol piga, let mi in!"
 
-"No, no, no bai la hair on mi hed," Piga 2 tok-ed.
+"No, no, no bai la hair on mi hed," Piga 2 tok-edo.
 
-"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. And li blo-ed, and wud-haus brak-ed. Piga 1 and Piga 2 ran to ston-haus.
+"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-edo. And li blo-edo, and wud-haus brak-edo. Piga 1 and Piga 2 ran to ston-haus.
 
-"Smol piga, smol piga, let mi in!" wulfi sey-ed.
+"Smol piga, smol piga, let mi in!" wulfi sey-edo.
 
-"No, no, no bai la hair on mi hed," Piga 3 tok-ed.
+"No, no, no bai la hair on mi hed," Piga 3 tok-edo.
 
-"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-ed. Li blo-ed and blo-ed, bot ston-haus no brak-ed. Wulfi taird-ed and sit-ed.
+"Den mi wil blo and mi wil blo, and yu haus wil braka!" wulfi tok-edo. Li blo-edo and blo-edo, bot ston-haus no brak-edo. Wulfi taird-edo and sit-edo.
 
-Den li hav-ed wan ide. Li klaim-ed on la ston-haus rofa and go-ed daun la chimni. Bot Piga 3 put-ed hota watre under la chimni. Wulfi faul-ed daun in la hota watre.
+Den li hav-edo wan ide. Li klaim-edo on la ston-haus rofa and go-edo daun la chimni. Bot Piga 3 put-edo hota watre under la chimni. Wulfi faul-edo daun in la hota watre.
 
-"Owowow!" Wulfi jump-ed auta and ran awe in tu la fores. Tri smol pig-en dans-ed in la rum and luk-ed la sun. "Wi ar safi," de tok-ed. And de liv-ed hapi evri dei.
+"Owowow!" Wulfi jump-edo auta and ran awe in tu la fores. Tri smol pig-en dans-edo in la rum and luk-edo la sun. "Wi ar safi," de tok-edo. And de liv-edo hapi evri dei.
 
 ---
 
@@ -77,7 +77,7 @@ Then he had an idea. He climbed on the stone house roof and went down the chimne
 | **Result construction** | `"yu haus wil break"` | Causative result = intransitive verb (`break`) with context implying agency. |
 | **Emphatic repetition** | `"blo and blo"` | Repetition of bare verb root for emphasis — rhythmic license validated. |
 | **Reflexive / possessive** | `"de-se mat"` (their mother), `"mi hed"` (my head) | Genitive `-se` for possession tested in narrative context. |
-| **Conative / attempt** | `"Wulfi blo-ed and blo-ed, bot..."` | Repeated past action expressing prolonged effort. |
+| **Conative / attempt** | `"Wulfi blo-edo and blo-edo, bot..."` | Repeated past action expressing prolonged effort. |
 | **Sound / interjection** | `"Owowow!"` | Interjections pass through as-is when iconic/non-linguistic. |
 
 ---

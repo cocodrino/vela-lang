@@ -36,7 +36,7 @@ Or in standard VELA orthography with pitch accent marking:
 
 ### 3.1 Imperative Mood
 **Decision:** Imperative = bare verb root (no suffix).
-- "Go" = **Go** (not "Go-a" or "Go-ed")
+- "Go" = **Go** (not "Go-a" or "Go-edo")
 - This follows natural imperative patterns (English "Go!", Spanish "¡Ve!")
 - Confirmation: VELA core verbs already use bare root for commands: "Kom!" "Si!"
 

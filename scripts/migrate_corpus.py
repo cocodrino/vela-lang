@@ -195,7 +195,7 @@ REPLACEMENTS = {
     "sleep": "slipa",
     "grow": "grota",
     # Not "bring": its headword `bringa` keeps the -a after a legal coda, so
-    # bare_form() would write `bringa-ed`. The corpus already has `bring-ed`.
+    # bare_form() would write `bringa-edo`. The corpus already has `bring-edo`.
 
     # --- R19: a free consonant-final content root takes the citation form ---
     # Each target was checked against the corpus sense, not just the shape:
@@ -446,17 +446,17 @@ def rewrite_token(token, allow_present=True, overrides=None, headwords=frozenset
         is_last = i == len(content) - 1
         bound = not is_last or suffix or len(content) > 1
         if bound and target.lower().startswith(key):
-            # Already the bare form of its citation (`liv-ed`, `bak-tok`,
+            # Already the bare form of its citation (`liv-edo`, `bak-tok`,
             # `bird-en`): correct inside a compound or before a suffix (R7/R19).
             # Re-deriving it from the citation would break roots whose citation
-            # vowel is not `-a` (`livi`, `baki`) — `livi-ed`, `baki-tok`.
+            # vowel is not `-a` (`livi`, `baki`) — `livi-edo`, `baki-tok`.
             out.append(part)
             continue
         if not is_last:
             # Non-final element of a compound: bare form (R17, hyphen→bare).
             target = bare_form(target)
         elif suffix:
-            # Inflection attaches to the bare root (R8: `mak-ed`, not `maka-ed`).
+            # Inflection attaches to the bare root (R8: `mak-edo`, not `maka-edo`).
             target = bare_form(target)
         elif len(content) > 1:
             # Final element of a compound: bare, unless that leaves an illegal coda.
