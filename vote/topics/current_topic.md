@@ -1,118 +1,77 @@
-# VELA Committee Deliberation — R20: THREE MISSING WORDS + LEGACY HARD-CODA HEADWORDS
+# VELA Committee Deliberation — R21: THE PAST SUFFIX `-ed` AND THE VERB "TO BE"
 
-**Date:** 2026-10-22
+**Date:** 2026-10-26
 **Status:** OPEN — pending specialist review
-**Proposed by:** Claude (corpus migration team)
+**Proposed by:** Claude, after public feedback on Reddit (r/conlangs)
 **Process:** `vote/docs/PROCESS.md` · voting rules §"Voting Rules"
-**Prior rounds:** R18 (13 corpus words), R19 (free consonant-final roots take the citation form, 5-0)
 
 ---
 
 ## 1. Why this topic exists
 
-Applying R19 left three things a migration script cannot decide:
+A Reddit reviewer found two real inconsistencies in VELA's canon. Both were verified in the repo before opening this round.
 
-- **Part A** — three concepts the corpus uses with **no usable VELA form**: "light" (illumination), "cards", "own" (adjective).
-- **Part B** — **legacy headwords** that end in a hard coda (`nof`, `art`, `grup`…). R19 says a free consonant-final content root takes the citation form, so these headwords look like errata — but renaming a headword is a canon decision, and several renames collide with existing words.
-- **Part C** — two lines of grammar text that contradict R19 (modal rows).
+1. **`-ed` breaks the coda rule.** `PHONOLOGY_FINAL.md` §3.2 says a word may end only in a vowel or in one of {n, m, l, r, s}. Every past tense ends in `-ed` (`mak-ed`, `hav-ed`), so every past-tense word ends in /d/. The validator never caught it: `scripts/validate_phonology.py` strips `-ed` as a suffix (line ~92) **before** checking the final coda. The rule and the grammar contradict each other, and the tool hid it.
+2. **"No irregular verbs" vs. "one irregular verb".** The landing page says both. In the canon:
+   - `LEXICON_BASE.md:218` — `bi` "to be": present **`es`**, past `bi-ed`, future `bi-wil`.
+   - `LEXICON_BASE.md:219` — `es` "to be (stative)": present `es`, past `es-ed`, future `es-wil` — a fully **regular** verb already.
+   - `GRAMMAR_COMPLETE.md` §6.3 (line ~482) calls `bi` "regular", then says its present is `es`, its past `es-ed`, and its future **`wil es`** — a periphrastic future that contradicts the `-wil` suffix everywhere else.
+   - `GRAMMAR_COMPLETE.md:1072` (FAQ) says there are no irregular forms at all and lists `bi-a, bi-ed, bi-wil` — pre-R8 forms.
+   The reviewer also argued that an auxiliary language does not need even one irregular verb.
 
-## 2. Constraints
+## 2. Usage data (corpus `docs/texts/` + the 5 courses, verified 2026-10-26)
+
+| Form | Tokens |
+|---|---|
+| any `X-ed` (past) | **327** (texts 240, courses 87) — plus ~120 lexicon lines |
+| `es` (present "to be") | 227 |
+| `es-ed` | 29 |
+| `es-wil` | 2 |
+| `bi` (free) | 12 (mostly in grammar text) |
+| `bi-ed` / `bi-wil` | 2 / 2 |
+
+So in practice the language already uses **`es` / `es-ed` / `es-wil`**; `bi` barely appears.
+
+## 3. Constraints
 
 | Rule | Constraint |
 |---|---|
-| R2 / PHONOLOGY_FINAL §3.2 | Word-final codas only {n,m,l,r,s}, one consonant. Diphthong endings count as vowel-final. |
-| R3 | A transparent compound of ≤3 roots beats a loan. |
-| R7 / R19 | Content roots: citation form (`root+a`) free, bare form in compounds/before suffixes. Function words (at, of, and, if, wit, but, self…) keep one form. |
-| R1 | Core stays near ~200 atoms; prefer compounds. |
-| Semantics | No new homonym: a coined form must not equal an existing headword. |
+| PHONOLOGY_FINAL §3.2 | Word-final codas only {n, m, l, r, s} (one consonant). |
+| R7 | Function words (at, of, and, if, wit, but, self…) are exempt, single form. Suffixes are not function words. |
+| R8 / R19 | Present = citation form; past and future attach to the bare root (`mak-ed`, `mak-wil`). |
+| Existing suffixes | `-wil` future, `-n`/`-en` plural, `-se` genitive, `-to` locative, `-po` profession. A new suffix must not collide with these or with a pronoun in a way that harms parsing (`de` = they, `di`? check). |
+| Principles | Simplicity → Transparency → Beauty → Universality. |
 
----
+## 4. Questions and options
 
-## PART A — three missing words
+### Q1 — the past suffix
 
-### A1. "light" (illumination)
+| | Option | Cost |
+|---|---|---|
+| **A** | Keep `-ed`; amend §3.2 to say inflectional suffixes may end in /d/ (a documented exception, like R7's function words). | No migration. The coda rule gets a second exception class. |
+| **B** | Replace `-ed` with a vowel-final past suffix (e.g. `-eda`, `-edi`, `-de`, `-di`, …). Propose the exact form; check collisions with the suffixes and pronouns above and with headwords. | Mechanical migration of ~450 tokens (scriptable with `scripts/migrate_corpus.py`). Rule stays exceptionless. |
+| **C** | Add /d/ to the tolerated word-final codas for every word. | Broad phonology change; loosens a core rule for one suffix. |
 
-**The problem.** `lait` is used everywhere as "light" (illumination), but **only as a bound root** — the one free headword is **`laita` = light in WEIGHT** (`LEXICON_BASE.md:406`, example "la laimt box | the light box").
+### Q2 — "to be"
 
-- Bound `lait` in lexicon compounds: `lo-lait` (`LEXICON_EXPANSION.md:637`), `soft-lait` (`:652`), `warm-lait` (`:658`), `kol-lait` (`:659`), `lait-red` "pink" (`:451`), `lait-spida` (`LEXICON_EXTENDED.md:178`).
-- Free `lait` in the corpus (8 uses): `POEM_01_SUN_AND_MOON.md:17,27,57,67` ("Yu es mi lait"), `SHORT_STORY_BIRD.md:45,55`, `STORIES_SET_01.md:20` ("windo lait"), `PHRASES_100.md:104`.
-- **Two wrong migrations already in the corpus:** an August mapping `light → laita` turned illumination into weight: `STORIES_SET_01.md:20` ("Yu hous laita save-ed wi herta") and `POEMS_COLLECTION.md:42` ("at morne laita").
-- Nearby existing words: `brite` (bright), `lampi` (lamp), `shain`/`shin` (shine), `fai-flasha` (lightning).
+| | Option | Cost |
+|---|---|---|
+| **A** | Keep `bi` with irregular present `es`; just fix the docs (`wil es` → `es-wil`/`bi-wil`, FAQ). | One irregular verb remains; landing must say "one irregular verb". |
+| **B** | Retire `bi`. `es` becomes the one verb "to be", fully regular: `es` / `es-ed` / `es-wil` (or the Q1 past form). | Zero irregular verbs. ~16 `bi` tokens rewritten; matches what the corpus already does. Check: `es` as citation form is legal (ends in /s/). |
+| **C** | Make `bi` regular (present `bi`) and replace the 227 `es`. | Large migration against current usage. |
 
-**Options to weigh:** (a) `laita` becomes "light (illumination)" — the far more frequent sense — and "light (weight)" gets a new form or a compound (e.g. `no-hevi`); (b) keep `laita` = weight and coin a separate free form for illumination (e.g. a pan-Romance `luma`/`lumi`), leaving the `lait-` compounds as they are or migrating them; (c) another proposal.
-
-### A2. "cards" (payment / playing cards)
-
-**Corpus:** `PHRASES_100.md:38` — `Yu asepta kart?` ("Do you accept cards?").
-**Problem:** `kart` + `-a` = `karta`, which already means **"constitution"** (`LEXICON_BASE.md:1101`). No "card" headword exists. Related: `pei-tek-po` (cashier, `LEXICON_EXPANSION.md:1380`).
-Note: R19's semanticist proposed `plei-karta`, which still reuses `karta` (constitution) as its head.
-
-### A3. "own" (adjective — "their own houses")
-
-**Corpus:** `CLASSIC_STORY_THREE_PIGS.md:19` — `Tri smol piga-en go-ed from hom tu maki de-se own hous-en.`
-**Problem:** `own` + `-a` = `owna`, which already means **"to own"** (verb, `LEXICON_EXPANSION.md:251`). The function word `self` exists (R7 single-form list), and so does the possessive `-se` (`de-se` = their).
-**Options:** paraphrase (`de-se hous-en`, the possessive already says it), `self`-based (`de-self hous-en`?), or coin.
-
----
-
-## PART B — legacy headwords ending in a hard coda
-
-R19's rule, applied to the headwords themselves. Found by scanning every single-word headword whose ending `element_defect` flags (28 hits), then removing false positives (words ending in vowel-`y` such as `baby`, `navy`, `army`, `sallery`, `amnbasy`, `shy`) and R7's function words (`aft`, `and`, `at`, `bot`, `but`, `dat`, `if`, `of`, `self`, `wat`, `wit`).
-
-| Headword | Meaning | Where | `+a` form | Collision? |
-|---|---|---|---|---|
-| `nof` | to know | `LEXICON_BASE.md:220` | `nofa` | none found |
-| `let` | late | `LEXICON_BASE.md:171` | `leta` | none found |
-| `ap` | up | `LEXICON_BASE.md:1444` (tagged "noun") | `apa` | none found — **or is `ap` a function word?** |
-| `wot` | which | `LEXICON_BASE.md:147` | — | question word: function class? |
-| `art` | art | `LEXICON_EXTENDED.md:491` (errata root, R2 Amendment) | `arta` | none; `arta-hous` already in use |
-| `grup` | group | `LEXICON_EXTENDED.md:496` (errata root) | `grupa` | none; `star-grupa`, `muzika-grupa` in use |
-| `tip` | type | `LEXICON_EXTENDED.md:494` (errata root) | `tipa` | none; `lifa-tipa` in use |
-| `stap` | step | `LEXICON_EXTENDED.md:495` (errata root) | `stapa` | none found |
-| `sav` | save | `LEXICON_EXTENDED.md:493` (errata root) | `sava` | **`sava` = to save already exists** (`LEXICON_EXPANSION.md:203`) — a duplicate, merge |
-| `net` | network | `LEXICON_EXTENDED.md:492` (errata root) | `neta` | **`neta` = net (fishing)** (`LEXICON_EXPANSION.md:709`) — same concept or homonym? |
-| `bit` | bit (computing) | `LEXICON_EXTENDED.md:497` (errata root) | `bita` | **`bita` = bitter** (`LEXICON_EXPANSION.md:625`) — real homonym |
-
-Note: the R2 Amendment (`fase5_consensus.md` §Amendment 2026-07-24) listed `art, net, sav, tip, stap, grup, bit, kod, wei, taim` as legal **roots** so compounds could use them — written two days **before** R7 introduced citation forms. `kod`, `wei`, `taim` are not in this table: `kod` already has `koda`; `wei` and `taim` end in a diphthong or `-m` and are legal.
-
----
-
-## PART C — grammar text that contradicts R19
-
-`LEXICON_BASE.md:376-380` (modal rows):
-- `kan` — "kan + bare root" · `mas` — "mas + bare root" · `shoda` — "shod + bare root", example `Yu shod kom.`
-
-After a modal the verb stands free (space), so under R19 it takes the citation form — the courses already write `Mi no kan draiva`. And `shod` in `Yu shod kom` is the bare form of the headword `shoda`, used free. Confirm: the wording becomes "+ citation form", the example `Yu shoda kom`.
-
----
-
-## 3. Focus questions
-
-1. **A1:** which sense does `laita` keep? Give the free form for the other sense, and say what happens to the bound `lait-` compounds.
-2. **A2:** form for "card(s)", collision-free.
-3. **A3:** paraphrase or coinage for "own" (adjective)?
-4. **B:** for each headword in the table — rename to `+a`, merge with an existing entry, or classify as a function word (exempt)? Resolve `bit`/`bita` and `net`/`neta`.
-5. **C:** confirm the modal-row correction.
-
-## 4. Required response format
+## 5. Required response format
 
 ```
-ITEM: <A1 | A2 | A3 | B:<headword> | C>
-FORM: <vela> /IPA/  (or "rename", "merge with X", "function word", "paraphrase: …")
-WHY: <the rule — cite file and section>
-RISK: <collision or objection, or "none">
+QUESTION: Q1 | Q2
+POSITION: A | B | C   (for Q1-B give the exact suffix and its IPA)
+WHY: <rule or evidence — cite file and line>
+RISK: <collision, migration risk, or "none">
 VOTE: approve | approve-with-amendment | reject
 ```
 
-## 5. Voting rules (`PROCESS.md`)
-
-One vote per specialist per item; majority wins; tie → aestheticist; abstentions recorded, not counted; minimum 3 voices.
+End with `FINAL VOTE: Q1=<A|B|C> (<suffix if B>), Q2=<A|B|C>`.
 
 ## 6. Source files
 
-| File | Why |
-|---|---|
-| `vote/topics/consensus/fase5_consensus.md` | R2 + Amendment, R3, R7, R19 |
-| `docs/phonology/PHONOLOGY_FINAL.md` §3.2, §4 | legal codas |
-| `docs/lexicon/LEXICON_BASE.md`, `LEXICON_EXTENDED.md`, `LEXICON_EXPANSION.md` | headwords and collisions cited above |
-| `docs/texts/*.md` | the corpus lines cited above |
+`docs/phonology/PHONOLOGY_FINAL.md` §3.2 · `vote/topics/consensus/fase5_consensus.md` (R7, R8, R19, R20) · `docs/grammar/GRAMMAR_COMPLETE.md` §6.1–6.3, FAQ · `docs/lexicon/LEXICON_BASE.md:218-219` · `scripts/validate_phonology.py` (SUFFIXES).

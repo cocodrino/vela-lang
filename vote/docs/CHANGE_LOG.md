@@ -568,3 +568,16 @@ Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocab
 - vote/topics/proposals/r20_{phonologist,morphologist,lexicographer,semanticist,aestheticist}.md
 - vote/topics/discussion_plan.md
 - vote/topics/consensus/fase5_consensus.md — §R20 appended
+
+---
+
+## 2026-10-26 — R21: past suffix -edo, "to be" regular (Committee Consensus)
+
+**Method:** Agent tool — 5 Claude subagents, read-only, two rounds
+**Trigger:** public feedback on Reddit, verified in the repo
+**Status:** ✅ RATIFIED AND APPLIED
+
+- Past: root + `-edo` (was `-ed`, which ended every past tense in /d/ against the coda rule). Round 1: 4-1 for a vowel-final suffix; round 2 (fair re-evaluation of -eda/-edi/-edo): `-edo` 4-1.
+- "To be": `bi` retired 5-0; `es` / `es-edo` / `es-wil`. Zero irregular verbs.
+- Validator now fails if any grammatical suffix would end a word in an illegal coda.
+- Files: vote/topics/dossier_r21_past_suffix_and_be.md, vote/topics/proposals/r21_*.md, consensus §R21.
