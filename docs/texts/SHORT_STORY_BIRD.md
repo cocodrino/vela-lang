@@ -42,7 +42,7 @@ The owl said, “Little bird, why do you cry inside?” The bird said, “I did 
 ### Paragraph 4 — The Practice
 
 **VELA:**
-From den, evri morne bifor krauda bird-en awaik-edo, smol birda weik-edo wit sun firsta lait. Li go-edo tu river side, stand-edo on ston, and brit-edo dipa. Li tink-edo abau winda, abau moter-se warma wing, abau moon on watre, abau pain and hopa tugeter. Den li sing-edo wan nota. Folo-wan morne, tu not-en. Folo-wan seven-dei, long sonja line. Sam day vois brok-edo agen, and li krei-edo. Bot li kontinyu-edo bikos aul tok-edo, "Pasi bringa flauor from hardi erda."
+From den, evri morne bifor krauda bird-en awaik-edo, smol birda weik-edo wit sun firsta laita. Li go-edo tu river side, stand-edo on ston, and brit-edo dipa. Li tink-edo abau winda, abau moter-se warma wing, abau moon on watre, abau pain and hopa tugeter. Den li sing-edo wan nota. Folo-wan morne, tu not-en. Folo-wan seven-dei, long sonja line. Sam day vois brok-edo agen, and li krei-edo. Bot li kontinyu-edo bikos aul tok-edo, "Pasi bringa flauor from hardi erda."
 
 **English:**
 From then on, every morning before the crowd of birds awoke, the little bird woke with the first sunlight. It went to the riverside, stood on a stone, and breathed deeply. It thought about the wind, about its mother’s warm wing, about moonlight on water, about pain and hope together. Then it sang one note. The next morning, two notes. The next week, a longer line of song. Some days the voice broke again, and it cried. But it continued because the owl had said, “Patience brings a flower from hard earth.”
@@ -52,7 +52,7 @@ From then on, every morning before the crowd of birds awoke, the little bird wok
 ### Paragraph 5 — The Singing
 
 **VELA:**
-Wan kol morne storma pas-edo and skai turn-edo klin blu. Smol birda stand-edo on hai brancha. Li no plan-edo show. Li onli fel-edo herta ful and open, so li sing-edo. Sonja kom-edo klia and warma, liki sun aft long noita. Not-en flai-edo ova fores, pas-edo river, and tuch-edo folia-n, ston-en, and watre. Bird-en stop-edo flai, stop-edo toka, and her-edo. Even winda wait-edo. Even olda tre seem-edo smile-edo in lait.
+Wan kol morne storma pas-edo and skai turn-edo klin blu. Smol birda stand-edo on hai brancha. Li no plan-edo show. Li onli fel-edo herta ful and open, so li sing-edo. Sonja kom-edo klia and warma, liki sun aft long noita. Not-en flai-edo ova fores, pas-edo river, and tuch-edo folia-n, ston-en, and watre. Bird-en stop-edo flai, stop-edo toka, and her-edo. Even winda wait-edo. Even olda tre seem-edo smile-edo in laita.
 
 **English:**
 One cold morning, after a storm passed and the sky turned clear blue, the little bird stood on a high branch. It had not planned to perform. It simply felt its heart full and open, so it sang. The song came out clear and warm, like sunlight after a long night. The notes flew over the forest, passed the river, and touched leaves, stones, and water. Birds stopped flying, stopped talking, and listened. Even the wind waited. Even the old tree seemed to smile in the light.

@@ -101,6 +101,11 @@ SUFFIXES = {
     "a",     # citation vowel (R7) — appears when a bare root is cited
 }
 
+# R7: short, unstressed function words keep a single form and may end in a
+# consonant. Closed list; any other word must obey the coda rule.
+FUNCTION_WORDS = {"at", "of", "and", "if", "wit", "bot", "but", "self",
+                  "dat", "wat", "wot", "aft"}
+
 # Proper nouns and meta-terms that appear inside VELA text but are not lexicon
 # headwords. Days and months ARE in the lexicon and deliberately absent here.
 PROPER_NOUNS = {"vela", "lord", "jerman", "inglish", "lumina"}
@@ -116,6 +121,12 @@ ROW = re.compile(r"^\|\s*\*\*(?P<word>[^*]+?)\*\*\s*\|\s*(?P<afi>[^|]*?)\s*\|")
 
 def trailing_consonants(element):
     """Return the consonant string after the last vowel of a compound element."""
+    # Inline fold(): this runs at import time (_check_suffixes), before fold exists.
+    element = "".join(c for c in unicodedata.normalize("NFD", element)
+                      if unicodedata.category(c) != "Mn").lower()
+    # Word-final `y` after a consonant is the vowel /i/ (`baby`, `shy`), not a coda.
+    if len(element) > 1 and element.endswith("y") and element[-2] not in VOWELS:
+        return ""
     idx = max((i for i, ch in enumerate(element) if ch in VOWELS), default=-1)
     return element[idx + 1:] if idx >= 0 else element
 
@@ -221,13 +232,19 @@ def check_headword(word, afi, strict, grandfathered):
     for i, element in enumerate(elements):
         if not element or element.isupper():  # skip acronyms: DNA, IP, AI
             continue
-        if element.lower() in grandfathered:  # native/legacy root — R2 grandfathers it
+        is_final = i == len(elements) - 1
+        # R2 grandfathers native roots INSIDE compounds only. At the end of the
+        # word the coda rule applies to every headword except R7's closed list
+        # of function words. (The set passed in used to be every headword, so
+        # each headword grandfathered itself and nothing was ever checked.)
+        if is_final and element.lower() in FUNCTION_WORDS:
+            continue
+        if not is_final and element.lower() in grandfathered:
             continue
         defect = element_defect(element)
         if not defect:
             continue
         _, detail = defect
-        is_final = i == len(elements) - 1
         if is_final:
             # The word's actual final coda — the rule bites here.
             severity = "ERROR" if strict else "WARNING"

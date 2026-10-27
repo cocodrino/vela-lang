@@ -107,9 +107,9 @@ Built regularly: **{som / ol / no / eni}** + **{person / tin / ples}**. `tin` = 
 |------|-----|---------|---------|---------|
 | **som-person** | /som.per.son/ | someone | Som-person kom. | Someone comes. |
 | **ol-person** | /ol.per.son/ | everyone | Ol-person es hier. | Everyone is here. |
-| **no-person** | /no.per.son/ | no one / nobody | No-person nof. | Nobody knows. |
+| **no-person** | /no.per.son/ | no one / nobody | No-person nofa. | Nobody knows. |
 | **som-tin** | /som.tin/ | something | Mi si som-tin. | I see something. |
-| **ol-tin** | /ol.tin/ | everything | Li nof ol-tin. | She knows everything. |
+| **ol-tin** | /ol.tin/ | everything | Li nofa ol-tin. | She knows everything. |
 | **no-tin** | /no.tin/ | nothing | Mi hava no-tin. | I have nothing. |
 | **som-ples** | /som.ples/ | somewhere | Li es som-ples. | She is somewhere. |
 | **ol-ples** | /ol.ples/ | everywhere | Pipol toka li ol-ples. | People speak it everywhere. |
@@ -168,7 +168,7 @@ Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a can
 | **somtaim** | /somtaim/ | sometimes | Wi kom somtaim. | We come sometimes. |
 | **rarli** | /rar.li/ | rarely | Li werka rarli. | She rarely works. |
 | **sun** | /sun/ | soon | Wi kom sun. | We come soon. |
-| **let** | /let/ | late | Mi kom let. | I come late. |
+| **leta** | /le.ta/ | late | Mi kom leta. | I come late. |
 | **erli** | /er.li/ | early | Mi werka erli. | I work early. |
 | **mor** | /mor/ | more (comparative) | La kar es mor fasta. | The car is faster. |
 | **mos** | /mos/ | most (superlative) | Dis kar es mos fasta. | This car is the fastest. |
@@ -216,7 +216,7 @@ Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a can
 | Word | AFI | English | Present | Past | Future | Example |
 |------|-----|---------|---------|------|--------|---------|
 | **es** | /es/ | to be | es | es-edo | es-wil | Mi es hapi. → I am happy. |
-| **nof** | /nof/ | to know | nof | nof-edo | nof-wil | Mi nof wat yu wan. → I know what you want. |
+| **nofa** | /no.fa/ | to know | nofa | nof-edo | nof-wil | Mi nofa wat yu wan. → I know what you want. |
 | **nof-hu** | /nof.hu/ | to know someone | nof-hu-a | nof-hu-edo | nof-hu-wil | Mi nof-hu yu. → I know you. |
 
 ### Perception and Communication
@@ -372,11 +372,11 @@ Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a can
 
 | Word | AFI | English | Structure | Example |
 |------|-----|---------|-----------|---------|
-| **kan** | /kan/ | can | kan + bare root | Mi kan si. → I can see. |
+| **kan** | /kan/ | can | kan + citation form | Mi kan si. → I can see. |
 | **kan-edo** | /ka.ˈne.do/ | could | kan-edo + citation form | Mi kan-edo kom. → I could come. |
-| **mas** | /mas/ | must | mas + bare root | Wi mas werka. → We must work. |
+| **mas** | /mas/ | must | mas + citation form | Wi mas werka. → We must work. |
 | **mas no** | /mas no/ | must not | mas no + bare root | De mas no kom. → They must not come. |
-| **shoda** | /sho.da/ | should | shod + bare root | Yu shod kom. → You should come. |
+| **shoda** | /sho.da/ | should | shoda + citation form | Yu shoda kom. → You should come. |
 | **ma** | /ma/ | may | ma + bare root | Mi ma kom. → I may come. |
 | **wil** | /wil/ | will | wil + bare root | Mi wil kom. → I will come. |
 
@@ -402,7 +402,8 @@ Ratified by committee (fase5_consensus R18, 2026-10-22) to give the corpus a can
 | **tika** | /ti.ka/ | thick | un tik buka | a thick book |
 | **tin** | /tin/ | thin | un tin paper | a thin paper |
 | **hevi** | /hevi/ | heavy | la hevi box | the heavy box |
-| **laita** | /lai.ta/ | light (weight) | la laimt box | the light box |
+| **laita** | /lai.ta/ | light (illumination) | la laita of la son | the light of the sun |
+| **no-hevi** | /no.he.vi/ | light (weight) | la no-hevi box | the light box |
 | **fasta** | /fas.ta/ | fast | la fasta kar | the fast car |
 | **slo** | /slo/ | slow | la slo-man | the slow man |
 
@@ -921,6 +922,7 @@ Social and legal entities (not professions):
 | **interneta** | /in.ter.ne.ta/ | internet | | Wi komunikat via internet. |
 | **meil** | /meil/ | mail | | Mi resiv meil. |
 | **leter** | /leter/ | letter | | Mi rita un leter. |
+| **karda** | /kar.da/ | card | | Yu asepta karda? |
 | **paketa** | /pa.ke.ta/ | package | | Mi resiv un paket. |
 | **far-tok-box** | /far.tok.boks/ | telephone | | Mi kal on la far-tok-box. |
 | **kom-tok** | /kom.tok/ | conversation | | La kom-tok es interesting. |
@@ -1440,7 +1442,7 @@ If li wok-edo, den li hav-edo moni. → If she had worked, then she would have h
 | Word | AFI | Type | English | VELA Example | English |
 |------|-----|------|---------|-------------|---------|
 | **antisipashon** | /an.ti.si.pa.shon/ | noun | anticipation | — | — |
-| **ap** | /ap/ | noun | up | — | — |
+| **apa** | /a.pa/ | noun | up | — | — |
 | **daun** | /daun/ | noun | down | — | — |
 | **abava** | /a.ba.va/ | noun | above | — | — |
 | **bitwin** | /bi.twin/ | noun | between | — | — |

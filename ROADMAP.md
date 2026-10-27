@@ -4,7 +4,7 @@
 > Principios: **Simplicidad → Transparencia → Belleza → Universalidad**
 > Canon vigente: `docs/grammar/GRAMMAR_COMPLETE.md` + `vote/topics/consensus/fase5_consensus.md` (reglas R1–R21)
 
-**Última actualización: 2026-10-26** — R19 y R21 aplicadas (R21 nace de una crítica pública en Reddit); R20 ratificada, pendiente de aplicar; validador en 0 errores.
+**PROYECTO ARCHIVADO — 2026-10-27.** R18–R21 aplicadas (R20 incluida). Tras una revisión adversarial se corrigió el validador, que daba "0 errores" porque cada entrada del diccionario se consideraba legal por definición; ahora reporta 198 errores reales (196 compuestos que terminan en consonante prohibida, más `net` y `bit` sin forma). El README describe con honestidad qué es y qué no es VELA. Las deudas de abajo quedan abiertas.
 
 ---
 
@@ -114,7 +114,7 @@ Fuente única: `vote/topics/consensus/fase5_consensus.md`. Una regla ratificada 
 | R17 | **Adjetivos invariables** — una sola regla visual: guion=pelado, espacio=cita | 2026-07-29 | unánime |
 | R18 | Las 13 palabras sin acuñar del corpus (`yeta`, `abau`, `auta`, `stika` + 9 existentes/compuestos) · `aut-` única ortografía de /au/ | 2026-10-22 | 5 especialistas; 2 desempates del esteticista, 2 decisiones del usuario |
 | R19 | Palabras libres de contenido terminadas en consonante dura o grupo: siempre forma de cita (`livi`, `lerna`, `birda`) | 2026-10-22 | 5-0 |
-| R20 | "luz" = `laita`, "carta" = `karda`, headwords heredados renombrados (`nofa`, `arta`…); `net`/`bit` abiertos · **pendiente de aplicar** | 2026-10-22 | 5 especialistas |
+| R20 | "luz" = `laita`, "carta" = `karda`, headwords heredados renombrados (`nofa`, `arta`…); `net`/`bit` abiertos · aplicada 2026-10-27 | 2026-10-22 | 5 especialistas |
 | R21 | **Pasado `-edo`** (antes `-ed`, que dejaba /d/ final) · **`bi` retirado**: "ser" = `es`, cero verbos irregulares | 2026-10-26 | Q1 4-1 + ronda 2 4-1; Q2 5-0 · nace de una crítica en Reddit |
 
 ---

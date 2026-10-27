@@ -204,8 +204,8 @@ REPLACEMENTS = {
     #   bak -> baki (back), NOT baka (to bake)
     #   hard -> harda (difficult); "hard erd" (material) was fixed by hand to hardi
     #   wok -> woka (to walk); "work" uses were fixed by hand to werka (R11)
-    # Left out on purpose: `lait` (light, illumination) — its only headword
-    # `laita` means light in weight; `kart`, `own` — blocked by R19 (no form).
+    # `lait`, `kart`, `nof`, `ap`, `stap` are mapped further down under R20.
+    # `own` stays a paraphrase (R20); `let` in the corpus is English "let".
     "wind": "winda",
     "end": "enda",
     "lond": "londa",
@@ -263,6 +263,13 @@ REPLACEMENTS = {
     "slip": "slipa",
     "shop": "shopa",
     "enuf": "enufa",
+
+    # --- R20 (2026-10-22): headwords renamed or coined ---
+    "lait": "laita",         # light (illumination); light in weight is `no-hevi`
+    "kart": "karda",         # card (`karta` is "constitution")
+    "nof": "nofa",           # to know
+    "ap": "apa",             # up
+    "stap": "stapa",         # step
 }
 
 # No canonical form exists, so fixing these means coining a word — a committee

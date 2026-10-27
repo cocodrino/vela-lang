@@ -12,9 +12,9 @@
 *(The Sun and the Moon)*
 
 ```
-La sun go ap in la blu skai,
+La sun go apa in la blu skai,
 La mòn slipa daun in la noita.
-Wi si la star-en, wi si la lait,
+Wi si la star-en, wi si la laita,
 La erda tuen sutili, sutili.
 
 La winda sing in la green tri,
@@ -24,7 +24,7 @@ La wailda livi in pasi.
 
 Mi fel la warma sun on mi skin,
 Mi hier la softa rán on la glasi.
-Yu es mi lait, yu es mi dai,
+Yu es mi laita, yu es mi dai,
 Wi go forti, tugeter.
 ```
 

@@ -581,3 +581,11 @@ Lexicon now: **1345 unique entries**, clean and pronounceable — base for vocab
 - "To be": `bi` retired 5-0; `es` / `es-edo` / `es-wil`. Zero irregular verbs.
 - Validator now fails if any grammatical suffix would end a word in an illegal coda.
 - Files: vote/topics/dossier_r21_past_suffix_and_be.md, vote/topics/proposals/r21_*.md, consensus §R21.
+
+---
+
+## 2026-10-27 — R20 applied; honest validator; project archived
+
+- R20 applied: headwords `nofa`, `leta`, `apa`, `arta`, `tipa`, `stapa`, `grupa`; `sav` merged into `sava`; `laita` = light (illumination), `no-hevi` = light (weight), `karda` = card; modals take the citation form. `net` and `bit` still have no form.
+- Validator fixed: it used to pass every headword as "grandfathered" against itself. It now reports 198 real errors (196 compounds ending in a forbidden consonant, plus `net` and `bit`).
+- README rewritten after an adversarial review: states what VELA is and is not. Project archived.
