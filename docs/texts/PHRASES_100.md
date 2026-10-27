@@ -35,7 +35,7 @@
 | 16 | What do you recommend? | Wat yu rekomenda? |
 | 17 | I'll have the fish. | Mi wuda la fisha. |
 | 18 | It's too expensive. | La prais es tu hai. |
-| 19 | Do you accept cards? | Yu asepta kart? |
+| 19 | Do you accept cards? | Yu asepta karda? |
 | 20 | I need a bag. | Mi needa a bagi. |
 
 ---
@@ -101,7 +101,7 @@
 | 54 | I have a child. | Mi hava a childa. |
 | 55 | This is my house. | Dis es mi-se hous. |
 | 56 | The room is clean. | La rum es klin. |
-| 57 | Turn on the light. | Turna on la lait. |
+| 57 | Turn on the light. | Turna on la laita. |
 | 58 | Close the door. | Klos la dor. |
 | 59 | Open the window. | Open la windo. |
 | 60 | It's cold outside. | La es kol autsida. |

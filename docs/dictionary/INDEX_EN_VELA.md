@@ -114,7 +114,7 @@
 | aroma | aroma | /a.ro.ma/ |
 | around | aronda | /a.ron.da/ |
 | arrogant | arogenta | /a.ro.gen.ta/ |
-| art | art | /art/ |
+| art | arta | /ar.ta/ |
 | artificial | artficial | /artficial/ |
 | artist | art-mak-po | /art.mak.po/ |
 | artist | biju-mak-po | /biju.mak.po/ |
@@ -316,6 +316,7 @@
 | capsule | kapsula | /kap.su.la/ |
 | car | kar | /kar/ |
 | carbon | karbona | /kar.bo.na/ |
+| card | karda | /kar.da/ |
 | care (casual) | kea | /ke.a/ |
 | careful | kea-ful | /ke.a.ful/ |
 | caregiver / guardian | kea-po | /ke.a.po/ |
@@ -915,7 +916,7 @@
 | green | gren | /gren/ |
 | grief | losa-pain | /lo.sa.pein/ |
 | grin | big-smail | /big.smail/ |
-| group | grup | /grup/ |
+| group | grupa | /gru.pa/ |
 | group of friends | fren-grup | /fren.grup/ |
 | growth | gro-nes | /gro.nes/ |
 | grumpy | grumpa | /grum.pa/ |
@@ -1131,7 +1132,7 @@
 | laptop | lapto | /lap.to/ |
 | last / final | lasta | /las.ta/ |
 | latch | lacha | /la.cha/ |
-| late | let | /let/ |
+| late | leta | /le.ta/ |
 | later | leita | /lei.ta/ |
 | law | lexa | /le.xa/ |
 | lawyer | law-speak-po | /lo.speak.po/ |
@@ -1155,7 +1156,8 @@
 | lid | poti-kover | /po.ti.ko.ver/ |
 | lie (statement) | fols-wod | /fols.wod/ |
 | life | lifa | /li.fa/ |
-| light (weight) | laita | /lai.ta/ |
+| light (illumination) | laita | /lai.ta/ |
+| light (weight) | no-hevi | /no.he.vi/ |
 | lightning | fai-flasha | /fai.fla.sha/ |
 | lightning | letning | /letning/ |
 | likely | laikli | /laik.li/ |
@@ -1744,7 +1746,6 @@
 | Saturday | Saterdei | /satrs.dei/ |
 | sauce | sosi | /so.si/ |
 | sausage | sosija | /so.si.ja/ |
-| save | sav | /sav/ |
 | savings | stor-moni | /stor.mo.ni/ |
 | saw | sawa | /sa.wa/ |
 | saxophone | sakosofona | /sa.ko.so.fo.na/ |
@@ -1943,7 +1944,7 @@
 | steel | hard-metal | /hard.me.tal/ |
 | steep | stipa | /sti.pa/ |
 | stem / stalk | plant-bodi | /plant.bo.di/ |
-| step | stap | /stap/ |
+| step | stapa | /sta.pa/ |
 | stew | stu | /stu/ |
 | stick | stika | /sti.ka/ |
 | sticky | stiki | /sti.ki/ |
@@ -2393,7 +2394,7 @@
 | to kneel | nila | /ni.la/ |
 | to knit | nita | /ni.ta/ |
 | to knock | noka | /no.ka/ |
-| to know | nof | /nof/ |
+| to know | nofa | /no.fa/ |
 | to know someone | nof-hu | /nof.hu/ |
 | to laugh | lafa | /la.fa/ |
 | to launder | wosh-klota | /wosh.klo.ta/ |
@@ -2755,7 +2756,7 @@
 | turtle | tartel | /tar.tl/ |
 | twice | tu-taim | /tu.taim/ |
 | twin | twin | /twin/ |
-| type | tip | /tip/ |
+| type | tipa | /ti.pa/ |
 | ugly | no-biju | /no.bi.ju/ |
 | umbrella | umbrela | /um.bre.la/ |
 | uncle | unkel | /unkel/ |
@@ -2767,7 +2768,7 @@
 | unit test | testa-koda | /tes.ta.ko.da/ |
 | universe | universa | /u.ni.ver.sa/ |
 | unless | if-no | /if.no/ |
-| up | ap | /ap/ |
+| up | apa | /a.pa/ |
 | update | apdata | /ap.da.ta/ |
 | upload | lowda-upa | /low.da.u.pa/ |
 | upward | ap-wei | /ap.wei/ |

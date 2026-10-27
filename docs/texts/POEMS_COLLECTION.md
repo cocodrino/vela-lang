@@ -43,7 +43,7 @@ Childa slipa in beda at morne laita,
 li handa holda smol wuda horsa.
 Li drim skai blu and star near,
 birda dansi aronda li hed.
-Li go ap mautin wit hapi lega,
+Li go apa mautin wit hapi lega,
 sun smile on li ai brite.
 Li toka wit moon abau fri lifa,
 and moon toka tru-nes in softa winda.
@@ -74,7 +74,7 @@ wave toka and toka wit no enda.
 Skai turna from orange tu gray,
 and winda tucha mi skin slow.
 No fren kom, no birda sing near,
-onli watre and mi stap on sanda.
+onli watre and mi stapa on sanda.
 Mi tinka abau lifa, abau deta,
 abau tru-nes, abau hopa, abau mi self.
 Mar stei biga, mi stei smol,

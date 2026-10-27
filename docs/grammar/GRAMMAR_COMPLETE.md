@@ -542,16 +542,16 @@ Li wok-an.        → She is working.         (present + progressive)
 | Modal | AFI | English | Example |
 |-------|-----|---------|---------|
 | **kan** | /kan/ | can / to be able to | Yu kan si. → You can see. |
-| **mas** | /mas/ | must / to have to | Wi mas wok. → We must work. |
+| **mas** | /mas/ | must / to have to | Wi mas werka. → We must work. |
 | **wan** | /wan/ | to want to | Mi wan kom. → I want to come. |
 
-**Modal + main verb:** Modal verb takes tense. Main verb is bare root (no suffix):
+**Modal + main verb:** the modal takes the tense; the main verb stays in its dictionary (citation) form, with no tense suffix (R19, R20):
 
 ```
-Mi kan si la film.     → I can see the film.       (kan takes -a)
+Mi kan si la film.     → I can see the film.       (present: kan)
 Mi kan-edo si la film.  → I could see the film.    (kan takes -edo)
 Li wan kom.            → She wants to come.        (wan takes -a)
-De mas wok.            → They must work.            (mas takes -a)
+De mas werka.          → They must work.
 ```
 
 ---
@@ -1011,7 +1011,7 @@ Liv la siti-to!            → Live in the city!
 
 With emphasis:
 Yu mas si!                → You MUST see!
-Wi mas wok!                → We MUST work!
+Wi mas werka!              → We MUST work!
 ```
 
 ### 16.5 Conditional Sentences
@@ -1049,7 +1049,7 @@ Genitive + Locative:
 
 ```
 Mi kan si la film.              → I can see the film.
-Yu mas wok.                      → You must work.
+Yu mas werka.                    → You must work.
 Li wan kom.                      → She wants to come.
 Wi no kan liv la siti-to.        → We cannot live in the city.
 De mas no don dat.               → They must not do that.

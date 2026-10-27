@@ -52,7 +52,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **smol-tre** | /smol.tre/ | noun | bush | small + tree | La smol-tre hava frukta. |
 | **moring-watre** | /mo.ring.wa.tre/ | noun | dew | morning + water | La moring-watre es on la gras. |
 | **skai-drum** | /skai.drum/ | noun | thunder | sky + drum | La skai-drum es louda. |
-| **fai-flasha** | /fai.fla.sha/ | noun | lightning | fire + flash | La fai-flasha lait la skai. |
+| **fai-flasha** | /fai.fla.sha/ | noun | lightning | fire + flash | La fai-flasha laita la skai. |
 | **son-bloka** | /son.blo.ka/ | noun | eclipse | sun + block | La son-bloka maka darka dei. |
 | **biju-ston** | /bi.ju.ston/ | noun | gem | beautiful + stone | La biju-ston es dir. |
 | **folia** | /fo.lia/ | noun | leaf | loan (Latin) | La folia es grin in spring. |
@@ -71,7 +71,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **asha** | /a.sha/ | noun | ash | loan | La fai lev asha. |
 | **smoka** | /smo.ka/ | noun | smoke | loan | La fai maka smoka. |
 | **stim** | /stim/ | noun | steam | loan | La hota watre maka stim. |
-| **gas** | /gas/ | noun | gas | loan | La gas es lait. |
+| **gas** | /gas/ | noun | gas | loan | La gas es no-hevi. |
 | **sparka** | /spar.ka/ | noun | spark | loan | La fai starta wit un sparka. |
 
 ## Home & Daily Life
@@ -283,7 +283,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **lazi** | /la.zi/ | adj | lazy | loan | La lazi doga slipa ol dei. |
 | **jentel** | /jen.tel/ | adj | gentle | loan | Tuch la babi jentel. |
 | **polaita** | /po.lai.ta/ | adj | polite | loan | Es polaita tu la old-en. |
-| **wais** | /wais/ | adj | wise | loan | La wais olda man nof much. |
+| **wais** | /wais/ | adj | wise | loan | La wais olda man nofa much. |
 | **kalma** | /kal.ma/ | adj | calm | loan | Stei kalma in la storma. |
 | **douta** | /dau.ta/ | verb | to doubt | loan | Mi douta his stori. |
 | **trasta** | /tras.ta/ | verb | to trust | loan | Mi trasta mi fren-en. |
@@ -496,7 +496,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **flai-arm** | /flai.arm/ | noun | wing | fly + arm | La birda open la flai-arm. |
 | **animal-fut** | /a.ni.mal.fut/ | noun | paw | animal + foot | La kat lik la animal-fut. |
 | **animal-hair** | /a.ni.mal.her/ | noun | fur | animal + hair | La ber hava tik animal-hair. |
-| **bird-hair** | /bird.her/ | noun | feather | bird + hair | La bird-hair es softa and lait. |
+| **bird-hair** | /bird.her/ | noun | feather | bird + hair | La bird-hair es softa and laita. |
 | **bird-mous** | /bird.maus/ | noun | beak | bird + mouth | La birda pik wit la bird-mous. |
 | **fisha-skin** | /fis.ha.skin/ | noun | scale (fish) | fish + skin | La fish-skin shain in watre. |
 | **fisha-arm** | /fis.ha.ar/ | noun | fin | fish + arm | La fisha muv wit la fish-arm. |
@@ -1119,7 +1119,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **nof-giv** | /nof.giv/ | verb | to inform | know + give | Nof-giv mi wen yu arive. |
 | **agen-tal** | /a.gen.tal/ | verb | to remind | again + tell | Agen-tal mi tu bai bred. |
 | **sertin-mak** | /ser.tin.mak/ | verb | to confirm | certain + make | Sertin-mak la taim bifor yu go. |
-| **bak-tal** | /bak.tal/ | verb | to reply / respond | back + tell | She bak-tal mi leta fast. |
+| **bak-tal** | /bak.tal/ | verb | to reply / respond | back + tell | She bak-tal mi leter fast. |
 | **kwota** | /kwo.ta/ | verb/noun | to quote | loan | Li kwota la old wais wod. |
 
 ## Sound, Light, Motion Verbs, Number & Abstract States
@@ -1284,7 +1284,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **charja** | /char.ja/ | verb | to charge | loan | Charja yu fon at noit. |
 | **ol-send** | /ol.send/ | verb | to broadcast | all + send | La stashon ol-send la niu. |
 | **far-send** | /far.send/ | verb | to transmit | far + send | La tour far-send la signa. |
-| **grama** | /gra.ma/ | noun | gram | loan | La leta weit ten grama. |
+| **grama** | /gra.ma/ | noun | gram | loan | La leter weit ten grama. |
 | **seven-dei** | /se.ven.dei/ | noun | week | seven + day | Un seven-dei hav seven dei. |
 | **reita** | /rei.ta/ | noun | rate | loan | La rein fol at un fast reita. |
 
@@ -1294,7 +1294,7 @@ Integrated batches appear below, grouped by domain. Only words that pass the pho
 | **belonga** | /be.lon.ga/ | verb | to belong | loan | Dis buk belonga tu mi. |
 | **bringa** | /brin.ga/ | verb | to bring | loan | Bringa la fud tu la tabl. |
 | **go-tek** | /go.tek/ | verb | to fetch | go + take | Go-tek la niuspaper. |
-| **delivera** | /de.li.ve.ra/ | verb | to deliver | loan | Li delivera la leta. |
+| **delivera** | /de.li.ve.ra/ | verb | to deliver | loan | Li delivera la leter. |
 | **tugeter-tek** | /tu.ge.ter.tek/ | verb | to collect | together + take | Mi tugeter-tek old koin-en. |
 | **ol-giv** | /ol.giv/ | verb | to distribute | all + give | La help-po ol-giv la fud. |
 | **fri-giv** | /fri.giv/ | verb | to donate | free + give | De fri-giv muni tu la por. |

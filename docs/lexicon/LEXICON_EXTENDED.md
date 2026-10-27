@@ -179,7 +179,7 @@ These rules govern every word proposed in this document:
 | **masa** | /ma.sa/ | noun | mass (physics) | adapted loan | La masa of la Erda es biga. |
 | **momenta** | /mo.men.ta/ | noun | momentum | adapted loan | La momenta es masa × spida. |
 | **vibra** | /vi.bra/ | verb/noun | vibrate / vibration | adapted loan (+/a/) | La string vibra and maka sonja. |
-| **wava** | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) | Lait es un elektromagnetek wava. |
+| **wava** | /wa.va/ | noun | wave (physics) | adapted loan (+/a/) | Laita es un elektromagnetek wava. |
 | **magneta** | /mag.ne.ta/ | noun | magnet | international (+/a/) | La magneta atrak metal. |
 | **elektrika** | /e.lek.tri.ka/ | noun/adj | electricity / electric | adapted loan (+/a/) | La elektrika run la lamp. |
 | **elektron** | /e.lek.tron/ | noun | electron | adapted loan | La elektron orbit la atom. |
@@ -195,7 +195,7 @@ These rules govern every word proposed in this document:
 | **orbita** | /or.bi.ta/ | noun | orbit (noun) | adapted loan | La planite folo un orbita. |
 | **kometa** | /ko.me.ta/ | noun | comet | adapted loan (+/a/) | La kometa frai tru la skai. |
 | **asteroida** | /as.te.roi.da/ | noun | asteroid | adapted loan (+/a/) | Un asteroida hit la Erda. |
-| **blak-hol** | /blak.hol/ | noun | black hole | black + hole | La blak-hol absorb all lait. |
+| **blak-hol** | /blak.hol/ | noun | black hole | black + hole | La blak-hol absorb all laita. |
 | **far-si-tool** | /far.si.tul/ | noun | telescope | far + see + tool | Mi luk tru la far-si-tool. |
 | **star-grupa** | /star.gru.pa/ | noun | constellation | star + group (+/a/) | La star-grupa form un patarn. |
 | **son-sistam** | /son.sis.tam/ | noun | solar system | sun + system | Wi livi in la son-sistam. |
@@ -488,12 +488,11 @@ These words are used in Phase 5 compounds, existing corpus, or example sentences
 |------|-----|---------|---------|
 | **taim** | /taim/ | time | `ran-taim`, `somtaim`, `nau-taim` |
 | **wei** | /wei/ | way / path (abstract) | `motorwei`, directional idioms |
-| **art** | /art/ | art | `arta-hous`, `art-stail`, professions |
+| **arta** | /ar.ta/ | art | `arta-hous`, `art-stail`, professions |
 | **net** | /net/ | network | `brain-neta`, `nettwerk` already in Phase 4 but inconsistent spelling |
-| **sav** | /sav/ | save | `klauda-sava`, `data-sav` |
-| **tip** | /tip/ | type | `lifa-tipa` |
-| **stap** | /stap/ | step | idioms, instruction sequences |
-| **grup** | /grup/ | group | `star-grupa`, `muzika-grupa` |
+| **tipa** | /ti.pa/ | type | `lifa-tipa` |
+| **stapa** | /sta.pa/ | step | idioms, instruction sequences |
+| **grupa** | /gru.pa/ | group | `star-grupa`, `muzika-grupa` |
 | **bit** | /bit/ | bit (computing, binary) | `muzika-bita` uses different form to avoid collision |
 
 ---

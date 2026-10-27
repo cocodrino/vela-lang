@@ -1,405 +1,84 @@
-# 🌊 VELA — a language for everyone, designed by AI
+# VELA
 
-> *Logical, simple, and beautiful — read exactly as it's written, learnable in weeks, and owned by no nation.*
+An experimental constructed language whose design rules were proposed, argued and voted on by a committee of AI agents, with a human steering. The project is **archived**: this README says plainly what it produced, what it got right, and where it falls short.
 
-**VELA** is an international auxiliary language: a shared *second* language meant to be easy for **anyone** — a Spanish, English, Mandarin, Arabic or Hindi speaker alike — to read, say, and learn fast. Five vowels, one sound per letter, **zero irregular verbs**, and words built from small transparent roots (the Japanese idea). You read it exactly as you write it.
-
-What makes it unusual: **VELA is designed by a committee of AIs.** A *phonologist*, a *morphologist* and a *semanticist* — each an autonomous agent running on a **different** AI model — debate every rule, argue their case, and vote. A human steers and has the final word, but the reasoning happens in the open, between AIs. → **[How VELA is built](#how-vela-is-built--a-committee-of-ais)**
+Website: https://cocodrino.github.io/vela-lang/
 
 ---
 
-## 📚 Start here — read the books
+## What VELA is and what it is not
 
-Everything below is a self-contained web page: **no install, works on your phone.**
+**It is** a regularized, English-based language with phonetic spelling. One letter is one sound, verbs have no irregular forms, there is no grammatical gender, and many words are built by joining smaller ones (`lern-hous`, learn + house, "school").
 
-| Resource | What it is | Read |
-|----------|-----------|------|
-| 📘 **Learning VELA — Level 1** | Friendly 12-lesson course: from your first greeting to a basic conversation | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level1.html) · [source](books/Learning-VELA-Level1.html) |
-| 📗 **Learning VELA — Level 2** | Advanced 12-lesson course: aspect, modals, comparison, storytelling | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level2.html) · [source](books/Learning-VELA-Level2.html) |
-| 📙 **Learning VELA — Level 3** | Fluency 12-lesson course: relative clauses, causatives, word-building, poems &amp; stories | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level3.html) · [source](books/Learning-VELA-Level3.html) |
-| 📓 **Learning VELA — Level 4** | Mastery 12-lesson course: the impersonal *pipol* (VELA has no passive), reported speech, modality, contrast, argument &amp; debate | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level4.html) · [source](books/Learning-VELA-Level4.html) |
-| 🎓 **Learning VELA — Level 5** | C1/mastery 12-lesson course: word-craft, register, style, metaphor, verse &amp; translation | [Open](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level5.html) · [source](books/Learning-VELA-Level5.html) |
-| 📖 **VELA Dictionary (PDF)** | ~2,900 entries, both directions, printable | [Open](https://cocodrino.github.io/vela-lang/books/VELA-Dictionary.pdf) · [source](books/VELA-Dictionary.pdf) |
-| 📜 **The Universal Conlang** | Reference & manifesto — philosophy, sounds, grammar | [Open](https://cocodrino.github.io/vela-lang/books/VELA-The-Universal-Conlang.html) · [PDF](books/VELA-The-Universal-Conlang.pdf) |
+**It is** a record of an experiment: 21 design rounds in which AI agents in specialist roles (phonologist, morphologist, lexicographer, semanticist, aestheticist) wrote proposals and voted. Every dossier, proposal and vote is in [`vote/`](vote/).
 
-🌐 **Start here:** **https://cocodrino.github.io/vela-lang/**
+**It is not** a universal language. Most of the vocabulary is English respelled, so it is easiest for English and Romance-language speakers. An adversarial review estimated that around 70% of the root words are close to their English source; that figure was not independently re-checked. The sound inventory drops the hardest English sounds (`th`, `zh`, schwa) but keeps others, such as final `l`, `r`, `s`, that are hard for Mandarin speakers.
 
-> The `https://cocodrino.github.io/...` links work once GitHub Pages is enabled (Settings → Pages → *Deploy from a branch* → `main` / `/root`). Until then, open the `source` files locally.
+**It is not** proven to be learnable "in weeks". Nobody has learned it. There are no learners, no tests and no timing data.
 
----
+**It is not** better than the existing alternatives for real use. If you want an auxiliary language with people who speak it, look at [Esperanto](https://en.wikipedia.org/wiki/Esperanto) (since 1887, an active worldwide community). If you want one that draws its vocabulary from many language families instead of mostly one, look at [Globasa](https://www.frathwiki.com/Globasa) or [Lingwa de Planeta](https://en.wikipedia.org/wiki/Lingwa_de_planeta).
 
-## 🏛️ The Three Pillars of VELA
+## What exists
 
-**Every design decision in VELA is evaluated against these three pillars:**
+| Resource | Notes |
+|---|---|
+| [Courses, Levels 1–5](https://cocodrino.github.io/vela-lang/books/Learning-VELA-Level1.html) | 60 lessons. Written by AI, never tested with a learner. |
+| [Dictionary (PDF)](https://cocodrino.github.io/vela-lang/books/VELA-Dictionary.pdf) | 2,928 entries, generated from [`docs/lexicon/`](docs/lexicon/). |
+| [Reference book](https://cocodrino.github.io/vela-lang/books/VELA-The-Universal-Conlang.html) | Sounds and grammar overview. Its title predates this README. |
+| [`docs/grammar/GRAMMAR_COMPLETE.md`](docs/grammar/GRAMMAR_COMPLETE.md) | Full grammar. See the known issues below. |
+| [`vote/topics/consensus/fase5_consensus.md`](vote/topics/consensus/fase5_consensus.md) | The ratified rules, R1–R21. Where a rule and another document disagree, the rule is the canon. |
+| [`scripts/validate_phonology.py`](scripts/validate_phonology.py) | Checks the lexicon and the texts against the sound rules. |
 
-```
-╔═══════════════════════════════════════════════════╗
-║                   VELA                           ║
-║          LÓGICO  ·  SIMPLE  ·  BELLO            ║
-║                                                   ║
-║  LÓGICO   → If you know the rules,              ║
-║              you can understand any sentence       ║
-║                                                   ║
-║  SIMPLE   → Zero irregular verbs.                 ║
-║              One suffix = one meaning.            ║
-║              No hidden exceptions.                ║
-║                                                   ║
-║  BELLO    → A language people want to speak,     ║
-║              not just one they have to.           ║
-║              Melodic. Musical. Pleasant.           ║
-╚═══════════════════════════════════════════════════╝
-```
+## The language in brief
 
-These three words — **lógico, simple, bello** — are the filter through which every VELA design decision passes. Not one of them is optional.
+- 5 vowels (a e i o u), 20 consonants, one sound per letter.
+- A word ends in a vowel or in a single `n`, `m`, `l`, `r`, `s`. A closed list of short grammar words (`if`, `at`, `wit`, `of`…) is the exception.
+- Stress always falls on the second-to-last syllable.
+- Word order is subject, verb, object.
+- The dictionary form of a verb is its present: `maka` "make, makes". Past and future add a suffix to the short root: `mak-edo` "made", `mak-wil` "will make". "To be" works the same way: `es`, `es-edo`, `es-wil`.
+- Plural `-n` / `-en`, possessive `-se`, location `-to`, professions `-po`.
+- Adjectives have one form as separate words (`un reda bol`, `La bol es reda`). Inside a compound they use the short root (`red-hous`), the way English tells a greenhouse from a green house.
 
----
+## How the committee worked, honestly
 
-## What is VELA?
+- Rounds R1–R17 were configured to use agents on other models (Kimi, DeepSeek, GLM; see `vote/docs/PROCESS.md`). In the largest of them, three agents covered the five roles (`fase5_consensus.md`).
+- Rounds R18–R21 used five instances of a single model (Claude). The earlier claim that every specialist runs on a different model is not true for those rounds.
+- The committee mostly ratified the options the dossier presented. In R21 the dossier listed only some candidate forms; a second round was held after the owner asked about an option it had left out, and the result changed.
+- Several real errors were not caught by the committee. A Reddit reader found that the old past suffix `-ed` broke the word-ending rule and that "no irregular verbs" sat next to an irregular verb. Both were fixed in R21.
 
-**VELA** is an international auxiliary language — designed not as a native tongue, but as a second language that anyone can learn quickly and speak beautifully.
+## Known issues
 
-Unlike **Esperanto** (which solved grammatical regularity but sounds foreign to everyone) or **English** (which conquered the world despite having 200+ sounds, 200+ irregular verbs, and chaotic spelling), VELA was built with a different thesis:
+These are open, measured on the current repo.
 
-> *"A language can be rigorously simple without sounding like a machine. Beauty is not a luxury — it is what makes people want to speak a language."*
+- **196 compound words end in a consonant the sound rules forbid** (for example `moring-fud`). The rule "a hyphen joins the short root" and the rule about word endings contradict each other at the end of a compound. Fixing it is a canon decision that was never made.
+- **Two words have no settled form:** `net` (network) and `bit` (computing). The committee rejected merging them with `neta` (fishing net) and `bita` (bitter) but did not choose replacements.
+- **The validator fails** on the 198 issues above (`FAIL — 198 error(s)`). Until this cleanup it reported "0 errors" because every dictionary entry was treated as legal by definition. That bug is fixed; the errors it now shows were always there.
+- **The grammar document disagrees with itself and with the texts in places.** For example, the yes/no question particle `q` it describes is never used in any text or lesson.
+- **Many words in the stories and courses are English words that never entered the dictionary** (`make`, `walk`, `quiet`…). The validator lists them as notes.
+- **`web-sample/` and the text-to-speech dictionary** still use the pre-R21 past suffix `-ed`.
 
-VELA takes from each language what it does best:
-- From **English** → its recognisable global vocabulary
-- From **Japanese** → its transparent word-compounding system
-- From **Esperanto** → its complete grammatical regularity
-- From **phonetic science** → a minimal, universal sound system
-
----
-
-## ⚖️ The VELA Decision Framework
-
-**Every design decision in VELA must answer one question first:**
-
-> *"What is the most VELA thing to do here?"*
-
-This means: when choosing between competing solutions, always prefer the one that best reflects VELA's three pillars.
-
-### The Hierarchy
-
-```
-1. LÓGICO (Logical)
-   → Can you explain the rule in one sentence?
-   → Does knowing the rule let you understand any sentence?
-   → Is there a pattern that covers all cases?
-
-2. SIMPLE (Simple)
-   → If a preposition can do the job, don't add a suffix
-   → If word order can express it, don't add morphology
-   → If one rule can cover it, don't add exceptions
-   → One morpheme = one meaning. Always.
-
-3. BELLO (Beautiful)
-   → Phonotactic rules exist for euphony
-   → Pitch accent exists for musicality
-   → Word choices follow phonaesthetic principles
-   → A language people want to speak, not just have to
-
-4. ACCESSIBILITY
-   → The language is easiest for English speakers
-   → And learnable by anyone else in a short time
-   → This is intentional — English is the global bridge language
-```
-
-### Vocabulary Source Rules
-
-When choosing a word, apply these rules **in order**:
-
-```
-RULE 1: If a Latin/international word is recognizable for BOTH
-        English speakers AND Romance language speakers
-        → USE THE LATIN WORD
-
-RULE 2: If the Latin word is NOT recognizable for either group
-        → Use the English word (or simplest phonetic option)
-
-RULE 3: If English word and Latin word are equally valid
-        → Prefer the shorter, simpler option
-
-RULE 4: NEVER choose a word just because it is "English"
-        NEVER choose a word just because it is "Latin"
-
-RULE 5: VELA's identity is NOT "Esperanto reborn"
-        nor "English with regular spelling"
-        → It is a modern, beautiful, neutral bridge language
-```
-
-### What This Means in Practice
-
-| Situation | Decision |
-|-----------|----------|
-| English and Latin word are both clear | Prefer Latin |
-| English word is clear, Latin is obscure | Use English |
-| Both are unclear or invented | Use shortest/phonetically simplest |
-| Neither works well | Create a new VELA compound |
-
-### Compound Over Complex — The Japanese Principle
-
-When a concept can be expressed with two short, simple roots → USE THE COMPOUND.
-
-```
-GOOD:   sik-hous   (you understand it instantly: "sick-house" = hospital)
-GOOD:   son-lait   (you understand it instantly: "sun-light" = sunshine)
-BAD:    polise     (opaque — requires memorization)
-```
-
-**Exceptions:** The 30 most frequent words (mi, yu, li, wi, de, la, un, es, si, go...) are short and memorized naturally. No need to compound them.
-
----
-
-**The goal:** An anglophone feels at home. A non-anglophone feels welcomed. Nobody feels like they're learning a colonial language.
-
-```
-I.   Only 5 vowels. Every sound has one letter. Every letter has one sound.
-
-II.  Zero irregular verbs. Root + -edo = past. Root + -wil = future.
-
-III. Complex words are built from transparent roots.
-     If you know the roots, you understand any compound word.
-
-IV.  Beauty is not optional — sounds are chosen for their aesthetic and emotional effect.
-
-V.   Everything you can deduce, you don't need to memorise.
-```
-
----
-
-## What VELA Is NOT
-
-- ❌ **Not simplified English** — VELA has its own phonology, grammar, and internal logic
-- ❌ **Not a minimalist language like Toki Pona** — VELA seeks full expressiveness, not radical minimalism
-- ❌ **Not a cultural language** — VELA belongs to everyone and no one
-- ❌ **Not phonetically chaotic** — VELA uses the **adapted Latin alphabet** (A-Z, no exotic script) for maximum accessibility
-
----
-
-## Core Design Features
-
-### Phonology — 5 Vowels, 20 Consonants
-
-| Vowels | a | e | i | o | u |
-|--------|---|---|---|---|---|
-
-No schwa. No reduced vowels. Every vowel is clear and distinct.
-
-| Consonants | p | t | k | b | d | g | m | n | f | v | s | z | sh | ch | j | h | l | r | w | y |
-|------------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-
-**No th, no schwa, no zh, no difficult clusters.** Every sound is easy for Spanish, English, Mandarin, Arabic, and Hindi speakers simultaneously.
-
-**Syllable structure: (C)V** — every syllable ends in a vowel. Smooth, flowing, musical.
-
-### Grammar — Zero Irregularities
-
-| Feature | English | Español | Esperanto | VELA |
-|---------|---------|---------|-----------|------|
-| Irregular verbs | 200+ | Many | **0** | **0** |
-| Grammatical gender | No | Yes | No | **No** |
-| Articles | 3 (a/an/the) | 3+ (el/la/los/las) | 1 (la) | **1 (la)** |
-| Phonetic spelling | No | Almost | Yes | **Yes** |
-| Transparent compounds | Partial | Partial | Yes | **Yes** |
-
-All verbs follow the same three rules:
-- **Present:** the dictionary word itself → *maka* (make / makes)
-- **Past:** short root + **-edo** → *mak-edo* (made)
-- **Future:** short root + **-wil** → *mak-wil* (will make)
-
-Every verb. Every time. Zero exceptions.
-
-### Word Building — The Heart of VELA
-
-VELA uses an **agglutinative** system where each morpheme has a unique, transparent meaning.
-
-```
-sik  + hous       = sik-hous      (hospital)      — "sick-house"
-son  + lait       = son-lait      (sunshine)      — "sun-light"
-far + tok + box   = far-tok-box   (telephone)     — "far-talk-box"
-wud + mak + po    = wud-mak-po    (carpenter)     — "wood-make-person"
-bred + mak + po   = bred-mak-po   (baker)         — "bread-make-person"
-strong + mak      = strong-mak    (to strengthen) — "strong-make"
-```
-
-**The principle: if you know the roots, you can understand any compound word in VELA.**
-
-VELA's **soft ceiling of ~200 atomic words** (Tier 0: 50 core + Tier 1: 150 open with Quality Gate) makes this sustainable. Unlike Esperanto, where learners memorize 900+ roots, VELA forces everything else into compounds. The derivational engine does the heavy lifting. See `vote/topics/consensus/ATOM_CEILING_consensus.md`.
-
-### Beauty — Intentional Phonaesthetics
-
-Phonetic research (phonaesthetics) guides every sound choice:
-- Open vowels (/a/, /e/, /o/) dominate in words for positive, warm concepts
-- Hard consonants for strength: battle, war, storm, force
-- **Pitch accent** instead of stress — like Japanese and Spanish — making VELA sound melodic rather than percussive
-
----
-
-## Example Phrases
-
-```
-Helo! Hai yu es?                         → Hello! How are you?
-Mi es guda, tanki.                       → I'm good, thanks.
-La sonja es veri nais.                   → The song is very nice.
-
-Mi hopa dat ol-person liv in pisi.       → I hope everyone can live in peace.
-Li es-edo un lern-po for tri-ten jir-en.  → She was a teacher for thirty years.
-Mi no wan go, bot mi mas.                → I don't want to go, but I must.
-```
-
----
-
-## VELA vs Other Languages
-
-| Feature | English | Español | Esperanto | VELA |
-|---------|---------|---------|-----------|------|
-| Vowel inventory | 14-20 | 5 | 6 | **5** |
-| Phonetic spelling | No ❌ | Almost | Yes ✅ | **Yes ✅** |
-| Verb irregularities | Many ❌ | Some | None ✅ | **None ✅** |
-| Grammatical gender | No | Yes ❌ | No | **No ✅** |
-| Articles | 3 (a/an/the) | 3+ | 1 | **1 (la/un)** |
-| Word compounding | Partial | Partial | Yes | **Fully transparent** |
-| Spoken globally | Yes (by force) | Yes | Niche | **Goal** |
-
----
-
-## Language Type
-
-VELA is a **moderately agglutinative, minimal-case language**:
-- **SVO word order** (universal and intuitive)
-- **Pitch accent** on the penultimate syllable
-- **No grammatical gender** — one pronoun `li` = he / she / it (and `de` = they)
-- **One article** (la = the)
-- **Agglutinative morphology** — prefixes and suffixes are clearly separable
-- **2-Case system** — Genitive (-se), Locative (-to). Nominative and Accusative: determined by word order.
-- **No tones** — pitch accent only, never lexical tone
-
-> **"One pronoun for he/she/it — isn't that confusing?"** Not at all — it's one of
-> the most common patterns on Earth. Spoken **Mandarin** (`tā`, ~1 billion
-> speakers), **Turkish** (`o`), **Persian** (`u`), **Indonesian** (`dia`),
-> **Tagalog** (`siya`) and **Finnish** (`hän`) all use a single gender-free
-> third-person pronoun. Context and the name you just said make it clear — and it
-> means you never have to gender anyone to speak. `li` is genderless *on purpose*.
-
-### The 2 Cases in Action
-
-| Case | Suffix | Example | Meaning |
-|------|--------|---------|---------|
-| Genitive | **-se** | la person-**se** hous | the person's house |
-| Locative | **-to** | Mi liv la siti-**to** | I live in the city |
-
-VELA uses the **minimal case system**: only mark what cannot be inferred from word order. Nominative and Accusative are determined by SVO position — no suffix needed. Genitive (-se) and Locative (-to) are the two cases that carry information word order alone cannot provide.
-
----
-
-## Project Structure
+## Repository layout
 
 ```
 vela-lang/
-├── README.md                   ← You are here
-├── INITIAL_RESEARCH.md        ← Original design document (bilingual ES/EN)
-├── KNOWLEDGE_BASE.md          ← Conlang creation methodology
-├── ROADMAP.md                 ← 7-stage development roadmap
-├── REFERENCES.md              ← Resources, tools, communities
+├── index.html                 landing page (GitHub Pages)
+├── books/                     courses, reference book, dictionary PDF
 ├── docs/
-│   ├── research/              ← Deep research (in progress)
-│   │   ├── 01-phonology.md    ← Sound systems & phonotactics
-│   │   ├── 02-writing-systems.md
-│   │   ├── 03-semantic-typology.md
-│   │   └── README.md          ← Index of research documents
-│   ├── phonology/
-│   ├── grammar/
-│   ├── lexicon/
-│   ├── writing/
-│   └── evolution/
-├── lexicon/
-│   └── vela_1000_words.json  ← Core vocabulary (pending)
-└── texts/
+│   ├── phonology/             sound rules
+│   ├── grammar/               grammar reference
+│   ├── lexicon/               the three source lexicons
+│   ├── dictionary/            generated dictionary and English index
+│   ├── texts/                 stories, poems, 100 phrases
+│   └── research/              background research
+├── vote/                      committee dossiers, proposals, votes, consensus
+├── scripts/                   validator, corpus migrator, dictionary generators
+└── ROADMAP.md                 project history and debts
 ```
 
----
-
-## How VELA is built — a committee of AIs
-
-**This is the part that makes VELA different: no single person invents it.**
-
-Every real decision — a new sound, a grammar rule, a word — is argued out by a **panel of AI specialists**, each playing a distinct role and each running on a **different AI model** (so they genuinely disagree, instead of one model agreeing with itself). They read the same brief, each writes a proposal, and they **vote**. A human — the language's architect — steers the questions and has the final say, but the linguistic reasoning is done in the open, by AIs, and every argument is saved.
-
-Think of it as a tiny standing committee of linguists that never sleeps, leaves a written record of every debate, and can be overruled by you at any time.
-
-### The Specialist Panel
-
-| Role | Question Asked | Model |
-|------|----------------|-------|
-| **Phonologist** | "Is this sound system universal, minimal, and melodic?" | kimi-k2.6:cloud |
-| **Morphologist** | "Is this the simplest possible rule? Does it create any irregularity?" | deepseek-v4-pro |
-| **Lexicographer** | "Is this word internationally recognisable? Is it the shortest option?" | glm-5.1:cloud |
-| **Semanticist** | "Does this meaning map cleanly across cultures?" | deepseek-v4-pro |
-| **Aestheticist** | "Is this beautiful to speak? Does it flow musically?" | kimi-k2.6:cloud |
-
-### How a Decision Works
-
-1. **Graphify Phase** — The project's knowledge graph is analysed to find contradictions, orphans, and structural gaps.
-2. **Prompt Phase** — Each specialist receives the same dossier: the proposed change, the current state, and the three pillars (LÓGICO · SIMPLE · BELLO).
-3. **Deliberation Phase** — Each specialist writes a proposal. All proposals are stored in `vote/topics/proposals/`.
-4. **Consensus Phase** — An orchestrator reads all proposals, tallies votes, and writes a consensus document to `vote/topics/consensus/`.
-5. **Apply Phase** — The approved changes are applied to source documents. Every change is logged in `vote/docs/CHANGE_LOG.md`.
-
-### Voting Rules
-
-- **Unanimous agreement** → Fast-track approval
-- **4/5 agreement** → Approved with minor adjustments
-- **3/5 or split** → Tie broken by the **Aestheticist** (beauty is VELA's tie-breaker)
-- **User override** → The language creator can override any decision at any time, but must state the reason
-
-### The User as Architect
-
-The AI agents propose. The AI votes. **But the user decides.**
-
-Every consensus is a recommendation, not a command. If a user says "no, I prefer X", that becomes the rule — and the log records both the agent consensus and the user override.
-
-### Complete History
-
-Every deliberation, every vote, every consensus, and every override is stored permanently in the `vote/` folder:
+## Running the checks
 
 ```
-vote/
-├── topics/
-│   ├── proposals/          ← Each specialist's full argument
-│   ├── consensus/          ← Final approved decisions
-│   └── discussion_plan.md  ← Queue of future topics
-├── docs/
-│   ├── CHANGE_LOG.md       ← Dated, cumulative record of every change
-│   ├── VOTING_PROCESS.md   ← Full rulebook
-│   └── SKILL.md            ← Agent prompt templates
-└── SUMMARY.md              ← Executive summary of all approved changes
+python3 scripts/validate_phonology.py          # lexicon + texts
+python3 scripts/generate_dictionary.py         # rebuild docs/dictionary/
+python3 scripts/generate_dictionary_pdf.py     # rebuild the PDF (needs typst)
 ```
-
-Nothing is lost. Nothing is hidden. Every decision is traceable.
-
----
-
-
-## Why VELA Exists
-
-Esperanto was the last great attempt at a universal auxiliary language. It works — millions of speakers, simple grammar, regular verbs. But it never broke through because it sounds too foreign to every language community.
-
-English succeeded by empire and economy, not beauty. It is spoken globally because it had to be, not because it is elegant.
-
-**VELA is the third attempt: a language that is as regular as Esperanto, as transparent as Japanese compounding, as learnable as the best phonetic systems, and — above all — beautiful to speak.**
-
----
-
-## The Manifiesto
-
-We believe language learning should not require memorizing exceptions.
-
-We believe communication should not sacrifice beauty.
-
-We believe a language can belong to everyone precisely because it belongs to no one.
-
-**VELA is not a replacement for native languages. It is a bridge between them.**
-
----
-
-*VELA — for when the world needs to talk.*
